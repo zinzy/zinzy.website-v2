@@ -3,9 +3,9 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"../zinzy.website/_sass/_normalize.scss",
-		"../zinzy.website/_sass/_code.scss",
-		"../zinzy.website/_sass/_style.scss"
+		"_sass/_normalize.scss",
+		"_sass/_code.scss",
+		"_sass/_style.scss"
 	],
 	"sourcesContent": [
 		"@import \"../_sass/normalize\";\n@import \"../_sass/code\";\n@import \"../_sass/style\";\n",

@@ -1,9 +1,7 @@
 ---
+title: "Amsterdam"
+excerpt: "I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been here since late 2015."
 ---
-
-# Amsterdam
-I live in Indische Buurt, the finest neighborhood in Amsterdam. I've been here since late 2015.
-
 ## Favorites 
 
 ### Shops
