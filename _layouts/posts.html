@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section>
+  {% for post in site.posts %}
+  <article class="post h-entry">
+      <a href="{{ post.url }}"><time class="dt-published">{{ post.date | date: "%B %-d, %Y" }}</time></a>
+      <div class="p-content">
+        {{post.content}}
+      </div> 
+  </article>
+{% endfor %}
+</section> 
+ 
