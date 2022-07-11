@@ -1,8 +1,8 @@
 ---
 layout: index
-title: Home
-id: home
+title: Index
+id: index
 permalink: /
 ---
 
-Hello, I'm [[about|Zinzy Waleson]], an Indieweb enthusiast, queer facilitator, and designer from [[Amsterdam]]. This is my personal website, a place where I come to link and think. Thanks for stopping by, I hope you enjoy your time here.
+Hello, I'm [[about|Zinzy Waleson]] from [[Amsterdam]]. You've reached my personal website, where I come to link and think. This space is an incomplete, unironic record of soft stances, lived experiences, and critical notes on the things I hold dear.
