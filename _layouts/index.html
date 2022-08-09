@@ -3,32 +3,15 @@ layout: default
 ---
 {{content}}
 
-
-
 <section>
-    <h2>Saved links</h2>
-    {% assign newlinks = site.links | sort: 'date' | reverse %}
-    {% for link in newlinks limit: 3 %}
-    <p>
-     <a href="{{ link.like-of }}" target="_blank">{{ link.title }}</a>
-     <small>{{ link.like-of | remove:'https://' | remove:'www.' | split:'/' | first }}</small>
-   </p>
-    {% endfor %}
-    <a href="/links" class="btn">View links archive</a>
-</section> 
-
-<section>
-    <h2>Recently</h2>
     {% for post in site.posts limit: 1 %}
-        <article class="">
-            <a href="{{ post.url }}"><time class="dt-published">{{ post.date | date: "%B %-d, %Y" }}</time></a>
-            <p>{{post.excerpt}}</p>
-        </article>
-    {% endfor %}
-    <a href="/posts" class="btn">See all posts</a>
-</section> 
-
-<section>
-    <h2>Digital garden</h2>
-    <p>I keep a collection of undated notes in a personal wiki of sorts. Whenever I learn something new about a topic, I add it to its note. The garden works as a scavenger hunt of sorts. To get started, check out what I'm up to <a href="/now">now</a>.</p>
-</section> 
+    <article class="post h-entry">
+        <h1>{{post.title}}</h1>
+        <a href="{{ post.url }}"><time class="dt-published">{{ post.date | date: "%B %-d, %Y" }}</time></a>
+        <div class="p-content">
+          {{post.content}}
+        </div> 
+    </article>
+  {% endfor %}
+  </section> 
+   

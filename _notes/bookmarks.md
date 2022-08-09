@@ -13,6 +13,7 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Aral Balkan](https://ar.al)
 - [Barry Frost](https://barryfrost.com/)
 - [Bastian Allgeier](https://bastianallgeier.com)
+- [Becca's Inventory](https://www.beccasinventory.com/)
 - [Ben Borgers](https://benborgers.com/)
 - [Brian Gilham](https://briangilham.com/)
 - [Brian Lovin](https://brianlovin.com/)

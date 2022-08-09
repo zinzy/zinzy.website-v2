@@ -5,13 +5,13 @@ layout: default
 {{content}}
 
 <section>
-  {% assign days = 
+  {% assign months = 
     site.links | group_by_exp:"post", "post.date | date: '%B %Y'" | sort: 'date' | reverse %}
     
-    {% for day in days %}
+    {% for month in months %}
     <article class="item">
-      <h3>{{ day.name }}</h3>
-      {% for item in day.items %}
+      <h3>{{ month.name }}</h3>
+      {% for item in month.items %}
         <p>
          <a href="{{ item.like-of }}" target="_blank">{{ item.title }}</a>
          <small>{{ item.like-of | remove:'https://' | remove:'www.' | split:'/' | first }}</small>

@@ -3,4 +3,6 @@ title: "2015 in music"
 category: "Music"
 excerpt: "In a turbulent year of changes, not-quite-adult decisions, and lots of dancing, these are the songs that best fit the score."
 ---
+In many ways, 2015 was a transformative year for me. I dropped out of seminary because, frankly, I felt too gay. I was working on a novel, I was tutoring, and I was slowly, very slowly, growing out of a 6-year relationship. Much of my soundtrack of 2015 is made up of party songs that played at the bars I used to frequent while I was living in Haarlem.
+
 <iframe src="https://open.spotify.com/embed/playlist/1Vpcg4LG3JCRotlBTvfn5w?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>

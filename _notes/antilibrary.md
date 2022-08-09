@@ -19,3 +19,11 @@ These are books, articles, films, podcasts, and other media artefacts that I wou
 - 'The Beautiful Risk of Education', Biesta
 - 'How To Make A Slave'
 - 'The Hebrew Bible: Feminist and Intersectional Perspectives'
+- _Wormmaan_, Mariken Heitman
+- _Mijn strijd_, Karl Ove Knausgård
+- Annie Ernaux
+- _Africa is not a country_, 
+
+## Films
+- _Nederland op film_
+- _Mass_

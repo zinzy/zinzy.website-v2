@@ -4,16 +4,19 @@
 # Library
 
 ## Films
-- [x] [Ali & Ava](/ali-and-ava)
-- [x] The Cell
-- [x] Silence of the Lambs 
+- [Ali & Ava](/ali-and-ava) (9)
+- The Cell
+- Silence of the Lambs (10)
+- Dit ben ik niet (7)
+- Taipei Suicide Story (8)
+- Mass (9)
 
 ## Series
-- [x] The Office (US)
-- [x] Parks & Recreation
-- [x] Sex and the City
-- [x] The Sopranos
-- [ ] 
+- The Office (US)
+- Parks & Recreation
+- Sex and the City
+- The Sopranos
+
 
 ## Books
 - No One Is Talking About This

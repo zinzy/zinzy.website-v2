@@ -4,8 +4,7 @@
 # Changelog
 This is a file containing time-bound updates on this website. It's a collection of untitled notes, likes, and such. Hopefully, once I've learnt more about Python, I can actually generate a list of posts.
 
-#### Thursday June 23, 2022
-- **06:48:** someone referred to true crime fans as murder muffins [a few weeks ago on Twitter](https://twitter.com/randyshart/status/1533898248674750464), and I can't get over the word
+ 
 
 #### Sunday June 19, 2022
 - **11:40:** I've combined my GTD trigger list and projects list for one big hierarchical overview of my areas of responsibility. I'm curious to see if this'll give me peace of mind about "where things belong".
@@ -14,7 +13,7 @@ This is a file containing time-bound updates on this website. It's a collection 
 - **19:57:** I finished reading the truly magnificent _Hoe Overleven We?_ by Francine Oomen. 
 
 #### Wednesday June 1, 2022
-- **11:46:** I'm collecting funny [commit messages](commit-messages)
+- **11:46:** I'm collecting funny [commit messages](commit%20messages.md)
 
 #### Tuesday May 31, 2022
 - **11:34:** today and tomorrow I'm attending [UXinsight Festival 2022](uxinsight-festival-2022) and keeping notes
