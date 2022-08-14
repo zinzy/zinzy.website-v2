@@ -1,15 +1,6 @@
----
-permalink: 404.html
-layout: default
-title: "404"
-id: "not-found"
----
-
-<p>404: whatever I or someone else promised you would be here is no longer here.</p>
-
-
-<ul>
+I"5<ul>
   <li>Making things at <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a></li>
-  <li>Available via <a href="zinzy@pm.me">email</a></li>
+  <li>Available via <a href="mailto:zinzy@pm.me">email</a></li>
   <li><a href="https://nl.linkedin.com/in/zinzy" target="_blank" rel="noopener noreferrer">LinkedIn</a>, also</li>
 </ul>
+:ET

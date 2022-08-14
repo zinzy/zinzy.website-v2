@@ -1,7 +1,9 @@
 ---
-layout: index
+layout: default
 title: Index
 id: index
 permalink: /
 ---
-Hello, I'm [[about|Zinzy Waleson]] from [[Amsterdam]]. You've reached my [[personal website]], where I come to link and think. This space is an incomplete, unironic record of soft stances, lived experiences, and critical notes on the things I hold dear. You'll find that when I'm not at [[work]] managing UX and Product, I enjoy a wide variety of [[hobbies]].
+- Making things at <a href="https://www.leeruniek.nl" target="_blank" rel="noopener noreferrer">Leeruniek</a>
+- Available via <a href="mailto:zinzy@pm.me">email</a>
+- <a href="https://nl.linkedin.com/in/zinzy" target="_blank" rel="noopener noreferrer">LinkedIn</a>, also
