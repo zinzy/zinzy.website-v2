@@ -1,0 +1,134 @@
+I"l,<h3 id="welcome">Welcome!</h3>
+
+<p>This is your <a class="internal-link" href="/about">about</a> first note. You’ll find it in the <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes"><code class="language-plaintext highlighter-rouge">notes/</code></a> directory.</p>
+
+<h3 id="link-syntax">Link syntax</h3>
+
+<p>To link to another note, you can use multiple syntaxes. The following four use the “double-bracket” notation (<a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax">view the Markdown source file</a> to see the underlying syntax).</p>
+
+<ul>
+  <li>Using the note title: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  a note about cats  <span class="invalid-link-brackets">]]</span></span></li>
+  <li>Using the note’s filename: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  cats  <span class="invalid-link-brackets">]]</span></span></li>
+  <li>Using the note’s title, with a label: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  A note about cats|link to the note about cats using the note title  <span class="invalid-link-brackets">]]</span></span></li>
+  <li>Using the note’s filename, with a label: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  cats|link to the note about cats using the note’s filename  <span class="invalid-link-brackets">]]</span></span></li>
+</ul>
+
+<p>You can organize notes in subdirectories and link them normally. For example, the links above all point to the <code class="language-plaintext highlighter-rouge">_notes/animals/cats.md</code> file. Here’s another example: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  tigers  <span class="invalid-link-brackets">]]</span></span>.</p>
+
+<p>Non-latin languages are supported too: <a class="internal-link" href="/%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%82%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AD">안녕하세요</a>.</p>
+
+<p>Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the <code class="language-plaintext highlighter-rouge">your-first-note.md</code> file can be linked to with <a class="internal-link" href="/your-first-note">your first note</a> or <a class="internal-link" href="/your-first-note">your-first-note</a>, or even <a class="internal-link" href="/your-first-note">yOuR-FiRsT Note</a>.</p>
+
+<p>In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  there is no note that matches this link  <span class="invalid-link-brackets">]]</span></span>.</p>
+
+<p>Alternatively, you can use regular <a href="https://www.markdownguide.org/getting-started/">Markdown syntax</a> for links, with a relative link to the other note, like this: <a href="/cats" class="internal-link">this is a Markdown link to the note about cats</a>. Don’t forget to use the <code class="language-plaintext highlighter-rouge">.internal-link</code> class to make sure the link is styled as an internal link (without the little arrow).</p>
+
+<p>Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.</p>
+
+<p>Of course, you can also link to external websites, like this: <a href="https://wikipedia.org/">this is a link to Wikipedia</a>. Again, you can use plain HTML if you prefer. Footnotes are also supported and will be treated like internal links.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> You can point to other notes in your footnotes.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<h3 id="tweet-embedding">Tweet embedding</h3>
+
+<p>Note: This behavior is disabled by default for privacy reasons. See “Site configuration” section below to enable it.</p>
+
+<p>You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.</p>
+
+<p>https://twitter.com/jack/status/20</p>
+
+<h3 id="media-embedding">Media embedding</h3>
+
+<p>You may embed media files within a note using HTML5 media tags. Here’s an example for an audio file:</p>
+
+<p>“Jazzy Frenchy” by Benjamin Tissot from bensound.com</p>
+<audio controls="">
+  <source src="/assets/jazzyfrenchy.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<h3 id="site-configuration">Site configuration</h3>
+
+<p>Some behavior is configurable by tweaking the <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">use_html_extension</code></strong>: if you use a static host that doesn’t support URLs that don’t end with <code class="language-plaintext highlighter-rouge">.html</code> (such as Neocities), try changing the <code class="language-plaintext highlighter-rouge">use_html_extension</code> value to <code class="language-plaintext highlighter-rouge">true</code> in the <code class="language-plaintext highlighter-rouge">_config.yml</code> file and restart the Jekyll server (or re-build the site). This adds a <code class="language-plaintext highlighter-rouge">.html</code> extension to note URLs and may resolve issues with links. If you’re still having trouble, I recommend using Netlify to host your digital garden: it’s free, easy to use, and fully supports this template’s features out of the box.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">open_external_links_in_new_tab</code></strong>: when set to <code class="language-plaintext highlighter-rouge">true</code>, this makes external links open in new tabs. Set to <code class="language-plaintext highlighter-rouge">false</code> to open all links in the current tab.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">embed_tweets</code></strong>: when set to <code class="language-plaintext highlighter-rouge">true</code>, tweet URLs on their own lines will be replaced with a Twitter embed. Default value is <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<h3 id="automatic-bi-directional-links">Automatic bi-directional links</h3>
+
+<p>Notice in the “Notes mentioning this note” section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.</p>
+
+<h3 id="link-previews">Link previews</h3>
+
+<p>If you’re on a device with mouse support, try hovering your mouse on internal links to preview the notes: <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  a note about cats  <span class="invalid-link-brackets">]]</span></span>.</p>
+
+<p>Links that have been previewed will be cached to avoid redundant requests.</p>
+
+<h3 id="images-and-other-markdown-goodies">Images and other Markdown goodies</h3>
+
+<p>Finally, because you have the full power of Markdown in this template, you can use regular Markdown syntax for various formatting options.</p>
+
+<p>Lists work as expected:</p>
+
+<ul>
+  <li>List element A</li>
+  <li>List element B</li>
+  <li>List element C</li>
+</ul>
+
+<ol>
+  <li>List element</li>
+  <li>List element</li>
+  <li>List element</li>
+</ol>
+
+<p>If you’d like to quote other people, consider using quote blocks:</p>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet</p>
+</blockquote>
+
+<p>And of course, images look great:</p>
+
+<p><img src="/assets/image.jpg" /></p>
+
+<p>You can also ==highlight some content== by wrapping it with <code class="language-plaintext highlighter-rouge">==</code>.</p>
+
+<p>Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.</p>
+
+<h3 id="code-syntax-highlighting">Code syntax highlighting</h3>
+
+<p>You can add code blocks with full syntax color highlighting by wrapping code snippet in triple backticks and specifying the type of the code (<code class="language-plaintext highlighter-rouge">js</code>, <code class="language-plaintext highlighter-rouge">rb</code>, <code class="language-plaintext highlighter-rouge">sh</code>, etc.):</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Here's a bit of JavaScript:</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">hello!</span><span class="dl">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-rb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># And now some Ruby</span>
+<span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">bar</span><span class="p">)</span>
+  <span class="s2">"baz"</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat</span> /dev/urandom | <span class="nb">grep</span> <span class="s2">"the answer to life"</span> <span class="c"># shell scripts look nice too</span>
+</code></pre></div></div>
+
+<h3 id="next-steps">Next steps</h3>
+
+<p>This digital garden template is free, open-source, and <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">available on GitHub here</a>.</p>
+
+<p>The easiest way to build your own digital garden based on this template is to read this <a href="https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll">step-by-step guide explaining how to set this up from scratch</a>.</p>
+
+<p>Go forth, have fun, and learn new something every day! ✌️</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is a footnote. For more information about using footnotes, check out the <a href="https://www.markdownguide.org/extended-syntax/#footnotes">Markdown Guide</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>This is another footnote that links to the note about <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  cats  <span class="invalid-link-brackets">]]</span></span>. You may also point to <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  notes that do not exist  <span class="invalid-link-brackets">]]</span></span> if you wish. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
