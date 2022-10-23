@@ -1,11 +1,11 @@
-$color-primary: hsl(0, 0%, 10%);
-$color-text: hsl(0, 0%, 20%);
-$color-subtext: hsl(0, 0%, 30%);
+$color-primary: #1F2D3D;
+$color-text:  #3C4858;
+$color-subtext: #8492A6;
+$color-link: #FF5216;
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
-$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 
   body, html {
@@ -14,14 +14,11 @@ $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
   
 body {
   box-sizing: content-box;
-  font-family: $font-family;
-  margin: 0 auto;
-  line-height: 1.7;
-  padding: 4vh 6vw;
+  font-family: $font-family; 
+  line-height: 1.7; 
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1rem;
-  max-width: 63em;
+  font-size: 1rem; 
 
   @media (min-width: 820px) {
     // font-size: 1.2rem;
@@ -37,17 +34,14 @@ time {
 footer {
   margin: 2em 0;
   font-size: 0.8em;
-  color: mix($color-text, white, 80%);
+  color: $color-subtext;
   padding-top: 1em;
+  a { 
+    color: $color-subtext;
+    border: 0;
+  }
 }
-
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 75vh;
-  border-radius: $border-radius;
-}
+ 
 
 blockquote {
   padding: 1.5em;
@@ -75,6 +69,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: $color-primary;
   line-height: 1.3;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -83,12 +78,11 @@ h6 {
 a {
   transition: background 300ms;
   padding: 0 0.1em;
-  text-decoration: none;
-  border-bottom: 1px solid $color-border;
-  color: $color-primary;
+  text-decoration: underline;
+  color: $color-link;
+  font-weight: 500;
   &:hover {
-    color: black !important;
-    background: #fffaf1;
+    background: rgba($color-link,0.1);
   }
   &:after {
     position: relative;
@@ -167,37 +161,29 @@ code {
 // 
 
 body {
+  padding: 5%;
   @media screen and (min-width:992px) {
     max-width: 700px;
-    margin: 100px auto;
   }
 }
 
 main {
   padding: 50px 0;
 }
-
-
-h1 {
-  font-size: 100%;
-  margin:0 0 5px 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
+ 
 
 .portrait { 
   padding-right: 50px;
-  img {
-
-  border-radius: 50%;
-  width: 100px;
+  a {
+    text-decoration: none;
+    border: 0;
+    &:hover {
+      background: transparent;
+    }
+  }
+  img { 
+    border-radius: 10%;
+    width: 150px;
   }
 }
 
-
-time {
-  color: rgba(0,0,0,0.5)
-}

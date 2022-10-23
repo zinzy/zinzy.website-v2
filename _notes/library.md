@@ -6,10 +6,10 @@ This page contains a growing list of things I’ve watched, read, or listened to
 
 ### Films
 
-- Ali & Ava
+- Ali & Ava (9,5)
 - Boiling Point (9)
-- I, Daniel Blake
-- Lake Mungo
+- I, Daniel Blake (8)
+- Lake Mungo (6,5)
 
 ### Series
 
