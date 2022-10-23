@@ -184,6 +184,10 @@ h1 {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
 .portrait { 
   padding-right: 50px;
   img {
@@ -191,4 +195,9 @@ h1 {
   border-radius: 50%;
   width: 100px;
   }
+}
+
+
+time {
+  color: rgba(0,0,0,0.5)
 }
