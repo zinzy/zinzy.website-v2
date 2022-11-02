@@ -9,4 +9,4 @@ This here is a quiet street of the Internet where I come to link and think. You'
 - Feel free to learn more [[about]] me
 - Check out what I’m up to [[now]]
 - If you'd like to get in touch with me, visit [[hello]]
-- Take a look at my [[bookmarks]]
+- Continue browsing via [[collections]]

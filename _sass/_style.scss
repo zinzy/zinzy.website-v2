@@ -99,8 +99,8 @@ a {
 }
 
 *:focus {
-  background: #ffe8bc !important;
-  color: black !important;
+  // background: #ffe8bc !important;
+  // color: black !important;
 }
 
 nav {
@@ -161,9 +161,10 @@ code {
 // 
 
 body {
-  padding: 5%;
+  padding: 20px;
   @media screen and (min-width:992px) {
     max-width: 700px;
+    margin: 100px auto;
   }
 }
 
@@ -184,6 +185,23 @@ main {
   img { 
     border-radius: 10%;
     width: 150px;
+  }
+}
+
+header {
+  h1, p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.6;
+  }
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    padding: 0;
+    &:after {
+      content: ""
+    }
   }
 }
 

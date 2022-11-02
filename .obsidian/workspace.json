@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "eddbaa811987c542",
+    "type": "split",
+    "children": [
+      {
+        "id": "787b0e0096aa66de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d965d679ff762f91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e9992cad7cb30cde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/music.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aa5228efd4c6d6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/collections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d39de5e905af9e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4ff6fea3f3032dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5fa4c8b1c897c0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16cfd526d46df48d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "acd33a237eed005f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a59d357d35604381",
+    "type": "split",
+    "children": [
+      {
+        "id": "32f3243b2574c5f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f07dc4e29e11113",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_notes/music.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb84df0be15d0838",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_notes/music.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a362f5f12f543d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "084299b929938cb7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_notes/music.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e9992cad7cb30cde",
+  "lastOpenFiles": [
+    "_notes/collections.md",
+    "_notes/index.md",
+    "_notes/bookmarks.md",
+    "_notes/music.md",
+    "_notes/habits.md",
+    "_notes/library.md",
+    "_notes/2022-week-42.md",
+    "_notes/about.md"
+  ]
+}
