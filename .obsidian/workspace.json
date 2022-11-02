@@ -21,7 +21,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/music.md",
+                "file": "_notes/about.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f148bc29891e4ba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6227379405806ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/IndieWeb.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/music.md",
+                "file": "_notes/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/music.md",
+                "file": "_notes/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/music.md"
+                "file": "_notes/index.md"
               }
             }
           }
@@ -157,15 +181,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9992cad7cb30cde",
+  "active": "f148bc29891e4ba8",
   "lastOpenFiles": [
-    "_notes/collections.md",
+    "_notes/about.md",
     "_notes/index.md",
-    "_notes/bookmarks.md",
+    "_notes/tools for people at work.md",
+    "_notes/IndieWeb.md",
     "_notes/music.md",
+    "_notes/collections.md",
+    "_notes/bookmarks.md",
     "_notes/habits.md",
     "_notes/library.md",
-    "_notes/2022-week-42.md",
-    "_notes/about.md"
+    "_notes/2022-week-42.md"
   ]
 }
