@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/about.md",
+                "file": "_notes/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,11 +181,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f148bc29891e4ba8",
+  "active": "e9992cad7cb30cde",
   "lastOpenFiles": [
+    "_notes/tools for people at work.md",
     "_notes/about.md",
     "_notes/index.md",
-    "_notes/tools for people at work.md",
     "_notes/IndieWeb.md",
     "_notes/music.md",
     "_notes/collections.md",
