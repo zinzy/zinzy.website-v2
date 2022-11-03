@@ -4,11 +4,7 @@ layout: default
 
 <article class="note">
   <header>
-    <h2>{{ page.title }}</h2>
-    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
-      Last updated {{ page.last_modified_at | timeago }}
-      {% endif %}
-    </time>
+    <h2>{{ page.title }}</h2> 
   </header>
 
   <div id="notes-entry-container">
@@ -16,7 +12,19 @@ layout: default
       {{ content }}
     </content>
 
+    <footer>
+
+    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+      Last updated {{ page.last_modified_at | timeago }}
+      {% endif %}
+    </time>
+    </footer>
+
     <side style="display: block;">
+
+ 
+
+
       <h3 style="margin-bottom: 1em">Notes mentioning this note</h3>
       {% if page.backlinks.size > 0 %}
       <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">

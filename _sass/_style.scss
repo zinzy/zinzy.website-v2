@@ -1,7 +1,7 @@
 $color-primary: #404040;
 $color-text:  #3C4858;
-$color-subtext: #8492A6;
-$color-link: #6100ff;
+$color-subtext: rgba($color-primary,0.6);
+$color-link: $color-primary;
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
@@ -80,7 +80,7 @@ a {
   padding: 0 0.1em;
   text-decoration: underline;
   color: $color-link;
-  font-weight: 500;
+  font-weight: 400;
   &:hover {
     background: rgba($color-link,0.1);
   }
@@ -165,6 +165,7 @@ code {
 
 body {
   padding: 20px;
+  transition: all 0.3s ease-in-out;
   @media screen and (min-width:700px) {
     padding: 100px;
   }
@@ -205,5 +206,69 @@ h1, h2, h3, h4, h5, h6 {
   margin: 100px 0;
   side {
     margin-top: 100px;
+  }
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.page-header {
+  opacity: 0.6;
+  animation: muteOut ease 6s;
+  -webkit-animation: muteOut ease 6s;
+  -moz-animation: muteOut ease 6s;
+  -o-animation: muteOut ease 6s;
+  -ms-animation: muteOut ease 6s;
+  a {
+    color: $color-link;
+    &:after {
+      content: ""
+    }
+  }
+}
+@keyframes muteOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.6;
+  }
+}
+
+@-moz-keyframes muteOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.6;
+  }
+}
+
+@-webkit-keyframes muteOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.6;
+  }
+}
+
+@-o-keyframes muteOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.6;
+  }
+}
+
+@-ms-keyframes muteOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.6;
   }
 }
