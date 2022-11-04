@@ -3,6 +3,7 @@ $color-text:  #3C4858;
 $color-subtext: rgba($color-primary,0.6);
 $color-link: $color-primary;
 $color-border: hsl(0, 0%, 85%);
+$color-light: #fbfbfb;
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
 $font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -13,6 +14,7 @@ $font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Sego
   }
   
 body {
+  background: $color-light;
   box-sizing: content-box;
   font-family: $font-family; 
   line-height: 1.7; 
@@ -32,7 +34,7 @@ time {
 }
 
 footer {
-  margin: 2em 0;
+  margin: 100px 0;
   font-size: 0.8em;
   color: $color-subtext;
   padding-top: 1em;
@@ -76,13 +78,17 @@ h6 {
 }
 
 a {
-  transition: background 300ms;
-  padding: 0 0.1em;
-  text-decoration: underline;
+  transition: background 300ms; 
+  text-decoration: none;
   color: $color-link;
-  font-weight: 400;
+  font-weight: 500;     
+  background: linear-gradient(to top right, rgba($color-subtext,0.3), rgba(255, 255, 255, 0));
+  background-size: 150% 30%;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
   &:hover {
-    background: rgba($color-link,0.1);
+    background-size: 100% 30%;
+    background-position: 0% 55%;
   }
   &:after {
     position: relative;
@@ -166,8 +172,11 @@ code {
 body {
   padding: 20px;
   transition: all 0.3s ease-in-out;
-  @media screen and (min-width:700px) {
+  @media screen and (min-width:500px) {
     padding: 100px;
+  }
+  @media screen and (min-width:768px) {
+    padding: 200px;
   }
   @media screen and (min-width:992px) {
     padding: 0;

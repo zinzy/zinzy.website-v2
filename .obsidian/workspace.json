@@ -28,6 +28,18 @@
             }
           },
           {
+            "id": "5a3d8afc6382152e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/colophon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f148bc29891e4ba8",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/index.md",
+                "file": "_notes/colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/index.md",
+                "file": "_notes/colophon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/index.md"
+                "file": "_notes/colophon.md"
               }
             }
           }
@@ -181,17 +193,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9992cad7cb30cde",
+  "active": "5a3d8afc6382152e",
   "lastOpenFiles": [
+    "_notes/index.md",
+    "_notes/colophon.md",
     "_notes/tools for people at work.md",
     "_notes/about.md",
-    "_notes/index.md",
     "_notes/IndieWeb.md",
     "_notes/music.md",
     "_notes/collections.md",
     "_notes/bookmarks.md",
     "_notes/habits.md",
-    "_notes/library.md",
-    "_notes/2022-week-42.md"
+    "_notes/library.md"
   ]
 }
