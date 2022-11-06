@@ -1,8 +1,16 @@
 ---
-title: "About"
+title: "About Zinzy Waleson"
 layout: "page"
 ---
-I'm Zinzy Waleson, a person on the Internet. I taught myself how to build websites when I was eleven, and I've been using this skill to navigate the web ever since. I enjoy using [[colophon|IndieWeb principles]] to design the experiences I have online. Much of this website is dedicated to just that.
+
+<div class="row mt-5">
+<div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1667744670/me/zinzy-1_telofx.jpg"></div>
+<div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1667744670/me/zinzy-2_eixpog.jpg"></div>
+</div>
+
+Hey there, thank you for visiting my personal site! I've been using this space (and before it, others) to navigate the web since I was eleven years old. I love the independence, creativity, and plurality that comes with the Internet ([read more about what that means for this website](/colophon)). This website is very much a personal account of some of the areas of my life. You'll find that I write as freely about my work as I do about my health issues. I do this in the name of integrity, not because I have a need to overshare. 
+
+
 
 ## In life
 I live on the East side of Amsterdam (which happens to be the best), where I share a shoebox and small-but-vibrant garden with my partner. I enjoy writing, which I do casually, both in diary and essay form. At heart and by training, I'm a lover of stories: the way they take shape, the things I experience with them, and the ways in which they shape societies. I also love making and writing music. I was a band geek for most of my childhood, and taught myself to play a variety of instruments. These days, I mostly focus on the guitar.
