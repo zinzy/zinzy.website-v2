@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="note">
+  <header>
+    <h2>{{ page.title }}</h2> 
+  </header>
+
+  <div id="notes-entry-container">
+    <content>
+
+      
+      <time>{{post.date | date: "%A, %e %B, %Y"  }}</time>
+
+      {{ content }}
+    </content> 
+  </div>
+</article>

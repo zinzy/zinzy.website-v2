@@ -1,6 +1,6 @@
-$color-primary: #404040;
-$color-text:  #3C4858;
-$color-subtext: rgba($color-primary,0.6);
+$color-primary: #000;
+$color-text:  #272727;
+$color-subtext: rgba($color-text,0.6);
 $color-link: $color-primary;
 $color-border: hsl(0, 0%, 85%);
 $color-light: #fbfbfb;
@@ -35,12 +35,15 @@ time {
 
 footer {
   margin: 100px 0;
-  font-size: 0.8em;
+  // font-size: 0.8em;
   color: $color-subtext;
   padding-top: 1em;
   a { 
     color: $color-subtext;
-    border: 0;
+    border: 0; 
+    &:after {
+      content: ""
+    }
   }
 }
  
@@ -170,9 +173,9 @@ code {
 // 
 
 body {
-  padding: 20px;
+  padding: 40px;
   transition: all 0.3s ease-in-out;
-  @media screen and (min-width:500px) {
+  @media screen and (min-width:600px) {
     padding: 100px;
   }
   @media screen and (min-width:768px) {
@@ -224,14 +227,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header {
-  opacity: 0.6;
-  animation: muteOut ease 6s;
-  -webkit-animation: muteOut ease 6s;
-  -moz-animation: muteOut ease 6s;
-  -o-animation: muteOut ease 6s;
-  -ms-animation: muteOut ease 6s;
+  color: $color-subtext;
+  // opacity: 0.6;
+  // animation: muteOut ease 6s;
+  // -webkit-animation: muteOut ease 6s;
+  // -moz-animation: muteOut ease 6s;
+  // -o-animation: muteOut ease 6s;
+  // -ms-animation: muteOut ease 6s;
   a {
-    color: $color-link;
+    color: $color-subtext;
     &:after {
       content: ""
     }
@@ -279,5 +283,45 @@ h1, h2, h3, h4, h5, h6 {
   }
   100% {
     opacity:0.6;
+  }
+}
+
+main {
+  margin: 200px 0;
+}
+
+.journal {
+  article {
+    margin-bottom: 200px;
+  }
+}
+
+
+.categories {   
+  a {
+    background: 0;
+    font-weight: normal;
+    &:after {
+      content: ""
+    }
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    list-style-type: none;
+    li { 
+      display: inline; 
+      ul {
+        margin-left: 1rem;
+        li {
+          &:not(:last-child):after {
+            content: ", "
+          }}
+      }
+    }
   }
 }

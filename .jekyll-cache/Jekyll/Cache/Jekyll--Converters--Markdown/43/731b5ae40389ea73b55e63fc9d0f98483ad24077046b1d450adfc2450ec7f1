@@ -1,0 +1,22 @@
+I"�<p>This is a personal website, designed, built, and maintained by <a class="internal-link" href="/about/">yours truly</a>. In nature, it is casual, unpretentious, and unassuming. On here, you’ll find soft stances, lived experiences, and critical notes on the things I hold dear. It’s organized as a casual collection of unfinished thoughts.</p>
+
+<h2 id="technical-details">Technical details</h2>
+<ul>
+  <li>This website is built in <a href="https://jekyllrb.com/">Jekyll</a>, a flat-file content management system I’ve been using for years. I like my familiarity with the platform, as well as the light-weight nature of flat-file systems.</li>
+  <li>I’ve taken <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">Maxime Vaillancourt</a> digital garden template for Jekyll as my starting point. I continue to change it on an almost daily basis.</li>
+  <li>The font you’re looking at is whatever is native to your operating system.</li>
+</ul>
+
+<h2 id="setup">Setup</h2>
+<ul>
+  <li>This website lacks an archive or central index. Instead, it’s a collection of linked files. I like that this is essentially a scavenger hunt.</li>
+</ul>
+
+<h2 id="indieweb">IndieWeb</h2>
+<p>I use this website to participate in the IndieWeb, a great community of people who enjoy tinkering on personal websites, as well as independence while they do so.</p>
+
+<h2 id="to-do">To do</h2>
+<ul>
+  <li>Add a library</li>
+</ul>
+:ET

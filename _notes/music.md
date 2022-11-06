@@ -1,4 +1,5 @@
 ---
+category: "Media"
 ---
 I like music: playing it, writing it, and listening to it. 
 

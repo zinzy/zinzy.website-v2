@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-
-<article> 
-  <div id="notes-entry-container">
-    <content>
-      {{ content }}
-    </content> 
-  </div> 
-  <div> 
-  </div>
-
-
-</article>
+ 
+ <section class="journal">
+  {% for post in site.posts %}
+  <article> 
+    <div id="notes-entry-container">
+      <content>
+        <time>{{post.date | date: "%A, %e %B, %Y"  }}</time>
+        <div class="mt-5">
+          {{post.content}}
+        </div>
+      </content> 
+    </div>   
+  </article>
+{% endfor %}  
+ </section>

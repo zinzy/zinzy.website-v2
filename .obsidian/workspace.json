@@ -4,79 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "787b0e0096aa66de",
+        "id": "3cf681781ef11c33",
         "type": "tabs",
         "children": [
           {
-            "id": "d965d679ff762f91",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e9992cad7cb30cde",
+            "id": "ea1636c7ab10ee24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a3d8afc6382152e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/colophon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f148bc29891e4ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6227379405806ac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/IndieWeb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aa5228efd4c6d6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/collections.md",
+                "file": "_notes/faq.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/colophon.md",
+                "file": "_notes/faq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/colophon.md",
+                "file": "_notes/faq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/colophon.md"
+                "file": "_notes/faq.md"
               }
             }
           }
@@ -193,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a3d8afc6382152e",
+  "active": "ea1636c7ab10ee24",
   "lastOpenFiles": [
-    "_notes/index.md",
-    "_notes/colophon.md",
-    "_notes/tools for people at work.md",
-    "_notes/about.md",
-    "_notes/IndieWeb.md",
-    "_notes/music.md",
-    "_notes/collections.md",
-    "_notes/bookmarks.md",
+    "_notes/faq.md",
+    "_notes/faq.md",
+    "_notes/bookmarks 2.md",
+    "_notes/academic-opportunities.md",
+    "_notes/amsterdam.md",
+    "_notes/erasing-racism.md",
     "_notes/habits.md",
-    "_notes/library.md"
+    "_notes/lemon meringue pie bars.md",
+    "_notes/library 2.md",
+    "_notes/maastricht.md"
   ]
 }

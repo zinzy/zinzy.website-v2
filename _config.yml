@@ -1,5 +1,5 @@
 title:               Zinzy Waleson's working notes
-include:             ['_pages']
+include:             ['_pages','_posts','_library']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
@@ -25,13 +25,30 @@ relative_permalinks: false
 plugins:
   - jekyll-last-modified-at
   - jekyll-timeago
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 sass:
   sass_dir:          _sass
   style:            :compressed
 
 collections:
+  posts:
+    output: true
+    permalink: /:slug
   notes:
+    output: true
+    permalink: /:slug
+  library:
     output: true
     permalink: /:slug
 
@@ -44,3 +61,15 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: "_library/**/*.md"
+    values:
+      layout: "note"
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      layout: "note"
+  - scope:
+      path: "_pages/**/*.md"
+    values:
+      layout: "page"

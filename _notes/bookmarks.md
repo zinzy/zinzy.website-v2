@@ -1,4 +1,5 @@
 ---
+category: "Lists"
 ---
 In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
 

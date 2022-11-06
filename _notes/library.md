@@ -1,4 +1,5 @@
 ---
+category: "Media"
 ---
 This page contains a growing list of things I’ve watched, read, or listened to. 
 
