@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/faq.md",
+                "file": "_posts/2022-11-06-weeknotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/faq.md",
+                "file": "_posts/2022-11-06-weeknotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/faq.md",
+                "file": "_posts/2022-11-06-weeknotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/faq.md"
+                "file": "_posts/2022-11-06-weeknotes.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "ea1636c7ab10ee24",
   "lastOpenFiles": [
-    "_notes/faq.md",
+    "_notes/Rotterdam.md",
+    "_notes/places.md",
+    "_posts/2022-11-06-weeknotes.md",
     "_notes/faq.md",
     "_notes/bookmarks 2.md",
     "_notes/academic-opportunities.md",
     "_notes/amsterdam.md",
     "_notes/erasing-racism.md",
     "_notes/habits.md",
-    "_notes/lemon meringue pie bars.md",
-    "_notes/library 2.md",
-    "_notes/maastricht.md"
+    "_notes/lemon meringue pie bars.md"
   ]
 }

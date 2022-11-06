@@ -325,3 +325,23 @@ main {
     }
   }
 }
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+figure {
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+  img {
+    margin: 0;
+  }
+  figcaption {
+    color: $color-subtext;
+    font-size: 80%;
+  }
+}

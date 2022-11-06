@@ -1,9 +1,6 @@
 ---
 category: "Lists"
 ---
-
-# Places
-
 ### Lived in
 - [Amsterdam](/amsterdam), the Netherlands 
 - Eindhoven, the Netherlands 
@@ -28,7 +25,8 @@ category: "Lists"
 - Stockholm, Sweden
 
 ### Enjoy nationally
-- [Maastricht](/maastricht)
+- [[Maastricht]]
+- [[Rotterdam]]
 
 ### Want to visit 
 - Ao Island, Japan
