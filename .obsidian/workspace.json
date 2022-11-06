@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf681781ef11c33",
+        "id": "59cff79ba03c5359",
         "type": "tabs",
         "children": [
           {
-            "id": "ea1636c7ab10ee24",
+            "id": "891dcbc00649d518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-06-weeknotes.md",
+                "file": "now.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "863dbe5197a931db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/eating disorder.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-06-weeknotes.md",
+                "file": "_notes/eating disorder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-06-weeknotes.md",
+                "file": "_notes/eating disorder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-06-weeknotes.md"
+                "file": "_notes/eating disorder.md"
               }
             }
           }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ea1636c7ab10ee24",
+  "active": "863dbe5197a931db",
   "lastOpenFiles": [
+    "now.md",
+    "_notes/Reading.md",
+    "now-2022-05-11.md",
+    "now-2022-04-16.md",
+    "now-2022-04.md",
+    "now-2021-09.md",
+    "_posts/2022-11-06-weeknotes.md",
     "_notes/Rotterdam.md",
     "_notes/places.md",
-    "_posts/2022-11-06-weeknotes.md",
-    "_notes/faq.md",
-    "_notes/bookmarks 2.md",
-    "_notes/academic-opportunities.md",
-    "_notes/amsterdam.md",
-    "_notes/erasing-racism.md",
-    "_notes/habits.md",
-    "_notes/lemon meringue pie bars.md"
+    "_notes/faq.md"
   ]
 }
