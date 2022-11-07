@@ -1,0 +1,30 @@
+I"[<p>This is a personal website, designed, built, and maintained by me, Zinzy.</p>
+
+<h3 id="about-this-space">About this space</h3>
+<ul>
+  <li>This website is casual, unpretentious, and unassuming.</li>
+  <li>On here, you’ll find soft stances, lived experiences, and critical notes on the things I hold dear.</li>
+  <li>It’s organized as a casual collection of unfinished thoughts.</li>
+  <li>This website lacks an archive or central index. Instead, it’s a collection of linked files. I like that this is essentially a scavenger hunt.</li>
+  <li>I use this website to participate in the IndieWeb, a great community of people who enjoy tinkering on personal websites, as well as independence while they do so.</li>
+</ul>
+
+<h3 id="technical-details">Technical details</h3>
+<ul>
+  <li>This website is built in <a href="https://jekyllrb.com/">Jekyll</a>, a flat-file content management system I’ve been using for years. I like my familiarity with the platform, as well as the light-weight nature of flat-file systems.</li>
+  <li>I’ve taken <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">Maxime Vaillancourt</a> digital garden template for Jekyll as my starting point. I continue to change it on an almost daily basis.</li>
+  <li>The font you’re looking at is whatever is native to your operating system.</li>
+  <li>I’ve borrowed elements from <a href="https://www.clayharmon.com/">Clay Harmon</a>’s <a href="https://github.com/clayh53/tufte-jekyll/tree/4bee109052ce50ac97f03efd41d4988a43f4a456">Tufte Jekyll theme</a> to achieve a particular style of sidenotes originating from the work of <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>.</li>
+</ul>
+
+<h3 id="principles">Principles</h3>
+<ul>
+  <li>This website doesn’t track users. Unless you tell me, I have no way of knowing that you’re here.</li>
+</ul>
+
+<h3 id="to-do-on-this-website">To do on this website</h3>
+<ul>
+  <li>Roam-style linking across content types <code class="language-plaintext highlighter-rouge">posts</code> and <code class="language-plaintext highlighter-rouge">notes</code></li>
+  <li></li>
+</ul>
+:ET

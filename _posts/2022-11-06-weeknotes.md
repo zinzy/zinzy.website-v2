@@ -9,11 +9,6 @@ The weather has officially reached a temperature that requires me to buy a new c
 I finished reading _The Midnight Library_, which I had borrowed from [Annelie](https://www.anneliewambeek.com/). It sure has been a long time since I last read a book that was both so entertaining and easygoing. It feels borderline young adult, and entirely unpretentious.
 
 <figure>
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_800/v1667727706/zinzy.website/E55143BD-CAB9-4111-A78B-3F5DDD5F8B7A_ztdyx3.jpg">
-<figcaption>At <a href="https://mai.art/projects/nointermission" target="_blank">No Intermission</a>, Franko B's DJ set was as loud as could be, but the transformation after seeing long-duration performance art was complete</figcaption>
-</figure>
-
-<figure>
 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_800/v1667727708/zinzy.website/24BBEE43-B788-4890-B6CC-2AA3E489632A_dwodvy.jpg">
 <figcaption>I'm falling more and more in love with Sloten, in particular for its low buildings and associated access to great views of the sky</figcaption>
 </figure>

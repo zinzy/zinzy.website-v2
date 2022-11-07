@@ -1,5 +1,6 @@
 ---
 category: "Media"
+excerpt: "A collection of things I've attended, read, or watched"
 ---
 
 ## 2022

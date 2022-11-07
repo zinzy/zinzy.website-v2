@@ -285,7 +285,12 @@ strong, b {
   font-weight: 500;
 } 
 
-
+iframe {
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+}
 
 
 figcaption,

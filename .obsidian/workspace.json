@@ -4,75 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "4e2c5e142e042e41",
+        "id": "363323668313caba",
         "type": "tabs",
         "children": [
           {
-            "id": "0a2d610101940205",
+            "id": "73cf761507c197f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Ali & Ava.md",
+                "file": "_notes/Meditation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4044a5b1a4f9ecda",
+            "id": "7fff44b101ad87c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Colophon.md",
+                "file": "_notes/No Intermission.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ed924478cf75ea3d",
+            "id": "1fba844a58392751",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Colophon.md",
+                "file": "_notes/Consumption.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08f2ab396c7864f0",
+            "id": "d8f4a4125c0a633c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Styleguide.md",
+                "file": "_posts/2022-11-06-weeknotes.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "57149047d43d4b76",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "19b795aaa69f2495",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Styleguide.md",
+                "file": "_notes/Consumption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Styleguide.md",
+                "file": "_notes/Consumption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Styleguide.md"
+                "file": "_notes/Consumption.md"
               }
             }
           }
@@ -189,17 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "08f2ab396c7864f0",
+  "active": "1fba844a58392751",
   "lastOpenFiles": [
     "_notes/Colophon.md",
-    "_notes/Styleguide.md",
-    "_notes/To do on this website.md",
-    "_notes/Website principles.md",
-    "_notes/Technical details.md",
-    "_notes/my name.md",
-    "_posts/2022-05-31-now.md",
-    "_posts/2022-04-23-weeknotes.md",
-    "_notes/Ali & Ava.md",
-    "_notes/Watched in 2022.md"
+    "_notes/Draw your own shell.md",
+    "_notes/No Intermission.md",
+    "_notes/Breaking Black Stereotypes.md",
+    "_notes/Attended in 2022.md",
+    "_notes/index.md",
+    "_posts/2022-11-06-weeknotes.md",
+    "_notes/Deep knowing.md",
+    "_notes/Meditation.md",
+    "_notes/Marina Abramović Method.md"
   ]
 }

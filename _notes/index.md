@@ -10,5 +10,5 @@ I keep a casual collection of unfinished thoughts; random snippets on a myriad o
 Suggested starting points:
 - [[About]]
 - What I'm up to [[Now]] 
-- [[Music]]
+- [[Music]] and [[Consumption]]
 - The sites and places I like are collected in [[bookmarks]]
