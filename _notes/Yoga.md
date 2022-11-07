@@ -1,6 +1,6 @@
 ---
 category: "Health"
-excerpt: "I've been a practitioner of yoga for about sixteen years now, focusing exclusively on yin and nidra."
+excerpt: "I've been a practitioner of yoga for sixteen years now, focusing exclusively on yin and nidra."
 ---
 I've been a practitioner of yoga for about sixteen years now. These last few years I've begun concentrating on:
 
