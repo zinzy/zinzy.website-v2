@@ -1,18 +1,17 @@
 ---
 layout: default
 ---
- 
- <section class="journal">
-  {% for post in site.posts %}
-  <article> 
-    <div id="notes-entry-container">
-      <content>
-        <time>{{post.date | date: "%A, %e %B, %Y"  }}</time>
-        <div class="mt-5">
-          {{post.content}}
-        </div>
-      </content> 
-    </div>   
-  </article>
-{% endfor %}  
- </section>
+<header>
+  <p>I'm Zinzy, a person living and working in Amsterdam. This here is a quiet street of the Internet where I come to link and think. I'm a researcher and designer making tools for people at work, a facilitator making resonant queer spaces, and a humble linguist who enjoys the art of writing. This website is a vastly personal project.</p>
+</header>
+
+<!-- <section>
+  <h2>Writing</h2>
+  <p>I write short fiction and essays.</p>
+</section> -->
+
+<section id="notes-entry-container">
+  <content>
+    {{ content }}
+  </content>
+</section> 

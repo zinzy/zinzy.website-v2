@@ -1,0 +1,365 @@
+I"�A<p>These are the notes I took during the <a href="https://uxinsight.org/ux-research-conference-festival-2022/">UXinsight Festival 2022</a>.</p>
+
+<h2 id="general">General</h2>
+
+<h2 id="talks">Talks</h2>
+
+<h3 id="intro">Intro</h3>
+
+<h3 id="being-in-possible-futures">Being in possible futures?</h3>
+<p>by <a href="sarah-pink.md">Sarah Pink</a></p>
+
+<ul>
+  <li>Didn’t use slides, doesn’t like them on a big screen when she’s not there in person, will show video and images of projects</li>
+  <li>Trailer “Digital Energy Futures”
+    <ul>
+      <li>Automatically charging devices</li>
+      <li>Giving up control to system that optimizes energy use</li>
+      <li>Is it realistic / desirable?</li>
+      <li>Project generates new insights about trends by investigating people’s lives and futures</li>
+      <li>“Automation takes choice away”</li>
+      <li>Optimizing <strong>every-day lives</strong></li>
+      <li>Technology should be aligned with human futures</li>
+      <li>“Technology should expand what you can do, not restrict it”</li>
+    </ul>
+  </li>
+  <li>Project:
+    <ul>
+      <li>Good example of research she does</li>
+      <li>She’s a design anthropologist: tries to get into people’s lives with them, spends time in every-day worlds</li>
+      <li>Uses film in most of her work as a way of exploring lives, participatory observation</li>
+    </ul>
+  </li>
+  <li>Broken starting point to use your own perspective
+    <ul>
+      <li>Example: bought a house, wanted it to be different</li>
+      <li>Third room in the attic</li>
+      <li>Could sense / feel what that future would be like</li>
+      <li>The way we experience futures isn’t always we can talk about, sometimes it’s very sensual</li>
+      <li>We need research methods to help people think of these futures, that’s why film can be interesting</li>
+      <li>It’s difficult to speak about but easier to do in performative ways</li>
+      <li>Her books
+        <ul>
+          <li>“Doing Visual Ethnography”</li>
+          <li>“Doing Sensory Ethnography”</li>
+          <li>“Everyday Automation” (edited)
+            <ul>
+              <li>Looking at automation through every-day lives</li>
+              <li>People do things differently from what industry can imagine
+                <ul>
+                  <li>Examples:
+                    <ul>
+                      <li>Myth: set and forget, We assume people want to set up automated system and forgot “set and forget” system, but research shows that people want to have an active relationship with a system</li>
+                      <li>Myth: people want automation: Most people don’t want full automation, even though industry thinks we do (people will use separate technologies)</li>
+                      <li>Myth: charging electric vehicles at work, research shows people want to do it at home at night</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Sometimes we want to experience what possible futures might feel like
+    <ul>
+      <li>that’s where we can find out what values, priorities might be, what kind of ethics, how will all of this guide them?</li>
+      <li>it’s difficult to ask it, she’s developed methods to do this research:
+        <ul>
+          <li>experiment with people going into possible futures, studying self-driving cars: ask people to drive simulated / Wizard of Oz / automated car, person doesn’t know it’s not a self-driving car, people experienced life as they never did</li>
+          <li>other study: cocreate possible future air technologies, research shows that air heating and cooling would also person purification. Question: invent the tech, but also role-play being the technology, this helped researchers understand values</li>
+        </ul>
+      </li>
+      <li>city of Melbourne: where are the sensors in the park (sensor for air quality etc., how much rubish in the bin, how many people sit on the bench): what if you were a sensor, what would you measure, who would you share the data with?</li>
+    </ul>
+  </li>
+  <li>Future-focused methods, what other methods does Sarah use? Can I see it in her research?</li>
+  <li>“Smart Homes for Seniors”
+    <ul>
+      <li>Based on visual ethnography</li>
+      <li>Selected a group of seniors to participate in documentary</li>
+      <li>As researchers they learned how seniors used smart home technology</li>
+    </ul>
+  </li>
+  <li>Question from Odette Jansen</li>
+  <li>Question from Danielle Duijst: Thanks for your interesting talk Sarah. I’m just curious how do you come up with these creative research methods? Any specific approach you take for that
+    <ul>
+      <li>Ethnographic documentary film methods</li>
+      <li>She trained as an anthropological film maker</li>
+      <li>Sensor method: brainstorm “how do we find the best way to engage people?”
+        <ul>
+          <li>They tested the method themselves</li>
+          <li>Damn that’s interesting, research method design</li>
+          <li>We don’t use the same method again</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="thoughts-afterwards">Thoughts afterwards</h4>
+
+<ul>
+  <li>What’s the value of saying “future”? Wouldn’t “solution space” be enough? Or is that too focused on working towards evaluative research, and is the focus here more exploratory</li>
+</ul>
+
+<h3 id="leverage-secondary-research-in-your-practice">Leverage Secondary Research in your Practice</h3>
+<p>By <a href="xenia-avezov.md">Xenia Avezov</a></p>
+
+<ul>
+  <li>Why and how, not just to enrich career but to get a fuller data set</li>
+  <li>Chronically underused in UXR/tech</li>
+  <li>Better understand context</li>
+  <li>Build on flawed and limited sample sets</li>
+  <li>Product orgs want customer feedback: “would users ‘like’ this?” (that’s not what I do, define target audience &gt; behavior/attitudinal data)</li>
+  <li>Stakeholders love a good quote (NPS scores :eyeroll:)</li>
+  <li>We’re overly indexing primary research</li>
+  <li>We think that if we learn from users, but that’s not it</li>
+  <li>We rarely get to do the research we want to do, there are constraints:
+    <ul>
+      <li>Academics start by understanding the state of the art by doing secondary research</li>
+      <li>We have a negative bias about secondary research, we want to make the stuff ourselves</li>
+      <li>What’s wrong with our echo?</li>
+      <li>Effort justification theory: if we apply more effort it must be more worthwhile
+        <ul>
+          <li>Cognitive dissonance</li>
+          <li>Xenia thinks that’s how we value primary research</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Generic types of research
+    <ul>
+      <li>Impractical without secondary research
+        <ul>
+          <li>Exploratory: what problems should we solve?</li>
+          <li>Foundational: how do people experience a problem?</li>
+        </ul>
+      </li>
+      <li>Impractical without primary research</li>
+      <li>Generative: what solution can solve this problem?</li>
+      <li>Evaluative: does the solution work?</li>
+      <li>Or look at it as a spectrum: learn heavily on primary / secondary research</li>
+    </ul>
+  </li>
+  <li>Overreliance on primary research
+    <ul>
+      <li>Indexes practice towards what and how = solution space</li>
+    </ul>
+  </li>
+  <li>Simon Sinek “Start With Why”
+    <ul>
+      <li>The golden triangle: leaders, products, and organisations start with the why</li>
+      <li>Fully understanding why / purpose makes them more effective</li>
+    </ul>
+  </li>
+  <li>Secondary research uncovers context users live in
+    <ul>
+      <li>Leans heavily on the why</li>
+      <li>Not just once</li>
+      <li>Researchers can’t afford to answer the questions why once</li>
+      <li>Knowing why makes us more motivated and focused</li>
+    </ul>
+  </li>
+  <li>Research not grounded in systemic, holistic environment is incomplete</li>
+  <li>Systemic thinking 101, Two main paradigms in science:
+    <ul>
+      <li>Analysis: reductionism
+        <ul>
+          <li>Penguin as the sum of its parts</li>
+        </ul>
+      </li>
+      <li>Systems thinking / synthesis / holism
+        <ul>
+          <li>How are things interconnected, dependent on one another</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Systems thinking case study
+    <ul>
+      <li>Working at HealthTech company, focusing on diabetic patients</li>
+      <li>Company decided to pivot to solving more problems for patients</li>
+      <li>Process to identify conditions to research</li>
+      <li>Tried to understand: how do diabetic patients experience health care, what kind of gaps can we fill?</li>
+      <li>Where to start with secondary research?
+        <ul>
+          <li>Applying system analysis helped:
+            <ul>
+              <li>Start by identifying the systems people belong to (found two: biological, intersectional factors that affect health; healthcare system)</li>
+              <li>Took each systems and identified elements in each system, how do systems connect with each other</li>
+              <li>Helped them scope what to ask patients in primary research</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>How does secondary research change ability to be strategic?</li>
+  <li>How we can be more strategic
+    <ul>
+      <li>As researchers we can help organization solve the right problem at the right time for the right people</li>
+    </ul>
+  </li>
+  <li>Question: top 3 best practices for secondary research
+    <ul>
+      <li>Outline: identify system so I can ask many questions in the outline as possible, what direction and shape do I want to scope this in, then narrow it down</li>
+      <li>Letting go: you’re trying to carve balance between what you found out and where stakeholders are at. Only your deepest nerdy friends are gonna know what you know.</li>
+    </ul>
+  </li>
+  <li>Question: what sources do you use to gain that data?
+    <ul>
+      <li>Nerding out: brainstorm for sources</li>
+      <li>It depends on your domain: in this domain, where would I have information?</li>
+      <li>Statistical info available, associations, previous research, etc.</li>
+      <li>Look at the footnotes</li>
+      <li>Librarians are really good at this
+        <ul>
+          <li>Her favorite librarian would help her brainstorm</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Question: did your research strategy change?
+    <ul>
+      <li>Her career strategy is “don’t ask, just do whatever you want”</li>
+      <li>“I don’t expect a patient to understand how their biological context affected their choices”</li>
+      <li>I want to help understand what a patient says, and give it respect and context and texture</li>
+      <li>Sample sizes: tech does research too quickly, not academic</li>
+      <li>I’m scared of not getting the right sample size, or research halting progress</li>
+    </ul>
+  </li>
+  <li>Question: how do you scope secondary research?
+    <ul>
+      <li>Have fun, get creative</li>
+      <li>Discuss it with people</li>
+    </ul>
+  </li>
+  <li>Question ???
+    <ul>
+      <li>Educate people as a researcher</li>
+      <li>Centralize internal insights</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-power-of-saying-no">The Power of Saying No</h3>
+<p>By Ilse Blom</p>
+
+<ul>
+  <li>The ROI of UXR is becoming more clear, but the questions are outweighing the velocity of research</li>
+  <li>Saying no can help: it’s difficult because we’re human and we’re researchers</li>
+  <li>If we deliver insights, others need to act</li>
+  <li>UXR mission &gt; vission &gt; goal
+    <ul>
+      <li>Why do we exist?</li>
+      <li>Where are we heading as a team?</li>
+      <li>How to progress in that direction?</li>
+      <li>Mission can last forever, vision is 2-3 years</li>
+    </ul>
+  </li>
+  <li>Team workshop:
+    <ul>
+      <li>What were we most proud of in the last year?</li>
+      <li>Wouldn’t it be fantastic if…</li>
+    </ul>
+  </li>
+  <li>Mission: “We as UXR team help product teams understand and empathize with the needs and experience of their users so they can develop…”</li>
+</ul>
+
+<h3 id="share-the-power-using-rapid-research-to-empower-your-teammates-to-gather-and-share-customer-insights">Share The Power: Using Rapid Research to empower your teammates to gather and share customer insights</h3>
+
+<ul>
+  <li></li>
+</ul>
+
+<h3 id="how-to-make-ux-research-accessible-for-neurodivergent-ux-professionals">How to Make UX Research Accessible for Neurodivergent UX Professionals</h3>
+
+<h3 id="how-to-remotely-immerse-your-teams-in-research">How to (Remotely) Immerse your Teams in Research</h3>
+
+<h3 id="agency-maturity-in-africa-working-for-wikimedia">Agency maturity in Africa: Working for Wikimedia</h3>
+
+<h3 id="creating-value-what-who--how">Creating Value: What, Who, &amp; How?</h3>
+<p>Jacob Harbord</p>
+
+<ul>
+  <li>Lack of explicit thinking about process of value creation leads to reduced satisfaction about value of research projects</li>
+  <li>How to measure value of research
+    <ul>
+      <li>Making better decisions</li>
+      <li>We need to be agnostic about how we make those decisions</li>
+      <li>Method doens’t matter: as long as the decisions are better</li>
+    </ul>
+  </li>
+  <li>Has framework alternative to Double Diamond:
+    <ul>
+      <li>Don’t organize decisions in linear, time-based way</li>
+      <li>Matrix: specific/general - tactical/strategic</li>
+    </ul>
+  </li>
+  <li>Decisions: use limited information to move projects forward</li>
+  <li>Types of deciders:
+    <ul>
+      <li>Busy deciders: high-level recommendations with just enough details to build credibility</li>
+      <li>Involved practitioner: powerful insights and contextual understanding</li>
+      <li>Enthusiastic learner: need consumer understanding, would benefit from training</li>
+      <li>Sceptical avoider: research shouldn’t influence their own work too much</li>
+    </ul>
+  </li>
+  <li>Tailor work to stakeholder perspective, and expand scope of research functions</li>
+  <li>Value:
+    <ul>
+      <li>Insight (primary research)</li>
+      <li>Hindsight (data mining; for Busy Deciders and Sceptical Avoiders)</li>
+      <li>Foresight (always strategic; trends and futures)</li>
+      <li>Orientation (immersion; to build user centricity)</li>
+      <li>Operations (democratisation)</li>
+    </ul>
+  </li>
+  <li>What’s next:
+    <ul>
+      <li>Evaluate your research functions (how does your research contribute to what stakeholders need?)</li>
+      <li>Develop a diverse range of methods</li>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-customer-insights-core-first-steps-of-strategic-research-at-glovo-by-uxr--data">The Customer Insights Core: first steps of strategic research at Glovo by UXR &amp; Data</h3>
+<ul>
+  <li>Step 0: agency model (UXR and PA separate)</li>
+  <li>Step 1: embedded model (embedded on a product team level)</li>
+</ul>
+
+<h3 id="how-to-tackle-research-complexity-approaching-nuanced-and-complex-findings-in-a-tldr-world">How to Tackle Research Complexity: Approaching Nuanced and Complex Findings in a TL;DR World</h3>
+<p>By <a href="wendi-chong">Wendi Chong</a></p>
+
+<ul>
+  <li>How can we have more impact?</li>
+  <li>How can we be more strategic in our work?</li>
+  <li>If we’re producing research insights that are easy to digest we might not be doing the most impactful work</li>
+</ul>
+
+<h3 id="too-good-to-be-true-benefits-and-pitfalls-of-using-stories-to-communicate-user-research">Too Good to be True: Benefits and Pitfalls of Using Stories to Communicate User Research</h3>
+
+<h3 id="lunch-talk--hitting-the-user-research-maturity-wall-how-to-avoid-research-stagnation">Lunch talk – Hitting the User Research Maturity Wall: how to avoid research stagnation</h3>
+<p>By Tom Hayes</p>
+
+<ul>
+  <li>If we’re the most senior person in the organization for UX, how do we lean on others around us</li>
+</ul>
+
+<h3 id="start-a-career-in-games-user-research">Start a career in games user research</h3>
+
+<h3 id="teams-1st-ux-researcher--how-to-go-from-the-blind-date-to-a-healthy-relationship">Team’s 1st UX researcher? – How to go from the Blind Date to a Healthy Relationship</h3>
+
+<h3 id="break-talk--our-quest-for-digital-value">Break talk – Our Quest for Digital Value</h3>
+
+<h3 id="conducting-research-on-ux-researchers-research-bookmark-contributes-to-scaling-global-ux-research-practice">Conducting Research on UX Researchers: Research Bookmark contributes to Scaling Global UX Research practice</h3>
+
+<h2 id="further-exploration">Further exploration</h2>
+<ul>
+  <li><a href="uxinsight-festival-2022-takeaways.md">Applications for Leeruniek</a></li>
+</ul>
+:ET

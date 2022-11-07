@@ -5,6 +5,8 @@ excerpt: "Working notes on my most effective method of self care"
 ---
 I'm a practitioner of meditation. After sporadically meditating whenever I was feeling any type of overwhelm, I've been applying myself to cultivating a better, healthier, more meaningful practice.
 
+I incorporate meditation into my life where I can, alternating unguided meditation and guided meditation with my favorite app. Lately, I've been playing around with the Marina Abramovic Method, which isn't so much a straight-forward meditation technique as it is something that sits in between meditating and playing.
+
 ## Why I meditate
 Now that I'm beginning to better understand the value of meditation, I use it to improve my concentration, inner sense of calm, but most importantly my ability to identify what I'm feeling. One of the most difficult things I'm learning in life is to trust my feelings, and meditation helps me look at them with soft eyes.
 

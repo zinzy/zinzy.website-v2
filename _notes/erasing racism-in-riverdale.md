@@ -1,4 +1,5 @@
 ---
+category: "Society"
 ---
 
 # Erasing racism in 'Riverdale'

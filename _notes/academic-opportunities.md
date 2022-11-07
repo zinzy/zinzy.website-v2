@@ -1,6 +1,7 @@
 ---
 title: "Academic opportunities"
 excerpt: "..."
+category: "Education"
 ---
 
 # Academic opportunities

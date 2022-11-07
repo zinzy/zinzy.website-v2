@@ -1,14 +1,7 @@
 ---
 category: "Internet"
+excerpt: "One of my favorite things about the independent Internet is a continued interest in webrings."
 ---
-
-# Webrings
-
-I'm part of a growing number of webrings with like-minded individuals who are trying to reclaim the web.
-
-Currently you can find me on:
-
-- IndieWeb Webring
-- <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-<script src="https://yesterweb.org/js/widget.js"></script>
-                                
+One of my favorite things about the independent Internet is a continued interest in webrings. I'm currently part of these webrings:
+- [IndieWeb Webring](https://xn--sr8hvo.ws/)
+- [Yesterweb](https://yesterweb.org/webring/)

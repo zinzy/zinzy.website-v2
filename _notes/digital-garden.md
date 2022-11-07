@@ -1,4 +1,5 @@
 ---
+category: "Media"
 ---
 
 # Digital garden

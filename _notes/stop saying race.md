@@ -15,7 +15,7 @@ In this respect, I find the two definitions of "racism" that Oxford acknowledges
 - Prejudice, discrimination, or antagonism by an individual, community, or institution against a person or people on the basis of their membership of a particular racial or ethnic group, typically one that is a minority or marginalized.
 - The belief that different races possess distinct characteristics, abilities, or qualities, especially so as to distinguish them as inferior or superior to one another.
 
-The term "racism" has become such a red-hot concept, one we hardly allow ourselves to touch when we are pondering the effects that our words and actions may have on other people. We've become so accustomed to demonizing racism and racists that none of us will acknowledge that we may, in fact, behave in racist ways from time to time. The way language is entangled with this denial is a topic that I'm currently exploring.
+The term "racism" has become such a red-hot concept, one we hardly allow ourselves to touch when we are pondering the effects that our words and actions may have on other people. We've become so accustomed to demonizing racism and racists that none of us will acknowledge that we may, in fact, behave in racist ways from time to time. The way [[language]] is entangled with this denial is a topic that I'm currently exploring.
 
 > "I'm not a racist" has become a [[speech act]]
 

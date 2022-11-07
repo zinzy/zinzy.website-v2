@@ -1,4 +1,5 @@
 ---
+category: "Cooking"
 ---
 
 # A recipe for challah

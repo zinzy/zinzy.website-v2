@@ -1,4 +1,5 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "_notes"
+  "newFileFolderPath": "_notes",
+  "alwaysUpdateLinks": true
 }

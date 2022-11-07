@@ -1,4 +1,5 @@
 ---
+category: "Lists"
 ---
 
 # Changelog
@@ -16,7 +17,7 @@ This is a file containing time-bound updates on this website. It's a collection 
 - **11:46:** I'm collecting funny [commit messages](commit%20messages.md)
 
 #### Tuesday May 31, 2022
-- **11:34:** today and tomorrow I'm attending [UXinsight Festival 2022](uxinsight-festival-2022) and keeping notes
+- **11:34:** today and tomorrow I'm attending [UXinsight Festival 2022](UXInsight%20Festival%202022.md) and keeping notes
 - **05:59:** TIL that, for a brief moment in time in Tikrit, Iraq, there was a [three-meter copper statue of a shoe that was thrown at George W Bush in 2008](https://en.m.wikipedia.org/wiki/Bush_shoeing_incident). 
 
 #### Monday May 30, 2022

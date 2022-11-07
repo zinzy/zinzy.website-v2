@@ -1,1 +1,0 @@
-Hello, yes, I have one.
