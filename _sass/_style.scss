@@ -26,9 +26,9 @@ body {
   color: $color-text;
   font-size: 1rem; 
   -webkit-font-smoothing: antialiased;
-  padding: 80px;
-  // transition: all 0.3s ease-in-out; 
+  padding: 30px; 
   @media (min-width: 1200px) {
+    padding: 80px;
     max-width: calc(50% - 80px);
   }
 }
