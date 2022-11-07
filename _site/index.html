@@ -7,7 +7,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Digital gardenI keep a casual collection of unfinished thoughts; random snippets on a myriad of topics. Soft stances, lived experiences, and critical notes o...">
+  <meta name="description" content="">
 
   <meta property="og:site_name" content="Zinzy Waleson's working notes">
 
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="/styles.css">
 
   
-  <meta property="og:description" content="Digital gardenI keep a casual collection of unfinished thoughts; random snippets on a myriad of topics. Soft stances, lived experiences, and critical notes o..."/>
+  <meta property="og:description" content=""/>
   
 
   
@@ -25,7 +25,7 @@
   
 
   
-  <meta property="article:published_time" content="2022-11-07T12:47:29+01:00">
+  <meta property="article:published_time" content="2022-11-07T16:13:12+01:00">
   <meta property="article:author" content="/">
   
 
@@ -57,30 +57,44 @@
   <content>
     <html><body>
 <h2 id="digital-garden">Digital garden</h2>
-<p>I keep a casual collection of unfinished thoughts; random snippets on a myriad of topics. Soft stances, lived experiences, and critical notes on the things I hold dear. Currently, there are <strong>65 notes</strong> on the garden. I’ve set up my garden as a scavenger hunt, so there is no permanent archive.</p>
+
+<p>I keep a casual collection of unfinished thoughts; random snippets on a myriad of topics. Soft stances, lived experiences, and critical notes on the things I hold dear. Currently, there are <strong><span>87</span> notes</strong> in the garden. I’ve set up my garden as a scavenger hunt, so there is no permanent archive.</p>
 
 <p>Suggested starting points:</p>
 <ul>
   <li><a class="internal-link" href="/about">About</a></li>
   <li>What I’m up to <a class="internal-link" href="/now">Now</a>
 </li>
+  <li><a class="internal-link" href="/music">Music</a></li>
+  <li>The sites and places I like are collected in <a class="internal-link" href="/bookmarks">bookmarks</a>
+</li>
 </ul>
 </body></html>
   </content>
-</section> </main>
+</section> 
+
+<section>
+  <h2>Journal</h2>
+  <p>I have an old-fashioned blog on this website.</p>
+  <a href="/journal" class="internal-link">Visit my journal</a>
+</section></main>
     <footer>
 <p>This website is part of the IndieWeb. If you'd like to learn more about this website, its setup, and sharing permissions, please visit the <a href="/colophon">colophon</a>.</p>
 
-    <p class="webrings">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        An IndieWeb Webring 🕸💍
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-    </p>
+<div class="webrings">
 
-    <div class="webrings yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-    <script src="https://yesterweb.org/js/widget.js"></script></footer>
+  <p class="">
+    <span>
+      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+      An IndieWeb Webring 🕸💍
+      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+    </span>
+  </p>
+
+  <div class=" yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
+  <script src="https://yesterweb.org/js/widget.js"></script>
+
+</div> </footer>
  
     <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>
@@ -92,14 +106,16 @@
   #tooltip-wrapper {
     background: white;
     padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
     overflow: hidden;
     position: absolute;
     width: 400px;
     height: 250px;
     font-size: 0.8em;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
+-moz-box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
+box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
     opacity: 0;
     transition: opacity 100ms;
   }
@@ -222,6 +238,7 @@
 
   document.querySelectorAll('content a').forEach(setupListeners);
 </script>
+
 
   </body>
 </html>

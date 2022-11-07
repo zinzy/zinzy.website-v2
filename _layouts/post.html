@@ -5,14 +5,11 @@ layout: default
 <article class="note">
   <header>
     <h2>{{ page.title }}</h2> 
+    <time>{{page.date | date: "%A, %e %B, %Y"  }}</time>
   </header>
 
   <div id="notes-entry-container">
-    <content>
-
-      
-      <time>{{post.date | date: "%A, %e %B, %Y"  }}</time>
-
+    <content> 
       {{ content }}
     </content> 
   </div>

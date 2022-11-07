@@ -1,35 +1,46 @@
 // @import "../_sass/tufte";
 
-
 $color-primary: #1F2D3D;
 $color-text:  #3C4858;
 $color-subtext: #8492A6;
 $color-link-internal: #1FB6FF;
 $color-link-external: #FF49DB;
+$color-snow: #E0E6ED;
 $color-border: hsl(0, 0%, 85%);
 $color-light: #fbfbfb;
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
 $font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+@media (prefers-color-scheme: dark) {
+
+}
 
 body, html {
   font-size: 20px;
 }
   
 body {
-  background: $color-light;
-  box-sizing: content-box;
   font-family: $font-family; 
+  background: $color-light;
+  box-sizing: content-box; 
   line-height: 1.7; 
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem; 
   -webkit-font-smoothing: antialiased;
   padding: 30px; 
+  counter-reset: sidenote-counter; 
+  @media (min-width: 600px) {
+    padding: 100px;
+  }
   @media (min-width: 1200px) {
     padding: 80px;
     max-width: calc(50% - 80px);
+  }
+  @media (min-width: 1600px) {
+    padding: 100px;
+    max-width: 700px;
   }
 }
 
@@ -69,9 +80,15 @@ footer {
 }
 
 .webrings {
+  margin-top: 50px;
   a {
     border: 0;
     font-weight: normal !important;
+  }
+}
+.journal {
+  article {
+    margin-bottom: 200px;
   }
 }
 
@@ -89,11 +106,10 @@ header {
  
 
 blockquote {
-  padding: 1.5em;
-  margin: 0;
+  padding: 0 1.5em;
+  margin: 1rem 0;
   font-size: 0.88em;
-  background: $color-box-background;
-  border-radius: $border-radius;
+  border-left: 5px solid rgba($color-subtext,0.2);
 
   p {
     margin: 0;
@@ -262,15 +278,182 @@ figure {
   figcaption { 
     color: $color-subtext;
     font-size: 80%;
-    @media screen and (min-width: 1200px) {
-      position: absolute;
-      width: 250px;
-      right: -300px;
-      top: 0;
-    } 
   }
 }
 
 strong, b {
   font-weight: 500;
+} 
+
+
+
+
+figcaption,
+.sidenote,
+.marginnote {
+  a { 
+    color: $color-subtext;
+    border-bottom: 1px solid $color-subtext;
+    background: 0;
+  }
 }
+
+
+
+.sidenote, .marginnote { 
+
+
+  @media screen and (min-width: 1200px) {
+    position: absolute; 
+    right: 0;
+    // float: right;
+    // clear: right;
+    // margin-right: 45%;
+    margin-right: 250px;
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 1.96rem;
+  } 
+  color: $color-subtext;
+  font-size: 80%;
+  line-height: 1.96; //changed to bring line heights into rational pattern
+  vertical-align: baseline; 
+}
+
+
+// li .sidenote, 
+// li .marginnote { 
+//   margin-right: -80%; 
+// } //added to allow for the fact that lists are indented and marginnotes and sidenotes push to right
+
+// blockquote .sidenote, 
+// blockquote .marginnote { 
+//   margin-right: -79% 
+// }
+
+.sidenote-number { 
+  counter-increment: sidenote-counter;  
+}
+
+.sidenote-number:after, 
+.sidenote:before { 
+  content: counter(sidenote-counter) " ";
+    position: relative;
+    vertical-align: baseline; 
+  }
+
+.sidenote-number:after { 
+  content: counter(sidenote-counter);
+  font-size: .6rem;
+  top: -0.5rem;
+  left: 0.1rem;  
+
+//   background: $color-snow;
+//   font-weight: 500;
+//   width: 15px;
+//   height: 15px;
+//   text-align: center;
+//   display: inline-block;
+//   line-height: 15px;
+//   border-radius: 50%;
+}
+
+.sidenote:before { 
+  content: counter(sidenote-counter) ".\000a0"; // this is unicode for a non-breaking space
+top: 0rem; 
+} //removed superscripting for numerical reference in sidenote
+
+// p, footer, 
+// div.table-wrapper,
+// .MJXc-display, 
+// .MathJax { 
+//   width: 55%; 
+// }
+
+// div.table-wrapper, table { 
+//   overflow-x: auto; 
+// } //changed all overflow values to 'auto' so scroll bars appear only as needed
+
+// @media screen and (max-width: 760px) { 
+//   p, footer { width: 90%; }
+//   pre code { width: 87.5%; }
+//   ul { width: 85%; }
+//   figure { max-width: 90%; }
+//   figcaption, 
+//   figure.fullwidth figcaption { 
+//     margin-right: 0%;
+//     max-width: none;
+//   }
+  
+//   blockquote p, 
+//   blockquote footer,
+//   div.epigraph > blockquote > footer,
+//   .MJXc-display { 
+//     width: 80%;
+//     padding-left: 5%;
+//     padding-right: 5%;
+//   }
+// }
+
+// .marginnote code, 
+// .sidenote code { 
+//   font-size: 1rem; 
+// } //more .code class removal
+
+// pre { width: 52.5%; //, pre code, p pre code are both selectors in tufte.css - they have been removed here to fix alignment issues
+// padding-left: 2.5%;
+// overflow-x: auto; }
+
+// .fullwidth, li.listing div{ max-width: 90%; }
+
+// .full-width { 
+//   .sidenote, 
+//   .sidenote-number, 
+//   .marginnote { 
+//     display: none; 
+//   }
+// }
+
+// span.newthought { 
+//   font-variant: small-caps;
+//   font-size: 1.2em;
+//   letter-spacing: 0.05rem; 
+// }
+
+input.margin-toggle { display: none; }
+
+label.sidenote-number { display: inline; }
+
+label.margin-toggle:not(.sidenote-number) { display: none; }
+
+@media (max-width: 1199px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: $color-subtext; }
+     .sidenote, .marginnote { display: none; }
+     .margin-toggle:checked + .sidenote,
+     .margin-toggle:checked + .marginnote { display: block;
+                                            float: left;
+                                            left: 1rem;
+                                            clear: both;
+                                            width: 95%;
+                                            margin: 1rem 2.5%;
+                                            vertical-align: baseline;
+                                            position: relative; }
+     label { cursor: pointer; }
+     pre, pre code, p code, p pre code { width: 90%;
+                padding: 0; }
+     .table-caption { display: block;
+                      float: right;
+                      clear: both;
+                      width: 98%;
+                      margin-top: 1rem;
+                      margin-bottom: 0.5rem;
+                      margin-left: 1%;
+                      margin-right: 1%;
+                      vertical-align: baseline;
+                      position: relative; }
+     div.table-wrapper, table, table.booktabs { width: 85%; }
+     div.table-wrapper { border-right: 1px solid #efefef; }
+     img { max-width: 100%; } 
+     figcaption.maincolumn-figure, figure.fullwidth figcaption { float:none; text-align: center;}
+     figure.fullwidth figcaption { margin-left: 0; }
+   }
+/*--- End of Basic Layout stuff from tufte.css ---*/

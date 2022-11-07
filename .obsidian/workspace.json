@@ -8,18 +8,71 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72c8dec5394093a0",
+            "id": "0a2d610101940205",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Uses.md",
+                "file": "_notes/Ali & Ava.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "4044a5b1a4f9ecda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/Colophon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed924478cf75ea3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/Colophon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08f2ab396c7864f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_notes/Styleguide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57149047d43d4b76",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "19b795aaa69f2495",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Uses.md",
+                "file": "_notes/Styleguide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Uses.md",
+                "file": "_notes/Styleguide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Uses.md"
+                "file": "_notes/Styleguide.md"
               }
             }
           }
@@ -136,17 +189,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "72c8dec5394093a0",
+  "active": "08f2ab396c7864f0",
   "lastOpenFiles": [
-    "_notes/about.md",
-    "_notes/Uses.md",
-    "_notes/UXInsight Festival 2022.md",
-    "_notes/Now.md",
-    "_notes/vine-and-fig.md",
-    "_notes/Watched in 2022.md",
-    "_notes/Webrings.md",
-    "_notes/Yoga.md",
-    "_notes/Taoism.md",
-    "_notes/Spirituality.md"
+    "_notes/Colophon.md",
+    "_notes/Styleguide.md",
+    "_notes/To do on this website.md",
+    "_notes/Website principles.md",
+    "_notes/Technical details.md",
+    "_notes/my name.md",
+    "_posts/2022-05-31-now.md",
+    "_posts/2022-04-23-weeknotes.md",
+    "_notes/Ali & Ava.md",
+    "_notes/Watched in 2022.md"
   ]
 }

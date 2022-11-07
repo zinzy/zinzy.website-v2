@@ -68,7 +68,7 @@ defaults:
   - scope:
       path: "_posts/**/*.md"
     values:
-      layout: "note"
+      layout: "post"
   - scope:
       path: "_pages/**/*.md"
     values:

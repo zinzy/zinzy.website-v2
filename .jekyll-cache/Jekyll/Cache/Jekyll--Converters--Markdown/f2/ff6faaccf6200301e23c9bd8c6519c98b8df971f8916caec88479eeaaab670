@@ -1,0 +1,45 @@
+I"�<h3 id="typography">Typography</h3>
+<p>This website makes use of your browser-native typeface. This way, I don’t have to go down a typeface-buying rabbit hole every time I want to redesign my website, and you don’t have to wait for the page to load.</p>
+
+<blockquote>
+  <p>This is a blockquote.</p>
+
+  <p>— Zinzy</p>
+</blockquote>
+
+<h3 id="images">Images</h3>
+<p>While this website isn’t image-heavy, I did provide myself with various options for displaying imagery.</p>
+
+<p><label for="mf-id-whatever" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-whatever" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1169/v1667833486/zinzy.website/robin-ooode-4ZtYoQavCVI-unsplash_zk5slz.jpg" /><br />Sometimes, images are better in the sidebar.</span></p>
+
+<figure>
+<img src="http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png" />
+<figcaption>In general, I use figure elements to display full-width images, adding attribution if I've used a source. Figures have fairly wide horizontal spacing.</figcaption>
+</figure>
+
+<p>This is a personal website, designed, built, and maintained by me, Zinzy.</p>
+
+<h3 id="about-this-space">About this space</h3>
+<ul>
+  <li>This website is casual, unpretentious, and unassuming.</li>
+  <li>On here, you’ll find soft stances, lived experiences, and critical notes on the things I hold dear.</li>
+  <li>It’s organized<label for="One" class="margin-toggle sidenote-number"></label><input type="checkbox" id="One" class="margin-toggle" /><span class="sidenote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus lacus vitae nisi posuere, eget luctus turpis eleifend. Sed non purus magna. </span> as a casual collection of unfinished thoughts.</li>
+  <li>This website lacks an archive or central index. Instead, it’s a collection of linked files. I like that this is essentially a scavenger hunt.</li>
+  <li>I use this website to participate in the IndieWeb, a great community of people who enjoy tinkering on personal websites, as well as independence while they do so.</li>
+</ul>
+
+<p><label for="mf-id-whatever" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-whatever" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png" /><br />Sometimes, images are better in the sidebar.</span></p>
+
+<h3 id="technical-details">Technical details</h3>
+<ul>
+  <li>This website is built in <a href="https://jekyllrb.com/">Jekyll</a>, a flat-file content management system I’ve been using for years. I like my familiarity with the platform, as well as the light-weight nature of flat-file systems.</li>
+  <li>I’ve taken <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">Maxime Vaillancourt</a> digital garden template for Jekyll as my starting point. I continue to change it on an almost daily basis.</li>
+  <li>The font you’re looking at is whatever is native to your operating system.</li>
+  <li>I’ve borrowed elements from <a href="https://www.clayharmon.com/">Clay Harmon</a>’s <a href="https://github.com/clayh53/tufte-jekyll/tree/4bee109052ce50ac97f03efd41d4988a43f4a456">Tufte Jekyll theme</a> to achieve a particular style of sidenotes originating from the work of <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>.</li>
+</ul>
+
+<h3 id="to-do-on-this-website">To do on this website</h3>
+<ul>
+  <li>Roam-style linking across content types <code class="language-plaintext highlighter-rouge">posts</code> and <code class="language-plaintext highlighter-rouge">notes</code></li>
+</ul>
+:ET

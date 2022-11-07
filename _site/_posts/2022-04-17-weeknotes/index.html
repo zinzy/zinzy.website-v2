@@ -47,14 +47,11 @@
     <main><article class="note">
   <header>
     <h2>Weeknotes for week 15, 2022</h2> 
-    <time datetime="2022-11-06T10:17:42+01:00">
-      Last updated on November 6, 2022
-      
-    </time>
+    <time>Sunday, 17 April, 2022</time>
   </header>
 
   <div id="notes-entry-container">
-    <content>
+    <content> 
       <p>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.</p>
 
 <p>I hold  a baby this week, one of my favorite ones. His face has two states that exist simultaneously: the one of utter shock and surprise only newborns can have, and the one that reminds you that babies know <em>everything</em> about the world and forget it as soon as they start to speak. He laughs when I bop his nose, although I quickly learn that the force with which I bop Anja’s adult nose shan’t be applied here.</p>
@@ -66,28 +63,26 @@
 <p>It took a while before I settled into a suitable solution for the way I produce content on this website. I write Markdown, and had set up <a href="https://mdxjs.com/">mdx</a> in case I ever needed some more complexity in my content files. I would mostly update content through my desktop client, but have <a href="https://workingcopyapp.com/">Working Copy</a> for iOS installed, which I enjoy as much as anyone could enjoy a touchscreen Git client. I was missing some functionalities that are natural to the way I generally write, and so I decided to move my content into an Obsidian vault. I could make a spiel about how I love the “slow web”-ness of writing things on my phone and only publishing them when I’m on my computer, but I simply haven’t figured out how to do it any other way.</p>
 
     </content> 
-
-    <side style="display: block;"> 
-      
-
-      
-    </side>
   </div>
 </article>
 </main>
     <footer>
 <p>This website is part of the IndieWeb. If you'd like to learn more about this website, its setup, and sharing permissions, please visit the <a href="/colophon">colophon</a>.</p>
 
-    <p class="webrings">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        An IndieWeb Webring 🕸💍
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-    </p>
+<div class="webrings">
 
-    <div class="webrings yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-    <script src="https://yesterweb.org/js/widget.js"></script></footer>
+  <p class="">
+    <span>
+      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+      An IndieWeb Webring 🕸💍
+      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+    </span>
+  </p>
+
+  <div class=" yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
+  <script src="https://yesterweb.org/js/widget.js"></script>
+
+</div> </footer>
  
     <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>
@@ -99,14 +94,16 @@
   #tooltip-wrapper {
     background: white;
     padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
     overflow: hidden;
     position: absolute;
     width: 400px;
     height: 250px;
     font-size: 0.8em;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
+-moz-box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
+box-shadow: 10px 10px 30px 0px rgba(132,146,166,0.3);
     opacity: 0;
     transition: opacity 100ms;
   }
@@ -229,6 +226,7 @@
 
   document.querySelectorAll('content a').forEach(setupListeners);
 </script>
+
 
   </body>
 </html>
