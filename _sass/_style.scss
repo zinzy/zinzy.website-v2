@@ -6,7 +6,7 @@ $color-subtext: #8492A6;
 $color-link-internal: #1FB6FF;
 $color-link-external: #FF49DB;
 $color-snow: #E0E6ED;
-$color-border: hsl(0, 0%, 85%);
+$color-border: $color-snow;
 $color-light: #fbfbfb;
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
@@ -120,7 +120,7 @@ hr {
   width: 100%;
   border: 0;
   height: 1px;
-  margin: 1.5em 0;
+  margin: 3em 0;
   background: $color-border;
 }
 

@@ -33,6 +33,7 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Karina Zavidova](http://zavidova.com)
 - [Laura Kalbag](https://laurakalbag.com)  
 - [Levi Wintering](http://leviwintering.com)  
+- [Marginalia](https://www.marginalia.nu/)
 - [Matthias Ott](https://matthiasott.com/)
 - [Max Kuzma](https://maxwellkuzma.com)
 - [Maxime Vaillancourt](https://maximevaillancourt.com) 
