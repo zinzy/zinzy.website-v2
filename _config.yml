@@ -44,13 +44,10 @@ sass:
 collections:
   posts:
     output: true
-    permalink: /:slug
+    permalink: /:year/:month/:day/:slug
   notes:
     output: true
-    permalink: /:slug
-  library:
-    output: true
-    permalink: /:slug
+    permalink: /:slug 
   links:
     output: true
     permalink: /:slug

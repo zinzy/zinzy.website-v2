@@ -1,32 +1,45 @@
 // @import "../_sass/tufte";
 
-$color-primary: #1F2D3D;
-$color-text:  #3C4858;
-$color-subtext: #8492A6;
-$color-link-internal: #1FB6FF;
-$color-link-external: #FF49DB;
-$color-snow: #E0E6ED;
-$color-border: $color-snow;
-$color-light: #fbfbfb;
-$color-box-background: mix($color-primary, white, 4%);
-$border-radius: 4px;
-$font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+html {
+  --color-primary: #1F2D3D;
+  --color-text:  #3C4858;
+  --color-subtext: #8492A6;
+  --color-link-internal: #1FB6FF; 
+  --color-link-external: #FF49DB; 
+  --color-snow: #E0E6ED;
+  --color-border: --color-snow;
+  --color-bg: #fbfbfb;
+  --color-box-background: mix(--color-primary, white, 4%);
+  --border-radius: 4px;
+  --font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 @media (prefers-color-scheme: dark) {
+  html {
+    --color-primary: #fff;
+    --color-text:  #E5E9F2;
+    --color-subtext: #8492A6; 
+    --color-snow: #E0E6ED;
+    --color-border: --color-snow;
+    --color-bg: #12161b;
+    --color-box-background: mix(--color-primary, white, 4%);
+  }
 
 }
+
+ 
 
 body, html {
   font-size: 20px;
 }
   
 body {
-  font-family: $font-family; 
-  background: $color-light;
+  font-family: var(--font-family);
+  background: var(--color-bg);
   box-sizing: content-box; 
   line-height: 1.7; 
   overflow-x: hidden;
-  color: $color-text;
+  color: var(--color-text);
   font-size: 1rem; 
   -webkit-font-smoothing: antialiased;
   padding: 30px; 
@@ -60,18 +73,18 @@ section {
 
 time {
   display: block;
-  color: $color-subtext;
+  color: var(--color-subtext);
   margin: 0.5em 0 1em;
 }
 
 footer {
   margin: 100px 0;
   font-size: 0.8em;
-  color: $color-subtext;
+  color: var(--color-subtext);
   padding-top: 1em;
   a { 
-    color: $color-subtext;
-    border-bottom: 1px solid $color-subtext; 
+    color: var(--color-subtext);
+    border-bottom: 1px solid var(--color-subtext);
     background: 0;
     &:after {
       content: ""
@@ -95,7 +108,7 @@ footer {
 header {
 
   a { 
-    color: $color-primary;
+    color: var(--color-primary);
     border-bottom: 0; 
     background: 0;
     &:after {
@@ -109,7 +122,7 @@ blockquote {
   padding: 0 1.5em;
   margin: 1rem 0;
   font-size: 0.88em;
-  border-left: 5px solid rgba($color-subtext,0.2);
+  border-left: 5px solid rgba(var(--color-subtext),0.2);
 
   p {
     margin: 0;
@@ -121,7 +134,7 @@ hr {
   border: 0;
   height: 1px;
   margin: 3em 0;
-  background: $color-border;
+  background: var(--color-border);
 }
 
 h1,
@@ -130,21 +143,25 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-primary;
+  color: var(--color-primary);
   line-height: 1.3;
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: normal;
+  a {
+    border: 0;
+  }
 }
 
 a {
   transition: background 300ms; 
   text-decoration: none;
-  color: $color-primary;
+  color: var(--color-primary);
   font-weight: normal; 
   font-weight: 500; 
-  background: rgba($color-link-external,0.1);
-  border-bottom: 3px solid $color-link-external;
+  // background: rgba(#1FB6FF,0.1);
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid var(--color-link-external);
   // &:after {
   //   position: relative;
   //   top: -0.5em;
@@ -153,9 +170,9 @@ a {
   //   color: #aaaaaa;
   // }
   &.internal-link {
-    color: $color-primary;
-    background: rgba($color-link-internal,0.1);
-    border-bottom: 3px solid $color-link-internal;
+    color: var(--color-primary);
+    // background: rgba(var(--color-link-internal),0.1);
+    border-bottom: 2px solid var(--color-link-internal);
   }     
   &.internal-link:after,
   &.footnote:after,
@@ -185,9 +202,9 @@ a {
 // }
 
 .backlink-box {
-  background: $color-box-background;
+  background: var(--color-box-background);
   padding: 1em;
-  border-radius: $border-radius;
+  border-radius: var(--border-radius);
 }
 
 code {
@@ -276,7 +293,7 @@ figure {
     margin: 0;
   }
   figcaption { 
-    color: $color-subtext;
+    color: var(--color-subtext);
     font-size: 80%;
   }
 }
@@ -297,8 +314,8 @@ figcaption,
 .sidenote,
 .marginnote {
   a { 
-    color: $color-subtext;
-    border-bottom: 1px solid $color-subtext;
+    color: var(--color-subtext);
+    border-bottom: 1px solid var(--color-subtext);
     background: 0;
   }
 }
@@ -319,7 +336,7 @@ figcaption,
     margin-top: 0;
     margin-bottom: 1.96rem;
   } 
-  color: $color-subtext;
+  color: var(--color-subtext);
   font-size: 80%;
   line-height: 1.96; //changed to bring line heights into rational pattern
   vertical-align: baseline; 
@@ -353,7 +370,7 @@ figcaption,
   top: -0.5rem;
   left: 0.1rem;  
 
-//   background: $color-snow;
+//   background: var(--color-snow);
 //   font-weight: 500;
 //   width: 15px;
 //   height: 15px;
@@ -420,7 +437,7 @@ top: 0rem;
 // }
 
 // span.newthought { 
-//   font-variant: small-caps;
+//   font-variant: small-caps);
 //   font-size: 1.2em;
 //   letter-spacing: 0.05rem; 
 // }
@@ -431,7 +448,11 @@ label.sidenote-number { display: inline; }
 
 label.margin-toggle:not(.sidenote-number) { display: none; }
 
-@media (max-width: 1199px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: $color-subtext; }
+@media (max-width: 1199px) { 
+      label.margin-toggle:not(.sidenote-number) { 
+        display: inline; 
+        color: var(--color-subtext);
+      }
      .sidenote, .marginnote { display: none; }
      .margin-toggle:checked + .sidenote,
      .margin-toggle:checked + .marginnote { display: block;
@@ -481,14 +502,14 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
         width: 15px !important;
         margin-right: .7rem;
         path {
-          fill: $color-subtext;
+          fill: var(--color-subtext);
         }
       }
     }
   }
   .attribution {
     font-size: .8rem;
-    color: $color-subtext;
+    color: var(--color-subtext);
     font-weight: normal;
     display: inline-block;
     margin-left: .7rem;
@@ -496,11 +517,11 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 }
 
 table {
-  border: 1px solid $color-snow;
+  border: 1px solid var(--color-snow);
   padding: 10px;
   border-radius: 5px;
   thead {  
-    color: $color-subtext;
+    color: var(--color-subtext);
     text-align: left;
     th {
       font-weight: 400;
