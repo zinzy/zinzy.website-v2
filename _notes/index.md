@@ -1,5 +1,6 @@
 ---
 layout: index
+id: "index"
 title: "Index"
 excerpt: ""
 ---

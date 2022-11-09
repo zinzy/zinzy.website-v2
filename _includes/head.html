@@ -39,10 +39,11 @@
   {% endif %}
 
   <title>
-    {% if page.id == "home" %}
+    {{site.title}}
+    <!-- {% if page.id == "index" %}
       {{ site.title }}
     {% else %}
       {{ page.title }} &mdash; {{ site.title }}
-    {% endif %}
+    {% endif %} -->
   </title>
 </head>
