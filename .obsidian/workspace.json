@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Yiddish.md",
+                "file": "_posts/2022-05-31-then.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Yiddish.md",
+                "file": "_posts/2022-05-31-then.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Yiddish.md",
+                "file": "_posts/2022-05-31-then.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Yiddish.md"
+                "file": "_posts/2022-05-31-then.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "7b6047673203ec97",
   "lastOpenFiles": [
-    "_notes/Colloquial Yiddish.md",
     "_notes/Yiddish.md",
+    "_notes/Colloquial Yiddish.md",
     "_notes/Now.md",
     "_notes/index.md",
     "_notes/Yiddish alphabet.md",
