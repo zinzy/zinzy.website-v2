@@ -35,8 +35,8 @@ body {
     padding: 100px;
   }
   @media (min-width: 1200px) {
-    padding: 80px;
-    max-width: calc(50% - 80px);
+    padding: 100px;
+    max-width: calc(50% - 100px);
   }
   @media (min-width: 1600px) {
     padding: 100px;
@@ -462,3 +462,63 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
      figure.fullwidth figcaption { margin-left: 0; }
    }
 /*--- End of Basic Layout stuff from tufte.css ---*/
+
+
+
+.links {
+  a {
+    background: 0;
+    border: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      margin-top: 2rem;
+      svg {
+        height: 15px !important;
+        width: 15px !important;
+        margin-right: .7rem;
+        path {
+          fill: $color-subtext;
+        }
+      }
+    }
+  }
+  .attribution {
+    font-size: .8rem;
+    color: $color-subtext;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: .7rem;
+  }
+}
+
+table {
+  border: 1px solid $color-snow;
+  padding: 10px;
+  border-radius: 5px;
+  thead {  
+    color: $color-subtext;
+    text-align: left;
+    th {
+      font-weight: 400;
+    }
+  }
+  td {
+    padding: 5px;
+  }
+}
+
+.alphabet {
+  svg {
+    margin-top: 15px;
+  }
+}
+
+.breakout { 
+    position: relative; 
+  left: 0; 
+  width: calc(100vw - 200px); 
+}

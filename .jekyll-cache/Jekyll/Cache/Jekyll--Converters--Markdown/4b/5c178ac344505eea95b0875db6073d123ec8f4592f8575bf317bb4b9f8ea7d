@@ -1,0 +1,480 @@
+I"4<p>Currently making my way through <em>Colloquial Yiddish</em>.</p>
+
+<h3 id="unpolished-study-notes">Unpolished study notes</h3>
+
+<p>Yiddish knows three main dialects as well as a formalized language:</p>
+<ul>
+  <li>Northeastern or Lithuanian Yiddish</li>
+  <li>Central or Polish Yiddish</li>
+  <li>Ukrainian Yiddisk</li>
+  <li>Standard Yiddish originated in the 20th century, largely based on the pronunciation of Northeastern Yiddish, while retaining some pronunciation from the other two</li>
+</ul>
+
+<p>The Yiddish alphabet consists of the Hebrew letters already known to me, with a few notable differences:</p>
+<ul>
+  <li>The diacritic niqqud signs used both in Hebrew learning materials isn’t used in Yiddish, aside from a number of signs used to distinguish between various pronunciations of the same letter. For me, it’s more straightforward than the fairly intricate niqqud system.</li>
+</ul>
+
+<p>Some notes on script and pronunciation:</p>
+<ul>
+  <li>The <em>yud</em> neighboring vowels is a <code class="language-plaintext highlighter-rouge">j</code>, otherwise as an <code class="language-plaintext highlighter-rouge">i</code></li>
+  <li>Much like Hebrew, Yiddish uses a <em>shtumer alef</em> as a booster seat for vowels at the beginning of a work</li>
+  <li><em>Chirek yud</em> helps distinguish between the <code class="language-plaintext highlighter-rouge">i</code> and <code class="language-plaintext highlighter-rouge">j</code> sounds, so that Yiddish can be spelled <em>יידיש</em>.</li>
+</ul>
+
+<h3 id="alphabet">Alphabet</h3>
+
+<p>In writing phonetics, I’ve used the thing that works best for me: the way I would pronounce it in Dutch.</p>
+
+<table class="breakout">
+    <thead>
+        <td>Letter</td>
+        <td>Print</td>
+        <td>Cursive</td>
+        <td>Example</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M16 9.99643C15.7817 9.68013 15.5439 9.47632 15.2865 9.38514C15.1107 9.32278 14.8608 9.28598 14.537 9.27461C14.2133 9.26316 13.9455 9.26875 13.7339 9.2914C13.5224 9.31405 13.3034 9.36275 13.077 9.43763C12.8506 9.5125 12.6193 9.60896 12.3831 9.72716C12.1468 9.84536 11.9028 9.98258 11.6509 10.1388C11.399 10.295 11.1694 10.4708 10.962 10.666C10.7547 10.8612 10.5642 11.0771 10.3906 11.3136C10.217 11.5502 10.0665 11.8023 9.93922 12.0701C9.81192 12.3379 9.72255 12.5921 9.67108 12.833C9.61961 13.0738 9.58931 13.3036 9.5802 13.5221C9.57108 13.7407 9.5759 13.9352 9.59467 14.1057C9.61343 14.2761 9.65988 14.4326 9.734 14.575C9.80811 14.7174 9.87349 14.8225 9.9301 14.8903C9.98673 14.958 10.0844 15.0447 10.223 15.1505C10.3616 15.2562 10.4761 15.328 10.5664 15.3656C10.6567 15.4034 10.8111 15.4373 11.0295 15.4674C11.2479 15.4976 11.4937 15.5164 11.7668 15.5238C12.04 15.5312 12.3289 15.5295 12.6337 15.5185C12.9384 15.5075 13.2297 15.4765 13.5072 15.4256C13.9209 15.3496 14.3396 15.2184 14.7634 15.0321M9.88377 2.0986C9.93755 1.72324 9.96569 1.52686 9.96818 1.5094M9.96818 1.5094L9.96937 1.5M9.96818 1.5094C9.96609 1.52135 9.94834 1.61986 9.91594 1.80552C9.88354 1.99126 9.7644 2.4289 9.55853 3.11834C9.35265 3.80786 9.16787 4.41854 9.00419 4.95032C8.84051 5.48219 8.65153 6.11009 8.43727 6.83404C8.22302 7.55807 8.00406 8.30253 7.7804 9.06742C7.55675 9.83239 7.34273 10.538 7.13834 11.1844C6.93394 11.8308 6.67444 12.6644 6.35984 13.6852C6.04524 14.706 5.80323 15.5368 5.63381 16.1778C5.46439 16.8187 5.32716 17.321 5.22213 17.6847C5.1171 18.0485 5.05419 18.2736 5.03343 18.3602C5.01265 18.4466 5.00159 18.4927 5.00027 18.4982C4.99895 18.5037 5.00249 18.4965 5.0109 18.4764C5.02281 18.4481 5.15905 18.1233 5.41963 17.5023" stroke="black" stroke-width="2.45669" stroke-linecap="round" stroke-linejoin="round" />
+			</svg></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Pasech alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Komets alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Beis</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+            <td>Sjtoemer alef</td>
+            <td>א</td>
+            <td></td>
+            <td>Also = אױך (oik)</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="breakout">
+<div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Letter</th>
+          <th>Print</th>
+          <th>Cursive</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sjtoemer alef</td>
+          <td>א</td>
+          <td> </td>
+          <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+          <td>Pasech alef</td>
+          <td>ַא</td>
+          <td>…</td>
+          <td>F<strong>a</strong>ther</td>
+        </tr>
+        <tr>
+          <td>Komets alef</td>
+          <td>אָ</td>
+          <td>…</td>
+          <td>F<strong>o</strong>r</td>
+        </tr>
+        <tr>
+          <td>Beis</td>
+          <td>ב</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veis</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Giml</td>
+          <td>ג</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Dalet</td>
+          <td>ד</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Hey</td>
+          <td>ה</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Vov</td>
+          <td>ו</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tsveej vovn</td>
+          <td>וו</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Meloepm vov</td>
+          <td>וּ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Zajèn</td>
+          <td>ז</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Ches</td>
+          <td>ח</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tes</td>
+          <td>ט</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Joed</td>
+          <td>י</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Chirek joed</td>
+          <td>יִ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tsveej joedn</td>
+          <td>ײ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Pasech tsveej joedn</td>
+          <td>ײַ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Vov joed</td>
+          <td>ױ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Kof</td>
+          <td>כּ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Chof</td>
+          <td>כ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Langer chof</td>
+          <td>ך</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Lamed</td>
+          <td>ל</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Mem</td>
+          <td>מ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Shlos mem</td>
+          <td>ם</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Noen</td>
+          <td>נ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Langer noen</td>
+          <td>ן</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Samech</td>
+          <td>ס</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Ayèn</td>
+          <td>ע</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Peej</td>
+          <td>פּ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Feej</td>
+          <td>פֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Langer feej</td>
+          <td>ף</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tsadek</td>
+          <td>צ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Langer tsadek</td>
+          <td>ץ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Koef</td>
+          <td>ק</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Reesj</td>
+          <td>ר</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Sin</td>
+          <td>ש</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Shin</td>
+          <td>שׂ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tof</td>
+          <td>תּ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Sof</td>
+          <td>ת</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+:ET

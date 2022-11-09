@@ -1,5 +1,5 @@
 title:               Zinzy Waleson's working notes
-include:             ['_pages','_posts','_library']
+include:             ['_pages','_posts','_library','_links']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
@@ -51,6 +51,9 @@ collections:
   library:
     output: true
     permalink: /:slug
+  links:
+    output: true
+    permalink: /:slug
 
 defaults:
   - scope:
@@ -73,3 +76,7 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page"
+  - scope:
+      path: "_links/**/*.md"
+    values:
+      layout: "links"

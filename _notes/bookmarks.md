@@ -3,7 +3,11 @@ category: "Lists"
 ---
 In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
 
-## People
+### Friends
+- [Annelie Wambeek](https://www.anneliewambeek.com)
+- [Patrick "Pickles" Weston](http://patrickfweston.com) 
+
+### Personal sites
 - [Amy Hupe](https://amyhupe.co.uk/)
 - [Ana Rodrigues](https://ohhelloana.blog)
 - [Anders Jensen-Urstad](https://anders.unix.se/) 
@@ -39,7 +43,6 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Maxime Vaillancourt](https://maximevaillancourt.com) 
 - [Parimal Satyal](https://neustadt.fr/) 
 - [Patrick Rhone](https://www.patrickrhone.net)
-- [Patrick "Pickles" Weston](http://patrickfweston.com) 
 - [Richard Stallman](https://stallman.org/)
 - [Ru Singh](https://rusingh.com)
 - [Salim Virani](https://salimvirani.com)  
@@ -52,27 +55,30 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Tom Hackshaw](https://tom.so)  
 - [Thomasorus](https://thomasorus.com)  
 
-## Communities
+### Communities
 - [IndieWeb](https://indieweb.org/)
 - [An IndieWeb Webring](https://xn--sr8hvo.ws/)
 - [Yesterweb](https://yesterweb.org/)
 
-## Collectives
+### Collectives
 - [Dan & Richard & You](https://danandrichardandyou.com)
 - [Other Internet](https://otherinter.net)
 
-## Media
-- [Internet History Podcast](https://www.internethistorypodcast.com) 
-
-## Crafts
-- [Needle 'n Thread](https://www.needlenthread.com/tips-techniques#tntlessons)
-
-## Cooking 
+### Cooking 
 - [Ahead of Thyme](https://www.aheadofthyme.com/)
 - [Alexandra Cooks](https://alexandracooks.com/) 
 - [Just One Cookbook](https://www.justonecookbook.com/)
 - [Lady and Pups](https://ladyandpups.com/) 
 - [Smitten Kitchen](https://smittenkitchen.com/)
 
-## Self care
+### Crafts
+- [Needle 'n Thread](https://www.needlenthread.com/tips-techniques#tntlessons)
+
+### Language
+- [Language Jones](https://www.languagejones.com/)
+
+### Media
+- [Internet History Podcast](https://www.internethistorypodcast.com)  
+
+### Self care
 - [https://curlsandcocoa.com](https://curlsandcocoa.com/)

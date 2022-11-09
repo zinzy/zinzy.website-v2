@@ -1,0 +1,179 @@
+I"=<p>Currently making my way through <em>Colloquial Yiddish</em>.</p>
+
+<h3 id="unpolished-study-notes">Unpolished study notes</h3>
+
+<p>Yiddish knows three main dialects as well as a formalized language:</p>
+<ul>
+  <li>Northeastern or Lithuanian Yiddish</li>
+  <li>Central or Polish Yiddish</li>
+  <li>Ukrainian Yiddisk</li>
+  <li>Standard Yiddish originated in the 20th century, largely based on the pronunciation of Northeastern Yiddish, while retaining some pronunciation from the other two</li>
+</ul>
+
+<p>The Yiddish alphabet consists of the Hebrew letters already known to me, with a few notable differences:</p>
+<ul>
+  <li>The diacritic niqqud signs used both in Hebrew learning materials isn’t used in Yiddish, aside from a number of signs used to distinguish between various pronunciations of the same letter. For me, it’s more straightforward than the fairly intricate niqqud system.</li>
+</ul>
+
+<p>Some notes on script and pronunciation:</p>
+<ul>
+  <li>The <em>yud</em> neighboring vowels is a <code class="language-plaintext highlighter-rouge">j</code>, otherwise as an <code class="language-plaintext highlighter-rouge">i</code></li>
+  <li>Much like Hebrew, Yiddish uses a <em>shtumer alef</em> as a booster seat for vowels at the beginning of a work</li>
+  <li><em>Chirek yud</em> helps distinguish between the <code class="language-plaintext highlighter-rouge">i</code> and <code class="language-plaintext highlighter-rouge">j</code> sounds, so that Yiddish can be spelled <em>יידיש</em>.</li>
+</ul>
+
+<h3 id="alphabet">Alphabet</h3>
+
+<p>In writing phonetics, I’ve used the thing that works best for me: the way I would pronounce it in Dutch.</p>
+
+<div class="breakout">
+<div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Letter</th>
+          <th>Print</th>
+          <th>Cursive</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sjtoemer alef</td>
+          <td>א</td>
+          <td>…</td>
+          <td>Also = אױך (oik)</td>
+        </tr>
+        <tr>
+          <td>Pasech alef</td>
+          <td>ַא</td>
+          <td>…</td>
+          <td>F<strong>a</strong>ther</td>
+        </tr>
+        <tr>
+          <td>Komets alef</td>
+          <td>אָ</td>
+          <td>…</td>
+          <td>F<strong>o</strong>r</td>
+        </tr>
+        <tr>
+          <td>Beys</td>
+          <td>ב</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Giml</td>
+          <td>ג</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Dalet</td>
+          <td>ד</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Hey</td>
+          <td>ה</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Vov</td>
+          <td>ו</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Tsvey vovn</td>
+          <td>וו</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Meloepm vov</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+        <tr>
+          <td>Veys</td>
+          <td>בֿ</td>
+          <td>…</td>
+          <td>…</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+:ET
