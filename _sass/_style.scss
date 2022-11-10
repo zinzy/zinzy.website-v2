@@ -75,6 +75,11 @@ time {
   display: block;
   color: var(--color-subtext);
   margin: 0.5em 0 1em;
+  a {
+    font-weight: normal;
+    color: var(--color-subtext);
+    border: 0;
+  }
 }
 
 footer {
