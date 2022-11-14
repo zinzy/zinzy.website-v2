@@ -1,13 +1,14 @@
-// @import "../_sass/tufte";
+@import "../_sass/grid";
 
 html {
   --color-primary: #1F2D3D;
   --color-text:  #3C4858;
   --color-subtext: #8492A6;
-  --color-link-internal: #1FB6FF; 
-  --color-link-external: #FF49DB; 
+  --color-link-internal: #1F2D3D; 
+  --color-link-external:  var(--color-smoke); 
+  --color-smoke: #C0CCDA;
   --color-snow: #E0E6ED;
-  --color-border: --color-snow;
+  --color-border: var(--color-snow);
   --color-bg: #fbfbfb;
   --color-box-background: mix(--color-primary, white, 4%);
   --border-radius: 4px;
@@ -30,7 +31,7 @@ html {
  
 
 body, html {
-  font-size: 20px;
+  font-size: 18px;
 }
   
 body {
@@ -42,24 +43,24 @@ body {
   color: var(--color-text);
   font-size: 1rem; 
   -webkit-font-smoothing: antialiased;
-  padding: 30px; 
+  padding: 50px; 
   counter-reset: sidenote-counter; 
-  @media (min-width: 600px) {
-    padding: 100px;
-  }
-  @media (min-width: 1200px) {
-    padding: 100px;
-    max-width: calc(50% - 100px);
-  }
-  @media (min-width: 1600px) {
-    padding: 100px;
-    max-width: 700px;
-  }
+  // @media (min-width: 600px) {
+  //   padding: 100px;
+  // }
+  // @media (min-width: 1200px) {
+  //   padding: 100px;
+  //   max-width: calc(50% - 100px);
+  // }
+  // @media (min-width: 1600px) {
+  //   padding: 100px;
+  //   max-width: 700px;
+  // }
 }
 
-section {
-  margin-top: 100px;
-}
+// section {
+//   margin-top: 100px;
+// }
 
 .break-out {
   position: relative;
@@ -73,26 +74,28 @@ section {
 
 time {
   display: block;
-  color: var(--color-subtext);
-  margin: 0.5em 0 1em;
-  a {
-    font-weight: normal;
-    color: var(--color-subtext);
-    border: 0;
-  }
+  // color: var(--color-subtext);
+  // margin: 0.5em 0 1em;
+  margin: 0 0 1rem 0; 
 }
 
-footer {
-  margin: 100px 0;
-  font-size: 0.8em;
-  color: var(--color-subtext);
+#footer {
+  margin: 100px 0 0 0;
+  font-size: 0.8em; 
   padding-top: 1em;
-  a { 
-    color: var(--color-subtext);
-    border-bottom: 1px solid var(--color-subtext);
-    background: 0;
-    &:after {
-      content: ""
+  border-top: 1px solid var(--color-primary); 
+  ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important; 
+    @media screen and (min-width: 768px) {
+      text-align: right;
+    }
+    li { 
+      @media screen and (min-width: 768px) {
+        display: inline-block;
+        margin-left: 2rem;
+      }
     }
   }
 }
@@ -106,21 +109,21 @@ footer {
 }
 .journal {
   article {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 }
 
-header {
+// header {
 
-  a { 
-    color: var(--color-primary);
-    border-bottom: 0; 
-    background: 0;
-    &:after {
-      content: ""
-    }
-  }
-}
+//   a { 
+//     color: var(--color-primary);
+//     border-bottom: 0; 
+//     background: 0;
+//     &:after {
+//       content: ""
+//     }
+//   }
+// }
  
 
 blockquote {
@@ -134,11 +137,15 @@ blockquote {
   }
 }
 
+ p {
+  margin: 0 0 1rem 0;
+ }
+
 hr {
   width: 100%;
   border: 0;
   height: 1px;
-  margin: 3em 0;
+  margin: 1.5em 0;
   background: var(--color-border);
 }
 
@@ -153,20 +160,18 @@ h6 {
   margin-bottom: 0;
   padding-bottom: 0;
   font-weight: normal;
-  a {
-    border: 0;
-  }
+  // a {
+  //   border: 0;
+  // }
 }
 
 a {
   transition: background 300ms; 
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-primary);
-  font-weight: normal; 
-  font-weight: 500; 
-  // background: rgba(#1FB6FF,0.1);
-  padding: 0 0 2px 0;
-  border-bottom: 2px solid var(--color-link-external);
+  font-weight: normal;   
+  padding: 0;
+  border: 0; 
   // &:after {
   //   position: relative;
   //   top: -0.5em;
@@ -174,10 +179,9 @@ a {
   //   content: "↗";
   //   color: #aaaaaa;
   // }
-  &.internal-link {
-    color: var(--color-primary);
-    // background: rgba(var(--color-link-internal),0.1);
-    border-bottom: 2px solid var(--color-link-internal);
+  &.internal-link, :not([target=_blank])
+   {
+    color: var(--color-primary); 
   }     
   &.internal-link:after,
   &.footnote:after,
@@ -234,26 +238,22 @@ code {
  
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  font-weight: 500;
+  font-weight: 400;
+  margin-top: 0;
 } 
 
-.note {
-  margin: 100px 0;
+.note { 
   header {margin-bottom: 50px;}
-  side {
-    margin-top: 100px;
-  }
-}
-main {
-  margin: 200px 0;
+  // side {
+  //   margin-top: 100px;
+  // }
+  // margin: 100px 0;
 }
 
-.journal {
-  article {
-    margin-bottom: 200px;
-  }
-}
-
+// main {
+//   margin: 200px 0;
+// }
+ 
 
 article {
   h3 {
@@ -298,7 +298,7 @@ figure {
     margin: 0;
   }
   figcaption { 
-    color: var(--color-subtext);
+    // color: var(--color-subtext);
     font-size: 80%;
   }
 }
@@ -319,8 +319,8 @@ figcaption,
 .sidenote,
 .marginnote {
   a { 
-    color: var(--color-subtext);
-    border-bottom: 1px solid var(--color-subtext);
+    // color: var(--color-subtext);
+    // border-bottom: 1px solid var(--color-primary);
     background: 0;
   }
 }
@@ -341,7 +341,7 @@ figcaption,
     margin-top: 0;
     margin-bottom: 1.96rem;
   } 
-  color: var(--color-subtext);
+  // color: var(--color-subtext);
   font-size: 80%;
   line-height: 1.96; //changed to bring line heights into rational pattern
   vertical-align: baseline; 
@@ -547,4 +547,23 @@ table {
     position: relative; 
   left: 0; 
   width: calc(100vw - 200px); 
+}
+ 
+
+
+#header {
+  // height: 100vh;
+  // background: pink;
+  @media screen and (min-width: 768px) {
+    position: fixed;
+  }
+}
+
+.fixed-content {
+  content {
+    height: 100vh;
+    // background: pink;
+    width: 100%;
+    position: fixed;
+  }
 }

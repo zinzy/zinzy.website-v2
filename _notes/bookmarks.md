@@ -54,6 +54,12 @@ In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to vis
 - [Tom Critchlow](https://tomcritchlow.com) 
 - [Tom Hackshaw](https://tom.so)  
 - [Thomasorus](https://thomasorus.com)  
+- https://filipedonadio.com/
+- https://nicolevanderhoeven.com/
+- https://heymichellemac.com/
+- https://wilw.dev/
+- https://www.senseantisense.com/
+- https://shawnjr.online/
 
 ### Communities
 - [IndieWeb](https://indieweb.org/)

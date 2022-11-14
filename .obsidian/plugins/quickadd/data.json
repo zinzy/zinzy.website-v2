@@ -1,0 +1,62 @@
+{
+  "choices": [
+    {
+      "id": "6ce813c4-41e9-4922-bd08-926afe389520",
+      "name": "Add note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/note",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{NAME}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "_notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c41d56e8-0800-498f-9b39-7265e471aa2a",
+      "name": "Add post",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/post",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}-{{NAME}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "_posts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

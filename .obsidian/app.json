@@ -2,5 +2,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "_notes",
   "alwaysUpdateLinks": true,
-  "livePreview": false
+  "livePreview": false,
+  "promptDelete": false
 }

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d72dc62ac944d070",
+        "id": "20bce48629e0e741",
         "type": "tabs",
         "children": [
           {
-            "id": "7b6047673203ec97",
+            "id": "b3a105cf68c9b721",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_links/2022-11-08-indie-web-manifesto.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9a847448459bb2bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-10-glenn-gould-humming.md",
+                "file": "_notes/Ethics.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-10-glenn-gould-humming.md",
+                "file": "_notes/Ethics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-10-glenn-gould-humming.md",
+                "file": "_notes/Ethics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-10-glenn-gould-humming.md"
+                "file": "_notes/Ethics.md"
               }
             }
           }
@@ -149,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a847448459bb2bd",
+  "active": "b3a105cf68c9b721",
   "lastOpenFiles": [
-    "_posts/2022-05-31-then.md",
-    "_posts/2022-11-10-glenn-gould-humming.md",
-    "_links/2022-11-08-indie-web-manifesto.md",
-    "_notes/Yiddish.md",
-    "_notes/Colloquial Yiddish.md",
-    "_notes/Now.md",
-    "_notes/index.md",
-    "_notes/Yiddish alphabet.md",
-    "_posts/2022-11-06-weeknotes.md",
-    "_notes/Golden Girls.md"
+    "_notes/Colophon.md",
+    "_notes/Ethics.md",
+    "_templates/note.md",
+    "_notes/Consumption.md",
+    "_notes/Africa is not a country.md",
+    "_notes/Ali & Ava.md",
+    "_notes/academic-opportunities.md",
+    "_notes/About.md",
+    "_notes/2020 in music.md",
+    "_notes/2019 in music.md"
   ]
 }

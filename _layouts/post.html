@@ -2,15 +2,20 @@
 layout: default
 ---
 
-<article class="note">
-  <header>
-    <h2>{{ page.title }}</h2> 
-    <time>{{page.date | date: "%A, %e %B, %Y"  }}</time>
-  </header>
-
-  <div id="notes-entry-container">
-    <content> 
-      {{ content }}
-    </content> 
+<div class="row">
+  <div class="col-lg-6">
+    <article class="note">
+      <header>
+        <h2>{{ page.title }}</h2> 
+        <time>{{page.date | date: "%A, %e %B, %Y"  }}</time>
+      </header>
+    
+      <div id="notes-entry-container">
+        <content> 
+          {{ content }}
+        </content> 
+      </div>
+    </article>
+    
   </div>
-</article>
+</div>

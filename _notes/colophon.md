@@ -17,9 +17,6 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - The font you're looking at is whatever is native to your operating system.
 - I've borrowed elements from [Clay Harmon](https://www.clayharmon.com/)'s [Tufte Jekyll theme](https://github.com/clayh53/tufte-jekyll/tree/4bee109052ce50ac97f03efd41d4988a43f4a456) to achieve a particular style of sidenotes originating from the work of [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte).
 
-### Principles
-- This website doesn't track users. Unless you tell me, I have no way of knowing that you're here.
-
 ### To do on this website
 - Roam-style linking across content types `posts` and `notes`
 - Proper case handling of note titles
