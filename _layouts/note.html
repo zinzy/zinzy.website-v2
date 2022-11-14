@@ -6,11 +6,8 @@ layout: default
   <div class="col-lg-6">
     <article class="note">
       <header>
-        <h2>{{ page.title }}</h2> 
-        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
-          Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
-          {% endif %}
-        </time>
+        <h2 class="m-0">{{ page.title }}</h2>  
+        <p><small>{{page.excerpt}}</small></p>
       </header>
     
       <div id="notes-entry-container">
@@ -18,7 +15,17 @@ layout: default
           {{ content }}
         </content> 
     
-        <side style="display: block;"> 
+        <footer> 
+
+          <hr>
+
+
+        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+          Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
+          {% endif %}
+        </time>
+
+
           {% if page.backlinks.size > 0 %}
 
           <hr>
@@ -39,7 +46,7 @@ layout: default
           {% else %}
     
           {% endif %}
-        </side>
+        </footer>
       </div>
     </article>
   </div>
