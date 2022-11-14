@@ -22,11 +22,15 @@ I came to Utrecht to study the letters, and I enjoyed the seemingly endless lear
 
 Before I put my study books on the shelf for good, I spent a year in seminary studying theology at VU University. It taught me volumes on church history, how infinitely weird Scripture really is, and how strong one's back must be to be a queer person studying alongside young conservative. I left after a year.
 
+----
+
 ### A little magic
 
 {% marginfigure 'mf-id-whatever' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1668440263/me/pride2019_amdadz.jpg' 'Me enjoying Pride Week in 2019' %}
 
 As an afropean queer person of color, travelling life isn't the most straightforward endeavor. In the past few years I've been involved in founding and leading queer community spaces for people to connect and recharge. As a queer facilitator, I enjoy bringing together people from all walks of life. In the Spring of 2018, I founded Queer Salon, a slow-paced gathering in Amsterdam. In 2020, on the cusp of the pandemic, I joined Vine & Fig. 
+
+----
 
 ### Life these days
 I live on the East side of Amsterdam (which happens to be the best), where I share a shoebox and small-but-vibrant garden with my partner. I enjoy writing, which I do casually, both in diary and essay form. At heart and by training, I'm a lover of stories: the way they take shape, the things I experience with them, and the ways in which they shape societies. I also love making and writing music. I was a band geek for most of my childhood, and taught myself to play a variety of instruments. These days, I mostly focus on the guitar.
