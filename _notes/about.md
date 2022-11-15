@@ -1,7 +1,7 @@
 ---
-title: "About Zinzy Waleson"
+title: "About"
 category: "meta"
-excerpt: "I'm a researcher, designer, and linguist from Amsterdam"
+excerpt: "I'm Zinzy Waleson, a researcher, designer, and linguist from Amsterdam"
 tags:
 - meta
 - information

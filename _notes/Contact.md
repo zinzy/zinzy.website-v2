@@ -7,4 +7,4 @@ tags:
 - meta
 - information
 ---
-Great that you want to send me an email. I usually respond within 2-3 days. Make it good!
+Great that you want to send me an email. I don't send my email every day, but I'll read it. Make it good!
