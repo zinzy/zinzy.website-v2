@@ -4,7 +4,7 @@ excerpt: "I'm a researcher, designer, and linguist from Amsterdam"
 ---
 ### A little context
 
-{% marginfigure 'mf-id-whatever' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1667744670/me/zinzy-1_telofx.jpg' '' %}
+{% marginfigure 'Me' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1667744670/me/zinzy-1_telofx.jpg' '' %}
 
 I exist at the intersection of research, design, language, and strategy, which mostly means I like to tell a good story. Firstly, I do this here, on my personal website. This website is very much a personal account of some of the areas of my life. You'll find that I write as freely about my work as I do about my health issues. I do this in the name of integrity, not because I have a need to overshare. Check out my [[colophon]] to learn more about this space.
 
@@ -14,7 +14,7 @@ I love the independence, creativity, and plurality that comes with the Internet,
 
 ### A little history
 
-{% marginfigure 'mf-id-whatever' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1668440273/me/six.jpg' 'Me, my lesbian shirt, and my glorious underbite. My therapist and I sometimes talk about the terror we can see in my eyes.' %}
+{% marginfigure 'Meme' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1668440273/me/six.jpg' 'Me, my lesbian shirt, and my glorious underbite. My therapist and I sometimes talk about the terror we can see in my eyes.' %}
 
 I was born and raised in the South of the Netherlands, in a complex childhood marked by marching bands, an overabundance of food, and question marks about who, amid everybody else, I am. 
 
@@ -26,7 +26,7 @@ Before I put my study books on the shelf for good, I spent a year in seminary st
 
 ### A little magic
 
-{% marginfigure 'mf-id-whatever' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1668440263/me/pride2019_amdadz.jpg' 'Me enjoying Pride Week in 2019' %}
+{% marginfigure 'Mememe' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1668440263/me/pride2019_amdadz.jpg' 'Me enjoying Pride Week in 2019' %}
 
 As an afropean queer person of color, travelling life isn't the most straightforward endeavor. In the past few years I've been involved in founding and leading queer community spaces for people to connect and recharge. As a queer facilitator, I enjoy bringing together people from all walks of life. In the Spring of 2018, I founded Queer Salon, a slow-paced gathering in Amsterdam. In 2020, on the cusp of the pandemic, I joined Vine & Fig. 
 
