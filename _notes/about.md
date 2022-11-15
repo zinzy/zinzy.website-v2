@@ -10,9 +10,11 @@ tags:
 
 {% marginfigure 'me-now' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_600/v1667744670/me/zinzy-1_telofx.jpg' '' %}
 
-I exist at the intersection of research, design, language, and strategy, which mostly means I like to tell a good story. Firstly, I do this here, on my personal website. This website is very much a personal account of some of the areas of my life. You'll find that I write as freely about my work as I do about my health issues. I do this in the name of integrity, not because I have a need to overshare. Check out my [[colophon]] to learn more about this space.
+I've worked as a gardener, a cigarette seller, a barista, a bookseller, a research assistant, a telemarketer, bartender, a tutor, a photographer, a programmer, and a project manager. Primarily, I have fifteen years of experience driving design at companies that make digital products.
 
-I love the independence, creativity, and plurality that comes with the Internet, and I aim to bring the same to the people who use the things I make. At present, I manage design and product at Leeruniek, a startup in educational technology. It's great to be part of a magnificent group curious folks looking to make the world better for crucial workers. Before this, I spent five years leading design at Airtrade, a market leader in travel technology. I cut my creative teeth at Studio Zinzy, which I founded in 2008 to pay not so much for the books and beers I needed in university.
+I work at the intersection of research, design, language, and strategy, which mostly means I like to tell a good story. Firstly, I do this here, on my personal website. This website is very much a personal account of some of the areas of my life. You'll find that I write as freely about my work as I do about my health issues. I do this in the name of integrity, not because I have a need to overshare. Check out my [[colophon]] to learn more about this space.
+
+I love the independence, creativity, and plurality that comes with the Internet, and I aim to bring the same to the people who use the things I make. At present, I manage design and product at [[Leeruniek]], a startup in educational technology. It's great to be part of a magnificent group curious folks looking to make the world better for crucial workers. Before this, I spent five years leading design at Airtrade, a market leader in travel technology. I cut my creative teeth at Studio Zinzy, which I founded in 2008 to pay not so much for the books and beers I needed in university.
 
 ----
 

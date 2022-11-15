@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/About.md",
+                "file": "_notes/Hello.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/About.md",
+                "file": "_notes/Hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/About.md",
+                "file": "_notes/Hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/About.md"
+                "file": "_notes/Hello.md"
               }
             }
           }
@@ -138,10 +138,10 @@
   },
   "active": "4101a863ec6c61e3",
   "lastOpenFiles": [
-    "_notes/Hello.md",
-    "_notes/Contact.md",
     "_notes/index.md",
     "_notes/About.md",
+    "_notes/Hello.md",
+    "_notes/Contact.md",
     "_notes/faq.md",
     "_notes/Africa is not a country.md",
     "_notes/Ethics.md",
