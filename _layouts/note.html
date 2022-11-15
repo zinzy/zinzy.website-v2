@@ -1,53 +1,41 @@
 ---
 layout: default
 ---
+<article class="note"> 
+  <div id="notes-entry-container">
+    <content>
+      {{ content }}
+    </content> 
 
-<div class="row">
-  <div class="col-lg-8">
-    <article class="note">
-      <header>
-        <h2 class="m-0">{{ page.title }}</h2>  
-        <p><small>{{page.excerpt}}</small></p>
-      </header>
-    
-      <div id="notes-entry-container">
-        <content>
-          {{ content }}
-        </content> 
-    
-        <footer> 
+    <footer> 
 
-          <hr>
+      <hr>
+    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+      Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
+      {% endif %}
+    </time>
 
 
-        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
-          Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
-          {% endif %}
-        </time>
+      {% if page.backlinks.size > 0 %}
 
+      <hr>
 
-          {% if page.backlinks.size > 0 %}
-
-          <hr>
-    
-          <h3>Mentioned in</h3> 
-          <div>
-            <ul>
-              {% for backlink in page.backlinks %}
-              <li>
-                <div>
-                <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
-                <!-- <div>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div> -->
-                </div>
-              </li>
-              {% endfor %}
-            </ul> 
-          </div>
-          {% else %}
-    
-          {% endif %}
-        </footer>
+      <h3>Mentioned in</h3> 
+      <div>
+        <ul>
+          {% for backlink in page.backlinks %}
+          <li>
+            <div>
+            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
+            <!-- <div>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div> -->
+            </div>
+          </li>
+          {% endfor %}
+        </ul> 
       </div>
-    </article>
+      {% else %}
+
+      {% endif %}
+    </footer>
   </div>
-</div>
+</article>

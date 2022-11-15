@@ -45,22 +45,19 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 50px; 
   counter-reset: sidenote-counter; 
-  // @media (min-width: 600px) {
-  //   padding: 100px;
-  // }
-  // @media (min-width: 1200px) {
-  //   padding: 100px;
-  //   max-width: calc(50% - 100px);
-  // }
-  // @media (min-width: 1600px) {
-  //   padding: 100px;
-  //   max-width: 700px;
-  // }
+  @media (min-width: 768px) {
+    padding: 0;
+    margin: 100px 0;
+  }
+  @media (min-width: 1200px) {
+    padding: 0;
+    margin: 200px 0;
+  }
 }
 
-// section {
-//   margin-top: 100px;
-// }
+.intro {
+  margin-top: 200px;
+}
 
 .break-out {
   position: relative;
@@ -74,39 +71,61 @@ body {
 
 time {
   display: block;
-  // color: var(--color-subtext);
+  color: var(--color-subtext);
+  font-size: 80%;
+  font-weight: 500;
   // margin: 0.5em 0 1em;
   margin: 0 0 1rem 0; 
+  a {
+    color: var(--color-subtext);
+    text-decoration: none;
+    font-weight: 500;
+  }
 }
 
 #footer {
   margin: 100px 0 0 0;
-  font-size: 0.8em; 
-  padding-top: 1em;
-  border-top: 1px solid var(--color-primary); 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-    margin-block-end: 0 !important; 
-    @media screen and (min-width: 768px) {
-      text-align: right;
-    }
-    li { 
-      @media screen and (min-width: 768px) {
-        display: inline-block;
-        margin-left: 2rem;
+  font-size: 1.5em; 
+  padding-top: 100px;  
+  nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; 
+      @media screen and (min-width: 600px) {
+        -webkit-column-count: 2; /* Safari and Chrome */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2; /* CSS3 */
       }
+      padding: 0; 
+      @media screen and (min-width: 768px) {
+        -webkit-column-count: 3; /* Safari and Chrome */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3; /* CSS3 */
+      } 
+    } 
+  }
+
+  .webrings {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-subtext);
+    margin-top: 100px;
+    a {
+      color: var(--color-subtext);
+      font-weight: 500;
+      text-decoration: none;
+      border: 0;
     }
   }
 }
 
-.webrings {
-  margin-top: 50px;
-  a {
-    border: 0;
-    font-weight: normal !important;
-  }
+.subtext {
+  color: var(--color-smoke);
+}
+
+.text-end {
+  text-align: right !important;
 }
 .journal {
   article {
@@ -148,29 +167,16 @@ hr {
   height: 1px;
   margin: 1.5em 0;
   background: var(--color-border);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--color-primary);
-  line-height: 1.3;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-weight: normal;
-  // a {
-  //   border: 0;
-  // }
-}
-
+  &.small {
+    width: 100px;
+    margin: 0 auto;
+  }
+} 
 a {
   transition: background 300ms; 
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--color-primary);
-  font-weight: normal;   
+  font-weight: 500;   
   padding: 0;
   border: 0; 
   // &:after {
@@ -191,25 +197,19 @@ a {
   }
 } 
 
+p {
+  a {
+    border-bottom: 1px solid var(--color-primary);
+    font-weight: 500;   
+    text-decoration: none;
+  }
+}
+
 
 *:focus {
   // background: #ffe8bc !important;
   // color: black !important;
 }
- 
-
-// #notes-entry-container {
-//   display: grid;
-//   grid-gap: 2em;
-//   grid-template-areas:
-//     "content"
-//     "side";
-
-//   @media (min-width: 700px) {
-//     grid-template-columns: 3fr 1fr;
-//     grid-template-areas: "content side";
-//   }
-// }
 
 .backlink-box {
   background: var(--color-box-background);
@@ -238,21 +238,20 @@ code {
  
  
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  // font-size: 100%;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  color: var(--color-primary);
+  line-height: 1.3;
+  a {
+    font-weight: 500;
+  }
 } 
 
 .note { 
   header {margin-bottom: 50px;}
-  // side {
-  //   margin-top: 100px;
-  // }
-  // margin: 100px 0;
-
   footer {
-    font-size: .8rem;
+    margin-top: 100px;
   }
 }
 
@@ -558,11 +557,7 @@ table {
 
 
 #header {
-  // height: 100vh;
-  // background: pink;
-  @media screen and (min-width: 768px) {
-    position: fixed;
-  }
+  margin-bottom: 200px;
 }
 
 .fixed-content {

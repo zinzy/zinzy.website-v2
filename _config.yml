@@ -1,4 +1,4 @@
-title:               Zinzy Waleson's working notes
+title:               Zinzy Waleson
 include:             ['_pages','_posts','_library','_links']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.

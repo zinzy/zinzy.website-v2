@@ -1,20 +1,25 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col-lg-6">
-    <section class="journal">
-      {% for post in site.posts %}
+<section class="journal">
+  {% for post in site.posts limit: 2 %}
     <article>
-      <!-- <h2>
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h2> -->
+      <header>
         <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
+
+        {% if post.show-title != false %}
+          <h2>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h2>
+        {% endif %}
+      </header> 
       {{ post.content }}
     </article>
-    {% endfor %}
-    </section>
-  </div>
-</div>
+  {% endfor %}
+</section>
+
+<section class="intro">
+  <p>Heya pal, welcome to my personal website. I'm Zinzy Waleson, a person on the Internet and in Amsterdam. This here is a quiet street of the Internet where I come to link and think. I share soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+</section>

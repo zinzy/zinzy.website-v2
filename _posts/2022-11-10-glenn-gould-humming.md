@@ -1,6 +1,7 @@
 ---
 title: "Glenn Gould's humming"
 date: 2022-11-10
+show-title: false
 tags:
 - music
 - classical music

@@ -1,22 +1,22 @@
----
-layout: default
----
-<div class="row">
-  <div class="col-12 col-lg-8" id="notes-entry-container">
-    <content>
-      {{ content }}
-    </content>
-  </div> 
-  <div class="col-12 col-lg-3 offset-lg-1">
-    <figure class="mt-0">
-      <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="">
-      <figcaption>Me on a fine Spring day in 2021</figcaption>
-    </figure>
-  </div>
-</div>
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
+          <h1>Hey</h1>
+          <h2 id="notes-entry-container">
+            <content>
+              {{ content }}
+            </content>
+          </h2> 
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>   
+  </body>
+</html> 
  
 
  
