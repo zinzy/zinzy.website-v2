@@ -12,7 +12,7 @@ How to contact me:
 - Some of your questions might be answered by my [[faq]] page
 - For any inquiry, please send me an email via my [[contact|contact form]]
 - I write on my [[index|website]]
-- I'm currently on hiatus from mentoring, but if you'd like to learn more about it and see what the future hold, check [[mentoring]]
+- I'm currently on hiatus from mentoring, but if you'd like to plan sessions with me in the future, shoot me an [[contact|email]]
 - If you'd like to know what I'm doing at the moment, visit my [[now]] page
 - If you have my number, give me a call (I love phone calls). If I don't pick up, leave me a message or send a text
 - I infrequently check [Mastodon](https://mstdn.social/@zinzy) because I like things that are decentralized

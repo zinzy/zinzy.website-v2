@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="journal">
-  {% for post in site.posts limit: 2 %}
+  {% for post in site.posts %}
     <article>
       <header>
         <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
@@ -18,8 +18,4 @@ layout: default
       {{ post.content }}
     </article>
   {% endfor %}
-</section>
-
-<section class="intro">
-  <p>Heya pal, welcome to my personal website. I'm Zinzy Waleson, a person on the Internet and in Amsterdam. This here is a quiet street of the Internet where I come to link and think. I share soft stances, lived experiences, and critical notes on the things I hold dear.</p>
 </section>
