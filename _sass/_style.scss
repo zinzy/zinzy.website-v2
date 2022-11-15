@@ -47,11 +47,13 @@ body {
   counter-reset: sidenote-counter; 
   @media (min-width: 768px) {
     padding: 0;
-    margin: 100px 0;
+    margin: 100px auto;
+    max-width: 80%;
   }
   @media (min-width: 1200px) {
     padding: 0;
-    margin: 200px 0;
+    margin: 200px auto;
+    max-width: 600px;
   }
 }
 
