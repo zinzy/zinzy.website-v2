@@ -1,5 +1,6 @@
 ---
 category: "Cooking"
+excerpt: "Notes on baking"
 ---
 
 # A recipe for challah

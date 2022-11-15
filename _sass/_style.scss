@@ -86,8 +86,9 @@ time {
   border-top: 1px solid var(--color-primary); 
   ul {
     list-style-type: none;
-    margin: 0 !important;
-    padding: 0 !important; 
+    margin: 0;
+    padding: 0; 
+    margin-block-end: 0 !important; 
     @media screen and (min-width: 768px) {
       text-align: right;
     }
@@ -571,4 +572,16 @@ table {
     width: 100%;
     position: fixed;
   }
+}
+
+.form-label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--color-border);
+  padding: .5rem;
 }

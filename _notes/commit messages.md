@@ -1,8 +1,7 @@
 ---
 category: "Internet"
+excerpt: "Funny things I come across"
 ---
-
-# Commit messages 
 In my travels across the Internet, I frequently find myself peaking into the code bases of websites I come across. If I'm lucky, it's code I understand and that I can use for my own project. If I'm even luckier, the person who wrote the code leaves a funny trail of the experience they had writing the code.
 
 When I'm working with a new framework or programming language, I sometimes feel isolated and silly for not knowing how one thing or another might work. Reading these commit messages makes me feel better about the state of the world. 

@@ -5,7 +5,7 @@ This page is part of Derek Sivers' [Now](https://nownownow.com/about) movement. 
 
 ### October 2022
 - I’m interested to read some of Germaine Greer’s work. I like how, beyond the initial shock value of things she has said, there is a very blatant truth that I’m happy to engage with. 
-- After six weeks in the Algarve to continue recovering from an [[eating disorder]], I’m readjusting to bustling Amsterdam and establishing new [[habits]].
+- After six weeks in the Algarve to continue recovering from an [[Eating disorder]], I’m readjusting to bustling Amsterdam and establishing new [[habits]].
 - Before Portugal, I was notoriously rubbish at dreaming about what I'd want my life to be like. I've returned with a renewed sense of agency, and a small-but-growing [[bucket list]] to boot.
 - Getting settled it at my new [[yoga]] studio Thrive Yoga.
 - Learning [[Yiddish]] in the early hours.

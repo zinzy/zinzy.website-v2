@@ -1,5 +1,6 @@
 ---
 category: "Internet"
+excerpt: "Notes on what it means to be on the Internet"
 ---
 
 # Antiperformativity

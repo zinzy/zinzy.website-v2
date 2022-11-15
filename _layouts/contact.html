@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-12 col-lg-6">
+
+    <div id="notes-entry-container">
+        <h2>{{page.title}}</h2>
+        <content>
+          {{ content }}
+        </content>
+    </div> 
+
+    <hr>
+
+    <form action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b" method="POST">
+
+        <div class="mb-3">
+            <label for="formName" class="form-label">Name</label>
+            <input type="text" name="Name" class="form-control" id="formName">
+        </div>
+        <div class="mb-3">
+            <label for="formEmail" class="form-label">Email</label>
+            <input type="email" name="Email" class="form-control" id="formEmail">
+        </div>
+        <div class="mb-3">
+            <label for="formMessage" class="form-label">Message</label>
+            <textarea type="text" name="Message" class="form-control" id="formMessage" rows="10"></textarea>
+        </div>
+        <!-- add hidden Honeypot input to prevent spams -->
+        <input type="hidden" name="_gotcha" style="display:none !important">
+        <button type="submit">Send</button> 
+    </form>
+  </div> 
+  <div class="col-12 col-lg-5 offset-lg-1">
+    ...
+  </div>
+</div>

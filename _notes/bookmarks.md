@@ -1,7 +1,7 @@
 ---
 category: "Lists"
+excerpt: "In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time"
 ---
-In lieu of an RSS reader, I prefer maintaining a list of URLs that I like to visit from time to time.
 
 ### Friends
 - [Annelie Wambeek](https://www.anneliewambeek.com)

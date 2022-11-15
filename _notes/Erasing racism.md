@@ -1,5 +1,6 @@
 ---
 category: "Society"
+excerpt: "Can we ever do it right? Probably not."
 ---
 My partner Anja is currently enrolled in a M.Ed program with a focus on multimedia storytelling, and one of her papers dealt with the inclusion of race in the storylines of a popular television series. While the book exiles non-white men and women to the margins of the margins, the television series incorporates many different racial backgrounds in the series. This, Anja argued, creates the false understanding that the series is inclusive, and more inclusive than the book, at that. Through a close reading she argued that the opposite is the case: White narratives and voices still dominate the plot.
 
@@ -16,4 +17,4 @@ I experience first-hand what it means to not see yourself reflected in the thing
 You'll find that I quite intentionally use the term "ethnicity" where other people might use "race". I think we should [[stop saying race]].
 
 ### Examples
-- I've been thinking about [[erasing racism-in-riverdale|erasing racism in 'Riverdale']]
+- I've been thinking about [[Erasing racism in riverdale|erasing racism in 'Riverdale']]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20bce48629e0e741",
+        "id": "87799959df1d05d2",
         "type": "tabs",
         "children": [
           {
-            "id": "b3a105cf68c9b721",
+            "id": "4101a863ec6c61e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Ethics.md",
+                "file": "_notes/hello.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Ethics.md",
+                "file": "_notes/hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Ethics.md",
+                "file": "_notes/hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Ethics.md"
+                "file": "_notes/hello.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b3a105cf68c9b721",
+  "active": "4101a863ec6c61e3",
   "lastOpenFiles": [
-    "_notes/Colophon.md",
-    "_notes/Ethics.md",
-    "_templates/note.md",
-    "_notes/Consumption.md",
-    "_notes/Africa is not a country.md",
-    "_notes/Ali & Ava.md",
-    "_notes/academic-opportunities.md",
     "_notes/About.md",
-    "_notes/2020 in music.md",
-    "_notes/2019 in music.md"
+    "_notes/faq.md",
+    "_notes/Africa is not a country.md",
+    "_notes/Ethics.md",
+    "_notes/Erasing racism in riverdale.md",
+    "_notes/Erasing racism.md",
+    "_notes/Eating disorder.md",
+    "_notes/Draw your own shell.md",
+    "_notes/Digital garden.md",
+    "_notes/Digital ethnography.md"
   ]
 }

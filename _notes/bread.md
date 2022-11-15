@@ -1,5 +1,6 @@
 ---
 category: "Cooking"
+excerpt: "Notes on baking"
 ---
 
 # Bread
