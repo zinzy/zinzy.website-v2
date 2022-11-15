@@ -42,5 +42,5 @@ I live on the East side of Amsterdam (which happens to be the best), where I sha
 
 ### Other things
 
-- If you'd like to get in touch with me, check my [[hello]] page
+- If you'd like to get in touch with me, check my [[Hello]] page
 - You're invited to learn more about the things I love to [[Uses|use]]
