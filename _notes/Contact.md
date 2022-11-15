@@ -7,4 +7,4 @@ tags:
 - meta
 - information
 ---
-Great that you want tos end me an email. I usually respond within 2-3 days. Make it good!
+Great that you want to send me an email. I usually respond within 2-3 days. Make it good!

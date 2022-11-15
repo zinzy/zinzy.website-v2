@@ -1,6 +1,6 @@
 ---
 title: "Hello"
-layout: "page"
+excerpt: "Why and how to get in touch with me"
 ---
 Hello, I'm [[About|Zinzy Waleson]]!
 
