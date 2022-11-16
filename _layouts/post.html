@@ -3,12 +3,11 @@ layout: default
 ---
 <article class="note">
   <header>
-    <h2>{{ page.title }}</h2> 
-    <time>{{page.date | date: "%A, %e %B, %Y"  }}</time>
+    <time class="dt-published">{{page.date | date: "%A, %e %B, %Y"  }}</time>
   </header>
 
   <div id="notes-entry-container">
-    <content> 
+    <content class="e-content"> 
       {{ content }}
     </content> 
   </div>
