@@ -7,6 +7,6 @@ Rocky road ahead! For now, this page is just a collection of links that, to me, 
 - [[Webrings]]
 - [[Digital garden]]
 - [[Identity in the digital age]]
-- [[antiperformativity]]
+- [[Anti-marketing]]
 - [[overconnectedness]]
 - [[second brain]]

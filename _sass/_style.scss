@@ -1,13 +1,13 @@
 @import "../_sass/grid";
 
 html {
-  --color-primary: #1F2D3D;
-  --color-text:  #3C4858;
-  --color-subtext: #8492A6;
-  --color-link-internal: #1F2D3D; 
-  --color-link-external:  var(--color-smoke); 
-  --color-smoke: #C0CCDA;
-  --color-snow: #E0E6ED;
+  --color-primary: #000;
+  --color-text:  #000;
+  --color-subtext: #9a9a9a;
+  --color-link-internal: #000; 
+  --color-link-external: #000; 
+  --color-smoke: #dbdbdb;
+  --color-snow: #f1f1f1;
   --color-border: var(--color-snow);
   --color-bg: #fbfbfb;
   --color-box-background: mix(--color-primary, white, 4%);
@@ -88,12 +88,16 @@ time {
 #footer {
   margin: 100px 0 0 0;
   font-size: 1.5em; 
-  padding-top: 100px;  
   nav {
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0; 
+      li {
+        a {
+          border: 0;
+        }
+      }
       @media screen and (min-width: 600px) {
         -webkit-column-count: 2; /* Safari and Chrome */
         -moz-column-count: 2; /* Firefox */
@@ -178,9 +182,9 @@ a {
   transition: background 300ms; 
   text-decoration: none;
   color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
   font-weight: 500;   
   padding: 0;
-  border: 0; 
   // &:after {
   //   position: relative;
   //   top: -0.5em;
@@ -201,10 +205,22 @@ a {
 
 p {
   a {
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
     font-weight: 500;   
     text-decoration: none;
   }
+}
+
+h1 {
+  a {
+    border: 0;
+  }
+}
+
+.h-card {
+  font-size: 100%;
+  margin-bottom: 100px;
+  font-weight: 500;
 }
 
 
@@ -257,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main {
-  margin: 200px 0;
+  margin: 100px 0;
 }
  
 
@@ -558,7 +574,7 @@ table {
 
 
 #header {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .fixed-content {
