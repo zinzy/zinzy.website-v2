@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "87799959df1d05d2",
+        "id": "9b1a918720609760",
         "type": "tabs",
         "children": [
           {
-            "id": "4101a863ec6c61e3",
+            "id": "c22b3c118e879d89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Hello.md",
+                "file": "_notes/antiperformativity.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Hello.md",
+                "file": "_notes/antiperformativity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Hello.md",
+                "file": "_notes/antiperformativity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Hello.md"
+                "file": "_notes/antiperformativity.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4101a863ec6c61e3",
+  "active": "c22b3c118e879d89",
   "lastOpenFiles": [
+    "_notes/bookmarks.md",
+    "_notes/Ideas can change.md",
+    "_notes/Seven questions.md",
+    "_notes/Notes.md",
+    "_notes/Hello.md",
     "_notes/index.md",
     "_notes/About.md",
-    "_notes/Hello.md",
     "_notes/Contact.md",
     "_notes/faq.md",
-    "_notes/Africa is not a country.md",
-    "_notes/Ethics.md",
-    "_notes/Erasing racism in riverdale.md",
-    "_notes/Erasing racism.md",
-    "_notes/Eating disorder.md"
+    "_notes/Africa is not a country.md"
   ]
 }

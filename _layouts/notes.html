@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="journal">
+  {% assign random = site.time | date: "%s%N" | modulo: site.notes.size %}
+  {% for note in site.notes[random] %}
+  <article>
+    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+      Last updated on {{ note.last_modified_at | date: "%B %-d, %Y" }}
+    </time>
+   
+  
+    <div id="notes-entry-container">
+      <content>
+        {{ note.content }}
+      </content> 
+      </div>
+    
+  </article>
+  {% endfor %}
+</section>

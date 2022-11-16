@@ -83,6 +83,9 @@ excerpt: "In lieu of an RSS reader, I prefer maintaining a list of URLs that I l
 ### Language
 - [Language Jones](https://www.languagejones.com/)
 
+### Anthropology
+- [Epic People](https://www.epicpeople.org/)
+
 ### Media
 - [Internet History Podcast](https://www.internethistorypodcast.com)  
 

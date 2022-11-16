@@ -12,7 +12,7 @@ Introduced by Michael Bungay Stanier, the seven questions can help people, parti
 1. What’s on your mind?
 2. And what else?
 3. What’s the real challenge here for you?
-4. What do you want
+4. What do you want?
 5. How can I help?
 6. If you’re saying yes to this, what are you saying no to?
 7. What was most useful for you?
