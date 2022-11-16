@@ -43,19 +43,18 @@ body {
   color: var(--color-text);
   font-size: 1rem; 
   -webkit-font-smoothing: antialiased;
-  padding: 50px; 
+  padding: 30px; 
   counter-reset: sidenote-counter; 
+  @media (min-width: 600px) {
+    padding: 60px; 
+  } 
   @media (min-width: 768px) {
-    padding: 0;
-    margin: 100px auto;
-    max-width: 80%;
-  }
-  @media (min-width: 1200px) {
     padding: 0;
     margin: 200px auto;
     max-width: 600px;
   }
 }
+
 
 .intro {
   margin-top: 200px;
@@ -222,6 +221,9 @@ h1 {
   font-size: 100%;
   margin-bottom: 100px;
   font-weight: 500;
+  a {
+    border: 0;
+  }
 }
 
 
