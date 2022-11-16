@@ -279,18 +279,23 @@ main {
  
 
 article {
-  header {
-    font-size: 0.8rem;
-    color: var(--color-subtext);
-    font-weight: 500;
-    a {
+  header { 
+    .meta {
+      font-size: 0.8rem;
       color: var(--color-subtext);
+      font-weight: 500;
+      time {
+        font-size: 100%;
+        display: inline;
+      }
+      a {
+        color: var(--color-subtext);
+        border: 0;
+      } 
+    } 
+    a { 
       border: 0;
-    }
-    time {
-      font-size: 100%;
-      display: inline;
-    }
+    } 
   }
   h3 {
     margin-top: 2rem;
