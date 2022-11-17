@@ -7,6 +7,7 @@ excerpt: "A collection of things I have attended, read, or watched"
 
 ### To do
 - Attend Hannah Gadsby's _Bodyworks_
+- [Mastodon en het federatieve internet](https://waag.org/nl/event/mastodon-en-het-federatieve-internet/)
 
 ### Attended
 - _All the Beauty and the Bloodshed_ screening as part of IDFA

@@ -15,4 +15,10 @@ I maintain this page as an incomplete overview of the things I love to use. Kind
 
 ### Wellbeing
 - [Nidra Deep Rest Eye Mask with Nosepiece](https://nidragoods.com/collections/sleep-mask-collection/products/nidra-deep-rest-eye-mask-black)
-- 
+
+### Yoga
+- Yogitri ECO Buddhi eye pillow with lavender-scented flax seed, used for savasana
+- Yogitri ECO Pratyak bolster
+- DoYourYoga half moon meditation pillow
+- YogaTimer
+- (I have an excellent mat that I'm trying to identify on the Internet)

@@ -10,3 +10,4 @@ gem "webrick", "~> 1.7"
 gem "nokogiri"
 gem 'jekyll-timeago'
 gem 'jekyll-archives'
+gem 'jekyll-toc'

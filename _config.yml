@@ -26,6 +26,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-timeago
   - jekyll-archives
+  - jekyll-toc
 
 # jekyll-archives:
 #   enabled: all
