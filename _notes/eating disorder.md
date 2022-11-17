@@ -27,7 +27,7 @@ My eating disorder has developed in response to a number of (untreated) adverse 
 At Human Concern, I was diagnosed with Other Specified Feeding or Eating Disorder, a subclinical DSM 5 category describing atypical disorderd eating. In my case, this means my eating disorder combines traits from all variants, with varying degrees of intensity and frequency.
 
 ### It's not about food
-On here, I'm purposely vague about the eating disordered behaviors characterize various periods in my life. I do this for two reasons:
+On here, I'm purposely vague about the eating disordered behaviors that characterize various periods in my life. I do this for two reasons:
 
 1. Inspired by [[Diet culture]], societies often have the incorrect assumption that certain eating disorders are better, more glamorous, or more worthy of awe than others. It's not true, and actually very dangerous for people who are battling eating disorders. I was able to tell myself for years that nothing was wrong with me because at least I didn't have that one particular eating disorder.
 2. Eating disorders are not about food
