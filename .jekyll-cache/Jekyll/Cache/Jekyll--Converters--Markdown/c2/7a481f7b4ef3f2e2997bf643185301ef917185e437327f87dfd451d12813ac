@@ -1,7 +1,0 @@
-I"<ul>
-  <li>I have a large, private repository, or Obsidian vault, that carries text files from all areas of my life. They are written in Dutch, because that’s the language that represents my truest thinking. There are notes that work in a private and public setting. They’re written in English. They are tagged with something like <code class="language-plaintext highlighter-rouge">public</code>.</li>
-  <li>There is a git repository that collects the <code class="language-plaintext highlighter-rouge">public</code> files.</li>
-  <li>My Jekyll website pulls that content into my <code class="language-plaintext highlighter-rouge">_content_</code> folder</li>
-  <li>I don’t have to duplicate content to have it serve both a private and a public purpose</li>
-</ul>
-:ET
