@@ -62,6 +62,7 @@ excerpt: "In lieu of an RSS reader, I prefer maintaining a list of URLs that I l
 - https://shawnjr.online/
 - https://venkateshrao.com/
 - https://jeffhuang.com/
+- https://www.miriamsuzanne.com/
 
 ### Communities
 - [IndieWeb](https://indieweb.org/)

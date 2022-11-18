@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Colophon.md",
+                "file": "_notes/bookmarks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Colophon.md",
+                "file": "_notes/bookmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Colophon.md",
+                "file": "_notes/bookmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Colophon.md"
+                "file": "_notes/bookmarks.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "9570ce539e38147e",
   "lastOpenFiles": [
+    "_notes/Colophon.md",
     "_notes/How I Life OS.md",
     "_notes/Contact.md",
     "_notes/Why I have a website.md",
@@ -146,7 +147,6 @@
     "_notes/Eating disorder.md",
     "_notes/No Intermission.md",
     "_notes/Yin yoga.md",
-    "_notes/Now.md",
-    "_notes/Hello.md"
+    "_notes/Now.md"
   ]
 }

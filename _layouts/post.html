@@ -3,7 +3,10 @@ layout: default
 ---
 <article class="note">
   <header>
-    <p class="meta"><time class="dt-published">{{page.date | date: "%A, %e %B, %Y"  }}</time> by <a class="p-author h-card" href="/">Zinzy Waleson</a></p>
+    <p class="meta">
+      <time class="dt-published">{{page.date | date: "%A, %e %B, %Y"  }}</time> 
+      by <a class="p-author h-card" href="/">Zinzy Waleson</a>
+    </p>
   </header>
 
   <div id="notes-entry-container">
@@ -11,4 +14,16 @@ layout: default
       {{ content }}
     </content> 
   </div>
+
+
+  <script id="webmention-hosted">
+    (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+    }());
+    </script>
 </article>
