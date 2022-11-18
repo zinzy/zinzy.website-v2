@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9aa6e6171a9abe55",
+        "id": "ece2b7c0213f7f35",
         "type": "tabs",
         "children": [
           {
-            "id": "84b698db052a07f7",
+            "id": "9570ce539e38147e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Eating disorder.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5698928719c031f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Yoga.md",
+                "file": "_notes/Colophon.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Eating disorder.md",
+                "file": "_notes/Colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Eating disorder.md",
+                "file": "_notes/Colophon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Eating disorder.md"
+                "file": "_notes/Colophon.md"
               }
             }
           }
@@ -148,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "84b698db052a07f7",
+  "active": "9570ce539e38147e",
   "lastOpenFiles": [
-    "_notes/Yoga.md",
+    "_notes/How I Life OS.md",
+    "_notes/Contact.md",
+    "_notes/Why I have a website.md",
+    "_notes/bookmarks.md",
+    "_notes/Notes.md",
     "_notes/Eating disorder.md",
-    "_notes/Diet culture.md",
-    "_notes/Uses.md",
-    "_notes/Consumption.md",
+    "_notes/No Intermission.md",
     "_notes/Yin yoga.md",
-    "_notes/Leeruniek.md",
     "_notes/Now.md",
-    "_notes/Eetdagboek.md",
-    "_notes/Anti-marketing.md"
+    "_notes/Hello.md"
   ]
 }

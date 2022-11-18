@@ -11,3 +11,4 @@ gem "nokogiri"
 gem 'jekyll-timeago'
 gem 'jekyll-archives'
 gem 'jekyll-toc'
+gem 'jekyll-feed'

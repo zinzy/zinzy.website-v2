@@ -9,7 +9,7 @@ My eating disorder has developed in response to a number of (untreated) adverse 
 
 Or rather than "knew" I "wanted" one.
 
-With the rise of Web 2.0, I fell into a deep hole of pro-ana Xanga blogs that showed me that having an eating disorder was glamorous, effective, and hip. A close friend and I would get together and "fake" having an eating disorder by carrying out associated behaviors. Things I now know to be life-threatening, and detrimental to anyone's long-term mental health. At home, certainly dictated by [[Diet culture]], my Food Rule Book began growing and growing.
+With the rise of Web 2.0, I fell into a deep hole of pro-ana Xanga blogs{% sidenote 'Pro ana' 'Pro-ana refers to content containing references to or depictions of severely underweight people' %} that showed me that having an eating disorder was glamorous, effective, and hip. A close friend and I would get together and "fake" having an eating disorder by carrying out associated behaviors. Things I now know to be life-threatening, and detrimental to anyone's long-term mental health. At home, certainly dictated by [[Diet culture]], my Food Rule Book began growing and growing.
 
 Despite the signs, my eating disorder remained untreated.
 

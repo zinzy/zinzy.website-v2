@@ -3,7 +3,7 @@
 html {
   scroll-behavior: smooth;
 
-  
+  // Color variables
   --color-primary: #000;
   --color-text:  #000;
   --color-subtext: #9a9a9a;
@@ -20,6 +20,8 @@ html {
 
 @media (prefers-color-scheme: dark) {
   html {
+
+    // Color variables
     --color-primary: #fff;
     --color-text:  #E5E9F2;
     --color-subtext: #8492A6; 
@@ -30,8 +32,6 @@ html {
   }
 
 }
-
- 
 
 body, html {
   font-size: 18px;
@@ -56,11 +56,6 @@ body {
     margin: 200px auto;
     max-width: 600px;
   }
-}
-
-
-.intro {
-  margin-top: 200px;
 }
 
 .break-out {
@@ -375,6 +370,8 @@ figcaption,
 
 .sidenote, .marginnote { 
 
+  color: var(--color-subtext);
+
 
   @media screen and (min-width: 1200px) {
     position: absolute; 
@@ -382,7 +379,7 @@ figcaption,
     // float: right;
     // clear: right;
     // margin-right: 45%;
-    margin-right: 100px;
+    margin-right: -300px;
     width: 200px;
     margin-top: 0;
     margin-bottom: 1.96rem;
@@ -635,6 +632,10 @@ table {
   margin-left: -320px;
   width: 150px;
   color: var(--color-subtext);
+  display: none;
+  @media screen and (min-width: 1400px) {
+    display: block;
+  }
 
   a {
     color: var(--color-subtext);
@@ -644,4 +645,38 @@ table {
 
 .toc-content {
   position: fixed;
+}
+
+
+
+
+
+.implied { 
+  position: relative;
+  border-radius: 5px;
+  padding: 1.2rem 1.4rem;
+  background: var(--color-snow);
+  margin-bottom: 3rem;
+  .title {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-subtext);
+    display: inline-block;
+    margin-right: .8rem;
+  } 
+  .content { 
+    font-size: 0.8rem; 
+  } 
+}
+
+
+.tbc {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--color-subtext);
+  padding: 0 20%;
+  border-top: 1px solid var(--color-snow);
+  padding-top: 100px;
+  margin-top: 50px;
 }

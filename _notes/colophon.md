@@ -20,3 +20,4 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 ### To do on this website
 - Roam-style linking across content types `posts` and `notes`
 - Proper case handling of note titles
+- Indieweb post types

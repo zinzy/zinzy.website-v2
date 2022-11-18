@@ -27,6 +27,9 @@ plugins:
   - jekyll-timeago
   - jekyll-archives
   - jekyll-toc
+  - jekyll-feed
+
+
 
 # jekyll-archives:
 #   enabled: all
