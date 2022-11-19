@@ -23,4 +23,6 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - Indieweb post types
 
 ### Changelog
-- 2022-11-19: this website now supports IndieWeb post types article, note, and reply
+- 2022-11-19: Added
+	- Support for Indieweb post types article, note, and reply
+	- Outgoing webmentions
