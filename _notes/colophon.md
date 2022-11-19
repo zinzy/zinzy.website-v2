@@ -21,3 +21,6 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - Roam-style linking across content types `posts` and `notes`
 - Proper case handling of note titles
 - Indieweb post types
+
+### Changelog
+- 2022-11-19: this website now supports IndieWeb post types article, note, and reply

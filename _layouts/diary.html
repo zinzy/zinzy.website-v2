@@ -1,13 +1,26 @@
 ---
 layout: default
 ---
-<section class="journal">
-  {% for post in site.posts %}
-    <article>
-      <header>
-        <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
 
-        {% if post.show-title != false %}
+
+<section class="journal">
+
+  <div class="page-header"><h1><a href="/">Hey</a> <span class="subtext mx-2">|</span> <span class="p-name">{{page.title}}</span></h1></div>
+
+  {% for post in site.posts %}
+    <article class="h-entry">
+      <header>
+
+        <p class="meta">
+          <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
+          {% if post.u-in-reply-to %}
+            <span>| in reply to <a href="{{post.u-in-reply-to}}" class="u-in-reply-to">{{post.u-in-reply-to-name}}</a></span>
+          {% endif %} 
+        </p>
+
+         
+
+        {% if post.title != "" %}
           <h2>
             <a href="{{ post.url }}">
               {{ post.title }}
@@ -15,7 +28,9 @@ layout: default
           </h2>
         {% endif %}
       </header> 
-      {{ post.content }}
+      <div class="p-content">
+        {{ post.content }}
+      </div> 
     </article>
   {% endfor %}
 </section>

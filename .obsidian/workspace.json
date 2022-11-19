@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ece2b7c0213f7f35",
+        "id": "3c3bfd7a04c78574",
         "type": "tabs",
         "children": [
           {
-            "id": "9570ce539e38147e",
+            "id": "b8f3466c28091011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/bookmarks.md",
+                "file": "_notes/Colophon.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/bookmarks.md",
+                "file": "_notes/Colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/bookmarks.md",
+                "file": "_notes/Colophon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/bookmarks.md"
+                "file": "_notes/Colophon.md"
               }
             }
           }
@@ -136,13 +136,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9570ce539e38147e",
+  "active": "b8f3466c28091011",
   "lastOpenFiles": [
+    "_notes/bookmarks.md",
     "_notes/Colophon.md",
     "_notes/How I Life OS.md",
     "_notes/Contact.md",
     "_notes/Why I have a website.md",
-    "_notes/bookmarks.md",
     "_notes/Notes.md",
     "_notes/Eating disorder.md",
     "_notes/No Intermission.md",
