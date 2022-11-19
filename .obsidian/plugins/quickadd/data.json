@@ -2,10 +2,10 @@
   "choices": [
     {
       "id": "6ce813c4-41e9-4922-bd08-926afe389520",
-      "name": "Add note",
+      "name": "Add seed",
       "type": "Template",
       "command": false,
-      "templatePath": "_templates/note",
+      "templatePath": "_templates/Seed",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{NAME}}"
@@ -25,15 +25,15 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
     },
     {
       "id": "c41d56e8-0800-498f-9b39-7265e471aa2a",
-      "name": "Add post",
+      "name": "Add article",
       "type": "Template",
       "command": false,
-      "templatePath": "_templates/post",
+      "templatePath": "_templates/Indieweb/Article",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{DATE:YYYY-MM-DD}}-{{NAME}}"
@@ -53,7 +53,35 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "1c733953-4806-4c0e-891d-35de00be356b",
+      "name": "Add reply",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/Indieweb/Reply",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}-{{DATE:HH}}{{DATE:mm}}{{DATE:ss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "_posts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
       "openFileInMode": "default"
     }
   ],
