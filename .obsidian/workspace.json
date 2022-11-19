@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-19-074624.md",
+                "file": "_posts/2022-11-19-075534.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-19-074624.md",
+                "file": "_posts/2022-11-19-075534.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-19-074624.md",
+                "file": "_posts/2022-11-19-075534.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-19-074624.md"
+                "file": "_posts/2022-11-19-075534.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "8415e430fda2a3dc",
   "lastOpenFiles": [
-    "_posts/2022-11-19-063407.md",
     "_posts/2022-11-19-074624.md",
-    "_posts/2022-11-19-073540.md",
+    "_posts/2022-11-19-075534.md",
+    "_templates/Indieweb/Like.md",
+    "_templates/Indieweb/Reply.md",
     "_templates/Indieweb/Article.md",
     "_templates/Indieweb/Note.md",
-    "_templates/Indieweb/Reply.md",
+    "_posts/2022-11-19-063407.md",
+    "_posts/2022-11-19-073540.md",
     "_notes/Colophon.md",
-    "_templates/post.md",
-    "_templates/Seed.md",
-    "_notes/SEEDNAME.md"
+    "_templates/post.md"
   ]
 }

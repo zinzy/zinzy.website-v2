@@ -83,6 +83,34 @@
       },
       "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "34bf61df-23d3-4377-ace0-c597bcf21fcd",
+      "name": "Add like",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/Indieweb/Like",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}-{{DATE:HH}}{{DATE:mm}}{{DATE:ss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "_posts"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [],

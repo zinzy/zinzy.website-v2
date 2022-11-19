@@ -18,6 +18,11 @@ layout: default
           {% endif %} 
         </p>
 
+
+        {% if post.u-like-of %}
+          <p>Liked <a href="{{post.u-like-of}}" class="u-like-of">{{post.u-like-of-name}}</a></p>
+        {% endif %} 
+
          
 
         {% if post.title != "" %}
