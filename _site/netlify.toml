@@ -8,10 +8,10 @@
     [plugins.inputs]
 
     # The base url of your site (optional, default: main URL set in Netlify)
-    baseUrl = "https://example.com"
+    baseUrl = "https://zinzy.website"
 
     # Path to the feed URL (optional, default: /feed.xml)
     feedPath = "/feed.xml"
 
     # Maximum number of feed entries to check for mentions (optional, default: 1)
-    limit = 1
+    limit = 10

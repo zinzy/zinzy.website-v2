@@ -14,4 +14,4 @@
     feedPath = "/feed.xml"
 
     # Maximum number of feed entries to check for mentions (optional, default: 1)
-    limit = 1
+    limit = 10
