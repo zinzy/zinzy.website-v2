@@ -30,7 +30,7 @@ plugins:
   - jekyll-archives
   - jekyll-toc
   - jekyll-feed
-
+  - "jekyll-github-metadata"
 
 # jekyll-archives:
 #   enabled: all

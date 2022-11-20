@@ -1,4 +1,4 @@
-I"ò<p>This is a personal website, designed, built, and maintained by me, Zinzy.</p>
+I"Û	<p>This is a personal website, designed, built, and maintained by me, Zinzy.</p>
 
 <h3 id="about-this-space">About this space</h3>
 <ul>
@@ -21,8 +21,8 @@
 <ul>
   <li>Roam-style linking across content types <code class="language-plaintext highlighter-rouge">posts</code> and <code class="language-plaintext highlighter-rouge">notes</code></li>
   <li>Proper case handling of note titles</li>
-  <li>Indieweb post types</li>
   <li>Github commit ID</li>
+  <li>https://www.a11ywebsites.com/about/</li>
   <li></li>
 </ul>
 
@@ -34,5 +34,6 @@
       <li>Outgoing webmentions</li>
     </ul>
   </li>
+  <li>2022-11-20: added cross-post type support for bidirectional links (thanks to <a href="https://github.com/florhizome/digital-garden-jekyll-template/commit/5ac71e7dd1d45bead5784936ca854ef62ba50437">this</a>)</li>
 </ul>
 :ET

@@ -21,11 +21,12 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 ### To do on this website
 - Roam-style linking across content types `posts` and `notes`
 - Proper case handling of note titles
-- Indieweb post types
 - Github commit ID
+- https://www.a11ywebsites.com/about/
 - 
 
 ### Changelog
 - 2022-11-19: Added
 	- Support for Indieweb post types article, note, and reply
 	- Outgoing webmentions
+- 2022-11-20: added cross-post type support for bidirectional links (thanks to [this](https://github.com/florhizome/digital-garden-jekyll-template/commit/5ac71e7dd1d45bead5784936ca854ef62ba50437))

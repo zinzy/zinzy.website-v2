@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6d292a8c8c5f549e",
+        "id": "8901c690eecf1339",
         "type": "tabs",
         "children": [
           {
-            "id": "b1329215d71f050c",
+            "id": "de21dc684f6a3f9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/People not users.md",
+                "file": "_notes/Body of Work.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/People not users.md",
+                "file": "_notes/Body of Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/People not users.md",
+                "file": "_notes/Body of Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/People not users.md"
+                "file": "_notes/Body of Work.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1329215d71f050c",
+  "active": "de21dc684f6a3f9b",
   "lastOpenFiles": [
+    "_posts/2022-11-20-hannah-gadsby-body-of-work.md",
+    "_notes/People not users.md",
     "_notes/Tool vibes.md",
     "_notes/Why I have a website.md",
     "_notes/eating disorder.md",
     "_notes/Diet culture.md",
-    "_notes/People not users.md",
     "_notes/Marina Abramović Method.md",
     "_notes/Ideal PKM setup.md",
     "_notes/Yin yoga.md",
-    "_notes/Tools don't matter.md",
-    "_notes/The Midnight Library.md"
+    "_notes/Tools don't matter.md"
   ]
 }

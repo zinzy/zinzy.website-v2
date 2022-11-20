@@ -2,7 +2,9 @@
 category: "Info"
 excerpt: "Things I love and use"
 ---
-I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but more focused on things that happen outside of a computer.
+I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but here I don't need an invite. 
+
+Before you dive in, please know that I believe (and tell myself in the mirror that) [[Tools don't matter]]. 
 
 ### Hardware 
 - [WH-1000XM4 Wireless Premium Noise Canceling Headphones](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)

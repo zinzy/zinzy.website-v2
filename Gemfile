@@ -12,3 +12,4 @@ gem 'jekyll-timeago'
 gem 'jekyll-archives'
 gem 'jekyll-toc'
 gem 'jekyll-feed'
+gem "jekyll-github-metadata"

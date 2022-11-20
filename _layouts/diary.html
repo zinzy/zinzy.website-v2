@@ -7,7 +7,9 @@ layout: default
   
   {% for post in site.posts %}
     <article class="h-entry">
-      <header> <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
+      <header> 
+        
+        <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
 
         {% if post.u-like-of %}
           <p>Liked <a href="{{post.u-like-of}}" class="u-like-of">{{post.u-like-of-name}}</a></p>

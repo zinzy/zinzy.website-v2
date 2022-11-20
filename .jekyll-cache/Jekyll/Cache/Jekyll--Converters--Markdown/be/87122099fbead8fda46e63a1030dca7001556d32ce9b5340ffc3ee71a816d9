@@ -1,12 +1,12 @@
-I"�	<div class="implied">
+I"�	<div class="implied">
     <span class="title">This is for</span>
     <span class="content">People who have never owned a personal website, who have a vague understanding of why anybody would want to, and who are not sure how they'd ever get started. For example, my friend Nienke. Hi Nienke!</span>
 </div>
 
-<p>Welcome to my home on the Internet. This website was hand-built by me, and I’m the only one publishing things on it. It contains facts about me and the work I do, but also working notes on some of my ideas, as well as dated journal entries. This is an example of a personal website.</p>
+<p>Welcome to my home on the Internet. This website was hand-built by me, and I’m the only one publishing things on it. It contains facts about me and the work I do, but also working notes on some of my ideas, as well as short and longer diary entries. This is an example of a personal website.</p>
 
 <h3 id="you-should-make-a-personal-website">You should make a personal website</h3>
-<p>Having my own website has many benefits, some you might not have thought of. After all, if you’re not professional developer, how in the world would you make your own website?</p>
+<p>Having my own website has many benefits, some you might not have thought of.</p>
 
 <h4 id="where-people-can-find-you">Where people can find you</h4>
 <p>If I need to find a person, I google them. I don’t use social media, and I usually don’t enjoy having to log on to find who I’m looking for. When you own your own website, people don’t need to log back on to that no-longer-popular platform to find you.</p>
@@ -31,7 +31,7 @@
 </ul>
 
 <div class="tbc">
-    <p class="mb-0">That's all for now. Eager to see me add some more to this page? Feel free to <a href="/hello">nudge</a> me.</p>
+    <p class="mb-0">That's all for now. Eager to see me add some more to this page? Feel free to <a href="/hello" class="internal-link">nudge</a> me.</p>
 </div>
 
 :ET
