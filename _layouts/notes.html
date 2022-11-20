@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="page-header"><h1><a href="/">Hey</a> <span class="subtext mx-2">|</span> <span class="p-name">{{page.title}}</span></h1></div>
-
 <section class="journal">
   {% assign random = site.time | date: "%s%N" | modulo: site.notes.size %}
   {% for note in site.notes[random] %}

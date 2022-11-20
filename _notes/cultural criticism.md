@@ -1,4 +1,0 @@
----
-category: "Society"
-excerpt: ""
----

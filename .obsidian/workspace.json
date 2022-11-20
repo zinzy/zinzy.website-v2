@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4727b5df51ce7330",
+        "id": "508e3fb535fb18da",
         "type": "tabs",
         "children": [
           {
-            "id": "8415e430fda2a3dc",
+            "id": "5cc53b8cb3f7b802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-19-075534.md",
+                "file": "_notes/Marina Abramović Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-19-075534.md",
+                "file": "_notes/Marina Abramović Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-19-075534.md",
+                "file": "_notes/Marina Abramović Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-19-075534.md"
+                "file": "_notes/Marina Abramović Method.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8415e430fda2a3dc",
+  "active": "5cc53b8cb3f7b802",
   "lastOpenFiles": [
-    "_posts/2022-11-19-074624.md",
-    "_posts/2022-11-19-075534.md",
-    "_templates/Indieweb/Like.md",
-    "_templates/Indieweb/Reply.md",
-    "_templates/Indieweb/Article.md",
-    "_templates/Indieweb/Note.md",
-    "_posts/2022-11-19-063407.md",
-    "_posts/2022-11-19-073540.md",
-    "_notes/Colophon.md",
-    "_templates/post.md"
+    "_notes/Ideal PKM setup.md",
+    "_notes/Diet culture.md",
+    "_notes/Yin yoga.md",
+    "_notes/Tools don't matter.md",
+    "_notes/The Midnight Library.md",
+    "_notes/The Complete Guide to Yin Yoga.md",
+    "_notes/Taoism.md",
+    "_notes/Suspension of judgment.md",
+    "_notes/No Intermission.md",
+    "_notes/Marina Abramović Method.md"
   ]
 }

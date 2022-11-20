@@ -63,6 +63,11 @@ excerpt: "In lieu of an RSS reader, I prefer maintaining a list of URLs that I l
 - https://venkateshrao.com/
 - https://jeffhuang.com/
 - https://www.miriamsuzanne.com/
+- https://matthewsmith.website/
+- https://jamesmead.org/
+- https://mxb.dev/
+- https://roel.io/
+- https://dannywhite.org/
 
 ### Communities
 - [IndieWeb](https://indieweb.org/)

@@ -1,5 +1,6 @@
 ---
 category: "Info"
+excerpt: "A list of opinions I have, they're subject to change"
 ---
 
 # Opinions

@@ -1,5 +1,6 @@
 ---
 excerpt: "Reading notes"
+category: "Learning"
 ---
 Currently making my way through _Colloquial Yiddish_.
 

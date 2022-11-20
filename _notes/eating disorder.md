@@ -1,6 +1,7 @@
 ---
 category: "Health"
 toc: true
+excerpt: "On the experiences I have as I go through recovery"
 ---
 In the name of destigmatization of health issues I decided a while ago that I was going to use this website to write about what it means to have an eating disorder. This page chronicles some of the experiences I have as I go through recovery.
 
@@ -32,4 +33,4 @@ On here, I'm purposely vague about the eating disordered behaviors that characte
 1. Inspired by [[Diet culture]], societies often have the incorrect assumption that certain eating disorders are better, more glamorous, or more worthy of awe than others. It's not true, and actually very dangerous for people who are battling eating disorders. I was able to tell myself for years that nothing was wrong with me because at least I didn't have that one particular eating disorder.
 2. Eating disorders are not about food
 
-Come back later
+{% include tbc.html %}

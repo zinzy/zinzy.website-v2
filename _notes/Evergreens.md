@@ -1,5 +1,7 @@
 ---
 title: "Evergreens"
+excerpt: "A growing list of ideas organized to evolve over time"
+category: "Knowledge work"
 ---
 
 - Diet culture is dangerous

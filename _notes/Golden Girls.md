@@ -1,5 +1,6 @@
 ---
 excerpt: "I was quite late to the party for this show, but once I arrived, they couldn't make me go home."
+category: "Watching"
 ---
 When it comes to binging through an entire television series, I feel Anja and I are doing it right with this one. We began watching the 80s and 90s hit series _The Golden Girls_ in the Summer of 2022, and we're going at a rate of one episode at a time. 
 

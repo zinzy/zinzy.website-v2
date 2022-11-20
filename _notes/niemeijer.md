@@ -1,5 +1,6 @@
 ---
 category: "Places"
+excerpt: "My favorite bakery in Amsterdam"
 ---
 
 # Gebroeders Niemeijer

@@ -1,11 +1,10 @@
 ---
 category: "Info"
+excerpt: "I reserve a portion of my time to remotely mentor designers and researchers"
 ---
+<mark>As of June 2022, I'm taking a break from mentoring.</mark>
 
-# Mentoring
 I reserve a portion of my time to remotely mentor designers and product managers. I do this because I find gratification in helping others navigate paths with which I'm familiar. An added bonus is that it helps me keep a pulse on how the tech industry is developing. I've been doing this since around 2012. When I'm not taking a break from mentoring, you may schedule time with me via [ADPList](https://adplist.org/mentors/zinzy-nev-geene).
-
-<mark>As of mid-June, I'm taking a break from mentoring.</mark>
 
 ### Me as a mentor
 Here's a short overview of who you'll be speaking with:

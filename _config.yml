@@ -1,4 +1,4 @@
-title:               Zinzy Waleson
+title:               Zinzy Waleson Geene
 include:             ['_pages','_posts','_library','_links']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
@@ -28,7 +28,6 @@ plugins:
   - jekyll-archives
   - jekyll-toc
   - jekyll-feed
-
 
 
 # jekyll-archives:

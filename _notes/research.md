@@ -1,5 +1,6 @@
 ---
 category: "Learning"
+excerpt: "Notes on practice"
 ---
 
 # Research

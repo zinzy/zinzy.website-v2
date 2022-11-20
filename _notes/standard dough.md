@@ -1,5 +1,6 @@
 ---
 category: "Cooking"
+excerpt: "Multifunctional dough"
 ---
 
 # Standard dough

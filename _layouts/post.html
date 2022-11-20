@@ -1,38 +1,38 @@
 ---
 layout: default
 ---
-<article class="note h-entry">
-
-    <div class="page-header">
-      <div class="page-header">
-        <h1>
-          <a href="/">Hey</a> 
-          {% if page.title != "" %}
-            <span class="subtext mx-2">|</span> <span class="p-name">{{page.title}}</span>
-          {% endif %} 
-        </h1>
-      </div>
-    </div>
-
+<article class="h-entry">
+      
   <header>
-    <p class="meta">
-      <time class="dt-published">{{page.date | date: "%A, %e %B, %Y"  }}</time> 
+    <time datetime="{{ page.date | date: "%A, %e %B, %Y" }}"><a href="{{page.url}}">{{ page.date | date: "%A, %e %B, %Y" }}</a></time>
+
+      {% if page.title != "" %}
+        <h2>
+          <a href="{{ page.url }}">
+            {{ page.title }}
+          </a>
+        </h2>
+        {% else %}  
+      {% endif %}
+
+
+      {% if page.u-like-of %}
+        <p>Liked <a href="{{page.u-like-of}}" class="u-like-of" target="_blank">{{page.u-like-of-name}}</a></p>
+      {% endif %} 
 
       {% if page.u-in-reply-to %}
-        <span>| in reply to <a href="{{page.u-in-reply-to}}" class="u-in-reply-to">{{page.u-in-reply-to-name}}</a></span>
-
-    {% else %}
-    by <a class="p-author h-card" href="/">Zinzy Waleson</a>
+        <p class="mb-2">Replied to <a href="{{page.u-in-reply-to}}" target="_blank" class="u-like-of">{{page.u-in-reply-to-name}}</a>: </p>
       {% endif %}  
-    </p>
   </header>
+ 
 
-  <div id="notes-entry-container">
-    <content class="e-content"> 
-      {{ content }}
-    </content> 
-  </div>
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          {{ content }}
+        </content> 
+      </div>
 
+</article>
 
   <script id="webmention-hosted">
     (function () {

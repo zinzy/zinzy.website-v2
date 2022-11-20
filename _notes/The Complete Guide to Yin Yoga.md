@@ -1,10 +1,17 @@
 ---
 title: "The Complete Guide to Yin Yoga"
-auteur: Bernie Clark
+auteur: "Bernie Clark"
 publicatiedatum: 2019
 isbn: 9780968766583
 genre: tekstboek
-tags: yinyoga, yoga, taoïsme, welzijn, mentale gezondheid, somatische intelligentie
+tags: 
+- yinyoga
+- yoga
+- wellbeing
+- mental health
+- somatic intelligence
+excerpt: "Book notes"
+category: "Reading"
 ---
 These are rough book notes in Dutch.
 

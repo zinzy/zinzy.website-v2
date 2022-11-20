@@ -3,6 +3,7 @@ title:  "Weeknotes for week 44, 2022"
 date: 2022-11-06
 tags: 
 - weeknotes
+- 
 ---
 The weather has officially reached a temperature that requires me to buy a new coat. I dread it. Unlike most other types of clothing, coats and jackets never seem to suit me, regardless of the style. To soften the blow of having to order several coats on the Internet hoping one will work for me, I granted myself three sets of retro socks.  
 

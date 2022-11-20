@@ -1,5 +1,6 @@
 ---
 category: "Media"
+excerpt: "Stories about White people self-actualizing against the backdrop of non-white lives"
 ---
 
 - The Green Mile

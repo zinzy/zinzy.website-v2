@@ -1,5 +1,6 @@
 ---
 category: "Learning"
+excerpt: "Talk notes"
 ---
 These are the very rough notes notes I took during the [UXinsight Festival 2022](https://uxinsight.org/ux-research-conference-festival-2022/). I might clean them up at some point.
 

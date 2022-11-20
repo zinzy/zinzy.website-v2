@@ -1,8 +1,9 @@
 ---
 title: "Ideas can change"
-excerpt: "Note to self"
+excerpt: "... and that's exactly what makes them so great"
+category: "Evergreen"
 ---
-You forget this sometimes, and it has gotten you into a serious pickle on some occassions. Changing 
+You forget this sometimes, and it has gotten you into a serious pickle on some occassions.
 
 ## Prompts
 When you forget that ideas can change, ask yourself the following questions:

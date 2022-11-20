@@ -4,25 +4,19 @@ layout: default
 
 
 <section class="journal">
-
-  <div class="page-header"><h1><a href="/">Hey</a> <span class="subtext mx-2">|</span> <span class="p-name">{{page.title}}</span></h1></div>
-
+  
   {% for post in site.posts %}
     <article class="h-entry">
-      <header>
-
-        <p class="meta">
-          <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
-          {% if post.u-in-reply-to %}
-            <span>| in reply to <a href="{{post.u-in-reply-to}}" class="u-in-reply-to">{{post.u-in-reply-to-name}}</a></span>
-          {% endif %} 
-        </p>
-
+      <header> <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
 
         {% if post.u-like-of %}
           <p>Liked <a href="{{post.u-like-of}}" class="u-like-of">{{post.u-like-of-name}}</a></p>
         {% endif %} 
 
+
+        {% if post.u-in-reply-to %}
+        <p class="mb-2">Replied to <a href="{{post.u-in-reply-to}}" target="_blank" class="u-like-of">{{post.u-in-reply-to-name}}</a>: </p>
+       {% endif %} 
          
 
         {% if post.title != "" %}
@@ -33,9 +27,11 @@ layout: default
           </h2>
         {% endif %}
       </header> 
-      <div class="p-content">
-        {{ post.content }}
-      </div> 
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          {{ post.content }}
+        </content> 
+      </div>
     </article>
   {% endfor %}
 </section>

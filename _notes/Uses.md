@@ -1,5 +1,6 @@
 ---
 category: "Info"
+excerpt: "Things I love and use"
 ---
 I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but more focused on things that happen outside of a computer.
 

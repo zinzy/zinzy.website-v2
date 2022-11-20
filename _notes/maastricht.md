@@ -1,5 +1,6 @@
 ---
 category: "Places"
+excerpt: "A city in the south of the Netherlands"
 ---
 
 # Maastricht

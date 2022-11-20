@@ -1,5 +1,6 @@
 ---
 excerpt: "With perpetual access to The Next Best Thing, I've found it helpful to remind myself that staying flexible around technology is a blessing."
+category: "Knowledge work"
 ---
 [Dan Russell told Lifehacker](https://lifehacker.com/im-dan-russell-google-research-scientist-and-this-is-1450690468) almost a decade ago:
 

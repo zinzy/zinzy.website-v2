@@ -1,5 +1,6 @@
 ---
 category: "Cooking"
+excerpt: "A versatile recipe for lunch, dinner, and snacks"
 ---
 
 # A recipe for Italian grilled vegetables

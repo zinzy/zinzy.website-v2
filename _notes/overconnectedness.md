@@ -1,9 +1,10 @@
 ---
 category: "Internet"
+excerpt: "A state that develops when I'm so well-exposed to the everyday lives of other people that I lose my curiosity about their lives"
 ---
 
 # Overconnectedness
-A state that develops when I'm so well-exposed to the every-day lives of other people that I not only lose my curiosity about their lives, but that I in fact begin to consciously or subconsciously seek to receive less information about them. 
+A state that develops when I'm so well-exposed to the everyday lives of other people that I not only lose my curiosity about their lives, but that I in fact begin to consciously or subconsciously seek to receive less information about them. 
 
 ## Drawbacks
 - Humans begin expecting from one another that they're up-to-date on each other's feeds

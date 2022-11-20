@@ -2,7 +2,7 @@
 title: Is the Pope gay?
 date: "2021-01-21"
 category: "Queerdom"
-excerpt: "The question burning a hole in everyone's brain"
+excerpt: "A side project van 2021"
 ---
 In January of 2021 I created a one-pager called "Is the Pope gay?". As is the case with so many of my other ideas, I came up with this website because something happened on the Internet: the `.gay` domain extension had just become available. Next to isthepope.gay, I registered a wide variety of domains. My favorite was everyoneatthevaticanis.gay, which led to my own website.
 

@@ -1,5 +1,6 @@
 ---
 category: "Media"
+excerpt: "I like music: playing it, writing it, and listening to it. "
 ---
 I like music: playing it, writing it, and listening to it. 
 

@@ -1,5 +1,6 @@
 ---
 excerpt: "An orthographic overview of Yiddish"
+category: "Language"
 ---
 <table class="breakout alphabet">
     <thead>

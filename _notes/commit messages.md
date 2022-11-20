@@ -1,5 +1,6 @@
 ---
 category: "Internet"
+excerpt: "Funny comments I come across on Github"
 ---
 
 # Commit messages 

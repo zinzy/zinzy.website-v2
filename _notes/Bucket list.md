@@ -1,5 +1,5 @@
 ---
-category: "Dreams"
+category: "Lists"
 excerpt: "A list of things I'd like to have done at some point in my life"
 ---
 - Complete yin [[Yoga]] teacher training
