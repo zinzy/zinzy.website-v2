@@ -1,6 +1,8 @@
 title:               Zinzy Waleson Geene
+tagline:              Zinzy Waleson Geene is a researcher, designer, and queer facilitator from Amsterdam.
 include:             ['_pages','_posts','_library','_links']
 exclude:             ['_includes/notes_graph.json']
+url:                  https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
 # Pages deploys your repository (which is usually the repository name).
