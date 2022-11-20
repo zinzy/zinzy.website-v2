@@ -181,7 +181,9 @@ time {
 }
 
 .text-end {
+  @media screen and (min-width: 768px) {
   text-align: right !important;
+  }
 }
 .journal {
   article {
