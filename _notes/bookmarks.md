@@ -68,6 +68,7 @@ excerpt: "In lieu of an RSS reader, I prefer maintaining a list of URLs that I l
 - https://mxb.dev/
 - https://roel.io/
 - https://dannywhite.org/
+- [https://chriswiegman.com](https://chriswiegman.com/)
 
 ### Communities
 - [IndieWeb](https://indieweb.org/)

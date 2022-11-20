@@ -19,11 +19,12 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - I've borrowed elements from [Clay Harmon](https://www.clayharmon.com/)'s [Tufte Jekyll theme](https://github.com/clayh53/tufte-jekyll/tree/4bee109052ce50ac97f03efd41d4988a43f4a456) to achieve a particular style of sidenotes originating from the work of [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte).
 
 ### To do on this website
-- Roam-style linking across content types `posts` and `notes`
 - Proper case handling of note titles
 - Github commit ID
 - https://www.a11ywebsites.com/about/
-- 
+- Pull Obsidian git repo into Jekyll and build once daily 
+- Optional POSSE to Mastodon
+- Frontmatter Boolean for Implied Reader, TBC and others
 
 ### Changelog
 - 2022-11-19: Added

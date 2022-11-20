@@ -27,6 +27,7 @@ layout: default
               {{ post.title }}
             </a>
           </h2>
+          
         {% endif %}
       </header> 
 
@@ -46,6 +47,10 @@ layout: default
         {{ post.excerpt }}
       </content> 
     </div>
+
+  <div class="mt-4">
+    <a href="{{post.url}}" class="button">Read this story</a>
+  </div>
 
     {% endif %} 
 
