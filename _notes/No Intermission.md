@@ -1,6 +1,6 @@
 ---
 excerpt: "I attended Marina Abramović's show in Carré in October of 2022."
-category: "Events"
+category: "Event"
 ---
 There is very little about Marina Abramović that is not awe-inducing. For one of her early works, _Rhythm 0_{% marginfigure 'mf-id-whatever' 'https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1667834197/zinzy.website/marina-abramovic-rhythm-0.png' 'Abramović during  _Rhythm 0_, with a loaded gun in her left hand, pointing at her head.' %}, she stood in a room for six hours, next to a table with 72 objects, all of which the audience was free to use on her in whichever way they saw fit. She has developed an excellent [[Marina Abramović Method|method]] that is helping me meditate in a more creative way. At MoMa, she celebrated her retrospective by performing _[The Artist is Present](https://www.moma.org/calendar/exhibitions/964)_, she spent months at a table gazing into the eyes of strangers, never getting up. Her fifty-year tenure as one of the world's leading performance artists has inspired countless people and she has let performance art reach far beyond the invisible but sturdy boundaries of high-brow art.
 
