@@ -1,0 +1,28 @@
+I"�<h3 id="typography">Typography</h3>
+<p>This website makes use of your browser-native typeface. This way, I don’t have to go down a typeface-buying rabbit hole every time I want to redesign my website, and you don’t have to wait for the page to load.</p>
+
+<blockquote>
+  <p>This is a blockquote.</p>
+
+  <p>— Zinzy</p>
+</blockquote>
+
+<h3 id="images">Images</h3>
+<p>While this website isn’t image-heavy, I did provide myself with various options for displaying imagery.</p>
+
+<figure>
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1667833900/zinzy.website/adrien-olichon-QRtym77B6xk-unsplash_n7frfb.jpg" />
+<figcaption>In general, I use figure elements to display full-width images, adding attribution if I've used a source. Figures have fairly wide horizontal spacing. This photo's by <a href="https://unsplash.com/photos/QRtym77B6xk" target="_blank">Adrien Olichon</a>.</figcaption>
+</figure>
+
+<h3 id="alerts">Alerts</h3>
+
+<div class="tbc">
+    <p class="mb-0">That's all for now. Eager to see me add some more to this page? Feel free to <a href="/hello">nudge</a> me.</p>
+</div>
+
+<div class="implied">
+    <span class="title">This is for</span>
+    <span class="content">People who want to learn about my styleguide</span>
+</div>
+:ET

@@ -5,7 +5,7 @@ excerpt: ""
 ---
 ## Heya, I'm Zinzy Waleson Geene
 
-I'm a researcher, designer, and queer facilitator from [[Amsterdam]], currently managing UX at [[Leeruniek]]. I specialize in building digital products for #peoplenotusers at work.
+I'm a researcher, designer, and queer facilitator from [[Amsterdam]], currently managing UX at [[Leeruniek]]. I specialize in building digital products for [[People not users|#peoplenotusers]] at work.
 
 I'm also a facilitator making resonant queer spaces in the city and on the Internet. I'm the founder and host of [[Queer Salon]], a slow-paced gathering in Amsterdam.
 

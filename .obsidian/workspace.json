@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "508e3fb535fb18da",
+        "id": "6d292a8c8c5f549e",
         "type": "tabs",
         "children": [
           {
-            "id": "5cc53b8cb3f7b802",
+            "id": "b1329215d71f050c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Marina Abramović Method.md",
+                "file": "_notes/People not users.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Marina Abramović Method.md",
+                "file": "_notes/People not users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Marina Abramović Method.md",
+                "file": "_notes/People not users.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Marina Abramović Method.md"
+                "file": "_notes/People not users.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5cc53b8cb3f7b802",
+  "active": "b1329215d71f050c",
   "lastOpenFiles": [
-    "_notes/Ideal PKM setup.md",
+    "_notes/Tool vibes.md",
+    "_notes/Why I have a website.md",
+    "_notes/eating disorder.md",
     "_notes/Diet culture.md",
+    "_notes/People not users.md",
+    "_notes/Marina Abramović Method.md",
+    "_notes/Ideal PKM setup.md",
     "_notes/Yin yoga.md",
     "_notes/Tools don't matter.md",
-    "_notes/The Midnight Library.md",
-    "_notes/The Complete Guide to Yin Yoga.md",
-    "_notes/Taoism.md",
-    "_notes/Suspension of judgment.md",
-    "_notes/No Intermission.md",
-    "_notes/Marina Abramović Method.md"
+    "_notes/The Midnight Library.md"
   ]
 }

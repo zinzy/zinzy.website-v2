@@ -22,15 +22,6 @@ If I need to find a person, I google them. I don't use social media, and I usual
 
 #### Showing your personality
 
-
-
-
-
-
-
-
-
-
 ### My place on the web
 When people Google me, the first thing they will see is a link to this website. On here, those interested can learn more about my work, and other things that are important to me.
 

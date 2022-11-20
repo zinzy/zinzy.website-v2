@@ -20,18 +20,34 @@ layout: default
          
 
         {% if post.title != "" %}
-          <h2>
+          <h2 class="h6">
             <a href="{{ post.url }}">
               {{ post.title }}
             </a>
           </h2>
         {% endif %}
       </header> 
+
+
+
+      {% if post.title == "" %}
       <div id="notes-entry-container">
         <content class="e-content"> 
           {{ post.content }}
         </content> 
       </div>
+
+
+    {% else %}
+    <div id="notes-entry-container">
+      <content class="e-content"> 
+        {{ post.excerpt }}
+      </content> 
+    </div>
+
+    {% endif %} 
+
+
     </article>
   {% endfor %}
 </section>
