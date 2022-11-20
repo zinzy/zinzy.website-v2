@@ -324,11 +324,10 @@ h2 {
 .wrapper {
   padding: 40px;
   margin: 80px auto;
-  @media screen and (min-width: 768px) {
-    padding: 80px; 
-    margin: 100px auto;
+  @media screen and (min-width: 600px) {
+    padding: 80px;  
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 768px) {
     padding: 0; 
     max-width: 600px;
     margin: 200px auto;
@@ -770,7 +769,7 @@ table {
 
 .button, button {
   text-decoration: none;
-  font-size: .9rem;
+  font-size: .8rem;
   border: 1px solid var(--gray-200);
   font-weight: 500;
   padding: 0.5rem 0.8rem;
@@ -902,3 +901,9 @@ strong {
 .bg-orange { background: var(--blue-orange); }
 .bg-yellow { background: var(--blue-yellow); }
 .bg-green { background: var(--blue-green); }
+
+
+
+blockquote {
+  border-left: 3px solid var(--gray-100);
+}
