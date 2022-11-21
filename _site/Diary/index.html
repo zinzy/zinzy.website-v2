@@ -73,36 +73,29 @@
     <article class="h-entry">
       <header> 
         
-        <time datetime="Sunday, 20 November, 2022"><a href="/2022/11/20/rest">Sunday, 20 November, 2022</a></time>
-
-         
-
-
-         
-         
+        <time datetime="Sunday, 20 November, 2022"><a href="/2022/11/20/173838">Sunday, 20 November, 2022</a></time>
 
         
-          <h2 class="h6">
-            <a href="/2022/11/20/rest">
-              Rest
-            </a>
-          </h2>
-          
+          <p>Liked <a href="https://omny.fm/shows/stuff-you-should-know-1/rolling-stone-magazine" class="u-like-of">Stuff You Should Know episode about Rolling Stone Magazine</a></p>
+         
+
+
+         
+         
+
         
       </header> 
 
 
 
       
-    <div id="notes-entry-container">
-      <content class="e-content"> 
-        Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day. My jump doesn't land me in a personalized Instagram feed or a busy news site, but on a blank screen that waits eagerly as I type my 1,000 words of the morning.
-      </content> 
-    </div>
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          
 
-  <div class="mt-4">
-    <a href="/2022/11/20/rest" class="button">Read this story</a>
-  </div>
+        </content> 
+      </div>
+
 
      
 
@@ -440,7 +433,7 @@
       <footer id="footer"> 
  
   <div class="h-card">
-    <div class="d-flex">
+    <div class="d-md-flex">
       <div class="flex-shrink-1">
         <div class="photo"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1635344340/me/zinzy-1_zarupx.jpg" class="u-photo" alt="Portrait photo of Zinzy Waleson Geene laughing hysterically, as she does"></div>
       </div>
@@ -465,7 +458,7 @@
   <hr class="my-3"/>
 
   <div class="row">
-    <div class="col-8">
+    <div class="col-md-8">
       <ul>
         <li><a href="/now">Now</a> & <a href="/then">Then</a></li>
         <li><a href="/colophon">Colophon</a></li>
@@ -473,7 +466,7 @@
         <li><a href="/styleguide">Styleguide</a></li>
       </ul>
     </div>
-    <div class="col-4 text-end"> 
+    <div class="col-md-4 text-end"> 
       <span>
         <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
         🕸💍
@@ -485,8 +478,8 @@
   <hr class="my-3"/>
 
   <div class="row subtext">
-    <div class="col">&copy; 2022 Zinzy Waleson Geene</div>
-    <div class="col text-end">Edition <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank"><span class="commit-id">1668934839</span></a></div>
+    <div class="col-md-6">&copy; 2022 Zinzy Waleson Geene</div>
+    <div class="col-md-6 text-end">Edition <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank"><span class="commit-id">1668934839</span></a></div>
   </div>
 
   <div class="mt-5 subtext">
@@ -525,5 +518,148 @@
 
   
     </div>  
+
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      if (!linkHistories[event.target.href]) {
+        iframe.src = event.target.href
+        iframe.onload = function() {
+          tooltipContentHtml = ''
+          tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+          tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+          tooltipContent.innerHTML = tooltipContentHtml
+          linkHistories[event.target.href] = tooltipContentHtml
+
+          tooltipWrapper.style.display = 'block';
+          setTimeout(function() {
+            tooltipWrapper.style.opacity = 1;
+          }, 1)
+        } 
+      } else {
+        tooltipContent.innerHTML = linkHistories[event.target.href]
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('touchend', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
   </body>
 </html>
+

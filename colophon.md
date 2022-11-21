@@ -25,6 +25,7 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - Pull Obsidian git repo into Jekyll and build once daily 
 - Optional POSSE to Mastodon
 - Frontmatter Boolean for Implied Reader, TBC and others
+- Tooltips for external/internal links
 
 ### Changelog
 - 2022-11-19: Added

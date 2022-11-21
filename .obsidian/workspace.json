@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-20-rest.md",
+                "file": "Colophon.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-20-rest.md",
+                "file": "Colophon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-20-rest.md",
+                "file": "Colophon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-20-rest.md"
+                "file": "Colophon.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "a1fd8d6b8d7c71af",
   "lastOpenFiles": [
-    "_posts/_2022-11-20-the-chase.md",
     "_posts/2022-11-20-rest.md",
+    "_posts/_2022-11-20-the-chase.md",
     "_notes/Body of Work.md",
     "_posts/2022-11-20-hannah-gadsby-body-of-work.md",
     "_notes/People not users.md",
