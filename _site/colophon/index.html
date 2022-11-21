@@ -11,7 +11,7 @@
 
   <meta property="og:site_name" content="Zinzy Waleson Geene">
 
-  <link rel="icon" type="image/png" href="https://emojicdn.elk.sh/🦄">
+  <link rel="icon" type="image/png" href="https://emojicdn.elk.sh/💾">
 
   <link rel="stylesheet" href="/styles.css">
 
@@ -95,7 +95,8 @@
   <li>Proper case handling of note titles</li>
   <li>Github commit ID</li>
   <li>https://www.a11ywebsites.com/about/</li>
-  <li>Pull Obsidian git repo into Jekyll and build once daily</li>
+  <li>Hook for daily submodule pull</li>
+  <li>Hook for daily build</li>
   <li>Optional POSSE to Mastodon</li>
   <li>Frontmatter Boolean for Implied Reader, TBC and others</li>
   <li>Tooltips for external/internal links</li>
@@ -103,13 +104,14 @@
 
 <h3 id="changelog">Changelog</h3>
 <ul>
-  <li>2022-11-19: Added
+  <li>2022-11-19:
     <ul>
-      <li>Support for Indieweb post types article, note, and reply</li>
-      <li>Outgoing webmentions</li>
+      <li>Added Indieweb post types article, note, and reply</li>
+      <li>Added outgoing webmentions</li>
     </ul>
   </li>
   <li>2022-11-20: added cross-post type support for bidirectional links (thanks to <a href="https://github.com/florhizome/digital-garden-jekyll-template/commit/5ac71e7dd1d45bead5784936ca854ef62ba50437">this</a>)</li>
+  <li>2022-11-21: Added git submodule for Obsidian content</li>
 </ul>
 
       </content> 
@@ -167,7 +169,7 @@
 
   <div class="row subtext">
     <div class="col-md-6">&copy; 2022 Zinzy Waleson Geene</div>
-    <div class="col-md-6 text-end">Edition <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank"><span class="commit-id">1669014075</span></a></div>
+    <div class="col-md-6 text-end">Edition <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank"><span class="commit-id">1669028020</span></a></div>
   </div>
 
   <div class="mt-5 subtext">
@@ -208,8 +210,11 @@
     </div>  
 
 
-    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
-<style>
+    <!-- <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+
+
+
+<!-- <style>
   content a.internal-link {
     border-color: #8b88e6;
     background-color: #efefff;
@@ -347,7 +352,7 @@
   }
 
   document.querySelectorAll('content a').forEach(setupListeners);
-</script>
+</script> --> -->
   </body>
 </html>
 

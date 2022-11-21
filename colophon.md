@@ -22,13 +22,16 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - Proper case handling of note titles
 - Github commit ID
 - https://www.a11ywebsites.com/about/
-- Pull Obsidian git repo into Jekyll and build once daily 
+- Hook for daily submodule pull
+- Hook for daily build
 - Optional POSSE to Mastodon
 - Frontmatter Boolean for Implied Reader, TBC and others
 - Tooltips for external/internal links
 
+
 ### Changelog
-- 2022-11-19: Added
-	- Support for Indieweb post types article, note, and reply
-	- Outgoing webmentions
+- 2022-11-19:
+	- Added Indieweb post types article, note, and reply
+	- Added outgoing webmentions
 - 2022-11-20: added cross-post type support for bidirectional links (thanks to [this](https://github.com/florhizome/digital-garden-jekyll-template/commit/5ac71e7dd1d45bead5784936ca854ef62ba50437))
+- 2022-11-21: Added git submodule for Obsidian content
