@@ -22,7 +22,6 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 - Proper case handling of note titles
 - Github commit ID
 - https://www.a11ywebsites.com/about/
-- Hook for daily submodule pull
 - Hook for daily build
 - Optional POSSE to Mastodon
 - Frontmatter Boolean for Implied Reader, TBC and others
@@ -34,4 +33,6 @@ This is a personal website, designed, built, and maintained by me, Zinzy.
 	- Added Indieweb post types article, note, and reply
 	- Added outgoing webmentions
 - 2022-11-20: added cross-post type support for bidirectional links (thanks to [this](https://github.com/florhizome/digital-garden-jekyll-template/commit/5ac71e7dd1d45bead5784936ca854ef62ba50437))
-- 2022-11-21: Added git submodule for Obsidian content
+- 2022-11-21:
+	- Added git submodule for Obsidian content
+	- Added Netlify hook to check content submodule for updates on build
