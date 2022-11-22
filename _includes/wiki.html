@@ -1,0 +1,30 @@
+<h2>The wiki</h2> 
+<p>Everything I write lives in a single folder of plain text notes, my <a href="/second-brain">second brain</a>. By default, I keep these notes private. Some, however, find their way into this public space, a digital garden of sorts. It's a place for unfinished ideas, honest mistakes, and questions. Soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+
+<div class="wiki"> 
+  {% assign navurl = page.url | remove: 'index.html' %}
+  {% assign notes = site.notes | sort: 'category' | group_by: "category" %}
+   
+  {% for category in notes  %}
+
+  <ul>
+    <li>
+      <span class="category">{{ category.name }}</span>
+      <ul>
+        {% assign items = category.items | sort: 'title' %}
+        {% for item in items %}
+          <li class="collapsed">
+              <a href="{{ site.baseurl }}{{ item.url }}">
+              {% if item.url == navurl %}
+                <u>{{ item.title }}</u>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+              </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </li>
+  </ul>
+{% endfor %}
+</div> 

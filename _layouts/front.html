@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<section>
+  <div id="notes-entry-container">
+    <content>
+      <h1>{{page.title}}</h1>
+      {{ content }}
+    </content>
+  </div> 
+
+  <mark>I'm running an <a href="/discomfort-of-vanity">experiment</a></mark>
+
+  </section>
+
+  <section>
+    <h2>Recent posts</h2>
+
+    {% assign posts = site.posts | where_exp: "item", "item.title != ''" %}
+    <ul class="archive">
+    {% for post in posts limit: 3 %}
+ 
+        <li>
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time> 
+          <a href="{{post.url}}"> {{ post.title }}</a>
+        </li> 
+
+    {% endfor %}
+  </ul>
+
+    <a href="/archive">See full post archive</a>
+  </section>
+
+
+<section>
+  {% include wiki.html %} 
+</section>
+
+  
+</section>

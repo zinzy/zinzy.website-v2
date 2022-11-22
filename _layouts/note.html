@@ -5,15 +5,18 @@ layout: default
 
 
   <header>
-    <h2 class="p-name">{{page.title}}</h2>
-    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
-      Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
+    <h1 class="p-name">{{page.title}}</h1>
+    <p>By <a href="/">{{site.title}}</a>, <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+      last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
-    </time>
+    </time></p>
   </header>
 
   <div id="notes-entry-container">
 
+    {% if page.implied %}
+    <div class="info"><strong>This is for</strong> {{page.implied}}</div>
+    {% endif %}
 
     {% if page.toc %}
 

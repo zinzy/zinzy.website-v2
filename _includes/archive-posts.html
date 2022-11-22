@@ -1,0 +1,10 @@
+{% assign posts = site.posts | where_exp: "item", "item.title != ''" %}
+<ul class="archive">
+{% for post in posts %}
+    <li>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time> 
+      <a href="{{post.url}}"> {{ post.title }}</a>
+    </li>  
+{% endfor %}
+
+</ul>
