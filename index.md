@@ -3,11 +3,4 @@ layout: front
 title: "Zinzy Waleson Geene"
 excerpt: ""
 ---
-A vastly personal website
-
-## In short
-- User experience researcher and designer
-- Building tools for [[People not users|#peoplenotusers]] at work
-- Serving as UX Manager at [[Leeruniek]]
-- Queer facilitator at [[Queer Salon]] and [[Vine & Fig]]
-- Living and working in [[Amsterdam]]
+I'm a researcher, designer, and facilitator building tools for people at work, in Amsterdam and on the Internet. Welcome to my personal site.

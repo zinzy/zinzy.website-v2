@@ -1,0 +1,18 @@
+
+  <section>
+    FF proberen of dat kan met meerdere collections
+
+    <ul>
+      {% for collection in site.collections %} 
+      {{ collection.label }}
+  
+      <li>
+        <ul>
+          {% for collection in collection.docs reversed %}
+        <li>{{ collection.url | relative_url }} {{ collection.image }} {{ collection.description }} {{ collection.url }} {{ collection.title }}</li>
+      {% endfor %} 
+        </ul>
+      </li>
+      {% endfor %}
+    </ul> 
+  </section>
