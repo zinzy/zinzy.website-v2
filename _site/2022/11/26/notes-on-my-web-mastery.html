@@ -49,9 +49,6 @@
   <link rel="webmention" href="https://webmention.io/www.zinzy.website/webmention" />
   <link rel="pingback" href="https://webmention.io/www.zinzy.website/xmlrpc" />
 
-  <link rel="webmention" href="https://webmention.io/minutestomidnight.co.uk/webmention" />
-<link rel="pingback" href="https://webmention.io/minutestomidnight.co.uk/xmlrpc" />
-
   <link rel="micropub" href="https://zinzy.website/micropub/main">
   
 </head>
@@ -122,6 +119,18 @@
         </content> 
       </div>
 
+</article>
+
+  <script id="webmention-hosted">
+    (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+    }());
+    </script>
 </article>
       </main>  
       <footer id="footer"> 
