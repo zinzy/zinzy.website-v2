@@ -5,7 +5,7 @@ layout: default
 
 
   <header>
-    <h2 class="p-name">{{page.title}}</h2>
+    <h2 class="p-name mb-2">{{page.title}}</h2>
     <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
@@ -14,6 +14,9 @@ layout: default
 
   <div id="notes-entry-container">
 
+    {% if page.implied %}
+    <div class="info"><strong>This is for</strong> {{page.implied}}</div>
+    {% endif %}
 
     {% if page.toc %}
 
@@ -36,18 +39,17 @@ layout: default
 
       {% if page.backlinks.size > 0 %}
 
-      <hr>
-
-      <h3>Mentioned in</h3> 
+      <h3 class="shy">This note was mentioned in</h3> 
       <div>
-        <ul>
+        <ul class="blocks">
           {% for backlink in page.backlinks %}
+
           <li>
-            <div>
-            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
-            <!-- <div>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div> -->
-            </div>
-          </li>
+            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
+              <div class="title">{{ backlink.title }}</div>
+              <div class="excerpt">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
+            </a>
+          </li>  
           {% endfor %}
         </ul> 
       </div>

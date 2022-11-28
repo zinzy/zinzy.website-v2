@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<section>
+  <div id="notes-entry-container">
+    <content>
+      {{ content }}
+    </content>
+  </div> 
+
+  <section>
+    <h2 class="shy">Latest post</h2>
+
+    <div class="mt-4">
+      {% assign posts = site.posts | where_exp: "item", "item.title != ''" %}
+    {% for post in posts limit: 1 %}
+      <h3 class="mb-0"><a href="{{post.url}}"> {{ post.title }}</a></h3>
+      <time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time> 
+      <p>{{ post.excerpt }}</p>
+    {% endfor %}
+    </div>
+  </section> 
+
+  <!-- <section>
+    <h2 class="shy">Piles</h2>
+    {% assign navurl = page.url | remove: 'index.html' %}
+    {% assign notes = site.notes | sort: 'categories' | group_by: "categories" %}
+    <ul class="interests">
+      {% for categories in notes  %} 
+        <li><a href="">{{ categories.name }}</a></li> 
+      {% endfor %}
+    </ul>
+  </section> -->
+
+  <section>
+    <h2 class="shy">Working notes</h2>
+    <p>I maintain a single body of writing, some of which is suitable for public reading. Here are a few notes to get you started.</p>
+    <ul class="blocks mt-5">
+ 
+      {% assign notes = site.notes | where_exp: "item", "item.highlight == true" %}
+      {% for note in notes limit: 6 %}
+          <li>
+            <a href="{{note.url}}">
+              <div class="title">{{ note.title }}</div>
+              <div class="excerpt">{{ note.excerpt | strip_html | truncatewords: 20 }}</div>
+            </a>
+          </li>  
+      {% endfor %}
+      </ul>
+  </section>
+
+
+
+
+
+
+

@@ -1,42 +1,6 @@
 ---
 layout: default
 ---
-<section> 
-  <h2>The wiki</h2>
-  <div id="notes-entry-container">
-    <content>
-      {{ content }}
-    </content>
-  </div> 
-</section>
-
 <section>
-
-  {% assign navurl = page.url | remove: 'index.html' %}
-  {% assign notes = site.notes | sort: 'category' | group_by: "category" %}
-  
-  <div class="wiki">
-    {% for category in notes  %}
-
-      <ul class="">
-        <li>
-          <span class="category">{{ category.name }}</span>
-          <ul>
-            {% assign items = category.items | sort: 'title' %}
-            {% for item in items %}
-              <li class="collapsed">
-                  <a href="{{ site.baseurl }}{{ item.url }}">
-                  {% if item.url == navurl %}
-                    <u>{{ item.title }}</u>
-                  {% else %}
-                    {{ item.title }}
-                  {% endif %}
-                  </a>
-              </li>
-            {% endfor %}
-            </ul>
-          </li>
-      </ul>
-    {% endfor %}
-  </div> 
+  {% include wiki.html %} 
 </section>

@@ -1,6 +1,7 @@
 title:               Zinzy Waleson Geene
 tagline:              Zinzy Waleson Geene is a researcher, designer, and queer facilitator from Amsterdam.
-include:             ['_pages','_posts','_library','_links']
+include:
+  - My-Digital-Garden
 exclude:             ['_includes/notes_graph.json']
 url:                  https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
@@ -30,6 +31,7 @@ plugins:
   - jekyll-archives
   - jekyll-toc
   - jekyll-feed
+  - jekyll-category-pages
 
 # jekyll-archives:
 #   enabled: all
@@ -45,6 +47,10 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+
+
+collections_dir: My-Digital-Garden
+
 collections:
   posts:
     output: true
@@ -52,9 +58,7 @@ collections:
   notes:
     output: true
     permalink: /:slug 
-  links:
-    output: true
-    permalink: /:slug
+    layout: "note"
 
 defaults:
   - scope:
@@ -62,22 +66,14 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_notes/**/*.md"
+      path: "My-Digital-Garden/_notes/**/*.md"
     values:
       layout: "note"
   - scope:
-      path: "_library/**/*.md"
-    values:
-      layout: "note"
-  - scope:
-      path: "_posts/**/*.md"
+      path: "My-Digital-Garden/_posts/**/*.md"
     values:
       layout: "post"
   - scope:
       path: "_pages/**/*.md"
     values:
-      layout: "page"
-  - scope:
-      path: "_links/**/*.md"
-    values:
-      layout: "links"
+      layout: "page" 

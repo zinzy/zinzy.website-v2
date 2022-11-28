@@ -1,0 +1,6 @@
+# [submodule "content"]
+# 	path = content
+# 	url = https://github.com/zinzy/Digital-garden
+[submodule "My-Digital-Garden"]
+	path = My-Digital-Garden
+	url = https://github.com/zinzy/My-Digital-Garden
