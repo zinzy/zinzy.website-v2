@@ -15,7 +15,10 @@ layout: default
   <div id="notes-entry-container">
 
     {% if page.implied %}
-    <div class="info"><strong>This is for</strong> {{page.implied}}</div>
+    <div class="info">
+      <span class="title">This is for</span>
+      <span class="content">{{page.implied}}</span>
+    </div>
     {% endif %}
 
     {% if page.toc %}
