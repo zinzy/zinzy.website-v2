@@ -115,9 +115,14 @@ section {
 }
 
 #footer {
-  font-size: .8rem;
   margin-top: 100px;
   color: var(--gray-75);
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .yw-content {
