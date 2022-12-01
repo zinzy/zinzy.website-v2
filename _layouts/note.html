@@ -6,10 +6,10 @@ layout: default
 
   <header>
     <h2 class="p-name mb-2">{{page.title}}</h2>
-    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
+    <!-- <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
-    </time>
+    </time> -->
   </header>
 
   <div id="notes-entry-container">
@@ -42,7 +42,7 @@ layout: default
 
       {% if page.backlinks.size > 0 %}
 
-      <h3 class="shy">This note was mentioned in</h3> 
+      <h3 class="shy">Notes that refer to this one</h3> 
       <div>
         <ul class="blocks">
           {% for backlink in page.backlinks %}

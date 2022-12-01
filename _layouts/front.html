@@ -10,7 +10,6 @@ layout: default
 
   <section>
     <h2 class="shy">Latest post</h2>
-
     <div class="mt-4">
       {% assign posts = site.posts | where_exp: "item", "item.title != ''" %}
     {% for post in posts limit: 1 %}
@@ -21,31 +20,20 @@ layout: default
     </div>
   </section> 
 
-  <!-- <section>
-    <h2 class="shy">Piles</h2>
-    <p>I maintain a single body of writing, some of which is suitable for public reading. Here are a few notes to get you started.</p>
-    {% assign navurl = page.url | remove: 'index.html' %}
-    {% assign notes = site.notes | sort: 'categories' | group_by: "categories" %}
-    <ul class="interests">
-      <li><a href="">Design</a></li> 
-      <li><a href="">Humanities</a></li> 
-      <li><a href="">Health</a></li> 
-      <li><a href="">Spirituality</a></li> 
-      <li><a href="">Internet</a></li> 
-      <li><a href="">Knowledge work</a></li> 
-      <li><a href="">Music</a></li> 
-      <li><a href="">Places</a></li> 
-      <li><a href="">Language</a></li> 
-      <li><a href="">Practices</a></li> 
+  <section>
+    <h2 class="shy">I write about</h2>
+    {% assign notes = site.notes | where_exp: "item", "item.pile == true" %}
+      <ul class="interests">
+        {% for note in notes %}
+        <li><a href="{{note.url}}">{{ note.title }}</a></li>  
+        {% endfor %}
     </ul>
-  </section> -->
+  </section>
 
   <section>
-    <h2 class="shy">Working notes</h2>
-    <p>I maintain a single body of writing, some of which is suitable for public reading. Here are a few notes to get you started.</p>
+    <h2 class="shy">Recent changes to my working notes</h2>
     <ul class="blocks mt-5">
- 
-      {% assign notes = site.notes | where_exp: "item", "item.highlight == true" %}
+      {% assign notes = site.notes | where_exp: "item", "item.pile != true" %}
       {% for note in notes limit: 6 %}
           <li>
             <a href="{{note.url}}">
