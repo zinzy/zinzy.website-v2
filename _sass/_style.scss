@@ -103,10 +103,10 @@ time {
   }
 }
 
-section {
-  margin-top: 50px;
-  padding-top: 50px;
+section { 
   &:not(:first-child) {
+    margin-top: 50px;
+    padding-top: 50px;
     border-top: 1px solid var(--gray-25);
     @media (prefers-color-scheme: dark) {
       border-color: var( --gray-5);
