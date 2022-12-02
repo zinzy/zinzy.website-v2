@@ -35,6 +35,9 @@ plugins:
   - jekyll-feed
   - jekyll-category-pages
 
+feed:
+  path: /blog.xml
+
 # jekyll-archives:
 #   enabled: all
 #   layout: archive
