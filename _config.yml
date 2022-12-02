@@ -1,5 +1,5 @@
-title:               Zinzy Waleson Geene
-tagline:              Zinzy Waleson Geene is a researcher, designer, and queer facilitator from Amsterdam.
+title: Zinzy Waleson Geene
+tagline: Zinzy Waleson Geene is a researcher, designer, and queer facilitator from Amsterdam.
 include:
   - My-Digital-Garden
 exclude:             
@@ -32,7 +32,7 @@ plugins:
   - jekyll-timeago
   - jekyll-archives
   - jekyll-toc
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-category-pages
 
 

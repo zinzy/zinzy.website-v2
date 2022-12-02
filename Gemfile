@@ -11,7 +11,7 @@ gem "nokogiri"
 gem 'jekyll-timeago'
 gem 'jekyll-archives'
 gem 'jekyll-toc'
-gem 'jekyll-feed'
+# gem 'jekyll-feed'
 group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "jekyll-category-pages"
