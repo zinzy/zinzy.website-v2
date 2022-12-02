@@ -1,27 +1,60 @@
 ---
 layout: default
 ---
+
 <article class="h-entry">
-      
+
+
+  {% if page.title != '' %}
+        
   <header>  
     <h2 class="p-name mb-2">{{page.title}}</h2>
     <time class="dt-published" datetime="{{ page.date | date: "%A, %e %B, %Y" }}">Published on {{ page.date | date: "%A, %e %B, %Y" }}</time>
   </header>
- 
 
-      <div id="notes-entry-container">
+  <div id="notes-entry-container">
 
-        {% if page.edited %}
-        <div class="info">
-          <span class="content">{{page.edited}}</span>
-        </div>
-        {% endif %}
-        <content class="e-content"> 
-          {{ content }}
-        </content> 
-      </div>
+    {% if page.edited %}
+    <div class="info">
+      <span class="content">{{page.edited}}</span>
+    </div>
+    {% endif %}
+    <content class="e-content"> 
+      {{ content }}
+    </content> 
+  </div>
 
-      <hr class="my-5">
+  <hr class="my-5">
+  
+  {%- include widget-responses.html -%}
+    
+
+  {% else %}
+
+    <p class="small mb-1">
+        
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+
+      {% if page.u-in-reply-to %}
+      ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
+      {% endif %}
       
-      {%- include widget-responses.html -%}
+      {% if page.u-like-of %}
+      ⋅ Like
+      {% endif %}
+
+    </p>
+
+    {% if page.u-like-of %}
+    <a class="u-like-of" href="{{page.u-like-of}}" target="_blank" rel="noopener noreferrer">{{page.u-like-of-name}}</a>
+    {% endif %}
+
+    <div id="notes-entry-container" class="e-content">
+    <content>
+      {{ page.content }}
+    </content> 
+    </div>
+
+  {% endif %}  
+    
 </article>

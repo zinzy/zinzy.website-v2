@@ -325,3 +325,22 @@ main {
     }
   }
 }
+
+.micro {
+  article {
+    margin-bottom: 3rem;
+    content {
+      p:first-child {
+        margin-block-start: 0;
+      }
+    }
+  }
+}
+
+.small {
+  font-size: .8rem;
+  color: var( --gray-50);
+  @media (prefers-color-scheme: dark) {
+    color: var( --gray-25);
+  }
+}
