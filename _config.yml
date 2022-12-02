@@ -38,7 +38,7 @@ plugins:
 
 posts_limit: 10
 feed:
-  path: /blog.xml
+  path: /feed.xml
 
 
 # jekyll-archives:
