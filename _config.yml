@@ -2,7 +2,9 @@ title:               Zinzy Waleson Geene
 tagline:              Zinzy Waleson Geene is a researcher, designer, and queer facilitator from Amsterdam.
 include:
   - My-Digital-Garden
-exclude:             ['_includes/notes_graph.json']
+exclude:             
+  - _includes/notes_graph.json
+  - assets/js/webmention.js
 url:                  https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
