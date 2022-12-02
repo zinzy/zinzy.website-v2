@@ -304,6 +304,24 @@ main {
  
 #webmentions {
   .comments {
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 1rem; 
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 1rem 0 1rem 60px;
+      img {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    }
   }
 }
