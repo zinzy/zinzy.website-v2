@@ -1,9 +1,16 @@
+title: "Window of tolerance"
+date: 2022-12-01
+excerpt: ""
+categories: []
+tags:
+-
+---
 
 ### Literature notes
 - 
 
 ### Fleeting notes
-- [[Yin yoga]] trains the [[Tolerance of discomfort]] muscle
+- 
 
 ### Related concepts
 - 

@@ -1,0 +1,4 @@
+---
+title: "Photoblog"
+layout: photoblog
+---

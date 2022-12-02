@@ -10,6 +10,12 @@ layout: default
  
 
       <div id="notes-entry-container">
+
+        {% if page.edited %}
+        <div class="info">
+          <span class="content">{{page.edited}}</span>
+        </div>
+        {% endif %}
         <content class="e-content"> 
           {{ content }}
         </content> 
