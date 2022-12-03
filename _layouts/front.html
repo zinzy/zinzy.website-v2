@@ -21,28 +21,29 @@ layout: default
   </section> 
 
   <section>
-    <h2 class="shy">I write about</h2>
-    {% assign notes = site.notes | where_exp: "item", "item.pile == true" %}
+    <h2 class="shy">My working notes</h2>
+    <p>I write in public about what has my interest. Notes usually start out small (or empty), and grow as I do. The notes are densely linked, unfinished, possibly incorrect, and always ready for improvement.</p>
+
+    <div class="mt-4">
+      <h3 class="shy">Topics</h3>
+      {% assign notes = site.notes | where_exp: "item", "item.pile == true" %}
       <ul class="interests">
         {% for note in notes %}
         <li><a href="{{note.url}}">{{ note.title }}</a></li>  
         {% endfor %}
-    </ul>
-  </section>
-
-  <section>
-    <h2 class="shy">Recent changes to my working notes</h2>
-    <ul class="blocks mt-5">
-      {% assign notes = site.notes | where_exp: "item", "item.pile != true" %}
-      {% for note in notes limit: 6 %}
-          <li>
-            <a href="{{note.url}}">
-              <div class="title">{{ note.title }}</div>
-              <div class="excerpt">{{ note.excerpt | strip_html | truncatewords: 20 }}</div>
-            </a>
-          </li>  
-      {% endfor %}
+      </ul> 
+    </div>
+    <div class="mt-4">
+      <h3 class="shy">Recently changed</h3>
+      <ul class="">
+        {% assign notes = site.notes | sort: 'last_modified_at' | reverse  %}
+        {% for note in notes limit: 6 %}
+            <li>
+              <a href="{{note.url}}">{{ note.title }}</a>
+            </li>  
+        {% endfor %}
       </ul>
+    </div>
   </section>
 
 

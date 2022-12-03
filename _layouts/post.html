@@ -23,6 +23,19 @@ layout: default
       {{ content }}
     </content> 
   </div>
+ 
+
+  {% if page.tags.size > 0 %}
+    <div class="mt-5">
+      <h3 class="shy">Tagged with</h3>
+      <ul class="interests">
+        {%- for tag in page.tags -%}
+          <li><a href="/tag/{{ tag | slugify | append: '/' }}">{{ tag }}</a></li>
+        {%- endfor -%}
+      </ul> 
+    </div>
+  {% endif %}
+
 
   <hr class="my-5">
   

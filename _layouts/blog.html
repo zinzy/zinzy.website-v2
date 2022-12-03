@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section class="mb-5">
+  <h2>Blog posts</h2>
+  <p>On this website, I write post <a href="/indieweb">IndieWeb</a> post types. Some are longform, and others are short blurbs, likes, and replies to other websites. Below you'll find the archive for longform content, or articles. If you're looking for shortform things, check my <a href="/micro">Micro</a> page.</p>
+</section>
+
+<section>
+  {% assign grouped_posts = site.posts | where_exp: "item", "item.title != ''" | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in grouped_posts %}
+    <div class="mb-5">
+      <h3>{{ year.name }}</h3>
+      <ul class="archive">
+        {% for post in year.items %}
+        <li>
+          <div class="row">
+            <div class="col-12 col-md-2">
+              <time class="" datetime="{{ post.date | date: "%b %d" }}">{{ post.date | date: "%b %d" }}</time>
+            </div>
+            <div class="col-12 col-md-10">
+              <a href="{{post.url}}"> {{ post.title }}</a>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Topics</h2>
+  <ul class="interests">
+    {%- assign sorted_tags = site.tags | sort -%}
+    {%- for tag in sorted_tags -%}
+    {%- assign t = tag | first -%}
+      <li><a class="" href="/tag/{{ t | slugify }}/" title="Posts about {{ t }}">{{ t }}</a></li>
+    {%- endfor -%}
+  </ul>
+</section>

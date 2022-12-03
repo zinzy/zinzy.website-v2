@@ -41,15 +41,14 @@ feed:
   path: /feed.xml
 
 
-# jekyll-archives:
-#   enabled: all
-#   layout: archive
-#   permalinks:
-#     year: '/:year/'
-#     month: '/:year/:month/'
-#     day: '/:year/:month/:day/'
-#     tag: '/tag/:name/'
-#     category: '/category/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: tag
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
 sass:
   sass_dir:          _sass

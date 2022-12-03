@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h2>All posts tagged {{ page.title }}</h2>
+<ul class="archive">
+    {% assign grouped_posts = page.posts | where_exp: "item", "item.title != ''" %}
+  {% for post in grouped_posts %}
+    <li>
+        <div class="row">
+          <div class="col-12 col-md-2">
+            <time class="" datetime="{{ post.date | date: "%b %d" }}">{{ post.date | date: "%b %d" }}</time>
+          </div>
+          <div class="col-12 col-md-10">
+            <a href="{{post.url}}"> {{ post.title }}</a>
+          </div>
+        </div>
+    </li>
+  {% endfor %}
+</ul>

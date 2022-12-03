@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<section class="journal">
-  {% assign random = site.time | date: "%s%N" | modulo: site.notes.size %}
-  {% for note in site.notes[random] %}
-  <article>
-    <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-      Last updated on {{ note.last_modified_at | date: "%B %-d, %Y" }}
-    </time>
-   
-  
-    <div id="notes-entry-container">
-      <content>
-        {{ note.content }}
-      </content> 
-      </div>
-    
-  </article>
-  {% endfor %}
-</section>
+<h2>{{page.title}}</h2>
+{{content}}
+
+<section class="mt-5"> 
+  {% assign navurl = page.url | remove: 'index.html' %}
+  {% assign evergreens = site.notes | sort: 'last_modified_at' | reverse %}
+  {% for item in evergreens %}
+  <li class="archive">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+      {% if item.url == navurl %}
+        <u>{{ item.title }}</u>
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+      </a>
+  </li>
+{% endfor %}
+</section> 
