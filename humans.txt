@@ -1,0 +1,49 @@
+ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+||z |||i |||n |||z |||y |||. |||w |||e |||b |||s ||i |||t |||e ||
+||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|__\|/__\|/__\|
+
+
+
+Hey human! Welcome to my humans.txt file.
+
+─────────────────────────────────────────────────────────────────
+
+/* TEAM */
+
+Creator: Zinzy Waleson Geene
+Site: Zinzy Waleson Geene
+Url: https://www.zinzy.website
+Contact: https://www.zinzy.website/contact
+Mastodon: https://tech.lgbt/@zinzy
+Location: Amsterdam, the Netherlands
+
+─────────────────────────────────────────────────────────────────
+
+/* THANKS */
+
+In designing and building this website, I've found endless 
+help and inspiration on the Internet. There are countless people
+on StackOverflow who've managed to push my efforts forward.
+In particular, the people below have a special place in my heart:
+
+- Andy Matuschak            https://andymatuschak.org  
+- Maggie Appleton           https://maggieappleton.com
+- Matias Kinnunen           https://mtsknn.fi
+- Maxime Vaillancourt       https://maximevaillancourt.com 
+- Simone Silvestroni        https://simonesilvestroni.com
+- Stephan Ango              https://stephanango.com 
+- Tania Rascia              https://taniarascia.com 
+- Harry Cresswell           https://harrycresswell.com
+- Denis Olehov              https://github.com/denolehov
+
+For more information on my website and how I built it,
+see https://www.zinzy.website/colophon
+
+─────────────────────────────────────────────────────────────────
+
+/* SITE */
+
+Latest: https://github.com/zinzy/zinzy.website/commits/main
+Standards: HTML5, CSS3
+Software: Jekyll, Obsidian
