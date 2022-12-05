@@ -1,4 +1,4 @@
-I"Û<p>This is a personal website, designed, built, and maintained by <a class="internal-link" href="/about">me, Zinzy Waleson Geene</a>.</p>
+I"î<p>This is a personal website, designed, built, and maintained by <a class="internal-link" href="/about">me, Zinzy Waleson Geene</a>.</p>
 
 <h3 id="about-this-space">About this space</h3>
 <ul>
@@ -22,6 +22,9 @@
   <li>I believe in thinking in public, and having it be an act of <a class="internal-link" href="/anti-marketing">Anti-marketing</a>. I work to make this a comfortable space where I feel no pressure to be smart, funny, insightful or anything else that I am not on a permanent basis.</li>
 </ul>
 
+<h3 id="thanks">Thanks</h3>
+<p>In making this website I was inspired and helped by a wide variety of people.</p>
+
 <h3 id="copyright">Copyright</h3>
 <p>Unless otherwise stated, everything on this website is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons BY-NC-SA</a>.</p>
 
@@ -29,11 +32,10 @@
 <ul>
   <li>Proper case handling of note titles</li>
   <li>https://www.a11ywebsites.com/about/</li>
-  <li>Optional POSSE to Mastodon</li>
+  <li><del>Optional POSSE to Mastodon</del> (doesnâ€™t work with my <a class="internal-link" href="/slow-web">Slow web</a> approach)</li>
   <li>Frontmatter Boolean for Implied Reader, TBC and others</li>
   <li>Tooltips for external/internal links</li>
   <li><del><a href="https://github.com/sverrirs/jekyll-paginate-v2">Automatically add tag and category pages </a></del> (opted for densely-linked materials)</li>
-  <li>Add a <a href="https://harrycresswell.com/writing/web-for-humans/">humans.txt file</a></li>
 </ul>
 
 <h3 id="changelog">Changelog</h3>
@@ -57,5 +59,7 @@
     </ul>
   </li>
   <li>2022-12-02: got incoming webmentions fired up ðŸ¥³</li>
+  <li>2022-12-02: added <a href="https://www.zinzy.website/feed.xml">styled RSS feed</a></li>
+  <li>2022-12-04: added <a href="humans.txt">humans.txt</a></li>
 </ul>
 :ET
