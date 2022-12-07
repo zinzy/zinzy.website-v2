@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
 
+  // Colors
   --gray-900: #282F20;
   --gray-800: #3E4437;
   --gray-700: #53584D;
@@ -16,7 +17,6 @@ html {
   --gray-50: #EAEBE9;
   --gray-5: #F4F4F4;
   --gray-0: #fff;
-
   --color-border: var(--gray-100);
   --color-bright: var(--gray-900);
   --color-text: var(--gray-800);
@@ -31,11 +31,12 @@ html, body {
 }
 
 
-
+// Dark mode
 @media (prefers-color-scheme: dark) {
   html {
     scroll-behavior: smooth;
 
+    // Colors
     --gray-900: #fff;
     --gray-800: #F4F4F4;
     --gray-700: #EAEBE9;
@@ -90,7 +91,6 @@ h2 {
   line-height: 1.5;
 }
 
-
 a {
   color: inherit;
 }
@@ -100,8 +100,6 @@ time {
 }
 
 #header {
-  // background-color: azure;
-  // padding: .5rem;
   margin-bottom: 100px;
   a {
     font-weight: 400;
@@ -161,13 +159,6 @@ section {
         text-decoration: none;
       }
     }
-  }
-}
-
-.yw-content {
-  @media screen and (min-width:768px) {
-    display: inline-block;
-    margin-left: 2rem;
   }
 }
 
@@ -420,4 +411,8 @@ button[type=submit] {
 
 strong, b {
   font-weight: 500;
+}
+
+.yw-widget-text {
+  display: inline;
 }
