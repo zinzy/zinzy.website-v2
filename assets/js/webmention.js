@@ -236,6 +236,8 @@ A more detailed example:
         href="${r[mentionSource]}"
       >
         ${authorPhoto}
+        ${(reactEmoji[r['wm-property']] || '💥')}
+        ${rsvp}
       </a>
     `;
   }
@@ -302,7 +304,7 @@ A more detailed example:
    * @returns string
    */
   function formatComments(comments) {
-    const headline = ``;
+    const headline = `<h2>${t('Responses')}</h2>`;
     const markup = comments
       .map((c) => {
         const image = reactImage(c, true);
@@ -325,7 +327,7 @@ A more detailed example:
 
         const type = `<span class="${linkclass}">${linktext}</span>`;
 
-        return `<li>${link} ${type}</li>`;
+        return `<li>${image} ${link} ${type}</li>`;
       })
     .join('');
     return `
@@ -354,7 +356,7 @@ A more detailed example:
    * @returns string
    */
   function formatReactions(reacts) {
-    const headline = `Likes and reposts`;
+    const headline = `<h2>${t('Reactions')}</h2>`;
 
     const markup = reacts.map((r) => reactImage(r)).join('');
 
