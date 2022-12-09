@@ -361,9 +361,9 @@ h3#further-reading {
     li {
       a {
         img {
-          border-radius: 50%;
-          width: 40px;
-          border: 2px solid var(--gray-0);
+          border-radius: 50% !important;
+          width: 40px !important;
+          border: 2px solid var(--gray-0) !important;
         }
       }
     }
