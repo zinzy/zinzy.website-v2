@@ -358,13 +358,12 @@ h3#further-reading {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    li {
-      a {
-        img {
-          border-radius: 50% !important;
-          width: 40px !important;
-          border: 2px solid var(--gray-0) !important;
-        }
+    a {
+      img {
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        border: 2px solid var(--gray-0);
       }
     }
   }
