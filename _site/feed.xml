@@ -4,11 +4,64 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://0.0.0.0:4000</link>
+    <link>https://www.zinzy.website</link>
     <language></language>
-    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>https://www.zinzy.website/colophon/#copyright</copyright>
+    <atom:link href="https://www.zinzy.website/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>What I hate, fear, and suck at</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          A year ago, as part of my recovery journey, my therapist asked me: 'What are your core values? Like, what are your deepest needs and desires?' She reminded me last week that, instead of pausing to think of a response, I laughed straight in her face.
+          
+          <br />
+          <p>A year ago, as part of my <a class="internal-link" href="/eating-disorder">recovery journey</a>, my therapist asked me:</p>
+
+<blockquote>
+  <p>What are your core values? Like, what are your deepest needs and desires?</p>
+</blockquote>
+
+<p>She reminded me last week that, instead of pausing to think of a response, I laughed straight in her face.</p>
+
+<p>Historically, I’ve had trouble identifying what I want, need, desire, hope for, and dream of.</p>
+
+<p>In-patient treatment has helped train that muscle, though. My first vision board there consisted of kind interactions with strangers in coffee houses, while other clients were planning to pursue a Master’s or travel the world. On the flight back I made my first-ever attempt at a <a class="internal-link" href="/bucket-list">Bucket list</a>.</p>
+
+<p>Treatment taught me a hack that’s now helping me figure out what I hope 2023 will look like. Instead of identifying what I <em>do</em> hope, want, and yearn for, I look at what I <em>don’t</em>. What I hate can tell me something about what I fear. What I fear can, in turn, lead me to what I desire. Knowing what I suck at can help me identify challenges I might encounter as I move towards those desires.</p>
+
+<p>As the year comes to a close, and as I figure out once again, but now from scratch, <a class="internal-link" href="/how-i-life-os">How I Life OS</a>, I’m asking myself:</p>
+
+<ul>
+  <li>What do I hate?</li>
+  <li>What do I fear?</li>
+  <li>What do I suck at?</li>
+</ul>
+
+<p>Rather than seeing my weak points as things I must improve in order to be healthy and happy, I try to figure out how I can use these characteristics to my benefit. I’m looking forward to optimizing <em>for</em> them, so I can have a realistic outlook as I learn and thrive.</p>
+
+          <hr /><p><a href="mailto:?subject=What%20I%20hate,%20fear,%20and%20suck%20at">Reply via email</a></p>]]>
+        </description>
+        <pubDate>Wed, 07 Dec 2022 00:00:00 +0100</pubDate>
+        <link>https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at</guid>
+        
+          
+        
+        
+          <category>Reflection</category>
+        
+          <category>Life changes</category>
+        
+          <category>Recovery</category>
+        
+          <category>Self care</category>
+        
+          <category>Practices</category>
+        
+      </item>
     
       <item>
         <title>Week 48: Chinese food</title>
@@ -30,8 +83,8 @@
           <hr /><p><a href="mailto:?subject=Week%2048:%20Chinese%20food">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 03 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/03/week-48</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/03/week-48</guid>
+        <link>https://www.zinzy.website/2022/12/03/week-48</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/03/week-48</guid>
         
           
         
@@ -59,8 +112,8 @@
           <hr /><p><a href="mailto:?subject=Week%2047:%20Booster">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/27/week-47</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/27/week-47</guid>
+        <link>https://www.zinzy.website/2022/11/27/week-47</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/27/week-47</guid>
         
           
         
@@ -112,8 +165,8 @@
           <hr /><p><a href="mailto:?subject=Notes%20on%20my%20web%20mastery">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 26 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery</guid>
+        <link>https://www.zinzy.website/2022/11/26/notes-on-my-web-mastery</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/26/notes-on-my-web-mastery</guid>
         
           
         
@@ -153,8 +206,8 @@
           <hr /><p><a href="mailto:?subject=Rest">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 20 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/20/rest</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/20/rest</guid>
+        <link>https://www.zinzy.website/2022/11/20/rest</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/20/rest</guid>
         
           
         
@@ -179,8 +232,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2044,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/06/week-44</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/06/week-44</guid>
+        <link>https://www.zinzy.website/2022/11/06/week-44</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/06/week-44</guid>
         
           
         
@@ -208,8 +261,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2016,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 23 Apr 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/04/23/week-16</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/04/23/week-16</guid>
+        <link>https://www.zinzy.website/2022/04/23/week-16</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/04/23/week-16</guid>
         
           
         
@@ -242,8 +295,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2015,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 17 Apr 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/04/17/week-15</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/04/17/week-15</guid>
+        <link>https://www.zinzy.website/2022/04/17/week-15</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/04/17/week-15</guid>
         
           
         
@@ -295,8 +348,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2013,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 02 Apr 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/04/02/week-13</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/04/02/week-13</guid>
+        <link>https://www.zinzy.website/2022/04/02/week-13</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/04/02/week-13</guid>
         
           
         
@@ -341,8 +394,8 @@
           <hr /><p><a href="mailto:?subject=Week%2012:%20Bonsoihoir">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 26 Mar 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/03/26/week-12</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/03/26/week-12</guid>
+        <link>https://www.zinzy.website/2022/03/26/week-12</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/03/26/week-12</guid>
         
           
         
@@ -364,38 +417,6 @@
           <category>Queerdom</category>
         
           <category>Design</category>
-        
-      </item>
-    
-      <item>
-        <title>Overheard in July</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>“Do you want this problem to get smaller or bigger?”</p>
-
-          
-          <br />
-          <p>“Do you want this problem to get smaller or bigger?”</p>
-
-<p>“I still love you, but I’ll be doing it from behind this line.”</p>
-
-<p>“Blaue Augen sind besser als braune Augen” (“Blue eyes are better than brown eyes”, 10-year-old brown-eyed German boy to his blue-eyes brother at the Okura Hotel breakfast bar)</p>
-
-          <hr /><p><a href="mailto:?subject=Overheard%20in%20July">Reply via email</a></p>]]>
-        </description>
-        <pubDate>Tue, 27 Jul 2021 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2021/07/27/overheard-in-july</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2021/07/27/overheard-in-july</guid>
-        
-          
-        
-        
-          <category>Overheard</category>
-        
-          <category>Pandemic</category>
-        
-          <category>Travel</category>
         
       </item>
     

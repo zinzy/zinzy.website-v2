@@ -354,6 +354,18 @@ h3#further-reading {
     }
     }
   }
+  .reacts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      img {
+        border-radius: 50%;
+        width: 40px;
+        border: 2px solid var(--gray-0);
+      }
+    }
+  }
 }
 
 .micro {
