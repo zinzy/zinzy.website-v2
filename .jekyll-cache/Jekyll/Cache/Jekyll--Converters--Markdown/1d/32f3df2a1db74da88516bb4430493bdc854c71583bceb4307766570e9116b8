@@ -1,0 +1,6 @@
+I"\<p>Inspired by <a href="https://ohhelloana.blog/guestbook/">Ana Rodrigues</a>, this page is a webmentions-inspired guestbook. Send your webmention to this page, and your message will appear below!&lt;section class="webmentions"&gt;
+    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Guestbook" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won’t be able to see the conversation going on.</noscript>
+    &lt;p class="p-0 m-0"&gt;Eager to let me know what you think? <a href="mailto:zinzy@pm.me">Email me a reply</a> or send a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>.&lt;/p&gt;
+    &lt;div id="webmentions"&gt;&lt;/div&gt;
+&lt;/section&gt;</p>
+:ET

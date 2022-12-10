@@ -122,14 +122,12 @@ time {
   }
 }
 
-section { 
-  &:not(:first-child) {
-    margin-top: 50px;
-    padding-top: 50px;
-    border-top: 1px solid var(--color-border);
-    @media (prefers-color-scheme: dark) {
-      border-color: var( --gray-5);
-    }
+section:not(:first-child), .webmentions {
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: 1px solid var(--color-border);
+  @media (prefers-color-scheme: dark) {
+    border-color: var( --gray-5);
   }
 }
 
@@ -333,6 +331,7 @@ h3#further-reading {
 }
  
 #webmentions {
+  font-size: .8rem;
   .comments {
     list-style-type: none;
     margin: 0;
@@ -342,7 +341,7 @@ h3#further-reading {
       display: flex;
       flex-direction: column;
       position: relative;
-      padding: 1rem 0 1rem 60px;
+      padding: 1rem 0 1rem 80px;
       img {
         position: absolute;
         top: 1rem;
@@ -363,7 +362,7 @@ h3#further-reading {
         height: 48px;
         width: 48px;
         border-radius: 50%;
-        border: 2px solid var(--gray-100);
+        border: 2px solid var(--gray-0);
       }
     }
   }
