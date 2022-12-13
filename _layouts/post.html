@@ -10,6 +10,8 @@ layout: default
   <header>  
     <h2 class="p-name mb-2">{{page.title}}</h2>
     <time class="dt-published" datetime="{{ page.date | date: "%A, %e %B, %Y" }}">{{ page.date | date: "%A, %B %e, %Y" }}</time>
+    <span class="mx-2 d-inline-block">&#x2022;</span>
+    <span class="text-subtext">{{ content | reading_time }} read</span>
   </header>
 
   <div id="notes-entry-container">

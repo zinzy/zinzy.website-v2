@@ -95,7 +95,7 @@ a {
   color: inherit;
 }
 
-time {
+time, .text-subtext {
   color: var(--color-subtext);
 }
 
@@ -280,12 +280,12 @@ h3#further-reading {
 
 
 .footnotes {
-  color: var(--gray-500);
+  color: var(--color-subtext);
   font-size: .8rem;
   margin-top: 50px;
   &::before {
     content: "Footnotes";
-    font-size: 1rem;
+    font-size: .8rem;
   }
 }
 

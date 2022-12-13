@@ -3,20 +3,19 @@
 ||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||__|||__|||__||
 |/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|__\|/__\|/__\|
 
-
-
-Hey human! Welcome to my humans.txt file.
+Hey human! Welcome to the humans.txt file. of zinzy.website.
+For more information on my website and how I built it,
+see https://www.zinzy.website/colophon
 
 ─────────────────────────────────────────────────────────────────
 
 /* TEAM */
 
-Creator: Zinzy Waleson Geene
-Site: Zinzy Waleson Geene
-Url: https://www.zinzy.website
-Contact: https://www.zinzy.website/contact
-Mastodon: https://tech.lgbt/@zinzy
-Location: Amsterdam, the Netherlands
+Zinzy Waleson Geene
+- Role: designer
+- Location: Amsterdam, the Netherlands
+- Contact: https://www.zinzy.website/contact
+- Mastodon: https://tech.lgbt/@zinzy
 
 ─────────────────────────────────────────────────────────────────
 
@@ -28,22 +27,33 @@ on StackOverflow who've managed to push my efforts forward.
 In particular, the people below have a special place in my heart:
 
 - Andy Matuschak            https://andymatuschak.org  
+- Denis Olehov              https://github.com/denolehov
+- Harry Cresswell           https://harrycresswell.com 
 - Maggie Appleton           https://maggieappleton.com
 - Matias Kinnunen           https://mtsknn.fi
 - Maxime Vaillancourt       https://maximevaillancourt.com 
 - Simone Silvestroni        https://simonesilvestroni.com
 - Stephan Ango              https://stephanango.com 
-- Tania Rascia              https://taniarascia.com 
-- Harry Cresswell           https://harrycresswell.com
-- Denis Olehov              https://github.com/denolehov
-
-For more information on my website and how I built it,
-see https://www.zinzy.website/colophon
+- Tania Rascia              https://taniarascia.com  
 
 ─────────────────────────────────────────────────────────────────
 
 /* SITE */
 
 Latest: https://github.com/zinzy/zinzy.website/commits/main
-Standards: HTML5, CSS3
-Software: Jekyll, Obsidian
+
+Standards:
+- HTML5
+- CSS3
+
+Tools: 
+- Github                    https://github.com
+- Git submodule             https://mtsknn.fi/blog/netlify-updating-private-git-submodule 
+- Jekyll                    https://jekyllrb.com  
+- Netlify                   https://www.netlify.com
+- Netlify build hook        https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions 
+- Obsidian                  https://obsidian.md
+- Obsidian-git              https://github.com/denolehov/obsidian-git
+- Push git
+  subdirectory as branch    https://github.com/marketplace/actions/push-git-subdirectory-as-branch 
+- Template                  https://github.com/maximevaillancourt/digital-garden-jekyll-template 

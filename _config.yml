@@ -54,7 +54,10 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-
+reading_time:
+  second_plural: "sec."    # default: seconds
+  minute_singular: "min."  # default: minute
+  minute_plural: "min."    # default: minutes
 
 collections_dir: My-Digital-Garden
 
