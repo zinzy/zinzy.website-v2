@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2>Topics</h2>
+<ul class="interests">
+  {%- assign sorted_tags = site.tags | sort -%}
+  {%- for tag in sorted_tags -%}
+  {%- assign t = tag | first -%}
+    <li><a class="" href="/tag/{{ t | slugify }}/" title="Posts about {{ t }}">{{ t }}</a></li>
+  {%- endfor -%}
+</ul>

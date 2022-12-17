@@ -12,7 +12,7 @@ layout: default
     
       <header>  
         <h2 class="p-name">{{page.title}}</h2>
-        {%- include now-info.html -%}
+        {%- include info.html content="Giving you an overview of what I'm up to at any time in my life, this page is part of Derek Sivers' <a href='https://nownownow.com/about'>Now movement</a>. The strategy of this page was inspired by <a href='https://derekkedziora.com/now' target='_blank' rel='noopener noreferrer'>Derek Kedziora</a>."  -%}
       </header>
     
       <div id="notes-entry-container">
@@ -20,6 +20,8 @@ layout: default
           {{ content }}
         </content> 
       </div>
+
+      <hr class="my-5">
     
       <section>
         <h2 class="mt-0 pt-0">Then</h2>

@@ -4,11 +4,13 @@ layout: default
 
 <section class="mb-5">
   <h2>{{ site.tags.Now[0].title }}</h2>
-  {%- include now-info.html -%}
+  {%- include info.html content="Giving you an overview of what I'm up to at any time in my life, this page is part of Derek Sivers' <a href='https://nownownow.com/about'>Now movement</a>. The strategy of this page was inspired by <a href='https://derekkedziora.com/now' target='_blank' rel='noopener noreferrer'>Derek Kedziora</a>."  -%}
   <div class="mt-4">
     {{ site.tags.Now[0].content }}
   </div>
 </section> 
+
+<hr class="my-5">
 
 <section>
   <h2 class="mt-0 pt-0">Then</h2>
