@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="mb-5">
+  <h2>{{ site.tags.Now[0].title }}</h2>
+  {%- include now-info.html -%}
+  <div class="mt-4">
+    {{ site.tags.Now[0].content }}
+  </div>
+</section> 
+
+<section>
+  <h2 class="mt-0 pt-0">Then</h2>
+  <ul> 
+    {% for post in site.tags.Now offset: 1 %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li> 
+    {% endfor %}
+  </ul> 
+</section>
+ 

@@ -67,8 +67,38 @@
 </head>
 
   <body> 
+
     <div class="wrapper">
-      <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <header id="header">
+  <div class="row">
+    <div class="d-none d-md-block col-md-12">
+      <div class="portrait">
+        <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_fill,g_face,h_400,w_400/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="Headshot of me, Zinzy Waleson Geene"></a>
+      </div>
+    </div>
+    <div class="col-9 col-md-12">
+      <div class="mb-md-4">
+        <h1>Zinzy</h1>
+        <p class="d-none d-md-block m-0">Researcher, designer, and facilitator from Amsterdam</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/notes">Notes</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/now">Now</a></li>
+          <li><a href="/hello">Hello</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>  
+</header>
+
+
+<!-- <header id="header">
   <div class="row">
     <div class="col-4">
       <h1><a href="/">
@@ -89,25 +119,34 @@
       </nav>
     </div>
   </div>
-</header> 
-      <main>
-        <article class="h-entry">
+</header>
+
+
+<header id="sticky">
+  <h1>Zinzy Waleson Geene</h1>
+  Nerd.
+</header> --> 
+          </div>
+          <div class="col-md-8 offset-md-1">
+            <main>
+              <article class="h-entry">
 
 
   
         
-  <header>  
-    <h2 class="p-name mb-2">Weeknotes for week 15, 2022</h2>
-    <time class="dt-published" datetime="Sunday, 17 April, 2022">Sunday, April 17, 2022</time>
-    <span class="mx-2 d-inline-block">&#x2022;</span>
-    <span class="text-subtext">3 min. read</span>
-  </header>
-
-  <div id="notes-entry-container">
-
+    <!-- Template for /Now pages -->
     
-    <content class="e-content"> 
-      <p>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.</p>
+
+      <header>  
+        <h2 class="p-name mb-2">Weeknotes for week 15, 2022</h2>
+        <time class="dt-published" datetime="Sunday, 17 April, 2022">Sunday, April 17, 2022</time>
+        <!-- <span class="mx-2 d-inline-block">&#x2022;</span>
+        <span class="text-subtext">3 min. read</span> -->
+      </header>
+
+      <div id="notes-entry-container" class="e-content">
+        <content>
+          <p>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.</p>
 
 <p>I hold a baby this week, one of my favorite ones. His face has two states that exist simultaneously: the one of utter shock and surprise only newborns can have, and the one that reminds you that babies know <em>everything</em> about the world and forget it as soon as they start to speak. He laughs when I bop his nose, although I quickly learn that the force with which I bop Anja’s adult nose shan’t be applied here.</p>
 
@@ -117,68 +156,36 @@
 
 <p>It took a while before I settled into a suitable solution for the way I produce content on this website. I write Markdown, and had set up <a href="https://mdxjs.com/">mdx</a> in case I ever needed some more complexity in my content files. I would mostly update content through my desktop client, but have <a href="https://workingcopyapp.com/">Working Copy</a> for iOS installed, which I enjoy as much as anyone could enjoy a touchscreen Git client. I was missing some functionalities that are natural to the way I generally write, and so I decided to move my content into an Obsidian vault. I could make a spiel about how I love the “slow web”-ness of writing things on my phone and only publishing them when I’m on my computer, but I simply haven’t figured out how to do it any other way.</p>
 
-    </content> 
-  </div>
- 
-
-  
-    <div class="mt-5">
-      <h3 class="shy">Tagged with</h3>
-      <ul class="interests"><li><a href="/tag/weeknotes/">Weeknotes</a></li><li><a href="/tag/babies/">Babies</a></li><li><a href="/tag/food/">Food</a></li><li><a href="/tag/friends/">Friends</a></li><li><a href="/tag/web-development/">Web development</a></li><li><a href="/tag/indieweb/">IndieWeb</a></li></ul> 
-    </div>
-  <section class="webmentions">
+        </content> 
+      </div> 
+    
+      <hr class="my-5">
+    
+      
+        <div class="">
+          <ul class="interests">
+            <li>Tagged with: </li><li><a href="/tag/weeknotes/">Weeknotes</a></li><li><a href="/tag/babies/">Babies</a></li><li><a href="/tag/food/">Food</a></li><li><a href="/tag/friends/">Friends</a></li><li><a href="/tag/web-development/">Web development</a></li><li><a href="/tag/indieweb/">IndieWeb</a></li></ul> 
+        </div>
+       
+      
+      <div class="mt-5"><section class="webmentions">
     <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Weeknotes%20for%20week%2015,%202022" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
     <p class="p-0 m-0">Eager to let me know what you think? <a href="mailto:zinzy@pm.me">Email me a reply</a> or send a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>.</p>
     <div id="webmentions"></div>
-</section>  
+</section></div>
+
+    
+
+  <!-- Template for IndieWeb Notes and Replies -->
+    
     
 </article>
 
-      </main>   
-    </div> 
-    <footer id="footer"> 
-  <div class="wrapper">
-    <p>Doing web things since 1997.</p>
-    <p>
-      <span class="h-card">
-        I'm 
-        <a class="p-name internal-link" href="https://www.zinzy.website">
-          <span class="p-given-name">Zinzy </span> 
-          <span class="p-family-name">Waleson Geene</span>
-        </a> 
-        (<a href="https://pronoun.is/she" target="_blank" rel="noopener noreferrer">she</a>/ 
-        <a href="https://pronoun.is/they" target="_blank" rel="noopener noreferrer">they</a>), 
-        a researcher, designer, queer facilitator, and IndieWeb advocate from 
-        <span class="p-locality">Amsterdam</span>. 
-      </span>
-      <span>If you found anything on this website of value and want to say thank you, you can support me via <a href="https://ko-fi.com/zinzy" target="_blank" rel="noopener noreferrer">Ko-Fi</a> or <a href="https://www.paypal.com/donate/?hosted_button_id=FSKX2SHD9PKL6" target="_blank" rel="noopener noreferrer">PayPal</a>.</span>
-    </p>
-
-    <ul>
-      <li><a href="/colophon">Colophon</a></li>
-      <li><a href="/uses">Uses</a></li>
-      <li><a href="/ethics">Ethics</a></li>
-      <li><a href="/codex">Codex</a></li>
-    </ul>
-    <div class="indieweb">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        IndieWeb
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-
-      <span>
-        <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-        <script src="https://yesterweb.org/js/widget.js"></script>
-      </span>
-    </div> 
-  </div>
-</footer>    
-
-
-
-  <!-- <p>
-    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition 1670510945</a></p> -->  
+            </main>   
+          </div>
+        </div>
+      </div> 
+    </div>
   </body>
 </html>
 

@@ -7,63 +7,90 @@ layout: default
 
   {% if page.title != '' %}
         
-  <header>  
-    <h2 class="p-name mb-2">{{page.title}}</h2>
-    <time class="dt-published" datetime="{{ page.date | date: "%A, %e %B, %Y" }}">{{ page.date | date: "%A, %B %e, %Y" }}</time>
-    <span class="mx-2 d-inline-block">&#x2022;</span>
-    <span class="text-subtext">{{ content | reading_time }} read</span>
-  </header>
-
-  <div id="notes-entry-container">
-
-    {% if page.edited %}
-    <div class="info">
-      <span class="content">{{page.edited}}</span>
-    </div>
-    {% endif %}
-    <content class="e-content"> 
-      {{ content }}
-    </content> 
-  </div>
- 
-
-  {% if page.tags.size > 0 %}
-    <div class="mt-5">
-      <h3 class="shy">Tagged with</h3>
-      <ul class="interests">
-        {%- for tag in page.tags -%}
-          <li><a href="/tag/{{ tag | slugify | append: '/' }}">{{ tag }}</a></li>
-        {%- endfor -%}
-      </ul> 
-    </div>
-  {% endif %} 
-  
-  {%- include widget-responses.html -%}
+    <!-- Template for /Now pages -->
+    {% if page.tags contains "Now" %}
     
+      <header>  
+        <h2 class="p-name">{{page.title}}</h2>
+        {%- include now-info.html -%}
+      </header>
+    
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          {{ content }}
+        </content> 
+      </div>
+    
+      <section>
+        <h2 class="mt-0 pt-0">Then</h2>
+        <ul> 
+          {% for post in site.tags.Now offset: 1 %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li> 
+          {% endfor %}
+        </ul> 
+      </section>
+      
+      <!-- {%- include widget-responses.html -%} -->
 
+
+    <!-- Template for IndieWeb articles -->
+
+    {% else %}
+
+      <header>  
+        <h2 class="p-name mb-2">{{page.title}}</h2>
+        <time class="dt-published" datetime="{{ page.date | date: "%A, %e %B, %Y" }}">{{ page.date | date: "%A, %B %e, %Y" }}</time>
+        <!-- <span class="mx-2 d-inline-block">&#x2022;</span>
+        <span class="text-subtext">{{ content | reading_time }} read</span> -->
+      </header>
+
+      <div id="notes-entry-container" class="e-content">
+        <content>
+          {{ content }}
+        </content> 
+      </div> 
+    
+      <hr class="my-5">
+    
+      {% if page.tags.size > 0 %}
+        <div class="">
+          <ul class="interests">
+            <li>Tagged with: </li>
+            {%- for tag in page.tags -%}
+              <li><a href="/tag/{{ tag | slugify | append: '/' }}">{{ tag }}</a></li>
+            {%- endfor -%}
+          </ul> 
+        </div>
+      {% endif %} 
+      
+      <div class="mt-5">
+        {%- include widget-responses.html -%}
+      </div>
+
+    {% endif %}
+
+  <!-- Template for IndieWeb Notes and Replies -->
   {% else %}
 
-    <p class="small mb-1">
+    <p class="metadata">
         
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 
       {% if page.u-in-reply-to %}
       ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
       {% endif %}
-      
-      {% if page.u-like-of %}
-      ⋅ Like
-      {% endif %}
-
+  
     </p>
-
-    {% if page.u-like-of %}
-    <a class="u-like-of" href="{{page.u-like-of}}" target="_blank" rel="noopener noreferrer">{{page.u-like-of-name}}</a>
-    {% endif %}
 
     <div id="notes-entry-container" class="e-content">
     <content>
-      {{ page.content }}
+      {% unless post.u-in-reply-to %}
+        <div class="indieweb-note">
+          {{ content }}
+        </div>
+        {% else %}
+        {{ content }}
+      {% endunless %}
     </content> 
     </div>
 

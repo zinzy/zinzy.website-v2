@@ -32,13 +32,17 @@ plugins:
   - jekyll-timeago
   - jekyll-archives
   - jekyll-toc
+  - jekyll-paginate
   # - jekyll-feed
-  - jekyll-category-pages
+  # - jekyll-category-pages
 
 
 posts_limit: 10
 feed:
   path: /feed.xml
+
+paginate: 9
+paginate_path: /page:num/
 
 
 jekyll-archives:

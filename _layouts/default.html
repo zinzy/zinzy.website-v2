@@ -2,13 +2,21 @@
 <html lang="en">
   {% include head.html %}
   <body> 
+
     <div class="wrapper">
-      {% include header.html %} 
-      <main>
-        {{ content }}
-      </main>   
-    </div> 
-    {% include footer.html %}  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            {% include header.html %} 
+          </div>
+          <div class="col-md-8 offset-md-1">
+            <main>
+              {{ content }}
+            </main>   
+          </div>
+        </div>
+      </div> 
+    </div>
   </body>
 </html>
 

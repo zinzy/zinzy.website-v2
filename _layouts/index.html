@@ -1,100 +1,104 @@
 ---
 layout: default
 ---
-<section>
-  <div id="notes-entry-container">
-    <content>
-      {{ content }}
-    </content>
-  </div> 
-  
-  <div class="mt-5">
-    <a href="/about" class="button">Keep reading</a>
-  </div>
-</section>
 
-<hr class="my-5"/>
-
-<section>
-  <div class="timeline">  
-
-    <h2 class="mb-5">Recently</h2>
-  
-    {% for post in site.posts limit: 3 %}
+<section class="feed">
+  {% for post in paginator.posts %}
+{% unless post.tags contains 'Now' or post.u-like-of %}
+  <article> 
     
-      <div class="item d-flex mt-3 h-100">
-        <div class="icon-wrapper">
-          <svg class="icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_510_96)">
-            <circle cx="12.5" cy="12.5" r="12.5" fill=""/>
-            <path d="M9 17C8.725 17 8.4895 16.9022 8.2935 16.7065C8.09783 16.5105 8 16.275 8 16V9C8 8.725 8.09783 8.48967 8.2935 8.294C8.4895 8.098 8.725 8 9 8H9.5V7.4875C9.5 7.34583 9.54783 7.22917 9.6435 7.1375C9.7395 7.04583 9.85833 7 10 7C10.1417 7 10.2605 7.04783 10.3565 7.1435C10.4522 7.2395 10.5 7.35833 10.5 7.5V8H14.5V7.4875C14.5 7.34583 14.548 7.22917 14.644 7.1375C14.7397 7.04583 14.8583 7 15 7C15.1417 7 15.2603 7.04783 15.356 7.1435C15.452 7.2395 15.5 7.35833 15.5 7.5V8H16C16.275 8 16.5105 8.098 16.7065 8.294C16.9022 8.48967 17 8.725 17 9V16C17 16.275 16.9022 16.5105 16.7065 16.7065C16.5105 16.9022 16.275 17 16 17H9ZM9 16H16V11H9V16ZM9 10H16V9H9V10ZM9 10V9V10Z" fill=""/>
-            </g>
-            <defs>
-            <clipPath id="clip0_510_96">
-            <rect width="25" height="25" fill=""/>
-            </clipPath>
-            </defs>
-          </svg>
-          <div class="icon-border"></div>
-        </div>
-        <div class="flex-grow-1">
-  
-          <time datetime="{{ post.date | date: "%A, %e %B, %Y" }}"><a href="{{post.url}}">{{ post.date | date: "%A, %e %B, %Y" }}</a></time>
-  
-          {% if post.u-like-of %}
-            <p>Liked <a href="{{post.u-like-of}}" class="u-like-of" target="_blank">{{post.u-like-of-name}}</a></p>
-          {% endif %} 
-  
-          {% if post.u-in-reply-to %}
-            <p class="mb-2">Replied to <a href="{{post.u-in-reply-to}}" target="_blank" class="u-like-of">{{post.u-in-reply-to-name}}</a>: </p>
-          {% endif %} 
-  
-          {% if post.title != "" %}
-            <h3 class="h6 m-0 p-0">
-              <a href="{{ post.url }}">
-                {{ post.title }}
-              </a>
-            </h3>
-            {% else %}
-            <div id="notes-entry-container">
-              <content class="e-content"> 
+   <p class="metadata">
+    <time class="" datetime="{{ post.date | date: "%B %-d, %Y" }}">
+      <a href="{{post.url}}">{{ post.date | date: "%B %-d, %Y" }}</a>
+    </time>
+
+    {% if post.u-in-reply-to %}
+    ⋅ Reply to <a class="u-in-reply-to" href="{{post.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{post.u-in-reply-to-name}}</a>
+    {% endif %}
+   </p>
+
+    {% if post.title != ''%}
+      <h3><a href="{{post.url}}"> {{ post.title }}</a></h3>
+    {% endif %}
+ 
+
+      <div id="notes-entry-container" class="e-content">
+        <content>
+          {% if post.title != '' %}
+            {{ post.excerpt }}
+          {% else %}
+            {% unless post.u-in-reply-to %}
+              <div class="indieweb-note">
                 {{ post.content }}
-              </content> 
-            </div> 
+              </div>
+              {% else %}
+              {{ post.content }}
+            {% endunless %}
           {% endif %}
-  
-        
-        </div>  
+        </content> 
       </div>
-  
-    {% endfor %}
-   
+      </article>
+    {% endunless %} 
+    {% endfor %} 
+
+ 
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination d-flex">
+  <div class="flex-fill">  
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a>
+    {% else %}
+      <!-- <span>&laquo; Prev</span> -->
+    {% endif %}
   </div>
-  
-  <div class="mt-3">
-    <a href="/diary" class="button">Read my diary</a>
+  <div class="flex-fill text-end">   
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+    {% else %}
+      <!-- <span>Next &raquo;</span> -->
+    {% endif %}
   </div>
+</div>
+{% endif %}
 </section>
 
 
-
-<hr class="my-5"/>
+<!-- 
 
 <section>
-  <div>
-    <h2>On the wiki</h2>
-    <p>I keep a collection of incomplete notes on a wide variety of subjects. Most recently, Here are five random notes to get you started:</p>
-    <ul class="index-wiki mb-5">
-      {% assign notes = site.notes | sort: 'last_modified_at' | reverse %}
-      {% for note in notes limit: 5 %}
-          <li>
-            <strong><a href="{{ note.url }}">{{ note.title }}</a>: </strong> {{ note.excerpt }}
-          </li> 
-      {% endfor %}
-    </ul>
-  
-    <div class="mt-3">
-      <a href="/wiki" class="button">Visit my wiki</a>
+  {% assign grouped_posts = site.posts | where_exp: "item", "item.title != ''" | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in grouped_posts %}
+    <div class="mb-5">
+      <h3>{{ year.name }}</h3>
+      <ul class="archive">
+        {% for post in year.items %}
+        {% unless post.tags contains 'Now' %}
+        <li>
+          <div class="row">
+            <div class="col-12 col-md-2">
+              <time class="" datetime="{{ post.date | date: "%b %d" }}">{{ post.date | date: "%b %d" }}</time>
+            </div>
+            <div class="col-12 col-md-10">
+              <a href="{{post.url}}"> {{ post.title }}</a>
+            </div>
+          </div>
+        </li>
+        {% endunless %} 
+        {% endfor %}
+      </ul>
     </div>
-  </div>
+  {% endfor %}
 </section>
+
+<section>
+  <h2>Topics</h2>
+  <ul class="interests">
+    {%- assign sorted_tags = site.tags | sort -%}
+    {%- for tag in sorted_tags -%}
+    {%- assign t = tag | first -%}
+      <li><a class="" href="/tag/{{ t | slugify }}/" title="Posts about {{ t }}">{{ t }}</a></li>
+    {%- endfor -%}
+  </ul>
+</section> -->

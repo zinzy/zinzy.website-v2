@@ -14,6 +14,7 @@ layout: default
       <h3>{{ year.name }}</h3>
       <ul class="archive">
         {% for post in year.items %}
+        {% unless post.tags contains 'Now' %}
         <li>
           <div class="row">
             <div class="col-12 col-md-2">
@@ -24,6 +25,7 @@ layout: default
             </div>
           </div>
         </li>
+        {% endunless %} 
         {% endfor %}
       </ul>
     </div>
