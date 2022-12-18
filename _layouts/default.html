@@ -4,18 +4,16 @@
   <body> 
 
     <div class="wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            {% include header.html %} 
-          </div>
-          <div class="col-md-8 offset-md-1">
-            <main>
-              {{ content }}
-            </main>   
-          </div>
+      <div class="row gx-0 m-0 p-0">
+        <div class="col-md-3">
+          {% include header.html %} 
         </div>
-      </div> 
+        <div class="col-md-8 offset-md-1">
+          <main>
+            {{ content }}
+          </main>   
+        </div>
+      </div>
     </div>
   </body>
 </html>
