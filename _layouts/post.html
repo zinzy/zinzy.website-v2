@@ -83,15 +83,17 @@ layout: default
   <!-- Template for IndieWeb Notes and Replies -->
   {% else %}
 
-    <p class="metadata">
+    <header>
+      <p class="metadata">
         
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-
-      {% if page.u-in-reply-to %}
-      ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
-      {% endif %}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   
-    </p>
+        {% if page.u-in-reply-to %}
+        ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
+        {% endif %}
+    
+      </p>
+    </header>
 
     <div id="notes-entry-container" class="e-content">
     <content>

@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://0.0.0.0:4000</link>
+    <link>https://www.zinzy.website</link>
     <language></language>
-    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>https://www.zinzy.website/colophon/#copyright</copyright>
+    <atom:link href="https://www.zinzy.website/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -30,8 +30,8 @@
           <hr /><p><a href="mailto:?subject=Now:%20November%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Tue, 13 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/13/now</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/13/now</guid>
+        <link>https://www.zinzy.website/2022/12/13/now</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/13/now</guid>
         
           
           <category>Now</category>
@@ -77,8 +77,8 @@
           <hr /><p><a href="mailto:?subject=What%20I%20hate,%20fear,%20and%20suck%20at">Reply via email</a></p>]]>
         </description>
         <pubDate>Wed, 07 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/07/what-i-hate-fear-and-suck-at</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/07/what-i-hate-fear-and-suck-at</guid>
+        <link>https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at</guid>
         
           
         
@@ -115,8 +115,8 @@
           <hr /><p><a href="mailto:?subject=Week%2048:%20Chinese%20food">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 03 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/03/week-48</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/03/week-48</guid>
+        <link>https://www.zinzy.website/2022/12/03/week-48</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/03/week-48</guid>
         
           
         
@@ -144,8 +144,8 @@
           <hr /><p><a href="mailto:?subject=Week%2047:%20Booster">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/27/week-47</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/27/week-47</guid>
+        <link>https://www.zinzy.website/2022/11/27/week-47</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/27/week-47</guid>
         
           
         
@@ -197,8 +197,8 @@
           <hr /><p><a href="mailto:?subject=Notes%20on%20my%20web%20mastery">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 26 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery</guid>
+        <link>https://www.zinzy.website/2022/11/26/notes-on-my-web-mastery</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/26/notes-on-my-web-mastery</guid>
         
           
         
@@ -238,8 +238,8 @@
           <hr /><p><a href="mailto:?subject=Rest">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 20 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/20/rest</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/20/rest</guid>
+        <link>https://www.zinzy.website/2022/11/20/rest</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/20/rest</guid>
         
           
         
@@ -264,8 +264,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2044,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/06/week-44</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/06/week-44</guid>
+        <link>https://www.zinzy.website/2022/11/06/week-44</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/11/06/week-44</guid>
         
           
         
@@ -305,8 +305,8 @@
           <hr /><p><a href="mailto:?subject=Now:%20October%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Mon, 24 Oct 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/10/24/now</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/10/24/now</guid>
+        <link>https://www.zinzy.website/2022/10/24/now</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/10/24/now</guid>
         
           
         
@@ -352,8 +352,8 @@
           <hr /><p><a href="mailto:?subject=Now:%20May%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 28 May 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/05/28/now</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/05/28/now</guid>
+        <link>https://www.zinzy.website/2022/05/28/now</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/05/28/now</guid>
         
           
         
@@ -379,8 +379,8 @@
           <hr /><p><a href="mailto:?subject=Weeknotes%20for%20week%2016,%202022">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 23 Apr 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/04/23/week-16</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/04/23/week-16</guid>
+        <link>https://www.zinzy.website/2022/04/23/week-16</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/04/23/week-16</guid>
         
           
         

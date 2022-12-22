@@ -7,19 +7,21 @@ layout: default
 {% unless post.tags contains 'Now' or post.u-like-of %}
   <article> 
     
-   <p class="metadata">
-    <time class="" datetime="{{ post.date | date: "%B %-d, %Y" }}">
-      <a href="{{post.url}}">{{ post.date | date: "%B %-d, %Y" }}</a>
-    </time>
-
-    {% if post.u-in-reply-to %}
-    ⋅ Reply to <a class="u-in-reply-to" href="{{post.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{post.u-in-reply-to-name}}</a>
-    {% endif %}
-   </p>
-
-    {% if post.title != ''%}
-      <h3><a href="{{post.url}}"> {{ post.title }}</a></h3>
-    {% endif %}
+   <header>
+    <p class="metadata">
+      <time class="" datetime="{{ post.date | date: "%B %-d, %Y" }}">
+        <a href="{{post.url}}">{{ post.date | date: "%B %-d, %Y" }}</a>
+      </time>
+  
+      {% if post.u-in-reply-to %}
+      ⋅ Reply to <a class="u-in-reply-to" href="{{post.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{post.u-in-reply-to-name}}</a>
+      {% endif %}
+     </p>
+  
+      {% if post.title != ''%}
+        <h3><a href="{{post.url}}"> {{ post.title }}</a></h3>
+      {% endif %}
+   </header>
  
 
       <div id="notes-entry-container" class="e-content">
@@ -48,14 +50,14 @@ layout: default
 <div class="pagination d-flex">
   <div class="flex-fill">  
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer</a>
     {% else %}
       <!-- <span>&laquo; Prev</span> -->
     {% endif %}
   </div>
   <div class="flex-fill text-end">   
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &rarr;</a>
     {% else %}
       <!-- <span>Next &raquo;</span> -->
     {% endif %}

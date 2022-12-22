@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 
   // Colors
-  --gray-900: #090B1D;
+  --gray-900: # zinzy;
   --gray-800: #222434;
   --gray-700: #3A3C4A;
   --gray-600: #535561;
@@ -90,17 +90,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem;
   padding: 0;
-  @media screen and (min-width: 768px) {
-    font-size: 1.2rem;
-    margin: 0;
-    padding: 0;
+  font-weight: 400;
+  a {
+    &:hover {
+      border-bottom: 1px solid var(--gray-800);
+    }
   }
 }
 
 h2 {
-  line-height: 1.5; 
+  font-size: 1.6rem;
 }
  
 
@@ -114,15 +115,14 @@ a {
 
 #header {  
   margin-bottom: 100px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
+    border-right: 1px solid var(--gray-100); 
     margin-bottom: 0;
     position: fixed;
-    width: 200px;
-  }
-  @media screen and (min-width: 992px) {
-    position: fixed;
-    width: 200px;
-  }
+    width: calc(25% - 140px);
+    height: 100%;
+    padding: 70px;
+  } 
   nav {
     ul {
       padding: 0;
@@ -133,7 +133,7 @@ a {
         &:not(:last-child)::after {
           content:", "
         }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 992px) {
           display: block;
           &:not(:last-child)::after {
             content:""
@@ -142,10 +142,25 @@ a {
         a {
           color: var(--color-bright);
           text-decoration: none;
+          &:hover {
+            border-bottom: 1px solid var(--gray-800);
+          }
         }
       }
     }
   }
+}
+
+.main {
+  @media screen and (min-width: 992px) {
+    padding: 70px 0;
+  }
+}
+
+main {
+  @media screen and (max-width: 991px) {
+  padding: 40px;
+ }
 }
 
 p {
@@ -162,11 +177,11 @@ p {
  
 
 #footer {
+  margin: 100px 0 0 0;
   color: var(--color-subtext);
   font-size: .8rem;
-  border-top: 1px solid var(--color-border);
-  @media (prefers-color-scheme: dark) {
-    border-color: var( --gray-5);
+  @media screen and (min-width: 992px) {
+    margin: 100px 0;
   }
   .indieweb {
     a {
@@ -190,14 +205,18 @@ p {
   }
 }
 
-article {
+.h-entry {
   margin-bottom: 80px;
   header {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    h2 {
+      margin-top: 5px;
+    }
   }
   footer {
     margin-top: 50px;
-  }
+  } 
+   
 }
 
 .toc {
@@ -344,14 +363,7 @@ h3#further-reading {
 .timestamp {
   width: 130px;
   
-}
-
-main {
-  @media screen and (min-width: 768px) {
-    margin: 130px 0;
-  }
-}
-
+} 
 .photoblog {
   list-style-type: none;
   margin: 0;
@@ -496,8 +508,12 @@ strong, b {
 }
 
 .feed {
+  article {
+    margin-bottom: 80px;
+  }
   h3 {
     font-size: 1.5em;
+    margin-top: 5px;
   }
 }
 
@@ -519,4 +535,5 @@ blockquote {
 
 
 // https://9elements.github.io/fancy-border-radius/#29.68.50.36--.
+
 

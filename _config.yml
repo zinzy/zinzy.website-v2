@@ -42,7 +42,7 @@ feed:
   path: /feed.xml
 
 paginate: 9
-paginate_path: /page:num/
+paginate_path: /page/:num/
 
 
 jekyll-archives:
