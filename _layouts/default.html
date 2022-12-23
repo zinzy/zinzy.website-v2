@@ -2,10 +2,14 @@
 <html lang="en">
   {% include head.html %}
   <body>  
+    {% unless page.url == "/" %}
+      {% include button_home.html %} 
+    {% endunless %}
     <main>
       {{ content }}
       {% include footer.html %} 
     </main> 
+    {% include button_bottom.html %} 
   </body>
 </html>
 

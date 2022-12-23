@@ -5,7 +5,7 @@ include:
 exclude:             
   - _includes/notes_graph.json
   - assets/js/webmention.js
-url:                  https://www.zinzy.website
+url: https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
 # Pages deploys your repository (which is usually the repository name).
@@ -65,44 +65,47 @@ reading_time:
 
 collections_dir: My-Digital-Garden
 
-collections:
-  posts:
+collections: 
+  abcdef:
     output: true
-    permalink: /:year/:month/:day/:slug
-  now:
-    output: true
-    permalink: /:year/:month/:day/:slug
-    sort_by: date
-  micro:
-    output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:slug 
   notes:
     output: true
     permalink: /:slug 
-    layout: "note"
+    layout: "note"  
+  micro:
+    output: true
+    permalink: /:year/:month/:day/:slug 
+  now:
+    output: true
+    permalink: /:year/:month/:day/:slug
+    sort_by: date 
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug 
 
-defaults:
+defaults: 
   - scope:
       path: "**/*"
     values:
       layout: "default"
   - scope:
-      path: "My-Digital-Garden/_notes/**/*.md"
+      path: "My-Digital-Garden/_abcdef/**/*.md"
     values:
-      layout: "note"
-  - scope:
-      path: "My-Digital-Garden/_posts/**/*.md"
-    values:
-      layout: "post"
+      layout: "abcdef" 
   - scope:
       path: "My-Digital-Garden/_micro/**/*.md"
     values:
       layout: "micro"
   - scope:
+      path: "My-Digital-Garden/_notes/**/*.md"
+    values:
+      layout: "note"
+  - scope:
       path: "My-Digital-Garden/_now/**/*.md"
     values:
-      layout: "now-page"
+      layout: "now-page" 
   - scope:
-      path: "_pages/**/*.md"
+      path: "My-Digital-Garden/_posts/**/*.md"
     values:
-      layout: "page" 
+      layout: "post" 
