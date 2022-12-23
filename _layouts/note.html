@@ -4,39 +4,22 @@ layout: default
 <article class="note h-entry"> 
 
 
-  <h2 class="p-name">{{page.title}}</h2>
+  <header>
+    <h1 class="p-name">{{page.title}}</h1>
+    <p class="text-subtext">This is part of my <a href="/notes">working notes</a></p>
+  </header>
 
-  <div id="notes-entry-container">
-
-    {% if page.toc %}
-
-    <div class="toc">
-      <div class="toc-content">
-        <h3 class="mt-1">Table of contents</h3>
-       {% toc %}
-      </div>
-    </div>
-    {% else %}
-
-    {% endif %}
-
-
+  <div id="notes-entry-container">  
     <content>
       {{ content }}
     </content> 
 
-    <footer> 
-
-      <hr class="mb-5">
-      
-
+    <footer>  
       {% if page.backlinks.size > 0 %}
-
       <h3 class="shy">Notes that refer to this one</h3> 
       <div>
         <ul class="">
           {% for backlink in page.backlinks %}
-
           <li>
             <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
               <div class="title">{{ backlink.title }}</div>
@@ -48,12 +31,7 @@ layout: default
       </div>
       {% else %}
 
-      {% endif %}
- 
-      
-      <div class="mt-5">
-        {%- include widget-responses.html -%}
-      </div>
+      {% endif %} 
     </footer>
   </div>
 </article>

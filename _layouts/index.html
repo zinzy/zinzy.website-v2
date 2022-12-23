@@ -1,72 +1,49 @@
 ---
 layout: default
 ---
+{% for post in paginator.posts %} 
+  <article class="h-entry"> 
+    <header>
+      <h1 class="p-name"><a href="{{post.url}}"> {{ post.title }}</a></h1>
+      <p class="metadata">
+        <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </p> 
+    </header>
+    <div id="notes-entry-container" class="e-content">
+      <content>
+        {{ post.content }}
+      </content> 
+    </div>
+    <footer>
+      <div class="row pagination">
+        <div class="col-6 offset-6 text-end"> 
+          {% for post in site.posts offset: 1 limit: 1 %}
+          <div class="text-subtext">Older post</div>
+          <a href="{{post.url}}" class="">{{post.title}}</a>
+          {% endfor %}
+        </div>
+      </div> 
+    </footer>
+  </article> 
+{% endfor %} 
 
-<section class="feed">
-  {% for post in paginator.posts %}
-{% unless post.tags contains 'Now' or post.u-like-of %}
-  <article> 
-    
-   <header>
-    <p class="metadata">
-      <time class="" datetime="{{ post.date | date: "%B %-d, %Y" }}">
-        <a href="{{post.url}}">{{ post.date | date: "%B %-d, %Y" }}</a>
-      </time>
-  
-      {% if post.u-in-reply-to %}
-      ⋅ Reply to <a class="u-in-reply-to" href="{{post.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{post.u-in-reply-to-name}}</a>
-      {% endif %}
-     </p>
-  
-      {% if post.title != ''%}
-        <h3><a href="{{post.url}}"> {{ post.title }}</a></h3>
-      {% endif %}
-   </header>
- 
 
-      <div id="notes-entry-container" class="e-content">
-        <content>
-          {% if post.title != '' %}
-            {{ post.excerpt }}
-          {% else %}
-            {% unless post.u-in-reply-to %}
-              <div class="indieweb-note">
-                {{ post.content }}
-              </div>
-              {% else %}
-              {{ post.content }}
-            {% endunless %}
-          {% endif %}
-        </content> 
-      </div>
-      </article>
-    {% endunless %} 
-    {% endfor %} 
-
- 
-
-<!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination d-flex">
-  <div class="flex-fill">  
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer</a>
-    {% else %}
-      <!-- <span>&laquo; Prev</span> -->
+<div class="row pagination">
+  <div class="col-6">
+    {% if page.next.url %}
+    <div class="text-subtext">Newer post</div>
+      <a class="" href="{{page.next.url}}">{{page.next.title}}</a>
+    {% endif %} 
+  </div>
+  <div class="col-6 text-end"> 
+    {% if page.previous.url %}
+    <div class="text-subtext">Older post</div>
+      <a class="" href="{{page.previous.url}}">{{page.previous.title}}</a>
     {% endif %}
   </div>
-  <div class="flex-fill text-end">   
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &rarr;</a>
-    {% else %}
-      <!-- <span>Next &raquo;</span> -->
-    {% endif %}
-  </div>
-</div>
-{% endif %}
-</section>
+</div> 
 
-
+ 
 
 
 <!-- 

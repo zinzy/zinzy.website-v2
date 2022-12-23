@@ -41,7 +41,7 @@ posts_limit: 10
 feed:
   path: /feed.xml
 
-paginate: 9
+paginate: 1
 paginate_path: /page/:num/
 
 
@@ -69,6 +69,13 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
+  now:
+    output: true
+    permalink: /:year/:month/:day/:slug
+    sort_by: date
+  micro:
+    output: true
+    permalink: /:year/:month/:day/:slug
   notes:
     output: true
     permalink: /:slug 
@@ -87,6 +94,14 @@ defaults:
       path: "My-Digital-Garden/_posts/**/*.md"
     values:
       layout: "post"
+  - scope:
+      path: "My-Digital-Garden/_micro/**/*.md"
+    values:
+      layout: "micro"
+  - scope:
+      path: "My-Digital-Garden/_now/**/*.md"
+    values:
+      layout: "now-page"
   - scope:
       path: "_pages/**/*.md"
     values:

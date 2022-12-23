@@ -5,23 +5,17 @@ html {
   scroll-behavior: smooth;
 
   // Colors
-  --gray-900: # zinzy;
-  --gray-800: #222434;
-  --gray-700: #3A3C4A;
-  --gray-600: #535561;
-  --gray-500: #6B6D77;
-  --gray-400: #83848D;
-  --gray-300: #9D9DA5;
-  --gray-200: #B6B6BC;
-  --gray-100: #CECED2;
-  --gray-50: #E7E7E9;
-  --gray-5: #F2F3F3;
-  --gray-0: #fff; 
+  --gray-100: #000;
+  --gray-80: #333333;
+  --gray-60: #666666;
+  --gray-40: #999999;
+  --gray-20: #CCCCCC;
+  --gray-5: #F2F2F2;
 
-  --color-border: var(--gray-100);
-  --color-bright: var(--gray-900);
-  --color-text: var(--gray-600);
-  --color-subtext: var(--gray-400); 
+  --color-border: var(--gray-20);
+  --color-bright: var(--gray-100);
+  --color-text: var(--gray-100);
+  --color-subtext: var(--gray-60); 
   --color-background: var(--gray-0);
 }
 
@@ -29,6 +23,9 @@ html, body {
   font-size: 16px;
   @media screen and (min-width:768px) {
     font-size: 17px;
+  }
+  @media screen and (min-width:1800px) {
+    font-size: 22px;
   }
 }
 
@@ -39,31 +36,25 @@ html, body {
     scroll-behavior: smooth;
 
     // Colors
-    --gray-900: #fff;
-    --gray-800: #F2F3F3;
-    --gray-700: #E7E7E9;
-    --gray-600: #CECED2;
-    --gray-500: #B6B6BC;
-    --gray-400: #9D9DA5;
-    --gray-300: #83848D;
-    --gray-200: #6B6D77;
-    --gray-100: #535561;
-    --gray-50: #3A3C4A;
-    --gray-5: #222434;
-    --gray-0: #090B1D; 
-
-    --color-border: var(--gray-5);
-    --color-bright: var(--gray-900);
-    --color-text: var(--gray-500);
-    --color-subtext: var(--gray-300);
-    --color-background: var(--gray-5);
+  --gray-100: #F2F2F2;
+  --gray-80: #CCCCCC;
+  --gray-60: #999999;
+  --gray-40: #666666;
+  --gray-20: #333333;
+  --gray-5: #0F0F0F;
+    
+  --color-border: var(--gray-20);
+  --color-bright: var(--gray-80);
+  --color-text: var(--gray-80);
+  --color-subtext: var(--gray-60); 
+  --color-background: var(--gray-5);
   }
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   color: var(--color-text);
   background-color: var(--color-background);
   margin: 0;
@@ -88,18 +79,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 {
-  font-size: 1rem;
-  margin: 0 0 .5rem;
-  padding: 0;
-  font-weight: 400;
-  a {
-    &:hover {
-      border-bottom: 1px solid var(--gray-800);
-    }
-  }
-}
-
 h2 {
   font-size: 1.6rem;
 }
@@ -107,6 +86,9 @@ h2 {
 
 a {
   color: inherit;
+  &.shy {
+    text-decoration: none;
+  }
 } 
 
 .text-subtext {
@@ -151,40 +133,50 @@ a {
   }
 }
 
-.main {
-  @media screen and (min-width: 992px) {
-    padding: 70px 0;
-  }
-}
 
 main {
-  @media screen and (max-width: 991px) {
   padding: 40px;
- }
+  @media screen and (min-width: 768px) {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  @media screen and (min-width: 992px) {
+    max-width: 700px;
+    padding: 200px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 650px;
+    padding: 300px 0;
+  }
+  @media screen and (min-width: 1800px) {
+    max-width: 750px;
+    padding: 300px 0;
+  }
 }
 
 p {
   margin: 0 0 1rem 0;
 }
-
-
-#sticky {
-  // position: fixed; 
-  // top: 0;
-  // left: 0; 
-  // margin-left: 0;
-}
  
 
 #footer {
-  margin: 100px 0 0 0;
   color: var(--color-subtext);
-  font-size: .8rem;
+  margin-top: 80px;
+  text-align: center;
+  padding: 0 1rem;
+  @media screen and (min-width: 768px) {
+    margin-top: 100px;
+    padding: 0 2rem;
+  }
   @media screen and (min-width: 992px) {
-    margin: 100px 0;
+    margin-top: 200px;
   }
   .indieweb {
+    margin-top: 80px;
+    color: var(--color-subtext);
     a {
+      color: var(--color-subtext);
       text-decoration: none;
       &:hover {
         text-decoration: underline;
@@ -205,17 +197,30 @@ p {
   }
 }
 
-.h-entry {
-  margin-bottom: 80px;
+article {
   header {
-    margin-bottom: 80px;
-    h2 {
+    margin-bottom: 100px;
+    @media screen and (min-width: 1600px) {
+      margin-bottom: 150px;
+    }
+    h1 {
       margin-top: 5px;
     }
   }
   footer {
-    margin-top: 50px;
+    margin-top: 100px;
+    color: var(--color-subtext);
+    @media screen and (min-width: 1600px) {
+      margin-top: 150px;
+    }
+    a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
   } 
+  img {
+    margin: 2rem 0;
+  }
    
 }
 
@@ -238,9 +243,6 @@ img {
 
 hr {
   border-top: 1px solid var(--color-border);
-  @media (prefers-color-scheme: dark) {
-    border-color: var( --gray-5);
-  }
 }
 
 
@@ -440,14 +442,9 @@ h3#further-reading {
 
 .metadata {
   margin: 0;
-  font-size: .8rem;
-  color: var( --gray-400);
-  font-weight: 500;
+  color: var(--color-subtext);
   a {
     text-decoration: none;
-  }
-  @media (prefers-color-scheme: dark) {
-    color: var( --gray-200);
   }
 }
 
@@ -534,6 +531,26 @@ blockquote {
 }
 
 
+figure {
+  margin: 2rem 0; 
+  img {
+    margin: 0 0 .5rem 0;
+  }
+  figcaption {
+    font-size: .8rem;
+    color: var(--color-subtext);
+    text-align: center;
+    padding: 0 2rem;
+  }
+}
+
+
 // https://9elements.github.io/fancy-border-radius/#29.68.50.36--.
+// https://css-irl.info/breaking-out-of-a-central-wrapper/
+// https://ryanmulligan.dev/blog/layout-breakouts/
 
 
+ 
+.text-center {
+  text-align: center;
+}

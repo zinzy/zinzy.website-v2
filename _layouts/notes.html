@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<h2>{{page.title}}</h2>
+<h1>{{page.title}}</h1>
 {{content}}
 
 <section class="mt-5"> 
   {% assign navurl = page.url | remove: 'index.html' %}
-  {% assign evergreens = site.notes | sort: 'last_modified_at' | reverse %}
-  {% for item in evergreens %}
+  {% assign notes = site.notes %}
+  {% for item in notes %}
   <li class="archive">
       <a href="{{ site.baseurl }}{{ item.url }}">
       {% if item.url == navurl %}

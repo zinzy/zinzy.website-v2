@@ -2,111 +2,37 @@
 layout: default
 ---
 
-<article class="h-entry">
-
-
-  {% if page.title != '' %}
-        
-    <!-- Template for /Now pages -->
-    {% if page.tags contains "Now" %}
-    
-      <header>  
-        <h2 class="p-name">{{page.title}}</h2>
-        {%- include info.html content="Giving you an overview of what I'm up to at any time in my life, this page is part of Derek Sivers' <a href='https://nownownow.com/about'>Now movement</a>. The strategy of this page was inspired by <a href='https://derekkedziora.com/now' target='_blank' rel='noopener noreferrer'>Derek Kedziora</a>."  -%}
-      </header>
-    
-      <div id="notes-entry-container">
-        <content class="e-content"> 
-          {{ content }}
-        </content> 
-      </div>
-
-      <hr class="my-5">
-    
-      <section>
-        <h2 class="mt-0 pt-0">Then</h2>
-        <ul> 
-          {% for post in site.tags.Now offset: 1 %}
-            <li><a href="{{post.url}}">{{post.title}}</a></li> 
-          {% endfor %}
-        </ul> 
-      </section>
-      
-      <!-- {%- include widget-responses.html -%} -->
-
-
-    <!-- Template for IndieWeb articles -->
-
-    {% else %}
-
-      <header>  
-        <p class="metadata">
-          <time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">
-            <a href="{{page.url}}">{{ page.date | date: "%B %-d, %Y" }}</a>
-          </time>
-      
-          {% if page.u-in-reply-to %}
-          ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
-          {% endif %}
-         </p>
-      
-          {% if page.title != ''%}
-            <h2 class="p-name mb-2"><a href="{{page.url}}"> {{ page.title }}</a></h2>
-          {% endif %}
-      </header>
-
-      <div id="notes-entry-container" class="e-content">
-        <content>
-          {{ content }}
-        </content> 
-      </div> 
-    
-      <hr class="my-5">
-    
-      {% if page.tags.size > 0 %}
-        <div class="">
-          <ul class="interests">
-            <li>Tagged with: </li>
-            {%- for tag in page.tags -%}
-              <li><a href="/tag/{{ tag | slugify | append: '/' }}">{{ tag }}</a></li>
-            {%- endfor -%}
-          </ul> 
-        </div>
-      {% endif %} 
-      
-      <div class="mt-5">
-        {%- include widget-responses.html -%}
-      </div>
-
-    {% endif %}
-
-  <!-- Template for IndieWeb Notes and Replies -->
-  {% else %}
-
-    <header>
-      <p class="metadata">
-        
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-  
-        {% if page.u-in-reply-to %}
-        ⋅ Reply to <a class="u-in-reply-to" href="{{page.u-in-reply-to}}" target="_blank" rel="noopener noreferrer">{{page.u-in-reply-to-name}}</a>
-        {% endif %}
-    
-      </p>
-    </header>
-
-    <div id="notes-entry-container" class="e-content">
+<article class="h-entry"> 
+  <header>
+    <h1 class="p-name">{{ page.title }}</h1>
+    <p class="metadata">
+      <time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </p> 
+  </header>
+  <div id="notes-entry-container" class="e-content">
     <content>
-      {% unless post.u-in-reply-to %}
-        <div class="indieweb-note">
-          {{ content }}
-        </div>
-        {% else %}
-        {{ content }}
-      {% endunless %}
+      {{ page.content }}
     </content> 
-    </div>
+  </div> 
+  
 
-  {% endif %}  
-    
-</article>
+  <footer>
+    <div class="row pagination">
+      <div class="col-6">
+        {% if page.next.url %}
+        <div class="text-subtext">Newer post</div>
+          <a class="" href="{{page.next.url}}">{{page.next.title}}</a>
+        {% endif %} 
+      </div>
+      <div class="col-6 text-end"> 
+        {% if page.previous.url %}
+        <div class="text-subtext">Older post</div>
+          <a class="" href="{{page.previous.url}}">{{page.previous.title}}</a>
+        {% endif %}
+      </div>
+    </div> 
+  <!-- <hr class="my-3">
+  {%- include widget-responses.html -%} -->
+  </footer>
+
+</article>  
