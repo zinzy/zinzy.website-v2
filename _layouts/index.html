@@ -7,6 +7,8 @@ layout: default
       <h1 class="p-name"><a href="{{post.url}}"> {{ post.title }}</a></h1>
       <p class="metadata">
         <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <span class="metadata-divider">|</span>
+        <span>{{ post.content | reading_time }} read</span>
       </p> 
     </header>
     <div id="notes-entry-container" class="e-content">
