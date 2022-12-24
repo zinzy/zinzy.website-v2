@@ -72,7 +72,8 @@ collections:
   notes:
     output: true
     permalink: /:slug 
-    layout: "note"  
+    layout: "note" 
+    date: false 
   micro:
     output: true
     permalink: /:year/:month/:day/:slug 

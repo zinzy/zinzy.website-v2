@@ -15,16 +15,18 @@ layout: default
     </content> 
 
     <footer>  
-      {% if page.backlinks.size > 0 %}
-      <h3 class="shy">Notes that refer to this one</h3> 
-      <div>
+      {% if page.backlinks.size > 0 %} 
+      <div class="backlinks">
+        <h3>Things on this website that link here</h3> 
         <ul class="">
           {% for backlink in page.backlinks %}
           <li>
-            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">
-              <div class="title">{{ backlink.title }}</div>
-              <!-- <div class="excerpt">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div> -->
-            </a>
+            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
+              {% if backlink.url contains "/20" %}
+                <span class="text-subtext">
+                  {{ backlink.date | date: "%B %-d, %Y" }}
+                </span>
+              {% endif %}
           </li>  
           {% endfor %}
         </ul> 
