@@ -29,9 +29,9 @@ relative_permalinks: false
 
 plugins:
   - jekyll-last-modified-at
-  - jekyll-timeago
-  - jekyll-archives
-  - jekyll-toc
+  # - jekyll-timeago
+  # - jekyll-archives
+  # - jekyll-toc
   - jekyll-paginate
   # - jekyll-feed
   # - jekyll-category-pages
@@ -45,14 +45,16 @@ paginate: 1
 paginate_path: /page/:num/
 
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: tag
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layout: tag
+#   permalinks:
+#     category: '/category/:name/'
+#     tag: '/tag/:name/'
+
+kramdown:
 
 sass:
   sass_dir:          _sass
@@ -79,8 +81,8 @@ collections:
     permalink: /:year/:month/:day/:slug 
   now:
     output: true
-    permalink: /:year/:month/:day/:slug
     sort_by: date 
+    layout: "now"  
   posts:
     output: true
     permalink: /:year/:month/:day/:slug 
