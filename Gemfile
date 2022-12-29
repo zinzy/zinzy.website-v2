@@ -12,6 +12,7 @@ gem "nokogiri"
 # gem 'jekyll-archives'
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
+gem "tufte-pandoc-jekyll"
 group :jekyll_plugins do
     gem "jekyll-paginate"
     # gem "jekyll-category-pages"

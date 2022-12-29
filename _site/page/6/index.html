@@ -86,29 +86,42 @@
        
   <article class="h-entry"> 
     <header>
-      <h1 class="p-name"><a href="/2022/11/20/rest"> Rest</a></h1>
+      <h1 class="p-name"><a href="/2022/11/26/notes-on-my-web-mastery"> Notes on my web mastery</a></h1>
       <p class="metadata">
-        <time class="dt-published" datetime="November 20, 2022">November 20, 2022</time>
+        <time class="dt-published" datetime="November 26, 2022">November 26, 2022</time>
         <span class="metadata-divider">|</span>
         <span>2 min. read</span>
       </p> 
     </header>
     <div id="notes-entry-container" class="e-content">
       <content>
-        <p>Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day. My jump doesn’t land me in a FOMO-inducing Instagram feed or a busy news site, but on a blank screen that waits eagerly as I type my 1,000 words of the morning. It’s another one of the <a class="internal-link" href="/habits">Habits</a> I picked up this autumn. Me, the darkness outside, and a soft light in the living room acquainting me with the day. It’s pleasing to meet myself, unfiltered.</p>
+        <p>Recently, I’ve been making some great progress with my personal website. While I normally don’t engage in technical ballets on the goings-on of this website, I feel it’s relevant to document what I’ve learnt and done, if only for posterity.</p>
 
-<p>It’s also one of the few moments of solitude and focus I allow myself this week, apparently. Now that I’m beginning to reintegrate back into work at <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Public/_notes/Leeruniek  <span class="invalid-link-brackets">]]</span></span>, I seem to have forgotten how much down time my body still requires. I’ve received a work assignment, on which I’ll get to work independently, and I’m excited. Curious. Hungry. On the cusp of small-scale overdrive. I had to stop working precisely because of this.</p>
-
-<p>It’s boring.</p>
-
-<p>Then I remember and old way to find calm and relaxation. <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/">The voices of Josh Clark and Chuck Bryant, telling me about stuff I should know</a>.</p>
-
-<h3 id="whats-top-of-mind-right-now">What’s top of mind right now</h3>
-
+<h3 id="tools">Tools</h3>
 <ul>
-  <li>Saw Hannah Gadsby’s <a class="internal-link" href="/body-of-work">Body of Work</a> and had a brief, cogent crush on her</li>
-  <li>Saw a large number of Twitter folks join the much kinder Mastodon club. I’m slowly beginning to feel comfortable about the platform, and how it invites me to share my thoughts.</li>
-  <li>I’m thinking a lot about what ex-Twitter designer <a href="https://tech.lgbt/@jon@social.lot23.com/109372263710282940">Jon Bell</a> said about Twitter’s user experience trajectory. I keep saying out loud how central the difference between <a class="internal-link" href="/do-the-right-thing">doing the right thing</a> and <a class="internal-link" href="/do-the-thing-right">doing the thing right</a> is to the design work I do.</li>
+  <li><a href="https://jekyllrb.com/">Jekyll</a>: as is often the case for me, this site is built using my favorite flat-file content management system</li>
+  <li><a href="https://github.com/">Github</a>: hosts the code for this website</li>
+  <li><a href="https://www.netlify.com/">Netlify</a>: serves the content to my website</li>
+  <li><a href="https://obsidian.md/">Obsidian</a>: I write in a single Obsidian vault</li>
+  <li><a href="https://github.com/denolehov/obsidian-git">obsidian-git</a>: helps me manage  the version control of my Obsidian content</li>
+  <li><a href="https://github.com/marketplace/actions/push-git-subdirectory-as-branch">Push git subdirectory as branch</a>: a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository</li>
+  <li><a href="https://mtsknn.fi/blog/netlify-updating-private-git-submodule/">Git submodule</a>: my separate repository is pulled into my website’s code base</li>
+  <li><a href="https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions/">Netlify build hook</a>: every day, Netlify looks for new content and publishes it to my website</li>
+</ul>
+
+<h3 id="why-this-is-great">Why this is great</h3>
+<ul>
+  <li>I hold the strong belief that &lt;a class=’internal-link’ href=’/notes/<em>%20Tools%20don’t%20matter/’&gt;</em> Tools don’t matter&lt;/a&gt;. This means, among other things, that I don’t like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.</li>
+  <li>My website is a text-heavy space: most of what you’ll find on here is written content. As a knowledge worker, writing is an integral part of my daily life. Many of the things I write are not for public consumption, but they are closely linked to things that <em>are</em>. To avoid duplicate content and awkward linking, it was important for me to manage my text files in a single space, one Obsidian vault.</li>
+  <li>I have a tendency to tinker a lot on my website. This can make it so that I spend more time trying out new things and changing the design than I do writing. Having my code base and content separated helps me focus more on writing things that are meaningful to me.</li>
+</ul>
+
+<h3 id="some-things-i-havent-figured-out-yet">Some things I haven’t figured out yet</h3>
+<ul>
+  <li>Is it worthwhile for me to publish more granular IndieWeb post types such as notes and likes? Do I care about them? Am I making them only to show them? What’s their value if I cannot automate this process? Does the technical implementation change if I push said content to a git repository that consists of only notes?</li>
+  <li>What does a proper dark mode look like?</li>
+  <li>Do I want to continue my barebones experiment and document the <a class="internal-link" href="/notes/Discomfort%20of%20vanity/">Discomfort of vanity</a>? Or am I ready for something more modern?</li>
+  <li>How in the world do I even go about Micropub and Webmentions?</li>
 </ul>
 
       </content> 
@@ -118,7 +131,7 @@
         <div class="col-6 offset-6 text-end"> 
           
           <div class="text-subtext">Older post</div>
-          <a href="/2022/12/07/what-i-hate-fear-and-suck-at" class="">What I hate, fear, and suck at</a>
+          <a href="/2022/12/25/week-51" class="">Week 51: The piano</a>
           
         </div>
       </div> 
@@ -147,6 +160,19 @@
     <div class="mb-5">
       <h3>2022</h3>
       <ul class="archive">
+        
+        
+        <li>
+          <div class="row">
+            <div class="col-12 col-md-2">
+              <time class="" datetime="Dec 28">Dec 28</time>
+            </div>
+            <div class="col-12 col-md-10">
+              <a href="/2022/12/28/2022-in-review"> 2022 in review</a>
+            </div>
+          </div>
+        </li>
+         
         
         
         <li>
@@ -748,7 +774,6 @@
       <li><a href="/about">About</a></li>
       <li><a href="/now">Now</a></li>
       <li><a href="/hello">Hello</a></li>
-      <li><a href="/notes">Notes</a></li>
       <li><a href="/codex">Codex</a></li>
     </ul>
 

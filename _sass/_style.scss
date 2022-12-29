@@ -240,31 +240,7 @@ hr {
   width: 130px;
   
 } 
-.photoblog {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  @media screen and (min-width: 600px) {
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2; 
-  }
-   @media screen and (min-width: 768px) {
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 3;
-  }
-  li {
-    -webkit-column-break-inside: avoid;
-            page-break-inside: avoid;
-                 break-inside: avoid;
-    margin-bottom: 1rem;
-    img {
-      border: 0;
-    } 
-  }
-}
- 
+
 #webmentions {
   font-size: .8rem;
   .comments {
@@ -494,5 +470,31 @@ figure {
     text-decoration: underline;
     display: inline-block;
     margin-right: .5rem;
+  }
+}
+
+ul.photo-grid {
+	position: relative;
+	left: calc(50% - 500px);
+	width: 1000px;
+  column-count: 2;
+  list-style: none;
+  margin: 5rem 0;
+  padding: 0;
+  @media screen and (min-width: 768px) {
+    column-count: 3;
+  }
+  li {
+    &:before {
+      content:"";
+      border: 0;
+    }
+    &:first-child {
+      margin-top: 2rem;
+    }
+    img {
+      margin: 0;
+      padding: 0;
+    }
   }
 }
