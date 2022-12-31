@@ -1,1 +1,0 @@
-This is the digital garden of [Zinzy Waleson Geene](https://github.com/zinzy/). Its contents are licensed under 
