@@ -5,21 +5,15 @@ layout: default
   <h2 class="m-0 p-0">Everything about {{ page.title }}</h2>
 {% for post in page.posts %}
   <article class="h-entry py-5">  
-  <p class="metadata">
-    <a href="{{post.url}}">
-      <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-    </a>
-  </p> 
-  <div id="notes-entry-container" class="e-content">
-    <content> 
-      {% if post.excerpt == "" %}
-        {{ post.content }} 
-      {% else %} 
-        {{ post.excerpt}}
-        <p><a href="{{post.url}}">Read more</a></p>
-      {% endif %}
-    </content> 
-  </div> 
+  <header>
+    <p class="metadata">
+      <a href="{{post.url}}">
+        <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </a>
+    </p> 
+  </header>
+  {{ post.excerpt}}
+  <p><a href="{{post.url}}">Read more</a></p>
   </article> 
 {% endfor %}
 </div>
