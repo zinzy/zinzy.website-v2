@@ -24,39 +24,29 @@ open_external_links_in_new_tab: true
 # as their browser will communicate with Twitter's servers.
 embed_tweets: false
 
-theme: tufte-pandoc-jekyll
-gems:
-  - jekyll-pandoc
-
 permalink:           pretty
 relative_permalinks: false
 
 plugins:
-  - jekyll-last-modified-at
-  # - jekyll-timeago
-  # - jekyll-archives
-  # - jekyll-toc
-  - jekyll-paginate
-  # - jekyll-feed
-  # - jekyll-category-pages
+  - jekyll-last-modified-at 
+  - jekyll-paginate 
+  - jekyll-archives
 
 
 posts_limit: 10
 feed:
   path: /feed.xml
 
-paginate: 1
+paginate: 4
 paginate_path: /page/:num/
 
 
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layout: tag
-#   permalinks:
-#     category: '/category/:name/'
-#     tag: '/tag/:name/'
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag
+  permalinks:
+    tag: '/tag/:name/'
 
 kramdown:
 
@@ -64,29 +54,12 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-reading_time:
-  second_plural: "sec."    # default: seconds
-  minute_singular: "min."  # default: minute
-  minute_plural: "min."    # default: minutes
-
-collections_dir: My-Digital-Garden
+collections_dir: content
 
 collections: 
-  abcdef:
-    output: true
-    permalink: /:slug 
   notes:
     output: true
-    permalink: /:slug 
-    layout: "note" 
-    date: false 
-  micro:
-    output: true
-    permalink: /:year/:month/:day/:slug 
-  now:
-    output: true
-    sort_by: date 
-    layout: "now"  
+    permalink: /:slug
   posts:
     output: true
     permalink: /:year/:month/:day/:slug 
@@ -97,22 +70,10 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "My-Digital-Garden/_abcdef/**/*.md"
+      path: "content/_notes/**/*.md"
     values:
-      layout: "abcdef" 
+      layout: "page" 
   - scope:
-      path: "My-Digital-Garden/_micro/**/*.md"
-    values:
-      layout: "micro"
-  - scope:
-      path: "My-Digital-Garden/_notes/**/*.md"
-    values:
-      layout: "note"
-  - scope:
-      path: "My-Digital-Garden/_now/**/*.md"
-    values:
-      layout: "now-page" 
-  - scope:
-      path: "My-Digital-Garden/_posts/**/*.md"
+      path: "content/_posts/**/*.md"
     values:
       layout: "post" 

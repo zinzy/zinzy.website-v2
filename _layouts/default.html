@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body>  
-    {% unless page.url == "/" %}
-      {% include button_home.html %} 
-    {% endunless %}
+  <body class="p-3 p-md-5">  
+
+    <header id="header" class="pb-3 pb-md-5">
+      Zinzy Waleson Geene has been yelling at Internet clouds since 1997
+      <nav>
+        <ul class="">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/now">Now</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       {{ content }}
+    </main>
+    <footer>
       {% include footer.html %} 
-    </main> 
-    {% include button_bottom.html %} 
+    </footer>
   </body>
 </html>
 

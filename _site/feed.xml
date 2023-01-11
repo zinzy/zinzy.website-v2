@@ -11,11 +11,40 @@
     
     
       <item>
+        <title>Weird movies</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          
+          
+          <br />
+          <p>I have a feeling 2023 will be the year for weird movies that steal our hearts. Look at <em>Triangle of Sadness</em> and <em>White Noise</em>. Here you have two high-budget oddball films that I’d describe not as mumblecore but coastercore, pulling you from one weird subnarrative into another, not really making up their minds about what they are, and before you’ve formed a full opinion on it, the ride is over, but you loved it.</p>
+
+<p>It reminds me of the dawn of black brutalist typefaces mixed with pastel and neon gradients in web design: you look at it and your body says “wtf” and your heart goes “yes”.</p>
+
+<p>I’ll await further data to see if I have any type of a point.</p>
+
+          <hr /><p><a href="mailto:?subject=Weird%20movies">Reply via email</a></p>]]>
+        </description>
+        <pubDate>Tue, 10 Jan 2023 00:00:00 +0100</pubDate>
+        <link>http://0.0.0.0:4000/2023/01/10/weird-movies</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/10/weird-movies</guid>
+        
+          
+        
+        
+          <category>Cinema</category>
+        
+          <category>Coastercore</category>
+        
+      </item>
+    
+      <item>
         <title>2022 in review</title>
         <author> ()</author>
         <description><![CDATA[
           
-          Now that we've reached its end, 2022 feels much calmer and steadier than the two previous years.
+          Now that we've reached its end, 2022 feels much calmer and steadier than the two previous years. The pandemic, a new job, and major cultural and political developments gave 2020 the rhythm of living in the eye — and sometimes in the fabric — of a hurricane.
           
           <br />
           <p>Now that we’ve reached its end, 2022 feels much calmer and steadier than the two previous years. The pandemic, a new job, and major cultural and political developments gave 2020 the rhythm of living in the eye — and sometimes in the fabric — of a hurricane. Made to wear the hand-me-downs of its older brother, 2021 felt much the same. What made 2022 different isn’t its overall rhythm, but the way it was interrupted. In the wake of this interruption, everything seems easier.</p>
@@ -24,17 +53,23 @@
 
 <p>Here are some things I learned there, and here, in 2022, as well as some of my favorite snapshots.</p>
 
-<div class="spaced-wrapper">
-<ul class="photo-grid photo-grid-duo">
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295755/zinzy.website/2022-in-review-5_tarer9.jpg" alt="A small wooden shelf at Karasu Japanese Knives Amsterdam displays Japanese kitchen utensils: an assortment of brushes, and small rust erasers. The depth of field is shallow, making for a moody scene." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295755/zinzy.website/2022-in-review-4_namvxo.jpg" alt="The image cut off just above her eyes, it's a woman with a well-decorated birthday crown. Below her name, Anja, is the number 39." /></li>
-</ul>
-
-<ul class="photo-grid">
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295755/zinzy.website/2022-in-review-9_a74pp8.jpg" alt="A wall of flat stones with in the background a valley in the Algarve. A string is wrapped around the top stone, and the rest of the roll lies next to it." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295757/zinzy.website/2022-in-review-21_wghwp1.jpg" alt="A tall window with a rounded top in an otherwise entirely white wall. Behind it a lush garden and large tree." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295761/zinzy.website/2022-in-review-19_whjyta.jpg" alt="Pointing down at my feet, it's me in the Summertime. The half shade of the trees in the Flevopark give the image a big contrast, my feet in Birkenstocks catching most of the light." /></li>
-</ul>
+<div class="my-5">
+<div class="row">
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295755/zinzy.website/2022-in-review-5_tarer9.jpg" alt="A small wooden shelf at Karasu Japanese Knives Amsterdam displays Japanese kitchen utensils: an assortment of brushes, and small rust erasers. The depth of field is shallow, making for a moody scene." />
+    </div>
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295755/zinzy.website/2022-in-review-4_namvxo.jpg" alt="The image cut off just above her eyes, it's a woman with a well-decorated birthday crown. Below her name, Anja, is the number 39." />
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295757/zinzy.website/2022-in-review-21_wghwp1.jpg" alt="A tall window with a rounded top in an otherwise entirely white wall. Behind it a lush garden and large tree." />
+    </div>
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295755/zinzy.website/2022-in-review-9_a74pp8.jpg" alt="A wall of flat stones with in the background a valley in the Algarve. A string is wrapped around the top stone, and the rest of the roll lies next to it." />
+    </div>
+</div>
 </div>
 
 <h3 id="i-finally-found-a-way-to-connect-with-that-intuition-everybody-has-been-raving-about">I finally found a way to connect with that intuition everybody has been raving about</h3>
@@ -48,17 +83,23 @@
 <h3 id="it-may-be-valuable-to-jumpstart-a-connection-by-oversharing-but-usually-it-isnt">It may be valuable to jumpstart a connection by oversharing, but usually it isn’t</h3>
 <p>In my treatment cohort were nine other women, each with a uniquely originated eating disorder. Sharing the most difficult things about our lives gave us a non-verbal language that runs on gut feelings, eyes meeting, and quiet hugs. Outside of these relationships, though, 2022 showed me the value of pacing myself, friendship-wise. New people came and went, and with the ones who stayed I shared an understanding: you can’t always jumpstart a connection by oversharing, overcommitting, overinvesting.</p>
 
-<div class="spaced-wrapper">
-<ul class="photo-grid photo-grid-duo">
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295757/zinzy.website/2022-in-review-17_jqkm4r.jpg" alt="A poster on the street in Amsterdam, which reads 'ik live laugh love me dood', which translates to 'I love laugh love myself to death'." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295758/zinzy.website/2022-in-review-14_kd7qdp.jpg" alt="A close-up of a bedside lamp with a felt birthday crown." /></li>
-</ul>
-
-<ul class="photo-grid">
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295754/zinzy.website/2022-in-review-15_chnhyh.jpg" alt="A piano, photographed from its right side, up close to the keys." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295754/zinzy.website/2022-in-review-3_rsacia.jpg" alt="A compost bin with large worms and growth sprouts from paprika seeds that were accidentally placed in it." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295753/zinzy.website/2022-in-review-8_lotyk1.jpg" alt="A close-up of a woman's hand holding a small stone." /></li>
-</ul>
+<div class="my-5">
+<div class="row">
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295757/zinzy.website/2022-in-review-17_jqkm4r.jpg" alt="A poster on the street in Amsterdam, which reads 'ik live laugh love me dood', which translates to 'I love laugh love myself to death'." />
+    </div>
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295758/zinzy.website/2022-in-review-14_kd7qdp.jpg" alt="A close-up of a bedside lamp with a felt birthday crown." />
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295754/zinzy.website/2022-in-review-15_chnhyh.jpg" alt="A piano, photographed from its right side, up close to the keys." />
+    </div>
+    <div class="col-md-6">
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295753/zinzy.website/2022-in-review-8_lotyk1.jpg" alt="A close-up of a woman's hand holding a small stone." />
+    </div>
+</div>
 </div>
 
 <h3 id="surround-yourself-with-worthwhile-stories">Surround yourself with worthwhile stories</h3>
@@ -73,12 +114,15 @@
   <li><strong>Dogs aren’t so bad after all:</strong> if you know me in person, one thing you will understand is that, historically, I’m known to hate dogs. Bill Murray once noted that he’s “suspicious of people who don’t like dogs”, and I’ve always proudly countered that with “don’t trust people who are suspicious of people who don’t like dogs”. That being said, 2022 gave me the soft eyes required to decide with Anja that we will be making an effort to welcome a corgi into our home.</li>
 </ul>
 
-<div class="spaced-wrapper">
-<ul class="photo-grid">
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295756/zinzy.website/2022-in-review-22_jtwbwi.jpg" alt="Me kneeling down next to a black dog called Gypsy, holding his paw with a big smile on my face. The day is bright, and the Portuguese terrace where we are sits in the shadow of a large tree." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295754/zinzy.website/2022-in-review-10_ydw99a.jpg" alt="A close-up of a woman holding up both her hands to support a set of seedlings that will soon be planted in the garden. Her nails are professionally done, and her hands are dirty." /></li>
-<li><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_500/v1672295757/zinzy.website/2022-in-review-13_o3demr.jpg" alt="A black dog called Gypsy lying on a rug on the floor, looking up lovingly to something not depicted in the image." /></li>
-</ul>
+<div class="my-5">
+<div class="row">
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295756/zinzy.website/2022-in-review-22_jtwbwi.jpg" alt="Me kneeling down next to a black dog called Gypsy, holding his paw with a big smile on my face. The day is bright, and the Portuguese terrace where we are sits in the shadow of a large tree." />
+    </div>
+    <div class="col-md-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_700/v1672295757/zinzy.website/2022-in-review-13_o3demr.jpg" alt="A black dog called Gypsy lying on a rug on the floor, looking up lovingly to something not depicted in the image." />
+    </div>
+</div>
 </div>
 
 <h3 id="things-i-loved">Things I loved</h3>
@@ -131,6 +175,24 @@
           
         
         
+          <category>Annual review</category>
+        
+          <category>Photography</category>
+        
+          <category>Recovery</category>
+        
+          <category>Neurodiversity</category>
+        
+          <category>Friendship</category>
+        
+          <category>Stories</category>
+        
+          <category>Cinema</category>
+        
+          <category>Literature</category>
+        
+          <category>Music</category>
+        
       </item>
     
       <item>
@@ -144,12 +206,12 @@
           <ul>
   <li>Happy Hanukkah and/or Christmas to those who celebrate!</li>
   <li>Even though our house is (reluctantly) multi-religious, we forgot just about every tradition we were ever taught for this time of the year. On Hanukkah Eve, A. said “where are the tea lights?”, but we had no luck finding them to produce a makeshift chanukiah. Probably for the best. I don’t mind that we didn’t put up a Christmas tree, but I did find myself missing our outrageous ornaments.</li>
-  <li>This week was all about the new piano I bought. I can’t stop thinking or talking about it, so for brevity’s sake it’s best you just check out <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Piano|my piano journey in my working notes  <span class="invalid-link-brackets">]]</span></span>.</li>
+  <li>This week was all about the new piano I bought. I can’t stop thinking or talking about it.</li>
   <li>All I’ll say is: this piano project is the first one I’m approaching through a neurodiverse lens, and it’s making everything <em>so</em> much smoother and funner.</li>
   <li>Illegally, I’m mentioning something that happened in week 50. A. took me for my annual Fancy Birthday Dinner. For the first time since we began dating, I told her to leave it a surprise. I suppose it’s one of those benefits of having gone to in-patient eating disorder treatment: chill vibes about food surprises. If you ever have an appetite for exquisite 10-course Asian fusion dining, book a table at <a href="https://101gowrie.com/">101 Gowrie</a>, where the atmosphere is as beautiful as the tableware, the bread is to cry over, and the umami is so intense that you’ll have trouble putting it into words.</li>
   <li>We needed a two-nighter to finish watching <em>Glass Onion: A Knives Out Mystery</em>. I’m very much at that point in my mid-thirties where finishing a feature film under a warm blanket on the sofa after 8 p.m. is a challenge. I love whodunits — the genre might be in my top three — but I was quite disappointed to learn that both A. and I were able to guess the ending within the first five minutes. Janelle Monáe and Kathryn Hahn looked great nonetheless.</li>
   <li>All week, people kept asking me what I’d be doing for Christmas, and I’d cheerfully reply “Nothing! You?” every time. I feel liberated from the pressure to spend time with family or friends during the holidays, to eat more than I can carry, and to <em>be</em> and <em>have</em> fun. We certainly did have fun, just in a “really couldn’t be bothered” kind of way.</li>
-  <li>I made my first batch of <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Heavenly mud  <span class="invalid-link-brackets">]]</span></span> (“hemelse modder”), a rich, creamy chocolate dessert. It was heavenly.</li>
+  <li>I made my first batch of heavenly mud, a rich, creamy chocolate dessert. It was heavenly.</li>
 </ul>
 
           <hr /><p><a href="mailto:?subject=Week%2051:%20The%20piano">Reply via email</a></p>]]>
@@ -187,7 +249,7 @@
           A year ago, as part of my recovery journey, my therapist asked me: 'What are your core values? Like, what are your deepest needs and desires?' She reminded me last week that, instead of pausing to think of a response, I laughed straight in her face.
           
           <br />
-          <p>A year ago, as part of my <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Eating disorder|recovery journey  <span class="invalid-link-brackets">]]</span></span>, my therapist asked me:</p>
+          <p>A year ago, as part of my eating disorder recovery journey, my therapist asked me:</p>
 
 <blockquote>
   <p>What are your core values? Like, what are your deepest needs and desires?</p>
@@ -197,11 +259,11 @@
 
 <p>Historically, I’ve had trouble identifying what I want, need, desire, hope for, and dream of.</p>
 
-<p>In-patient treatment has helped train that muscle, though. My first vision board there consisted of kind interactions with strangers in coffee houses, while other clients were planning to pursue a Master’s or travel the world. On the flight back I made my first-ever attempt at a <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Bucket list  <span class="invalid-link-brackets">]]</span></span>.</p>
+<p>In-patient treatment has helped train that muscle, though. My first vision board there consisted of kind interactions with strangers in coffee houses, while other clients were planning to pursue a Master’s or travel the world. On the flight back I made my first-ever attempt at a bucket list.</p>
 
 <p>Treatment taught me a hack that’s now helping me figure out what I hope 2023 will look like. Instead of identifying what I <em>do</em> hope, want, and yearn for, I look at what I <em>don’t</em>. What I hate can tell me something about what I fear. What I fear can, in turn, lead me to what I desire. Knowing what I suck at can help me identify challenges I might encounter as I move towards those desires.</p>
 
-<p>As the year comes to a close, and as I figure out once again, but now from scratch, <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Life OS  <span class="invalid-link-brackets">]]</span></span>, I’m asking myself:</p>
+<p>As the year comes to a close, and as I figure out once again, but now from scratch, I’m asking myself:</p>
 
 <ul>
   <li>What do I hate?</li>
@@ -237,15 +299,15 @@
         <author> ()</author>
         <description><![CDATA[
           
-          The week was fairly quiet: I'm still having trouble getting enough rest, which leads to headaches and dizzy spells, but with enough breaks, naps, and beauty sleep I seem to be on a path to feeling better.
+          
           
           <br />
           <ul>
   <li>The week was fairly quiet: I’m still having trouble getting enough rest, which leads to headaches and dizzy spells, but with enough breaks, naps, and beauty sleep I seem to be on a path to feeling better.</li>
   <li>I’m continuing to settle back into work, and I love working on my own design assignment. I can see how much I missed the tangible, practical design work, as well as design collaboration.</li>
-  <li>Don’t tell A, but I indulged in a new Filofax setup for 2023. I got my hands on both their <a href="https://uk.filofax.com/collections/a5-refills-for-organisers-and-clipbook/products/minimal-week-to-view-diary-a5-2023">Week on Two Pages Diary</a>, and their <a href="https://uk.filofax.com/products/one-day-on-a-page-diary-with-appointments-a5-2023?_pos=1&amp;_sid=315704f6e&amp;_ss=r">One Day on a Page Diary</a>, to give myself ample space to organize. I’m quite exicted to try the week pages, which have a monthly planner section as well.</li>
+  <li>Don’t tell Anja, but I indulged in a new Filofax setup for 2023. I got my hands on both their <a href="https://uk.filofax.com/collections/a5-refills-for-organisers-and-clipbook/products/minimal-week-to-view-diary-a5-2023">Week on Two Pages Diary</a>, and their <a href="https://uk.filofax.com/products/one-day-on-a-page-diary-with-appointments-a5-2023?_pos=1&amp;_sid=315704f6e&amp;_ss=r">One Day on a Page Diary</a>, to give myself ample space to organize. I’m quite exicted to try the week pages, which have a monthly planner section as well.</li>
   <li>I watched <a href="https://en.wikipedia.org/wiki/Franklin_Delano_Floyd#Death_of_Suzanne_Sevakis">Girl In The Picture</a>, and all I can say is: I have quite the stomach for gruesome stories, but this shook me.</li>
-  <li>I also watched <a href="https://www.imdb.com/title/tt11188206/">15 Minutes of Shame</a> and I loved it, particularly the connection they made to medieval punishment. It made me think back to my time as a student, getting acquainted with medieval literature for the first time.</li>
+  <li>I also watched <em><a href="https://www.imdb.com/title/tt11188206/">15 Minutes of Shame</a></em> and I loved it, particularly the connection they made to medieval punishment. It made me think back to my time as a student, getting acquainted with medieval literature for the first time.</li>
   <li>I had the 👏🏽  best 👏🏽  Chinese 👏🏽  food of my life, at <a href="https://www.hoitin.nl/">Hoi Tin</a>.</li>
 </ul>
 
@@ -260,6 +322,16 @@
         
           <category>Weeknotes</category>
         
+          <category>Food</category>
+        
+          <category>Restaurants</category>
+        
+          <category>True crime</category>
+        
+          <category>Media</category>
+        
+          <category>Filofax</category>
+        
       </item>
     
       <item>
@@ -267,7 +339,7 @@
         <author> ()</author>
         <description><![CDATA[
           
-          A bit of a dreary week, but at least we have great television.
+          
           
           <br />
           <ul>
@@ -275,7 +347,7 @@
   <li>I still do well to limit my hours of screen time. Before I know it, I’m stuck with a headache and dizzy spell.</li>
   <li>Spotify’s Discover Weekly was on point this week. Aside from lovely “beards and log cabin” tunes, as I call 70s soft rock, I’ve fallen hard for the hyper pop track <a href="https://open.spotify.com/track/4n0sVfRnd0UJsqcbPj7GqN?si=Z5yeyS2xTjOEWlOSI5EnmQ">“Notice”</a> by Moe Shop and Toriena.</li>
   <li>We raced through another season of <em>The Crown</em>, this time with the excellent Elizabeth Debicki as Diana. I love how she manages to capture Diana so well despite <em>and</em> because of her camp-adjacent interpretation of her. I wonder if she ever got a sore neck during taping.</li>
-  <li>After protesting for weeks, I’ve finally let A turn on the heating. So far, I haven’t had much up-close experience with the energy crisis the world is currently facing, and I don’t want that to change. It’s great to feel my toes, though.</li>
+  <li>After protesting for weeks, I’ve finally let Anja turn on the heating. So far, I haven’t had much up-close experience with the energy crisis the world is currently facing, and I don’t want that to change. It’s great to feel my toes, though.</li>
 </ul>
 
           <hr /><p><a href="mailto:?subject=Week%2047:%20Booster">Reply via email</a></p>]]>
@@ -291,6 +363,12 @@
         
           <category>Weeknotes</category>
         
+          <category>Music</category>
+        
+          <category>Heating</category>
+        
+          <category>Financial crisis</category>
+        
       </item>
     
       <item>
@@ -298,8 +376,7 @@
         <author> ()</author>
         <description><![CDATA[
           
-          <p>Recently, I’ve been making some great progress with my personal website. While I normally don’t engage in technical ballets on the goings-on of this website, I feel it’s relevant to document what I’ve learnt and done, if only for posterity.</p>
-
+          Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.
           
           <br />
           <p>Recently, I’ve been making some great progress with my personal website. While I normally don’t engage in technical ballets on the goings-on of this website, I feel it’s relevant to document what I’ve learnt and done, if only for posterity.</p>
@@ -318,7 +395,7 @@
 
 <h3 id="why-this-is-great">Why this is great</h3>
 <ul>
-  <li>I hold the strong belief that <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  * Tools don’t matter  <span class="invalid-link-brackets">]]</span></span>. This means, among other things, that I don’t like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.</li>
+  <li>I hold the strong belief that tools don’t matter. This means, among other things, that I don’t like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.</li>
   <li>My website is a text-heavy space: most of what you’ll find on here is written content. As a knowledge worker, writing is an integral part of my daily life. Many of the things I write are not for public consumption, but they are closely linked to things that <em>are</em>. To avoid duplicate content and awkward linking, it was important for me to manage my text files in a single space, one Obsidian vault.</li>
   <li>I have a tendency to tinker a lot on my website. This can make it so that I spend more time trying out new things and changing the design than I do writing. Having my code base and content separated helps me focus more on writing things that are meaningful to me.</li>
 </ul>
@@ -327,7 +404,7 @@
 <ul>
   <li>Is it worthwhile for me to publish more granular IndieWeb post types such as notes and likes? Do I care about them? Am I making them only to show them? What’s their value if I cannot automate this process? Does the technical implementation change if I push said content to a git repository that consists of only notes?</li>
   <li>What does a proper dark mode look like?</li>
-  <li>Do I want to continue my barebones experiment and document the <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Discomfort of vanity  <span class="invalid-link-brackets">]]</span></span>? Or am I ready for something more modern?</li>
+  <li>Do I want to continue my barebones experiment and document the discomfort of vanity? Or am I ready for something more modern?</li>
   <li>How in the world do I even go about Micropub and Webmentions?</li>
 </ul>
 
@@ -353,23 +430,22 @@
         <author> ()</author>
         <description><![CDATA[
           
-          Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day.
+          
           
           <br />
-          <p>Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day. My jump doesn’t land me in a FOMO-inducing Instagram feed or a busy news site, but on a blank screen that waits eagerly as I type my 1,000 words of the morning. It’s another one of the <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Habits  <span class="invalid-link-brackets">]]</span></span> I picked up this autumn. Me, the darkness outside, and a soft light in the living room acquainting me with the day. It’s pleasing to meet myself, unfiltered.</p>
+          <p>Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day. My jump doesn’t land me in a FOMO-inducing Instagram feed or a busy news site, but on a blank screen that waits eagerly as I type my 1,000 words of the morning. It’s another one of the habits I picked up this autumn. Me, the darkness outside, and a soft light in the living room acquainting me with the day. It’s pleasing to meet myself, unfiltered.</p>
 
-<p>It’s also one of the few moments of solitude and focus I allow myself this week, apparently. Now that I’m beginning to reintegrate back into work at <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Leeruniek  <span class="invalid-link-brackets">]]</span></span>, I seem to have forgotten how much down time my body still requires. I’ve received a work assignment, on which I’ll get to work independently, and I’m excited. Curious. Hungry. On the cusp of small-scale overdrive. I had to stop working precisely because of this.</p>
+<p>It’s also one of the few moments of solitude and focus I allow myself this week, apparently. Now that I’m beginning to reintegrate back into work at Leeruniek, I seem to have forgotten how much down time my body still requires. I’ve received a work assignment, on which I’ll get to work independently, and I’m excited. Curious. Hungry. On the cusp of small-scale overdrive. I had to stop working precisely because of this.</p>
 
 <p>It’s boring.</p>
 
 <p>Then I remember and old way to find calm and relaxation. <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/">The voices of Josh Clark and Chuck Bryant, telling me about stuff I should know</a>.</p>
 
 <h3 id="whats-top-of-mind-right-now">What’s top of mind right now</h3>
-
 <ul>
-  <li>Saw Hannah Gadsby’s <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Body of Work  <span class="invalid-link-brackets">]]</span></span> and had a brief, cogent crush on her</li>
+  <li>Saw Hannah Gadsby’s <em>Body of Work</em> and had a brief, cogent crush on her</li>
   <li>Saw a large number of Twitter folks join the much kinder Mastodon club. I’m slowly beginning to feel comfortable about the platform, and how it invites me to share my thoughts.</li>
-  <li>I’m thinking a lot about what ex-Twitter designer <a href="https://tech.lgbt/@jon@social.lot23.com/109372263710282940">Jon Bell</a> said about Twitter’s user experience trajectory. I keep saying out loud how central the difference between <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Do the right thing|doing the right thing  <span class="invalid-link-brackets">]]</span></span> and <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  Do the thing right|doing the thing right  <span class="invalid-link-brackets">]]</span></span> is to the design work I do.</li>
+  <li>I’m thinking a lot about what ex-Twitter designer <a href="https://tech.lgbt/@jon@social.lot23.com/109372263710282940">Jon Bell</a> said about Twitter’s user experience trajectory. I keep saying out loud how central the difference between doing the righ thing and doing the thing right is to the design work I do.</li>
 </ul>
 
           <hr /><p><a href="mailto:?subject=Rest">Reply via email</a></p>]]>
@@ -383,6 +459,8 @@
         
           <category>Weeknotes</category>
         
+          <category>Social media</category>
+        
       </item>
     
       <item>
@@ -390,13 +468,12 @@
         <author> ()</author>
         <description><![CDATA[
           
-          <p>The weather has officially reached a temperature that requires me to buy a new coat. I dread it. Unlike most other types of clothing, coats and jackets never seem to suit me, regardless of the style. To soften the blow of having to order several coats on the Internet hoping one will work for me, I granted myself three sets of retro socks.</p>
-
+          
           
           <br />
           <p>The weather has officially reached a temperature that requires me to buy a new coat. I dread it. Unlike most other types of clothing, coats and jackets never seem to suit me, regardless of the style. To soften the blow of having to order several coats on the Internet hoping one will work for me, I granted myself three sets of retro socks.</p>
 
-<p>I finished reading <span title="There is no note that matches this link." class="invalid-link">  <span class="invalid-link-brackets">[[</span>  The Midnight Library  <span class="invalid-link-brackets">]]</span></span>, which I had borrowed from <a href="https://www.anneliewambeek.com/">Annelie</a>. It sure has been a long time since I last read a book that was both so entertaining and easygoing. It feels borderline young adult, and entirely unpretentious.</p>
+<p>I finished reading <em>The Midnight Library</em>, which I had borrowed from <a href="https://www.anneliewambeek.com/">Annelie</a>. It sure has been a long time since I last read a book that was both so entertaining and easygoing. It feels borderline young adult, and entirely unpretentious.</p>
 
           <hr /><p><a href="mailto:?subject=Week%2044:%20Coat">Reply via email</a></p>]]>
         </description>
@@ -418,8 +495,7 @@
         <author> ()</author>
         <description><![CDATA[
           
-          <p>Each year I’m less embarrassed to say it: I don’t like that stretch of time during the Dutch Springtime when no work week is normal. Aside from the usual Christian holidays there’s King’s Day and Liberation Day, and I’ve found it really messes with my head. I don’t mind them much looking ahead (like I did last week, but having to live through it could well be too much for me.</p>
-
+          
           
           <br />
           <p>Each year I’m less embarrassed to say it: I don’t like that stretch of time during the Dutch Springtime when no work week is normal. Aside from the usual Christian holidays there’s King’s Day and Liberation Day, and I’ve found it really messes with my head. I don’t mind them much looking ahead (like I did last week, but having to live through it could well be too much for me.</p>
@@ -439,48 +515,6 @@
           <category>Weeknotes</category>
         
           <category>Television</category>
-        
-      </item>
-    
-      <item>
-        <title>Week 15: Ironic</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.</p>
-
-          
-          <br />
-          <p>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.</p>
-
-<p>I hold a baby this week, one of my favorite ones. His face has two states that exist simultaneously: the one of utter shock and surprise only newborns can have, and the one that reminds you that babies know <em>everything</em> about the world and forget it as soon as they start to speak. He laughs when I bop his nose, although I quickly learn that the force with which I bop Anja’s adult nose shan’t be applied here.</p>
-
-<p>There’s a French bakery in Amsterdam that I visit on Wednesday with my colleague Ruby. Since their actual oven is somewhere else, I wonder if the shop even calls itself a bakery. After all, French standards would forbid it. The caramel éclair reminds me of that time at <a href="https://www.un-dimanche-a-paris.com/">Un Dimanche à Paris</a>, a high I’ve been chasing since mid-2018. The bread has been in the window too long. I ask if they have plastic bags, and I’m told no. I say I think that should be illegal in bakeries.</p>
-
-<p>My childhood friend Mathilde comes for dinner on Sunday. Anja and I are giddy with excitement. In preparation, we practice our harmonies to Alanis Morissette’s “Ironic”over voice messages. Her husband asks her if she, too, heard the cat meowing. We’re celebrating her birthday, and I got her gifts at <a href="http://www.javabookshop.nl/">Java Bookshop</a>. When I ask them about the East-Asian gay guy who writes letters to his mom, they immediately give me Ocean Vuong’s new book of poetry. Seeing her again, I better understand what It means to have a soulmate. I sing so loud I give myself a migraine. It’s worth it.</p>
-
-<p>It took a while before I settled into a suitable solution for the way I produce content on this website. I write Markdown, and had set up <a href="https://mdxjs.com/">mdx</a> in case I ever needed some more complexity in my content files. I would mostly update content through my desktop client, but have <a href="https://workingcopyapp.com/">Working Copy</a> for iOS installed, which I enjoy as much as anyone could enjoy a touchscreen Git client. I was missing some functionalities that are natural to the way I generally write, and so I decided to move my content into an Obsidian vault. I could make a spiel about how I love the “slow web”-ness of writing things on my phone and only publishing them when I’m on my computer, but I simply haven’t figured out how to do it any other way.</p>
-
-          <hr /><p><a href="mailto:?subject=Week%2015:%20Ironic">Reply via email</a></p>]]>
-        </description>
-        <pubDate>Sun, 17 Apr 2022 00:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2022/04/17/week-15</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/04/17/week-15</guid>
-        
-          
-        
-        
-          <category>Weeknotes</category>
-        
-          <category>Babies</category>
-        
-          <category>Food</category>
-        
-          <category>Friends</category>
-        
-          <category>Web development</category>
-        
-          <category>Indieweb</category>
         
       </item>
     

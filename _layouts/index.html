@@ -2,86 +2,37 @@
 layout: default
 ---
 {% for post in paginator.posts %} 
-  <article class="h-entry"> 
-    <header>
-      <h1 class="p-name"><a href="{{post.url}}"> {{ post.title }}</a></h1>
-      <p class="metadata">
-        <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        <span class="metadata-divider">|</span>
-        <span>{{ post.content | reading_time }} read</span>
-      </p> 
-    </header>
-    <div id="notes-entry-container" class="e-content">
-      <content>
-        {{ post.content }}
-      </content> 
-    </div>
-    <footer>
-      <div class="row pagination">
-        <div class="col-6 offset-6 text-end"> 
-          {% for post in site.posts offset: 1 limit: 1 %}
-          <div class="text-subtext">Older post</div>
-          <a href="{{post.url}}" class="">{{post.title}}</a>
-          {% endfor %}
-        </div>
-      </div> 
-    </footer>
-  </article> 
-{% endfor %} 
+
+<article class="h-entry py-5"> 
+  <p class="metadata">
+    <a href="{{post.url}}">
+      <time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+    </a>
+  </p> 
+  <content>
+    {% if post.excerpt == "" %}
+      {{ post.content }} 
+    {% else %} 
+      {{ post.excerpt}}
+      <p><a href="{{post.url}}">Read more</a></p>
+    {% endif %}
+  </content>
+</article> 
+{% endfor %}
 
 
-<div class="row pagination">
-  <div class="col-6">
-    {% if page.next.url %}
-    <div class="text-subtext">Newer post</div>
-      <a class="" href="{{page.next.url}}">{{page.next.title}}</a>
-    {% endif %} 
+<div class="row text-subtext mt-5">
+  <div class="col-4">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+  {% endif %}
   </div>
-  <div class="col-6 text-end"> 
-    {% if page.previous.url %}
-    <div class="text-subtext">Older post</div>
-      <a class="" href="{{page.previous.url}}">{{page.previous.title}}</a>
+  <div class="col-4 text-center">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </div>
+  <div class="col-4 text-end">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Older</a>
     {% endif %}
   </div>
-</div> 
-
- 
-
-
-<!-- 
-
-<section>
-  {% assign grouped_posts = site.posts | where_exp: "item", "item.title != ''" | group_by_exp: "post", "post.date | date: '%Y'" %}
-  {% for year in grouped_posts %}
-    <div class="mb-5">
-      <h3>{{ year.name }}</h3>
-      <ul class="archive">
-        {% for post in year.items %}
-        {% unless post.tags contains 'Now' %}
-        <li>
-          <div class="row">
-            <div class="col-12 col-md-2">
-              <time class="" datetime="{{ post.date | date: "%b %d" }}">{{ post.date | date: "%b %d" }}</time>
-            </div>
-            <div class="col-12 col-md-10">
-              <a href="{{post.url}}"> {{ post.title }}</a>
-            </div>
-          </div>
-        </li>
-        {% endunless %} 
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
-</section>
-
-<section>
-  <h2>Topics</h2>
-  <ul class="interests">
-    {%- assign sorted_tags = site.tags | sort -%}
-    {%- for tag in sorted_tags -%}
-    {%- assign t = tag | first -%}
-      <li><a class="" href="/tag/{{ t | slugify }}/" title="Posts about {{ t }}">{{ t }}</a></li>
-    {%- endfor -%}
-  </ul>
-</section> -->
+</div>

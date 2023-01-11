@@ -12,7 +12,7 @@ see https://www.zinzy.website/colophon
 /* TEAM */
 
 Zinzy Waleson Geene
-- Role: designer
+- Role: designer, developer
 - Location: Amsterdam, the Netherlands
 - Contact: https://www.zinzy.website/contact
 - Mastodon: https://tech.lgbt/@zinzy
@@ -25,14 +25,11 @@ In designing and building this website, I've found endless
 help and inspiration on the Internet. There are countless people
 on StackOverflow who've managed to push my efforts forward.
 In particular, the people below have a special place in my heart:
-
-- Andy Matuschak            https://andymatuschak.org  
-- Denis Olehov              https://github.com/denolehov
+ 
 - Derek Kedziora            https://derekkedziora.com
 - Harry Cresswell           https://harrycresswell.com 
 - Maggie Appleton           https://maggieappleton.com
 - Matias Kinnunen           https://mtsknn.fi
-- Maxime Vaillancourt       https://maximevaillancourt.com 
 - Simone Silvestroni        https://simonesilvestroni.com
 - Stephan Ango              https://stephanango.com 
 - Tania Rascia              https://taniarascia.com  

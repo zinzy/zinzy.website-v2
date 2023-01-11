@@ -9,7 +9,7 @@ gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyl
 gem "webrick", "~> 1.7"
 gem "nokogiri"
 # gem 'jekyll-timeago'
-# gem 'jekyll-archives'
+gem 'jekyll-archives'
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
 gem "tufte-pandoc-jekyll"

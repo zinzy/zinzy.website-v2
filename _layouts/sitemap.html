@@ -1,0 +1,98 @@
+---
+layout: default
+---
+<div class="my-5">
+  <header class="mb-5">
+    <h2>{{page.title}}</h2>
+  </header>
+  
+  {% assign alphabet = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" %}
+  {% assign alphabet = alphabet | split:',' %}
+  <ul class="tags-index">
+    {% for letter in alphabet %}
+      <li>
+        <ul>
+          {% for tag in site.tags %}
+          {% assign firstletter = tag[0] | slice: 0 %}
+            {% if letter == firstletter %}
+            <li> 
+              <a href="/tag/{{tag[0]}}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
+            </li> 
+            {% endif %}
+          {% endfor %}  
+          
+        </ul>
+      </li>   
+  {% endfor %}
+  </ul>
+</div>
+
+<!-- 
+        {% assign firstletter = tag[0] | truncate: 1, '' %}
+        {% comment %} or use: {% assign firstletter = brand.Name | slice: 0 %} {% endcomment %}
+        {% if letter == firstletter %}
+            --{{tag[0]}}
+        {% endif %}
+
+
+ORIGINAL
+  
+
+  {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" %}
+  {% assign alphabet = alphabet | split:',' %}
+  {% for letter in alphabet %}
+      -{{ letter }}   
+      {% for brand in ComponentData.Brands %}
+          {% assign firstletter = brand.Name | truncate: 1, '' %}
+          {% comment %} or use: {% assign firstletter = brand.Name | slice: 0 %} {% endcomment %}
+          {% if letter == firstletter %}
+              --{{brand.Name}}
+          {% endif %}
+      {% endfor %}    
+  {% endfor %}
+
+<hr> -->
+
+
+
+<!-- {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" %}
+{% assign alphabet = alphabet | split:',' %}
+
+<ul>
+  {% for letter in alphabet %}
+    <li>{{ letter }}
+      <ul>
+        <li>tag</li>
+      </ul>
+    </li>
+  {% endfor %}
+</ul> -->
+
+     
+
+
+
+
+
+<!-- 
+<ul class="tags">
+  {% assign tags_sorted = site.tags | sort %}
+  {% for tag in tags_sorted %}
+    <li><a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{ tag[0] }}</a> ({{ tag[1].size }})</li>
+  {% endfor %}
+</ul> -->
+
+<!-- <hr>
+
+
+{% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+{% for letter in alphabet %}
+  {{letter}}
+  <ul class="tags">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+      <li><a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{ tag[0] }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %} -->
+
