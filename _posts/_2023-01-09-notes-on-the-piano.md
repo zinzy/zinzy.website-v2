@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Notes on the piano"
 date: 2023-01-09
 excerpt: ""

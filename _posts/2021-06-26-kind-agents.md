@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Kind agents"
 excerpt: ""
 date: 2021-06-26

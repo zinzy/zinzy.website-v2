@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "A new phase"
 date: 2009-08-21
 excerpt: ""

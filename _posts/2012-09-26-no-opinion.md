@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Things on which I have exactly no opinion"
 date: 2012-09-26
 excerpt: ""

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Reading list"
 date: 2012-08-10
 excerpt: ""

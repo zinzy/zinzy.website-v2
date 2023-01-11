@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Family, or notes from the battlefield"
 excerpt: ""
 date: 2021-01-01 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "What I hate, fear, and suck at"
 date: 2022-12-07
 excerpt: "A year ago, as part of my recovery journey, my therapist asked me: 'What are your core values? Like, what are your deepest needs and desires?' She reminded me last week that, instead of pausing to think of a response, I laughed straight in her face."

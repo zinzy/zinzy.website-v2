@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Misanthropy anew"
 date: 2012-08-11
 excerpt: ""

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "That person"
 date: 2012-10-18
 excerpt: ""

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: On keeping a journal 
 excerpt: ""
 date: 2012-08-31

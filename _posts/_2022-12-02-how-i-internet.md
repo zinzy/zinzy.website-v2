@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "How I internet"
 date: 2022-12-02
 tags:

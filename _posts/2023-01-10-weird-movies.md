@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Weird movies"
 date: 2023-01-10
 excerpt: ""

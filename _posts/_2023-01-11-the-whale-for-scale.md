@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Why 'The Whale' haunts my nightmares, and I haven't even seen it"
 date: 2023-01-10
 excerpt: ""

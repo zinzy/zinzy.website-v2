@@ -58,9 +58,9 @@ collections:
   notes:
     output: true
     permalink: /:slug
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug 
+  # posts:
+  #   output: true
+  #   permalink: /:year/:month/:day/:slug 
 
 defaults: 
   - scope:
@@ -71,7 +71,7 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page" 
-  - scope:
-      path: "_posts/**/*.md"
-    values:
-      layout: "post" 
+  # - scope:
+  #     path: "_posts/**/*.md"
+  #   values:
+  #     layout: "post" 
