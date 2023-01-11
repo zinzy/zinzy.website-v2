@@ -10,12 +10,8 @@ layout: default
     </a>
   </p> 
   <content>
-    {% if post.excerpt == "" %}
-      {{ post.content }} 
-    {% else %} 
-      {{ post.excerpt}}
-      <p><a href="{{post.url}}">Read more</a></p>
-    {% endif %}
+    {{ post.excerpt}}
+    <p><a href="{{post.url}}">Read more</a></p>
   </content>
 </article> 
 {% endfor %}
