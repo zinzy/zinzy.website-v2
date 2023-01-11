@@ -1,6 +1,7 @@
 ---
 title: "Now"
 date: 2022-12-13
+layout: page
 tags:
 - Now
 ---

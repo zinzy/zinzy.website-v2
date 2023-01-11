@@ -54,8 +54,6 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-collections_dir: _content
-
 collections: 
   notes:
     output: true
@@ -64,16 +62,16 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug 
 
-# defaults: 
-#   - scope:
-#       path: "**/*"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: "_content/_notes/**/*.md"
-#     values:
-#       layout: "page" 
-#   - scope:
-#       path: "_content/_posts/**/*.md"
-#     values:
-#       layout: "post" 
+defaults: 
+  - scope:
+      path: "**/*"
+    values:
+      layout: "default"
+  - scope:
+      path: "_pages/**/*.md"
+    values:
+      layout: "page" 
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      layout: "post" 

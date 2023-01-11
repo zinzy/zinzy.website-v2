@@ -4,7 +4,7 @@ layout: default
 {% for post in paginator.posts %} 
 
 <article class="h-entry py-5"> 
-  <p class="metadata">
+  <p class="metadata m-0 p-0">
     <a href="{{post.url}}">
       <time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
     </a>
