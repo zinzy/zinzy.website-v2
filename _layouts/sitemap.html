@@ -6,26 +6,55 @@ layout: default
     <h2>{{page.title}}</h2>
   </header>
   
-  {% assign alphabet = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" %}
-  {% assign alphabet = alphabet | split:',' %}
-  <ul class="tags-index">
-    {% for letter in alphabet %}
-      <li>
-        <ul>
-          {% for tag in site.tags %}
-          {% assign firstletter = tag[0] | slice: 0 %}
-            {% if letter == firstletter %}
-            <li> 
-              <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
-            </li> 
-            {% endif %}
-          {% endfor %}  
-          
-        </ul>
-      </li>   
-  {% endfor %}
-  </ul>
+  <div class="my-5">
+    <h3>I write about</h3>
+    <ul class="tags">
+      {% assign sorted_tags = (site.tags | sort:0) %}
+      {% for tag in sorted_tags %}
+        <li> 
+          <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
+        </li> 
+      {% endfor %}  
+    </ul>
+
+
+  </div>
+
+  <div class="my-5">
+    <h3>Everything on this website, grouped by year</h3>
+    {% for post in site.posts %}
+
+    {% capture year_of_current_post %}
+    {{ post.date | date: "%Y" }}
+    {% endcapture %}
+
+    {% capture year_of_previous_post %}
+    {{ post.previous.date | date: "%Y" }}
+    {% endcapture %}
+
+    {% if forloop.first %}
+    <h2>{{ year_of_current_post }}</h2>
+    <ul>
+    {% endif %}
+
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+    {% if forloop.last %}
+    </ul>
+    {% else %}
+    {% if year_of_current_post != year_of_previous_post %}
+    </ul>
+
+    <h2>{{ year_of_previous_post }}</h2>
+    <ul>
+    {% endif %}
+    {% endif %}
+
+{% endfor %}
+  </div>
 </div>
+
+
 
 <!-- 
         {% assign firstletter = tag[0] | truncate: 1, '' %}

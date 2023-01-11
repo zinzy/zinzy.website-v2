@@ -40,13 +40,16 @@ feed:
 paginate: 4
 paginate_path: /page/:num/
 
-
 jekyll-archives:
   enabled:
     - tags
-  layout: tag
+    - year
+  layouts:
+    tag: archive-tag
+    year: archive-year
   permalinks:
     tag: '/tag/:name/'
+    year: 'year/:year/'
 
 kramdown:
 

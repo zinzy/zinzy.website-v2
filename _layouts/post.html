@@ -21,7 +21,7 @@ layout: default
     <div class="mt-5">
     <ul class="tags">
       {% if page.tags.size > 0 %}
-        {% for tag in page.tags | sort %}
+        {% for tag in page.tags %}
         {%- assign t = tag | first -%}
           <li><a href="/tag/{{tag}}">{{tag}}</a></li>
         {% endfor %}

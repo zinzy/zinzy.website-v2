@@ -12,6 +12,7 @@ tags:
 - christmas
 - holidays
 - homophobia
+- religion
 ---
 As soon as she hands you the gift  
 you know it’s another one  

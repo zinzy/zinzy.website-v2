@@ -7,6 +7,7 @@ tags:
 - catholicism
 - queerdom
 - bible
+- religion
 ---
 
 If you are at all involved in queer Catholic Twitter, you know that last week was a riot. Cause célèbre was an unexpected shout-out from Pope Francis:

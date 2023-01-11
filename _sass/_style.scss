@@ -51,7 +51,7 @@ html, body {
         display: inline-block;
         margin-right: 1rem;
         a {
-          opacity: .5;
+          opacity: .6;
         }
       }
     }
@@ -65,7 +65,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  opacity: .5;
+  opacity: .6;
   font-size: 100%;
   a {
     text-decoration: none;
@@ -92,11 +92,14 @@ img {
 
 strong {
   font-weight: 400;
-  opacity: .5;
+  opacity: .6;
 }
 
 .h-entry {
   border-bottom: 1px solid rgba(0,0,0,0.2);
+  a {
+    text-decoration: underline;
+  }
 }
 
 a {
@@ -117,6 +120,12 @@ p {
   text-align: right !important;
 }
 
+blockquote {
+  border-left: 3px solid rgba(0,0,0,.2);
+  margin: 0;
+  padding: 0 1rem;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -131,7 +140,7 @@ p {
 
 .footnotes {
   font-size: 80%;
-  opacity: .5;
+  opacity: .6;
 }
 
 main {
@@ -156,7 +165,7 @@ main {
   // }
   h3, h4, h5, h6 {
     font-size: 100%;
-    opacity: .5;
+    opacity: .6;
     font-weight: 400;
     &:before {
       // content: "— "
@@ -169,7 +178,7 @@ main {
   }
   h4 {
     &:before {
-      content: "¶ — "
+      content: "— "
     } 
   }
 }
@@ -177,7 +186,7 @@ main {
 p.tagline {
   font-size: 1.5em;
   font-weight: 500;
-  opacity: .5;
+  opacity: .6;
   line-height: 150%;
 }
 
@@ -188,7 +197,7 @@ p.tagline {
 }
 
 .metadata {
-  opacity: .5;
+  opacity: .6;
   a {
     text-decoration: none;
   }
@@ -203,7 +212,7 @@ figure {
   }
   figcaption { 
     font-size: 80%;
-    opacity: .5;
+    opacity: .6;
     @media screen and (min-width: 1200px) {
       position: absolute;
       top: 0;
@@ -220,12 +229,17 @@ figure {
   li {
     display: inline-block;
     font-size: 80%;
-    opacity: .5;
+    // opacity: .6;
     margin-right: .5rem;
+
     a {
+      text-decoration: none;
     -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
     page-break-inside: avoid; /* Firefox */
          break-inside: avoid; /* IE 10+ */
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -238,6 +252,7 @@ figure {
 } 
 
 .tags-index { 
+  font-size: 80%;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -270,7 +285,7 @@ figure {
 }
 
 .text-subtext {
-  color: rgba(0,0,0,0.5);
+  opacity: .6;
 }
  
 

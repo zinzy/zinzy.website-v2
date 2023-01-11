@@ -8,6 +8,7 @@ tags:
 - homophobia
 - scripture reflection
 - bible
+- religion
 ---
 _This was written as part of [Vine & Fig](https://www.vineandfig.co)'s Sunday Scripture reflection project._
 

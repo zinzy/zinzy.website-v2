@@ -9,6 +9,7 @@ tags:
 - bible
 - scripture reflection
 - philosophy
+- religion
 ---
 Let's meditate on us scattered sheep today, shall we? After all, if not scattered, then what are we? It has become a running gag in our household. I will be reading the New York Times, shaking my fist at whomever is responsible for the failed separation of Church and State. Or perhaps I'm mad at those who think their Christian inclination allows them to dictate what happens in other people's bodies. My Jewish partner will do the eye roll of eye rolls and say: “funny how you all kind of _do that_, wouldn't you agree?”
 

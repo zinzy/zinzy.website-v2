@@ -9,6 +9,7 @@ tags:
 - birthday
 - catholicism
 - theology
+- religion
 ---
 I never get much reading done unless I'm sleeping elsewhere. Most often, I associate sleeping elsewhere with having time off, and having time off means I'm away from a computer screen. This frees up time for reading.
 

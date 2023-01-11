@@ -1,4 +1,0 @@
----
-title: "Micro"
-layout: micro
----
