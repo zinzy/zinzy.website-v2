@@ -1,7 +1,7 @@
 title: Zinzy Waleson Geene
 description: Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.
 include:
-  - My-Digital-Garden
+  - _content
 exclude:             
   - _includes/notes_graph.json
   - assets/js/webmention.js
@@ -54,7 +54,7 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-collections_dir: content
+collections_dir: _content
 
 collections: 
   notes:
@@ -70,10 +70,10 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "content/_notes/**/*.md"
+      path: "_content/_notes/**/*.md"
     values:
       layout: "page" 
   - scope:
-      path: "content/_posts/**/*.md"
+      path: "_content/_posts/**/*.md"
     values:
       layout: "post" 
