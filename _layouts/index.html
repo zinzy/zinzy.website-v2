@@ -24,7 +24,7 @@ layout: default
 <div class="row text-subtext mt-5">
   <div class="col-4">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+    <a href="{{ paginator.previous_page_path }}" class="">Newer</a>
   {% endif %}
   </div>
   <div class="col-4 text-center">
@@ -32,7 +32,7 @@ layout: default
   </div>
   <div class="col-4 text-end">
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+      <a href="{{ paginator.next_page_path }}" class="">Older</a>
     {% endif %}
   </div>
 </div>
