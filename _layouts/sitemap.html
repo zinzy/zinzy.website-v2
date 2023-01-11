@@ -16,7 +16,7 @@ layout: default
           {% assign firstletter = tag[0] | slice: 0 %}
             {% if letter == firstletter %}
             <li> 
-              <a href="/tag/{{tag[0]}}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
+              <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
             </li> 
             {% endif %}
           {% endfor %}  

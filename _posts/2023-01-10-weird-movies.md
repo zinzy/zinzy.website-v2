@@ -6,6 +6,8 @@ excerpt: ""
 tags:
 - cinema
 - coastercore
+- weirdness
+- brutalism
 ---
 I have a feeling 2023 will be the year for weird movies that steal our hearts. Look at *Triangle of Sadness* and *White Noise*. Here you have two high-budget oddball films that I'd describe not as mumblecore but coastercore, pulling you from one weird subnarrative into another, not really making up their minds about what they are, and before you've formed a full opinion on it, the ride is over, but you loved it.
 
