@@ -3,10 +3,7 @@ title: "About"
 tagline: "I'm Zinzy Waleson Geene, a researcher, designer, and facilitator living and working in Amsterdam."
 layout: page
 ---
-Quick links:
-- [FAQ](/faq)
-- [Hello](/hello)
-- [Codex](/codex)
+Quick links: [FAQ](/faq), [Hello](/hello), [Uses](/uses), [Codex](/codex)
 
 Heya pal, I'm pleased you made it to my personal website. It's a quiet street on the Internet where I come to learn in public, change my mind, and document and nurture my interests. The best way to get to know me is by spending time with me. Reading the things on this website is a soft alternative. 
 

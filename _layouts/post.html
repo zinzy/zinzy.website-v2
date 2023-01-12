@@ -2,9 +2,9 @@
 layout: default
 ---
  
-<article class="h-entry py-5"> 
+<article class="h-entry"> 
   <header>
-    <p class="metadata">
+    <p class="metadata  mt-0">
       <time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
       <span class="d-inline-block mx-3">|</span>
       <span class="p-name">{{ page.title }}</span>
@@ -35,15 +35,17 @@ layout: default
 </article> 
 
 
-<div class="row pagination mt-5">
-  <div class="col-6">
-    {% if page.next.url %}
-      <a class="" href="{{page.next.url}}">Newer</a>
-    {% endif %} 
-  </div>
-  <div class="col-6 text-end"> 
-    {% if page.previous.url %}
-      <a class="" href="{{page.previous.url}}">Older</a>
-    {% endif %}
-  </div>
+<div class="mt-5 border-top pt-5">
+<div class="row pagination"> 
+    <div class="col-6">
+      {% if page.next.url %}
+        <a class="" href="{{page.next.url}}">Newer</a>
+      {% endif %} 
+    </div>
+    <div class="col-6 text-end"> 
+      {% if page.previous.url %}
+        <a class="" href="{{page.previous.url}}">Older</a>
+      {% endif %}
+    </div>
+  </div> 
 </div> 

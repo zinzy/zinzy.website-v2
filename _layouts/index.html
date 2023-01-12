@@ -1,24 +1,25 @@
 ---
 layout: default
 ---
-{% for post in paginator.posts %} 
-
-<article class="h-entry py-5"> 
-  <p class="metadata m-0 p-0">
-    <a href="{{post.url}}">
-      <time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
-    </a>
-  </p> 
-  <content>
-    {% if post.excerpt == "" %}
-      {{ post.content }} 
-    {% else %} 
-      {{ post.excerpt}}
-      <p><a href="{{post.url}}">Read more</a></p>
-    {% endif %}
-  </content>
-</article> 
-{% endfor %}
+<div class="index">
+  {% for post in paginator.posts %} 
+    <article class="h-entry"> 
+      <p class="metadata mt-0">
+        <a href="{{post.url}}">
+          <time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+        </a>
+      </p> 
+      <content>
+        {% if post.excerpt == "" %}
+          {{ post.content }} 
+        {% else %} 
+          {{ post.excerpt}}
+          <p><a href="{{post.url}}">Read more</a></p>
+        {% endif %}
+      </content>
+    </article> 
+  {% endfor %}
+</div>
 
 
 <div class="row text-subtext mt-5">

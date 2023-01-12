@@ -1,16 +1,12 @@
-I"é<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, felis et semper tempus, velit odio interdum massa, ac laoreet elit orci sed nisi. Donec arcu nunc, iaculis quis mi ac, dignissim facilisis diam. Maecenas dui metus, malesuada quis dui feugiat, elementum sagittis massa.</p>
+I"»<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, felis et semper tempus, velit odio interdum massa, ac laoreet elit orci sed nisi. Donec arcu nunc, iaculis quis mi ac, dignissim facilisis diam. Maecenas dui metus, malesuada quis dui feugiat, elementum sagittis massa.</p>
 
 <p><img src="https://images.unsplash.com/photo-1619312571148-b9025013f254?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80" alt="Alt text for an image" /></p>
 
 <p>Suspendisse semper ante eget nisl scelerisque placerat. Sed ut libero vel leo posuere ullamcorper. Ut ornare arcu sed rhoncus aliquet. Cras dapibus libero sit amet congue aliquam.</p>
 
-<h1 id="heading-1">Heading 1</h1>
+<h3 id="section-header">Section header</h3>
 
-<h2 id="heading-2">Heading 2</h2>
-
-<h3 id="heading-3">Heading 3</h3>
-
-<h4 id="heading-4">Heading 4</h4>
+<h4 id="paragraph-header">Paragraph header</h4>
 
 <p>Ut ac neque malesuada, dignissim massa a, interdum diam. Maecenas egestas rhoncus ornare. Nunc elementum nunc vitae est feugiat pellentesque. Proin a lectus ac mi ornare malesuada. Nulla eleifend vel enim ac ornare. Etiam laoreet lorem sed ante accumsan, eu consequat ligula dapibus. Quisque eu viverra augue, sit amet vulputate arcu. Ut id nisl quam. Proin auctor tempus neque, eget molestie risus viverra ut. Nunc eget tristique tellus, id eleifend sapien. Nulla sodales tellus turpis, in congue justo scelerisque id. Quisque et purus tristique purus vulputate maximus quis at est.</p>
 

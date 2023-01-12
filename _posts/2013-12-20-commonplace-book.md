@@ -7,7 +7,7 @@ tags:
 - commonplace book
 - productivity
 - writing
-- personal archives
+- archives
 - index cards
 - hipster pda
 ---

@@ -8,13 +8,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, felis e
 
 Suspendisse semper ante eget nisl scelerisque placerat. Sed ut libero vel leo posuere ullamcorper. Ut ornare arcu sed rhoncus aliquet. Cras dapibus libero sit amet congue aliquam.
 
-# Heading 1
+### Section header
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
+#### Paragraph header
 
 Ut ac neque malesuada, dignissim massa a, interdum diam. Maecenas egestas rhoncus ornare. Nunc elementum nunc vitae est feugiat pellentesque. Proin a lectus ac mi ornare malesuada. Nulla eleifend vel enim ac ornare. Etiam laoreet lorem sed ante accumsan, eu consequat ligula dapibus. Quisque eu viverra augue, sit amet vulputate arcu. Ut id nisl quam. Proin auctor tempus neque, eget molestie risus viverra ut. Nunc eget tristique tellus, id eleifend sapien. Nulla sodales tellus turpis, in congue justo scelerisque id. Quisque et purus tristique purus vulputate maximus quis at est.
 
