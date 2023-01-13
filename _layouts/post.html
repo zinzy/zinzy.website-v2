@@ -18,16 +18,14 @@ layout: default
  
 
   <footer>
-    <div class="mt-5">
     <ul class="tags">
       {% if page.tags.size > 0 %}
         {% for tag in page.tags %}
         {%- assign t = tag | first -%}
-          <li><a href="/tag/{{tag}}">{{tag}}</a></li>
+          <li><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></li>
         {% endfor %}
       {% endif %}
-    </ul>
-    </div> 
+    </ul> 
   <!-- <hr class="my-3">
   {%- include widget-responses.html -%} -->
   </footer>

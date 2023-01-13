@@ -11,6 +11,65 @@
     
     
       <item>
+        <title>`alt` text culture</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          
+          
+          <br />
+          <p>More than any other time in my online life am I aware of the value of <code class="language-plaintext highlighter-rouge">alt</code> text. I make a point to write image descriptions whenever I can. Kind strangers with a variety of accessibility needs have been helping me understand how to best capture my interpretation of an image. I’ve come to regard <code class="language-plaintext highlighter-rouge">alt</code> text as the secret side bar I get to have with blind people and others who need it.</p>
+
+<p>For me, <code class="language-plaintext highlighter-rouge">alt</code> text raises interesting cultural questions, particularly around its growing visibility. Traditionally, it requires that people who don’t use accessibility tools hover an image to produce what I call “the world’s slowest tooltip”. In addition, I’ve been seeing a growing number of people work <code class="language-plaintext highlighter-rouge">alt</code> text into places where it doesn’t exist. Places that don’t require a hover. Two examples of this are <a href="https://tech.lgbt/@zinzy">Mastodon</a>’s profile and banner images.</p>
+
+<p>A few weeks ago, I saw the profile picture of a young woman winking. Her bio captured the image with something along the lines of “young woman looking seductively at the camera, winking, and slightly sticking out her tongue hoping to engage the viewer”. Before reading that text I felt engaged indeed, my mind painting a quick image of what her manic pixie dream girl university campus life would be like.</p>
+
+<p>Reading her description of the image had an effect. I gather it was the overtness — her self-awareness about what the image could convey — that somehow put me off just slightly. The image and not so much her description of it but the very fact that I could even see that description, and that she understood I would, changed how I saw her in the image. It also changed how I see the Internet.</p>
+
+<p>What does it mean, I’ve been thinking ever since, that people with no need for <code class="language-plaintext highlighter-rouge">alt</code> text get to peek behind its curtain? What effect can this form of double meaning-making have? Does it mean we’ll eventually go on to describe images differently, knowing that not a portion of our audience but the entirety of it is looking on? Does it mean we may, some day, try to say less with imagery? In one way, I’d consider that reduction of fluff a triumph for accessibility.</p>
+
+<p>Today, Piper Haywood’s blog <a href="https://piperhaywood.com/wais-alt-decision-tree/">put me onto a handy <code class="language-plaintext highlighter-rouge">alt</code> text decision tree</a>. I’m entirely surprised to read that the answer to the final question in the tree, “Is the image purely decorative or not intended for the user?”, is “use an empty <code class="language-plaintext highlighter-rouge">alt</code>” and not “don’t post the image”.</p>
+
+<p>I guess that paints the best picture of how much of a reductionist I am.</p>
+
+          <hr /><p><a href="mailto:?subject=%60alt%60%20text%20culture">Reply via email</a></p>]]>
+        </description>
+        <pubDate>Fri, 13 Jan 2023 00:00:00 +0100</pubDate>
+        <link>http://0.0.0.0:4000/2023/01/13/alt-text-culture/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/13/alt-text-culture/</guid>
+        
+          
+        
+        
+          <category>Accessibility</category>
+        
+          <category>Alt text</category>
+        
+          <category>Web development</category>
+        
+          <category>Images</category>
+        
+          <category>Design</category>
+        
+          <category>Work</category>
+        
+          <category>Internet</category>
+        
+          <category>Culture</category>
+        
+          <category>Inclusion</category>
+        
+          <category>Language</category>
+        
+          <category>Text</category>
+        
+          <category>Meaning</category>
+        
+          <category>Semiotics</category>
+        
+      </item>
+    
+      <item>
         <title>Everything about the dog</title>
         <author> ()</author>
         <description><![CDATA[
@@ -528,44 +587,6 @@
           <category>Web development</category>
         
           <category>Tinkering</category>
-        
-      </item>
-    
-      <item>
-        <title>Rest</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          
-          
-          <br />
-          <p>Simmering down is a challenge this week. I wake, daily before 6am, and jump straight into the day. My jump doesn’t land me in a FOMO-inducing Instagram feed or a busy news site, but on a blank screen that waits eagerly as I type my 1,000 words of the morning. It’s another one of the habits I picked up this autumn. Me, the darkness outside, and a soft light in the living room acquainting me with the day. It’s pleasing to meet myself, unfiltered.</p>
-
-<p>It’s also one of the few moments of solitude and focus I allow myself this week, apparently. Now that I’m beginning to reintegrate back into work at Leeruniek, I seem to have forgotten how much down time my body still requires. I’ve received a work assignment, on which I’ll get to work independently, and I’m excited. Curious. Hungry. On the cusp of small-scale overdrive. I had to stop working precisely because of this.</p>
-
-<p>It’s boring.</p>
-
-<p>Then I remember and old way to find calm and relaxation. <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/">The voices of Josh Clark and Chuck Bryant, telling me about stuff I should know</a>.</p>
-
-<h3 id="whats-top-of-mind-right-now">What’s top of mind right now</h3>
-<ul>
-  <li>Saw Hannah Gadsby’s <em>Body of Work</em> and had a brief, cogent crush on her</li>
-  <li>Saw a large number of Twitter folks join the much kinder Mastodon club. I’m slowly beginning to feel comfortable about the platform, and how it invites me to share my thoughts.</li>
-  <li>I’m thinking a lot about what ex-Twitter designer <a href="https://tech.lgbt/@jon@social.lot23.com/109372263710282940">Jon Bell</a> said about Twitter’s user experience trajectory. I keep saying out loud how central the difference between doing the righ thing and doing the thing right is to the design work I do.</li>
-</ul>
-
-          <hr /><p><a href="mailto:?subject=Rest">Reply via email</a></p>]]>
-        </description>
-        <pubDate>Sun, 20 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/20/rest/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/20/rest/</guid>
-        
-          
-        
-        
-          <category>Weeknotes</category>
-        
-          <category>Social media</category>
         
       </item>
     
