@@ -52,9 +52,12 @@ html, body {
   }
 }
 
-section {
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-  padding: 3rem 0;
+section { 
+  padding-top: 3rem;
+  &:not(:last-child) {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -257,4 +260,16 @@ hr {
   height: 1px;
   background-color: rgba(0,0,0,0.2);
   margin: 3rem auto;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.2);
+  padding: .2rem;
+  border-radius: 3px;
 }

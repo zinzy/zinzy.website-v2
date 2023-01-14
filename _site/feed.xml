@@ -11,6 +11,45 @@
     
     
       <item>
+        <title>The art of music theory</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          
+          
+          <br />
+          <p>In a few days, I’ll hit my one-month mark on the piano. When I bought it and began playing, I made sure to keep an open mind about how I learn best; not following any particular method, but tailoring practices to my interests, speed, challenges, and desires.</p>
+
+<p>One learning strategy that always works best for me is a top-down approach. With the piano, there’s great benefit in playing music from sheets (of which I’m capable), but I could tell something had been missing. This morning, as I woke early once again, this time at 03:20 a.m., I realized the missing part was an overview of which chords work in a particular key.</p>
+
+<p>This morning over coffee at <a href="https://www.instagram.com/ccjavaplein">my favorite spot</a>, I did some digging and found <a href="https://piano-music-theory.com/">Piano-Music-Theory.com</a>, which has a wonderful series on diatonic chords. If you’re not familiar, these are chords belonging to notes that make up a particular scale. Knowing the diatonic chords of each scale is going to benefit my flexibility on the piano, because I’ll be able to play songs in whichever key I need.</p>
+
+<p>As I was drawing up a matrix of what I was learning, I remembered how special music theory really is. I love its intricacy and depth, and how it manages to capture one of life’s most extraordinary things: combinations of sounds that can tell a story.</p>
+
+          <hr /><p><a href="mailto:?subject=The%20art%20of%20music%20theory">Reply via email</a></p>]]>
+        </description>
+        <pubDate>Sat, 14 Jan 2023 00:00:00 +0100</pubDate>
+        <link>http://0.0.0.0:4000/2023/01/14/alt-text-culture/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/14/alt-text-culture/</guid>
+        
+          
+        
+        
+          <category>Music</category>
+        
+          <category>Piano</category>
+        
+          <category>Learning</category>
+        
+          <category>Neurodiversity</category>
+        
+          <category>Top-down thinking</category>
+        
+          <category>Music theory</category>
+        
+      </item>
+    
+      <item>
         <title>`alt` text culture</title>
         <author> ()</author>
         <description><![CDATA[
@@ -35,8 +74,8 @@
           <hr /><p><a href="mailto:?subject=%60alt%60%20text%20culture">Reply via email</a></p>]]>
         </description>
         <pubDate>Fri, 13 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/13/alt-text-culture/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/13/alt-text-culture/</guid>
+        <link>http://0.0.0.0:4000/2023/01/13/what/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/13/what/</guid>
         
           
         
@@ -533,60 +572,6 @@
           <category>Heating</category>
         
           <category>Financial crisis</category>
-        
-      </item>
-    
-      <item>
-        <title>Notes on my web mastery</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.
-          
-          <br />
-          <p>Recently, I’ve been making some great progress with my personal website. While I normally don’t engage in technical ballets on the goings-on of this website, I feel it’s relevant to document what I’ve learnt and done, if only for posterity.</p>
-
-<h3 id="tools">Tools</h3>
-<ul>
-  <li><a href="https://jekyllrb.com/">Jekyll</a>: as is often the case for me, this site is built using my favorite flat-file content management system</li>
-  <li><a href="https://github.com/">Github</a>: hosts the code for this website</li>
-  <li><a href="https://www.netlify.com/">Netlify</a>: serves the content to my website</li>
-  <li><a href="https://obsidian.md/">Obsidian</a>: I write in a single Obsidian vault</li>
-  <li><a href="https://github.com/denolehov/obsidian-git">obsidian-git</a>: helps me manage  the version control of my Obsidian content</li>
-  <li><a href="https://github.com/marketplace/actions/push-git-subdirectory-as-branch">Push git subdirectory as branch</a>: a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository</li>
-  <li><a href="https://mtsknn.fi/blog/netlify-updating-private-git-submodule/">Git submodule</a>: my separate repository is pulled into my website’s code base</li>
-  <li><a href="https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions/">Netlify build hook</a>: every day, Netlify looks for new content and publishes it to my website</li>
-</ul>
-
-<h3 id="why-this-is-great">Why this is great</h3>
-<ul>
-  <li>I hold the strong belief that tools don’t matter. This means, among other things, that I don’t like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.</li>
-  <li>My website is a text-heavy space: most of what you’ll find on here is written content. As a knowledge worker, writing is an integral part of my daily life. Many of the things I write are not for public consumption, but they are closely linked to things that <em>are</em>. To avoid duplicate content and awkward linking, it was important for me to manage my text files in a single space, one Obsidian vault.</li>
-  <li>I have a tendency to tinker a lot on my website. This can make it so that I spend more time trying out new things and changing the design than I do writing. Having my code base and content separated helps me focus more on writing things that are meaningful to me.</li>
-</ul>
-
-<h3 id="some-things-i-havent-figured-out-yet">Some things I haven’t figured out yet</h3>
-<ul>
-  <li>Is it worthwhile for me to publish more granular IndieWeb post types such as notes and likes? Do I care about them? Am I making them only to show them? What’s their value if I cannot automate this process? Does the technical implementation change if I push said content to a git repository that consists of only notes?</li>
-  <li>What does a proper dark mode look like?</li>
-  <li>Do I want to continue my barebones experiment and document the discomfort of vanity? Or am I ready for something more modern?</li>
-  <li>How in the world do I even go about Micropub and Webmentions?</li>
-</ul>
-
-          <hr /><p><a href="mailto:?subject=Notes%20on%20my%20web%20mastery">Reply via email</a></p>]]>
-        </description>
-        <pubDate>Sat, 26 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/26/notes-on-my-web-mastery/</guid>
-        
-          
-        
-        
-          <category>Indieweb</category>
-        
-          <category>Web development</category>
-        
-          <category>Tinkering</category>
         
       </item>
     
