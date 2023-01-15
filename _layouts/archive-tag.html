@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="">
-  <h2 class= mt-0">Things I've written about {{ page.title }}</h2>
+<div class="index">
+  <h2 class="mt-0">Things I've written about {{ page.title }}</h2>
 {% for post in page.posts %}
-  <article class="h-entry py-5">  
+  <article class="h-entry">  
   <p class="metadata">
     <a href="{{post.url}}">
       <time class="dt-published" datetime="{{ post.date | date: "%B %-d, %Y" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
