@@ -4,11 +4,52 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://0.0.0.0:4000</link>
+    <link>https://www.zinzy.website</link>
     <language></language>
-    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>https://www.zinzy.website/colophon/#copyright</copyright>
+    <atom:link href="https://www.zinzy.website/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>I &lt;3 design management</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          
+          
+          <br />
+          <p><a href="https://tech.lgbt/@zinzy/109698329736256912">As I already mentioned earlier today on Mastodon</a>, one of my favorite things about design work is getting to help other designers solve their own problems.</p>
+
+<p>As one of the designers on my team and I were discussing how to leverage research to benefit stakeholder relationships, I saw a light switch on in her head that I think we’d have trouble turning off if we even wanted to. It’s so satisfying to see that happen, simply by mentioning a framework, sharing a bit of background on a particular research method, or on strategizing research within a product development process.</p>
+
+<p>Coming back from product management into design management lets me focus wholeheartedly on this part of my skillset. I’m still not fully back at work (doing five hours a day now), but with encounters like this I’m beginning to feel more and more a part of the team again.</p>
+
+<p>And I wouldn’t want it any other way.</p>
+
+          <hr /><p><a href="mailto:?subject=I%20%3C3%20design%20management">Reply via email</a></p>]]>
+        </description>
+        <pubDate>Mon, 16 Jan 2023 00:00:00 +0100</pubDate>
+        <link>https://www.zinzy.website/2023/01/16/i-love-design-management/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/16/i-love-design-management/</guid>
+        
+          
+        
+        
+          <category>Work</category>
+        
+          <category>Career</category>
+        
+          <category>Design</category>
+        
+          <category>Management</category>
+        
+          <category>Ux</category>
+        
+          <category>Mentoring</category>
+        
+          <category>Research</category>
+        
+      </item>
     
       <item>
         <title>Sneak preview</title>
@@ -31,8 +72,8 @@
           <hr /><p><a href="mailto:?subject=Sneak%20preview">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 15 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/15/sneak-preview/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/15/sneak-preview/</guid>
+        <link>https://www.zinzy.website/2023/01/15/sneak-preview/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/15/sneak-preview/</guid>
         
           
         
@@ -66,8 +107,8 @@
           <hr /><p><a href="mailto:?subject=The%20art%20of%20music%20theory">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 14 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/14/alt-text-culture/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/14/alt-text-culture/</guid>
+        <link>https://www.zinzy.website/2023/01/14/alt-text-culture/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/14/alt-text-culture/</guid>
         
           
         
@@ -103,8 +144,8 @@
           <hr /><p><a href="mailto:?subject=Everything%20about%20the%20dog">Reply via email</a></p>]]>
         </description>
         <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/12/everything-about-the-dog/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/12/everything-about-the-dog/</guid>
+        <link>https://www.zinzy.website/2023/01/12/everything-about-the-dog/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/12/everything-about-the-dog/</guid>
         
           
         
@@ -138,8 +179,8 @@
           <hr /><p><a href="mailto:?subject='The%20Whale'%20for%20scale">Reply via email</a></p>]]>
         </description>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/11/the-whale-for-scale/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/11/the-whale-for-scale/</guid>
+        <link>https://www.zinzy.website/2023/01/11/the-whale-for-scale/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/11/the-whale-for-scale/</guid>
         
           
         
@@ -181,8 +222,8 @@
           <hr /><p><a href="mailto:?subject=Weird%20movies">Reply via email</a></p>]]>
         </description>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/10/weird-movies/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/10/weird-movies/</guid>
+        <link>https://www.zinzy.website/2023/01/10/weird-movies/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2023/01/10/weird-movies/</guid>
         
           
         
@@ -327,8 +368,8 @@
           <hr /><p><a href="mailto:?subject=2022%20in%20review">Reply via email</a></p>]]>
         </description>
         <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/30/2022-in-review/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/30/2022-in-review/</guid>
+        <link>https://www.zinzy.website/2022/12/30/2022-in-review/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/30/2022-in-review/</guid>
         
           
         
@@ -387,8 +428,8 @@
           <hr /><p><a href="mailto:?subject=Week%2051:%20The%20piano">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 25 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/25/week-51/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/25/week-51/</guid>
+        <link>https://www.zinzy.website/2022/12/25/week-51/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/25/week-51/</guid>
         
           
         
@@ -458,8 +499,8 @@
           <hr /><p><a href="mailto:?subject=What%20I%20hate,%20fear,%20and%20suck%20at">Reply via email</a></p>]]>
         </description>
         <pubDate>Wed, 07 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/07/what-i-hate-fear-and-suck-at/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/07/what-i-hate-fear-and-suck-at/</guid>
+        <link>https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/07/what-i-hate-fear-and-suck-at/</guid>
         
           
         
@@ -496,8 +537,8 @@
           <hr /><p><a href="mailto:?subject=Week%2048:%20Chinese%20food">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 03 Dec 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/12/03/week-48/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/03/week-48/</guid>
+        <link>https://www.zinzy.website/2022/12/03/week-48/</link>
+        <guid isPermaLink="true">https://www.zinzy.website/2022/12/03/week-48/</guid>
         
           
         
@@ -513,43 +554,6 @@
           <category>Media</category>
         
           <category>Filofax</category>
-        
-      </item>
-    
-      <item>
-        <title>Week 47: Booster</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          
-          
-          <br />
-          <ul>
-  <li>I forgot how the COVID booster can make you feel as though, temporarily, the world may well be ending. I got it earlier this week, and it left me with a sore arm and that dreadful, ridiculous sensation that accompanies a flu that lasts a week too long. I mimic my late stepfather, who used to wimper like a puppy whenever he got a cold.</li>
-  <li>I still do well to limit my hours of screen time. Before I know it, I’m stuck with a headache and dizzy spell.</li>
-  <li>Spotify’s Discover Weekly was on point this week. Aside from lovely “beards and log cabin” tunes, as I call 70s soft rock, I’ve fallen hard for the hyper pop track <a href="https://open.spotify.com/track/4n0sVfRnd0UJsqcbPj7GqN?si=Z5yeyS2xTjOEWlOSI5EnmQ">“Notice”</a> by Moe Shop and Toriena.</li>
-  <li>We raced through another season of <em>The Crown</em>, this time with the excellent Elizabeth Debicki as Diana. I love how she manages to capture Diana so well despite <em>and</em> because of her camp-adjacent interpretation of her. I wonder if she ever got a sore neck during taping.</li>
-  <li>After protesting for weeks, I’ve finally let Anja turn on the heating. So far, I haven’t had much up-close experience with the energy crisis the world is currently facing, and I don’t want that to change. It’s great to feel my toes, though.</li>
-</ul>
-
-          <hr /><p><a href="mailto:?subject=Week%2047:%20Booster">Reply via email</a></p>]]>
-        </description>
-        <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2022/11/27/week-47/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2022/11/27/week-47/</guid>
-        
-          
-        
-        
-          <category>Vaccination</category>
-        
-          <category>Weeknotes</category>
-        
-          <category>Music</category>
-        
-          <category>Heating</category>
-        
-          <category>Financial crisis</category>
         
       </item>
     
