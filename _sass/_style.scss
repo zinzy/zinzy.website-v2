@@ -16,9 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 165%;
   max-width: 700px;
-  margin: 0 auto;
-  padding: 3rem;
+  margin: 0 auto; 
   color: rgba(0,0,0,.8);
+  padding: 3rem;
   @media screen and (min-width:768px) {
     padding: 100px;
   }
@@ -157,6 +157,9 @@ main {
 #footer {
   font-size: 80%;
   margin-top: 3rem;
+  @media screen and (min-width:768px) {
+    margin-top: 100px;
+  }
 }
 
 .h-entry { 
@@ -299,6 +302,30 @@ mark {
       margin-top: 16px;
       margin-left: .5rem;
       margin-right: .5rem;
+    }
+    .title {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; 
+      max-width: 150px;
+      @media screen and (min-width: 552px) {
+        max-width: 200px;
+      }
+      @media screen and (min-width: 600px) {
+        max-width: 350px;
+      }
+      @media screen and (min-width: 700px) {
+        max-width: 400px;
+      }
+      @media screen and (min-width: 800px) {
+        max-width: 450px;
+      }
+      @media screen and (min-width: 900px) {
+        max-width: 500px;
+      } 
+      @media screen and (min-width: 1000px) {
+        max-width: 550px;
+      } 
     }
   }
 }
