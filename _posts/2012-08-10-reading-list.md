@@ -7,7 +7,6 @@ tags:
 - comics
 - reading
 - media
-- comics studies
 ---
 - [_Essex Country_ by Jeff Lemire](https://www.goodreads.com/book/show/6096829-essex-county)
 - [_Ergens Waar Je Niet Wil Zijn_ (Wrong Place) by Brecht Evens](https://www.goodreads.com/book/show/7940209-the-wrong-place)

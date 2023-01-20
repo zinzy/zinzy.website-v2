@@ -5,7 +5,7 @@ date: 2023-01-15
 excerpt: ""
 tags:
 - dog
-- pet
+- pets
 - babies
 - photolog
 ---

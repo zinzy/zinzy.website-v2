@@ -3,10 +3,8 @@ date: 2021-03-12
 title: "Aging: part one"
 excerpt: ""
 tags:
-- inline skating
-- memories
+- childhood
 - pandemic
-- aging
 ---
 When I was a child, no physical activity brought me more delight than inline skating. I had a wonderful pair of skates; silver, neon pink, and teal, snuggly fitting my feet. I felt limitless on those wheels, cruising all around the neighborhood, learning tricks in the grocery store parking lot, and distance skating past farms and fields.
 

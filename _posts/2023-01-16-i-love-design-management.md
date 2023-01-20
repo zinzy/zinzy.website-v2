@@ -5,9 +5,8 @@ date: 2023-01-16
 excerpt: ""
 tags:
 - work
-- career
 - design
-- management
+- leadership
 - ux
 - mentoring
 - research

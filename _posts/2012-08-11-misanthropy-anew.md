@@ -6,7 +6,6 @@ excerpt: ""
 tags:
 - friends
 - society
-- humans
 ---
 My friend Paul is a very wise man. Last week, as he drove O. and me home after a morning of catching up at the house / workshop / gallery / former school building in which he dwells, he said:
 

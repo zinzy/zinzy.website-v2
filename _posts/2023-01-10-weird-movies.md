@@ -5,7 +5,6 @@ date: 2023-01-10
 excerpt: ""
 tags:
 - cinema
-- coastercore
 - weirdness
 - brutalism
 ---

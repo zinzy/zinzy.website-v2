@@ -18,6 +18,13 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 3rem;
+  color: rgba(0,0,0,.8);
+  @media screen and (min-width:768px) {
+    padding: 100px;
+  }
+  @media screen and (min-width:1700px) {
+    max-width: 800px;
+  }
 }
 
 
@@ -25,10 +32,10 @@ html, body {
   font-size: 17px;
   scroll-behavior: smooth;
   @media screen and (min-width:768px) {
-    font-size: 23px;
+    font-size: 20px;
   }
   @media screen and (min-width:1800px) {
-    font-size: 25px;
+    // font-size: 25px;
   }
 }
 
@@ -52,35 +59,36 @@ html, body {
   }
 }
 
+header,
 section { 
-  padding-top: 3rem;
-  &:not(:last-child) {
-    padding-bottom: 3rem;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-  }
+  margin-bottom: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  opacity: .6;
-  font-size: 100%;
+  color: rgba(0,0,0,1);
+  font-weight: 500;
   a {
     text-decoration: none;
   }
 }
 
-h1 {
+h1, .h1 {
   font-size: 100%;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
-h2 {
-
-  line-height: 150%;
+h2, .h2 {
+  line-height: 120%;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
 }
 
-h3 {
+h3, .h3 {
+  font-size: 2rem;
+  line-height: 120%;
   margin: 0;
   padding: 0;
 }
@@ -93,8 +101,8 @@ img {
 } 
 
 strong {
-  font-weight: 400;
-  opacity: .6;
+  font-weight: 500;
+  color: rgba(0,0,0,1);
 }
 
  
@@ -144,10 +152,6 @@ blockquote {
 }
 
 main {
-  padding: 3rem 0;
-  margin: 3rem 0;
-  border-top: 1px solid rgba(0,0,0,.2);
-  border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 #footer {
@@ -155,23 +159,15 @@ main {
   margin-top: 3rem;
 }
 
-.h-entry {
+.h-entry { 
   h3, h4, h5, h6 {
-    font-size: 100%;
-    opacity: .6;
-    font-weight: 400;
-    &:before {
-      // content: "— "
-    }
+    max-width: 75%;
   }
   h3 {
-    margin-top: 1rem;
-    &:before {
-      content: "§ — "
-    } 
+    font-size: 1.5rem;
   }
   h4 {
-
+    font-size: 1.25rem;
   }
   a {
     text-decoration: underline;
@@ -186,6 +182,18 @@ main {
   }
   p:last-child {
     margin-bottom: 0;
+  }
+
+  .subheader {
+    font-size: 80%;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+  }
+
+  ul {
+    li {
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -204,14 +212,8 @@ main {
 
 .index {
   .h-entry {
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgba(0,0,0,.2);
   }
-}
-
-.border-top { border-top: 1px solid rgba(0,0,0,.2); }
-.border-bottom { border-bottom: 1px solid rgba(0,0,0,.2); }
+} 
 
 figure {
   padding: 0;
@@ -224,12 +226,8 @@ figure {
     font-size: 70%;
     line-height: 150%;
     opacity: .6;
-    @media screen and (min-width: 1200px) {
-      position: absolute;
-      top: 0;
-      right: -200px;
-      width: 150px;
-    }
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 
@@ -273,3 +271,76 @@ hr {
   padding: .2rem;
   border-radius: 3px;
 }
+
+
+.button {
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-size: 80%;
+  font-weight: 500;
+}
+
+
+mark {
+  background: rgb(255, 255, 136);
+  padding: 0 5px;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: block;
+    .border {
+      border-bottom: 1px dashed rgba(0,0,0,0.2);
+      height: 1px;
+      margin-top: 16px;
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
+  }
+}
+
+.hero { 
+  margin: 3rem 0;
+  @media screen and (min-width: 1400px) {
+    // https://css-irl.info/breaking-out-of-a-central-wrapper/
+    width: 60vw;
+    margin-left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+ 
+
+[class*="badge"] {
+  padding: 0 .5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  &[class*="-purple"] {
+    background-color: rgba(#A389F4, 0.1); 
+    color: #592DEA;
+  }
+  &[class*="-pink"] {
+    background-color: rgba( #FF7CE5, 0.1); 
+    color: #FF16D1;
+  }
+  &[class*="-blue"] {
+    background-color: rgba(#85D7FF, 0.1); 
+    color: #009EEB;
+  }
+}
+
+
+.bifold {
+  @media screen and (min-width: 768px) {
+
+  column-count: 2;
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+       break-inside: avoid; /* IE 10+ */
+  }
+}
+ 

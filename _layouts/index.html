@@ -1,12 +1,81 @@
 ---
 layout: default
 ---
+<section>
+  <div class="row">
+    <div class="col-md-8"> 
+      <h2>I craft tools for people at work.</h2>
+    </div>
+    <div class="col-md-10"> 
+      <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. With <mark>16 years at the intersection</mark> of research, design, leadership, and strategy, I currently serve as Design Manager at Leeruniek.</p>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="row"> 
+    <div class="col-md-6">
+      <img src="https://cdn.dribbble.com/users/641372/screenshots/20407571/e913fd3b-ad85-4395-beb9-1abd6859b802_4x.png?compress=1&resize=1600x1200&vertical=top" alt="">
+      <p class="m-0">From startup to scaleup</p>
+      <p class="m-0 text-subtext">An operational case study of an edtech company</p>
+    </div>
+    <div class="col-md-6">
+      <img src="https://cdn.dribbble.com/userupload/4266052/file/original-65e89e65c14413030b51c10179c8900d.png?compress=1&resize=2048x1536" alt="">
+      <p class="m-0">Propeller Design System</p>
+      <p class="m-0 text-subtext">Making industry leading travel brands play nice</p>
+    </div>
+  </div>
+
+  <div class="mt-3">
+    <a href="/work" class="button">Discover my work</a>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="row">
+    <div class="col-md-8">
+      <h3>I add WD-40 to habits, teams, products, and services</h3>
+    </div>
+    <div class="col-md-10">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in eros vulputate, dictum ante at, fermentum metus. Ut dignissim in neque ut molestie.</p>
+    </div> 
+
+  <div class="mt-3">
+    <a href="/how-i-work" class="button">Learn how I work</a>
+  </div>
+</section>
+
+<section>
+  <h3>Writing</h3>
+  <p>I’m an IndieWeb enthusiast, and advocate for creativity on the Internet. This space contains a growing collection of things written for public consumption.</p>
+ 
+  <ul class="post-list">
+    {% for post in paginator.posts %} 
+    <li class="d-flex"> 
+      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+      <div class="flex-grow-1 border"></div>
+      <div>
+        <time class="dt-published text-subtext" datetime="{{ post.date | date: "%b %e" }}">{{ post.date | date: "%b %e" }}</time>
+      </div>
+    </li>
+    {% endfor %}
+  </ul> 
+
+  <div class="mt-4">
+    <a href="/writing" class="button">Read my writing</a>
+  </div>
+</section>
+
+<!-- 
 <div class="index">
   {% for post in paginator.posts %} 
     <article class="h-entry"> 
       <p class="metadata mt-0">
         <a href="{{post.url}}">
-          <time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+          <time class="dt-published" datetime="{{ post.date | date: "%b %e" }}">{{ post.date | date: "%b %e" }}</time>
         </a>
       </p> 
       <content>
@@ -36,4 +105,4 @@ layout: default
       <a href="{{ paginator.next_page_path }}" class="">Older</a>
     {% endif %}
   </div>
-</div>
+</div> -->

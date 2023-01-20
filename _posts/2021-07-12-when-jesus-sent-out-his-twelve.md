@@ -5,8 +5,7 @@ excerpt: ""
 tags:
 - catholicism
 - queerdom
-- homophobia
-- scripture reflection
+- anti-lgbt
 - bible
 - religion
 ---

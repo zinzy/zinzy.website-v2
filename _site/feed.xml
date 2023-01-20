@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>https://www.zinzy.website</link>
+    <link>http://0.0.0.0:4000</link>
     <language></language>
-    <copyright>https://www.zinzy.website/colophon/#copyright</copyright>
-    <atom:link href="https://www.zinzy.website/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -32,8 +32,8 @@
           <hr /><p><a href="mailto:?subject=The%20game%20show">Reply via email</a></p>]]>
         </description>
         <pubDate>Wed, 18 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/18/the-game-show/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/18/the-game-show/</guid>
+        <link>http://0.0.0.0:4000/2023/01/18/the-game-show/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/18/the-game-show/</guid>
         
           
         
@@ -67,11 +67,13 @@
           <hr /><p><a href="mailto:?subject=Foreboding">Reply via email</a></p>]]>
         </description>
         <pubDate>Tue, 17 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/17/foreboding/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/17/foreboding/</guid>
+        <link>http://0.0.0.0:4000/2023/01/17/foreboding/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/17/foreboding/</guid>
         
           
         
+        
+          <category>Life changes</category>
         
       </item>
     
@@ -94,19 +96,17 @@
           <hr /><p><a href="mailto:?subject=I%20%3C3%20design%20management">Reply via email</a></p>]]>
         </description>
         <pubDate>Mon, 16 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/16/i-love-design-management/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/16/i-love-design-management/</guid>
+        <link>http://0.0.0.0:4000/2023/01/16/i-love-design-management/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/16/i-love-design-management/</guid>
         
           
         
         
           <category>Work</category>
         
-          <category>Career</category>
-        
           <category>Design</category>
         
-          <category>Management</category>
+          <category>Leadership</category>
         
           <category>Ux</category>
         
@@ -137,15 +137,15 @@
           <hr /><p><a href="mailto:?subject=Sneak%20preview">Reply via email</a></p>]]>
         </description>
         <pubDate>Sun, 15 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/15/sneak-preview/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/15/sneak-preview/</guid>
+        <link>http://0.0.0.0:4000/2023/01/15/sneak-preview/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/15/sneak-preview/</guid>
         
           
         
         
           <category>Dog</category>
         
-          <category>Pet</category>
+          <category>Pets</category>
         
           <category>Babies</category>
         
@@ -172,8 +172,8 @@
           <hr /><p><a href="mailto:?subject=The%20art%20of%20music%20theory">Reply via email</a></p>]]>
         </description>
         <pubDate>Sat, 14 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/14/the-art-of-music-theory/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/14/the-art-of-music-theory/</guid>
+        <link>http://0.0.0.0:4000/2023/01/14/the-art-of-music-theory/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/14/the-art-of-music-theory/</guid>
         
           
         
@@ -185,10 +185,6 @@
           <category>Learning</category>
         
           <category>Neurodiversity</category>
-        
-          <category>Top-down thinking</category>
-        
-          <category>Music theory</category>
         
       </item>
     
@@ -217,8 +213,8 @@
           <hr /><p><a href="mailto:?subject=%60alt%60%20text%20culture">Reply via email</a></p>]]>
         </description>
         <pubDate>Fri, 13 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/13/alt-text-culture/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/13/alt-text-culture/</guid>
+        <link>http://0.0.0.0:4000/2023/01/13/alt-text-culture/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/13/alt-text-culture/</guid>
         
           
         
@@ -227,27 +223,15 @@
         
           <category>Alt text</category>
         
-          <category>Web development</category>
-        
-          <category>Images</category>
-        
           <category>Design</category>
         
           <category>Work</category>
         
           <category>Internet</category>
         
-          <category>Culture</category>
-        
-          <category>Inclusion</category>
+          <category>Diversity and inclusion</category>
         
           <category>Language</category>
-        
-          <category>Text</category>
-        
-          <category>Meaning</category>
-        
-          <category>Semiotics</category>
         
       </item>
     
@@ -268,15 +252,15 @@
           <hr /><p><a href="mailto:?subject=Everything%20about%20the%20dog">Reply via email</a></p>]]>
         </description>
         <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/12/everything-about-the-dog/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/12/everything-about-the-dog/</guid>
+        <link>http://0.0.0.0:4000/2023/01/12/everything-about-the-dog/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/12/everything-about-the-dog/</guid>
         
           
         
         
           <category>Dog</category>
         
-          <category>Pet</category>
+          <category>Pets</category>
         
           <category>Life changes</category>
         
@@ -303,8 +287,8 @@
           <hr /><p><a href="mailto:?subject='The%20Whale'%20for%20scale">Reply via email</a></p>]]>
         </description>
         <pubDate>Wed, 11 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/11/the-whale-for-scale/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/11/the-whale-for-scale/</guid>
+        <link>http://0.0.0.0:4000/2023/01/11/the-whale-for-scale/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/11/the-whale-for-scale/</guid>
         
           
         
@@ -315,15 +299,9 @@
         
           <category>Reconcilliation fantasy</category>
         
-          <category>Exclusion</category>
+          <category>Diversity and inclusion</category>
         
-          <category>Diversity</category>
-        
-          <category>Inclusion</category>
-        
-          <category>Filmmaking</category>
-        
-          <category>Lived experience</category>
+          <category>Lived experiences</category>
         
           <category>Reviews</category>
         
@@ -346,15 +324,13 @@
           <hr /><p><a href="mailto:?subject=Weird%20movies">Reply via email</a></p>]]>
         </description>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2023/01/10/weird-movies/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2023/01/10/weird-movies/</guid>
+        <link>http://0.0.0.0:4000/2023/01/10/weird-movies/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/10/weird-movies/</guid>
         
           
         
         
           <category>Cinema</category>
-        
-          <category>Coastercore</category>
         
           <category>Weirdness</category>
         
@@ -492,8 +468,8 @@
           <hr /><p><a href="mailto:?subject=2022%20in%20review">Reply via email</a></p>]]>
         </description>
         <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
-        <link>https://www.zinzy.website/2022/12/30/2022-in-review/</link>
-        <guid isPermaLink="true">https://www.zinzy.website/2022/12/30/2022-in-review/</guid>
+        <link>http://0.0.0.0:4000/2022/12/30/2022-in-review/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2022/12/30/2022-in-review/</guid>
         
           
         
@@ -508,9 +484,7 @@
         
           <category>Neurodiversity</category>
         
-          <category>Friendship</category>
-        
-          <category>Stories</category>
+          <category>Friends</category>
         
           <category>Cinema</category>
         
@@ -522,11 +496,9 @@
         
           <category>Dog</category>
         
-          <category>Career</category>
+          <category>Work</category>
         
-          <category>Product management</category>
-        
-          <category>Design management</category>
+          <category>Leadership</category>
         
       </item>
     

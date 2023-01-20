@@ -5,8 +5,7 @@ date: 2022-11-26
 excerpt: "Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity."
 tags:
 - indieweb
-- web development
-- tinkering
+- meta
 ---
 Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.
 

@@ -5,11 +5,8 @@ date: 2009-08-21
 excerpt: ""
 tags:
 - university
-- school supplies
-- memories
-- notebook
-- fountain pen
-- growing up
+- office supplies
+- life changes
 ---
 I remember it well, my transition from elementary to high school. Gone were the old days of person teaching every subject in a single classroom. Everything would be new again. New subjects, new people, teachers, supplies. It was the supplies that kept me up at night. Books were to be given the right cover, of course there would have to be a new pencil case. New notebooks. A diary.
 

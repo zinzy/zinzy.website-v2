@@ -6,10 +6,7 @@ excerpt: "When I first learned that ‘pontifex’, Pope Francis’ Twitter acco
 tags:
 - catholicism
 - queerdom
-- pope
 - bible
-- scripture reflection
-- advent
 - religion
 ---
 When I first learned that ‘pontifex’, Pope Francis’ Twitter account, is Latin for ‘bridge builder’, I was entirely delighted. “How wonderful”, I thought, “that our institution sees the value in a Pope who builds bridges between the Church and the rest of humanity.”

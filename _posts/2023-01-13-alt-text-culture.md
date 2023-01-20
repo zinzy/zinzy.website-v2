@@ -6,17 +6,11 @@ excerpt: ""
 tags:
 - accessibility
 - alt text
-- web development
-- images
 - design
 - work
 - internet
-- culture
-- inclusion
+- diversity and inclusion
 - language
-- text
-- meaning
-- semiotics
 ---
 More than any other time in my online life am I aware of the value of `alt` text. I make a point to write image descriptions whenever I can. Kind strangers with a variety of accessibility needs have been helping me understand how to best capture my interpretation of an image. I've come to regard `alt` text as the secret side bar I get to have with blind people and others who need it.
 

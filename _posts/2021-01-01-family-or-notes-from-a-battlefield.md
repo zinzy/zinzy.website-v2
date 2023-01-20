@@ -8,10 +8,9 @@ tags:
 - queerdom
 - poem
 - bible
-- scripture reflection
 - christmas
 - holidays
-- homophobia
+- anti-lgbt
 - religion
 ---
 As soon as she hands you the gift  

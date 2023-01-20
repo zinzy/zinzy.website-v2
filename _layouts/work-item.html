@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="h-entry">
+  <h2 class="h3">{{ page.title }}</h2>
+  <p class="text-subtext">{{ page.subtitle }}</p>
+  {% if page.tags.size > 0 %} 
+    <ul class="tags"> 
+        {% for tag in page.tags %}
+        {%- assign t = tag | first -%}
+
+          {% if tag contains "design" %}<li class="badge-purple">{{tag}}</li>{% endif %}
+          {% if tag contains "development" %}<li class="badge-pink">{{tag}}</li>{% endif %}
+          {% if tag contains "management" %}<li class="badge-blue">{{tag}}</li>{% endif %}
+
+          
+        {% endfor %} 
+    </ul> 
+  {% endif %}
+
+ 
+
+
+  <div class="hero">
+    <img src="{{page.hero}}" alt="">
+  </div>
+
+  <div>
+    {{content}}
+  </div>
+</article>

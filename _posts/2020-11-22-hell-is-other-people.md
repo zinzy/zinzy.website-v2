@@ -7,7 +7,6 @@ tags:
 - catholicism
 - queerdom
 - bible
-- scripture reflection
 - philosophy
 - religion
 ---

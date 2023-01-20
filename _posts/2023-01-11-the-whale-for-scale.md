@@ -7,11 +7,8 @@ tags:
 - cinema
 - fatphobia
 - reconcilliation fantasy
-- exclusion
-- diversity
-- inclusion
-- filmmaking
-- lived experience
+- diversity and inclusion
+- lived experiences
 - reviews
 ---
 In one of the many jubilant reviews garnered by Darren Aronofsky's latest film _The Whale_, one writer concluded that we shouldn't judge a book by its cover. This was in reference to the morbidly obese main character who eventually dies, but not before we find out he developed an eating disorder out of grief. Here was a fat man who evidently had feelings despite his exterior. Ironically, I find myself doing just what the writer suggested I don't: judge the film before I've seen it.
