@@ -11,3 +11,7 @@ I'm a queer Afropean person who is a nerd for the independent internet (which is
 
 ### In profession
 With 16 years of experience making digital products, I sit at the intersection of research, design, and linguistics. I'm Design Manager at edtech scale-up Leeruniek, where we take a data-driven approach to more equitable primary education. Before this, I spent five years leading design at travel technology industry leader Airtrade. I was a very curious humanities major, studying [Dutch Language and Literature](https://www.uu.nl/bachelors/nederlandse-taal-en-cultuur) and [Theology](https://vu.nl/en/education/bachelor/theology-and-religious-studies) before graduating a decade ago. 
+
+### You might like
+- [Hello](/hello)
+- [Now](/now)
