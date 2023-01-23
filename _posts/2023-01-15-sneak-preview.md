@@ -4,7 +4,7 @@ title: "Sneak preview"
 date: 2023-01-15
 excerpt: ""
 tags:
-- dog
+- dogs
 - pets
 - babies
 - photolog

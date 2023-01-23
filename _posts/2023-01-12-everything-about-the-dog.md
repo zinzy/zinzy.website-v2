@@ -4,7 +4,7 @@ title: "Everything about the dog"
 date: 2023-01-12
 excerpt: ""
 tags:
-- dog
+- dogs
 - pets
 - life changes
 - waking early

@@ -6,8 +6,7 @@ tags:
 - Now
 ---
 - In Amsterdam simultaneously enjoying and dreading the cold
-- At Leeruniek thoroughly enjoying transitioning from product management back to design management.
-- Thinking of getting a corgi puppy
-- Working tirelessly to recover from an eating disorder
+- At Leeruniek thoroughly enjoying solving design and mentoring challenges
+- Preparing for our [corgi puppy](http://localhost:4000/tag/dog/)
 - Invested in my yoga and meditation practice
-- Getting ready to buy a stage piano
+- Teaching myself, once and for all, to play the piano

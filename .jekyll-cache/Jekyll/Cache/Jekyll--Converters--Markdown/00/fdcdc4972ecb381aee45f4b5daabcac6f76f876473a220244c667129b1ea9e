@@ -1,4 +1,4 @@
-I"Ð<p>When I transitioned from leading the front-end team to building a design department at Airtrade, there were countless matters that needed attention. We were on the cusp of a redesign of our white label B2C platform, our outdated tools could use some polishing up, and there was no real process in place for validating ideas and aligning with our clients.</p>
+I"ü<p>When I transitioned from leading the front-end team to building a design department at Airtrade, there were countless matters that needed attention. We were on the cusp of a redesign of our white label B2C platforms, soon to be followed by an entirely new flagship enterprise platform, our outdated tools could use some polishing up, and there was no real process in place for validating ideas and aligning with our clients.</p>
 
 <hr />
 
@@ -37,14 +37,14 @@
     <div class="row">
         <div class="col-6">
             <figure class="m-0 p-0">
-                <img src="https://cdn.dribbble.com/users/342162/screenshots/8292853/media/2e1a3b39a526c8704795a834b51d950d.png?compress=1&amp;resize=1600x1200&amp;vertical=top" alt="" />
-                <figcaption>Components were all over the place</figcaption>
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1100/v1674226791/Portfolio/propeller-sizes_yeatsd.png" alt="" />
+                <figcaption>We identified more hard-coded declarations that we had anticipated</figcaption>
             </figure>
         </div>
         <div class="col-6">
             <figure class="m-0 p-0">
-                <img src="https://cdn.dribbble.com/users/342162/screenshots/8292853/media/2e1a3b39a526c8704795a834b51d950d.png?compress=1&amp;resize=1600x1200&amp;vertical=top" alt="" />
-                <figcaption>Our systems were making incorrect use of style guides</figcaption>
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_800/v1674225693/Portfolio/propeller-color-analysis-1_a9imi3.png" alt="" />
+                <figcaption>Our CSS files were making incorrect use of color palettes</figcaption>
             </figure>
         </div>
     </div>
