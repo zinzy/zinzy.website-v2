@@ -2,16 +2,10 @@
 layout: default
 ---
 <article class="h-entry"> 
-    <header> 
-      <div class="row">
-        <div class="col-md-8">
-          <h2 class="h3 p-name">{{ page.title }}</h2>
-        </div>
-      </div>
-    </header>
-    <div id="notes-entry-container">
-      <content class="e-content"> 
-        {{ content }}
-      </content> 
-    </div> 
+  <h2 class="p-name">{{ page.title }}</h2>
+  <div id="notes-entry-container">
+    <content class="e-content"> 
+      {{ content }}
+    </content> 
+  </div> 
 </article>

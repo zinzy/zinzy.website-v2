@@ -15,7 +15,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   line-height: 165%;
-  max-width: 550px;
+  max-width: 650px;
   margin: 0 auto; 
   color: rgba(0,0,0,.8);
   padding: 3rem;
@@ -61,16 +61,22 @@ html, body {
 
 header,
 section { 
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+h2, h3, h4, h5, h6 {
+  // font-size: 100%;
   color: rgba(0,0,0,1);
   font-weight: 500;
+  line-height: 135%;
   a {
     text-decoration: none;
   }
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 100%;
 }
 
 // h1, .h1 {
@@ -153,6 +159,7 @@ blockquote {
 }
 
 main {
+  margin: 200px 0;
 }
 
 #footer {
@@ -167,12 +174,12 @@ main {
   h3, h4, h5, h6 {
     max-width: 75%;
   }
-  h3 {
-    font-size: 1.5rem;
-  }
-  h4 {
-    font-size: 1.25rem;
-  }
+  // h3 {
+  //   font-size: 1.5rem;
+  // }
+  // h4 {
+  //   font-size: 1.25rem;
+  // }
   a {
     text-decoration: underline;
   }
@@ -199,6 +206,9 @@ main {
       margin-bottom: 1rem;
     }
   }
+  img {
+    margin: 2rem 0;
+  }
 }
 
 .list-unstyled {
@@ -208,7 +218,7 @@ main {
 }
 
 .metadata {
-  opacity: .6;
+  color: rgba(0,0,0,0.5);
   a {
     text-decoration: none;
   }
@@ -232,6 +242,9 @@ figure {
     opacity: .6;
     text-align: center;
     margin-top: 1rem;
+    a {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -370,5 +383,22 @@ mark {
   page-break-inside: avoid; /* Firefox */
        break-inside: avoid; /* IE 10+ */
   }
+} 
+
+
+time {
+  color: rgba(0,0,0,0.5);
 }
- 
+
+
+.entries {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    padding: .5rem 0;
+    &:not(:last-child) {
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+  }
+}

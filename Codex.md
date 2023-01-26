@@ -73,6 +73,8 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ### Chapter: Things I no longer believe
 - ~~Any problem can be solved by a good book~~
+- ~~Everything can be systemized~~
+
 
 ### Further reading 
 - [Codex Vitae: An exercise in metacognition](https://gregology.net/codex/) by Greg Clarke

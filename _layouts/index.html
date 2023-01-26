@@ -2,9 +2,48 @@
 layout: default
 ---
 <section>
-  <h2>I craft tools for people at work.</h2>
-  <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. With <mark>16 years at the intersection</mark> of research, design, leadership, and strategy, I currently serve as Design Manager of Leeruniek.</p>
+  <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. I'm an IndieWeb enthusiast, and a Design Manager making tools for people at work. I'm a senior-but-silly researcher and designer, and I love to learn new things. Welcome to my website, where I come to link and think.</p>
 </section>
+
+
+
+
+
+
+<section>
+  <h3>Journal</h3>
+  
+    <ul class="entries">
+      {% for post in site.posts limit: 5 %} 
+        <li>
+          <div class="row">
+            <div class="col-3 col-sm-2">
+              <time class="dt-published" datetime="{{ post.date | date: "%y%m%d" }}">{{ post.date | date: "%y%m%d" }}</time></div>
+            <div class="col-9 col-sm-10">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+          </div> 
+        </li>
+      {% endfor %} 
+    </ul>
+
+  <div class="mt-4">
+    <a href="/journal" class="button">See more entries</a>
+  </div>
+</section>
+
+
+ 
+<!-- <section>
+  <h3>My work</h3>
+  <p>For companies who want to improve their design thinking</p>
+  <img src="" alt="">
+
+  <div class="mt-4">
+    <a href="/work" class="button">Learn about my work</a>
+  </div>
+</section> -->
+
 
 
 <!-- <section>
@@ -41,28 +80,7 @@ layout: default
     <a href="/how-i-work" class="button">Learn how I work</a>
   </div>
 </section> -->
-
-<section>
-  <h3>Writing</h3>
-  <p>I’m an IndieWeb enthusiast, and advocate for creativity on the Internet. This space contains a growing collection of things written for public consumption.</p>
  
-  <ul class="post-list">
-    {% for post in paginator.posts %} 
-    <li class="d-flex"> 
-      <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-      <span class="flex-grow-1 border"></span>
-      <span>
-        <time class="dt-published text-subtext" datetime="{{ post.date | date: "%b %e, %Y" }}">{{ post.date | date: "%b '%e" }}</time>
-      </span>
-    </li>
-    {% endfor %}
-  </ul> 
-
-  <div class="mt-4">
-    <a href="/writing" class="button">Read my writing</a>
-  </div>
-</section>
-
 <!-- 
 <div class="index">
   {% for post in paginator.posts %} 

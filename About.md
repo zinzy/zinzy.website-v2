@@ -4,14 +4,18 @@ tagline: "Hey, I'm Zinzy, a researcher, designer, and facilitator from Amsterdam
 introduction: ""
 layout: about
 ---
-I'm glad you made it to my personal website. It's a quiet street on the Internet where I come to learn in public, change my mind, and document and nurture my interests. The best way to get to know me is by spending time with me. Reading the things on this website is a soft alternative. I taught myself to build websites when I was 10, and I haven't been the same since.
+<figure>
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1673958111/me/zinzy-at-a-party_vrzlqr.jpg" alt="">
+<figcaption>Me (middle) at an office party in 2019</figcaption>
+</figure>
 
-### In life
-I'm a queer Afropean person who is a nerd for the independent internet (which is where humans aren't products). I'm a musician, a cinephile, a writer, and an urbanite. In the Eastside of Amsterdam, my partner Anja and I share a wonderful shoebox. 
+I'm glad you made it to my personal website. It's a quiet street on the Internet where I come to learn in public, change my mind, and nurture my interests.
 
-### In profession
-With 16 years of experience making digital products, I sit at the intersection of research, design, and linguistics. I'm Design Manager at edtech scale-up Leeruniek, where we take a data-driven approach to more equitable primary education. Before this, I spent five years leading design at travel technology industry leader Airtrade. I was a very curious humanities major, studying [Dutch Language and Literature](https://www.uu.nl/bachelors/nederlandse-taal-en-cultuur) and [Theology](https://vu.nl/en/education/bachelor/theology-and-religious-studies) before graduating a decade ago. 
+I'm Zinzy, a Santomean-Dutch queer person who grew up in the Dutch South. These days, home is Amsterdam. There, in its finest neighborhood, I share a shoebox with [Anja](https://anjawaleson.notion.site/anjawaleson/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) (and soon also a puppy).
 
-### You might like
-- [Hello](/hello)
-- [Now](/now)
+In my spare time I like to make music, swim, write, cook, enjoy the city, and explore cinema. I like to teach myself new things, and currently I'm diving head-first into the piano.
+
+### About my work
+For 16 years, I've been making a living by building digital products. Drawing from training in research, linguistics, literature, and — yes — theology, I current work as a Design Manager at edtech scale-up [Leeruniek](https://leeruniek.nl).
+
+I love dreaming big and working small to improve habits, teams, products, and services. Being a catalyst for better collaboration and design thinking is possibly my favorite thing in the world.
