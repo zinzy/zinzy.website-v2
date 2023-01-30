@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stakeholder collaboration on complex enterprise SaaS.md",
+                "file": "Why can't my stakeholder and I get along.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stakeholder collaboration on complex enterprise SaaS.md",
+                "file": "Why can't my stakeholder and I get along.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stakeholder collaboration on complex enterprise SaaS.md",
+                "file": "Why can't my stakeholder and I get along.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stakeholder collaboration on complex enterprise SaaS.md"
+                "file": "Why can't my stakeholder and I get along.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "e7bdb6371d3bc3d2",
   "lastOpenFiles": [
+    "Why can't my stakeholder and I get along.md",
+    "Stakeholder collaboration on complex enterprise SaaS.md",
     "Design thinking copy 18.md",
     "Design thinking copy 30.md",
     "MacGyver design.md",
@@ -155,8 +157,6 @@
     "My favorite UX tools.md",
     "UX for impact.md",
     "Buyer is not the user.md",
-    "Lean UX.md",
-    "Why can't my stakeholder and I get along?.md",
-    "Designer, you should write HTML and CSS.md"
+    "Lean UX.md"
   ]
 }
