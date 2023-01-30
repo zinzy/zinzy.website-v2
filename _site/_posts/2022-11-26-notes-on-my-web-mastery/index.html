@@ -21,7 +21,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles.css">
 
   
@@ -73,99 +73,170 @@
 </head>
 
   <body>  
-
-    <header id="header">
-      <div class="row">
-        <div class="col-4">
-          <h1 class="m-0 p-0"><a href="/">Zinzy Waleson Geene</a></h1>
-        </div>
-        <div class="col-8 text-end">
-          <nav>
-            <ul class="">
-              <li><a href="/about">About</a></li>
-              <li><a href="/journal">Journal</a></li>
-              <!-- <li><a href="/work">Work</a></li> -->
-              <li><a href="/now">Now</a></li>
-              <li><a href="/hello">Hello</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>  
-    </header>
-    <main>
-      <article class="h-entry"> 
-  <header>
-    <h2 class="h3 p-name">Notes on my web mastery</h2>
-    <p class="metadata mt-0">
-      <time class="dt-published" datetime="Saturday, November 26, 2022">Saturday, November 26, 2022</time>
-    </p> 
-  </header>
-  <div id="notes-entry-container" class="e-content">
-    <content>
-      Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.
-
-### Tools
-- [Jekyll](https://jekyllrb.com/): as is often the case for me, this site is built using my favorite flat-file content management system
-- [Github](https://github.com/): hosts the code for this website
-- [Netlify](https://www.netlify.com/): serves the content to my website
-- [Obsidian](https://obsidian.md/): I write in a single Obsidian vault
-- [obsidian-git](https://github.com/denolehov/obsidian-git): helps me manage  the version control of my Obsidian content
-- [Push git subdirectory as branch](https://github.com/marketplace/actions/push-git-subdirectory-as-branch): a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository
-- [Git submodule](https://mtsknn.fi/blog/netlify-updating-private-git-submodule/): my separate repository is pulled into my website's code base
-- [Netlify build hook](https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions/): every day, Netlify looks for new content and publishes it to my website
-
-### Why this is great
-- I hold the strong belief that tools don't matter. This means, among other things, that I don't like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.
-- My website is a text-heavy space: most of what you'll find on here is written content. As a knowledge worker, writing is an integral part of my daily life. Many of the things I write are not for public consumption, but they are closely linked to things that *are*. To avoid duplicate content and awkward linking, it was important for me to manage my text files in a single space, one Obsidian vault.
-- I have a tendency to tinker a lot on my website. This can make it so that I spend more time trying out new things and changing the design than I do writing. Having my code base and content separated helps me focus more on writing things that are meaningful to me.
-
-### Some things I haven't figured out yet
-- Is it worthwhile for me to publish more granular IndieWeb post types such as notes and likes? Do I care about them? Am I making them only to show them? What's their value if I cannot automate this process? Does the technical implementation change if I push said content to a git repository that consists of only notes?
-- What does a proper dark mode look like?
-- Do I want to continue my barebones experiment and document the discomfort of vanity? Or am I ready for something more modern?
-- How in the world do I even go about Micropub and Webmentions?
-    </content> 
-  </div> 
  
+    <header id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="row">
+          <div class="col-8 col-md-6">
+            <a href="/">Zinzy Waleson Geene</a>
+          </div>
+          <div class="col-4 col-md-6">
+            
+            <nav>
+              <ul>
+                <li><a href='/about' >About</a></li>
+                <li><a href='/journal' >Journal</a></li>
+                <!-- <li><a href='/now' >Now</a></li>
+                <li><a href='/hello' >Hello</a></li> -->
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="wrapper">
+                <article class="h-entry">
+  <div class="row mb-5">
+    <div class="col-md-8 mb-5">
+      <header>
+        <h2 class="h3 p-name">Notes on my web mastery</h2>
+      </header>
+    </div>
+    <div class="col-md-8"> 
+      <div id="notes-entry-container">
+        <content>
+          <p>Recently, I’ve been making some great progress with my personal website. While I normally don’t engage in technical ballets on the goings-on of this website, I feel it’s relevant to document what I’ve learnt and done, if only for posterity.</p>
 
+<h3 id="tools">Tools</h3>
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a>: as is often the case for me, this site is built using my favorite flat-file content management system</li>
+  <li><a href="https://github.com/">Github</a>: hosts the code for this website</li>
+  <li><a href="https://www.netlify.com/">Netlify</a>: serves the content to my website</li>
+  <li><a href="https://obsidian.md/">Obsidian</a>: I write in a single Obsidian vault</li>
+  <li><a href="https://github.com/denolehov/obsidian-git">obsidian-git</a>: helps me manage  the version control of my Obsidian content</li>
+  <li><a href="https://github.com/marketplace/actions/push-git-subdirectory-as-branch">Push git subdirectory as branch</a>: a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository</li>
+  <li><a href="https://mtsknn.fi/blog/netlify-updating-private-git-submodule/">Git submodule</a>: my separate repository is pulled into my website’s code base</li>
+  <li><a href="https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions/">Netlify build hook</a>: every day, Netlify looks for new content and publishes it to my website</li>
+</ul>
+
+<h3 id="why-this-is-great">Why this is great</h3>
+<ul>
+  <li>I hold the strong belief that tools don’t matter. This means, among other things, that I don’t like to be limited to using particular platforms or apps to write. I want to see my files in a folder that I can move around. Jekyll allows me to do just this.</li>
+  <li>My website is a text-heavy space: most of what you’ll find on here is written content. As a knowledge worker, writing is an integral part of my daily life. Many of the things I write are not for public consumption, but they are closely linked to things that <em>are</em>. To avoid duplicate content and awkward linking, it was important for me to manage my text files in a single space, one Obsidian vault.</li>
+  <li>I have a tendency to tinker a lot on my website. This can make it so that I spend more time trying out new things and changing the design than I do writing. Having my code base and content separated helps me focus more on writing things that are meaningful to me.</li>
+</ul>
+
+<h3 id="some-things-i-havent-figured-out-yet">Some things I haven’t figured out yet</h3>
+<ul>
+  <li>Is it worthwhile for me to publish more granular IndieWeb post types such as notes and likes? Do I care about them? Am I making them only to show them? What’s their value if I cannot automate this process? Does the technical implementation change if I push said content to a git repository that consists of only notes?</li>
+  <li>What does a proper dark mode look like?</li>
+  <li>Do I want to continue my barebones experiment and document the discomfort of vanity? Or am I ready for something more modern?</li>
+  <li>How in the world do I even go about Micropub and Webmentions?</li>
+</ul>
+
+        </content>
+      </div>
+    </div>
+    <div class="col-md-3 offset-md-1">
+      <aside>
+        <p class="metadata">First published on <time class="dt-published" datetime="Saturday, November 26, 2022">Saturday, November 26, 2022</time>
+        </p> 
   
-  <footer>
-    <ul class="tags"> 
-        <li><a href="/tag/indieweb">indieweb</a></li>
-        <li><a href="/tag/meta">meta</a></li>
+  
+        <!-- 
+          
+          WIP
+          Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
+  
+          <ul>
+          
+        </ul> -->
+   
          
-    </ul> 
-  <!-- <hr class="my-3"><section class="webmentions">
-    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Notes%20on%20my%20web%20mastery" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
-    <p class="p-0 m-0">Eager to let me know what you think? <a href="mailto:zinzy@pm.me">Email me a reply</a> or send a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>.</p>
-    <div id="webmentions"></div>
-</section>-->
-  </footer>
-  
-
-</article> 
+          <ul class="tags"> 
+              
+              <li><span class="badge"><a href="/tag/indieweb">indieweb</a></span></li>
+              <li><span class="badge"><a href="/tag/meta">meta</a></span></li>
+               
+          </ul>  
+        
+      </aside>
+    </div>
+  </div>
+</article>
+ 
 
 
 <div class="mt-5 border-top pt-5">
 <div class="row pagination"> 
     <div class="col-6">
-       
+      <div class="row">
+        <div class="col-md-6">
+           
+        </div>
+      </div>
     </div>
     <div class="col-6 text-end"> 
-      
+      <div class="row">
+        <div class="col-md-6 offset-md-6">
+          <a class="" href="">
+            <div class="text-subtext">Older</div>
+            <div></div> 
+          </a>
+        </div>
+      </div>
     </div>
   </div> 
 </div> 
-    </main>
-    <footer id="footer"> 
-  <!-- <p><span class="h-card">I'm Zinzy Waleson Geene (<a href="https://pronoun.is/they" target="_blank" rel="noopener noreferrer">they</a>/<a href="https://pronoun.is/she" target="_blank" rel="noopener noreferrer">she</a>), 
-    a researcher, designer, queer facilitator, and IndieWeb advocate from <span class="p-locality">Amsterdam</span>. I've been making web things and yelling at internet clouds since 1997.</span></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="footer"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="h-card m-0 p-0">I'm Zinzy Waleson Geene (they/she), a researcher, designer, queer facilitator, and IndieWeb advocate from <span class="p-locality">Amsterdam</span>.</span></p>
+  
+        <div class="indieweb mt-3">
+          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+          <span class="mx-1 d-inline-block">IndieWeb</span>
+          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+        </div> 
+          </div>
+          <div class="col-md-6 text-md-end">
+            <ul>
+              <li><a href="/now">Now</a></li>
+              <li><a href="/hello">Hello</a></li>
+              <!-- <li><a href="https://tech.lgbt/@zinzy" target="_blank">Mastodon</a></li>
+              <li><a href="https://nl.linkedin.com/in/zinzy" target="_blank">LinkedIn</a></li>
+              <li><a href="https://read.cv/zinzy" target="_blank">Read.cv</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div class="indieweb">
-      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-      <span class="mx-1 d-inline-block">IndieWeb</span>
-      <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-    </div> 
+
+
+
+
+
+
+ 
 
 
   <!-- <div class="row indieweb">
@@ -189,7 +260,148 @@
 
 
   <!-- <p>
-    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition 1674217410</a></p> --> 
+    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition </a></p> -->  
+
+      <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+    /* content a.internal-link {
+      border-color: #8b88e6;
+      background-color: #efefff;
+    } */
+  
+    #tooltip-wrapper {
+      background: white;
+      padding: 1em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+      position: absolute;
+      width: 300px;
+      height: auto;
+      font-size: 0.8em;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      opacity: 0;
+      transition: opacity 100ms;
+    }
+  
+    /* #tooltip-wrapper:after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          pointer-events: none;
+          background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+          width: 100%;
+          height: 75px;
+    } */
+  </style>
+  
+  <div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+    <div id='tooltip-content'>
+    </div>
+  </div>
+  
+  <iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+  </iframe>
+  
+  <script>
+    var opacityTimeout;
+    var contentTimeout;
+    var transitionDurationMs = 100;
+  
+    var iframe = document.getElementById('link-preview-iframe')
+    var tooltipWrapper = document.getElementById('tooltip-wrapper')
+    var tooltipContent = document.getElementById('tooltip-content')
+  
+    var linkHistories = {};
+  
+    function hideTooltip() {
+      opacityTimeout = setTimeout(function() {
+        tooltipWrapper.style.opacity = 0;
+        contentTimeout = setTimeout(function() {
+          tooltipContent.innerHTML = '';
+          tooltipWrapper.style.display = 'none';
+        }, transitionDurationMs + 1);
+      }, transitionDurationMs)
+    }
+  
+    function showTooltip(event) {
+      var elem = event.target;
+      var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+      var top = window.pageYOffset || document.documentElement.scrollTop
+  
+      if (event.target.host === window.location.host) {
+        if (!linkHistories[event.target.href]) {
+          iframe.src = event.target.href
+          iframe.onload = function() {
+            tooltipContentHtml = ''
+            tooltipContentHtml += '<div style="font-weight: 500;">' + iframe.contentWindow.document.querySelector('h2').innerHTML + '</div>'
+            tooltipContentHtml += iframe.contentWindow.document.querySelector('.note-description').innerHTML
+  
+            tooltipContent.innerHTML = tooltipContentHtml
+            linkHistories[event.target.href] = tooltipContentHtml
+  
+            tooltipWrapper.style.display = 'block';
+            setTimeout(function() {
+              tooltipWrapper.style.opacity = 1;
+            }, 1)
+          } 
+        } else {
+          tooltipContent.innerHTML = linkHistories[event.target.href]
+          tooltipWrapper.style.display = 'block';
+          setTimeout(function() {
+            tooltipWrapper.style.opacity = 1;
+          }, 1)
+        }
+  
+  
+        tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+        if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+            tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+        } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+            tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+        }
+  
+        if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+            tooltipWrapper.style.left = "10px";
+        } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+            tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+        }
+      }
+    }
+  
+    function setupListeners(linkElement) {
+      linkElement.addEventListener('mouseleave', function(_event) {
+        hideTooltip();
+      });
+  
+      tooltipWrapper.addEventListener('mouseleave', function(_event) {
+        hideTooltip();
+      });
+  
+      linkElement.addEventListener('touchend', function(_event) {
+        hideTooltip();
+      });
+  
+      tooltipWrapper.addEventListener('touchend', function(_event) {
+        hideTooltip();
+      });
+  
+      linkElement.addEventListener('mouseenter', function(event) {
+        clearTimeout(opacityTimeout);
+        clearTimeout(contentTimeout);
+        showTooltip(event);
+      });
+  
+      tooltipWrapper.addEventListener('mouseenter', function(event) {
+        clearTimeout(opacityTimeout);
+        clearTimeout(contentTimeout);
+      });
+    }
+  
+    document.querySelectorAll('content a').forEach(setupListeners);
+  </script>
   </body>
 </html>
 

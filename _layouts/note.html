@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article class="h-entry">
+  <div class="row mb-5">
+    <div class="col-xl-8 ">
+      <h2 class="p-name">{{ page.title }}</h2>
+      <div class="metadata note-description">{{page.tagline}}</div>
+    </div>
+  </div>
+  <div class="row"> 
+    <div class="col-xl-8">  
+      <div id="notes-entry-container">
+        <content>
+          <div class="mb-5">{{ page.introduction | markdownify }}</div>
+          <div class="content">{{ content }}</div>
+        </content>
+      </div>
+    </div>
+    <div class="col-xl-3 offset-xl-1 mt-5 mt-xl-0">
+
+      <aside> 
+        <p class="mt-0">This note is part of my {{ site.notes.size }} and ever-growing <a href="/notebook">public working notes</a>.</p>
+
+        {% if page.backlinks.size > 0 %}
+        <h3 class="h6 mt-4 mb-3">Linking here</h3>
+        <ul class="backlinks">
+          {% for backlink in page.backlinks %}
+          <li>
+          <a  href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}: <span class="text-subtext">{{ backlink.tagline }}</span>
+          </a>
+          </li>
+          {% endfor %}
+          {% else %}
+        {% endif %}
+        </ul>   
+
+      <!-- <div class="mt-5">
+        {% if page.tags.size > 0 %} 
+        <ul class="tags"> 
+            {% for tag in page.tags %}
+            {%- assign t = tag | first -%}
+              <li><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></li>
+            {% endfor %} 
+        </ul>  
+      {% endif %}
+      </div> -->
+      </aside>
+
+    </div>
+    </div>
+    </article>

@@ -5,7 +5,7 @@ date: 2023-01-20
 excerpt: ""
 tags:
 - memory
-- neurodivergence
+- neurodiversity
 - anja
 ---
 On occasion, Anja will compliment me on my ability to recognize people. I don’t know when I first noticed it myself, but there are actors I recognize even if they played minor characters in an episode of a show I watched 15 years ago. Or I might point out that woman I saw on the bus before COVID hit to a confused Anja.

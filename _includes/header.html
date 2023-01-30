@@ -1,19 +1,24 @@
 <header id="header">
-  <div class="row gx-0 m-0 p-0">
-    <!-- <div class="d-none d-md-block col-md-12">
-      <div class="portrait">
-        <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_fill,g_face,h_400,w_400/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="Headshot of me, Zinzy Waleson Geene"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="row">
+          <div class="col-8 col-md-6">
+            <a href="/">Zinzy Waleson Geene</a>
+          </div>
+          <div class="col-4 col-md-6">
+            {% assign current = page.url | downcase | split: '/' %}
+            <nav>
+              <ul>
+                <li><a href='/about' {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+                <li><a href='/journal' {% if current[1] == 'journal' %}class='active'{% endif %}>Journal</a></li>
+                <!-- <li><a href='/now' {% if current[1] == 'now' %}class='active'{% endif %}>Now</a></li>
+                <li><a href='/hello' {% if current[1] == 'hello' %}class='active'{% endif %}>Hello</a></li> -->
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-    </div> -->
-    <div class="col-12">
-      <div class="mb-md-4">
-        <h1><a href="/">Zinzy Waleson Geene</a></h1>
-        <p class="d-none d-md-block m-0 text-subtext">A researcher, designer, facilitator, and person on the Internet, from Amsterdam.</p>
-      </div>
-      <div class="row">
-        <div class="col-8"></div>
-        <div class="col-4"></div>
-      </div> 
     </div>
-  </div>  
+  </div>
 </header>

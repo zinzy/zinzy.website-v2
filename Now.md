@@ -1,10 +1,10 @@
 ---
 title: "Now"
-date: 2022-12-13
+introduction: "This is a [Now](https://nownownow.com/) page. You should make one for yourself."
 layout: page
-tags:
-- Now
 ---
+_Last updated December 13, 2022_
+
 - In Amsterdam simultaneously enjoying and dreading the cold
 - At Leeruniek thoroughly enjoying solving design and mentoring challenges
 - Preparing for our [corgi puppy](http://localhost:4000/tag/dog/)

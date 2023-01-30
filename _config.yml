@@ -2,6 +2,7 @@ title: Zinzy Waleson Geene
 description: Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.
 include:
   - _posts
+  - _notes
 exclude:             
   - _includes/notes_graph.json
   - assets/js/webmention.js
@@ -28,7 +29,6 @@ permalink:           pretty
 relative_permalinks: false
 
 plugins:
-  - jekyll-last-modified-at 
   - jekyll-paginate 
   - jekyll-archives
 
@@ -50,6 +50,11 @@ jekyll-archives:
   permalinks:
     tag: '/tag/:name/'
     year: 'year/:year/'
+
+
+tag_page_layout: archive-tag
+tag_page_dir: tag
+
 
 kramdown:
 
@@ -77,6 +82,10 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page" 
+  - scope:
+      path: "_notes/**/*.md"
+    values:
+      layout: "note" 
   - scope:
       path: "_work/**/*.md"
     values:
