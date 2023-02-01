@@ -21,7 +21,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   line-height: 165%;
-  color: $black;
+  color: $gray-2;
   background: #fff;
 }
 
@@ -39,9 +39,11 @@ html, body {
   }
 }
 
-#header {
-  border-bottom: 1px solid $gray-4;
-  padding: 30px;
+#header { 
+  margin-bottom: 100px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 100px;
+  }
   a {
     text-decoration: none;
   }
@@ -85,46 +87,20 @@ section {
   }
 }
  
-h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  // font-size: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 500;
-  color: $gray-1; 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-size: 100%; 
+  font-weight: 400; 
   line-height: 135%;
+  color: $black;
   a {
     text-decoration: none;
   }
 }
- 
 
-h1, .h1 {
-  font-size: 100%;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
+h1 {
+  margin: 0 0 0 1rem;
 }
-
-h2, .h2 {
-  line-height: 120%;
-  font-size: 2rem;
-  margin: 0; 
-  padding: 0;
-  @media screen and (min-width:768px) {
-    font-size: 2.3rem;
-  }
-}
-
-h3, .h3 {
-  font-size: 1.5rem;
-  line-height: 120%; 
-  margin: 0;
-  padding: 0;
-}
-
-h6, .h6 {
-  font-size: 100%;
-}
-
+  
 
 img {
   max-width: 100%;
@@ -139,7 +115,7 @@ strong {
  
 
 a {
-  color: inherit;
+  color: $black;
   text-decoration: none;
 } 
 
@@ -184,8 +160,7 @@ a[target=_blank] {
   }
 }
 
-main {
-  padding: 30px;
+main { 
 }
 
 .footnotes {
@@ -193,9 +168,7 @@ main {
   opacity: .6;
 }
  
-#footer {
-  background: $gray-6;
-  padding: 30px;
+#footer { 
   font-size: .8rem;
   @media screen and (min-width:768px) {
     margin-top: 100px;
@@ -230,6 +203,9 @@ main {
   a {
     text-decoration: none;
     border-bottom: 1px solid $gray-3;
+  }
+  header {
+    margin-bottom: 3rem;
   }
   footer {
     font-size: .8rem;
@@ -398,9 +374,9 @@ mark {
   margin: 3rem 0;
   @media screen and (min-width: 1400px) {
     // https://css-irl.info/breaking-out-of-a-central-wrapper/
-    width: 60vw;
-    margin-left: 50%;
-    transform: translate3d(-50%, 0, 0);
+    // width: 60vw;
+    // margin-left: 50%;
+    // transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -467,9 +443,13 @@ time {
 
 
 .wrapper {
-  margin: 50px 0;
+  margin: 40px;
+  max-width: 650px;
+  @media screen and (min-width: 768px) {
+    margin: 60px auto;
+  }
   @media screen and (min-width: 1400px) {
-    margin: 200px 0;
+    margin: 90px auto;
   }
 }
 
@@ -493,8 +473,15 @@ time {
 
 
  .portrait {
-  max-width: 50%;
-  @media screen and (min-width: 768px) {
-    max-width: 100%;
+  width: 50px;
+  border-radius: 50px;
+ }
+
+
+ .trail {
+  color: $gray-3;
+  &::before {
+    content: " / ";
+    margin: 0 .5rem;
   }
  }

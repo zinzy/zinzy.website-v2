@@ -2,72 +2,40 @@
 layout: default
 ---
 <section>
-  <div class="row">
-    <div class="col-md-4 mb-3 mb-md-0">
-      <div class="text-subtext">Yes</div>
-    </div>
-    <div class="col-md-8">
-      <p class="h2 mb-3">Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997.</p>
-      <p>I'm an IndieWeb enthusiast, and a Design Manager making tools for people at work. I'm a senior-but-silly researcher and designer, and I love to learn new things. Welcome to my website, where I come to link and think.</p>
-    </div>
+  <h2>About</h2>
+  <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. I'm an IndieWeb enthusiast, and a Design Manager making tools for people at work. A senior-but-silly researcher-designer, I love to learn new things. Welcome to my website, where I come to link and think.</p>
+  <div class="mt-3">
+    <a href="/about" class="button">Read about me</a>
   </div>
 </section>
 
 
 <section>
-  <div class="row">
-    <div class="col-md-4 mb-3 mb-md-0">
-      <div class="text-subtext">Journal</div>
-    </div>
-    <div class="col-md-8">
-      <ul class="entries">
-        {% for post in site.posts limit: 5 %} 
-          <li>
-            <div class="row">
-              <div class="col-3 col-sm-2">
-                <time class="dt-published" datetime="{{ post.date | date: "%y%m%d" }}">{{ post.date | date: "%y%m%d" }}</time></div>
-              <div class="col-9 col-sm-10">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </div>
-            </div> 
-          </li>
-        {% endfor %} 
-      </ul>
-      <div class="mt-4">
-        <a href="/journal" class="button">See all entries</a>
-      </div>
-    </div>
+  <h3>Journal</h3>
+  <ul class="entries">
+    {% for post in site.posts limit: 3 %} 
+      <li>
+        <div class="row">
+          <div class="col-3 col-sm-2">
+            <time class="dt-published" datetime="{{ post.date | date: "%-d %b, %Y" }}">{{ post.date | date: "%-d %b" }}</time></div>
+          <div class="col-9 col-sm-10">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </div>
+        </div> 
+      </li>
+    {% endfor %} 
+  </ul>
+  <div class="mt-3">
+    <a href="/journal" class="button">See all entries</a>
   </div>
 </section>
 
-<!-- <section>
-  <div class="row">
-    <div class="col-md-4 mb-3 mb-md-0">
-      <div class="text-subtext">Work</div>
-    </div>
-    <div class="col-md-8">
-      <p class="h3">I'm a Design Manager</p>
-      <p>I'm blessed with a profession that's a sweet mix of research, problem-solving, mentoring, and operations. Primarily, I thrive when there's collaborative progress to be made. Currently, I'm with Leeruniek, where we take a data-driven approach to equitable education.</p>
 
-      <div class="row mt-5">
-        {% for item in site.work %}  
-          <div class="col-6 mb-4 mb-xl-5">
-            <a href="{{item.url}}">
-            <img src="{{item.thumb}}" alt="">
-            <div class="d-none d-md-block">
-              <div>{{ item.title }}</div>
-              <div class="text-subtext">{{ item.subtitle }}</div>
-            </div>
-          </a>
-          </div> 
-        {% endfor %}
-      </div> 
-      <div class="mt-4">
-        <a href="/work" class="button">Learn how I work</a>
-      </div>
-    </div>
-  </div>
-</section> -->
+<section>
+  <h3 class="mb-3">For sixteen years, I've been solving business problems through research, design, development, and leadership</h3>   
+
+  <a href="/work" class="button">Learn how I work</a> 
+</section>
 
  
 

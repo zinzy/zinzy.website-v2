@@ -74,47 +74,55 @@
 
   <body>  
  
-    <header id="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1">
-        <div class="row">
-          <div class="col-8 col-md-6">
-            <a href="/">Zinzy Waleson Geene</a>
-          </div>
-          <div class="col-4 col-md-6">
-            
-            <nav>
-              <ul>
-                <li><a href='/about' >About</a></li>
-                <li><a href='/journal' >Journal</a></li>
-                <!-- <li><a href='/now' >Now</a></li>
-                <li><a href='/hello' >Hello</a></li> -->
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
+    <div class="wrapper">
+      <div class="container">
+        <header id="header"> 
+ 
+  <div class="d-flex align-items-center">
+    <div class="">
+      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1635344340/me/zinzy-1_zarupx.jpg" alt="" class="portrait"></a>
     </div>
-  </div>
-</header>
-    
-      <main>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-              <div class="wrapper">
-                <article class="h-entry">
-  <div class="row mb-5">
-    <div class="col-md-8 mb-5">
-      <header>
-        <h2 class="p-name">Sounds of home</h2>
-      </header>
+    <div class="flex-grow-1">
+      <h1>
+        <a href="/" class="d-inline-block">Zinzy Waleson Geene</a>
+
+        
+          <a href="/journal" class="trail">Journal</a>
+         
+         
+         
+      </h1>
     </div>
-    <div class="col-md-8"> 
-      <div id="notes-entry-container">
-        <content>
-          <p>Yesterday, as I swiped through my digital September issue of Wired, I came across a bit that immediately swung me back right into my first year of high school. Presented on the page where a Nokia 3310, a 56k modem, a Dot-matrix printer, a Tube TV, and a Speak &amp; Spell. It was a piece about the Museum of Endangered Sounds, a digital archive of sounds we all remember so, so well.</p>
+  </div>  
+
+
+  <!-- <div class="row">
+    <div class="col-8 col-md-6">
+      <a href="/">Zinzy Waleson Geene</a>
+    </div>
+    <div class="col-4 col-md-6">
+      
+      <nav>
+        <ul>
+          <li><a href='/about' >About</a></li>
+          <li><a href='/journal' >Journal</a></li>
+          <li><a href='/wiki' >Wiki</a></li>
+          <li><a href='/now' >Now</a></li>
+          <li><a href='/hello' >Hello</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div> -->
+</header>  
+        <main>
+          <article class="h-entry">
+  <header>
+    <h2 class="p-name">Sounds of home</h2>
+    <time class="dt-published" datetime="Wednesday, August 29, 2012">Wednesday, August 29, 2012</time>
+  </header>
+  <div id="notes-entry-container">
+    <content>
+      <p>Yesterday, as I swiped through my digital September issue of Wired, I came across a bit that immediately swung me back right into my first year of high school. Presented on the page where a Nokia 3310, a 56k modem, a Dot-matrix printer, a Tube TV, and a Speak &amp; Spell. It was a piece about the Museum of Endangered Sounds, a digital archive of sounds we all remember so, so well.</p>
 
 <p>Super geek Brendan Chilcutt (the nom de plume used by the collective who founded the museum), fearfully wonders:</p>
 
@@ -138,36 +146,33 @@
 
 <p>Furby was brought on the market right before Christmas (cheeky bastards), and some of my richer friends (five of the six girls in my group, I was the other one) had a Furby. So, my Tamagotchi and I remained friends as the other girls hung out at the park with their furbies, having tea parties in pink sweaters and SHUT UP. I don’t care.</p>
 
-        </content>
-      </div>
-    </div>
-    <div class="col-md-3 offset-md-1">
-      <aside>
-        <p class="metadata">First published on <time class="dt-published" datetime="Wednesday, August 29, 2012">Wednesday, August 29, 2012</time>
-        </p> 
-  
-  
-        <!-- 
-          
-          WIP
-          Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
-  
-          <ul>
-          
-        </ul> -->
-   
-         
-          <ul class="tags"> 
-              
-              <li><span class="badge"><a href="/tag/archiving">archiving</a></span></li>
-              <li><span class="badge"><a href="/tag/likes">likes</a></span></li>
-              <li><span class="badge"><a href="/tag/sound">sound</a></span></li>
-               
-          </ul>  
-        
-      </aside>
-    </div>
+    </content>
   </div>
+
+  <aside>
+    <p class="metadata">First published on  
+    </p> 
+
+
+    <!-- 
+      
+      WIP
+      Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
+
+      <ul>
+      
+    </ul> -->
+
+     
+      <ul class="tags"> 
+          
+          <li><span class="badge"><a href="/tag/archiving">archiving</a></span></li>
+          <li><span class="badge"><a href="/tag/likes">likes</a></span></li>
+          <li><span class="badge"><a href="/tag/sound">sound</a></span></li>
+           
+      </ul>  
+    
+  </aside>
 </article>
  
 
@@ -198,72 +203,9 @@
     </div>
   </div> 
 </div> 
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer id="footer"> 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1">
-        <div class="row">
-          <div class="col-md-6">
-            <p class="h-card m-0 p-0">I'm Zinzy Waleson Geene (they/she), a researcher, designer, queer facilitator, and IndieWeb advocate from <span class="p-locality">Amsterdam</span>.</span></p>
-  
-        <div class="indieweb mt-3">
-          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-          <span class="mx-1 d-inline-block">IndieWeb</span>
-          <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-        </div> 
-          </div>
-          <div class="col-md-6 text-md-end">
-            <ul>
-              <li><a href="/now">Now</a></li>
-              <li><a href="/hello">Hello</a></li>
-              <!-- <li><a href="https://tech.lgbt/@zinzy" target="_blank">Mastodon</a></li>
-              <li><a href="https://nl.linkedin.com/in/zinzy" target="_blank">LinkedIn</a></li>
-              <li><a href="https://read.cv/zinzy" target="_blank">Read.cv</a></li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </main> 
 
-
-
-
-
-
-
- 
-
-
-  <!-- <div class="row indieweb">
-    <div class="col-6">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        IndieWeb
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-    </div>
-    <div class="col-6 text-end">
-      <span>
-        <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-        <script src="https://yesterweb.org/js/widget.js"></script>
-      </span>
-    </div>
-  </div> -->
- 
-</footer>    
-
-
-
-  <!-- <p>
-    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition </a></p> -->  
-
-      <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+        <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>
     /* content a.internal-link {
       border-color: #8b88e6;
@@ -403,6 +345,9 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
+      </div>
+    </div>
+    
   </body>
 </html>
 

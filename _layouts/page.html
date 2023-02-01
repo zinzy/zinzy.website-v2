@@ -3,19 +3,10 @@ layout: default
 ---
 
 <article class="h-entry"> 
-  <div class="row mb-5 mb-5">
-    <h2 class="p-name">{{ page.title }}</h2>
-  </div>
-  <div class="row">
-    <div class="col-md-3 mb-3 mb-md-0">
-      {{ page.introduction | markdownify }}
-    </div>
-    <div class="col-md-8 offset-md-1">
-      <div id="notes-entry-container">
-        <content class="e-content"> 
-          {{ content }}
-        </content> 
-      </div> 
-    </div>
+  <h2 class="p-name">{{ page.title }}</h2>
+  <div id="notes-entry-container">
+    <content class="e-content"> 
+      {{ content }}
+    </content> 
   </div> 
 </article>

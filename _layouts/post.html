@@ -5,55 +5,49 @@ layout: default
 
 
 <article class="h-entry">
-  <div class="row mb-5">
-    <div class="col-md-8 mb-5">
-      <header>
-        <h2 class="p-name">{{ page.title }}</h2>
-      </header>
-    </div>
-    <div class="col-md-8"> 
-      <div id="notes-entry-container">
-        <content>
-          {{ content }}
-        </content>
-      </div>
-    </div>
-    <div class="col-md-3 offset-md-1">
-      <aside>
-        <p class="metadata">First published on <time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
-        </p> 
-  
-  
-        <!-- 
-          
-          WIP
-          Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
-  
-          <ul>
-          {% for space in site.data.spaces %}
-            <li>
-              <h6>{{space.name}}</h6>
-              <ul>
-                {% for tag in space.tags %}
-                  <li>{{tag}}</li>
-                {% endfor %} 
-              </ul>
-            </li>
-          {% endfor %}
-        </ul> -->
-   
-        {% if page.tags.size > 0 %} 
-          <ul class="tags"> 
-              {% assign sorted_tags = page.tags | sort %}
-              {% for tag in sorted_tags %}
-              {%- assign t = tag | first -%}
-                <li><span class="badge"><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span></li>
-              {% endfor %} 
-          </ul>  
-        {% endif %}
-      </aside>
-    </div>
+  <header>
+    <h2 class="p-name">{{ page.title }}</h2>
+    <time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+  </header>
+  <div id="notes-entry-container">
+    <content>
+      {{ content }}
+    </content>
   </div>
+
+  <aside>
+    <p class="metadata">First published on  
+    </p> 
+
+
+    <!-- 
+      
+      WIP
+      Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
+
+      <ul>
+      {% for space in site.data.spaces %}
+        <li>
+          <h6>{{space.name}}</h6>
+          <ul>
+            {% for tag in space.tags %}
+              <li>{{tag}}</li>
+            {% endfor %} 
+          </ul>
+        </li>
+      {% endfor %}
+    </ul> -->
+
+    {% if page.tags.size > 0 %} 
+      <ul class="tags"> 
+          {% assign sorted_tags = page.tags | sort %}
+          {% for tag in sorted_tags %}
+          {%- assign t = tag | first -%}
+            <li><span class="badge"><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span></li>
+          {% endfor %} 
+      </ul>  
+    {% endif %}
+  </aside>
 </article>
  
 
