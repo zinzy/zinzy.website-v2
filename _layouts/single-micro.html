@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="h-entry">
+  <header>
+    <time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  </header>
+  <div id="notes-entry-container">
+    <content>
+      {{ content }}
+    </content>
+  </div>
+
+  <footer>
+    {% if page.tags.size > 0 %} 
+      <ul class="tags"> 
+          {% assign sorted_tags = page.tags | sort %}
+          {% for tag in sorted_tags %}
+          {%- assign t = tag | first -%}
+            <li><span class="badge"><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span></li>
+          {% endfor %} 
+      </ul>  
+    {% endif %}
+    {% include widget-responses.html %}  
+
+
+
+<div class="mt-5 border-top pt-5">
+  <div class="row pagination"> 
+      <div class="col-6">
+        <div class="row">
+          <div class="col-md-6">
+            {% if page.next.url %}
+              <a class="" href="{{page.next.url}}">
+                <div class="text-subtext">Newer</div>
+                <div>{{page.next.title}}</div> 
+              </a>
+            {% endif %} 
+          </div>
+        </div>
+      </div>
+      <div class="col-6 text-end"> 
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
+            <a class="" href="{{page.previous.url}}">
+              <div class="text-subtext">Older</div>
+              <div>{{page.previous.title}}</div> 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div> 
+  </footer>
+
+
+</article>
+ 
+ 

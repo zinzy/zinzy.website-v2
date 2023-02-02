@@ -1,12 +1,17 @@
 ---
-tagline: "Public notebook / digital garden / personal wiki / choose your own adventure"
+tagline: "Among other things, this website contains a selection of my working notes, modified for public consumption."
 tags:
 - meta
 - digital garden
 ---
-Among other things, this website contains a selection of my working notes, modified for public consumption. There's no index of these notes, so instead I'm happy to provide you starting points for a scavenger hunt.
+There's no index of these notes, so instead I'm happy to provide you starting points for a scavenger hunt.
 
-- Before moving to [[Amsterdam]] eight years ago, I lived in [[Haarlem]], [[Utrecht]], and [[Eindhoven]].
-- As a person working in [[Design management]], I employ a variety of [[My skills]] to improve collaboration and [[Design thinking]]. I have experience with a number of [[UX design methods]] and [[UX research methods]].
-- When I'm not at work, I enjoy [[Reading]], [[Making music]], [[Cinema]], [[Gardening]], [[Learning]], [[Biking]]
+- I live in [[Amsterdam]]
+- I work in [[Design management]]
+- For professional purposes, I made a list of [[My skills]]
+- I use different [[UX design methods]]
+- I also use different [[UX research methods]]
+- I like [[Reading]]
+- I enjoy [[Cinema]]
+- I love [[Making music]]
 - I keep a growing list of things I (no longer) believe in my [[Codex]]

@@ -1,0 +1,20 @@
+---
+layout: default
+--- 
+<article>
+  <header>
+    <h2>Micro</h2>
+    {{content}}
+  </header>
+  
+  <ul class="entries mt-3">
+    {% for post in site.micro %} 
+    <li>
+      <div class="mb-3">
+        <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      </div>
+      {{post.content}}
+    </li>
+    {% endfor %} 
+  </ul>
+</article>

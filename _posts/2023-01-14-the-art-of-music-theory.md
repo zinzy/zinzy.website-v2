@@ -7,7 +7,7 @@ tags:
 - music
 - piano
 - learning
-- neurodiversity
+- neurodivergence
 ---
 In a few days, I'll hit my one-month mark on the piano. When I bought it and began playing, I made sure to keep an open mind about how I learn best; not following any particular method, but tailoring practices to my interests, speed, challenges, and desires. 
 

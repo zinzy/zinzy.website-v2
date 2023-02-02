@@ -28,7 +28,7 @@ In particular, the people below have a special place in my heart:
  
 - Derek Kedziora            https://derekkedziora.com
 - Harry Cresswell           https://harrycresswell.com 
-- Maggie Appleton           https://maggieappleton.com
+- Maxime Vaillancourt       https://maximevaillancourt.com
 - Matias Kinnunen           https://mtsknn.fi
 - Simone Silvestroni        https://simonesilvestroni.com
 - Stephan Ango              https://stephanango.com 
@@ -45,13 +45,9 @@ Standards:
 - CSS3
 
 Tools: 
+- Cloudinary                https://cloudinary.com
 - Github                    https://github.com
-- Git submodule             https://mtsknn.fi/blog/netlify-updating-private-git-submodule 
 - Jekyll                    https://jekyllrb.com  
 - Netlify                   https://www.netlify.com
-- Netlify build hook        https://mtsknn.fi/blog/how-to-trigger-daily-netlify-builds-using-github-actions 
-- Obsidian                  https://obsidian.md
-- Obsidian-git              https://github.com/denolehov/obsidian-git
-- Push git
-  subdirectory as branch    https://github.com/marketplace/actions/push-git-subdirectory-as-branch 
+- Obsidian                  https://obsidian.md 
 - Template                  https://github.com/maximevaillancourt/digital-garden-jekyll-template 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "When to create low-fidelity designs.md",
+                "file": "Wiki.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "When to create low-fidelity designs.md",
+                "file": "Wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "When to create low-fidelity designs.md",
+                "file": "Wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "When to create low-fidelity designs.md"
+                "file": "Wiki.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "3c1a5096a0839ee6",
   "lastOpenFiles": [
-    "My GTD trigger list.md",
+    "Amsterdam.md",
+    "Wiki.md",
     "When to create low-fidelity designs.md",
+    "My GTD trigger list.md",
     "My interests.md",
     "My skills.md",
     "UXR repository.md",
     "How I plan my week.md",
-    "Wiki.md",
     "Notebook.md",
-    "Getting along with stakeholders.md",
-    "Stakeholder collaboration on complex enterprise SaaS.md"
+    "Getting along with stakeholders.md"
   ]
 }

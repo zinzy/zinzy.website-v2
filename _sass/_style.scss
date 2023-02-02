@@ -194,6 +194,9 @@ article {
   img {
     margin: 2rem 0;
   }
+  h3 {
+    margin-top: 2rem;
+  }
   &.work {
     ul {
       li {
@@ -236,22 +239,15 @@ figure {
   
 
 .tags {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline-block;
-    line-height: 100%;
-    margin: 0 .5rem .5rem 0;
-    a {
-      border: 0;
-      text-decoration: none;
-      -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-      page-break-inside: avoid; /* Firefox */
-         break-inside: avoid; /* IE 10+ */
-      &:hover {
-        text-decoration: none;
-      }
+  span {
+    &:not(:last-child):after {
+      content: ", "
+    }
+    &:last-child:before {
+      content: "and "
+    }
+    &:last-child:after {
+      content: "."
     }
   }
 }
@@ -259,7 +255,7 @@ figure {
 hr {
   border: 0;
   height: 1px;
-  background-color: $gray-4;
+  background-color: $gray-3;
   margin: 3rem auto;
 }
 
@@ -394,7 +390,7 @@ time {
 
 
 .wrapper {
-  margin: 20px;
+  margin: 40px 20px;
   max-width: 650px;
   @media screen and (min-width: 768px) {
     margin: 60px auto;

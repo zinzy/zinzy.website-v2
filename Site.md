@@ -2,13 +2,28 @@
 title: "Site"
 layout: page
 ---
-I grew up on the Internet in a time when social media meant building your own photo blog. This instilled in me a deep appreciation for hand-crafted websites, one of which you're visiting right now.
+I grew up on the Internet in a time when social media meant building your own photo blog. This instilled in me a deep appreciation for hand-crafted websites. This is one of them.
+
+---
 
 ### Technical details
-- I write this website in [Markdown](https://www.markdownguide.org/getting-started/), which [Jekyll {{site.jekyllversion}}](https://jekyllrb.com/) turns into a website
-- The code lives in [Github](https://github.com/zinzy) and is deployed using [Netlify](https://www.netlify.com/)
-- Photographs are served through [Cloudinary](https://cloudinary.com/)
-- I've styled 
+A full overview of the nerdiest things about this website can be found in my [humans.txt](/humans.txt) file. 
+
+---
+
+### Writing
+Much of what I learn and think works best for me if I connect it to existing ideas in some way. I do so either in a paper notebook, or in my Obsidian vault. If I want to make any of it suitable for public consumption, I go into Visual Studio Code, edit a Markdown file, and push it to Github.
+
+This website no longer supports continuous deployment of a content repository. It used to update hourly with any changes I was making to my actual personal knowledge management system. [I found that wasn't working for me](https://tech.lgbt/@zinzy/109762215863198767).
+
+---
+
+### Design
+The layout, color scheme, typography, and general user interface of this website are simple. It fits with my aesthetics, and it works particularly well for the portfolio part of my website, which is colorful enough in itself.
+
+I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
+
+---
 
 ### To do
 - Reinstate digital garden

@@ -64,6 +64,9 @@ sass:
   style:            :compressed
 
 collections: 
+  micro:
+    output: true
+    permalink: /:year/:month/:day/:hour/:minute/:second
   notes:
     output: true
     permalink: /:slug
@@ -83,6 +86,10 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page" 
+  - scope:
+      path: "_micro/**/*.md"
+    values:
+      layout: "single-micro" 
   - scope:
       path: "_notes/**/*.md"
     values:

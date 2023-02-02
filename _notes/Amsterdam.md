@@ -1,8 +1,12 @@
 ---
-tagline: "The city I call home"
-introduction: "Since 2015, I've been happy to call Amsterdam, The Netherlands my home. My partner Anja and I live in Indische Buurt, a fine and diverse neighborhood."
+tagline: "Since 2015, I've been happy to call Amsterdam, The Netherlands my home. My partner Anja and I live in Indische Buurt, a fine and diverse neighborhood."
 tags: 
 - places
+---
+Everybody I know has a strong opinion on Amsterdam. There's no "meh, whatever". People either love it or are eager to get home after being there for a set number of hours. Some reasons I know people love Amsterdam: access to cultural events and places, big city many people, things *happen* here.
+
+I love Amsterdam because of how I fit in there. Having grown up in the southern countryside (or Dutch Florida, as I like to say), I love that, as a fat queer person of color, I don't really stand out in this city. People mind their business, but not so much that I feel isolated. 
+
 ---
 
 ### Favorites 
