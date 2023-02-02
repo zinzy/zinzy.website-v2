@@ -21,7 +21,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="/styles.css">
 
   
@@ -78,14 +78,13 @@
       <div class="container">
         <header id="header"> 
  
-  <div class="d-flex align-items-center">
+  <div class="d-flex logo">
     <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1635344340/me/zinzy-1_zarupx.jpg" alt="" class="portrait"></a>
+      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
     </div>
     <div class="flex-grow-1">
       <h1>
-        <a href="/" class="d-inline-block">Zinzy Waleson Geene</a>
-
+        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
         
           <a href="/journal" class="trail">Journal</a>
          
@@ -118,7 +117,7 @@
           <article class="h-entry">
   <header>
     <h2 class="p-name">That person</h2>
-    <time class="dt-published" datetime="Thursday, October 18, 2012">Thursday, October 18, 2012</time>
+    <time class="dt-published" datetime="October 18, 2012">October 18, 2012</time>
   </header>
   <div id="notes-entry-container">
     <content>
@@ -127,20 +126,7 @@
     </content>
   </div>
 
-  <aside>
-    <p class="metadata">First published on  
-    </p> 
-
-
-    <!-- 
-      
-      WIP
-      Goal: conditional styling for tags based on their appearance in one of the spaces in _data/spaces.yml
-
-      <ul>
-      
-    </ul> -->
-
+  <footer>
      
       <ul class="tags"> 
           
@@ -149,38 +135,94 @@
            
       </ul>  
     
-  </aside>
-</article>
- 
+    <section class="webmentions">
+    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=That%20person" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+    <p class="p-0 m-0">Eager to let me know what you think? <a href="mailto:zinzy@pm.me">Email me a reply</a> or send a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>.</p>
+    <div id="webmentions"></div>
+</section>  
+
 
 
 <div class="mt-5 border-top pt-5">
-<div class="row pagination"> 
-    <div class="col-6">
-      <div class="row">
-        <div class="col-md-6">
-          
-            <a class="" href="/2013/12/20/commonplace-book/">
-              <div class="text-subtext">Newer</div>
-              <div>Commonplace book</div> 
+  <div class="row pagination"> 
+      <div class="col-6">
+        <div class="row">
+          <div class="col-md-6">
+            
+              <a class="" href="/2013/12/20/commonplace-book/">
+                <div class="text-subtext">Newer</div>
+                <div>Commonplace book</div> 
+              </a>
+             
+          </div>
+        </div>
+      </div>
+      <div class="col-6 text-end"> 
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
+            <a class="" href="/2012/09/26/no-opinion/">
+              <div class="text-subtext">Older</div>
+              <div>Things on which I have exactly no opinion</div> 
             </a>
-           
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-6 text-end"> 
-      <div class="row">
-        <div class="col-md-6 offset-md-6">
-          <a class="" href="/2012/09/26/no-opinion/">
-            <div class="text-subtext">Older</div>
-            <div>Things on which I have exactly no opinion</div> 
-          </a>
-        </div>
-      </div>
-    </div>
+    </div> 
   </div> 
-</div> 
+  </footer>
+
+
+</article>
+ 
+ 
         </main> 
+
+        <footer id="footer"> 
+  <div class="indieweb">
+    <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+    <span class="mx-1 d-inline-block">You should surf the IndieWeb</span>
+    <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+  </div> 
+
+<ul class="h-card d-none">
+  <li class="p-name">Zinzy <span class="p-family-name">Waleson Geene</span></li>
+  <li class=""><a class="u-url" href="zinzy.website">zinzy.website</a></li>
+  <li class="p-locality">Amsterdam</li>
+  <li class="p-country-name">The Netherlands</li>
+  <li class="p-job-title">Design Manager</li>
+  <li class="p-gender-identity">Non-binary</li>
+</ul> 
+
+
+
+
+
+ 
+
+
+  <!-- <div class="row indieweb">
+    <div class="col-6">
+      <span>
+        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
+        IndieWeb
+        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
+      </span>
+    </div>
+    <div class="col-6 text-end">
+      <span>
+        <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
+        <script src="https://yesterweb.org/js/widget.js"></script>
+      </span>
+    </div>
+  </div> -->
+ 
+</footer>    
+
+
+
+  <!-- <p>
+    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition </a></p> -->  
+
 
         <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>

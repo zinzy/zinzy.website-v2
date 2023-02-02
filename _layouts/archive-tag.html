@@ -1,17 +1,19 @@
 ---
 layout: default
 --- 
-<h2 class="p-name">Things I've written about {{ page.title }}</h2>
-<ul class="entries">
+<h2 class="p-name mb-5">Things I've written about {{ page.title }}</h2>
+ 
+<ul class="entries mt-3">
   {% for post in page.posts %} 
   <li>
-    <div class="row">
-      <div class="col-3 col-sm-2">
-        <time class="dt-published" datetime="{{ post.date | date: "%y%m%d" }}">{{ post.date | date: "%y%m%d" }}</time></div>
-      <div class="col-9 col-sm-10">
+    <div class="row mb-3 mb-md-0">
+      <div class="col-md-3">
+        <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      </div>
+      <div class="col-md-9">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
     </div> 
   </li>
   {% endfor %} 
-</ul> 
+</ul>

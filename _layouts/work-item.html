@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="h-entry">
+<article class="h-entry work">
   <h2 class="">{{ page.title }}</h2>
   <p class="text-subtext">{{ page.subtitle }}</p>
   {% if page.tags.size > 0 %} 
@@ -10,8 +10,9 @@ layout: default
         {%- assign t = tag | first -%}
 
           {% if tag contains "design" %}<li class="badge-purple">{{tag}}</li>{% endif %}
-          {% if tag contains "development" %}<li class="badge-pink">{{tag}}</li>{% endif %}
+          {% if tag contains "front-end" %}<li class="badge-pink">{{tag}}</li>{% endif %}
           {% if tag contains "management" %}<li class="badge-blue">{{tag}}</li>{% endif %}
+          {% if tag contains "lead" %}<li class="badge-blue">{{tag}}</li>{% endif %}
 
           
         {% endfor %} 
@@ -25,9 +26,8 @@ layout: default
     <img src="{{page.hero}}" alt="">
   </div>
 
-  <div class="col-xl-8">
-    {{content}}
-  </div>
+
+  {{content}}
 
 
 </article>

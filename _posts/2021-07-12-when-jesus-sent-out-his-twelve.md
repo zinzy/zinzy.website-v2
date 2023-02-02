@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2021-07-12
 title: "When Jesus sent out his Twelve"
 excerpt: ""

@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2021-07-13
 title: "The old sharing"
 excerpt: ""

@@ -1,6 +1,7 @@
 ---
-date: 2021-07-18
+layout: post
 title: "A believable truth"
+date: 2021-07-18 
 excerpt: ""
 tags:
 - amsterdam
@@ -14,7 +15,7 @@ I never get much reading done unless I'm sleeping elsewhere. Most often, I assoc
 
 A had booked a suite for my birthday at Okura, and six months after I turn 33, Covid measures are finally so mild that we actually get to do it. It's on the sixteenth floor, overlooking the Amsterdam Centre and West Side. We eat like royalty, and fall asleep watching the sunset from our California King. I'm feeling like a million bucks.
 
-Whenever we sleep elsewhere, I get overwhelmed with the endless possibilities of the things I can read. Usually, I manage to sneak five books into a suitcase, but for this weekend, I've limited myself to one: _[Mary Magdalene Revealed](https://www.goodreads.com/en/book/show/42452986).
+Whenever we sleep elsewhere, I get overwhelmed with the endless possibilities of the things I can read. Usually, I manage to sneak five books into a suitcase, but for this weekend, I've limited myself to one: _[Mary Magdalene Revealed](https://www.goodreads.com/en/book/show/42452986)_.
 
 It's a remarkable read, particularly given that the author Meggan Watterson got an MDiv and not an MFA in writing. Her words flow like a river, entirely sure of where she's going. Every now and then, I'll read a portion aloud to A, to share the joy of reading a theological work that is as inclusive and self-aware as it is unreserved and educational.
 

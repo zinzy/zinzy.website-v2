@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2021-01-24
 title: "Films about White people"
 excerpt: ""

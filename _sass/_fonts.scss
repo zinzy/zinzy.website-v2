@@ -1,26 +1,34 @@
 @font-face {
-    font-family: 'Source Serif Pro';
-    src: url('../assets/fonts/SourceSerifPro-SemiBoldIt.eot');
-    src: url('../assets/fonts/SourceSerifPro-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/SourceSerifPro-SemiBoldIt.woff2') format('woff2'),
-        url('../assets/fonts/SourceSerifPro-SemiBoldIt.woff') format('woff'),
-        url('../assets/fonts/SourceSerifPro-SemiBoldIt.ttf') format('truetype'),
-        url('../assets/fonts/SourceSerifPro-SemiBoldIt.svg#SourceSerifPro-SemiBoldIt') format('svg');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('../assets/fonts/SourceSerifPro-SemiBold.eot');
-    src: url('../assets/fonts/SourceSerifPro-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/SourceSerifPro-SemiBold.woff2') format('woff2'),
-        url('../assets/fonts/SourceSerifPro-SemiBold.woff') format('woff'),
-        url('../assets/fonts/SourceSerifPro-SemiBold.ttf') format('truetype'),
-        url('../assets/fonts/SourceSerifPro-SemiBold.svg#SourceSerifPro-SemiBold') format('svg');
-    font-weight: 600;
+    font-family: "FoundersGrotesk";
+    src: url("../assets/fonts/foundersGroteskLight.woff2") format("woff2");
+    font-weight: 300;
     font-style: normal;
-    font-display: swap;
-}
-
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: "FoundersGrotesk";
+    src: url("../assets/fonts/foundersGroteskRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: "FoundersGrotesk";
+    src: url("../assets/fonts/foundersGroteskMedium.woff2") format("woff2");
+    font-weight: 500;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: "Lars";
+    src: url("../assets/fonts/Lars-Light.woff2") format("woff2");
+    font-weight: 400;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: "GraphikRegular";
+    src: url("../assets/fonts/GraphikRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-stretch: normal;
+  }
+  
+  /*# sourceMappingURL=foundersGrotesk.css.map */
+  

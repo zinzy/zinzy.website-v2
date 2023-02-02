@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2021-04-14
 title: "Morning habits"
 excerpt: ""

@@ -4,8 +4,19 @@ layout: default
 
 <article class="h-entry">
 
-  <h2 class="p-name">{{ page.title }}</h2>
-  <div class="metadata note-description">{{ page.tagline }}</div>
+  <header>
+    <h2 class="p-name">{{ page.title }}</h2>
+    <div class="metadata note-description">{{ page.tagline }}</div>
+
+    {% if page.audience %}
+      <div class="card p-3 mt-5 small">
+        <h3 class="h6">Intended audience</h3>
+        <p>{{page.audience}}</p>
+      </div>
+
+    {% endif %}
+
+  </header>
 
   <div id="notes-entry-container">
     <content>
@@ -13,21 +24,19 @@ layout: default
     </content>
   </div>
 
-  <aside> 
-    <p class="mt-0">This note is part of my {{ site.notes.size }} and ever-growing <a href="/notebook">public working notes</a>.</p>
+  <footer> 
+    <p class="mt-0">This note is part of my {{ site.notes.size }} and ever-growing <a href="/wiki">public working notes</a>.</p>
 
     {% if page.backlinks.size > 0 %}
-    <h3 class="h6 mt-4 mb-3">Linking here</h3>
+    <h3 class="h6 mt-4 mb-3">Linked mentions</h3>
     <ul class="backlinks">
       {% for backlink in page.backlinks %}
       <li>
-      <a  href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}: <span class="text-subtext">{{ backlink.tagline }}</span>
-      </a>
+      <a  href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
       </li>
-      {% endfor %}
-      {% else %}
-    {% endif %}
+      {% endfor %} 
     </ul>   
+    {% endif %}
 
   <!-- <div class="mt-5">
     {% if page.tags.size > 0 %} 
@@ -39,5 +48,5 @@ layout: default
     </ul>  
   {% endif %}
   </div> -->
-  </aside>
+  </footer>
     </article>

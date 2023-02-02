@@ -84,16 +84,6 @@ tags:
 	- Information
 	- RSVPs
 
- 
-
-**Wachten op**
-- Bestellingen
-- Reparaties
-- Terugbetalingen
-- Geleende items
-- Informatie
-- RSVP's
-
 **Huishouden**
 - Huis
 - Reparaties

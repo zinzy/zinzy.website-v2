@@ -1,11 +1,12 @@
 title: Zinzy Waleson Geene
 description: Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.
+jekyllversion: 4.3.2
 include:
   - _posts
   - _notes
 exclude:             
   - _includes/notes_graph.json
-  - assets/js/webmention.js
+ # - assets/js/webmention.js
 url: https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub

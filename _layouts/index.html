@@ -2,40 +2,78 @@
 layout: default
 ---
 <section>
-  <h2>About</h2>
-  <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. I'm an IndieWeb enthusiast, and a Design Manager making tools for people at work. A senior-but-silly researcher-designer, I love to learn new things. Welcome to my website, where I come to link and think.</p>
-  <div class="mt-3">
-    <a href="/about" class="button">Read about me</a>
-  </div>
+  <h2 class="mb-3">About</h2>
+  <p>Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997. I'm an IndieWeb enthusiast, and a Design Manager making tools for people at work.</p>
+  <p>My biggest strength is also my biggest weakness — I see things and ask "Okay great, but why?" Welcome to my website, where I come to link and think. <a href="/about" class="">Learn more</a></p>
 </section>
 
-
 <section>
-  <h3>Journal</h3>
+  <h3 class="mb-3">Journal</h3>
   <ul class="entries">
-    {% for post in site.posts limit: 3 %} 
-      <li>
-        <div class="row">
-          <div class="col-3 col-sm-2">
-            <time class="dt-published" datetime="{{ post.date | date: "%-d %b, %Y" }}">{{ post.date | date: "%-d %b" }}</time></div>
-          <div class="col-9 col-sm-10">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </div>
-        </div> 
-      </li>
+    {% for post in site.posts limit: 5 %} 
+    <li>
+      <div class="row mb-3 mb-md-0">
+        <div class="col-md-3">
+          <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        </div>
+        <div class="col-md-9">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+      </div> 
+    </li>
     {% endfor %} 
   </ul>
   <div class="mt-3">
-    <a href="/journal" class="button">See all entries</a>
+    <a href="/journal" class="">Visit archive</a>
   </div>
 </section>
 
+<section>
+  <h3 class="mb-3">Other things</h3>
+  <ul class="">
+    <li><a href="/now">Now</a>: a periodically-updated overview of what I'm about these days</li>
+    <li><a href="/hello">Hello</a>: information on how to contact me</li>
+    <!-- <li><a href="/wiki">Wiki</a>: entry point into my working notes</li> -->
+  </ul> 
+</section>
+
+
+<!-- <section>
+  <div class="mb-5">
+    <h3>Work</h3>
+    <p>I'm blessed with a profession that's a sweet mix of some of the things I love: empathizing with people who use a product or service, crafting solutions for their problems, mentoring the people who do the same, and organizing how we do our work. <a href="/work" class="">Learn about my work</a></p>
+  </div>
+
+  <div class="row">
+    {% for item in site.work %}  
+      <div class="col-md-6 mb-4 mb-xl-5">
+        <a href="{{item.url}}">
+        <img src="{{item.thumb}}" alt=""> 
+      </a>
+      </div> 
+    {% endfor %}
+  </div> 
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 
 <section>
-  <h3 class="mb-3">For sixteen years, I've been solving business problems through research, design, development, and leadership</h3>   
-
-  <a href="/work" class="button">Learn how I work</a> 
-</section>
+  <h3>Work</h3>   
+  <p>I craft tools for people at work. For sixteen years, I've been solving business problems through research, design, development, and leadership.</p>
+  <div class="mt-3"><a href="/work" class="button">Learn how I work</a> </div>
+</section> -->
 
  
 
