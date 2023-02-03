@@ -66,7 +66,7 @@ sass:
 collections: 
   micro:
     output: true
-    permalink: /:year/:month/:day/:hour/:minute/:second
+    permalink: /:year-:month-:day-:hour-:minute-:second
   notes:
     output: true
     permalink: /:slug
@@ -88,6 +88,7 @@ defaults:
       layout: "page" 
   - scope:
       path: "_micro/**/*.md"
+      title: ":year-:month-:day-:hour-:minute-:second"
     values:
       layout: "single-micro" 
   - scope:

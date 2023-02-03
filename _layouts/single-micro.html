@@ -12,47 +12,44 @@ layout: default
   </div>
 
   <footer>
-    {% if page.tags.size > 0 %} 
-      <ul class="tags"> 
+    <p>
+      <span>{{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. Feel free to read more about {% if page.tags.size > 0 %} </span>
+      <span class="tags"> 
           {% assign sorted_tags = page.tags | sort %}
           {% for tag in sorted_tags %}
           {%- assign t = tag | first -%}
-            <li><span class="badge"><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span></li>
+            <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
           {% endfor %} 
-      </ul>  
+      </span>  
     {% endif %}
+    </p>
+
+
+
+     
     {% include widget-responses.html %}  
 
-
-
-<div class="mt-5 border-top pt-5">
-  <div class="row pagination"> 
-      <div class="col-6">
-        <div class="row">
-          <div class="col-md-6">
-            {% if page.next.url %}
-              <a class="" href="{{page.next.url}}">
-                <div class="text-subtext">Newer</div>
-                <div>{{page.next.title}}</div> 
-              </a>
-            {% endif %} 
+    <div class="mt-5">
+      <div class="row pagination"> 
+          <div class="col-6">
+            <div class="row">
+              <div class="col-md-6">
+                {% if page.next.url %}
+                  <a class="" href="{{page.next.url}}">
+                    <div class="text-subtext">Newer</div> 
+                  </a>
+                {% endif %} 
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-6 text-end"> 
-        <div class="row">
-          <div class="col-md-6 offset-md-6">
+          <div class="col-6 text-end"> 
             <a class="" href="{{page.previous.url}}">
-              <div class="text-subtext">Older</div>
-              <div>{{page.previous.title}}</div> 
+              <div class="text-subtext">Older</div> 
             </a>
           </div>
-        </div>
-      </div>
-    </div> 
-  </div> 
+        </div> 
+      </div> 
   </footer>
-
 
 </article>
  

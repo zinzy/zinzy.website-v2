@@ -71,6 +71,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: $black;
   a {
     text-decoration: none; 
+    border: 0;
   }
 }
 
@@ -179,17 +180,10 @@ main {
 article { 
   header {
     margin-bottom: 3rem;
-  }
-  a {
-    text-decoration: none;
-    border-bottom: 1px solid $gray-3;
   } 
   footer {
     font-size: .8rem;
     margin-top: 6rem; 
-  }
-  p:last-child {
-    margin-bottom: 0;
   } 
   img {
     margin: 2rem 0;
@@ -244,7 +238,7 @@ figure {
       content: ", "
     }
     &:last-child:before {
-      content: "and "
+      content: "or "
     }
     &:last-child:after {
       content: "."

@@ -25,6 +25,12 @@ I love narrow, single-column personal websites. They tell me: "hey, I'm just a p
 
 ---
 
+### Copyright
+
+---
+
+### Privacy
+
 ### To do
 - Reinstate digital garden
 - Type-specific tag colors
