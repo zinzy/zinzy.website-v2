@@ -1,6 +1,9 @@
 title: Zinzy Waleson Geene
 description: Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.
 jekyllversion: 4.3.2
+timezone: Europe/Amsterdam
+
+
 include:
   - _posts
   - _notes
