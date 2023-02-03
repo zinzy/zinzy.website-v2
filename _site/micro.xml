@@ -11,16 +11,18 @@
     
     
       <item>
-        <title>February 3, 2023 10:57</title>
+        <title>February 3, 2023 15:05</title>
         <author> ()</author>
-        <description><![CDATA[<p>Babe, I’m testing an #IndieWeb POSSE, gimme a sec, okay?</p>
+        <description><![CDATA[<p>This is a test.</p>
 ]]></description>
-        <pubDate>February 3, 2023 10:57</pubDate>
-        <link>http://0.0.0.0:4000/2023-02-03-10-57-19</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-02-03-10-57-19</guid>
+        <pubDate>February 3, 2023 15:05</pubDate>
+        <link>http://0.0.0.0:4000/2023-02-03-15-05-03</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023-02-03-15-05-03</guid>
         
           
         
+        
+          <category>Test</category>
         
       </item>
     
