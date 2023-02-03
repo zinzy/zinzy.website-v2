@@ -11,14 +11,13 @@ layout: none
     <language>{{ site.lang }}</language>
     <copyright>{{ site.url }}/site/#copyright</copyright>
     <atom:link href="{{ site.url }}/micro.xml" rel="self" type="application/rss+xml" />
-    {% assign posts = site.micro | sort: 'date' | reverse %}
-    {% for post in site.micro %}
+    {% assign micro = site.micro | sort: 'date' | reverse %}
+    {% for post in micro %}
       <item>
         <title>{{ post.date | date: "%B %-d, %Y %H:%M" }}</title>
         <author>{{ site.author.email }} ({{ site.author.name }})</author>
-        <description><![CDATA[{{ post.content }}]]>
-        </description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description><![CDATA[{{ post.content }}]]></description>
+        <pubDate>{{ post.date | date: "%B %-d, %Y %H:%M" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         {% if post.categories %}
