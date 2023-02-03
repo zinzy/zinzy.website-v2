@@ -448,6 +448,15 @@ time {
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  -webkit-animation-name: boing;
+          animation-name: boing;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
   a {
     text-decoration: none;
     border: 0;
