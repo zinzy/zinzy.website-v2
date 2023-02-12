@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "22a2fce79781dca0",
+        "id": "e534b46f6a34b628",
         "type": "tabs",
         "children": [
           {
-            "id": "bab0c9ffbe51b4d3",
+            "id": "3ba0ceefe3828a96",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,17 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bab0c9ffbe51b4d3",
+  "active": "3ba0ceefe3828a96",
   "lastOpenFiles": [
+    "Keeping a diary.md",
+    "Alt text is functional, figcaptions are editorial.md",
+    "Wiki.md",
+    "UX for impact.md",
     "How I plan my week.md",
     "Designing design.md",
     "MacGyver design.md",
     "My interests.md",
-    "Wiki.md",
     "Amsterdam.md",
-    "When to create low-fidelity designs.md",
-    "My GTD trigger list.md",
-    "My skills.md",
-    "UXR repository.md"
+    "When to create low-fidelity designs.md"
   ]
 }

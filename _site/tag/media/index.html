@@ -71,62 +71,70 @@
 </head>
 
   <body>  
- 
-    <div class="wrapper">
-      <div class="container">
-        <header id="header"> 
- 
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-         
-         
-         
-      </h1>
-    </div>
-  </div>  
+    <header id="header"> 
 
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      
-      <nav>
-        <ul>
-          <li><a href='/about' >About</a></li>
-          <li><a href='/journal' >Journal</a></li>
-          <li><a href='/wiki' >Wiki</a></li>
-          <li><a href='/now' >Now</a></li>
-          <li><a href='/hello' >Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
+ 
 </header>  
+ 
+
+    <div class="wrapper"> 
  
         <main>
           <h2 class="p-name mb-5">Things I've written about media</h2>
  
-<ul class="entries mt-3">
+
+<section>
+
+
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2012-08-10">2012-08-10</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2012/08/10/reading-list/">Reading list</a>
-      </div>
-    </div> 
-  </li>
-   
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2012-08-10">Aug 10, 2012</time>
+      <h2><a href="/2012/08/10/reading-list/">Reading list</a></h2>
+    </header>
+    <ul>
+  <li><a href="https://www.goodreads.com/book/show/6096829-essex-county"><em>Essex Country</em> by Jeff Lemire</a></li>
+  <li><a href="https://www.goodreads.com/book/show/7940209-the-wrong-place"><em>Ergens Waar Je Niet Wil Zijn</em> (Wrong Place) by Brecht Evens</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Box_Office_Poison"><em>Box Office Poison</em> by Alex Robinson</a></li>
+  <li><a href="http://www.topshelfcomix.com/catalog/lucille/730"><em>Lucille</em> by Ludivic Debeurme</a></li>
+  <li><a href="http://www.topshelfcomix.com/catalog/swallow-me-whole/567"><em>Swallow Me Whole</em> by Nate Powell</a></li>
+  <li><a href="http://www.topshelfcomix.com/catalog/the-120-days-of-simon/648"><em>120 Days of Simon</em> by Simon Gärdenfors</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/12565070-underwire"><em>Underwire</em> by Jennifer Hayden</a></li>
+  <li><a href="http://www.topshelfcomix.com/catalog/the-playwright/661"><em>The Playwright</em> by Daren White and Eddie Campbell</a></li>
+  <li><a href="https://www.goodreads.com/en/book/show/11242668-any-empire"><em>Any Empire</em> by Nate Powell</a></li>
+  <li><a href="http://comicsforge.com/2012/06/jeff-lemires-lost-dogs/"><em>Lost Dogs</em> by Jeff Lemire</a></li>
 </ul>
+
+  </article>
+   
+
+
+</section>
+
+<!-- Pagination links -->
+<!-- <div class="row">
+  <div class="col-4">
+    
+    <span class="text-subtext">Newer</span>
+    
+  </div>
+  <div class="col-4 text-center">
+     of 
+  </div>
+  <div class="col-4 text-end">
+  
+    <span class="text-subtext">Older</span>
+  
+  </div> 
+</div> -->
         </main> 
 
         <footer id="footer"> 
@@ -316,9 +324,7 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
-      </div>
-    </div>
-    
+      </div> 
   </body>
 </html>
 

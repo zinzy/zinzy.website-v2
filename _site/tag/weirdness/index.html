@@ -71,62 +71,63 @@
 </head>
 
   <body>  
- 
-    <div class="wrapper">
-      <div class="container">
-        <header id="header"> 
- 
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-         
-         
-         
-      </h1>
-    </div>
-  </div>  
+    <header id="header"> 
 
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      
-      <nav>
-        <ul>
-          <li><a href='/about' >About</a></li>
-          <li><a href='/journal' >Journal</a></li>
-          <li><a href='/wiki' >Wiki</a></li>
-          <li><a href='/now' >Now</a></li>
-          <li><a href='/hello' >Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
+ 
 </header>  
+ 
+
+    <div class="wrapper"> 
  
         <main>
           <h2 class="p-name mb-5">Things I've written about weirdness</h2>
  
-<ul class="entries mt-3">
+
+<section>
+
+
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2023-01-10">2023-01-10</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2023/01/10/weird-movies/">Weird movies</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2023-01-10">Jan 10, 2023</time>
+      <h2><a href="/2023/01/10/weird-movies/">Weird movies</a></h2>
+    </header>
+    <p>I have a feeling 2023 will be the year for weird movies that steal our hearts. Look at <em>Triangle of Sadness</em> and <em>White Noise</em>. Here you have two high-budget oddball films that I’d describe not as mumblecore but coastercore, pulling you from one weird subnarrative into another, not really making up their minds about what they are, and before you’ve formed a full opinion on it, the ride is over, but you loved it.</p>
+
+<p>It reminds me of the dawn of black brutalist typefaces mixed with pastel and neon gradients in web design: you look at it and your body says “wtf” and your heart goes “yes”.</p>
+
+<p>I’ll await further data to see if I have any type of a point.</p>
+
+  </article>
    
-</ul>
+
+
+</section>
+
+<!-- Pagination links -->
+<!-- <div class="row">
+  <div class="col-4">
+    
+    <span class="text-subtext">Newer</span>
+    
+  </div>
+  <div class="col-4 text-center">
+     of 
+  </div>
+  <div class="col-4 text-end">
+  
+    <span class="text-subtext">Older</span>
+  
+  </div> 
+</div> -->
         </main> 
 
         <footer id="footer"> 
@@ -316,9 +317,7 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
-      </div>
-    </div>
-    
+      </div> 
   </body>
 </html>
 

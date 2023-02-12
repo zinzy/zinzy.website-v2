@@ -71,62 +71,74 @@
 </head>
 
   <body>  
- 
-    <div class="wrapper">
-      <div class="container">
-        <header id="header"> 
- 
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-         
-         
-         
-      </h1>
-    </div>
-  </div>  
+    <header id="header"> 
 
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      
-      <nav>
-        <ul>
-          <li><a href='/about' >About</a></li>
-          <li><a href='/journal' >Journal</a></li>
-          <li><a href='/wiki' >Wiki</a></li>
-          <li><a href='/now' >Now</a></li>
-          <li><a href='/hello' >Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
+ 
 </header>  
+ 
+
+    <div class="wrapper"> 
  
         <main>
           <h2 class="p-name mb-5">Things I've written about self care</h2>
  
-<ul class="entries mt-3">
+
+<section>
+
+
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2021-04-14">2021-04-14</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2021/04/14/morning-habits/">Morning habits</a>
-      </div>
-    </div> 
-  </li>
-   
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2021-04-14">Apr 14, 2021</time>
+      <h2><a href="/2021/04/14/morning-habits/">Morning habits</a></h2>
+    </header>
+    <p>One thing I appreciate is my growing ability to understand how small choices affect the quality of my day. I have a history of struggling with doing things that are good for me, and while I’ve always known that certain things have a more positive influence than others, I wasn’t always able to execute on them.</p>
+
+<p>Lately, I’ve been tinkering with the way I organize my mornings. I’ve come to understand that, in order for me to have a good day, I need to incorporate, in this particular order:</p>
+
+<ul>
+  <li>Get up within 30 minutes of my first alarm going off</li>
+  <li>Carry out a skin care routine I never thought I would be interested in</li>
+  <li>Get out of the house within 30 minutes of me getting out of bed</li>
+  <li>Walk for one hour</li>
+  <li>Empty my Omnifocus inbox during this walk</li>
+  <li>Arrive home and update YNAB</li>
+  <li>Plan my day</li>
+  <li>Empty my email inbox</li>
+  <li>Make a smoothie</li>
+  <li>Start my daily meetings</li>
 </ul>
+
+  </article>
+   
+
+
+</section>
+
+<!-- Pagination links -->
+<!-- <div class="row">
+  <div class="col-4">
+    
+    <span class="text-subtext">Newer</span>
+    
+  </div>
+  <div class="col-4 text-center">
+     of 
+  </div>
+  <div class="col-4 text-end">
+  
+    <span class="text-subtext">Older</span>
+  
+  </div> 
+</div> -->
         </main> 
 
         <footer id="footer"> 
@@ -316,9 +328,7 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
-      </div>
-    </div>
-    
+      </div> 
   </body>
 </html>
 

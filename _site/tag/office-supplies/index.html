@@ -71,73 +71,84 @@
 </head>
 
   <body>  
- 
-    <div class="wrapper">
-      <div class="container">
-        <header id="header"> 
- 
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-         
-         
-         
-      </h1>
-    </div>
-  </div>  
+    <header id="header"> 
 
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      
-      <nav>
-        <ul>
-          <li><a href='/about' >About</a></li>
-          <li><a href='/journal' >Journal</a></li>
-          <li><a href='/wiki' >Wiki</a></li>
-          <li><a href='/now' >Now</a></li>
-          <li><a href='/hello' >Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
+ 
 </header>  
+ 
+
+    <div class="wrapper"> 
  
         <main>
           <h2 class="p-name mb-5">Things I've written about office supplies</h2>
  
-<ul class="entries mt-3">
+
+<section>
+
+
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2013-12-20">2013-12-20</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2013/12/20/commonplace-book/">Commonplace book</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2013-12-20">Dec 20, 2013</time>
+      <h2><a href="/2013/12/20/commonplace-book/">Commonplace book</a></h2>
+    </header>
+    <p><a href="http://thoughtcatalog.com/ryan-holiday/2013/08/how-and-why-to-keep-a-commonplace-book/">Ryan Holiday describes</a> the how and why of his ‘Commonplace Book’, a collection of quotes and other pieces of text written down on index cards. I, too, have been keeping such a system since I started college. I always carry a few cards when I’m out and about, held together by bulldog clips.</p>
+
+<p>Incredibly handy and simple, it has turned out.</p>
+
+  </article>
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2009-08-21">2009-08-21</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2009/08/21/a-new-phase/">A new phase</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2009-08-21">Aug 21, 2009</time>
+      <h2><a href="/2009/08/21/a-new-phase/">A new phase</a></h2>
+    </header>
+    <p>I remember it well, my transition from elementary to high school. Gone were the old days of person teaching every subject in a single classroom. Everything would be new again. New subjects, new people, teachers, supplies. It was the supplies that kept me up at night. Books were to be given the right cover, of course there would have to be a new pencil case. New notebooks. A diary.</p>
+
+<p>Choosing was never my strong suit. I could stand there for hours, by the neatly arranged tables of school supplies. After all, they would have to last me the entire school year. The right supplies, this I figured, would lead to the right achievements. I was so young back then.</p>
+
+<p>Year after year I’d find myself biking to town in the Summer months. Cover paper, new pencils, a nice fountain pen, snazzy fineliners. Preferably all the things.</p>
+
+<p>Today, I went to shop for new supplies. I’ll be starting my freshman year of university, after a one-year hiatus. I hadn’t made a list, I figured a veteran like me could do without it on a trip like this. As soon as I’d get to the store, all the requirements would come to me.</p>
+
+<p>The one thing I was keen on finding was a four-subject notebook, one for each course. And after that? Well, that was about it. I did already have a pencil case. And a fountain pen. And pencils. And binders. And a backpack. And a diary.</p>
+
+<p>Home I went, with a teeny tiny plastic bag and two A5 notebooks.</p>
+
+<p>After nine years, I realize I have everything I need. I no longer believe I need certain things to achieve my goals. Now it’s just a matter of doing the work, with everything I need just within reach.</p>
+
+<p>Let’s go.</p>
+
+  </article>
    
-</ul>
+
+
+</section>
+
+<!-- Pagination links -->
+<!-- <div class="row">
+  <div class="col-4">
+    
+    <span class="text-subtext">Newer</span>
+    
+  </div>
+  <div class="col-4 text-center">
+     of 
+  </div>
+  <div class="col-4 text-end">
+  
+    <span class="text-subtext">Older</span>
+  
+  </div> 
+</div> -->
         </main> 
 
         <footer id="footer"> 
@@ -327,9 +338,7 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
-      </div>
-    </div>
-    
+      </div> 
   </body>
 </html>
 

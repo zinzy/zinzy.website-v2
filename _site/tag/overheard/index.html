@@ -71,84 +71,85 @@
 </head>
 
   <body>  
- 
-    <div class="wrapper">
-      <div class="container">
-        <header id="header"> 
- 
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-         
-         
-         
-      </h1>
-    </div>
-  </div>  
+    <header id="header"> 
 
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      
-      <nav>
-        <ul>
-          <li><a href='/about' >About</a></li>
-          <li><a href='/journal' >Journal</a></li>
-          <li><a href='/wiki' >Wiki</a></li>
-          <li><a href='/now' >Now</a></li>
-          <li><a href='/hello' >Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
+ 
 </header>  
+ 
+
+    <div class="wrapper"> 
  
         <main>
           <h2 class="p-name mb-5">Things I've written about overheard</h2>
  
-<ul class="entries mt-3">
+
+<section>
+
+
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2021-07-27">2021-07-27</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2021/07/27/overheard-in-july/">Overheard in July</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2021-07-27">Jul 27, 2021</time>
+      <h2><a href="/2021/07/27/overheard-in-july/">Overheard in July</a></h2>
+    </header>
+    <p>“Do you want this problem to get smaller or bigger?”</p>
+
+<p>“I still love you, but I’ll be doing it from behind this line.”</p>
+
+<p>“Blaue Augen sind besser als braune Augen” (“Blue eyes are better than brown eyes”, 10-year-old brown-eyed German boy to his blue-eyes brother at the Okura Hotel breakfast bar)</p>
+
+  </article>
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2016-03-16">2016-03-16</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2016/03/16/she/">She</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2016-03-16">Mar 16, 2016</time>
+      <h2><a href="/2016/03/16/she/">She</a></h2>
+    </header>
+    <p>“Slept a little, had a midnight snack, went in for a bathroom break. Slept some more. Basically the life of a four-year-old” she says, and she tells me about her flight to Stockholm. She has been sleeping poorly lately; I say “lately” but I only met her last month, so I don’t know what her sleep hygiene is, although she says “it has improved since I began falling asleep in your arms”. I imagine how she sleeps on the plane, entertaining the other passengers, cabin crew, and pilots with her stupefyingly loud snores.</p>
+
+  </article>
    
-  <li>
-    <div class="row mb-3 mb-md-0">
-      <div class="col-md-3">
-        <time class="dt-published" datetime="2015-01-16">2015-01-16</time>
-      </div>
-      <div class="col-md-9">
-        <a href="/2015/01/16/explanation-for-the-bible/">How to live for God</a>
-      </div>
-    </div> 
-  </li>
+  <article>
+    <header> 
+      <time class="dt-published" datetime="2015-01-16">Jan 16, 2015</time>
+      <h2><a href="/2015/01/16/explanation-for-the-bible/">How to live for God</a></h2>
+    </header>
+    <blockquote>
+  <p>I’ve heard someone compare it to the relationship between a parent and a child. I imagine a child wanting to create a birthday card for his mother, opting to draw her portrait on the cover. Does that child draw a lifelike portrait of his mother? No, but it sure is endearing. I just want to draw the most beautiful portrait I can with the colors I got from my Mother.</p>
+</blockquote>
+
+<p>A fellow seminarian</p>
+
+  </article>
    
-</ul>
+
+
+</section>
+
+<!-- Pagination links -->
+<!-- <div class="row">
+  <div class="col-4">
+    
+    <span class="text-subtext">Newer</span>
+    
+  </div>
+  <div class="col-4 text-center">
+     of 
+  </div>
+  <div class="col-4 text-end">
+  
+    <span class="text-subtext">Older</span>
+  
+  </div> 
+</div> -->
         </main> 
 
         <footer id="footer"> 
@@ -338,9 +339,7 @@
   
     document.querySelectorAll('content a').forEach(setupListeners);
   </script>
-      </div>
-    </div>
-    
+      </div> 
   </body>
 </html>
 

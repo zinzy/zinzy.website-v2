@@ -32,7 +32,7 @@ layout: default
     {% endcapture %}
 
     {% if forloop.first %}
-    <h2>{{ year_of_current_post }}</h2>
+    <h4>{{ year_of_current_post }}</h4>
     <ul>
     {% endif %}
 
@@ -44,7 +44,7 @@ layout: default
     {% if year_of_current_post != year_of_previous_post %}
     </ul>
 
-    <h2>{{ year_of_previous_post }}</h2>
+    <h4>{{ year_of_previous_post }}</h4>
     <ul>
     {% endif %}
     {% endif %}

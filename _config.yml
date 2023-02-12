@@ -73,6 +73,7 @@ collections:
   notes:
     output: true
     permalink: /:slug
+    archive: true
   work:
     output: true
     permalink: /:slug

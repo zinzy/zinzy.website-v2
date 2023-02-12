@@ -1,41 +1,12 @@
 <header id="header"> 
+
+  <nav>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/hello">Hello</a></li> 
+    </ul>
+  </nav>
  
-  <div class="d-flex logo">
-    <div class="">
-      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
-    </div>
-    <div class="flex-grow-1">
-      <h1>
-        <a href="/">Zinzy <span class="surname">Waleson Geene</span></a>
-        {% if page.path contains '_posts' %}
-          <a href="/journal" class="trail">Journal</a>
-        {% endif %} 
-        {% if page.path contains '_notes'  %}
-          <a href="/wiki" class="trail">Wiki</a>
-        {% endif %} 
-        {% if page.path contains '_work' %}
-          <a href="/work" class="trail">Work</a>
-        {% endif %} 
-      </h1>
-    </div>
-  </div>  
-
-
-  <!-- <div class="row">
-    <div class="col-8 col-md-6">
-      <a href="/">Zinzy Waleson Geene</a>
-    </div>
-    <div class="col-4 col-md-6">
-      {% assign current = page.url | downcase | split: '/' %}
-      <nav>
-        <ul>
-          <li><a href='/about' {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
-          <li><a href='/journal' {% if current[1] == 'journal' %}class='active'{% endif %}>Journal</a></li>
-          <li><a href='/wiki' {% if current[1] == 'wiki' %}class='active'{% endif %}>Wiki</a></li>
-          <li><a href='/now' {% if current[1] == 'now' %}class='active'{% endif %}>Now</a></li>
-          <li><a href='/hello' {% if current[1] == 'hello' %}class='active'{% endif %}>Hello</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div> -->
 </header>

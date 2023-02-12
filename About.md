@@ -4,6 +4,8 @@ tagline: "Hey, I'm Zinzy, a researcher, designer, and facilitator from Amsterdam
 introduction: ""
 layout: page
 --- 
+Heya, I'm Zinzy, and I've been yelling at Internet clouds since 1997.
+
 <div class="row">
   <div class="col-6">
       <figure>
@@ -19,8 +21,6 @@ layout: page
   </div>
 </div>
 
- 
-
 I'm a lifelong learner from Amsterdam who likes to write. Often, I do so on this website, a quiet street on the Internet where I come to learn in public, change my mind, and nurture my interests.
 
 I'm an amateur musician, a swimmer, a curious home cook, a fan of short stories and comics, an urbanite, and a [cinephile](/tag/cinema/). I love teaching myself new things, and currently you can find me diving head-first into minimalist compositions for the piano.
@@ -35,7 +35,7 @@ In Amsterdam's finest neighborhood, de Indische Buurt, I share a shoebox and a p
 ### My work
 I'm a Design Manager at [Leeruniek](https://leeruniek.nl), where we bring a data-driven approach to equitable education. For 16 years, I've been making a living by building digital products. Drawing from training in research, cultural analysis, linguistics, and — yes god — theology, I now focus on helping companies leverage UX research and design to solve problems for their curstomers.
  
-I'm at my best dreaming big and working small to improve habits, teams, products, and services. Being a catalyst for better collaboration and design thinking is possibly my favorite thing in the world.
+I'm at my best dreaming big and working small to improve habits, teams, products, and services. Being a catalyst for better collaboration and design thinking is possibly my favorite thing in the world. My biggest strength is also my biggest weakness — I see things and ask "Okay great, but why?"
 
 <div class="row">
   <div class="col-6">
