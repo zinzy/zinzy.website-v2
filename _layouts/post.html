@@ -14,7 +14,9 @@ layout: default
 
   <footer>
     <p>
-      <span>{{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. Feel free to read more about {% if page.tags.size > 0 %} </span>
+      <span>{{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. {% if page.tags.size > 0 %} Feel free to read more about {% endif %}</span>
+
+      {% if page.tags.size > 0 %}
       <span class="tags"> 
           {% assign sorted_tags = page.tags | sort %}
           {% for tag in sorted_tags %}

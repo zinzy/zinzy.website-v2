@@ -1,21 +1,19 @@
 ---
 layout: default
---- 
-<article>
-  <header>
-    <h2>Micro</h2>
-    {{content}}
-  </header>
+---  
+<div class="mb-5">
+  <h2>Micro</h2>
+  {{content}}
+</div>
   
   <ul class="entries mt-3">
-
-    
     {% assign micro = site.micro | sort: 'date' | reverse %}
     {% for post in micro %} 
-    <li>
-      <h3><a href="{{post.url}}">{{ post.date | date: "%B %-d, %Y %H:%M" }}</a></h3>
-      {{post.content}}
+    <li class=""> 
+        <header> 
+          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
+        </header> 
+        {{post.content}} 
     </li>
     {% endfor %} 
-  </ul>
-</article>
+  </ul> 

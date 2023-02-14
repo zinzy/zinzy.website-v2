@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skip thinking.md",
+                "file": "Alt text is functional, figcaptions are editorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skip thinking.md",
+                "file": "Alt text is functional, figcaptions are editorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skip thinking.md",
+                "file": "Alt text is functional, figcaptions are editorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skip thinking.md"
+                "file": "Alt text is functional, figcaptions are editorial.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "3ba0ceefe3828a96",
   "lastOpenFiles": [
-    "Keeping a diary.md",
-    "Alt text is functional, figcaptions are editorial.md",
-    "Wiki.md",
-    "UX for impact.md",
+    "Agile UX.md",
     "How I plan my week.md",
-    "Designing design.md",
-    "MacGyver design.md",
-    "My interests.md",
-    "Amsterdam.md",
-    "When to create low-fidelity designs.md"
+    "Lean UX.md",
+    "Stakeholder collaboration on enterprise SaaS.md",
+    "Tools do not matter.md",
+    "Skip-thinking.md",
+    "Digital anthropology.md",
+    "My favorite UX tools.md",
+    "Keeping a diary.md",
+    "Alt text is functional, figcaptions are editorial.md"
   ]
 }
