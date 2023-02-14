@@ -1,12 +1,10 @@
 <header id="header"> 
-
   <nav>
     <ul class="list-inline">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/now">Now</a></li>
-      <li><a href="/hello">Hello</a></li> 
+      <li><a href="/" {% if page.url == '/' or page.url contains '/page/'  %} class="active" {% endif %}>Home</a></li>
+      <li><a href="/about" {% if page.url == '/About/' %} class="active" {% endif %}>About</a></li>
+      <li><a href="/now" {% if page.url == '/Now/' %} class="active" {% endif %}>Now</a></li>
+      <li><a href="/hello" {% if page.url == '/Hello/' %} class="active" {% endif %}>Hello</a></li> 
     </ul>
   </nav>
- 
 </header>
