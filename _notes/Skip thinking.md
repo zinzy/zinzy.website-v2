@@ -1,0 +1,1 @@
+A cognitive method employed by some neurodivergent people, in which one focuses on finding patterns in complex information and drawing 
