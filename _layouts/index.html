@@ -1,48 +1,164 @@
 ---
 layout: default
 --- 
-<section>
-  <h2 class="h4 text-subtext">Heya pal, I'm <a href="/about">Zinzy Waleson Geene</a>, a researcher and designer from Amsterdam, exploring life, work, play, and the rest of the world through words and drawings.</h2>
-</section>
-
-
-
-
-<section>
-
-
-  {% for post in paginator.posts %} 
-  <article>
-    <header> 
-      <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
-      <!-- <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> -->
-    </header>
-    {{post.content}}
-  </article>
-  {% endfor %} 
-
-
-</section>
-
-<!-- Pagination links -->
-<div class="row pagination">
-  <div class="col-4">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">
-        Newer
-      </a>
-    {% else %}
-    <span class="text-subtext">Newer</span>
+<div class="home">
+  <section>
+    <h1 class="text-subtext">Heya pal, I'm <a href="#about">Zinzy Waleson Geene</a>, a researcher and designer from Amsterdam, exploring life, work, play, and the rest of the world through words and drawings.</h1>
+  </section>
+  
+  <section> 
+    {% for post in paginator.posts limit: 1 %} 
+    <article>
+      <div><a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a></div>
+      <div class="my-4">
+        {{post.excerpt}}
+      </div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="{{post.url}}" class="btn btn-primary">{% include icon-post.html %} Read full post</a></li>
+        <li class="list-inline-item"><a href="{{post.previous.url}}" class="btn">{% include icon-diary.html %}  Read my diary</a></li>
+      </ul>
+    </article>
+   
+    {% endfor %}  
+  </section> 
+  
+  <section>
+    <h2 class="h4">My work</h2>
+    <p>For the past 16 years, I've gained experience building, designing, and researching digital products and services. Currently, I'm a UX Manager at <a href="https://leeruniek.nl">Leeruniek</a>, where we take a data-driven approach to equitable primary education. My portfolio is available <a href="/hello">upon request</a>.</p>
+  
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h3 class="m-0 p-0">Primarily,</h3>
+        <p>I love to add the right amount of WD-40 to products, services, habits, tools, and teams</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="m-0 p-0">Strategic research</h3>
+        <p>I solve business challenges by finding the most effective ways to engage with users</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="m-0 p-0">Leadership</h3>
+        <p>I mentor designers, developers, and customer service reps in interdisciplinary collaboration</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="m-0 p-0">Enterprise SaaS</h3>
+        <p>I'm specialized in crafting services and products that people use to solve problems at work</p>
+      </div> 
+    </div>
+  </section>
+  
+  <!--  
+  
+  <section>
+    <h2 class="h4">Personal projects</h2>
+    <ul>
+      <li>Queer Salon</li>
+      <li>Vine & Fig</li>
+      <li>Puppy Hub</li>
+    </ul>
+  </section> -->
+  
+  
+  <section id="about">
+    <div class="row">
+      <div class="col-6">
+          <figure>
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-1_telofx.jpg" alt="">
+                <figcaption>Me on LinkedIn</figcaption>
+          </figure>    
+      </div>
+      <div class="col-6">
+          <figure>
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="">
+                <figcaption>Me in real life</figcaption>
+          </figure>    
+      </div>
+    </div>
+      
+    <!-- <div class="row">
+      <div class="col-md-9">
+        <figure class="m-0">
+              <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1673958111/me/zinzy-at-a-party_vrzlqr.jpg" alt="">
+              <figcaption>
+                <div class="text-default">Zinzy Waleson Geene (middle)</div>
+                <div>Assistant to the Regional Manager</div>
+              </figcaption>
+        </figure>    
+      </div>
+      <div class="col-md-3">
+        <figure class="m-0">
+              <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1676466106/Lemonade/lemonade-regional-manager_duum4d.jpg" alt="">
+              <figcaption>
+                <div class="text-default">Lemonade</div>
+                <div>Regional Manager</div>
+              </figcaption>
+        </figure>  </div>
+    </div> -->
+  
+    <div class="">
+      <h2 class="h4 mb-5 w-75">I’ve been yelling at Internet clouds since 1997.</h2>
+      <p>This website is a quiet street on the Internet where I come to learn in public, share my perspective, change my mind, and nurture my interests.</p>
+      <p>Born and raised in the Dutch South, I now live and work in Amsterdam. In its finest neighborhood, de Indische Buurt, I share a shoebox and a petit garden with Anja, and soon also puppy Lemonade.</p>
+      <p>I'm a lifelong learner, an amateur musician, a curious home cook, a cautious Afropean queer Catholic, and a shameless urbanite. Currently you can find me diving head-first into minimalist compositions for the piano.</p> 
+    </div>
+  </section>
+  
+  
+  <section>
+    <div class="row">
+      <div class="col-3">
+        <h2>Also</h2>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-6">
+            <div class="border-top pt-3">
+              <p class="m-0"><a href="/hello">Hello</a></p>
+              <p>How to get in touch</p>
+            </div> 
+          </div>
+          <div class="col-6">
+            <div class="border-top pt-3">
+              <p class="m-0"><a href="/now">Now</a></p>
+              <p>What I'm currently up to</p>
+            </div> 
+          </div>
+          <div class="col-6">
+            <div class="border-top pt-3">
+              <p class="m-0"><a href="/site">Site</a></p>
+              <p>About this website</p>
+            </div> 
+          </div>
+          <div class="col-6">
+            <div class="border-top pt-3">
+              <p class="m-0"><a href="/uses">Uses</a></p>
+              <p>Things I use and love</p>
+            </div> 
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+  
+  <!-- Pagination links -->
+  <!-- <div class="row pagination">
+    <div class="col-4">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">
+          Newer
+        </a>
+      {% else %}
+      <span class="text-subtext">Newer</span>
+      {% endif %}
+    </div>
+    <div class="col-4 text-center">
+      {{ paginator.page }} of {{ paginator.total_pages }}
+    </div>
+    <div class="col-4 text-end">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+      {% else %}
+      <span class="text-subtext">Older</span>
     {% endif %}
-  </div>
-  <div class="col-4 text-center">
-    {{ paginator.page }} of {{ paginator.total_pages }}
-  </div>
-  <div class="col-4 text-end">
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
-    {% else %}
-    <span class="text-subtext">Older</span>
-  {% endif %}
-  </div> 
+    </div> 
+  </div> -->
 </div>

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e534b46f6a34b628",
+        "id": "7dcc9ca64c7618e5",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba0ceefe3828a96",
+            "id": "9d27104b5c88d038",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alt text is functional, figcaptions are editorial.md",
+                "file": "How I am.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alt text is functional, figcaptions are editorial.md",
+                "file": "How I am.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alt text is functional, figcaptions are editorial.md",
+                "file": "How I am.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alt text is functional, figcaptions are editorial.md"
+                "file": "How I am.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ba0ceefe3828a96",
+  "active": "9d27104b5c88d038",
   "lastOpenFiles": [
+    "Alt text is functional, figcaptions are editorial.md",
     "Agile UX.md",
     "How I plan my week.md",
     "Lean UX.md",
@@ -156,7 +157,6 @@
     "Skip-thinking.md",
     "Digital anthropology.md",
     "My favorite UX tools.md",
-    "Keeping a diary.md",
-    "Alt text is functional, figcaptions are editorial.md"
+    "Keeping a diary.md"
   ]
 }

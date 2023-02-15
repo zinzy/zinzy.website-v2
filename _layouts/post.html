@@ -4,7 +4,9 @@ layout: default
 <article class="h-entry">
   <header>
     <h2 class="p-name">{{ page.title }}</h2>
-    <a href="{{ page.url }}"><time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time></a>
+    <p class="metadata">
+      By <a href="/">Zinzy Waleson Geene</a> — <time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </p>
   </header>
   <div id="notes-entry-container">
     <content>

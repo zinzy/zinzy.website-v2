@@ -1,34 +1,31 @@
 @font-face {
-    font-family: "FoundersGrotesk";
-    src: url("../assets/fonts/foundersGroteskLight.woff2") format("woff2");
-    font-weight: 300;
+    font-family: "HKGrotesk";
+    src: url("../assets/fonts/HKGrotesk-Regular.woff2") format("woff2");
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-  }
-  @font-face {
-    font-family: "FoundersGrotesk";
-    src: url("../assets/fonts/foundersGroteskRegular.woff2") format("woff2");
-    font-weight: 400;
-    font-stretch: normal;
-  }
-  @font-face {
-    font-family: "FoundersGrotesk";
-    src: url("../assets/fonts/foundersGroteskMedium.woff2") format("woff2");
-    font-weight: 500;
-    font-stretch: normal;
-  }
-  @font-face {
-    font-family: "Lars";
-    src: url("../assets/fonts/Lars-Light.woff2") format("woff2");
-    font-weight: 400;
-    font-stretch: normal;
-  }
-  @font-face {
-    font-family: "GraphikRegular";
-    src: url("../assets/fonts/GraphikRegular.woff2") format("woff2");
-    font-weight: 400;
-    font-stretch: normal;
-  }
-  
-  /*# sourceMappingURL=foundersGrotesk.css.map */
-  
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("../assets/fonts/HKGrotesk-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("../assets/fonts/HKGrotesk-Medium.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+font-family: "HKGrotesk";
+src: url("../assets/fonts/HKGrotesk-MediumItalic.woff2") format("woff2");
+font-weight: 600;
+font-style: italic;
+font-stretch: normal;
+}
