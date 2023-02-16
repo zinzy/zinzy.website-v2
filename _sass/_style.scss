@@ -193,14 +193,21 @@ a[target=_blank] {
  
 #footer { 
   // text-align: center;
-  // font-size: .8rem;
+  font-size: .8rem;
   margin-top: 100px;
   @media screen and (min-width:768px) {
     margin-top: 200px;
   }
   a {
     color: $gray-2;
-    font-weight: 400;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+
+    }
   }
 }
 
@@ -318,7 +325,7 @@ hr {
   color: $gray-1;
   padding: 8px 15px;
   border-radius: 4px;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 600;
   text-decoration: none;
   &:hover {
@@ -336,6 +343,7 @@ hr {
     margin-right: .4rem;
     path {
       fill: $gray-3;
+      transition: fill .3s;
     } 
   }
 }
@@ -359,6 +367,7 @@ hr {
     margin-right: .4rem;
     path {
       fill: $gray-3;
+      transition: fill .3s;
     } 
   }
 }
@@ -609,3 +618,4 @@ mark {
 
   font-size: .8rem;
 } 
+ 

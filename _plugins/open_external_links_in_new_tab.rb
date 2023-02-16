@@ -4,7 +4,7 @@
 # frozen_string_literal: true
 require 'nokogiri'
 
-Jekyll::Hooks.register [:notes], :post_convert do |doc|
+Jekyll::Hooks.register [:documents], :post_convert do |doc|
   convert_links(doc)
 end
 

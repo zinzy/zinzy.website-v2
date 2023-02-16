@@ -2,13 +2,13 @@ title: Zinzy Waleson Geene
 description: Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
-
-
-include:
-  - _posts
-  - _notes
-exclude:             
-  - _includes/notes_graph.json
+include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
+# include:
+#   - _posts
+#   - _notes
+#   - _pages
+#   - _work 
  # - assets/js/webmention.js
 url: https://www.zinzy.website
 # You may need to change the base URL depending on your deploy configuration.
@@ -74,22 +74,18 @@ collections:
     output: true
     permalink: /:slug
     archive: true
+  pages:
+    output: true
+    permalink: /:slug
   work:
     output: true
     permalink: /:slug
-  # posts:
-  #   output: true
-  #   permalink: /:year/:month/:day/:slug 
 
 defaults: 
   - scope:
       path: "**/*"
     values:
       layout: "default"
-  - scope:
-      path: "_pages/**/*.md"
-    values:
-      layout: "page" 
   - scope:
       path: "_micro/**/*.md"
       title: ":year-:month-:day-:hour-:minute-:second"
@@ -100,10 +96,10 @@ defaults:
     values:
       layout: "note" 
   - scope:
+      path: "_pages/**/*.md"
+    values:
+      layout: "page" 
+  - scope:
       path: "_work/**/*.md"
     values:
       layout: "work-item" 
-  # - scope:
-  #     path: "_posts/**/*.md"
-  #   values:
-  #     layout: "post" 
