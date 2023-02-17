@@ -1,10 +1,14 @@
 <header id="header"> 
-  <nav>
-    <ul class="list-inline">
-      <li><a href="/" {% if page.url == '/' or page.url contains '/page/'  %} class="active" {% endif %}>Home</a></li>
-      <li><a href="/about" {% if page.url == '/About/' %} class="active" {% endif %}>About</a></li>
-      <li><a href="/now" {% if page.url == '/Now/' %} class="active" {% endif %}>Now</a></li>
-      <li><a href="/hello" {% if page.url == '/Hello/' %} class="active" {% endif %}>Hello</a></li> 
-    </ul>
-  </nav>
+  <div class="d-flex logo">
+    <div class="">
+      <a href="/"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_200/v1675316503/me/zinzy-1_lx3lku.jpg" alt="" class="avatar"></a>
+    </div>
+    <div class="flex-grow-1 align-self-center">
+      <h1> 
+        <div class="text-strong"><a href="/">Zinzy Waleson Geene</a></div>
+        <div class="text-subtext">Yes, and —</div>
+      </h1>
+    </div> 
+  </div>
+
 </header>
