@@ -5,18 +5,22 @@
     <!-- {% include header.html %}   -->
  
 
-    <div class="wrapper"> 
-      {% include header.html %}  
+      <div class="wrapper"> 
+        {% include header.html %}  
  
         <main>
           {{ content }}
-        </main> 
-
-        {% include footer.html %}  
-
-
-        {% include link-previews.html wrapperQuerySelector="content" %}
+        </main>  
       </div> 
+
+      <div class="border-top"></div>
+
+      <div class="wrapper">
+        {% include footer.html %}  
+      </div>
+
+
+      {% include link-previews.html wrapperQuerySelector="content" %}
   </body>
 </html>
 

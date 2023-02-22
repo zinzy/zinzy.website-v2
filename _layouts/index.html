@@ -3,8 +3,8 @@ layout: default
 --- 
 <div class="home">
   <section>
-    <h2>I'm a researcher and designer from Amsterdam, exploring life, work, play, and the rest of the world through words and drawings.</h2>
-  </section>
+    <h2>I'm a researcher, designer, and mentor from Amsterdam making tools and services for people at work.</h2>
+  </section> 
   
   <section> 
     {% for post in paginator.posts limit: 1 %} 
@@ -14,36 +14,23 @@ layout: default
         {{post.excerpt}}
       </div>
       <ul class="list-inline">
-        <li class="list-inline-item"><a href="{{post.url}}" class="btn btn-primary">{% include icon-post.html %} Read full post</a></li>
-        <li class="list-inline-item"><a href="{{post.previous.url}}" class="btn">{% include icon-diary.html %}  Read my diary</a></li>
+        <li class="list-inline-item"><a href="{{post.url}}" class="btn btn-primary">Read post</a></li>
+        <li class="list-inline-item"><a href="{{post.previous.url}}" class="btn">Read diary</a></li>
       </ul>
     </article>
-   
     {% endfor %}  
-  </section> 
+  </section>  
   
   <section>
     <h2 class="h4">My work</h2>
-    <p>For the past 16 years, I've gained experience building, designing, and researching digital products and services. Currently, I'm a UX Manager at <a href="https://leeruniek.nl">Leeruniek</a>, where we take a data-driven approach to equitable primary education. My portfolio is available <a href="/hello">upon request</a>.</p>
-  
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h3 class="m-0 p-0">Primarily,</h3>
-        <p>I love to add the right amount of WD-40 to products, services, habits, tools, and teams</p>
-      </div>
-      <div class="col-md-6">
-        <h3 class="m-0 p-0">Strategic research</h3>
-        <p>I solve business challenges by finding the most effective ways to engage with users</p>
-      </div>
-      <div class="col-md-6">
-        <h3 class="m-0 p-0">Leadership</h3>
-        <p>I mentor designers, developers, and customer service reps in interdisciplinary collaboration</p>
-      </div>
-      <div class="col-md-6">
-        <h3 class="m-0 p-0">Enterprise SaaS</h3>
-        <p>I'm specialized in crafting services and products that people use to solve problems at work</p>
-      </div> 
-    </div>
+    <p>For the past 16 years, I've gained experience researching, designing, and building digital products and services. At present, I manage UX at <a href="https://leeruniek.nl">Leeruniek</a>, where we take a data-driven approach to equitable education. Having sharpened my pencils in both consumer and enterprise spaces, I now specialize in enterprise SaaS products and their services.</p>
+
+  <ul>
+    <li><strong>I add WD-40 to teams, habits, products, services</strong>, usually opting to repair before I disrupt</li>
+    <li class="mt-3"><strong>I solve business challenges</strong> by empathizing with users</li>
+    <li class="mt-3"><strong>I'm a strategic generalist</strong>, choosing my methods and modes based on the challenge at hand. Sometimes, lorem ipsum is fine.</li>
+    <li class="mt-3"><strong>I ask questions</strong> and question answers, and then repeat</li>
+  </ul>
   </section>
   
   <!--  
@@ -97,7 +84,7 @@ layout: default
     <div class="">
       <h2 class="h4 mb-5 w-75">I’ve been yelling at Internet clouds since 1997.</h2>
       <p>This website is a quiet street on the Internet where I come to learn in public, share my perspective, change my mind, and nurture my interests.</p>
-      <p>Born and raised in the Dutch South, I now live and work in Amsterdam. In its finest neighborhood, de Indische Buurt, I share a shoebox and a petit garden with Anja, and soon also puppy Lemonade.</p>
+      <p>Born and raised in the Dutch South, I now live and work in Amsterdam. In its finest neighborhood, de Indische Buurt, I share a shoebox and a petit garden with Anja, and puppy Lemonade.</p>
       <p>I'm a lifelong learner, an amateur musician, a curious home cook, a cautious Afropean queer Catholic, and a shameless urbanite. Currently you can find me diving head-first into minimalist compositions for the piano.</p> 
     </div>
   </section>

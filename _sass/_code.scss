@@ -1,13 +1,17 @@
 .highlight  {
   background: #f8f8f8;
-  padding: 1px 1em;
+  padding: 1rem;
   border-radius: 3px;
   font-size: 1em;
   font-size: 0.9em;
   overflow: auto;
-  margin: 1em -1em;
+  margin: 2rem 0;
+  border-radius: 5px;
   code{
     padding: 0;
+  }
+  pre {
+    margin: 0;
   }
 }
 
@@ -55,7 +59,7 @@ div.highlight {
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
 .highlight .mf { color: #009999 } /* Literal.Number.Float */
-.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mh { color: #8e4bc2 } /* Literal.Number.Hex */
 .highlight .mi { color: #009999 } /* Literal.Number.Integer */
 .highlight .mo { color: #009999 } /* Literal.Number.Oct */
 .highlight .sb { color: #d14 } /* Literal.String.Backtick */

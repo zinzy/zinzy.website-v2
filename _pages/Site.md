@@ -33,3 +33,4 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - Type-specific tag colors
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add way to respond to a page
+- Dark mode
