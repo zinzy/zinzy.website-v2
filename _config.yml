@@ -59,13 +59,8 @@ jekyll-archives:
 tag_page_layout: archive-tag
 tag_page_dir: tag
 
-markdown: kramdown
-highlighter: rouge
+
 kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class   : 'syntax' 
 
 
 sass:
