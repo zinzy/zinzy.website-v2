@@ -1,1 +1,0 @@
-This is the personal website of Zinzy Waleson Geene. Check the [humans.txt](/humans.txt) file for more information.
