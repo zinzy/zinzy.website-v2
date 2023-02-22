@@ -9,13 +9,13 @@ gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyl
 gem "webrick", "~> 1.7"
 gem "nokogiri"
 gem "minitest"
-gem "shoulda"
-gem 'jekyll-archives'
-gem 'jekyll-tagging'
-# gem 'jekyll-toc'
-# gem 'jekyll-feed'
-gem "tufte-pandoc-jekyll"
-group :jekyll_plugins do
-    gem "jekyll-paginate"
-    # gem "jekyll-category-pages"
-  end
+# gem "shoulda"
+# gem 'jekyll-archives'
+# gem 'jekyll-tagging'
+# # gem 'jekyll-toc'
+# # gem 'jekyll-feed'
+# gem "tufte-pandoc-jekyll"
+# group :jekyll_plugins do
+#     gem "jekyll-paginate"
+#     # gem "jekyll-category-pages"
+#   end
