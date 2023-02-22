@@ -2,8 +2,22 @@
 layout: default
 ---
 <article class="h-entry work">
-  <p class="h6 mb-4">{{ page.title }}</p>
-  <h2 class="">{{ page.subtitle }}</h2> 
+  <h2 class="">{{ page.title }}</h2>
+  <p class="text-subtext">{{ page.subtitle }}</p>
+  {% if page.tags.size > 0 %} 
+    <ul class="tags"> 
+        {% for tag in page.tags %}
+        {%- assign t = tag | first -%}
+
+          {% if tag contains "design" %}<li class="badge-purple">{{tag}}</li>{% endif %}
+          {% if tag contains "front-end" %}<li class="badge-pink">{{tag}}</li>{% endif %}
+          {% if tag contains "management" %}<li class="badge-blue">{{tag}}</li>{% endif %}
+          {% if tag contains "lead" %}<li class="badge-blue">{{tag}}</li>{% endif %}
+
+          
+        {% endfor %} 
+    </ul> 
+  {% endif %}
 
  
 
