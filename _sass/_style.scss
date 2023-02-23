@@ -160,7 +160,10 @@ a[target=_blank] {
     padding: 0;
     list-style-type: none;
     li {
-
+      display: block;
+      @media screen and (min-width:768px) {
+       display: inline-block;
+      }
     }
   }
 }
