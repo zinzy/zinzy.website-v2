@@ -5,6 +5,7 @@
 ### Internet discovery
 - https://blogroll.org/
 - https://webring.xxiivv.com/
+- https://theforest.link/
 
 ### People
 - https://jason.cosper.me/
