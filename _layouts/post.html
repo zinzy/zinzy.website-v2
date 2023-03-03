@@ -2,9 +2,9 @@
 layout: default
 ---
 <article class="h-entry">
-  <header>
-    <h2 class="p-name">{{ page.title }}</h2>
-    <p class="metadata"><time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+  <header class="mb-5">
+    <h2 class="p-name mb-0">{{ page.title }}</h2>
+    <p class="metadata"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
   </header>
   <div id="notes-entry-container">
     <content>
@@ -12,7 +12,7 @@ layout: default
     </content>
   </div>
 
-  <footer>
+  <footer class="border-top mt-5 pt-5">
     <p>
       <span>{{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. {% if page.tags.size > 0 %} Feel free to read more about {% endif %}</span>
 
@@ -22,30 +22,24 @@ layout: default
           {% for tag in sorted_tags %}
           {%- assign t = tag | first -%}
             <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
-          {% endfor %} 
-      </span>  
+          {% endfor %}
+      </span>
     {% endif %}
     </p>
      
     {% include widget-responses.html %}  
 
-    <div class="mt-5">
-      <div class="row pagination"> 
-          <div class="col-6">
-            <div class="row">
-              <div class="col-md-6">
-                {% if page.next.url %}
-                  <a class="" href="{{page.next.url}}">
-                    <div class="text-subtext">Newer</div> 
-                  </a>
-                {% endif %} 
-              </div>
-            </div>
+    <div class="my-5 border-top pt-5">
+      <div class="row"> 
+          <div class="col-md-6">
+            {% if page.next.url %}
+              <div class="text-subtext">Newer</div> 
+              <div><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </div>
+            {% endif %} 
           </div>
-          <div class="col-6 text-end"> 
-            <a class="" href="{{page.previous.url}}">
-              <div class="text-subtext">Older</div> 
-            </a>
+          <div class="col-md-6"> 
+            <div class="text-subtext">Older</div> 
+            <div><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </div>
           </div>
         </div> 
       </div> 

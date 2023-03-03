@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://0.0.0.0:4000</link>
+    <link>http://localhost:4000</link>
     <language></language>
-    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4000/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -28,8 +28,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/02/12/all-saints-amsterdam/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/02/12/all-saints-amsterdam/</guid>
+        <link>http://localhost:4000/2023/02/12/all-saints-amsterdam/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/12/all-saints-amsterdam/</guid>
         
           
         
@@ -63,8 +63,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 11 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/02/11/saturday-morning-routines/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/02/11/saturday-morning-routines/</guid>
+        <link>http://localhost:4000/2023/02/11/saturday-morning-routines/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/11/saturday-morning-routines/</guid>
         
           
         
@@ -94,8 +94,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 02 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/02/02/walking-with-annelie/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/02/02/walking-with-annelie/</guid>
+        <link>http://localhost:4000/2023/02/02/walking-with-annelie/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/02/walking-with-annelie/</guid>
         
           
         
@@ -158,8 +158,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/31/that-was-january/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/31/that-was-january/</guid>
+        <link>http://localhost:4000/2023/01/31/that-was-january/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/31/that-was-january/</guid>
         
           
         
@@ -205,8 +205,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 23 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/23/why-doesnt-the-crosswalk-work/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
+        <link>http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
         
           
         
@@ -240,8 +240,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 22 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/22/dog-park/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/22/dog-park/</guid>
+        <link>http://localhost:4000/2023/01/22/dog-park/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/22/dog-park/</guid>
         
           
         
@@ -278,8 +278,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 21 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/21/love-actually-once-again/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/21/love-actually-once-again/</guid>
+        <link>http://localhost:4000/2023/01/21/love-actually-once-again/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/21/love-actually-once-again/</guid>
         
           
         
@@ -310,8 +310,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 20 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/20/super-recognizer/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/20/super-recognizer/</guid>
+        <link>http://localhost:4000/2023/01/20/super-recognizer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/20/super-recognizer/</guid>
         
           
         
@@ -337,8 +337,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 19 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/19/prospective-dog-owners/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/19/prospective-dog-owners/</guid>
+        <link>http://localhost:4000/2023/01/19/prospective-dog-owners/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/19/prospective-dog-owners/</guid>
         
           
         
@@ -375,8 +375,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 18 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://0.0.0.0:4000/2023/01/18/the-game-show/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/01/18/the-game-show/</guid>
+        <link>http://localhost:4000/2023/01/18/the-game-show/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/18/the-game-show/</guid>
         
           
         

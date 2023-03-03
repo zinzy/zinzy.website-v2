@@ -44,7 +44,7 @@ Twenty years of software development (often sans designers) meant twenty years o
         <div class="card mt-4">
             <div class="card-body">
                 <h6>No reusable design</h6>
-                <p class="mb-0 small">Both in code and design, there were hundreds of things to refactor</p>
+                <p class="mb-0 small">Designers struggled to find the right deliverables because everything was made from scratch for each feature.</p>
             </div>
         </div> 
     </div>

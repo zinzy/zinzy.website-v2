@@ -2,6 +2,8 @@
 title: "Site"
 layout: page
 ---
+{{ page.last_modified_at | date: "%A, %B %-d, %Y" }}
+
 I grew up on the Internet in a time when social media meant building your own photo blog. This instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
 ### Technical details

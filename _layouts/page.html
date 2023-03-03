@@ -3,8 +3,11 @@ layout: default
 ---
 
 <article class="h-entry"> 
-  <header>
-    <h2 class="p-name">{{ page.title }}</h2>
+  <header class="mb-5">
+    <h2 class="p-name mb-0">{{ page.title }}</h2>
+    {% if page.title == "Now" %}
+    <p class="metadata">Last updated on <time datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
+    {% endif %}
   </header>
   <div id="notes-entry-container">
     <content class="e-content"> 

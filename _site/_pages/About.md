@@ -1,0 +1,1 @@
+In Amsterdam's finest neighborhood, de Indische Buurt, my partner Anja and I share a shoebox and a peteit garden, and as of recent, puppy Lemonade (who may or may not have a blog, <a href="https://lemonade.waleson.us/" target="_blank">let's find out together</a>).

@@ -35,8 +35,11 @@ relative_permalinks: false
 plugins:
   - jekyll-paginate 
   - jekyll-archives
+  - jekyll-last-modified-at
 
-
+last-modified-at:
+    date-format: '%d-%b-%y'
+    
 posts_limit: 10
 feed:
   path: /feed.xml

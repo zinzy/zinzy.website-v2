@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5e7d66efd83a7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bookmarks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How I am.md",
+                "file": "Bookmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How I am.md",
+                "file": "Bookmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How I am.md"
+                "file": "Bookmarks.md"
               }
             }
           }
@@ -146,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d27104b5c88d038",
+  "active": "c5e7d66efd83a7a1",
   "lastOpenFiles": [
+    "We begin in admiration and end by organizing our disappointment.md",
+    "Bookmarks.md",
+    "Digital anthropology.md",
+    "How I am.md",
     "Alt text is functional, figcaptions are editorial.md",
     "Agile UX.md",
     "How I plan my week.md",
@@ -155,7 +172,6 @@
     "Stakeholder collaboration on enterprise SaaS.md",
     "Tools do not matter.md",
     "Skip-thinking.md",
-    "Digital anthropology.md",
     "My favorite UX tools.md",
     "Keeping a diary.md"
   ]
