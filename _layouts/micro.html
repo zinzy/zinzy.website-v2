@@ -10,13 +10,16 @@ layout: default
     {% assign micro = site.micro | sort: 'date' | reverse %}
     {% for post in micro %} 
     <li class=""> 
-        <header>  
-
-          <p class="">
-            <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>{% if post.microType == 'reply' %}, in reply to <a href="{{post.replyTo}}" target="_blank">{{post.replyToUser}}</a>{% endif %}
-          </p>
-        </header> 
-        {{post.content}} 
+        <article class="h-entry">
+          <header>  
+            <p class="">
+              <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>{% if post.microType == 'reply' %}, in reply to <a href="{{post.replyTo}}" target="_blank">{{post.replyToUser}}</a>{% endif %}
+            </p>
+          </header> 
+          <div class="e-content">
+            {{post.content}} 
+          </div> 
+        </article>
     </li>
     {% endfor %} 
   </ul> 
