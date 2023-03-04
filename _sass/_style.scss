@@ -140,8 +140,6 @@ section {
     }
     li {  
       line-height: 135%;
-      margin: 0;
-      padding: 0;
       border-bottom: 1px solid $gray-5; 
       &:last-child { 
         border: 0;
@@ -156,6 +154,10 @@ section {
 
 div[class^="border-"] {
   border-color: $gray-5;
+}
+
+.text-end {
+  text-align: right;
 }
 
  .post-list {

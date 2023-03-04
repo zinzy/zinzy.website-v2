@@ -9,10 +9,13 @@ I grew up on the Internet in a time when social media meant building your own ph
 ### Technical details
 A full overview of the nerdiest things about this website can be found in my [humans.txt](/humans.txt) file.
 
+### Content
+This site is primarily made up of hyperlinked text. 
+
 ### Writing
 Much of what I learn and think works best for me if I connect it to existing ideas in some way. I do so either in a paper notebook, or in my Obsidian vault. If I want to make any of it suitable for public consumption, I go into Visual Studio Code, edit a Markdown file, and push it to Github.
 
-This website no longer supports continuous deployment of a content repository. It used to update hourly with any changes I was making to my actual personal knowledge management system. [I found that wasn't working for me](https://tech.lgbt/@zinzy/109762215863198767).
+This website no longer supports continuous deployment of a content repository. It used to update hourly with any changes I was making to my actual personal knowledge management system. As you can read in [this Mastodon thread](https://tech.lgbt/@zinzy/109762215863198767), I found that wasn't working for me.
 
 ### Design
 The layout, color scheme, typography, and general user interface of this website are simple. It fits with my aesthetics, and it works particularly well for the portfolio part of my website, which is colorful enough in itself.
@@ -35,6 +38,10 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - Type-specific tag colors
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add way to respond to a page
+- Write this page
+- Dark mode
+- Make webmentions work again
+- Add `h-card` back
 
 ## Validation
 - [Yellow Lab](https://yellowlab.tools/result/gir760kn05)

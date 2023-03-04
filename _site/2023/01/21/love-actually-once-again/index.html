@@ -69,8 +69,7 @@
   <!-- IndieWeb webmentions -->
   <link rel="webmention" href="https://webmention.io/www.zinzy.website/webmention" />
   <link rel="pingback" href="https://webmention.io/www.zinzy.website/xmlrpc" /> 
-  <!-- <script src="/assets/js/webmention.min.js" async></script> -->
-  <script src="/assets/js/webmention.min.js" data-id="webmention-container" async></script>
+  <script src="/assets/js/webmention.min.js" data-id="webmentions" async></script>
 
 </head>
 
@@ -99,7 +98,7 @@
     <p class="metadata mt-0"><time class="dt-published" datetime="Saturday, January 21, 2023">Saturday, January 21, 2023</time></p>
   </header>
   <div id="notes-entry-container">
-    <content>
+    <content class="e-content">
       <html><body>
 <p>We had two friends over today. They’re dear to me specifically because we got to know each other intimately during our eating disorder recovery. We promised we’d one day get together and watch <em>Love Actually</em>, much-beloved by each of us.</p>
 
@@ -114,7 +113,7 @@
   </div>
 
   <footer class="border-top mt-5 pt-5">
-    <p>
+    <p class="my-0">
       <span> Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective.  Feel free to read more about </span>
 
       
@@ -126,13 +125,7 @@
           
       </span>
     
-    </p>
-     
-    
-<div class="webmentions">
-    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=%E2%80%99Love%20Actually%E2%80%99,%20once%20again" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
-    <div id="webmentions"></div>
-</div>  
+    </p> 
 
     <div class="my-5 border-top pt-5">
       <div class="row"> 
@@ -148,6 +141,12 @@
           </div>
         </div> 
       </div> 
+
+    
+<div class="webmentions" class="border-top py-5">
+    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=%E2%80%99Love%20Actually%E2%80%99,%20once%20again" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+    <div id="webmentions"></div>
+</div>  
   </footer>
 </article>
  
@@ -172,26 +171,7 @@
       </div>
     </div>
   </div>
-  <!-- <div class="row indieweb">
-    <div class="col-6">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        IndieWeb
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-    </div>
-    <div class="col-6 text-end">
-      <span>
-        <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-        <script src="https://yesterweb.org/js/widget.js"></script>
-      </span>
-    </div>
-  </div> -->
- 
-</footer>    
-<!-- 
-  <p>
-    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition 1674325494</a></p> -->  
+</footer>  
 
 
       <!-- That file is not particularly elegant. This will need a refactor at some point. -->
