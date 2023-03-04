@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23fc7b1fed6dc565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doomscrolling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bookmarks.md",
+                "file": "Doomscrolling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bookmarks.md",
+                "file": "Doomscrolling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bookmarks.md"
+                "file": "Doomscrolling.md"
               }
             }
           }
@@ -159,10 +171,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5e7d66efd83a7a1",
+  "active": "23fc7b1fed6dc565",
   "lastOpenFiles": [
-    "We begin in admiration and end by organizing our disappointment.md",
     "Bookmarks.md",
+    "Doomscrolling.md",
+    "Designer, you should write HTML and CSS.md",
+    "Iron triangle.md",
+    "Weeknotes.md",
+    "Untitled",
+    "We begin in admiration and end by organizing our disappointment.md",
     "Digital anthropology.md",
     "How I am.md",
     "Alt text is functional, figcaptions are editorial.md",
