@@ -8,7 +8,6 @@
 - https://theforest.link/
 
 ### People
-- https://jason.cosper.me/
 - https://kwon.nyc/
 - https://tom.so/
 - https://avanier.studio/

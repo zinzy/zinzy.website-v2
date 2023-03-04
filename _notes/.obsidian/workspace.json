@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Designer, you should write HTML and CSS.md",
+                "file": "Bookmarks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designer, you should write HTML and CSS.md",
+                "file": "Bookmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designer, you should write HTML and CSS.md",
+                "file": "Bookmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Designer, you should write HTML and CSS.md"
+                "file": "Bookmarks.md"
               }
             }
           }
@@ -161,6 +161,10 @@
   },
   "active": "c5e7d66efd83a7a1",
   "lastOpenFiles": [
+    "Designer, you should write HTML and CSS.md",
+    "Iron triangle.md",
+    "Weeknotes.md",
+    "Untitled",
     "Bookmarks.md",
     "We begin in admiration and end by organizing our disappointment.md",
     "Digital anthropology.md",
