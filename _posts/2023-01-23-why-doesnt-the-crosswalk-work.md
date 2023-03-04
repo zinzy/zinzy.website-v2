@@ -12,7 +12,7 @@ There's a woman who runs a [bookshop in De Bijlmer](https://www.athenaeum.nl/win
 
 Aside from bookshop owner she's also a writer. I love the work she does at [One World](https://www.oneworld.nl/), where she articulates [strong perspectives](https://www.oneworld.nl/lezen/opinie/witte-fragiliteit-bestaat-niet/) [on antiracism](https://www.oneworld.nl/lezen/discriminatie/sociaal-onrecht/woke-ooit-een-waarschuwing-voor-racisme-nu-een-conservatief-hondenfluitje/) [and equity](https://www.oneworld.nl/lezen/opinie/kamala-harris-is-niet-de-eerste-geschikte-zwarte-vrouw/). A few weeks ago, she sold me this book:
 
-![A overhead view of a book on a white table. The cover is white, with in the bottom left corner a painting of a young Black boy. He's looking up at the text in the top right corner, which reads "Waarom werkt het zebrapad niet. Why doesn't that crosswalk work."](https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660345/zinzy.website/IMG_9581_iaat6s.jpg)
+![](https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660345/zinzy.website/IMG_9581_iaat6s.jpg)
 
 When I took it from the shelf, I didn't know she was the one who wrote it. Eventually, she told me she had drawn inspiration from the questions her child asks her. The questions often leave her bemused, surprised, stunned. I suppose they're the questions we forget to ask as we grow older.
 
