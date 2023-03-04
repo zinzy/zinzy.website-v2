@@ -76,6 +76,9 @@ h3 {
 
 #header {
   margin-bottom: 100px;
+  a {
+    text-decoration: none;
+  } 
   nav {
     ul {
       list-style-type: none;
@@ -83,13 +86,7 @@ h3 {
       padding:0;
       li {
         display: inline-block;
-        margin-right: 1rem;
-        a {
-          text-decoration: none;
-        }
-        // &:not(:last-child):after {
-        //   content: " / "
-        // }
+        margin-right: 1rem; 
       }
     }
   }
@@ -117,6 +114,8 @@ section {
 
 #footer {
   border-top: 1px solid $gray-5;
+  color: $gray-2;
+  font-size: 80%;
   @media screen and (min-width: 768px) {
     margin-top: 150px;
   }

@@ -4,7 +4,7 @@ layout: default
 <article class="h-entry">
   <header class="mb-5">
     <h2 class="p-name mb-0">{{ page.title }}</h2>
-    <p class="metadata"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
+    <p class="metadata mt-0"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
   </header>
   <div id="notes-entry-container">
     <content>
@@ -31,13 +31,13 @@ layout: default
 
     <div class="my-5 border-top pt-5">
       <div class="row"> 
-          <div class="col-md-6">
+          <div class="col-6">
             {% if page.next.url %}
               <div class="text-subtext">Newer</div> 
               <div><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </div>
             {% endif %} 
           </div>
-          <div class="col-md-6"> 
+          <div class="col-6"> 
             <div class="text-subtext">Older</div> 
             <div><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </div>
           </div>
