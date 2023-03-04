@@ -3,7 +3,9 @@ layout: default
 ---
 <article class="h-entry">
   <header>
-    <time class="dt-published" datetime="{{ page.date | date: "%B %-d, %Y" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    <header> 
+      <time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time>{% if page.replyTo %}, in reply to <span class="u-in-reply-to"><a href="{{page.replyTo}}" class="u-in-reply-to" target="_blank">{{page.replyToName}}</a></span> 
+      {% endif %}
   </header>
   <div class="e-content" id="notes-entry-container">
     <content>

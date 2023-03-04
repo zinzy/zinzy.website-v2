@@ -31,13 +31,13 @@ layout: default
 
     <div class="my-5 border-top pt-5">
       <div class="row"> 
-          <div class="col-md-6">
+          <div class="col-6">
             {% if page.next.url %}
               <div class="text-subtext">Newer</div> 
               <div><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </div>
             {% endif %} 
           </div>
-          <div class="col-md-6"> 
+          <div class="col-6"> 
             <div class="text-subtext">Older</div> 
             <div><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </div>
           </div>

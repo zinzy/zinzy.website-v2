@@ -134,6 +134,18 @@ section {
     border-color: $gray-1; 
     color: $gray-4;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-left: 1rem;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .footer-content {
@@ -354,7 +366,9 @@ div[class^="border-"] {
 
 
 
-
+.m-0 {
+  margin: 0;
+}
 
 .mx-0 {
   margin-right: 0;
@@ -569,13 +583,6 @@ div[class^="border-"] {
 
 .pb-5 {
   padding-bottom: 3rem;
-}
-
-
-
-
-.indieweb {
-  text-align: right;
 }
 
 .webring {

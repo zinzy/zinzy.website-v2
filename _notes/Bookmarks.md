@@ -2,6 +2,7 @@
 ---
 
 
+
 ### Internet discovery
 - https://blogroll.org/
 - https://webring.xxiivv.com/
@@ -24,3 +25,6 @@
 - http://www.aaronsw.com/
 - https://jasoncosper.com/
 - https://paco.me/
+- https://interconnected.org/
+- https://sadgrl.online/
+- https://www.jvt.me/
