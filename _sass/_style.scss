@@ -30,8 +30,8 @@ a {
   color: $gray-2;
   text-decoration-color: $gray-4;
   @media (prefers-color-scheme: dark) {
-    color: $gray-4;
-    text-decoration-color: $gray-3;
+    color: $gray-3;
+    text-decoration-color: $gray-2;
   }
   &:hover {
     color: $black;
@@ -142,6 +142,10 @@ section {
   padding: 10px 30px;
 }
 
+.h-card {
+  display: none;
+}
+
 .diary {
   ul {
     margin: 0;
@@ -167,13 +171,6 @@ section {
         }
       }
     }
-  }
-}
-
-div[class^="border-"] {
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
   }
 }
 
@@ -327,10 +324,37 @@ div[class^="border-"] {
   width: 100%;
 }
 
-.border-top { border-top: 1px solid $gray-5; }
-.border-right { border-right: 1px solid $gray-5; }
-.border-bottom { border-bottom: 1px solid $gray-5; }
-.border-left { border-left: 1px solid $gray-5; }
+.border-top { border-top: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-right { border-right: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-bottom { border-bottom: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-left { border-left: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+
+div[class^="border-"] {
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }
+}
+
+
+
+
 
 .mx-0 {
   margin-right: 0;

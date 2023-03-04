@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/micro.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/micro.xsl" type="text/xsl"?><html><body><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
   <channel>
     <title>Zinzy's micro RSS</title>
     <description>Zinzy Waleson Geene is a researcher, designer, facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4000</link>
+    <link>http://localhost:4000
     <language></language>
     <copyright>http://localhost:4000/site/#copyright</copyright>
-    <atom:link href="http://localhost:4000/micro.xml" rel="self" type="application/rss+xml" />
+    <link href="http://localhost:4000/micro.xml" rel="self" type="application/rss+xml">
     
     
       <item>
         <title>February 22, 2023 19:23</title>
         <author> ()</author>
-        <description><![CDATA[<html><body>
+        <description>&lt;![CDATA[
 <p>I was today years old when I learned that American Express and AMEX are the same thing.</p>
-</body></html>]]></description>
-        <pubDate>February 22, 2023 19:23</pubDate>
-        <link>http://localhost:4000/2023-02-22-19-23-46</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-22-19-23-46</guid>
+]]&gt;</description>
+        <pubdate>February 22, 2023 19:23</pubdate>
+        <link>http://localhost:4000/2023-02-22-19-23-46
+        <guid ispermalink="true">http://localhost:4000/2023-02-22-19-23-46</guid>
         
           
         
@@ -30,12 +28,12 @@
       <item>
         <title>February 3, 2023 09:53</title>
         <author> ()</author>
-        <description><![CDATA[<html><body>
+        <description>&lt;![CDATA[
 <p>If you still needed convincing that I’m Grandma Tech at home, struggling to use even the most straightforward of functionalities, please be aware that I was today years old when I learned that, five years ago, <a href="https://textexpander.com/blog/textexpander-tip-try-our-ios-keyboard-and-one-tap-text-snippet-keys" target="_blank">TextExpander released a custom iOS keyboard</a> that would’ve solved so many of my mundane problems, and all I was doing was asking myself “why am I even paying for that app anymore?”</p>
-</body></html>]]></description>
-        <pubDate>February 3, 2023 09:53</pubDate>
-        <link>http://localhost:4000/2023-02-03-09-53-34</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-03-09-53-34</guid>
+]]&gt;</description>
+        <pubdate>February 3, 2023 09:53</pubdate>
+        <link>http://localhost:4000/2023-02-03-09-53-34
+        <guid ispermalink="true">http://localhost:4000/2023-02-03-09-53-34</guid>
         
           
         
@@ -51,12 +49,12 @@
       <item>
         <title>February 3, 2023 09:16</title>
         <author> ()</author>
-        <description><![CDATA[<html><body>
+        <description>&lt;![CDATA[
 <p>I’m quite excited at the prospect of an impromptu, <a href="https://micro.blog/KimberlyHirsh/16448921" target="_blank">Kimberly Hirsch-is-in-the-Netherlands</a>-inspired <a href="https://indieweb.org" target="_blank">IndieWeb</a> meet-up.</p>
-</body></html>]]></description>
-        <pubDate>February 3, 2023 09:16</pubDate>
-        <link>http://localhost:4000/2023-02-03-09-16-56</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-03-09-16-56</guid>
+]]&gt;</description>
+        <pubdate>February 3, 2023 09:16</pubdate>
+        <link>http://localhost:4000/2023-02-03-09-16-56
+        <guid ispermalink="true">http://localhost:4000/2023-02-03-09-16-56</guid>
         
           
         
@@ -66,13 +64,13 @@
       <item>
         <title>February 2, 2023 10:52</title>
         <author> ()</author>
-        <description><![CDATA[<html><body>
+        <description>&lt;![CDATA[
 <p>Listening to act two of <em>This American Life</em>’s episode <a href="https://www.thisamericanlife.org/789/the-runaround/act-two-6" target="_blank">The Runaround</a>, in which we meet a boy who can only really calm his mind by running loops around the block, I can’t help but wonder: it’s beautiful to see a young problem-solver with ADHD make life easier for himself, but were there other people who thought of the compensatory behaviors often displayed by people with an eating disorder?</p>
 
-</body></html>]]></description>
-        <pubDate>February 2, 2023 10:52</pubDate>
-        <link>http://localhost:4000/2023-02-02-10-52-34</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-02-10-52-34</guid>
+]]&gt;</description>
+        <pubdate>February 2, 2023 10:52</pubdate>
+        <link>http://localhost:4000/2023-02-02-10-52-34
+        <guid ispermalink="true">http://localhost:4000/2023-02-02-10-52-34</guid>
         
           
         
@@ -84,4 +82,4 @@
       </item>
     
   </channel>
-</rss>
+</rss></body></html>

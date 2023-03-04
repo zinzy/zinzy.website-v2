@@ -10,7 +10,7 @@ I grew up on the Internet in a time when social media meant building your own ph
 A full overview of the nerdiest things about this website can be found in my [humans.txt](/humans.txt) file.
 
 ### Content
-This site is primarily made up of hyperlinked text. 
+This site is primarily made up of hyperlinked text. On occasion, I'll share a snapshot of my physical diary, or another image that I find useful. As a rule, I don't use decorative imagery. If you like text-based websites, Sijmen Mulder has been maintaining [an overview of hyperlinked text](https://sjmulder.nl/en/textonly.html).
 
 ### Writing
 Much of what I learn and think works best for me if I connect it to existing ideas in some way. I do so either in a paper notebook, or in my Obsidian vault. If I want to make any of it suitable for public consumption, I go into Visual Studio Code, edit a Markdown file, and push it to Github.
@@ -20,7 +20,7 @@ This website no longer supports continuous deployment of a content repository. I
 ### Design
 The layout, color scheme, typography, and general user interface of this website are simple. It fits with my aesthetics, and it works particularly well for the portfolio part of my website, which is colorful enough in itself.
 
-I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
+I love narrow, single-column personal websites for their ability to [use the web's grain](https://frankchimero.com/blog/2015/the-webs-grain/). They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you. 
 
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
@@ -39,9 +39,8 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add way to respond to a page
 - Write this page
-- Dark mode
-- Make webmentions work again
+- Make receiving webmentions work again
 - Add `h-card` back
 
 ## Validation
-- [Yellow Lab](https://yellowlab.tools/result/gir760kn05)
+- This site scores 100/100 on [Yellow Lab Tools](https://yellowlab.tools/result/gir760kn05)
