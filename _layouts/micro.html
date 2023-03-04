@@ -11,9 +11,12 @@ layout: default
     {% for post in micro %} 
     <li class=""> 
         <header> 
-          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
+          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>{% if post.replyTo %}, in reply to <span class="u-in-reply-to"><a href="{{post.replyTo}}" class="u-in-reply-to" target="_blank">{{post.replyToName}}</a></span> 
+          {% endif %}
         </header> 
-        {{post.content}} 
+        <div class="e-content">
+          {{post.content}} 
+        </div>
     </li>
     {% endfor %} 
   </ul> 

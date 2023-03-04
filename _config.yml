@@ -41,8 +41,8 @@ last-modified-at:
     date-format: '%d-%b-%y'
     
 posts_limit: 10
-feed:
-  path: /feed.xml
+# feed:
+#   path: /feed.xml
 
 # paginate: 4
 # paginate_path: /page/:num/

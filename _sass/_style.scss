@@ -1,15 +1,4 @@
-// @import "../_sass/grid";
-// @import "../_sass/utilities";
 @import "../_sass/colors";
-// @import "../_sass/fonts";
-
- 
-html {
-  --margin-s: 25px;
-  --margin-m: 50px;
-  --margin-l: 100px;
-  --margin-xl: 200px;
-}
 
 html, body {
   font-size: 15px;
@@ -24,12 +13,14 @@ html, body {
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 165%;
-  color: $black;
   background: #fff;
+  color: $black; 
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400; 
-  margin: 0;
-  padding: 0;
+  @media (prefers-color-scheme: dark) {
+    background: $black;
+    color: white; 
+  }
 }
 
 
@@ -38,9 +29,17 @@ body {
 a {
   color: $gray-2;
   text-decoration-color: $gray-4;
+  @media (prefers-color-scheme: dark) {
+    color: $gray-3;
+    text-decoration-color: $gray-2;
+  }
   &:hover {
     color: $black;
     text-decoration-color: $black;
+    @media (prefers-color-scheme: dark) {
+      color: white;
+      text-decoration-color: white;
+    }
   }
 }
 
@@ -50,11 +49,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 135%;
   color: $black;
   margin: 0 0 1rem 0;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
   a {
     text-decoration: none; 
     border: 0;
     font-weight: 500; 
     color: $black;
+    @media (prefers-color-scheme: dark) {
+      color: white;
+    }
   }
 }
 
@@ -64,6 +69,9 @@ h3 {
 
 .text-subtext, time {
   color: $gray-2;
+  @media (prefers-color-scheme: dark) {
+    color: $gray-4;
+  }
 }
 
 .indieweb {
@@ -76,6 +84,9 @@ h3 {
 
 #header {
   margin-bottom: 100px;
+  a {
+    text-decoration: none;
+  } 
   nav {
     ul {
       list-style-type: none;
@@ -83,13 +94,7 @@ h3 {
       padding:0;
       li {
         display: inline-block;
-        margin-right: 1rem;
-        a {
-          text-decoration: none;
-        }
-        // &:not(:last-child):after {
-        //   content: " / "
-        // }
+        margin-right: 1rem; 
       }
     }
   }
@@ -117,11 +122,17 @@ section {
 
 #footer {
   border-top: 1px solid $gray-5;
+  color: $gray-2;
+  font-size: 80%;
   @media screen and (min-width: 768px) {
     margin-top: 150px;
   }
   @media screen and (min-width: 1400px) {
     margin-top: 150px;
+  }
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+    color: $gray-4;
   }
 }
 
@@ -129,6 +140,10 @@ section {
   max-width: 650px;
   margin: 0 auto;
   padding: 10px 30px;
+}
+
+.h-card {
+  display: none;
 }
 
 .diary {
@@ -141,22 +156,26 @@ section {
     }
     li {  
       line-height: 135%;
-      margin: 0;
-      padding: 0;
       border-bottom: 1px solid $gray-5; 
+      @media (prefers-color-scheme: dark) {
+        border-color: $gray-1; 
+      }
       &:last-child { 
         border: 0;
       }
       a {
         text-decoration: none;
         color: $black;
+        @media (prefers-color-scheme: dark) {
+          color: white; 
+        }
       }
     }
   }
 }
 
-div[class^="border-"] {
-  border-color: $gray-5;
+.text-end {
+  text-align: right;
 }
 
  .post-list {
@@ -211,6 +230,10 @@ div[class^="border-"] {
     top: -10px;
     width: 100%;
     left: 0;
+    @media (prefers-color-scheme: dark) {
+      background: rgb(26, 26, 26);
+      background: linear-gradient(0deg, rgba(26, 26, 26,0) 27%, rgba(26, 26, 26,1) 73%);
+    }
   }
 }
 
@@ -301,39 +324,37 @@ div[class^="border-"] {
   width: 100%;
 }
 
-.border-top { border-top: 1px solid $gray-5; }
-.border-right { border-right: 1px solid $gray-5; }
-.border-bottom { border-bottom: 1px solid $gray-5; }
-.border-left { border-left: 1px solid $gray-5; }
+.border-top { border-top: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-right { border-right: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-bottom { border-bottom: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
+.border-left { border-left: 1px solid; 
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }}
 
-
-.m-0 {
-  margin: 0;
+div[class^="border-"] {
+  border-color: $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
+  }
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
 
-.m-2 {
-  margin: 0.5rem;
-}
 
-.m-3 {
-  margin: 1rem;
-}
 
-.m-4 {
-  margin: 1.5rem;
-}
-
-.m-5 {
-  margin: 3rem;
-}
-
-.m-auto {
-  margin: auto;
-}
 
 .mx-0 {
   margin-right: 0;
@@ -363,12 +384,7 @@ div[class^="border-"] {
 .mx-5 {
   margin-right: 3rem;
   margin-left: 3rem;
-}
-
-.mx-auto {
-  margin-right: auto;
-  margin-left: auto;
-}
+} 
 
 .my-0 {
   margin-top: 0;
@@ -398,12 +414,7 @@ div[class^="border-"] {
 .my-5 {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
+} 
 
 .mt-0 {
   margin-top: 0;
@@ -427,39 +438,7 @@ div[class^="border-"] {
 
 .mt-5 {
   margin-top: 3rem;
-}
-
-.mt-auto {
-  margin-top: auto;
-}
-
-.me-0 {
-  margin-right: 0;
-}
-
-.me-1 {
-  margin-right: 0.25rem;
-}
-
-.me-2 {
-  margin-right: 0.5rem;
-}
-
-.me-3 {
-  margin-right: 1rem;
-}
-
-.me-4 {
-  margin-right: 1.5rem;
-}
-
-.me-5 {
-  margin-right: 3rem;
-}
-
-.me-auto {
-  margin-right: auto;
-}
+} 
 
 .mb-0 {
   margin-bottom: 0;
@@ -483,63 +462,7 @@ div[class^="border-"] {
 
 .mb-5 {
   margin-bottom: 3rem;
-}
-
-.mb-auto {
-  margin-bottom: auto;
-}
-
-.ms-0 {
-  margin-left: 0;
-}
-
-.ms-1 {
-  margin-left: 0.25rem;
-}
-
-.ms-2 {
-  margin-left: 0.5rem;
-}
-
-.ms-3 {
-  margin-left: 1rem;
-}
-
-.ms-4 {
-  margin-left: 1.5rem;
-}
-
-.ms-5 {
-  margin-left: 3rem;
-}
-
-.ms-auto {
-  margin-left: auto;
-}
-
-.p-0 {
-  padding: 0;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-3 {
-  padding: 1rem;
-}
-
-.p-4 {
-  padding: 1.5rem;
-}
-
-.p-5 {
-  padding: 3rem;
-}
+} 
 
 .px-0 {
   padding-right: 0;
@@ -623,32 +546,7 @@ div[class^="border-"] {
 
 .pt-5 {
   padding-top: 3rem;
-}
-
-.pe-0 {
-  padding-right: 0;
-}
-
-.pe-1 {
-  padding-right: 0.25rem;
-}
-
-.pe-2 {
-  padding-right: 0.5rem;
-}
-
-.pe-3 {
-  padding-right: 1rem;
-}
-
-.pe-4 {
-  padding-right: 1.5rem;
-}
-
-.pe-5 {
-  padding-right: 3rem;
-}
-
+} 
 .pb-0 {
   padding-bottom: 0;
 }
@@ -673,29 +571,8 @@ div[class^="border-"] {
   padding-bottom: 3rem;
 }
 
-.ps-0 {
-  padding-left: 0;
-}
 
-.ps-1 {
-  padding-left: 0.25rem;
-}
 
-.ps-2 {
-  padding-left: 0.5rem;
-}
-
-.ps-3 {
-  padding-left: 1rem;
-}
-
-.ps-4 {
-  padding-left: 1.5rem;
-}
-
-.ps-5 {
-  padding-left: 3rem;
-}
 
 .indieweb {
   text-align: right;

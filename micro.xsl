@@ -4,7 +4,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
-        <title><xsl:value-of select="/rss/channel/title"/></title>
+        <title>RSS micro feed for <xsl:value-of select="/rss/channel/title"/></title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
@@ -19,7 +19,7 @@
           </div>
         </header>
         <main>
-          <h2>📄 Most recent micro posts</h2>
+          <h2>📄 Most recent posts</h2>
           <xsl:for-each select="/rss/channel/item">
             <article>
               <h3><a hreflang="en"><xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute><xsl:value-of select="title"/></a></h3>
