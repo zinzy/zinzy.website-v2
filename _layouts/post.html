@@ -3,11 +3,11 @@ layout: default
 ---
 <article class="h-entry">
   <header class="mb-5">
-    <h2 class="p-name mb-0">{{ page.title }}</h2>
-    <p class="metadata"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
+    <h2 class="p-name mb-0"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
+    <p class="mt-0"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
   </header>
   <div id="notes-entry-container">
-    <content>
+    <content class="e-content">
       {{ content }}
     </content>
   </div>
