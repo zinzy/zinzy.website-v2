@@ -25,6 +25,8 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 - I'm privileged because My partner and I are invested in our relationship
 - I'm privileged because I have close friendships with White people who are fiercely antiracist
 
+---
+
 ### Chapter 2: Other
 - Every person tries to do what they think will make the world a better place
 - Sudden kindness can spark a great friendship
@@ -39,13 +41,17 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 - Pay for someone else or split the tab then and there. Don't keep tabs of who owes what to whom 
 - Seeing yourself in other people is crucial to developing a healthy sense of self
 
-#### Chapter: Culture
+---
+
+#### Chapter 3: Culture
 - Seeing your experiences and reality reflected in media is crucial to developing a healthy sense of self
 - Silly archives are crucial tools for cultural analysis
 - History is told by the winner, and sometimes by the loudest
 - People in their early- to mid-thirties should have access to Pokémon Red on a floppy disk, as well as a device on which to play it
 
-### Chapter: Habits
+---
+
+### Chapter 4: Habits
 - Yin yoga trains tolerance of discomfort
 - Meditation is not about maintaining but regaining your focus
 - Wash your face every day, and moisturize properly
@@ -53,28 +59,36 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 - Politics are not separate from life. Some political views may have implications that are unacceptable for me
 - Ironing is a calming activity
 
-#### Chapter: Spirituality & philosophy
+---
+
+#### Chapter 5: Spirituality & philosophy
 - I believe in God
 - The 'Judeo-Christian tradition' is a harmful and unnecessary invention of Christianity
 - Humans are a part of nature
 - Religion is a gorgeously complex creation of humans to communicate about and with an existing something that they'll never be able to fathom, harness, or identify
 - The Bible is too complex to be taken literally
 
-### Chapter: Learning
+---
+
+### Chapter 6: Learning
 - Discomfort is sometimes where growth happens
 
-### Chapter: Making & work
+### Chapter 7: Making & work
 - It's good to have one website as your central point of communication with the Internet
 - Use one notebook for everything
 
+---
  
-### Chapter: Tips
+### Chapter 8: Tips
 - _Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another.
 
-### Chapter: Things I no longer believe
+---
+
+### Chapter 9: Things I no longer believe
 - ~~Any problem can be solved by a good book~~
 - ~~Everything can be systemized~~
 
+---
 
 ### Further reading 
 - [Codex Vitae: An exercise in metacognition](https://gregology.net/codex/) by Greg Clarke

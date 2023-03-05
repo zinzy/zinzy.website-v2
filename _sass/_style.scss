@@ -140,7 +140,10 @@ section {
     padding: 0;
     li {
       display: inline-block;
-      margin-left: 1rem;
+      margin-left: .5rem;
+      @media screen and (min-width: 768px) {
+        margin-left: 1rem;
+      }
       a {
         text-decoration: none;
       }
@@ -217,6 +220,15 @@ section {
   }
   li {
     display: inline-block;
+  }
+}
+
+hr {
+  border: 0;
+  margin: 3rem 0;
+  border-top: 1px solid $gray-5;
+  @media (prefers-color-scheme: dark) {
+    border-color: $gray-1; 
   }
 }
 
