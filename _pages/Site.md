@@ -35,6 +35,7 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add way to respond to a page
 - Make webmention work again
+- Add second xml feed to `netlify-plugin-webmentions`
 
 ## Validation
-- [Yellow Lab](https://yellowlab.tools/result/gir760kn05)
+- [Yellow Lab Tools](https://yellowlab.tools/result/gisuezq3xg) gives this site a 100/100 global score

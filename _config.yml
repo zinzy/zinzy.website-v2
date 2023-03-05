@@ -3,7 +3,9 @@ description: A researcher, designer, mentor, queer facilitator, and IndieWeb ent
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
 include:             ['_pages']
-exclude:             ['_includes/notes_graph.json']
+exclude:             
+  - _includes/notes_graph.json
+  - assets/js/webmention.js
 # include:
 #   - _posts
 #   - _notes
