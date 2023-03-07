@@ -35,7 +35,7 @@ During my onboarding, I found a siloed designer with an InVision account full of
         <div class="col-6">
                 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1676700100/Portfolio/uxr-practice-pizza-friday-2_s1lzws.jpg" alt=""> 
         </div>
-        <div class="col-12 col-md-8 offset-md-2 text-center mt-4 text-subtext small">
+        <div class="col-12 col-md-8 offset-md-2 text-center text-subtext text-small">
             <p>In the early days, users from local Amsterdam schools gathered at the office on Pizza Friday to share insights, and look at concepts.</p>
         </div>
     </div>

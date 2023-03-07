@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doomscrolling.md",
+                "file": "Bookmarks.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Doomscrolling.md",
+                "file": "Bookmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doomscrolling.md",
+                "file": "Bookmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doomscrolling.md"
+                "file": "Bookmarks.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "23fc7b1fed6dc565",
   "lastOpenFiles": [
-    "Bookmarks.md",
     "Doomscrolling.md",
+    "Bookmarks.md",
     "Designer, you should write HTML and CSS.md",
     "Iron triangle.md",
     "Weeknotes.md",

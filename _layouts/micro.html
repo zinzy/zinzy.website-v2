@@ -6,12 +6,21 @@ layout: default
   {{content}}
 </div>
   
-  <ul class="entries mt-3">
+  <ul class="micro">
     {% assign micro = site.micro | sort: 'date' | reverse %}
     {% for post in micro %} 
     <li class=""> 
         <header> 
-          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>{% if post.replyTo %}, in reply to <span class="u-in-reply-to"><a href="{{post.replyTo}}" class="u-in-reply-to" target="_blank">{{post.replyToName}}</a></span> 
+          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
+          {% if post.replyTo %}, in reply to 
+            <span class="u-in-reply-to">
+              <a href="{{post.replyTo}}" class="u-in-reply-to" target="_blank">{{post.replyToName}}</a>
+            </span> 
+          {% endif %}
+          {% if post.likeOf %}, liked a 
+            <span class="u-in-reply-to">
+              <a href="{{post.likeOf}}" class="u-like-of" target="_blank">post</a>
+            </span> 
           {% endif %}
         </header> 
         <div class="e-content">

@@ -2,16 +2,12 @@
 layout: default
 ---
 <article class="h-entry work">
-  <p class="h6 mb-4">{{ page.title }}</p>
-  <h2 class="">{{ page.subtitle }}</h2> 
+  <h2>{{ page.title }}</h2>
 
- 
-
-
-  <div class="hero">
-    <img src="{{page.hero}}" alt="">
+  <div class="callout my-5">
+    <div class="title">Summary</div>
+    <p>{{ page.summary }}</p>
   </div>
-
 
   {{content}}
 

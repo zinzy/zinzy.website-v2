@@ -75,7 +75,7 @@ collections:
   micro:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
-  notes:
+  wiki:
     output: true
     permalink: /:slug
     archive: true
@@ -97,9 +97,9 @@ defaults:
     values:
       layout: "single-micro" 
   - scope:
-      path: "_notes/**/*.md"
+      path: "_wiki/**/*.md"
     values:
-      layout: "note" 
+      layout: "wiki" 
   - scope:
       path: "_pages/**/*.md"
     values:
