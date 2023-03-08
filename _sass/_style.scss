@@ -231,7 +231,7 @@ transform: perspective(1px) translateZ(0);
   }
 }
 
-.avatar:hover {
+.avatar img:hover {
   -webkit-animation-name: boing;
           animation-name: boing;
   -webkit-animation-duration: 0.7s;
