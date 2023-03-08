@@ -859,3 +859,57 @@ div[class^="border-"] {
     display: block;
   }
 }
+
+
+
+#webmentions,.webmentions {
+  position: relative;
+  z-index: 100;
+  line-height: 1.2
+}
+
+@media (max-width: 767.98px) {
+  #webmentions,.webmentions {
+      width:100%
+  }
+}
+
+#webmentions .h2,#webmentions .list-result .h4,#webmentions .list-result h4,#webmentions h2,.list-result #webmentions .h4,.list-result #webmentions h4,.list-result .webmentions .h4,.list-result .webmentions h4,.webmentions .h2,.webmentions .list-result .h4,.webmentions .list-result h4,.webmentions h2 {
+  text-align: center
+}
+
+#webmentions ul,.webmentions ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 3rem 0;
+  padding: 0
+}
+
+#webmentions ul:last-child,.webmentions ul:last-child {
+  margin-bottom: 0
+}
+
+#webmentions ul li,.webmentions ul li {
+  margin-bottom: 1rem
+}
+
+#webmentions ul li.reaction-reply,.webmentions ul li.reaction-reply {
+  margin-left: .75rem;
+  padding-left: 1rem;
+  border-left: 2px solid #f3eae5
+}
+
+#webmentions a.reaction,.webmentions a.reaction {
+  text-decoration: none
+}
+
+#webmentions a.reaction img,.webmentions a.reaction img {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px
+}
+
+.reacts .reaction {
+  display: inline-block;
+  margin: 6px 6px 6px 0
+}
