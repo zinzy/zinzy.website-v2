@@ -2,30 +2,11 @@
 layout: default
 ---  
 <div class="mb-5">
-  <h2>Micro</h2>
+  <header class="mb-5">
+    <div class="micro-header mb-2">{{ page.title }}</div>
+    <h1 class="p-name mb-0">{{ page.subtitle }}</h1>
+  </header>
   {{content}}
 </div>
   
-  <ul class="micro">
-    {% assign micro = site.micro | sort: 'date' | reverse %}
-    {% for post in micro %} 
-    <li class=""> 
-        <header> 
-          <a href="{{ post.url }}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
-          {% if post.replyTo %}, in reply to 
-            <span class="u-in-reply-to">
-              <a href="{{post.replyTo}}" class="u-in-reply-to" target="_blank">{{post.replyToName}}</a>
-            </span> 
-          {% endif %}
-          {% if post.likeOf %}, liked a 
-            <span class="u-in-reply-to">
-              <a href="{{post.likeOf}}" class="u-like-of" target="_blank">post</a>
-            </span> 
-          {% endif %}
-        </header> 
-        <div class="e-content">
-          {{post.content}} 
-        </div>
-    </li>
-    {% endfor %} 
-  </ul> 
+{% include feed-micro.html %}

@@ -8,18 +8,19 @@
                 </div>
             </div>
         </div>
-        <div class="menu">
+        <div class="menu"> 
+            {% assign current = page.url | downcase | split: '/' %}
             <nav>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/diary">Diary</a></li>
-                    <li><a href="/now">Now</a></li>
-                    <li><a href="/hello">Hello</a></li>
-                </ul>
+              <ul>
+                <li><a href='/about' {% if current[1] == 'about' %}class='active'{% endif %}>About</a></li>
+                <li><a href='/diary' {% if current[1] == 'diary' %}class='active'{% endif %}>Diary</a></li>
+                <li><a href='/work' {% if current[1] == 'work' %}class='active'{% endif %}>Work</a></li>
+                <li><a href='/hello' {% if current[1] == 'hello' %}class='active'{% endif %}>Hello</a></li>
+              </ul>
             </nav>
         </div>
         <div class="mixtape">
-            <a href="/mixtape">You're great.</a>
+            You're great.
         </div>
     </div>
 </div>

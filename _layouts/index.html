@@ -1,10 +1,25 @@
 ---
 layout: default
 --- 
-<h1>Zinzy Waleson Geene</h1>
-<p>Heya, I'm Zinzy, welcome to my personal website. I come here to learn in public and change my mind. What about you?</p>
-
-
 <section>
   {{content}}
+</section>
+
+<section class="">
+  <div class="micro-header mb-2">Latest diary entry</div>
+
+
+  {% for post in site.posts | limit: 1 %} 
+    <h2 class="mb-0">{{ post.title }}</h2>
+    {{post.excerpt}}
+
+    <a href="{{post.url}}" class="button">Read full post</a>
+  {% endfor %}
+</section>
+
+<hr/>
+
+<section>
+  <h2>Latest activity</h2>
+  {% include feed-micro.html %}
 </section>

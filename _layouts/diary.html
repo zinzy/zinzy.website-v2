@@ -4,8 +4,8 @@ layout: default
 <section class="diary">
 
   <div class="mb-5">
-    <h1>Diary</h1>
-    {{content}}
+    <div class="micro-header mb-2">{{ page.title }}</div>
+    <h1 class="mb-0">{{ page.subtitle }}</h1>
   </div>
 
   {% for post in site.posts %}

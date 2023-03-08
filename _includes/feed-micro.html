@@ -1,0 +1,32 @@
+<ul class="micro">
+    {% assign micro = site.micro | sort: 'date' | reverse %}
+    {% for post in micro | limit: page.micro_limit %} 
+    <li class="">  
+        <span class="post-type">
+          {% if post.replyTo %}
+            {% include _icons/reply.html %}
+          {% elsif post.likeOf %}
+            {% include _icons/like.html %}
+          {% else %}
+            {% include _icons/note.html %}
+          {% endif %}  
+        </span> 
+
+        {% if post.replyTo %}
+          <p class="mt-0 u-in-reply-to">
+            <a href="{{post.replyTo}}" class="u-in-reply-to" target="_blank">{{post.replyTo}}</a>
+          </p> 
+        {% endif %}
+        {% if post.likeOf %}
+          <p class="mt-0 u-like-of">
+            Liked <a href="{{post.likeOf}}">{{post.likeOf}}</a> 
+          </p> 
+        {% endif %} 
+
+        <content>
+            {{post.content}} 
+        </content>
+        <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
+    </li>
+    {% endfor %} 
+  </ul> 

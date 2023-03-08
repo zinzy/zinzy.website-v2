@@ -1,17 +1,29 @@
 ---
 title: About
-subtitle: "Heya, I'm Zinzy Waleson Geene, a person, researcher and designer based in Amsterdam"
+subtitle: "I am a researcher, designer, and facilitator living and working in Amsterdam"
 layout: page
 ---
-Heya, I’m Zinzy Waleson Geene, welcome is my personal website. This is a quiet street on the Internet where I share soft stances, lived experiences, and critical notes on the things I hold dear.
+This is a quiet street on the Internet where I share soft stances, lived experiences, and critical notes on the things I hold dear. I’ve been yelling at Internet clouds since 1997. In my Spice Girls-themed bedroom, I taught myself how to build websites. I haven’t been the same since.
 
-I’ve been yelling at Internet clouds since 1997. In my Spice Girls-themed bedroom, I taught myself how to build websites. I haven’t been the same since.
+At some point during this journey, making things for the Internet became my profession. Perhaps you'd like to learn more about my [work](/work) or about this [site](/site). This page is dedicated to who I am as a person.
 
-At some point during this journey, making things for the Internet became my profession. Perhaps you'd like to learn more about my [work](/work) or about this [site](/site).
-
-<div class="row my-5">
-    <div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-1_telofx.jpg" alt="" /></div>
-    <div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="" /></div>
+<div class="breakout">
+    <div class="breakout-content">
+        <div class="row">
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678290695/me/office-party_szdej3.jpg" style="transform: rotate(2deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" style="transform: rotate(-3deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678291228/me/pride2019_iunghr.jpg" style="transform: rotate(1deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678291626/me/portugal_gpnogd.jpg" style="transform: rotate(-2deg);" alt="" />
+            </div>
+        </div>
+    </div>
 </div>
 
 I come from a long line of reluctantly-Catholic, burgundian band geeks. In the Deep Dutch South, I learned to embrace the health benefits of making music, the forests of the German border, and the importance of charcuterie.
@@ -38,10 +50,23 @@ My journey with neurodivergence is long, ramified, and sometimes dead-ended. Now
 
 In my life, neurodivergence means I'm very curious and eager to learn. It also makes me ask "okay, but why?", sometimes to the chagrin of the people around me. 
 
-
-<div class="row my-5">
-    <div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440273/me/six.jpg" alt="" /></div>
-    <div class="col-6"><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440263/me/pride2019_amdadz.jpg" alt="" /></div>
+<div class="breakout">
+    <div class="breakout-content">
+        <div class="row">
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678294628/me/vlaai_fuaucf.jpg" style="transform: rotate(-2deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440273/me/six.jpg" style="transform: rotate(1deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440263/me/pride2019_amdadz.jpg" style="transform: rotate(-1deg);" alt="" />
+            </div>
+            <div class="col-3">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440272/me/two.jpg" style="transform: rotate(2deg);" alt="" />
+            </div>
+        </div>
+    </div>
 </div>
 
 One of the many breathtaking beauties of Amsterdam is its diversity. When I first moved to the city, I was yearning for a particular type of queer community, and I found one in [Queer Salon](https://meetup.com/queersalon), the monthly slow-paced get together that I founded in 2018.

@@ -1,8 +1,9 @@
 ---
 title: "Work"
+subtitle: "I have 16 years of working experience as a designer, researcher, and mentor making digital products."
 layout: page
 ---
-I have 16 years of working experience as a designer, researcher, and mentor making digital products. For the past seven years I've been specializing in making tools for people at work. If you'd like to connect with me professionally, find me on [LinkedIn](https://www.linkedin.com/in/zinzy/).
+For the past seven years I've been specializing in making tools for people at work. If you'd like to connect with me professionally, find me on [LinkedIn](https://www.linkedin.com/in/zinzy/).
 
 ### Accomplishments
 - I've led design teams in establishing sustainable UX design and research practices
