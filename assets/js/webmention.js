@@ -229,16 +229,15 @@ A more detailed example:
     }
 
     return`
-      <a
-        class="reaction"
-        rel="nofollow ugc"
-        title="${who} ${response}"
-        href="${r[mentionSource]}"
-      >
-        ${authorPhoto}
-        ${(reactEmoji[r['wm-property']] || '💥')}
-        ${rsvp}
-      </a>
+      <div class="row">
+        <div class="col-2">
+          <a class="reaction" rel="nofollow ugc" title="${who} ${response}" href="${r[mentionSource]}">${authorPhoto}</a>
+        </div>
+        <div class="col-10">
+          <div>${author.name}</div>
+          <div>${rsvp}</div>
+        </div>
+      </div>
     `;
   }
 
