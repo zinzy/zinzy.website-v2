@@ -1,7 +1,10 @@
 ---
 title: About
+subtitle: "Heya, I'm Zinzy Waleson Geene, a person, researcher and designer based in Amsterdam"
 layout: page
 ---
+Heya, I’m Zinzy Waleson Geene, welcome is my personal website. This is a quiet street on the Internet where I share soft stances, lived experiences, and critical notes on the things I hold dear.
+
 I’ve been yelling at Internet clouds since 1997. In my Spice Girls-themed bedroom, I taught myself how to build websites. I haven’t been the same since.
 
 At some point during this journey, making things for the Internet became my profession. Perhaps you'd like to learn more about my [work](/work) or about this [site](/site).

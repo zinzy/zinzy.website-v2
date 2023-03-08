@@ -1,5 +1,6 @@
 ---
 title: Codex
+subtitle: "An evolving overview of the things I believe"
 layout: page
 ---
 Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [Elliott Cost's _Opinions_](https://elliott.computer/pages/opinion/) I'm using this page to grow a record of things I believe.

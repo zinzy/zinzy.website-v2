@@ -1,9 +1,9 @@
 ---
 title: "Hello"
-introduction: " This is my [hello](https://alastairjohnston.com/introducing-hello-pages/) page, where you can learn how I like to keep in touch."
+subtitle: "Hello, I'm Zinzy, and I enjoy meeting new people."
 layout: page
 ---
-Hello, I'm Zinzy, and I enjoy meeting new people. If you have something to share, you'd like to play or learn together, or can think of any other reason we should be talking, get in touch with me.
+This is my [hello](https://alastairjohnston.com/introducing-hello-pages/) page, where you can learn how I like to keep in touch. If you have something to share, you'd like to play or learn together, or can think of any other reason we should be talking, get in touch with me.
 
 ### How to contact me
 - [Mastodon](https://tech.lgbt/@zinzy) is your best shot

@@ -7,6 +7,7 @@
 - https://blogroll.org/
 - https://webring.xxiivv.com/
 - https://theforest.link/
+- https://gossipsweb.net/
 
 ### People
 - https://jason.cosper.me/

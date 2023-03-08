@@ -1,12 +1,12 @@
 @import "../_sass/colors";
 
 html, body {
-  font-size: 15px;
+  font-size: 17px;
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   @media screen and (min-width: 768px) {
-    font-size: 19px;
+    font-size: 18px;
   } 
 }
 
@@ -27,12 +27,8 @@ body {
 // TYPOGRAPHY
 
 a {
+  
   color: $gray-2;
-  text-decoration-color: $gray-4;
-  @media (prefers-color-scheme: dark) {
-    color: $gray-3;
-    text-decoration-color: $gray-2;
-  }
   &:hover {
     color: $black;
     text-decoration-color: $black;
@@ -76,16 +72,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   }
 }
 
-// h2 {
-//   font-size: 2rem;
-// }
-
-// h3 {
-//   font-size: 1.75rem;
-//   margin-top: 2rem;
-// }
 
 .text-subtext, time {
+  color: $gray-2;
+  @media (prefers-color-scheme: dark) {
+    color: $gray-4;
+  }
+}
+
+.micro-header {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 80%;
   color: $gray-2;
   @media (prefers-color-scheme: dark) {
     color: $gray-4;
@@ -105,35 +103,164 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 // SECTIONS
 
 #header {
-  margin-bottom: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0 20px;
   a {
     text-decoration: none;
   } 
+
+  .row {
+    --bs-gutter-x: 0;
+  }
+
+  .avatar {
+    flex: 0 0 auto;
+    width: 25%;
+    @media screen and (min-width: 768px) {
+      width: 17.5%;
+    } 
+  }
+
+  .menu {
+    flex: 0 0 auto;
+    width: 65%;
+    text-align : right;
+    @media screen and (min-width: 768px) {
+      text-align : center;
+      width: 60%;
+    } 
+  }
+
+  .right {
+    display: none;
+    text-align: right;
+    flex: 0 0 auto;
+    width: 25%;
+    font-size: 80%;
+    color: $gray-2;
+    line-height: 50px;
+    @media (prefers-color-scheme: dark) {
+      color: $gray-4;
+    }
+    @media screen and (min-width: 768px) {
+      width: 17.5%;
+      display: block;
+    } 
+  }
+ 
   nav {
+    font-size: 90%;
+    text-align: center;
+    border: 1px solid $gray-5;
+    // padding: .5rem;
+    padding: 0 .5rem;
+    line-height: 50px;
+    border-radius: 3rem;
+    display: inline-block;
+    background: #fff;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
+    box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
     ul {
       list-style-type: none;
       margin: 0;
       padding:0;
       li {
         display: inline-block;
-        margin-right: 1rem; 
+        margin: 0 .5rem; 
+        a {
+          font-weight: 500;
+        }
       }
     }
   }
 }
 
+.header-content {
+
+  margin: 30px auto 100px auto;
+  max-width: 1000px;  
+}
+
+.avatar img {
+  width: 46px;
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(26,26,26,0.3);
+-moz-box-shadow: 0px 0px 5px 0px rgba(26,26,26,0.3);
+box-shadow: 0px 0px 5px 0px rgba(26,26,26,0.3);
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+}
+@-webkit-keyframes boing {
+  16.65% {
+  -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  49.95% {
+  -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  83.25% {
+  -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+  }
+  100% {
+  -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes boing {
+  16.65% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  49.95% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  83.25% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.avatar:hover {
+  -webkit-animation-name: boing;
+          animation-name: boing;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
 .wrapper {
   padding: 30px; 
   max-width: 600px;
-  margin: 0 auto;
+  margin: 200px auto 0 auto;
   @media screen and (min-width: 768px) {
     margin: 100px auto;
+    padding: 0;
+  } 
+  @media screen and (min-width: 1200px) {
+    margin: 150px auto;
+  } 
+  @media screen and (min-width: 1400px) {
+    margin: 200px auto;
   } 
 }
 
-section {
-  margin: 50px 0;
-}
+// section {
+//   margin: 50px 0;
+// }
 
 // article {
 //   margin-top: 100px;
@@ -142,16 +269,34 @@ section {
 //   }
 // }
 
+
+#webmentions {
+  margin-top: 50px; 
+}
+
+.comments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin-bottom: 2rem;
+  }
+}
+
+.reaction {
+  img {
+    width: 50px;
+    border-radius: 50px;
+  }
+}
+
 #footer {
   border-top: 1px solid $gray-5;
   color: $gray-2;
   font-size: 80%;
-  @media screen and (min-width: 768px) {
-    margin-top: 150px;
-  }
-  @media screen and (min-width: 1400px) {
-    margin-top: 150px;
-  }
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   @media (prefers-color-scheme: dark) {
     border-color: $gray-1; 
     color: $gray-4;
@@ -174,8 +319,6 @@ section {
 }
 
 .footer-content {
-  max-width: 650px;
-  margin: 0 auto;
   padding: 10px 30px;
 }
 
@@ -211,6 +354,10 @@ section {
   }
 }
 
+
+.text-center {
+  text-align: center;
+}
 .text-end {
   text-align: right;
 }
@@ -292,24 +439,24 @@ hr {
 
 
 
- // CUSTOM
+//  // CUSTOM
 
- .blur {
-  @media screen and (min-width: 768px) {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255, 255, 255,0) 27%, rgba(255, 255, 255,1) 73%);
-    filter: blur(4px);
-    height: 200px;
-    position: fixed;
-    top: -10px;
-    width: 100%;
-    left: 0;
-    @media (prefers-color-scheme: dark) {
-      background: rgb(26, 26, 26);
-      background: linear-gradient(0deg, rgba(26, 26, 26,0) 27%, rgba(26, 26, 26,1) 73%);
-    }
-  }
-}
+//  .blur {
+//   @media screen and (min-width: 768px) {
+//     background: rgb(255,255,255);
+//     background: linear-gradient(0deg, rgba(255, 255, 255,0) 27%, rgba(255, 255, 255,1) 73%);
+//     filter: blur(4px);
+//     height: 150px;
+//     position: fixed;
+//     top: -10px;
+//     width: 100%;
+//     left: 0;
+//     @media (prefers-color-scheme: dark) {
+//       background: rgb(26, 26, 26);
+//       background: linear-gradient(0deg, rgba(26, 26, 26,0) 27%, rgba(26, 26, 26,1) 73%);
+//     }
+//   }
+// }
 
 .micro {
   margin: 0;
@@ -701,3 +848,12 @@ div[class^="border-"] {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+
+.d-xs-none {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
