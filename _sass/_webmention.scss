@@ -37,16 +37,14 @@
   }
   
   #webmentions a.reaction img,.webmentions a.reaction img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
   }
   
   .reaction {
     display: inline-block;
     margin: 6px 6px 6px 0; 
-    vertical-align: middle;
-    .text {
-      line-height: 165%;
-    }
+    vertical-align: middle; 
+    img 
   }
