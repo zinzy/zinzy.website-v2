@@ -875,10 +875,6 @@ div[class^="border-"] {
 }
 
 #webmentions h2 {
-  font-size: medium;
-  margin: 0;
-  padding: 2px;
-  background: #ccc;
 }
 
 #webmentions .reacts img {
@@ -906,7 +902,8 @@ div[class^="border-"] {
 }
 
 #webmentions a.reaction img {
-  max-height: 1.3em;
+height: 30px;
+width: 30px;
   margin-right: -1ex;
   border-radius: 25%;
 }
@@ -916,9 +913,9 @@ div[class^="border-"] {
 }
 
 #webmentions .comments li {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  // white-space: nowrap;
+  // text-overflow: ellipsis;
+  // overflow: hidden;
 }
 
 #webmentions .comments li .text {
