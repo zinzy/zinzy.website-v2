@@ -1,5 +1,5 @@
 ---
 title: "Diary"
-subtitle: "Reflections on life, work, play, and everything in bewtween"
+subtitle: "Reflections on life, work, play, and everything in between"
 layout: diary
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Propeller Design System"
-subtitle: "A democratized multi-brand design system built for an industry leader in travel technology"
+summary: "When I joined Airtrade, one thing was quite clear: a democratized multi-brand design system built for the biggest brands in the travel industry would solve 99 of our problems."
 date: 2018-04-27
 thumb: https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png
@@ -19,8 +19,8 @@ WAT NOG MIST
 
  -->
 
-###### A little context
-### Airtrade offers a suite of consumer and enterprise travel technology products
+<div class="micro-header mb-2">A little context</div>
+## Airtrade offers a suite of consumer and enterprise travel technology products
 
 Over the course of twenty years, the company had established a strong name for itself with award-winning products, working with major players like KLM, Transavia, and D-reizen. Many of these products are white label, some B2B and others B2C.
 

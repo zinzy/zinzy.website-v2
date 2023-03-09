@@ -199,7 +199,7 @@ h1 {
     -moz-box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
     box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
     @media (prefers-color-scheme: dark) {
-      background: $gray-1;
+      background: $gray-0;
       border: 1px solid $gray-1;
     }
     ul {
@@ -519,11 +519,16 @@ hr {
   li {
     position: relative;
     margin-top: 2rem;
+    // border: 1px solid $gray-5;
+    background-color: white;
     border: 1px solid $gray-5;
+    box-shadow: 0 3px 0 1px $gray-6;
     padding: 1.5rem 1.5rem 1.5rem 2rem;
     border-radius: 10px;
     @media (prefers-color-scheme: dark) {
+      background-color: $black;
       border-color: $gray-1;
+      box-shadow: 0 3px 0 1px $gray-1;
     }
   }
   a.date {
@@ -934,9 +939,9 @@ div[class^="border-"] {
 }
 
 .callout {
-  background-color: $gray-6;
-  border: 1px solid $gray-4;
-  box-shadow: 0 6px 0 1px $gray-6;
+  background-color: white;
+  border: 1px solid $gray-5;
+  box-shadow: 0 3px 0 1px $gray-6;
   padding: 2rem;
   border-radius: 10px;
   .title {

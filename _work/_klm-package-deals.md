@@ -1,6 +1,5 @@
 ---
 title: "KLM Package Deals"
-subtitle: "Even the country's leading white label packaging t "
 summary: "User research was telling us that users were getting lost in our package booking engine before the got started. Right before the pandemic hit, I was finding ways to revamp the page."
 date: 2019-12-18
 thumb: https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png
