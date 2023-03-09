@@ -22,3 +22,17 @@
 
     # Maximum number of feed entries to check for mentions (optional, default: 1)
     limit = 10
+
+[[plugins]]
+  package = "netlify-plugin-webmentions"
+
+	[plugins.inputs]
+
+	# The base url of your site (optional, default: main URL set in Netlify)
+	baseUrl = "https://example.com"
+
+	# Path to the feed URL (optional, default: /feed.xml)
+	feedPath = "/micro.xml"
+
+	# Maximum number of feed entries to check for mentions (optional, default: 1)
+	limit = 50
