@@ -29,3 +29,4 @@
 - https://interconnected.org/
 - https://sadgrl.online/
 - https://www.jvt.me/
+- https://www.danielzarick.com/

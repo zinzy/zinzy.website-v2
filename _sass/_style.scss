@@ -298,15 +298,8 @@ transform: perspective(1px) translateZ(0);
   max-width: 600px;
   margin: 200px auto 0 auto;
   @media screen and (min-width: 768px) {
-    margin: 100px auto;
-    padding: 0;
-  } 
-  @media screen and (min-width: 1200px) {
-    margin: 150px auto;
-  } 
-  @media screen and (min-width: 1400px) {
     margin: 200px auto;
-  } 
+  }
 }
 
 section {
@@ -473,6 +466,8 @@ hr {
  // MEDIA
 
  figure {
+  margin: 3rem 0;
+  padding: 0;
   figcaption {
     text-align: center;
     margin: 1rem 5% 0;
@@ -1046,5 +1041,13 @@ div[class^="border-"] {
   border: 1px solid $gray-5;
   &:hover {
    border-color: $gray-4; 
+  }
+}
+
+.h-entry {
+  p {
+    img {
+      margin-top: 2rem;
+    }
   }
 }

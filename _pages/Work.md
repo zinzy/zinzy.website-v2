@@ -18,4 +18,4 @@ For the past seven years I've been specializing in making tools for people at wo
 - **Enterprise SaaS:** I love the complexity of digital enterprise products and the teams who make them
 
 ## Case studies
-The majority of my work is protected by NDA clauses. If you'd like to dive into the details of some of my favorite projects from the past few years, feel free to [reach out to me](/hello).
+The majority of my work is protected by NDA clauses. If you'd like to dive into the details of some of my favorite projects from the past few years, feel free to [reach out to me](/hello). If you're interested in my failures, make sure to check out my [graveyard](/graveyard).

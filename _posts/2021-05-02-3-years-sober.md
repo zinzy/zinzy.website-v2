@@ -4,6 +4,7 @@ title: "3 years sober"
 date: 2021-05-02
 excerpt: 'On May 2, 2018, as we got off the plane from Stockholm, I said calmly to Anja: "I think I may try not drinking for a week or so." Nothing dramatic had happened in Stockholm. We had just returned from a midweek staying with friends in the city, followed by a couple days at a cozy cabin in the woods. It was my first time meeting these friends and they are wonderful people: two kind-hearted, curious journalists and their young daughter. The father is an excellent home chef, and so we quickly bonded over soul food, shared political views, and wine.'
 tags:
+- milestones
 - addiction
 - recovery
 - life changes
