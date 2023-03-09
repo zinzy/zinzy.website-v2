@@ -8,7 +8,7 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 - **If you're Zinzy:** use this page as a reference point, to remind yourself of what life really is about to you. These things may be subject to change.
 - **If you're someone else:** feel free to read and learn, and remember that you're not Zinzy, and you may disagree with her. That's okay. Take this permission slip to make your own codex! These things may be subject to change.
 
-### Chapter 1: Self
+## Chapter 1: Self
 - I am an optimist
 - I make mistakes
 - I am ignorant and see only a very small fraction of reality from my own standpoint
@@ -28,7 +28,7 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ---
 
-### Chapter 2: Other
+## Chapter 2: Other
 - Every person tries to do what they think will make the world a better place
 - Sudden kindness can spark a great friendship
 - White isn't a color unless it's a skin color
@@ -44,7 +44,7 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ---
 
-#### Chapter 3: Culture
+### Chapter 3: Culture
 - Seeing your experiences and reality reflected in media is crucial to developing a healthy sense of self
 - Silly archives are crucial tools for cultural analysis
 - History is told by the winner, and sometimes by the loudest
@@ -52,7 +52,7 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ---
 
-### Chapter 4: Habits
+## Chapter 4: Habits
 - Yin yoga trains tolerance of discomfort
 - Meditation is not about maintaining but regaining your focus
 - Wash your face every day, and moisturize properly
@@ -62,7 +62,7 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ---
 
-#### Chapter 5: Spirituality & philosophy
+### Chapter 5: Spirituality & philosophy
 - I believe in God
 - The 'Judeo-Christian tradition' is a harmful and unnecessary invention of Christianity
 - Humans are a part of nature
@@ -71,27 +71,27 @@ Inspired by both [Buster Benson's _Codex_](https://busterbenson.com/codex) and [
 
 ---
 
-### Chapter 6: Learning
+## Chapter 6: Learning
 - Discomfort is sometimes where growth happens
 
-### Chapter 7: Making & work
+## Chapter 7: Making & work
 - It's good to have one website as your central point of communication with the Internet
 - Use one notebook for everything
 
 ---
  
-### Chapter 8: Tips
+## Chapter 8: Tips
 - _Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another.
 
 ---
 
-### Chapter 9: Things I no longer believe
+## Chapter 9: Things I no longer believe
 - ~~Any problem can be solved by a good book~~
 - ~~Everything can be systemized~~
 
 ---
 
-### Further reading 
+## Further reading 
 - [Codex Vitae: An exercise in metacognition](https://gregology.net/codex/) by Greg Clarke
 - [Codex Vitae](http://terrie.me/codex/) by Terrie Schweitzer
 - [Adult principles](https://reddit.com/r/IAmA/comments/1kgmes/comment/cborf31/) by John Perry Barlow, on Reddit

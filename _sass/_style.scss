@@ -59,7 +59,7 @@ blockquote {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 600; 
   // font-size: 100%;  
-  line-height: 135%;
+  line-height: 115%;
   color: $black;
   margin: 0 0 1rem 0;
   @media (prefers-color-scheme: dark) {
@@ -77,6 +77,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1 {
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+  }
   @media screen and (min-width: 768px) {
     // max-width: 80%;
   }
@@ -102,6 +105,25 @@ h1 {
 
 .text-small {
   font-size: 80%;
+}
+
+.text-url {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .indieweb {
@@ -211,7 +233,7 @@ h1 {
 }
 
 .avatar img {
-  width: 41px;
+  width: 44px;
   border-radius: 50%;
   border: 2px solid white;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(26,26,26,0.3);
@@ -287,9 +309,12 @@ transform: perspective(1px) translateZ(0);
   } 
 }
 
-// section {
-//   margin: 50px 0;
-// }
+section {
+  margin-bottom: 100px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 100px;
+    }
+}
 
 // article {
 //   margin-top: 100px;
