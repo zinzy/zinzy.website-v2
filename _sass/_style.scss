@@ -1044,4 +1044,7 @@ div[class^="border-"] {
   font-weight: 500;
   color: $black;
   border: 1px solid $gray-5;
+  &:hover {
+   border-color: $gray-4; 
+  }
 }

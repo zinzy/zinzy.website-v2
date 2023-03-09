@@ -16,12 +16,12 @@ layout: default
 
         {% if page.replyTo %}
           <p class="mt-0 u-in-reply-to">
-            <a href="{{page.replyTo}}" class="u-in-reply-to" target="_blank">{{page.replyTo}}</a>
+            <a href="{{page.replyTo}}" class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
           </p> 
         {% endif %}
         {% if page.likeOf %}
-          <p class="mt-0  ">
-            Liked <a href="{{page.likeOf}}" class="u-like-of">{{page.likeOf}}</a> 
+          <p class="mt-0">
+            Liked <a href="{{page.likeOf}}" class="u-like-of text-url">{{page.likeOf}}</a> 
           </p> 
         {% endif %} 
 
