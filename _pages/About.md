@@ -25,7 +25,7 @@ At some point during this journey, making things for the Internet became my prof
         </div>
         <div class="row text-small text-subtext text-center">
             <div class="col-12">
-                <p>I try to smile while jumping through the hoops of life. I do also have a very serious face.</p>
+                <p>I try to smile as I jump through the hoops of life. I do also have a very serious face.</p>
             </div>
         </div>
     </div>
