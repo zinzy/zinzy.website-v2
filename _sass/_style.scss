@@ -187,17 +187,17 @@ h1 {
  
   nav {
     font-size: 90%;
-    text-align: center;
-    border: 1px solid $gray-6;
+    text-align: center; 
     // padding: .5rem;
     padding: 0 .5rem;
     line-height: 45px;
     border-radius: 10px;
-    display: inline-block;
-    background: #fff;
+    display: inline-block; 
     -webkit-box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
     -moz-box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
     box-shadow: 0px 3px 20px 0px rgba(26,26,26,0.06);
+    background: #fff;
+    border: 1px solid $gray-6;
     @media (prefers-color-scheme: dark) {
       background: $gray-0;
       border: 1px solid $gray-1;
@@ -211,9 +211,15 @@ h1 {
         margin: 0 .5rem; 
         a {
           font-weight: 500;
+          &:hover {
+            color: $black;
+            @media (prefers-color-scheme: dark) {
+              color: $gray-6;
+            } 
+          }
           @media (prefers-color-scheme: dark) {
             color: $gray-4;
-          }
+          } 
           &.active {
             color: $black;
             @media (prefers-color-scheme: dark) {
@@ -672,40 +678,21 @@ hr {
   flex: 0 0 auto;
   width: 100%;
 }
+ 
 
-.border { border: 1px solid; 
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }}
-.border-top { border-top: 1px solid; 
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }}
-.border-right { border-right: 1px solid; 
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }}
-.border-bottom { border-bottom: 1px solid; 
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }}
-.border-left { border-left: 1px solid; 
-  border-color: $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }}
+.border { border: 1px solid; }
+.border-top { border-top: 1px solid; }
+.border-right { border-right: 1px solid; }
+.border-bottom { border-bottom: 1px solid; }
+.border-left { border-left: 1px solid; }
 
-div[class^="border-"] {
+
+[class*="border"] {
   border-color: $gray-5;
   @media (prefers-color-scheme: dark) {
     border-color: $gray-1; 
   }
 }
-
 
 
 .m-0 {
@@ -1036,16 +1023,26 @@ div[class^="border-"] {
 
 .button {
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: .2rem .7rem;
   text-decoration: none;
   background-color: white;
   font-size: 90%;
   font-weight: 500;
   color: $black;
-  border: 1px solid $gray-5;
+  background: #fff;
+  border: 1px solid $gray-6;
+  transition: 0.3s;
+  @media (prefers-color-scheme: dark) {
+    background: $gray-0;
+    border: 1px solid $gray-1;
+    color: white;
+  }
   &:hover {
-   border-color: $gray-4; 
+    border: 1px solid $gray-5;
+    @media (prefers-color-scheme: dark) {
+      border: 1px solid $gray-2;
+    }
   }
 }
 
