@@ -30,8 +30,8 @@ layout: default
             {{ content }}
           </content>
         </div>
-        <a href="{{ page.url }}" class="date"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time></a>
-        <a href="https://brid.gy/publish/mastodon"></a>
+        <a href="{{ page.url }}" class="date u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time></a>
+        <a rel="syndication" class="u-syndication" href="https://brid.gy/publish/mastodon"></a>
     </li> 
   </ul> 
 
