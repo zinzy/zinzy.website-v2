@@ -1,7 +1,7 @@
 <ul class="micro">
     {% assign micro = site.micro | sort: 'date' | reverse %}
     {% for post in micro | limit: page.micro_limit %} 
-    <li class="h-entry">  
+    <li class="h-entry micro-post">  
         <span class="post-type">
           {% if post.replyTo %}
             {% include _icons/reply.html %}
@@ -14,7 +14,7 @@
 
         {% if post.replyTo %}
           <p class="mt-0 u-in-reply-to">
-            <a href="{{post.replyTo}}" class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+            <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
           </p> 
         {% endif %}
         {% if post.likeOf %}

@@ -522,7 +522,7 @@ hr {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  li {
+  li.micro-post {
     position: relative;
     margin-top: 2rem;
     // border: 1px solid $gray-5;
@@ -944,6 +944,10 @@ hr {
   } 
 }
 
+
+ol {
+  margin-bottom: 1rem;
+}
 
 .breakout { 
   margin-left: calc(-50vw + 50%);
