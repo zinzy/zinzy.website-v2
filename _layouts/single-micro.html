@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="h-entry micro">
-  <ul class="micro"> 
+  <ul class=""> 
     <li class="">  
         <span class="post-type">
           {% if page.replyTo %}
@@ -21,7 +21,7 @@ layout: default
         {% endif %}
         {% if page.likeOf %}
           <p class="mt-0">
-            Liked <a href="{{page.likeOf}}" class="u-like-of text-url">{{page.likeOf}}</a> 
+            Liked <a href="{{page.likeOf}}" class="u-like-of text-url" target="_blank">{{page.likeOf}}</a> 
           </p> 
         {% endif %} 
 
@@ -31,6 +31,7 @@ layout: default
           </content>
         </div>
         <a href="{{ page.url }}" class="date"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time></a>
+        <div class="d-none"><a href="https://brid.gy/publish/mastodon"></a></div>
     </li> 
   </ul> 
 

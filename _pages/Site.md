@@ -34,11 +34,9 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add way to respond to a page
 - Add second xml feed to `netlify-plugin-webmentions`
-- Add progressive blur to top of page
-- Fix long links in /Micro
-- Add milestones
-- Add library 
-- Ace mobile design
+- Add progressive blur to top of page  
+- Add library  
+- Add Netlify a11y plugin
 
 ## Validation
 - [Yellow Lab Tools](https://yellowlab.tools/result/gisuezq3xg) gives this site a 100/100 global score

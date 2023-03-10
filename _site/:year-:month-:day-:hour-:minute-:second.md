@@ -1,8 +1,0 @@
----
-layout: single-micro
-type: micro
-date: 2023-03-09 08:21:09 +0100
-likeOf: https://webmention.rocks/test/1
-tags:
-- 
----
