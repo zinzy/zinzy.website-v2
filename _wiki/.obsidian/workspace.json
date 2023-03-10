@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d27104b5c88d038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How I am.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5e7d66efd83a7a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bookmarks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "23fc7b1fed6dc565",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,15 +148,15 @@
   },
   "active": "23fc7b1fed6dc565",
   "lastOpenFiles": [
-    "Doomscrolling.md",
+    "How I am.md",
     "Bookmarks.md",
+    "Doomscrolling.md",
     "Designer, you should write HTML and CSS.md",
     "Iron triangle.md",
     "Weeknotes.md",
     "Untitled",
     "We begin in admiration and end by organizing our disappointment.md",
     "Digital anthropology.md",
-    "How I am.md",
     "Alt text is functional, figcaptions are editorial.md",
     "Agile UX.md",
     "How I plan my week.md",

@@ -536,6 +536,9 @@ hr {
       border-color: $gray-1;
       box-shadow: 0 3px 0 1px $gray-1;
     }
+    p {
+      margin-top: 0;
+    }
   }
   a.date {
     font-size: 80%; 
