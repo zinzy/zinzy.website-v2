@@ -21,7 +21,7 @@ layout: default
 
   <section>
     <h3>Posts by year</h3>
-    {% for post in site.posts %}
+    {% for post in site.diary %}
 
     {% capture year_of_current_post %}
     {{ post.date | date: "%Y" }}

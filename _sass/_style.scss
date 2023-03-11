@@ -59,7 +59,7 @@ blockquote {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 600; 
   // font-size: 100%;  
-  line-height: 115%;
+  line-height: 120%;
   color: $black;
   margin: 0 0 1rem 0;
   @media (prefers-color-scheme: dark) {
@@ -810,6 +810,14 @@ hr {
   margin-bottom: 3rem;
 } 
 
+.p-0 {
+  padding: 0;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
 .px-0 {
   padding-right: 0;
   padding-left: 0;
@@ -953,7 +961,7 @@ ol {
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 4rem; 
 }
 
 
@@ -961,6 +969,7 @@ ol {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 30px;
+  border-radius: 10px;
   @media screen and (min-width: 768px) {
     padding: 0;
   }
@@ -1062,5 +1071,12 @@ ol {
     img {
       margin-top: 2rem;
     }
+  }
+}
+
+.bg-light {
+  background-color: $gray-6;
+  @media (prefers-color-scheme: dark) {
+    background-color: $gray-0;
   }
 }
