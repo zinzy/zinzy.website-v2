@@ -1,0 +1,11 @@
+{
+  "find-unlinked-files:create-files-of-broken-links": [],
+  "find-unlinked-files:find-unresolved-link": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ]
+}

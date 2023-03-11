@@ -3,24 +3,9 @@ layout: default
 ---
 <article class="h-entry">
   <header class="mb-5">
-    <h1 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h1>
-    <p class=""><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
-  </header> 
-
-
-    {% if page.before %}
-      <div class="callout my-5">
-        <div class="title">Before we dive in</div>
-        <p>{{ page.before }}</p>
-      </div>
-    {% endif %}
-    {% if page.audience %}
-      <div class="callout my-5">
-        <div class="title">Assumed audience</div>
-        <p>{{ page.audience }}</p>
-      </div>
-    {% endif %}
-  
+    <h1 class="p-name mb-0"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h1>
+    <p class="mt-0"><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
+  </header>
   <div id="notes-entry-container">
     <content class="e-content">
       {{ content }}
