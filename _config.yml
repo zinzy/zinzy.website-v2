@@ -71,7 +71,7 @@ sass:
   style:            :compressed
 
 
-collections_dir: _content
+collections_dir: _content/_content/_content
 
 collections: 
   diary:
