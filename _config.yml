@@ -2,7 +2,9 @@ title: Zinzy Waleson Geene
 description: A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
-include:             ['_pages']
+include:
+  - _pages
+  - _content
 exclude:             
   - _includes/notes_graph.json
   - assets/js/webmention.js
@@ -78,7 +80,6 @@ collections:
   wiki:
     output: true
     permalink: /:slug
-    archive: true
   pages:
     output: true
     permalink: /:slug
@@ -97,7 +98,7 @@ defaults:
     values:
       layout: "single-micro" 
   - scope:
-      path: "_wiki/**/*.md"
+      path: "_content/_wiki/**/*.md"
     values:
       layout: "wiki" 
   - scope:

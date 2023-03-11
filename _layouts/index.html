@@ -1,6 +1,17 @@
 ---
 layout: default
 --- 
+
+
+
+<ul>
+  {% for post in site.wiki %} 
+    <li class="py-3">
+      {{post.title}}
+    </li> 
+  {% endfor %}
+</ul>
+
 <section>
   {{content}}
 </section>

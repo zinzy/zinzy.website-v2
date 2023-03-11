@@ -1,0 +1,6 @@
+[submodule "Content-Repo"]
+	path = Content-Repo
+	url = https://github.com/zinzy/Content-Repo.git
+[submodule "_content"]
+	path = _content
+	url = https://github.com/zinzy/_content.git
