@@ -1,24 +1,14 @@
 ---
 layout: default
 --- 
-
-
-
-<ul>
-  {% for post in site.wiki %} 
-    <li class="py-3">
-      {{post.title}}
-    </li> 
-  {% endfor %}
-</ul>
-
 <section>
   {{content}}
 </section>
 
 <section>
   <div class="micro-header mb-2">Latest diary entry</div>
-  {% for post in site.posts | limit: 1 %} 
+  {% assign diary = site.diary | sort: 'date' | reverse %}
+  {% for post in diary | limit: 1 %} 
     <h2 class="mb-0">{{ post.title }}</h2>
     {{post.excerpt}}
 
@@ -38,7 +28,8 @@ layout: default
   <h2>Milestones</h2>
   <div class="border-top">
       <ul>
-        {% for post in site.posts %}
+        {% assign diary = site.diary | sort: 'date' | reverse %}
+        {% for post in diary %}
           {% if post.tags contains "milestones" %}
           <li class="py-3">
             <div class="row">
