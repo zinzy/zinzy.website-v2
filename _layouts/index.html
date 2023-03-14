@@ -10,7 +10,7 @@ layout: default
   {% assign diary = site.diary | sort: 'date' | reverse %}
   {% for post in diary | limit: 1 %} 
     <h2 class="mb-0">{{ post.title }}</h2>
-    {{post.excerpt}}
+    <p>{{post.excerpt}}</p>
 
     <a href="{{post.url}}" class="button">Read full post</a>
   {% endfor %}
