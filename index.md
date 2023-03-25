@@ -1,8 +1,8 @@
 ---
-title: "Home"
+title: "Zinzy Waleson Geene"
 layout: index
 micro_limit: 3
 ---
-# Heya! I am Zinzy Waleson Geene. I come here to learn in public and change my mind. What about you?
+Heya pal, glad you're here. I'm Zinzy, a human, former band geek, designer and researcher from Amsterdam. This is a quiet street on the Internet where I come to learn in public and change my mind. What about you?
 
-This is my personal website, a quiet street on the Internet where I share soft stances, lived experiences, and critical notes on the things I hold dear. Whatever brought you here, I hope you have a good time. You can start by learning more [about me](/about), about [my work](/work) or about [this site](/site).
+The best way to get to know me is by meeting with me personally. If you're in the neighborhood, feel free to come say [hello](/hello). A good alternative is to look around on this website. 

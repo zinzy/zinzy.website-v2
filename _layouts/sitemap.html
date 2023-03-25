@@ -11,7 +11,7 @@ layout: default
     <h3 class="mb-3">I write about</h3>
     <ul class="tags">
       {% assign sorted_tags = site.tags %}
-      {% for tag in sorted_tags %}
+      {% for tag in site.tags %}
         <li> 
           <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
         </li> 

@@ -1,48 +1,6 @@
 ---
 layout: default
---- 
+---  
 <section>
   {{content}}
-</section>
-
-<section>
-  <div class="micro-header mb-2">Latest diary entry</div>
-  {% assign diary = site.diary | sort: 'date' | reverse %}
-  {% for post in diary | limit: 1 %} 
-    <h2 class="mb-0">{{ post.title }}</h2>
-    <p>{{post.excerpt}}</p>
-
-    <a href="{{post.url}}" class="button">Read full post</a>
-  {% endfor %}
-</section>
-
-<section>
-  <div class="micro-header mb-2">Micro blog</div>
-  <h2>Latest activity</h2>
-  {% include feed-micro.html %}
-</section>
-
-
-<section class="diary">
-  <div class="micro-header mb-2">Growth</div>
-  <h2>Milestones</h2>
-  <div class="border-top">
-      <ul>
-        {% assign diary = site.diary | sort: 'date' | reverse %}
-        {% for post in diary %}
-          {% if post.tags contains "milestones" %}
-          <li class="py-3">
-            <div class="row">
-              <div class="col-9">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </div>
-              <div class="col-3 text-end">
-                <time datetime="{{ post.date | date: "%Y" }}">{{ post.date | date: "%Y" }}</time>
-              </div>
-            </div>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-  </div>
 </section>

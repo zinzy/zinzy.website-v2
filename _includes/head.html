@@ -8,6 +8,11 @@
   <meta property="og:site_name" content="{{ site.title }}">
   
   <link rel="author" href="humans.txt" />
+
+  {% if page.noindex %}
+    <META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW"/>
+  {% endif %}
+
   
   <!-- Imagery -->
   <meta content="/assets/img/android-chrome-512x512.png" property="og:image">

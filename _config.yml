@@ -73,8 +73,6 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-collections_dir: _content/_content/_content
-
 collections: 
   diary:
     output: true
@@ -82,7 +80,7 @@ collections:
   micro:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
-  wiki:
+  resources:
     output: true
     permalink: /:slug
   pages:
@@ -108,9 +106,9 @@ defaults:
     values:
       layout: "single-micro" 
   - scope:
-      path: "_content/_wiki/**/*.md"
+      path: "_resources/**/*.md"
     values:
-      layout: "wiki" 
+      layout: "page" 
   - scope:
       path: "_pages/**/*.md"
     values:

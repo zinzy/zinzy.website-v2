@@ -4,8 +4,7 @@ layout: default
 
 <article class="h-entry"> 
   <header class="mb-5">
-    <div class="micro-header mb-2">{{ page.title }}</div>
-    <h1 class="p-name mb-0">{{ page.subtitle }}</h1>
+    <h2>{{ page.title }}</h2>
     {% if page.title == "Now" %}
     <p class="metadata">Last updated on <time datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
     {% endif %}

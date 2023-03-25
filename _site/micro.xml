@@ -4,11 +4,67 @@
   <channel>
     <title>Zinzy Waleson Geene - micro RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4000</link>
+    <link>http://localhost:4001</link>
     <language></language>
-    <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4000/micro.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4001/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4001/micro.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Fri, 17 Mar 2023 19:54:24 +0100</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Isn’t it so that, if a cog in the wheel doesn’t work, the entire thing falls apart? What a beautiful reflection, Adrianna. I’m glad I read it today.</p>
+
+          
+          <br />
+          <html><body>
+<p>Isn’t it so that, if a cog in the wheel doesn’t work, the entire thing falls apart? What a beautiful reflection, Adrianna. I’m glad I read it today.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Fri, 17 Mar 2023 19:54:24 +0100</pubDate>
+        <link>http://localhost:4001/2023-03-17-19-54-24</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-17-19-54-24</guid>
+        
+          
+        
+        
+          <category>Expats</category>
+        
+          <category>Qpocs</category>
+        
+          <category>Slices of life</category>
+        
+      </item>
+    
+      <item>
+        <title>Fri, 17 Mar 2023 10:24:39 +0100</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>This is precisely what I love about webmentions, the return to the cozy web!</p>
+
+          
+          <br />
+          <html><body>
+<p>This is precisely what I love about webmentions, the return to the cozy web!</p>
+</body></html>]]>
+        </description>
+        <pubDate>Fri, 17 Mar 2023 10:24:39 +0100</pubDate>
+        <link>http://localhost:4001/2023-03-17-10-24-39</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-17-10-24-39</guid>
+        
+          
+        
+        
+          <category>Indieweb</category>
+        
+          <category>Internet friends</category>
+        
+          <category>Webmention</category>
+        
+      </item>
     
       <item>
         <title>Sun, 12 Mar 2023 12:57:42 +0100</title>
@@ -22,8 +78,8 @@
           ]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 12:57:42 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-12-12-57-42</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-12-12-57-42</guid>
+        <link>http://localhost:4001/2023-03-12-12-57-42</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-12-12-57-42</guid>
         
           
         
@@ -47,8 +103,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 07:35:06 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-12-07-35-06</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-12-07-35-06</guid>
+        <link>http://localhost:4001/2023-03-12-07-35-06</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-12-07-35-06</guid>
         
           
         
@@ -79,8 +135,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 10 Mar 2023 09:44:15 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-10-09-44-15</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-10-09-44-15</guid>
+        <link>http://localhost:4001/2023-03-10-09-44-15</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-10-09-44-15</guid>
         
           
         
@@ -104,8 +160,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 10 Mar 2023 09:03:06 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-10-09-03-06</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-10-09-03-06</guid>
+        <link>http://localhost:4001/2023-03-10-09-03-06</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-10-09-03-06</guid>
         
           
         
@@ -129,8 +185,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 10 Mar 2023 08:54:16 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-10-08-54-16</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-10-08-54-16</guid>
+        <link>http://localhost:4001/2023-03-10-08-54-16</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-10-08-54-16</guid>
         
           
         
@@ -155,8 +211,8 @@
           ]]>
         </description>
         <pubDate>Thu, 09 Mar 2023 23:42:35 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-09-23-42-35</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-09-23-42-35</guid>
+        <link>http://localhost:4001/2023-03-09-23-42-35</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-09-23-42-35</guid>
         
           
         
@@ -184,8 +240,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 08 Mar 2023 22:49:43 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-08-22-49-43</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-08-22-49-43</guid>
+        <link>http://localhost:4001/2023-03-08-22-49-43</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-08-22-49-43</guid>
         
           
         
@@ -210,8 +266,8 @@
           ]]>
         </description>
         <pubDate>Wed, 08 Mar 2023 10:35:51 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-08-10-35-51</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-08-10-35-51</guid>
+        <link>http://localhost:4001/2023-03-08-10-35-51</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-08-10-35-51</guid>
         
           
         
@@ -236,8 +292,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 05 Mar 2023 08:36:54 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-05-08-36-54</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-05-08-36-54</guid>
+        <link>http://localhost:4001/2023-03-05-08-36-54</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-05-08-36-54</guid>
         
           
         
@@ -264,8 +320,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 05 Mar 2023 07:41:54 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-05-07-41-54</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-05-07-41-54</guid>
+        <link>http://localhost:4001/2023-03-05-07-41-54</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-05-07-41-54</guid>
         
           
         
@@ -289,8 +345,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 04 Mar 2023 18:43:17 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-04-18-43-17</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-04-18-43-17</guid>
+        <link>http://localhost:4001/2023-03-04-18-43-17</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-04-18-43-17</guid>
         
           
         
@@ -310,8 +366,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 04 Mar 2023 12:31:29 +0100</pubDate>
-        <link>http://localhost:4000/2023-03-04-12-31-29</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-03-04-12-31-29</guid>
+        <link>http://localhost:4001/2023-03-04-12-31-29</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-03-04-12-31-29</guid>
         
           
         
@@ -337,8 +393,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 22 Feb 2023 19:23:46 +0100</pubDate>
-        <link>http://localhost:4000/2023-02-22-19-23-46</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-22-19-23-46</guid>
+        <link>http://localhost:4001/2023-02-22-19-23-46</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-02-22-19-23-46</guid>
         
           
         
@@ -364,8 +420,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 03 Feb 2023 09:53:34 +0100</pubDate>
-        <link>http://localhost:4000/2023-02-03-09-53-34</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-03-09-53-34</guid>
+        <link>http://localhost:4001/2023-02-03-09-53-34</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-02-03-09-53-34</guid>
         
           
         
@@ -391,8 +447,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 03 Feb 2023 09:16:56 +0100</pubDate>
-        <link>http://localhost:4000/2023-02-03-09-16-56</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-03-09-16-56</guid>
+        <link>http://localhost:4001/2023-02-03-09-16-56</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-02-03-09-16-56</guid>
         
           
         
@@ -417,8 +473,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 02 Feb 2023 10:52:34 +0100</pubDate>
-        <link>http://localhost:4000/2023-02-02-10-52-34</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-02-02-10-52-34</guid>
+        <link>http://localhost:4001/2023-02-02-10-52-34</link>
+        <guid isPermaLink="true">http://localhost:4001/2023-02-02-10-52-34</guid>
         
           
         

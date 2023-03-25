@@ -2,12 +2,6 @@
 layout: default
 --- 
 <section class="diary">
-
-  <div class="mb-5">
-    <div class="micro-header mb-2">{{ page.title }}</div>
-    <h1 class="mb-0">{{ page.subtitle }}</h1>
-  </div>
-
   {% assign diary = site.diary | sort: 'date' | reverse %}
   <ul class="diary">
     {% for post in diary %}

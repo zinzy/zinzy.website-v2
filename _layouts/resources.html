@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul class="">
+  {% for post in site.resources %}
+    <li class="">
+      <a href="{{post.url}}">
+        <h6 class="m-0">{{ post.title }}</h6>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

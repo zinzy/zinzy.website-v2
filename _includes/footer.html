@@ -1,21 +1,17 @@
-<footer id="footer">  
-  <div class="row">
-    <div class="col-8">
-      <ul>
-        <li><a href="/now">Now</a></li>
-        <li><a href="/micro">Micro</a></li>
-        <li><a href="/uses">Uses</a></li>
-        <li><a href="/site">Site</a></li> 
-      </ul>
-    </div>
-    <div class="col-4 text-end">
-      <span class="">
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        <span class="mx-1 d-inline-block"><a href="https://xn--sr8hvo.ws/" target="_blank" rel="noopener noreferrer">🕸💍</a></span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span> 
-    </div>
-  </div>
+<footer class="site-footer">
+  {% assign current = page.url | downcase | split: '/' %}
+  <nav>
+    <ul>
+      <li><a href='/now' {% if current[1] == 'now' %}class='active'{% endif %}>Now</a></li>
+      <li><a href='/hello' {% if current[1] == 'hello' %}class='active'{% endif %}>Hello</a></li>
+      <li><a href='/uses' {% if current[1] == 'uses' %}class='active'{% endif %}>Uses</a></li>
+      <li><a href='/site' {% if current[1] == 'site' %}class='active'{% endif %}>Site</a></li>
+    </ul>
+  </nav>
+</footer>
+
+
+
 
   <ul class="h-card d-none">
     <li>
@@ -38,24 +34,3 @@
     <li class="p-gender-identity">Non-binary</li>
   </ul>
 
-
-  <!-- <div class="row indieweb">
-    <div class="col-6">
-      <span>
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/previous">←</a>
-        IndieWeb
-        <a href="https://xn--sr8hvo.ws/%F0%9F%95%9C%F0%9F%91%8B%F0%9F%9A%A8/next">→</a>
-      </span>
-    </div>
-    <div class="col-6 text-end">
-      <span>
-        <div class="yw-widget-text yw-raw" data-yw-url="https://zinzy.website">
-        <script src="https://yesterweb.org/js/widget.js"></script>
-      </span>
-    </div>
-  </div> -->
- 
-</footer>    
-<!-- 
-  <p>
-    Unless otherwise stated, all contents are licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">BY-NC-SA 4.0</a>. This is <a href="https://github.com/zinzy/zinzy.website/commits/main" target="_blank">Edition {{ page.last_modified_at | date: "%s" }}</a></p> -->

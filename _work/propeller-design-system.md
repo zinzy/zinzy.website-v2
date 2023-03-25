@@ -4,6 +4,7 @@ summary: "When I joined Airtrade, one thing was quite clear: a democratized mult
 date: 2018-04-27
 thumb: https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png
+noindex: true
 tags: 
 - project lead
 - UI design 
@@ -11,14 +12,6 @@ tags:
 - project management 
 - interaction design 
 ---
-
-<!-- 
-WAT NOG MIST
-- Mijn rol
-- Tijdbestek
-
- -->
-
 <div class="micro-header mb-2">A little context</div>
 ## Airtrade offers a suite of consumer and enterprise travel technology products
 
