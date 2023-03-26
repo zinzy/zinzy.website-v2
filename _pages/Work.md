@@ -5,6 +5,15 @@ layout: page
 ---
 I'm a senior-but-silly designer and researcher with 16 years of experience making digital products. Since 2015 I've been specializing in making tools for people at work. 
 
+<div class="breakout">
+<div class="breakout-content">
+<figure>
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1673958111/me/zinzy-at-a-party_vrzlqr.jpg" alt="" />
+<figcaption><a href="https://www.linkedin.com/in/robin-de-bruin-14b6025a/" target="_blank">Robin</a>, me, and <a href="https://www.linkedin.com/in/micharbreems/" target="_blank">Michar</a> at an <a href="https://www.airtrade.com/" target="_blank">Airtrade</a> office party in 2019</figcaption>
+</figure>
+</div>
+</div>
+
 ### Availability
 - Let's be [LinkedIn](https://www.linkedin.com/in/zinzy/)
 - I'm not available for any new opportunities for the foreseable future

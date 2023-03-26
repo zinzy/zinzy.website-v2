@@ -8,27 +8,17 @@ This is a quiet street on the Internet where I share soft stances, lived experie
 
 At some point during this journey, making things for the Internet became my profession. Perhaps you'd like to learn more about my [work](/work) or about this [site](/site). This page is dedicated to who I am as a person.
 
-<div class="breakout">
-    <div class="breakout-content">
-        <div class="row">
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678290695/me/office-party_szdej3.jpg" style="transform: rotate(2deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" style="transform: rotate(-3deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678291228/me/pride2019_iunghr.jpg" style="transform: rotate(1deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678291626/me/portugal_gpnogd.jpg" style="transform: rotate(-2deg);" alt="" />
-            </div>
-        </div>
-        <div class="row text-small text-subtext text-center">
-            <div class="col-12">
-                <p>I try to smile as I jump through the hoops of life. I do also have a very serious face.</p>
-            </div>
-        </div>
+<div class="row mt-5">
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg" alt="" />
+    </div>
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="" />
+    </div>
+</div>
+<div class="row text-small text-subtext text-center mb-5">
+    <div class="col-12">
+        <p class="m-0">Me on Linkedin vs. me in real life</p>
     </div>
 </div>
 
@@ -48,7 +38,14 @@ Parallel to my hopes of becoming a humanities PhD, I had been running a design s
 
 These days, stories and writing are still a big part of my life. This website chronicles the parts of that relationship that are suitable for public consumption.
 
----
+<div class="row my-5">
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440272/me/two.jpg" alt="" />
+    </div>
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440273/me/six.jpg" alt="" />
+    </div>
+</div>
 
 Because of my experiences and work, honoring people's complex realities is integral to my world view. I'm Afropean, queer, fat, religious, and neurodivergent, and this intersection has shaped my experience of life. It means that _at home_ is a feeling sometimes difficult to come by.
 
@@ -56,30 +53,21 @@ My journey with neurodivergence is long, ramified, and sometimes dead-ended. Now
 
 In my life, neurodivergence means I'm very curious and eager to learn. It also makes me ask "okay, but why?", sometimes to the chagrin of the people around me. 
 
-<div class="breakout">
-    <div class="breakout-content">
-        <div class="row">
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678294628/me/vlaai_fuaucf.jpg" style="transform: rotate(-2deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440273/me/six.jpg" style="transform: rotate(1deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440263/me/pride2019_amdadz.jpg" style="transform: rotate(-1deg);" alt="" />
-            </div>
-            <div class="col-3">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440272/me/two.jpg" style="transform: rotate(2deg);" alt="" />
-            </div>
-        </div>
-    </div>
-</div>
+---
 
 One of the many breathtaking beauties of Amsterdam is its diversity. When I first moved to the city, I was yearning for a particular type of queer community, and I found one in [Queer Salon](https://meetup.com/queersalon), the monthly slow-paced get together that I founded in 2018.
 
 I'm also a part of the leadership team of [Vine & Fig](https://vineandfig.co/), an international community for queer Catholics. I think there is a very delicate beauty inherent in maintaining a faith practice in an unwelcoming Church. I combine familiar Catholic practices with Taoist teachings in my attempt at being a worthwhile human.
 
----
+
+<div class="row my-5">
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678294628/me/vlaai_fuaucf.jpg" alt="" />
+    </div>
+    <div class="col-6">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1668440263/me/pride2019_amdadz.jpg" alt="" />
+    </div>
+</div>
 
 Having originated when I got a keyboard for my fourth birthday, and fully developing in the brass and woodwinds sections of our local orchestra, my passion for music is my leitmotif.
 
