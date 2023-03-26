@@ -74,9 +74,6 @@ sass:
   style:            :compressed
 
 collections: 
-  diary:
-    output: true
-    permalink: /:year-:month-:day-:slug
   micro:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
@@ -95,9 +92,6 @@ defaults:
       path: "**/*"
     values:
       layout: "default"
-  - scope:
-      path: "_diary/**/*.md"
-      title: ":year-:month-:day-:slug"
     values:
       layout: "post" 
   - scope:

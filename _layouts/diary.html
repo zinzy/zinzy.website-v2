@@ -2,7 +2,7 @@
 layout: default
 --- 
 <section class="diary">
-  {% assign diary = site.diary | sort: 'date' | reverse %}
+  {% assign diary = site.posts | sort: 'date' | reverse %}
   <ul class="diary">
     {% for post in diary %}
 
