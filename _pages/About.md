@@ -16,11 +16,6 @@ At some point during this journey, making things for the Internet became my prof
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="" />
     </div>
 </div>
-<div class="row text-small text-subtext text-center mb-5">
-    <div class="col-12">
-        <p class="m-0">Me on Linkedin vs. me in real life</p>
-    </div>
-</div>
 
 I come from a long line of reluctantly-Catholic, burgundian band geeks. In the Deep Dutch South, I learned to embrace the health benefits of making music, the forests of the German border, and the importance of charcuterie.
 

@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
+<section>
+  {{content}}
+</section>
+
 <ul class="">
   {% for post in site.resources %}
     <li class="">
-      <a href="{{post.url}}">
-        <h6 class="m-0">{{ post.title }}</h6>
-      </a>
+      <a href="{{post.url}}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

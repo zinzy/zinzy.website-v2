@@ -10,4 +10,3 @@ The best way to get to know me is by meeting with me personally. If you're in th
 On this website I share soft stances, lived experience, and critical notes on the things I hold dear. This website goes back to 2009. Sometimes, I dig up old gems from my personal archive and add them to the site. Read [my diary](/diary).
 
 Having taught myself web development in my nineties Spice Girls bedroom, I'm a UX designer and researcher specialized in making tools for people at work. Learn more about [what I do](/work).
-
