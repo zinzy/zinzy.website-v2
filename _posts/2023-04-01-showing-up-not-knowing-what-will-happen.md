@@ -2,7 +2,7 @@
 layout: post
 title: "Showing up not knowing what will happen"
 date: 2023-04-01
-excerpt: "I got to meet one of my Internet heroes this week: Patrick Rhone and his family were on a Europe trip, and I was lucky enough to catch the planning stage on his blog right in time to extend an invitation."
+excerpt: "I met Shervin at the coffee place this morning. We know each other very casually; we used to frequent the same co-working space, we're LinkedIn friends. He has one of those faces that you just want to meet with a smile. "
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1300/v1680341586/zinzy.website/B941CB5A-069A-4130-869C-39C1D63CCD16_miulig.jpg
 tags:
 - coffee place
