@@ -65,6 +65,10 @@ main {
   nav {
     ul {
       li {
+        display: block;
+        @media screen and (min-width: 768px) {
+          display: inline-block;
+        } 
         a {
           color: $gray-2;
           @media (prefers-color-scheme: dark) {
