@@ -3,6 +3,8 @@ share: true
 layout: post
 title: "That time we were the first to get Covid"
 date: 2020-09-20
+faces: 
+- Anja
 tags:
 - milestones
 - pandemic

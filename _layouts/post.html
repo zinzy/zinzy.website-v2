@@ -2,53 +2,65 @@
 layout: default
 ---
 <article class="h-entry">
-  <header class="mb-5">
-    <h2 class="p-name mb-0"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
-    <p class=""><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
-  </header>
-  <div id="notes-entry-container">
-    <content class="e-content">
-      {{ content }}
-    </content>
-  </div>
-
-  <footer class="border-top mt-5 pt-5">
-    <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
-    <p class="m-0">
-      <span>This is an entry from the diary of <a rel="author" class="p-author h-card" href="/">Zinzy Waleson Geene</a>. {{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. {% if page.tags.size > 0 %} Feel free to read more about {% endif %}</span>
-
-      {% if page.tags.size > 0 %}
-      <span class="tags"> 
-          {% assign sorted_tags = page.tags | sort %}
-          {% for tag in sorted_tags %}
-          {%- assign t = tag | first -%}
-            <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
-          {% endfor %}
-      </span>
-    {% endif %}
-    </p>
-     
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      {% if page.hero %}
+        <div class="breakout">
+          <div class="breakout-content">
+              <img src="{{page.hero}}" alt="..." />
+          </div>
+        </div>   
+      {% endif %}
+      <header class="mb-5 text-center">
+        <h2 class="p-name mb-0"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
+        <p class=""><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
+      </header>
+      <div id="notes-entry-container">
+        <content class="e-content">
+          {{ content }}
+        </content>
+      </div>
     
-<div class="webmentions">
-  <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject={{ page.title | uri_escape }}" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
-  <div id="webmentions"></div>
-</div>
-
-    <div class="my-5 border-top pt-5">
-      <div class="row"> 
-          <div class="col-6">
-            {% if page.next.url %}
-              <div class="text-subtext">Newer</div> 
-              <div><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </div>
-            {% endif %} 
-          </div>
-          <div class="col-6"> 
-            <div class="text-subtext">Older</div> 
-            <div><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </div>
-          </div>
-        </div> 
-      </div> 
-  </footer>
+      <footer class="border-top mt-5 pt-5">
+        
+        <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
+        <p class="m-0">
+          <span>This is an entry from the diary of <a rel="author" class="p-author h-card" href="/">Zinzy Waleson Geene</a>. {{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. {% if page.tags.size > 0 %} Feel free to read more about {% endif %}</span>
+    
+          {% if page.tags.size > 0 %}
+          <span class="tags"> 
+              {% assign sorted_tags = page.tags | sort %}
+              {% for tag in sorted_tags %}
+              {%- assign t = tag | first -%}
+                <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
+              {% endfor %}
+          </span>
+        {% endif %}
+        </p>
+         
+        
+    <div class="webmentions">
+      <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject={{ page.title | uri_escape }}" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+      <div id="webmentions"></div>
+    </div>
+    
+        <div class="my-5 border-top pt-5">
+          <div class="row"> 
+              <div class="col-6">
+                {% if page.next.url %}
+                  <div class="text-subtext">Newer</div> 
+                  <div><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </div>
+                {% endif %} 
+              </div>
+              <div class="col-6"> 
+                <div class="text-subtext">Older</div> 
+                <div><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </div>
+              </div>
+            </div> 
+          </div> 
+      </footer>
+    </div>
+  </div>
 </article>
  
  

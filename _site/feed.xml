@@ -4,18 +4,53 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4002</link>
+    <link>http://localhost:4001</link>
     <language></language>
-    <copyright>http://localhost:4002/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4002/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4001/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Showing up not knowing what will happen</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          I got to meet one of my Internet heroes this week: Patrick Rhone and his family were on a Europe trip, and I was lucky enough to catch the planning stage on his blog right in time to extend an invitation.
+          
+          <br />
+          <html><body>
+<p>I met Shervin at the coffee place this morning. We know each other very casually; we used to frequent the same co-working space, we’re LinkedIn friends. He has one of those faces that you just want to meet with a smile.</p>
+
+<p>We exchange how life is treating us, what we’re doing at work. He tells me about his side projects, and how one of them is an invite-only meetup where you attend without knowing what you’ll be doing. He lets me in on secrets around the next meetup, and tells me what kind of activities are involved. It sounds magical.</p>
+
+<p>There’s beauty in the not knowing, we agree. In the whimsy of the unexpected, the sudden connection we may feel with other humans. I tell him his project reminds me of Marina Abramović, whom Anja and I were fortunate enough to meditate with <a href="https://carre.nl/pagina/marina-in-carre" target="_blank">in Carre last year</a>. Participating in <a href="https://www.nytimes.com/2010/04/04/nyregion/04about.html" target="_blank">her famous eye-gazing practice</a> with complete strangers was transformative.</p>
+
+<p>I’m glad I got an invitation.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        
+          
+        
+        
+          <category>Coffee place</category>
+        
+          <category>Performance art</category>
+        
+          <category>Meetups</category>
+        
+          <category>Whimsy</category>
+        
+      </item>
     
       <item>
         <title>Week 11: Meeting Patrick</title>
         <author> ()</author>
         <description><![CDATA[
           
-          
+          I got to meet one of my Internet heroes this week: Patrick Rhone and his family were on a Europe trip, and I was lucky enough to catch the planning stage on his blog right in time to extend an invitation.
           
           <br />
           <html><body>
@@ -29,13 +64,23 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/03/26/week-11/</guid>
+        <link>http://localhost:4001/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/26/week-11/</guid>
         
           
         
         
           <category>Weeknotes</category>
+        
+          <category>Internet friends</category>
+        
+          <category>Lemonade</category>
+        
+          <category>Pets</category>
+        
+          <category>Television</category>
+        
+          <category>Spring</category>
         
       </item>
     
@@ -68,8 +113,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -108,8 +153,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/03/12/week-10/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/03/12/week-10/</guid>
+        <link>http://localhost:4001/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/12/week-10/</guid>
         
           
         
@@ -150,44 +195,38 @@
     <div class="breakout-content">
         <div class="row">
             <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-1_ezwubo.jpg" style="transform: rotate(-2deg);" alt="">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-1_ezwubo.jpg" alt="">
             </div>
             <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-2_xs9fwa.jpg" style="transform: rotate(1deg);" alt="">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-2_xs9fwa.jpg" alt="">
             </div>
             <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-3_xaodoy.jpg" style="transform: rotate(-1deg);" alt="">
+                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-3_xaodoy.jpg" alt="">
             </div>
         </div>
     </div>
 </div>
 
-<h2 id="the-roi-of-good-research">The ROI of good research</h2>
+<h3 id="the-roi-of-good-research">The ROI of good research</h3>
 <p>Anja and I are both blessed with a-type personalities and a propensity for thorough investigation. Early on in our dog prep journey, we found <a href="https://www.youtube.com/@McCannDogs" target="_blank">McCann Dogs</a>, a training school with a YouTube channel full of clear, concise, and highly-informative videos on how to raise a puppy.</p>
 
 <p>Two weeks in, I can tell they taught us well. Lemonade hasn’t had an accident in the house since day three, she sleeps through the night aside from two or three potty breaks, and it’s great to see how quickly she’s picking up commands. A week before Lemonade arrived, we started on McCann’s course <a href="https://mydogcan.mccanndogs.com/courses/puppy-essentials" target="_blank">Puppy Essentials</a>, which has proven a great way to get through the first few weeks.</p>
 
-<hr>
-
-<h2 id="i-got-cabin-fever">I got cabin fever</h2>
+<h3 id="i-got-cabin-fever">I got cabin fever</h3>
 <p>Out of all the things I had anticipated in preparing for this puppy, cabin fever was not one of them. While Anja and I are both quite introverted (meaning we need to recharge whenever we’ve been around people), she seemed fine spending her spring break cocooning in the house. I, on the other hand, felt myself slowly going mad over the lack of stimulus I was getting.</p>
 
 <p>Because of our potty training schedule, and lack of a big garden, I barely got out of the house the first week. Luckily, I quickly developed the habit of taking Lemonade out on walks, even if we didn’t actually let her <em>walk</em> just yet because of her exposure to possible diseases. It’s great to be out of the house again, go to my favorite coffee spot, and walk around the park with her.</p>
 
-<hr>
-
-<h2 id="the-beauty-of-trust">The beauty of trust</h2>
+<h3 id="the-beauty-of-trust">The beauty of trust</h3>
 <p>Aside from an outdoor rabbit, a bird, a chameleon, and a shy cat, I never had any cuddly pets. Being child-free on top of that never gave me the opportunity to closely bond with another small being who trusts me enough that they’ll fall asleep on my body. Lemonade is very cuddly, and it’s entirely humbling to experience the trust she seems to have in me.</p>
 
-<hr>
-
-<h2 id="whats-next">What’s next?</h2>
+<h3 id="whats-next">What’s next?</h3>
 <p>I’m excited to enroll her in puppy training a few weeks from now. For the time being, she’s hanging out with trusted pets in the neighborhood, and getting to know many visitors. Looking ahead, I’m also pumped about finally taking her to the park and playing fetch with her.</p>
 </body></html>]]>
         </description>
         <pubDate>Wed, 08 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/03/08/two-weeks-with-a-dog/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/03/08/two-weeks-with-a-dog/</guid>
+        <link>http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</guid>
         
           
         
@@ -220,8 +259,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/02/12/all-saints-amsterdam/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/02/12/all-saints-amsterdam/</guid>
+        <link>http://localhost:4001/2023/02/12/all-saints-amsterdam/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/12/all-saints-amsterdam/</guid>
         
           
         
@@ -243,7 +282,11 @@
           
           <br />
           <html><body>
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1000/v1676107091/zinzy.website/IMG_9715_eldt4r.jpg" alt="A pen drawing of a woman and a man reading the newspaper over coffee. The woman is Dutch philosopher Marli Huijer, and I assumed the man to her left is her husband. In the drawing, the husband reads the paper grumpily, as Marli's face shows more curiosity."></p>
+<div class="breakout">
+    <div class="breakout-content">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1000/v1676107091/zinzy.website/IMG_9715_eldt4r.jpg" alt="A pen drawing of a woman and a man reading the newspaper over coffee. The woman is Dutch philosopher Marli Huijer, and I assumed the man to her left is her husband. In the drawing, the husband reads the paper grumpily, as Marli's face shows more curiosity.">
+    </div>
+</div>
 
 <p>Living in a good neighborhood has many advantages. One of them is that it makes me want to spend a lot of time there. Saturday morning is very likely my favorite day in the neighborhood.</p>
 
@@ -255,8 +298,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 11 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/02/11/saturday-morning-routines/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/02/11/saturday-morning-routines/</guid>
+        <link>http://localhost:4001/2023/02/11/saturday-morning-routines/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/11/saturday-morning-routines/</guid>
         
           
         
@@ -286,8 +329,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 02 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/02/02/walking-with-annelie/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/02/02/walking-with-annelie/</guid>
+        <link>http://localhost:4001/2023/02/02/walking-with-annelie/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/02/walking-with-annelie/</guid>
         
           
         
@@ -350,8 +393,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/01/31/that-was-january/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/01/31/that-was-january/</guid>
+        <link>http://localhost:4001/2023/01/31/that-was-january/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/01/31/that-was-january/</guid>
         
           
         
@@ -383,13 +426,21 @@
 
 <p>Aside from bookshop owner she’s also a writer. I love the work she does at <a href="https://www.oneworld.nl/" target="_blank">One World</a>, where she articulates <a href="https://www.oneworld.nl/lezen/opinie/witte-fragiliteit-bestaat-niet/" target="_blank">strong perspectives</a> <a href="https://www.oneworld.nl/lezen/discriminatie/sociaal-onrecht/woke-ooit-een-waarschuwing-voor-racisme-nu-een-conservatief-hondenfluitje/" target="_blank">on antiracism</a> <a href="https://www.oneworld.nl/lezen/opinie/kamala-harris-is-niet-de-eerste-geschikte-zwarte-vrouw/" target="_blank">and equity</a>. A few weeks ago, she sold me this book:</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660345/zinzy.website/IMG_9581_iaat6s.jpg" alt=""></p>
+<div class="breakout">
+    <div class="breakout-content">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660345/zinzy.website/IMG_9581_iaat6s.jpg" alt="">
+    </div>
+</div>
 
 <p>When I took it from the shelf, I didn’t know she was the one who wrote it. Eventually, she told me she had drawn inspiration from the questions her child asks her. The questions often leave her bemused, surprised, stunned. I suppose they’re the questions we forget to ask as we grow older.</p>
 
 <p>It’s a perfect coffee table book, deserving of a central place in the house to welcome guests into an atmosphere of curiosity and whimsy.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660350/zinzy.website/FullSizeRender_2_yv2nim.jpg" alt="Page of the book &quot;Why doesn't the crosswalk work?&quot;m with on the left, in Dutch and English, the question &quot;why are all the garbage men brown?&quot;"></p>
+<div class="breakout">
+    <div class="breakout-content">
+        &lt;img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660350/zinzy.website/FullSizeRender_2_yv2nim.jpg" alt="Page of the book "Why doesn't the crosswalk work?"m with on the left, in Dutch and English, the question "why are all the garbage men brown?" /&gt;
+    </div>
+</div>
 
 <p>One page that stands out to me is this one. There must have been countless times I wondered similar things as a child. Why are the garbage men brown? Why do all the other colored people live on the other side of the tracks? Why don’t I see myself on television?</p>
 
@@ -397,8 +448,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 23 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/01/23/why-doesnt-the-crosswalk-work/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
+        <link>http://localhost:4001/2023/01/23/why-doesnt-the-crosswalk-work/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
         
           
         
@@ -408,45 +459,6 @@
           <category>Diversity and inclusion</category>
         
           <category>Amsterdam</category>
-        
-      </item>
-    
-      <item>
-        <title>Dog park</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          
-          
-          <br />
-          <html><body>
-<p>My attempt to lure both Anja and myself outside for some fresh air and a walk was thwarted as soon as I learned the place was out of my favorite bubble tea. We strolled to Flevopark, in my hand an ice cream cone, and on my face the disappointment of a toddler who can’t be satisfied.</p>
-
-<p>The park has a wide field that allows loose dogs to roam freely in the off-season. Even through the trees Anja and I spotted the corgi from half a mile away.</p>
-
-<p>“I mean, we could just go up and chat a little, right? She might have some good tips?” Anja and I wondered, looking for an excuse to get closer to the dog. We must have looked completely adorable, because the face of Kenny’s owner brightened once she noticed us lingering nearby.</p>
-
-<p>She told us about their routine, how he could already stay home alone for most of the day, and how she’d had never heard him bark. Within minutes we learned we all know Lalo, another corgi in the neighborhood.</p>
-
-<p>It’s nice getting to know this new corner of the neighborhood. She and I are dog people now.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sun, 22 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4002/2023/01/22/dog-park/</link>
-        <guid isPermaLink="true">http://localhost:4002/2023/01/22/dog-park/</guid>
-        
-          
-        
-        
-          <category>Pets</category>
-        
-          <category>Dogs</category>
-        
-          <category>Amsterdam</category>
-        
-          <category>Communities</category>
-        
-          <category>Anja</category>
         
       </item>
     

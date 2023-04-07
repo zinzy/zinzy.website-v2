@@ -1,8 +1,9 @@
+@import "../_sass/bootstrap";
 @import "../_sass/colors";
 @import "../_sass/typography";
 @import "../_sass/webmention"; 
-@import "../_sass/grid"; 
-@import "../_sass/spacing"; 
+// @import "../_sass/grid"; 
+// @import "../_sass/spacing"; 
 
 html, body {
   font-size: 16px;
@@ -10,7 +11,7 @@ html, body {
   margin: 0;
   padding: 0;
   @media screen and (min-width: 768px) {
-    font-size: 17px;
+    font-size: 18px;
   } 
 }
 
@@ -20,45 +21,46 @@ body {
   background: #fff;
   color: $gray-1; 
   font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
-  font-weight: 400; 
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 40px;
+  font-weight: 400;  
   @media (prefers-color-scheme: dark) {
     background: $black;
     color: $gray-5; 
   }
-  @media screen and (min-width: 768px) {
-    margin: 80px auto;
-  padding: 0;
-  } 
-  @media screen and (min-width: 1200px) {
-    // margin: 200px auto;
-  } 
 }
+
 
 
 
 // SECTIONS
 
+section {
+  margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 100px;
+  } 
+}
 
-// main {
-//   margin: 100px 0;
-//   @media screen and (min-width: 768px) {
-//     margin: 200px 0;
-//   } 
-// }
+article {
+  // margin-top: 100px;
+}
+
+main {
+  padding: 50px 30px;
+  @media screen and (min-width: 768px) {
+    padding: 100px 0;
+  } 
+}
 
 
 .site-header {
-  border-bottom: 1px solid $gray-5;
-  padding-bottom: 3rem;
-  margin-bottom: 3rem;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }
+  margin: 2rem 0;
+  padding: 0 30px;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  } 
   a {
     text-decoration: none;
+    border: 0;
   }
   nav {
     ul {
@@ -75,11 +77,15 @@ body {
 }
 
 .site-footer {
-  border-top: 1px solid $gray-5;
-  padding-top: 3rem;
-  margin-top: 3rem;
+  margin: 2rem 0;
+  padding: 0 30px;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  } 
   a {
     color: $gray-2;
+    text-decoration: none;
+    border: 0;
     @media (prefers-color-scheme: dark) {
       border-color: $gray-4; 
     }
@@ -157,10 +163,10 @@ nav {
       a {
         text-decoration: none;
         &.active {
-          color: $black;
-          @media (prefers-color-scheme: dark) {
-            color: white;
-          }
+          // color: $black;
+          // @media (prefers-color-scheme: dark) {
+          //   color: white;
+          // }
         }
       }
     }
@@ -413,29 +419,16 @@ transform: perspective(1px) translateZ(0);
 }
 
 .diary {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;  
-    h4 {
-      line-height: 135%;
+  li {
+    padding: 2rem 0;
+    p {
+      margin: 1rem 0 0 0;
     }
-    li {  
-      line-height: 135%;
-      border-bottom: 1px solid $gray-5; 
-      @media (prefers-color-scheme: dark) {
-        border-color: $gray-1; 
-      }
-      &:last-child { 
-        border: 0;
-      }
-      a {
-        text-decoration: none;
-        color: $black;
-        @media (prefers-color-scheme: dark) {
-          color: white; 
-        }
-      }
+    &:first-child {
+      padding-top: 0;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid $gray-4;
     }
   }
 }
@@ -470,14 +463,14 @@ transform: perspective(1px) translateZ(0);
   }
 }
 
-hr {
-  border: 0;
-  margin: 3rem 0;
-  border-top: 1px solid $gray-5;
-  @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-  }
-}
+// hr {
+//   border: 0;
+//   margin: 1rem 0;
+//   border-top: 1px solid $gray-4;
+//   @media (prefers-color-scheme: dark) {
+//     border-color: $gray-1; 
+//   }
+// }
 
 
  // MEDIA
@@ -638,13 +631,13 @@ ol {
 .breakout { 
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 
 .breakout-content {
-  max-width: 1000px;
+  max-width: 1073px;
   margin: 0 auto;
   padding: 0 30px;
   @media screen and (min-width: 768px) {
@@ -743,6 +736,17 @@ ol {
   }
 }
 
+
+.button-arrow {
+  display: inline-block; 
+  font-weight: 500;
+  border: 0;
+  &:after {
+    margin-left: .5rem;
+    content: "→";
+  }
+}
+
 .h-entry {
   p {
     img {
@@ -795,4 +799,59 @@ ol {
   @media (prefers-color-scheme: dark) {
     border-color: $gray-2;
   }
+}
+
+.resources {
+  a {
+    border: 0;
+    text-decoration: none;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  .type {
+    padding-right: 1rem;
+  }
+  .type-small {
+    svg {
+      width: 30px;
+    height: 30px;
+    }
+  }
+}
+
+.resources-columns {
+  @media screen and (min-width: 768px) {
+    columns: 2;
+  }
+  @media screen and (min-width: 992px) {
+    columns: 3;
+  }
+  li {  
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;
+  }
+}
+
+
+.diary-full {
+  article {
+    margin-bottom: 100px; 
+    @media screen and (min-width: 992px) {
+      margin-bottom: 150px; 
+    }
+  }
+}
+
+
+.card {
+  border-color: $gray-5;
+}
+
+.text-sentence-case {
+  text-transform: capitalize;
+ &:first-letter {
+  text-transform: capitalize;
+  } 
 }

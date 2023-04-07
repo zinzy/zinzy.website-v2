@@ -4,6 +4,8 @@ layout: post
 title: "A believable truth"
 date: 2021-07-18 
 excerpt: ""
+faces: 
+- Anja
 tags:
 - amsterdam
 - travel
@@ -14,7 +16,7 @@ tags:
 ---
 I never get much reading done unless I'm sleeping elsewhere. Most often, I associate sleeping elsewhere with having time off, and having time off means I'm away from a computer screen. This frees up time for reading.
 
-A had booked a suite for my birthday at Okura, and six months after I turn 33, Covid measures are finally so mild that we actually get to do it. It's on the sixteenth floor, overlooking the Amsterdam Centre and West Side. We eat like royalty, and fall asleep watching the sunset from our California King. I'm feeling like a million bucks.
+Anja had booked a suite for my birthday at Okura, and six months after I turn 33, Covid measures are finally so mild that we actually get to do it. It's on the sixteenth floor, overlooking the Amsterdam Centre and West Side. We eat like royalty, and fall asleep watching the sunset from our California King. I'm feeling like a million bucks.
 
 Whenever we sleep elsewhere, I get overwhelmed with the endless possibilities of the things I can read. Usually, I manage to sneak five books into a suitcase, but for this weekend, I've limited myself to one: _[Mary Magdalene Revealed](https://www.goodreads.com/en/book/show/42452986)_.
 

@@ -4,6 +4,8 @@ layout: post
 date: 2021-07-10
 title: "Weekend vibes"
 excerpt: ""
+faces: 
+- Anja
 tags:
 - food
 - amsterdam

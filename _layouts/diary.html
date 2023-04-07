@@ -1,20 +1,33 @@
 ---
 layout: default
 --- 
-<section class="diary">
-  {% assign diary = site.posts | sort: 'date' | reverse %}
-  <ul class="diary">
-    {% for post in diary %}
+<h2 class="mb-5">My diary collects slices of life: little moments of thinking aloud, changing my mind, connecting the dots.</h2>
 
-  <li class="py-3">
-    <div class="row">
-      <div class="col-9">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-      <div class="col-3 text-end">
-        <time datetime="{{ post.date | date: "%y/%m/%d" }}">{{ post.date | date: "%y/%m/%d" }}</time>
-      </div>
+
+<section class="diary-full">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2">
+      {% assign diary = site.posts | sort: 'date' | reverse %}  
+        {% for post in diary %} 
+        <article>
+          {% if post.hero %}
+            <div class="breakout">
+              <div class="breakout-content">
+                  <img src="{{post.hero}}" alt="..." />
+              </div>
+            </div>   
+          {% endif %}
+          <header class="mb-3 text-center">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+          </header> 
+          {{post.content}}
+        </article>
+        {% endfor %}  
     </div>
-  </li>
-{% endfor %}
-  </ul>
+  </div>
+
+</section>
+
+ 
+ 

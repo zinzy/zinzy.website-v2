@@ -4,6 +4,8 @@ layout: post
 title: "Misanthropy anew"
 date: 2012-08-11
 excerpt: ""
+faces: 
+- Paul
 tags:
 - friends
 - society

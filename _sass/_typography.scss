@@ -1,16 +1,10 @@
 // TYPOGRAPHY
 
-// @font-face {
-//   font-family: 'Monument Extended';
-//   src: url('../assets/fonts/MonumentExtended-Regular.woff2') format('woff2'),
-//     url('../assets/fonts/MonumentExtended-Regular.woff') format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: swap;
-// }
-
 a {
   color: $gray-1;
+  border-bottom: 2px solid $gray-4;
+  padding-bottom: 2px;
+  text-decoration: none;
   @media (prefers-color-scheme: dark) {
     color: $gray-4;
   } 
@@ -57,37 +51,34 @@ blockquote {
 }
 
 
-h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-weight: 600; 
-  font-size: 100%;  
-  line-height: 115%;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  // font-family: 'Bitter', serif;
+  font-weight: 500;  
+  line-height: 140%;
   color: $black;
-  margin: 0 0 1rem 0;
+  // margin: 0 0 1rem 0;
   @media (prefers-color-scheme: dark) {
     color: white;
   }
   a {
     text-decoration: none; 
-    border: 0;
-    font-weight: 600; 
+    font-weight: 500; 
     color: $black;
+    border: 0;
     @media (prefers-color-scheme: dark) {
       color: white;
     }
   }
 }
 
-h1 {
-  font-family: 'Syne', sans-serif;
+h1 { 
   // text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin: 1rem 0;
+  margin: 0;
   padding: 0; 
-  @media screen and (min-width: 768px) {
-    font-size: 1.5rem;
-  }
   a {
+    font-weight: 400;
     color: $black;
     @media (prefers-color-scheme: dark) {
       color: white;
@@ -179,5 +170,19 @@ h3 {
   }
   .reversefootnote {
     font-family: monospace;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+
+.invalid-link {
+  color: $gray-3;
+  &::before {
+    content: "[["
+  }
+  &::after {
+    content: "]]"
   }
 }

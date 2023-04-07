@@ -7,16 +7,39 @@
 
     <!-- <div class="blur" aria-hidden="true"></div> -->
 
-    
-    {% include header.html %}   
 
-    <div class=""> 
-    <main>
-      {{ content }}
-    </main>  
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          {% include header.html %} 
+        </div>
+      </div>
     </div>
-    {% include footer.html %}  
 
+
+    <div class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-10 offset-xl-1">
+            <main class="">
+              {{content}}
+            </main> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+
+ 
 
       {% include link-previews.html wrapperQuerySelector="content" %}
   </body>

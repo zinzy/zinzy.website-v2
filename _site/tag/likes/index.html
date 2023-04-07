@@ -3,7 +3,7 @@
   <head>
   <meta charset="UTF-8">
 
-  <link rel="canonical" href="http://localhost:4002/tag/likes/" />
+  <link rel="canonical" href="http://localhost:4001/tag/likes/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam."/>
@@ -38,7 +38,7 @@
 
   
 
-  <meta property="og:url" content="http://localhost:4002/tag/likes/" />
+  <meta property="og:url" content="http://localhost:4001/tag/likes/" />
 
   
 
@@ -52,10 +52,10 @@
     Zinzy Waleson Geene
   </title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Domine&family=Spectral&display=swap" rel="stylesheet">
 
   <!-- Some links that let IndieAuth know it's me, your girl Zinzy -->
   <link rel="me" href="https://github.com/zinzy" />
@@ -84,32 +84,47 @@
 
     <!-- <div class="blur" aria-hidden="true"></div> -->
 
-    
-    <header class="site-header">
 
-  <div class="h-card">
-    <a href="/"><img class="u-photo" src="/assets/img/zinzy-waleson-geene.png"/></a>
-    <h1 class="p-author"> 
-      <a class="p-name u-uid u-url" rel="author" href="https://zinzy.website">
-        <span class="p-given-name">Zinzy</span>
-        <span class="p-family-name">Waleson Geene</span>
-      </a> 
-    </h1>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="site-header">
+  <div class="row">
+    <div class="col-5">
+      <div class="h-card">
+        <h1 class="p-author"> 
+          <a class="p-name u-uid u-url" rel="author" href="https://zinzy.website">
+            <span class="p-given-name">Zinzy</span>
+            <span class="p-family-name">Waleson Geene</span>
+          </a> 
+        </h1>
+      </div>
+    </div>
+    <div class="col-7 text-end">
+      <nav>
+        <ul>
+          <li><a href='/about' >About</a></li>
+          <li><a href='/diary' >Diary</a></li>
+          <li><a href='/resources' >Resources</a></li>
+          <!-- <li><a href='/projects' >Projects</a></li> -->
+        </ul>
+      </nav>
+    </div>
   </div>
-    
-    <nav>
-      <ul>
-        <li><a href='/about' >About</a></li>
-        <li><a href='/diary' >Diary</a></li>
-        <!-- <li><a href='/resources' >Resources</a></li> -->
-        <li><a href='/work' >Work</a></li>
-      </ul>
-    </nav>
-</header>   
+</header> 
+        </div>
+      </div>
+    </div>
 
-    <div class=""> 
-    <main>
-      <h2 class="p-name mb-5">Things I've written about likes</h2>
+
+    <div class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-10 offset-xl-1">
+            <main class="">
+              <h2 class="p-name mb-5">Things I've written about likes</h2>
  
 
 <section>
@@ -166,9 +181,16 @@
   
   </div> 
 </div> -->
-    </main>  
+            </main> 
+          </div>
+        </div>
+      </div>
     </div>
-    <footer class="site-footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <footer class="site-footer">
   
   <nav>
     <ul>
@@ -185,6 +207,7 @@
 
 
   <ul class="h-card d-none">
+    <li><img class="u-photo" src="/assets/img/zinzy-waleson-geene.png"/></li>
     <li>
       <span class="p-author"> 
         <a class="p-name" href="https://zinzy.website" rel="author">Zinzy Waleson Geene</a>
@@ -205,8 +228,12 @@
     <li class="p-gender-identity">Non-binary</li>
   </ul>
 
-  
 
+        </div>
+      </div>
+    </div>
+
+ 
 
       <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>

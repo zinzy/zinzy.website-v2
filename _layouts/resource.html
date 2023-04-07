@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<article class="h-entry"> 
+  <div class="row">
+    <div class="col-12">
+      <header class="mb-5">
+        <h2 class="mb-2">{{ page.title }}</h2>
+        <div class="text-subtext">{{page.excerpt}}</div>
+      </header>
+    </div>
+    <div class="col-lg-8"> 
+      {% if page.audience %}
+        <div class="card mb-4">
+          <div class="card-body">
+            <span class="d-inline-block h6 mb-0 me-3">Intended audience</span>
+            <span class="d-inline-block">{{page.audience}}</span>
+          </div>
+        </div>
+      {% endif %}
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          {{ content }}
+        </content> 
+      </div> 
+    </div>
+    <div class="col-lg-3 offset-lg-1">
+      <div class="mb-5 resources">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-1"> 
+            <div class="type type-small">
+              {% if page.type == "concepts" %}{% include _icons/concepts.html %}{% endif %}
+              {% if page.type == "habits" %}{% include _icons/habits.html %}{% endif %}
+              {% if page.type == "ideas" %}{% include _icons/ideas.html %}{% endif %}
+              {% if page.type == "lists" %}{% include _icons/lists.html %}{% endif %}
+              {% if page.type == "library" %}{% include _icons/library.html %}{% endif %}
+              {% if page.type == "places" %}{% include _icons/places.html %}{% endif %}
+              {% if page.type == "tools" %}{% include _icons/tools.html %}{% endif %}
+            </div>
+          </div>
+          <div class="w-100 text-subtext text-small">
+            <div>This is part of 
+              {% if page.type == "concepts" %}concepts{% endif %}
+              {% if page.type == "habits" %}habits{% endif %}
+              {% if page.type == "ideas" %}ideas{% endif %}
+              {% if page.type == "lists" %}lists{% endif %}
+              {% if page.type == "library" %}the library{% endif %}
+              {% if page.type == "places" %}places{% endif %}
+              {% if page.type == "tools" %}tools{% endif %}
+            </div>
+          </div> 
+        </div>
+      </div>
+
+
+
+      {% if page.backlinks.size > 0 %}
+      <div>
+        <h3 class="h6">Notes pointing here</h3>
+      {% for backlink in page.backlinks %}
+        <div class="backlink-box mb-2">
+        <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
+        <div style="font-size: 0.9em">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
+        </div>
+      {% endfor %}
+      </div>
+      {% else %}
+<!-- 
+      <div style="font-size: 0.9em">
+        <p>
+          There are no notes linking to this note.
+        </p>
+      </div> -->
+      {% endif %}
+    </div>
+  </div> 
+</article>

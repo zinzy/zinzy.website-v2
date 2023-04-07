@@ -8,7 +8,11 @@ tags:
 - diaries
 - drawings
 ---
-![A pen drawing of a woman and a man reading the newspaper over coffee. The woman is Dutch philosopher Marli Huijer, and I assumed the man to her left is her husband. In the drawing, the husband reads the paper grumpily, as Marli's face shows more curiosity.](https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1000/v1676107091/zinzy.website/IMG_9715_eldt4r.jpg)
+<div class="breakout">
+    <div class="breakout-content">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1000/v1676107091/zinzy.website/IMG_9715_eldt4r.jpg" alt="A pen drawing of a woman and a man reading the newspaper over coffee. The woman is Dutch philosopher Marli Huijer, and I assumed the man to her left is her husband. In the drawing, the husband reads the paper grumpily, as Marli's face shows more curiosity." />
+    </div>
+</div>
 
 Living in a good neighborhood has many advantages. One of them is that it makes me want to spend a lot of time there. Saturday morning is very likely my favorite day in the neighborhood.
 

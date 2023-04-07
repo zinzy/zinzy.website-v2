@@ -10,7 +10,6 @@ tags:
 - bible
 - religion
 ---
-
 If you are at all involved in queer Catholic Twitter, you know that last week was a riot. Cause célèbre was an unexpected shout-out from Pope Francis:
 
 > Pope Francis told a group of parents of L.G.B.T. children yesterday that “God loves your children as they are” and “the church loves your children as they are because they are children of God.” — <a href="https://www.americamagazine.org/faith/2020/09/17/pope-francis-parents-lgbt-children-god-loves-your-children-they-are" target="_blank"><em>America Magazine</em></a>
