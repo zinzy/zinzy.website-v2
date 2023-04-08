@@ -4,11 +4,42 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4000</link>
+    <link>http://localhost:4001</link>
     <language></language>
-    <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4001/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>A very Mathilde visit</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          Much like last year, I'm so excited for Mathilde to visit our house that I get a headache just thinking about it.
+          
+          <br />
+          <html><body>
+<p>Much like last year, I’m so excited for Mathilde to visit our house that I get a headache just thinking about it. We’ve known each other 23 years, and, by miracle, our friendship is both acclimatized to our adult lives <em>and</em> as full of energy and curiosity as it was when we met in our first year of secondary school.</p>
+
+<p>She comes bearing gifts: seeds for the garden, dyke poetry, David Sedaris. She knows what I like. We eat, this time around I’ve kept it simple with dishes from the traiteur and not ten separate homemade recipes of intricate delicacies. We talk about what teaching means to her and Anja. We play with Lemonade.</p>
+
+<p>As a friend, Mathilde is very easy to love. Our times together eventually always bring us back to our shared emotional outlet: making music. “I’m nervous to sing around you, Zinzy” she says, but her voice sounds beautiful, warm, and exactly what my piano calls for. When I think of “blue-eyed soul” I think of Mathilde’s voice. We tell each other Anja and I will make it down south this year, and we’ll go for côte de bœuf in Maastricht. I can’t wait.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4001/2023/04/08/a-very-mathilde-visit/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/08/a-very-mathilde-visit/</guid>
+        
+          
+        
+        
+          <category>Friends</category>
+        
+          <category>Pets</category>
+        
+          <category>Weekends</category>
+        
+      </item>
     
       <item>
         <title>Showing up not knowing what will happen</title>
@@ -29,8 +60,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         
@@ -64,8 +95,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/03/26/week-11/</guid>
+        <link>http://localhost:4001/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/26/week-11/</guid>
         
           
         
@@ -113,8 +144,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -153,8 +184,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/03/12/week-10/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/03/12/week-10/</guid>
+        <link>http://localhost:4001/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/12/week-10/</guid>
         
           
         
@@ -225,8 +256,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 08 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/03/08/two-weeks-with-a-dog/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/03/08/two-weeks-with-a-dog/</guid>
+        <link>http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</guid>
         
           
         
@@ -259,8 +290,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/02/12/all-saints-amsterdam/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/02/12/all-saints-amsterdam/</guid>
+        <link>http://localhost:4001/2023/02/12/all-saints-amsterdam/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/12/all-saints-amsterdam/</guid>
         
           
         
@@ -298,8 +329,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 11 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/02/11/saturday-morning-routines/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/02/11/saturday-morning-routines/</guid>
+        <link>http://localhost:4001/2023/02/11/saturday-morning-routines/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/11/saturday-morning-routines/</guid>
         
           
         
@@ -329,8 +360,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 02 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/02/02/walking-with-annelie/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/02/02/walking-with-annelie/</guid>
+        <link>http://localhost:4001/2023/02/02/walking-with-annelie/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/02/02/walking-with-annelie/</guid>
         
           
         
@@ -393,8 +424,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/01/31/that-was-january/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/01/31/that-was-january/</guid>
+        <link>http://localhost:4001/2023/01/31/that-was-january/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/01/31/that-was-january/</guid>
         
           
         
@@ -410,55 +441,6 @@
           <category>Reading</category>
         
           <category>Neurodivergence</category>
-        
-      </item>
-    
-      <item>
-        <title>Why doesn't the crosswalk work?</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          
-          
-          <br />
-          <html><body>
-<p>There’s a woman who runs a <a href="https://www.athenaeum.nl/winkels/zuidoost" target="_blank">bookshop in De Bijlmer</a>. She has kind eyes that make you want to curl up with a book and a cup of tea. Often when I’m there, she offers just that: tea, and a place to quiet down and dive into an interesting title. She’s running a fine business over there, Cole Verhoeven is.</p>
-
-<p>Aside from bookshop owner she’s also a writer. I love the work she does at <a href="https://www.oneworld.nl/" target="_blank">One World</a>, where she articulates <a href="https://www.oneworld.nl/lezen/opinie/witte-fragiliteit-bestaat-niet/" target="_blank">strong perspectives</a> <a href="https://www.oneworld.nl/lezen/discriminatie/sociaal-onrecht/woke-ooit-een-waarschuwing-voor-racisme-nu-een-conservatief-hondenfluitje/" target="_blank">on antiracism</a> <a href="https://www.oneworld.nl/lezen/opinie/kamala-harris-is-niet-de-eerste-geschikte-zwarte-vrouw/" target="_blank">and equity</a>. A few weeks ago, she sold me this book:</p>
-
-<div class="breakout">
-    <div class="breakout-content">
-        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660345/zinzy.website/IMG_9581_iaat6s.jpg" alt="">
-    </div>
-</div>
-
-<p>When I took it from the shelf, I didn’t know she was the one who wrote it. Eventually, she told me she had drawn inspiration from the questions her child asks her. The questions often leave her bemused, surprised, stunned. I suppose they’re the questions we forget to ask as we grow older.</p>
-
-<p>It’s a perfect coffee table book, deserving of a central place in the house to welcome guests into an atmosphere of curiosity and whimsy.</p>
-
-<div class="breakout">
-    <div class="breakout-content">
-        &lt;img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1200/v1674660350/zinzy.website/FullSizeRender_2_yv2nim.jpg" alt="Page of the book "Why doesn't the crosswalk work?"m with on the left, in Dutch and English, the question "why are all the garbage men brown?" /&gt;
-    </div>
-</div>
-
-<p>One page that stands out to me is this one. There must have been countless times I wondered similar things as a child. Why are the garbage men brown? Why do all the other colored people live on the other side of the tracks? Why don’t I see myself on television?</p>
-
-<p>I imagine the life of Cole’s child, growing up in this part of history, with a Black parent at home to raise him, in one of the most diverse cities in Europe. Access to a Black-owned bookshop that helps people see themselves in others. It makes me feel equal parts envy and calm.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Mon, 23 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
-        
-          
-        
-        
-          <category>Books</category>
-        
-          <category>Diversity and inclusion</category>
-        
-          <category>Amsterdam</category>
         
       </item>
     
