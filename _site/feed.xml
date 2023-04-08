@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4001</link>
+    <link>http://localhost:4000</link>
     <language></language>
-    <copyright>http://localhost:4001/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4000/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -29,8 +29,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         
@@ -64,8 +64,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/26/week-11/</guid>
+        <link>http://localhost:4000/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/26/week-11/</guid>
         
           
         
@@ -113,8 +113,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -153,8 +153,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/12/week-10/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/12/week-10/</guid>
+        <link>http://localhost:4000/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/12/week-10/</guid>
         
           
         
@@ -225,8 +225,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 08 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</guid>
+        <link>http://localhost:4000/2023/03/08/two-weeks-with-a-dog/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/08/two-weeks-with-a-dog/</guid>
         
           
         
@@ -259,8 +259,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/02/12/all-saints-amsterdam/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/02/12/all-saints-amsterdam/</guid>
+        <link>http://localhost:4000/2023/02/12/all-saints-amsterdam/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/12/all-saints-amsterdam/</guid>
         
           
         
@@ -298,8 +298,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 11 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/02/11/saturday-morning-routines/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/02/11/saturday-morning-routines/</guid>
+        <link>http://localhost:4000/2023/02/11/saturday-morning-routines/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/11/saturday-morning-routines/</guid>
         
           
         
@@ -329,8 +329,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 02 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/02/02/walking-with-annelie/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/02/02/walking-with-annelie/</guid>
+        <link>http://localhost:4000/2023/02/02/walking-with-annelie/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/02/walking-with-annelie/</guid>
         
           
         
@@ -393,8 +393,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 31 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/01/31/that-was-january/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/01/31/that-was-january/</guid>
+        <link>http://localhost:4000/2023/01/31/that-was-january/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/31/that-was-january/</guid>
         
           
         
@@ -448,8 +448,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 23 Jan 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/01/23/why-doesnt-the-crosswalk-work/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
+        <link>http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/01/23/why-doesnt-the-crosswalk-work/</guid>
         
           
         

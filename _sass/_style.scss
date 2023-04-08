@@ -23,8 +23,8 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
   font-weight: 400;  
   @media (prefers-color-scheme: dark) {
-    background: $black;
-    color: $gray-5; 
+    // background: $black;
+    // color: $gray-5; 
   }
 }
 
@@ -72,7 +72,7 @@ main {
         a {
           color: $gray-2;
           @media (prefers-color-scheme: dark) {
-            border-color: $gray-4; 
+            // border-color: $gray-4; 
           }
         }
       }
@@ -91,7 +91,7 @@ main {
     text-decoration: none;
     border: 0;
     @media (prefers-color-scheme: dark) {
-      border-color: $gray-4; 
+      // border-color: $gray-4; 
     }
   }
 }
@@ -292,7 +292,7 @@ box-shadow: 0px 0px 5px 0px rgba(26,26,26,0.3);
 -webkit-transform: perspective(1px) translateZ(0);
 transform: perspective(1px) translateZ(0);
 @media (prefers-color-scheme: dark) {
-  border-color: $black;
+  // border-color: $black;
 }
 }
 @-webkit-keyframes boing {
@@ -394,14 +394,14 @@ transform: perspective(1px) translateZ(0);
     width: 100%;
   } 
   @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-    color: $gray-4;
+    // border-color: $gray-1; 
+    // color: $gray-4;
   } 
   a {
     text-decoration: none;
     font-weight: 500;
     @media (prefers-color-scheme: dark) {
-      color: $gray-4;
+      // color: $gray-4;
     } 
   }
   ul {
@@ -488,7 +488,7 @@ transform: perspective(1px) translateZ(0);
     font-size: 80%;
     color: $gray-2;
     @media (prefers-color-scheme: dark) {
-      color: $gray-4;
+      // color: $gray-4;
     }
   }
  }
@@ -500,8 +500,8 @@ transform: perspective(1px) translateZ(0);
   border-color: $gray-5;
   border-radius: 10px;
   @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
-    background-color: $gray-1;
+    // border-color: $gray-1; 
+    // background-color: $gray-1;
   }
  }
 
@@ -521,9 +521,9 @@ transform: perspective(1px) translateZ(0);
     padding: 1.5rem 1.5rem 1.5rem 2rem;
     border-radius: 10px;
     @media (prefers-color-scheme: dark) {
-      background-color: $black;
-      border-color: $gray-1;
-      box-shadow: 0 3px 0 1px $gray-1;
+      // background-color: $black;
+      // border-color: $gray-1;
+      // box-shadow: 0 3px 0 1px $gray-1;
     }
     p {
       margin-top: 0;
@@ -548,15 +548,15 @@ transform: perspective(1px) translateZ(0);
     top: 20px;
     vertical-align: middle;
     @media (prefers-color-scheme: dark) {
-      border-color: $gray-2;
-      background: $gray-2;
+      // border-color: $gray-2;
+      // background: $gray-2;
     }
     .reply {
       svg {
         path {
           fill: #1FB6FF;
           @media (prefers-color-scheme: dark) {
-            fill: #fff;
+            // fill: #fff;
           }
         }
       }
@@ -566,7 +566,7 @@ transform: perspective(1px) translateZ(0);
         path {
           fill: #FF7CE5;
           @media (prefers-color-scheme: dark) {
-            fill: #fff;
+            // fill: #fff;
           }
         }
       }
@@ -576,7 +576,7 @@ transform: perspective(1px) translateZ(0);
         path {
           fill: #A389F4;
           @media (prefers-color-scheme: dark) {
-            fill: #fff;
+            // fill: #fff;
           }
         }
       }
@@ -595,7 +595,7 @@ transform: perspective(1px) translateZ(0);
 [class*="border"] {
   border-color: $gray-6;
   @media (prefers-color-scheme: dark) {
-    border-color: $gray-1; 
+    // border-color: $gray-1; 
   }
 }
 
@@ -728,14 +728,14 @@ ol {
   border: 1px solid $gray-6;
   transition: 0.3s;
   @media (prefers-color-scheme: dark) {
-    background: $gray-0;
-    border: 1px solid $gray-1;
-    color: white;
+    // background: $gray-0;
+    // border: 1px solid $gray-1;
+    // color: white;
   }
   &:hover {
     border: 1px solid $gray-5;
     @media (prefers-color-scheme: dark) {
-      border: 1px solid $gray-2;
+      // border: 1px solid $gray-2;
     }
   }
 }
@@ -791,7 +791,7 @@ ol {
       }
     } 
     @media (prefers-color-scheme: dark) {
-      border-color: $gray-1;
+      // border-color: $gray-1;
     }
   }
 }
@@ -801,7 +801,7 @@ ol {
   background-color: $gray-5;
   font-size:80%;
   @media (prefers-color-scheme: dark) {
-    border-color: $gray-2;
+    // border-color: $gray-2;
   }
 }
 
