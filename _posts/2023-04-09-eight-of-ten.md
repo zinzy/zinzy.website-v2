@@ -2,7 +2,7 @@
 layout: post
 title: "Eight of ten"
 date: 2023-04-09
-excerpt: "Much like last year, I'm so excited for Mathilde to visit our house that I get a headache just thinking about it."
+excerpt: "When I first set foot in the Old Catholic Church to attend an All Saints service, I knew I had found a special place. Today is the third time I make it to their service, which is always on the second Sunday of the month."
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1681106797/zinzy.website/2023-04-09_hingfw.jpg
 tags:
 - religion
