@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<article class="h-entry"> 
+  <div class="row">
+    <div class="col-12">
+      <header class="text-center">
+        {% if page.hero-portrait %}
+
+          <div class="breakout">
+            <div class="breakout-content">
+              <div class="breakout-portrait">
+                <img src="{{page.hero}}" alt="..." class="">
+              </div>
+            </div>
+          </div>   
+          {% else %}
+  
+          <div class="breakout">
+            <div class="breakout-content">
+                <img src="{{page.hero}}" alt="..." />
+            </div>
+          </div>   
+  
+        {% endif %} 
+        <h2 class="my-5">{{ page.title }}</h2>
+      </header> 
+    </div>
+    <div class="col-lg-8 offset-md-2">  
+      <div id="notes-entry-container">
+        <content class="e-content"> 
+          {{ content }}
+        </content> 
+      </div>
+
+      <hr class="my-5">
+      
+      
+      <div class="mt-5">
+        <h3 class="h4 mb-4">Posts with {{page.title}}</h3>
+        {% assign diary = site.posts | sort: 'date' | reverse | where_exp:"item", "item.faces contains page.title" %}  
+          <ul class="list-unstyled">
+            {% for post in diary %} 
+              <li class="mb-4">
+                <h4 class="h5 m-0"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                <time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+              </li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>
+  </div> 
+</article>

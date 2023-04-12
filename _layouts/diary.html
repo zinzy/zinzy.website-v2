@@ -10,14 +10,26 @@ layout: default
       {% assign diary = site.posts | sort: 'date' | reverse %}  
         {% for post in diary %} 
         <article>
-          {% if post.hero %}
-            <div class="breakout">
-              <div class="breakout-content">
-                  <img src="{{post.hero}}" alt="..." />
+
+          {% if post.hero-portrait %}
+
+          <div class="breakout">
+            <div class="breakout-content">
+              <div class="breakout-portrait">
+                <img src="{{post.hero}}" alt="..." / class="">
               </div>
-            </div>   
-          {% endif %}
-          <header class="mb-3 text-center">
+            </div>
+          </div>   
+          {% else %}
+  
+          <div class="breakout">
+            <div class="breakout-content">
+                <img src="{{post.hero}}" alt="..." />
+            </div>
+          </div>   
+  
+        {% endif %} 
+          <header class="mb-5 text-center">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
           </header> 

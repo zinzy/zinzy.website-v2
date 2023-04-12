@@ -1,0 +1,4 @@
+---
+title: "Faces"
+layout: faces
+---

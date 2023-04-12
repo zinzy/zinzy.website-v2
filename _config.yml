@@ -74,6 +74,9 @@ sass:
   style:            :compressed
 
 collections: 
+  faces:
+    output: true
+    permalink: /faces/:slug
   micro:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
@@ -99,6 +102,10 @@ defaults:
       title: ":year-:month-:day-:hour-:minute-:second"
     values:
       layout: "single-micro" 
+  - scope:
+      path: "_faces/**/*.md"
+    values:
+      layout: "face" 
   - scope:
       path: "_resources/**/*.md"
     values:

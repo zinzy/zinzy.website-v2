@@ -859,3 +859,16 @@ ol {
   text-transform: capitalize;
   } 
 }
+
+
+.breakout-portrait {
+  background: white;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  img {
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%;  
+  }
+}

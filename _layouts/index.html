@@ -14,7 +14,7 @@ layout: default
       <ul class="diary list-unstyled mt-5">
         {% for post in diary | limit: 2 %}
         <li class="">
-          <h3 class="h6 m-0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h3 class="h5 m-0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <div><time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time></div>
           <p>{{post.excerpt}}</p>
         </li>
@@ -43,7 +43,7 @@ layout: default
                   </div>
                 </div>
                 <div class="w-100">
-                  <h3 class="h6 m-0">{{ post.title }}</h3>
+                  <h3 class="h5 m-0">{{ post.title }}</h3>
                   <p class="m-0 text-subtext">
                     {% if post.type == "library" %}
                       <span class="text-sentence-case">{{post.medium}}</span>, 
