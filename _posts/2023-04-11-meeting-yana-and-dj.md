@@ -2,7 +2,7 @@
 layout: post
 title: "Meeting Yana and DJ"
 date: 2023-04-11
-excerpt: ""
+excerpt: "What I love most about today's snapshot is the despair I can see in Lemonade's eyes even when her entire body is a background blur."
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg
 hero-portrait: true
 tags:
