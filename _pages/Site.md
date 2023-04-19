@@ -4,21 +4,27 @@ title: "Site"
 subtitle: "Notes on the what, why, and how of this website"
 layout: page
 ---
-I grew up on the Internet in a time when social media meant building your own php blog. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
+I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
-### Technical details
-A full overview of the nerdiest things about this website can be found in my [humans.txt](/humans.txt) file.
+### Principles
+I believe the web should be accessible, transparent, and sustainable. In making this website, I do my best to keep in mind the following sources of inspiration:
 
-### Writing
-Much of what I learn and think works best for me if I connect it to existing ideas in some way. I do so either in a paper notebook, or in my Obsidian vault. All of this website's content lives in my vault, and is published automatically every time I update this website.
+- [Brutalist web design principles](https://brutalist-web.design/)
+- [The a11y project](https://www.a11yproject.com/)
+- [Designed to last](https://jeffhuang.com/designed_to_last/)
+- [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto)
+
+### Content
+One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why.
+
+When it comes down to it, this I know: I believe it's good to have a single website that serves as my home on the web rather than separate websites for my professional and personal lives. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
 
 ### Design
-The layout, color scheme, typography, and general user interface of this website are simple. It fits with my aesthetics, and it works particularly well for the portfolio part of my website, which is colorful enough in itself.
+Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. 
 
 I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
 
-#### Constraints
-- Posts shouldn't contain custom CSS
+I refrain from using custom CSS or content in my diary entries. 
 
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
@@ -45,7 +51,7 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Obsidian post templates~~
 
 ### Validation
-- [Yellow Lab Tools](https://yellowlab.tools/result/gjfzfrsroa) gives this site a 99/100 global score
+- [Yellow Lab Tools](https://yellowlab.tools/result/gk6j8ztrj0) gives this site a 100/100 global score
 - This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 
 ### Most recently

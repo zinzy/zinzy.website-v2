@@ -2,42 +2,30 @@
 layout: default
 ---
 <article class="h-entry">
-  <ul class="micro"> 
-    <li class="micro-post">  
-        <span class="post-type">
-          {% if page.replyTo %}
-            {% include _icons/reply.html %}
-          {% elsif page.likeOf %}
-            {% include _icons/like.html %}
-          {% else %}
-            {% include _icons/note.html %}
-          {% endif %}  
-        </span> 
+ 
 
-        {% if page.replyTo %}
-          <p class="mt-0">
-            <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
-          </p> 
-        {% endif %}
-        {% if page.likeOf %}
-          <p class="mt-0">
-            Liked <a href="{{page.likeOf}}" class="u-like-of text-url" target="_blank">{{page.likeOf}}</a> 
-          </p> 
-        {% endif %} 
+  {% if page.replyTo %}
+  <p class="mt-0">
+    <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
+  </p> 
+{% endif %}
+{% if page.likeOf %}
+  <p class="mt-0">
+    Liked <a href="{{page.likeOf}}" class="u-like-of text-url" target="_blank">{{page.likeOf}}</a> 
+  </p> 
+{% endif %} 
 
-        <div class="e-content" id="notes-entry-container">
-          <content>
-            {{ content }}
-          </content>
-        </div>
-        <a href="{{ page.url }}" class="date u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time></a>
-        <a rel="syndication" class="u-syndication" href="https://brid.gy/publish/mastodon"></a>
-    </li> 
-  </ul> 
+<div class="e-content" id="notes-entry-container">
+  <content>
+    {{ content }}
+  </content>
+</div>
+<a href="{{ page.url }}" class="date u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %e, %Y" }}</time></a>
+<a rel="syndication" class="u-syndication" href="https://brid.gy/publish/mastodon"></a>
 
+  <footer class="">
 
-
-  <footer class="mt-5">
+    <hr class="my-3">
   <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
     <p class="m-0">
       <span>This is an entry from the diary of <a rel="author" class="p-author h-card" href="/">Zinzy Waleson Geene</a>. {{page.cta}} Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. {% if page.tags.size > 0 %} Feel free to read more about {% endif %}</span>

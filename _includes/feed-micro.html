@@ -1,17 +1,12 @@
-<ul class="micro">
-    {% assign micro = site.micro | sort: 'date' | reverse %}
-    {% for post in micro | limit: page.micro_limit %} 
-    <li class="h-entry micro-post">  
-        <span class="post-type">
-          {% if post.replyTo %}
-            {% include _icons/reply.html %}
-          {% elsif post.likeOf %}
-            {% include _icons/like.html %}
-          {% else %}
-            {% include _icons/note.html %}
-          {% endif %}  
-        </span> 
-
+<div class="diary">
+  {% assign diary = site.micro | sort: 'date' | reverse %}  
+  <ul>
+    {% for post in diary %}
+    <li class="mb-2">
+      <div class="time">
+        <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
+      </div>
+      <div>
         {% if post.replyTo %}
           <p class="mt-0 u-in-reply-to">
             <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
@@ -26,7 +21,8 @@
         <content>
             {{post.content}} 
         </content>
-        <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time></a>
-    </li>
-    {% endfor %} 
-  </ul> 
+        </li> 
+        {% endfor %} 
+      </div>
+  </ul>
+</div>
