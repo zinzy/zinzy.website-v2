@@ -17,6 +17,9 @@ The layout, color scheme, typography, and general user interface of this website
 
 I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
 
+#### Constraints
+- Posts shouldn't contain custom CSS
+
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
 
