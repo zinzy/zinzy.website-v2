@@ -7,6 +7,9 @@ date: 2022-12-13
 ---
 This is a [Now](https://nownownow.com/) page. It contains what I'd tell a friend I hadn't seen in a year. You should make one for yourself. 
 
+### Life
+
+
 - In Amsterdam simultaneously enjoying and dreading the cold
 - At Leeruniek thoroughly enjoying solving design and mentoring challenges
 - Preparing for our [corgi puppy](https://lemonade.waleson.us)

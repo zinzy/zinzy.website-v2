@@ -17,12 +17,6 @@ layout: none
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author.email }} ({{ site.author.name }})</author>
         <description><![CDATA[
-          {% if post.summary %}
-          {{ post.summary }}
-          {% else %}
-          {{ post.excerpt }}
-          {% endif %}
-          <br />
           {{ post.content }}]]>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>

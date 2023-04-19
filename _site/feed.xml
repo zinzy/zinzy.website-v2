@@ -4,20 +4,78 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4001</link>
+    <link>http://localhost:4002</link>
     <language></language>
-    <copyright>http://localhost:4001/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4002/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4002/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Come back to Chigaco</title>
+        <author> ()</author>
+        <description><![CDATA[
+          <html><body>
+<p>Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There’s a boy in the park who’s walking around barefoot. Later we see him on a zipline. I like this scene; it tells me that summer is almost upon us.</p>
+
+<p>I never seem skilled at enjoying whatever season is here. Instead I’m forever yearning for what’s just out of reach. On Javastraat I pass a travel agency, the target audience of which most certainly is concerned with visiting Morocco or Turkey during the summer months. Surprisingly, there’s a wide array of names that would inspire city trips around the world.</p>
+
+<p>Ever since I passed the agency, Andrew Bird’s <a href="https://www.youtube.com/watch?v=oecHq2neweA" target="_blank">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>
+</body></html>]]>
+        </description>
+        <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4002/2023/04/17/come-back-to-chigaco/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/17/come-back-to-chigaco/</guid>
+        
+          
+        
+        
+          <category>Neighborhood</category>
+        
+          <category>Funny</category>
+        
+          <category>Language</category>
+        
+          <category>Park</category>
+        
+      </item>
+    
+      <item>
+        <title>Anja's ceramics course</title>
+        <author> ()</author>
+        <description><![CDATA[
+          <html><body>
+<p>Today, Lemonade and I visited <a href="https://www.studiopansa.com/studio-pansa-amstel" target="_blank">Studio Pansa Amstel</a>, where Anja has spent the last seven Sundays learning how to work a ceramics wheel. It’s quite the adventure for her, and I love seeing her dive into a new field that’s so different from her day-to-day life and work. Their motto is “dirty hands, clear mind”, and that certainly seems to be the case for Anja.</p>
+
+<p>I saw dozens of gorgeous little cups in the making, each with a unique maker’s mark and the intricate details only found in things that were crafted by hands. I think I’ll sign up for one of Pansa’s courses myself some day.</p>
+
+<div class="breakout">
+    <div class="breakout-content">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_1_btgjvq.jpg" alt="" class="mb-5">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_5_m7uc31.jpg" alt="" class="mb-5">
+        <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_2_k1jgtv.jpg" alt="" class="mb-5">
+    </div>
+</div>
+</body></html>]]>
+        </description>
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4002/2023/04/16/anjas-ceramics-course/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/16/anjas-ceramics-course/</guid>
+        
+          
+        
+        
+          <category>Anja</category>
+        
+          <category>Hobbies</category>
+        
+          <category>Ceramics</category>
+        
+      </item>
     
       <item>
         <title>Meeting Yana and DJ</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          What I love most about today's snapshot is the despair I can see in Lemonade's eyes even when her entire body is a background blur.
-          
-          <br />
           <html><body>
 <p>What I love most about today’s snapshot is the despair I can see in Lemonade’s eyes even when her entire body is a background blur. DJ is a calm 12-year-old dog, and Lemonade was thrilled to see another dog in our home for the first time, but her energy level was high enough that I eventually brought her back to her crate. It was right in time, too, because the afternoon light filling the living room made for a nice little portrait.</p>
 
@@ -27,8 +85,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 11 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/11/meeting-yana-and-dj/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/11/meeting-yana-and-dj/</guid>
+        <link>http://localhost:4002/2023/04/11/meeting-yana-and-dj/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/11/meeting-yana-and-dj/</guid>
         
           
         
@@ -47,10 +105,6 @@
         <title>The cat</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          Life sure is different now that we've gotten Lemonade on a proper walking schedule. She still feels most comfortable going potty on the puppy pads we have on our balcony, but she absolutely loves going out and exploring the neighborhood.
-          
-          <br />
           <html><body>
 <p>Life sure is different now that we’ve gotten Lemonade on a proper walking schedule. She still feels most comfortable going potty on the puppy pads we have on our balcony, but she absolutely loves going out and exploring the neighborhood.</p>
 
@@ -62,8 +116,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/10/the-cat/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/10/the-cat/</guid>
+        <link>http://localhost:4002/2023/04/10/the-cat/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/10/the-cat/</guid>
         
           
         
@@ -80,10 +134,6 @@
         <title>Eight of ten</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          When I first set foot in the Old Catholic Church to attend an All Saints service, I knew I had found a special place. Today is the third time I make it to their service, which is always on the second Sunday of the month.
-          
-          <br />
           <html><body>
 <p>When I first set foot in the <a href="https://amsterdam.oudkatholiek.nl/" target="_blank">Old Catholic Church</a> to attend an All Saints service, <a href="/2023/02/12/all-saints-amsterdam/" target="_blank">I knew I had found a special place</a>. Today is the third time I make it to their service, which is always on the second Sunday of the month.</p>
 
@@ -99,8 +149,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/09/eight-of-ten/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/09/eight-of-ten/</guid>
+        <link>http://localhost:4002/2023/04/09/eight-of-ten/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/09/eight-of-ten/</guid>
         
           
         
@@ -119,10 +169,6 @@
         <title>A very Mathilde visit</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          Much like last year, I'm so excited for Mathilde to visit our house that I get a headache just thinking about it.
-          
-          <br />
           <html><body>
 <p>Much like last year, I’m so excited for Mathilde to visit our house that I get a headache just thinking about it. We’ve known each other 23 years, and, by miracle, our friendship is both acclimatized to our adult lives <em>and</em> as full of energy and curiosity as it was when we met in our first year of secondary school.</p>
 
@@ -132,8 +178,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 08 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/08/a-very-mathilde-visit/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/08/a-very-mathilde-visit/</guid>
+        <link>http://localhost:4002/2023/04/08/a-very-mathilde-visit/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/08/a-very-mathilde-visit/</guid>
         
           
         
@@ -150,10 +196,6 @@
         <title>Showing up not knowing what will happen</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          I met Shervin at the coffee place this morning. We know each other very casually; we used to frequent the same co-working space, we're LinkedIn friends. He has one of those faces that you just want to meet with a smile. 
-          
-          <br />
           <html><body>
 <p>I met Shervin at the coffee place this morning. We know each other very casually; we used to frequent the same co-working space, we’re LinkedIn friends. He has one of those faces that you just want to meet with a smile.</p>
 
@@ -165,8 +207,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://localhost:4002/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         
@@ -185,10 +227,6 @@
         <title>Week 11: Meeting Patrick</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          I got to meet one of my Internet heroes this week: Patrick Rhone and his family were on a Europe trip, and I was lucky enough to catch the planning stage on his blog right in time to extend an invitation.
-          
-          <br />
           <html><body>
 <ul>
   <li>I got to meet one of my Internet heroes this week: <a href="patrickrhone.com" target="_blank">Patrick Rhone</a> and his family were on a Europe trip, and I was lucky enough <a href="https://www.patrickrhone.net/13189-2/" target="_blank">to catch the planning stage on his blog</a> right in time to extend an invitation. We spent a rainy Monday evening in de Jordaan at <a href="http://www.cafedetuin.nl/" target="_blank">Cafe de Tuin</a>, talking ye olde Internet productivity culture, the arts, politics, hopes and dreams, and how his teenage daughter apparently woke up one night singing “raise a glass to freedom”. Fine people, they are.</li>
@@ -200,8 +238,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/26/week-11/</guid>
+        <link>http://localhost:4002/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/03/26/week-11/</guid>
         
           
         
@@ -224,10 +262,6 @@
         <title>A phone call with an old friend</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven't spoken in eight years.
-          
-          <br />
           <html><body>
 <p>Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven’t spoken in eight years.</p>
 
@@ -249,8 +283,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4002/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -271,10 +305,6 @@
         <title>Week 10: Outings</title>
         <author> ()</author>
         <description><![CDATA[
-          
-          It snowed a few times this week and I was as baffled as I always am to see it happening in March. I don’t have a great understanding of what the weather’s supposed to do in a given period of the year.
-          
-          <br />
           <html><body>
 <ul>
   <li>It snowed a few times this week and I was as baffled as I always am to see it happening in March. I don’t have a great understanding of what the weather’s supposed to do in a given period of the year.</li>
@@ -289,8 +319,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/12/week-10/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/12/week-10/</guid>
+        <link>http://localhost:4002/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4002/2023/03/12/week-10/</guid>
         
           
         
@@ -312,100 +342,6 @@
           <category>Church</category>
         
           <category>Ceramics</category>
-        
-      </item>
-    
-      <item>
-        <title>Two weeks with a dog</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Lemonade, Lemonade, Lemonade. Who knew I would ever become a dog person? Two weeks ago, we picked up our corgi Lemonade Zelda Loulé. There was a torrent of research both Anja and I did to prepare for this puppy. There was a birth announcement card. A <a href="https://www.anneliewambeek.com/">godmother</a> was appointed. Here are some things I learned after two weeks with a dog.</p>
-
-          
-          <br />
-          <html><body>
-<p>Lemonade, Lemonade, Lemonade. Who knew I would ever become a dog person? Two weeks ago, we picked up our corgi Lemonade Zelda Loulé. There was a torrent of research both Anja and I did to prepare for this puppy. There was a birth announcement card. A <a href="https://www.anneliewambeek.com/" target="_blank">godmother</a> was appointed. Here are some things I learned after two weeks with a dog.</p>
-
-<div class="breakout">
-    <div class="breakout-content">
-        <div class="row">
-            <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-1_ezwubo.jpg" alt="">
-            </div>
-            <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-2_xs9fwa.jpg" alt="">
-            </div>
-            <div class="col-4">
-                <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1678364666/Lemonade/lemonade-3_xaodoy.jpg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-
-<h3 id="the-roi-of-good-research">The ROI of good research</h3>
-<p>Anja and I are both blessed with a-type personalities and a propensity for thorough investigation. Early on in our dog prep journey, we found <a href="https://www.youtube.com/@McCannDogs" target="_blank">McCann Dogs</a>, a training school with a YouTube channel full of clear, concise, and highly-informative videos on how to raise a puppy.</p>
-
-<p>Two weeks in, I can tell they taught us well. Lemonade hasn’t had an accident in the house since day three, she sleeps through the night aside from two or three potty breaks, and it’s great to see how quickly she’s picking up commands. A week before Lemonade arrived, we started on McCann’s course <a href="https://mydogcan.mccanndogs.com/courses/puppy-essentials" target="_blank">Puppy Essentials</a>, which has proven a great way to get through the first few weeks.</p>
-
-<h3 id="i-got-cabin-fever">I got cabin fever</h3>
-<p>Out of all the things I had anticipated in preparing for this puppy, cabin fever was not one of them. While Anja and I are both quite introverted (meaning we need to recharge whenever we’ve been around people), she seemed fine spending her spring break cocooning in the house. I, on the other hand, felt myself slowly going mad over the lack of stimulus I was getting.</p>
-
-<p>Because of our potty training schedule, and lack of a big garden, I barely got out of the house the first week. Luckily, I quickly developed the habit of taking Lemonade out on walks, even if we didn’t actually let her <em>walk</em> just yet because of her exposure to possible diseases. It’s great to be out of the house again, go to my favorite coffee spot, and walk around the park with her.</p>
-
-<h3 id="the-beauty-of-trust">The beauty of trust</h3>
-<p>Aside from an outdoor rabbit, a bird, a chameleon, and a shy cat, I never had any cuddly pets. Being child-free on top of that never gave me the opportunity to closely bond with another small being who trusts me enough that they’ll fall asleep on my body. Lemonade is very cuddly, and it’s entirely humbling to experience the trust she seems to have in me.</p>
-
-<h3 id="whats-next">What’s next?</h3>
-<p>I’m excited to enroll her in puppy training a few weeks from now. For the time being, she’s hanging out with trusted pets in the neighborhood, and getting to know many visitors. Looking ahead, I’m also pumped about finally taking her to the park and playing fetch with her.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Wed, 08 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/03/08/two-weeks-with-a-dog/</guid>
-        
-          
-        
-        
-          <category>Milestones</category>
-        
-          <category>Lemonade</category>
-        
-          <category>Dogs</category>
-        
-          <category>Pets</category>
-        
-      </item>
-    
-      <item>
-        <title>All Saints Amsterdam</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>She blesses Anja, me, and a handful of other people who carved out time in their Sunday evenings to come to Church. I have never been inside this particular church building before, and chuckle at how <em>new</em> the Old Catholic decor is: in imagery and candle lighting possibilities it’s reminiscent of the average Dutch Roman Catholic church. Its white walls and central heating tell me something different.</p>
-
-          
-          <br />
-          <html><body>
-<p>She blesses Anja, me, and a handful of other people who carved out time in their Sunday evenings to come to Church. I have never been inside this particular church building before, and chuckle at how <em>new</em> the Old Catholic decor is: in imagery and candle lighting possibilities it’s reminiscent of the average Dutch Roman Catholic church. Its white walls and central heating tell me something different.</p>
-
-<p>You may think I chose this church because the woman blessing us is Desmond Tutu’s daughter, the Reverend Canon Mpho Tutu van Furth, and because Anja and I can’t help but fangirl. I’m here because she’s a Black queer person leading a church service that I can attend in person. I never thought I would see the day.</p>
-
-<p>Dare I wonder whether I have found a new church in <a href="https://allsaintsamsterdam.com/" target="_blank">All Saints Amsterdam</a>?</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sun, 12 Feb 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:4001/2023/02/12/all-saints-amsterdam/</link>
-        <guid isPermaLink="true">http://localhost:4001/2023/02/12/all-saints-amsterdam/</guid>
-        
-          
-        
-        
-          <category>Religion</category>
-        
-          <category>Amsterdam</category>
-        
-          <category>Queerdom</category>
         
       </item>
     

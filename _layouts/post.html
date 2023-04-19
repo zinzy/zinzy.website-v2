@@ -2,8 +2,8 @@
 layout: default
 ---
 <article class="h-entry">
-  <div class="row">
-    <div class="col-lg-8 offset-lg-2">
+  <div class=" ">
+    <div class=" ">
       {% if page.hero %}
         
       {% if page.hero-portrait %}
@@ -27,7 +27,7 @@ layout: default
  
         
       {% endif %}
-      <header class="mb-5 text-center">
+      <header class="mb-5">
         <h2 class="p-name mb-0"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h2>
         <p class=""><time class="dt-published" datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
       </header>
@@ -38,21 +38,6 @@ layout: default
       </div>
     
       <footer class=" border-top mt-5 pt-5">
-
-        <!-- {% if page.faces.size > 0 %}
-        <div class="text-center border-bottom mb-5 pb-5">
-          <h3 class="h6">Faces in this post</h3>
-            {% assign sorted_faces = page.faces | sort %}
-            {% for face in sorted_faces %}
-            {%- assign f = face | first -%}
-              <span><a href="/faces/{{ face | replace: ' ', '-' }}">{{face}}</a></span>
-            {% endfor %}
-        </span>
-        </div> 
-      {% endif %} -->
-
-
- 
 
 
         <div class="">
@@ -70,24 +55,7 @@ layout: default
           </span>
         {% endif %}
         </p>
-        </div> 
-        
-         
-
-        <!-- <div class="mt-3"> 
-          {% if page.next.url %}
-            <div><span class="text-subtext">Newer — </span> 
-              <span><a class="" href="{{page.next.url}}">{{page.next.title}}</a> </span></div>
-          {% endif %} 
-          {% if page.previous.url %}
-          <div>
-            <span class="text-subtext">Older — </span> 
-          <span><a class="" href="{{page.previous.url}}">{{page.previous.title}}</a> </span>
-          </div>
-          {% endif %} 
-        </div>  -->
-         
-         
+        </div>  
      
 
 

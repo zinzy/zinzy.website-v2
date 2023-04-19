@@ -3,11 +3,11 @@ layout: default
 ---
 
 <article class="h-entry"> 
-  <header class="mb-3">
+  <header class="mb-5">
     <h2>{{ page.title }}</h2>
     {% if page.title == "Now" %}
-    <p class="metadata">Last updated on <time datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></p>
-    {% endif %}
+      <p><i>Last updated on <time datetime="{{ page.date | date: "%A, %B %-d, %Y" }}">{{ page.date | date: "%A, %B %-d, %Y" }}</time></i></p>
+    {% endif %} 
   </header>
   <div id="notes-entry-container">
     <content class="e-content"> 

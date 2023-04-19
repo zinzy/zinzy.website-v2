@@ -3,72 +3,48 @@ layout: default
 ---    
 
 <section>
-  <h2>Heya pal, glad you're here! I'm <a href="/about" class="internal-link">Zinzy</a>, and this is my personal website. I come here to share soft stances, lived experiences, and critical notes on the things I hold dear.</h2>
+  <p>I'm Zinzy, a researcher and designer specialized in building products for people at work. This is my personal website. I come here to share soft stances, lived experiences, and critical notes on the things I hold dear.</p>
 </section>
 
 <section>
-  <div class="row">
-    <div class="col-lg-7">
-      <a href="/diary" class="button-arrow">Read my diary</a>
-      {% assign diary = site.posts | sort: 'date' | reverse %} 
-      <ul class="diary list-unstyled mt-5">
-        {% for post in diary | limit: 2 %}
-        <li class="">
-          <h3 class="h5 m-0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <div><time datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time></div>
-          <p>{{post.excerpt}}</p>
-        </li>
-      {% endfor %} 
-      </ul>
-    </div>
-    <div class="col-lg-4 offset-lg-1">
-      <a href="/resources" class="button-arrow">View my resources</a>
-
-
-
-        {% assign resources = site.resources %} 
-        <ul class="resources list-unstyled mt-5">
-          {% for post in resources | limit: 5 %}
-            <li>
-              <a href="{{post.url}}">
-              <div class="d-flex align-items-center">
-                <div class="flex-shrink-1"> 
-                  <div class="type">
-                    {% if post.type == "concepts" %}{% include _icons/concepts.html %}{% endif %}
-                    {% if post.type == "habits" %}{% include _icons/habits.html %}{% endif %}
-                    {% if post.type == "ideas" %}{% include _icons/ideas.html %}{% endif %}
-                    {% if post.type == "lists" %}{% include _icons/lists.html %}{% endif %}
-                    {% if post.type == "places" %}{% include _icons/places.html %}{% endif %}
-                    {% if post.type == "tools" %}{% include _icons/tools.html %}{% endif %}
-                  </div>
-                </div>
-                <div class="w-100">
-                  <h3 class="h5 m-0">{{ post.title }}</h3>
-                  <p class="m-0 text-subtext">
-                    {% if post.type == "library" %}
-                      <span class="text-sentence-case">{{post.medium}}</span>, 
-                      <span>{{post.released}}</span>
-                    {% else %}
-                      {{post.excerpt}}
-                    {% endif %}
-                  </p>
-                </div> 
-              </div>
-              </a>
-            </li>
-          {% endfor %} 
-        </ul>
-    </div>
-  </div>
+  <ul>
+    <li><a href='/now'>Now</a>: what I'd tell a friend I hadn't seen in a while</li>
+    <li><a href='/then'>Then</a>: stories from the annals of history</li>
+    <li><a href='/hello'>Hello</a>: best ways to get in touch with me</li>
+    <li><a href='/follow'>Follow</a>: ways to stay up to date</li>
+    <li><a href='/uses'>Uses</a>: things I love</li>
+    <li><a href='/site'>Site</a>: some technical, ethical considerations</li>
+  </ul>
 </section>
-<!-- 
+
 <section>
-  <div class="row">
-    <div class="col-lg-7">
-  <h2>Wanna stay up to date? Subscribe to my mailing list, Basic Bulletin.</h2>
-  </div>
-  </div>
+  {% assign diary = site.posts | sort: 'date' | reverse %}  
+  <ul class="diary list-unstyled">
+    
+    {% for post in diary %}
+      <li>
+        <div class="row">
+          <div class="col-3"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
+          <div class="col-9"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        </div>
+      </li>
+  {% endfor %} 
+  </ul>
 </section>
- -->
 
- 
+<section>
+  {% assign resources = site.resources %}  
+  <ul class="diary list-unstyled">
+    
+    {% for post in resources %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.type }})
+    </li>
+  {% endfor %} 
+  </ul>
+</section>
+
+
+
+
+
