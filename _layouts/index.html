@@ -17,21 +17,22 @@ layout: default
   </ul>
 </section>
 
-<section>
-  {% assign diary = site.posts | sort: 'date' | reverse %}  
-  <ul class="diary list-unstyled">
-    
-    {% for post in diary %}
+<section> 
+  <div class="diary">
+    {% assign diary = site.posts | sort: 'date' | reverse %}  
+    <ul>
+      {% for post in diary %}
       <li>
-        <div class="row">
-          <div class="col-3"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
-          <div class="col-9"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        </div>
-      </li>
-  {% endfor %} 
-  </ul>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li> 
+      {% endfor %} 
+    </ul>
+  </div>
 </section>
 
+
+ 
 <section>
   {% assign resources = site.resources %}  
   <ul class="diary list-unstyled">
