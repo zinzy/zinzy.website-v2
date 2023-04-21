@@ -18,15 +18,14 @@ layout: default
     </div>
     <div class=" "> 
       {% if page.audience %}
-        <div class="card mb-4">
+        <div class="card mb-3">
           <div class="card-body px-4">
-            <span class="d-inline h5 mb-0 me-3">Intended audience</span>
-            <span class="d-inline">{{page.audience}}</span>
+            <strong>Intended audience:</strong> {{page.audience}}
           </div>
         </div>
       {% endif %}
       {% if page.standpoint %}
-        <div class="card mb-4">
+        <div class="card mb-3">
           <div class="card-body px-4">
             <span class="d-inline h5 me-3 mb-0">Please keep in mind</span>
             <span class="d-inline">What I've written below is very much a reflection of my experiences on this particular subject. If your context is similar to mine, you might find this useful. Otherwise, feel free to disregard what you read.</span>

@@ -34,7 +34,7 @@ layout: default
 
  
 <section>
-  {% assign resources = site.resources %}  
+  {% assign resources = site.resources | where_exp:"item", "item.show != false" %}  
   <ul class="diary list-unstyled">
     
     {% for post in resources %}

@@ -9,6 +9,7 @@ layout: default
   {% assign resources = site.resources %} 
 <ul class="resources list-unstyled resources-columns">
   {% for post in resources %}
+    {% unless post.show == false %}
     <li>
       <a href="{{post.url}}">
         <div class="d-flex align-items-center">
@@ -38,6 +39,8 @@ layout: default
         </div>
       </a>
     </li>
+
+    {% endunless %}
   {% endfor %} 
 </ul>
 </section>

@@ -233,3 +233,12 @@ main {
     }
   }
 }
+
+.invalid-link {
+  &::before {
+    content: "[[";
+  }
+  &::after {
+    content: "]]";
+  }
+}

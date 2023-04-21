@@ -10,5 +10,5 @@ This is my [hello](https://alastairjohnston.com/introducing-hello-pages/) page, 
 - [Mastodon](https://tech.lgbt/@zinzy) is your best shot
 - [Email](/contact) is also good
 - [LinkedIn](https://nl.linkedin.com/in/zinzy) is good for work
-- If you'd like to schedule mentor time with me, please know that I'm currently on hiatus from it.
+- If you'd like to schedule mentor time with me, please do so via [ADPList](https://adplist.org/mentors/zinzy-nev-geene)
 - I do not use social media. Any account in my name that you may find is not in use, so feel safe assuming I won't see your message, and I won't receive a notification of it.
