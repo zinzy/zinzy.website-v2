@@ -49,7 +49,9 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Auto deploy on submodule update~~
 - ~~Add progressive blur to top of page~~ 
 - ~~Obsidian post templates~~
-- Apple shortcuts notes
+- Apple shortcuts for IndieWeb notes
+- Apple shortcuts for IndieWeb replies
+- Apple shortcuts for IndieWeb likes
 - Apple shortcuts photos
 
 ### Validation

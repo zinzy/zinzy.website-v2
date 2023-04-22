@@ -77,7 +77,7 @@ collections:
   faces:
     output: true
     permalink: /faces/:slug
-  micro:
+  notes:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
   resources:
@@ -98,10 +98,10 @@ defaults:
     values:
       layout: "post" 
   - scope:
-      path: "_micro/**/*.md"
+      path: "_notes/**/*.md"
       title: ":year-:month-:day-:hour-:minute-:second"
     values:
-      layout: "single-micro" 
+      layout: "note" 
   - scope:
       path: "_faces/**/*.md"
     values:

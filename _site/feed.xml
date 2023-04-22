@@ -4,32 +4,11 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:5000</link>
+    <link>http://localhost:4000</link>
     <language></language>
-    <copyright>http://localhost:5000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4000/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
-    
-      <item>
-        <title>When it comes to UX maturity, does quantity equal quality?</title>
-        <author> ()</author>
-        <description><![CDATA[
-          <html><body>
-<p>Lately I’ve been thinking a lot about <a class="internal-link" href="/ux-maturity">UX maturity</a>. Like so many other designers and researchers, I’ve been using the concept to assess the desire and ability of my employers to facilitate user-friendly experiences in their products and services. There are various models available, each with their own nuances.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Tue, 18 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/18/ux-maturity-quantity-over-quality/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/18/ux-maturity-quantity-over-quality/</guid>
-        
-          
-        
-        
-          <category>Ux</category>
-        
-          <category>Designops</category>
-        
-      </item>
     
       <item>
         <title>Come back to Chigaco</title>
@@ -44,8 +23,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/17/come-back-to-chigaco/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/17/come-back-to-chigaco/</guid>
+        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
         
           
         
@@ -79,8 +58,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 16 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/16/anjas-ceramics-course/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/16/anjas-ceramics-course/</guid>
+        <link>http://localhost:4000/2023/04/16/anjas-ceramics-course/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/16/anjas-ceramics-course/</guid>
         
           
         
@@ -106,8 +85,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 11 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/11/meeting-yana-and-dj/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/11/meeting-yana-and-dj/</guid>
+        <link>http://localhost:4000/2023/04/11/meeting-yana-and-dj/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/11/meeting-yana-and-dj/</guid>
         
           
         
@@ -137,8 +116,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/10/the-cat/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/10/the-cat/</guid>
+        <link>http://localhost:4000/2023/04/10/the-cat/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/10/the-cat/</guid>
         
           
         
@@ -170,8 +149,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/09/eight-of-ten/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/09/eight-of-ten/</guid>
+        <link>http://localhost:4000/2023/04/09/eight-of-ten/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/09/eight-of-ten/</guid>
         
           
         
@@ -199,8 +178,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 08 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/08/a-very-mathilde-visit/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/08/a-very-mathilde-visit/</guid>
+        <link>http://localhost:4000/2023/04/08/a-very-mathilde-visit/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/08/a-very-mathilde-visit/</guid>
         
           
         
@@ -228,8 +207,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         
@@ -259,8 +238,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:5000/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/03/26/week-11/</guid>
+        <link>http://localhost:4000/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/26/week-11/</guid>
         
           
         
@@ -304,8 +283,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:5000/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -319,6 +298,50 @@
           <category>Catholicism</category>
         
           <category>Christianity</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 10: Outings</title>
+        <author> ()</author>
+        <description><![CDATA[
+          <html><body>
+<ul>
+  <li>It snowed a few times this week and I was as baffled as I always am to see it happening in March. I don’t have a great understanding of what the weather’s supposed to do in a given period of the year.</li>
+  <li>After two weeks of cocooning, we’ve finally been taking Lemonade out to various places. I aim to take her out at least once a day, usually to the park or a walk around the block. We also visited my favorite coffee place twice. It’s wonderful to see she’s such a relaxed and curious dog.</li>
+  <li>This was my last full week off. I still have a few days left and then I head back into work. I don’t know how people work after they first got a puppy, and I’m grateful I was able to take this time off.</li>
+  <li>I attended service at All Saints again. It was an intimate gathering with a rather inspiring reflection comparing “giving up” to “letting go” for Lent. I feel like I never get Lent right: I drop in too late, don’t see it all the way through, and this always makes me feel like I’m not a proper Christian. Regardless, it’s great to become acquainted with All Saints. Its focus on inclusivity gives me goosebumps.</li>
+  <li>Lemonade met the other corgi in the building, Lalo. At only ten weeks older than she is, he towered over her as they played, but she didn’t let that bother her. He was so sweet playing with her, using his strength in a very gentle way. Here’s to hoping they’ll become best friends.</li>
+  <li>
+<a href="https://anneliewambeek.com" target="_blank">Annelie</a> came over for tea and lemon punitions. She had been gone for a few weeks and I had missed her. She’s Lemonade’s godmother, and as they met in real life for the first time it was clear to see why this is so.</li>
+  <li>Anja started her ceramics course at Studio Pansa. On Sunday she had her second class, and she took pictures. She’s such a fast learner, and the pots she made came out beautifully. I’m proud of her.</li>
+</ul>
+</body></html>]]>
+        </description>
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/03/12/week-10/</guid>
+        
+          
+        
+        
+          <category>Weeknotes</category>
+        
+          <category>Television</category>
+        
+          <category>Lemonade</category>
+        
+          <category>Dogs</category>
+        
+          <category>Pets</category>
+        
+          <category>Anja</category>
+        
+          <category>Annelie</category>
+        
+          <category>Church</category>
+        
+          <category>Ceramics</category>
         
       </item>
     

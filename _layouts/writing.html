@@ -1,0 +1,19 @@
+---
+layout: default
+--- 
+<h2 class="mb-5">My diary collects slices of life: little moments of thinking aloud, changing my mind, connecting the dots.</h2>
+
+<section>
+
+  <div class="diary">
+    {% assign diary = site.posts | sort: 'date' | reverse %}  
+    <ul>
+      {% for post in diary %}
+      <li class="">
+        <div class="time"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li> 
+      {% endfor %} 
+    </ul>
+  </div>
+</section>
