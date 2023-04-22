@@ -246,25 +246,39 @@ main {
     content: "]]";
   }
 }
-
-
+ 
 .snapshots { 
-  @media screen and (min-width: 768px) {
-    width: 80vw;
+  @media screen and (max-width: 767px) {
+    overflow: auto;
   }
-  ul {
-    margin: 0;
-  padding: 0;
-  li {
-    margin: 0 .5rem 0 0;
-    padding: 0;
-    display: inline-block;
+  display: flex;
+  gap: 1em;
+  flex-wrap: nowrap; 
+  align-items: center;
+  a {
+    flex-shrink: 0;
     img {
-      max-height: 150px;
-      @media screen and (max-width: 767px) {
-        max-height: 80px;
-      }
+      height: 180px;
     }
   }
-  }
+  // @media screen and (max-width: 767px) {
+  //   border: 1px solid black;
+  //   height: 200px;
+  //   max-width: 100%;
+  //   // overflow-x: scroll;
+  //   overflow-x: auto;
+  // }
+  // ul {
+  //   margin: 0;
+  //   padding: 0;
+  //   list-style-type: none;
+  //   // width: 1000px;
+  //   li {
+  //     display: inline-block;
+  //     margin: 0 .5rem 0 0;
+  //     img {
+  //       max-height: 180px;
+  //     }
+  //   }
+  // } 
 }
