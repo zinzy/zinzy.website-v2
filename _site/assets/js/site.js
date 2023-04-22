@@ -27,6 +27,11 @@ function settime() {
   
     const delay = 60000 - ((sec * 1000) + now.getMilliseconds())
     setTimeout(settime, delay)
-  }
+}
   
-  settime()
+settime()
+
+let text = "https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_150/v1682166036/zatcrtxcamqsvfurkoto.jpg";
+let result = text.slice(0, 50);
+
+document.getElementById("demo").innerHTML = result;
