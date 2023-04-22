@@ -246,3 +246,25 @@ main {
     content: "]]";
   }
 }
+
+
+.snapshots { 
+  @media screen and (min-width: 768px) {
+    width: 80vw;
+  }
+  ul {
+    margin: 0;
+  padding: 0;
+  li {
+    margin: 0 .5rem 0 0;
+    padding: 0;
+    display: inline-block;
+    img {
+      max-height: 150px;
+      @media screen and (max-width: 767px) {
+        max-height: 80px;
+      }
+    }
+  }
+  }
+}

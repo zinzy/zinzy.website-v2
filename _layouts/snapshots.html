@@ -1,0 +1,16 @@
+---
+layout: default
+--- 
+<h2 class="mb-5">Snapshots</h2>
+
+<section>
+
+  {% assign snapshots = site.photos | sort: 'date' | reverse %} 
+  {% for post in snapshots %}
+  <article class="mb-5">
+      <a href="{{post.url}}"><img src="{{ post.photo }}" alt=""></a>
+      <p class=""><time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time></p>
+      <p>{{post.content}}</p>
+  </article>
+  {% endfor %} 
+</section>

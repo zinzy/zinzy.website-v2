@@ -80,6 +80,9 @@ collections:
   notes:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
+  photos:
+    output: true
+    permalink: /:year-:month-:day-:hour-:minute-:second
   resources:
     output: true
     permalink: /:slug
@@ -100,8 +103,11 @@ defaults:
   - scope:
       path: "_notes/**/*.md"
       title: ":year-:month-:day-:hour-:minute-:second"
+  - scope:
+      path: "_photos/**/*.md"
+      title: ":year-:month-:day-:hour-:minute-:second"
     values:
-      layout: "note" 
+      layout: "snapshot" 
   - scope:
       path: "_faces/**/*.md"
     values:

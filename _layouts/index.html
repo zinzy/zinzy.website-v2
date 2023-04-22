@@ -19,6 +19,24 @@ layout: default
 
 <section> 
   <div class="mb-1">
+    <h2 class="d-inline">Snapshots</h2>
+    <a href="/snapshots">All snapshots</a>
+    <!-- <a href="/feed.xml">RSS</a> -->
+  </div>
+  <div class="snapshots">
+    {% assign snapshots = site.photos | sort: 'date' | reverse %}  
+    <ul>
+      {% for post in snapshots | limit: 4 %}
+      <li class="">
+        <a href="{{post.url}}"><img src="{{ post.photo }}" alt=""></a>
+      </li> 
+      {% endfor %} 
+    </ul>
+  </div>
+</section>
+
+<section> 
+  <div class="mb-1">
     <h2 class="d-inline">Notes</h2>
     <a href="/notes">All notes</a>
     <a href="/notes.xml">RSS</a>
@@ -49,12 +67,12 @@ layout: default
         {% endfor %} 
       </div>
   </ul>
-</section>
+</section> 
 
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Writing</h2>
-    <a href="/writing">Archive</a>
+    <a href="/writing">All writing</a>
     <a href="/feed.xml">RSS</a>
   </div>
   <div class="diary">
