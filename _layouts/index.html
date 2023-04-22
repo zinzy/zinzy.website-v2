@@ -40,11 +40,9 @@ layout: default
     <h2 class="d-inline">Notes</h2>
     <a href="/notes">All notes</a>
     <a href="/notes.xml">RSS</a>
-  </div>
-  <ul>
+  </div> 
     {% assign notes = site.notes | sort: 'date' | reverse %} 
-    {% for post in notes | limit: 2 %}
-    <li class="mb-2">
+    {% for post in notes | limit: 1 %} 
       <div class="time">
         <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
       </div>
@@ -62,11 +60,9 @@ layout: default
 
         <content>
             {{post.content}} 
-        </content>
-        </li> 
+        </content> 
         {% endfor %} 
-      </div>
-  </ul>
+      </div> 
 </section> 
 
 <section> 
