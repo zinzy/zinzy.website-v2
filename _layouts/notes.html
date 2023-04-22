@@ -12,7 +12,8 @@ layout: default
 <div class="diary">
   <!-- {% assign diary = site.notes | sort: 'date' | reverse %}   -->
   <ul>
-    {% for post in site.notes %}
+    {% assign notes = site.notes | sort: 'date' | reverse %} 
+    {% for post in notes %}
     <li class="mb-2">
       <div class="time">
         <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>

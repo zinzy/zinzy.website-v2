@@ -24,7 +24,8 @@ layout: default
     <a href="/notes.xml">RSS</a>
   </div>
   <ul>
-    {% for post in site.notes | limit: 2 %}
+    {% assign notes = site.notes | sort: 'date' | reverse %} 
+    {% for post in notes | limit: 2 %}
     <li class="mb-2">
       <div class="time">
         <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
