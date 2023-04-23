@@ -102,10 +102,10 @@ defaults:
       layout: "post" 
   - scope:
       path: "_notes/**/*.md"
-      title: ":year-:month-:day-:hour-:minute-:second"
+      title: ":year-:month-:day-:hour-:minute"
   - scope:
       path: "_photos/**/*.md"
-      title: ":year-:month-:day-:hour-:minute-:second"
+      title: "snapshots/:year-:month-:day-:hour-:minute"
     values:
       layout: "snapshot" 
   - scope:

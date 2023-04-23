@@ -2,8 +2,6 @@
 layout: default
 ---    
 
-<p id="demo"></p>
-
 <section>
   <p>I'm a researcher and designer specialized in making products for people at work. I live in Amsterdam<span data-timestamp-text=", where it's {time}"></span>. This is my personal website. I come here to share soft stances, lived experiences, and critical notes on the things I hold dear.</p>
 </section>
@@ -18,7 +16,44 @@ layout: default
     <li><a href='/site'>Site</a></li>
   </ul>
 </section>
+<section> 
+  <div class="mb-1">
+    <h2 class="d-inline">Snapshots</h2>
+    <a href="/snapshots">All snapshots</a>
+    <!-- <a href="/feed.xml">RSS</a> -->
+  </div>
+  <div class="snapshots">
+    {% assign snapshots = site.photos | sort: 'date' | reverse %}  
+    
+    <ul>
+      {% for post in snapshots | limit: 4 %}
+  
+        <li class="">
+          <p id="demo"></p>
+
  
+          {{post.photo}} 
+
+      <script>
+
+        function insertAtIndex(str, substring, index) {
+          return str.slice(0, index) + substring + str.slice(index);
+        }
+
+        const str = '{{post.photo}}';
+        const substring = 'c_scale,h_150/';
+        const index = 50;
+        
+        const result = insertAtIndex(str, substring, index);
+
+        document.getElementById("demo").innerHTML = result;
+        console.log(result);
+      </script>
+        </li>
+      {% endfor %}  
+    </ul>
+  </div>
+</section>
 
 <section> 
   <div class="mb-1">
