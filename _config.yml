@@ -40,20 +40,7 @@ plugins:
   - jekyll-paginate 
   - jekyll-archives
   - jekyll-last-modified-at
-
-
-
-cloudinary:
-  cloud_name: dbi2zounq
-  verbose: true
-  origin_url: https://zinzy.website
-  presets:
-    default:
-      min_width: 320
-      max_width: 1600
-      fallback_max_width: 800
-      steps: 5
-      sizes: "(min-width: 50rem) 50rem, 90vw"
+  - jekyll-timeago
 
 last-modified-at:
     date-format: '%d-%b-%y'
@@ -80,6 +67,10 @@ jekyll-archives:
 tag_page_layout: archive-tag
 tag_page_dir: tag
 
+jekyll_timeago:
+  depth: 4
+  default_locale: 'en'
+  fallbacks: true
 
 kramdown:
 
@@ -106,6 +97,7 @@ collections:
   work:
     output: true
     permalink: /:slug
+  status:
 
 defaults: 
   - scope:
@@ -138,3 +130,5 @@ defaults:
       path: "_work/**/*.md"
     values:
       layout: "work-item" 
+  - scope:
+      path: "_status/**/*.md"

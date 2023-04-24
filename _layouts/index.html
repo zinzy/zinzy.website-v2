@@ -21,7 +21,7 @@ layout: default
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Snapshots</h2>
-    <a href="/snapshots">All snapshots</a>
+    <a href="/snapshots" class="ml-1">All snapshots</a>
     <!-- <a href="/feed.xml">RSS</a> -->
   </div>
 
@@ -41,7 +41,7 @@ layout: default
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Notes</h2>
-    <a href="/notes">All notes</a>
+    <a href="/notes" class="mx-05">All notes</a>
     <a href="/notes.xml">RSS</a>
   </div> 
     {% assign notes = site.notes | sort: 'date' | reverse %} 
@@ -70,9 +70,9 @@ layout: default
 
 <section> 
   <div class="mb-1">
-    <h2 class="d-inline">Writing</h2>
-    <a href="/writing">All writing</a>
-    <a href="/feed.xml">RSS</a>
+    <h2 class="d-inline-block">Writing</h2>
+    <small><a href="/writing" class="mx-05">All writing</a>
+      <a href="/feed.xml">RSS</a></small>
   </div>
   <div class="diary">
     {% assign diary = site.posts | sort: 'date' | reverse %}  
@@ -92,14 +92,16 @@ layout: default
 <section>
   <h2>Resources</h2>
   {% assign resources = site.resources | where_exp:"item", "item.show != false" %}  
-  <ul class="diary list-unstyled">
+  <div class="diary">
+    <ul class=" list-unstyled">
     
-    {% for post in resources %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.type }})
-    </li>
-  {% endfor %} 
-  </ul>
+      {% for post in resources %}
+      <li class="mb-1">
+        <a href="{{ post.url }}">{{ post.title }} </a> <span class="ml-1">({{ post.type }})</span>
+      </li>
+    {% endfor %} 
+    </ul>
+  </div>
 </section>
 
 

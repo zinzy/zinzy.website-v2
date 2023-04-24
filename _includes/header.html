@@ -1,28 +1,23 @@
 <header class="site-header">
-  <div class="mb-3">
-    <p>Heya, how are you?</p>
-    <p class="m-0">Thanks,</p>
-    <div class="h-card">
-      <h1 class="p-author"> 
-        <a class="p-name u-uid u-url" rel="author" href="/">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a> 
-      </h1>
-    </div>
-    <p class="m-0">
-      <span class="dt-bday">1987</span> / 
-      <span class="p-gender-identity">X</span> / 
-      <span class="p-locality">AMS</span>
-    </p>
-  </div>
+  <div class="h-card">
+    <h1 class="p-author"> 
+      <a class="p-name u-uid u-url" rel="author" href="/">
+        <span class="p-given-name">Zinzy</span>
+        <span class="p-family-name">Waleson Geene</span>
+      </a> 
+    </h1>
+  </div> 
 </header>
 
-<!-- <div class="switcher">
-  <h2>Ready to Switch Themes? Click away, my friend.</h2>
-  <div class="buttonContainer">
-    <button class=" button theme1">Light Theme</button>
-    <button class="button theme2">Dark Theme</button>
-    <button class="button theme3">InvisiTheme</button>
-  </div>
-</div> -->
+ 
+
+
+{% assign status = site.status | sort: 'date' | reverse %}  
+{% for post in status | limit: 1 %}
+<p class="m-0">
+  {{ post.content }} 
+  <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="d-none" id="statusDate">{{ post.date }}</time>
+  (<span id="statusTimeAgo"></span>)
+</p>
+ 
+{% endfor %} 

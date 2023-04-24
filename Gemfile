@@ -13,6 +13,7 @@ gem "shoulda"
 gem 'jekyll-archives'
 gem 'jekyll-tagging'
 gem 'fastimage'
+gem 'jekyll-timeago'
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
 gem 'tufte-pandoc-jekyll'

@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:5000</link>
+    <link>http://localhost:4001</link>
     <language></language>
-    <copyright>http://localhost:5000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:5000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4001/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -23,8 +23,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/17/come-back-to-chigaco/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/17/come-back-to-chigaco/</guid>
+        <link>http://localhost:4001/2023/04/17/come-back-to-chigaco/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/17/come-back-to-chigaco/</guid>
         
           
         
@@ -58,8 +58,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 16 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/16/anjas-ceramics-course/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/16/anjas-ceramics-course/</guid>
+        <link>http://localhost:4001/2023/04/16/anjas-ceramics-course/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/16/anjas-ceramics-course/</guid>
         
           
         
@@ -85,8 +85,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 11 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/11/meeting-yana-and-dj/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/11/meeting-yana-and-dj/</guid>
+        <link>http://localhost:4001/2023/04/11/meeting-yana-and-dj/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/11/meeting-yana-and-dj/</guid>
         
           
         
@@ -116,8 +116,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/10/the-cat/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/10/the-cat/</guid>
+        <link>http://localhost:4001/2023/04/10/the-cat/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/10/the-cat/</guid>
         
           
         
@@ -149,8 +149,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/09/eight-of-ten/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/09/eight-of-ten/</guid>
+        <link>http://localhost:4001/2023/04/09/eight-of-ten/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/09/eight-of-ten/</guid>
         
           
         
@@ -178,8 +178,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 08 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/08/a-very-mathilde-visit/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/08/a-very-mathilde-visit/</guid>
+        <link>http://localhost:4001/2023/04/08/a-very-mathilde-visit/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/08/a-very-mathilde-visit/</guid>
         
           
         
@@ -207,8 +207,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:5000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         
@@ -238,8 +238,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 26 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:5000/2023/03/26/week-11/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/03/26/week-11/</guid>
+        <link>http://localhost:4001/2023/03/26/week-11/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/26/week-11/</guid>
         
           
         
@@ -283,8 +283,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:5000/2023/03/16/a-phone-call-with-an-old-friend/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/03/16/a-phone-call-with-an-old-friend/</guid>
+        <link>http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/16/a-phone-call-with-an-old-friend/</guid>
         
           
         
@@ -319,8 +319,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 12 Mar 2023 00:00:00 +0100</pubDate>
-        <link>http://localhost:5000/2023/03/12/week-10/</link>
-        <guid isPermaLink="true">http://localhost:5000/2023/03/12/week-10/</guid>
+        <link>http://localhost:4001/2023/03/12/week-10/</link>
+        <guid isPermaLink="true">http://localhost:4001/2023/03/12/week-10/</guid>
         
           
         
