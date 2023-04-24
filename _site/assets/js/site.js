@@ -87,9 +87,7 @@ const isYesterday = yesterday.toDateString() === date.toDateString();
 const isThisYear = today.getFullYear() === date.getFullYear();
 
 
-if (seconds < 5) {
-  return 'now';
-} else if (minutes < 59) {
+if (minutes < 59) {
   return `${ minutes }min ago`;
 } else if (hours < 20) {
   return `${ hours }h ago`;
