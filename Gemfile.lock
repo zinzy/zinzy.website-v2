@@ -24,6 +24,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    fastimage (2.2.6)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.21.12)
@@ -48,6 +49,9 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-cloudinary (1.14.1)
+      fastimage (~> 2.0)
+      jekyll (>= 3.6, < 5)
     jekyll-paginate (1.1.0)
     jekyll-pandoc (2.0.1)
       jekyll (>= 3.0)
@@ -109,8 +113,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage
   jekyll (~> 4.3.2)
   jekyll-archives
+  jekyll-cloudinary
   jekyll-last-modified-at!
   jekyll-paginate
   jekyll-tagging

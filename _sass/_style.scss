@@ -256,10 +256,10 @@ main {
   flex-wrap: nowrap; 
   align-items: center;
   a {
-    flex-shrink: 0;
-    img {
-      height: 180px;
-    }
+    flex-shrink: 0; 
+  }
+  img {
+    height: 180px;
   }
   // @media screen and (max-width: 767px) {
   //   border: 1px solid black;

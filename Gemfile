@@ -12,10 +12,12 @@ gem "minitest"
 gem "shoulda"
 gem 'jekyll-archives'
 gem 'jekyll-tagging'
+gem 'fastimage'
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
-gem "tufte-pandoc-jekyll"
+gem 'tufte-pandoc-jekyll'
 group :jekyll_plugins do
-    gem "jekyll-paginate"
+    gem 'jekyll-paginate'
+    gem 'jekyll-cloudinary'
     # gem "jekyll-category-pages"
   end

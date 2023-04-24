@@ -16,43 +16,26 @@ layout: default
     <li><a href='/site'>Site</a></li>
   </ul>
 </section>
+
+
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Snapshots</h2>
     <a href="/snapshots">All snapshots</a>
     <!-- <a href="/feed.xml">RSS</a> -->
   </div>
-  <div class="snapshots">
-    {% assign snapshots = site.photos | sort: 'date' | reverse %}  
-    
-    <ul>
-      {% for post in snapshots | limit: 4 %}
-  
-        <li class="">
-          <p id="demo"></p>
 
  
-          {{post.photo}} 
 
-      <script>
-
-        function insertAtIndex(str, substring, index) {
-          return str.slice(0, index) + substring + str.slice(index);
-        }
-
-        const str = '{{post.photo}}';
-        const substring = 'c_scale,h_150/';
-        const index = 50;
-        
-        const result = insertAtIndex(str, substring, index);
-
-        document.getElementById("demo").innerHTML = result;
-        console.log(result);
-      </script>
-        </li>
-      {% endfor %}  
-    </ul>
+  <div class="snapshots">
+    {% assign snapshots = site.photos | sort: 'date' | reverse %}  
+  
+    {% for post in snapshots | limit: 4 %}
+    <a href="{{post.url}}"><img src="{{ post.photo | slice: 0, 50 }}c_scale,h_180/{{ post.photo | slice: 50, 200 }}" alt=""></a>
+  {% endfor %}  
   </div>
+
+  
 </section>
 
 <section> 
