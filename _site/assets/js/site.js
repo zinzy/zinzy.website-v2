@@ -89,7 +89,9 @@ const isThisYear = today.getFullYear() === date.getFullYear();
 
 if (seconds < 5) {
   return 'now';
-} else if (hours < 24) {
+} else if (minutes < 59) {
+  return `${ minutes }min ago`;
+} else if (hours < 20) {
   return `${ hours }h ago`;
 } else if (isToday) {
   return getFormattedDate(date, 'Today'); // Today at 10:20
