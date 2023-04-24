@@ -18,6 +18,5 @@ gem 'fastimage'
 gem 'tufte-pandoc-jekyll'
 group :jekyll_plugins do
     gem 'jekyll-paginate'
-    gem 'jekyll-cloudinary'
     # gem "jekyll-category-pages"
   end

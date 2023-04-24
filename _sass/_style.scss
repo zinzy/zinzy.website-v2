@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-weight: normal;
+  src: url("../assets/fonts/foundersGroteskRegular.woff2")
+}
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  font-weight: 500;
+  src: url("../assets/fonts/foundersGroteskMedium.woff2")
+}
+
+
 body {
   max-width: 600px;
   padding: 40px; 
+  font-family: Founders Grotesk, sans-serif;
+  font-size: 20px;
   @media (prefers-color-scheme: dark) {
     background: #0c0c0c;
     color: white;
@@ -11,6 +26,11 @@ body {
 
 // TYPOGRAPHY
 
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
 
 h1 {
   font-size: 100%;
@@ -79,13 +99,20 @@ main {
     padding: 0;
     p {margin-top: 0;}
     li {
-      display: flex;
-      .time {
-        width: 6rem;
-        flex-shrink: 0;
-        padding-bottom: .9em
+      @media screen and (min-width: 768px) {
+        display: flex;
+      }
+      .time {  
+        @media screen and (min-width: 768px) {
+          flex-shrink: 0;
+          padding-bottom: .9em;
+        width: 8rem;
+        }
       }
     }
+  }
+  a {
+    word-break: break-all;
   }
 }
 
