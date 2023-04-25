@@ -5,16 +5,16 @@
 }
 
 
-body {
-  max-width: 600px;
+body { 
   padding: 40px; 
+  max-width: 600px;
   font-family: "GraphikRegular", -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 150%;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
   @media (prefers-color-scheme: dark) {
-    background: #0c0c0c;
+    background: #1f1f1f;
     color: white;
   }
 }
@@ -38,14 +38,15 @@ h1 {
 
 
 a { 
+  color: #696969;
   &:visited {
-    color: blue;
+    color: #696969;
     @media (prefers-color-scheme: dark) {
-      color: rgb(150, 150, 150);
+      color: #999;
     }
   } 
   @media (prefers-color-scheme: dark) {
-    color: rgb(150, 150, 150);
+    color: #999;
   }
 }
 
@@ -340,4 +341,12 @@ main {
   img {
     height: 180px;
   } 
+}
+
+.diptych {
+  max-width: 600px;
+  display: flex;
+  img {
+    max-width: 300px;
+  }
 }

@@ -21,7 +21,9 @@ layout: default
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Snapshots</h2>
-    <a href="/snapshots" class="ml-1">All snapshots</a>
+    <small>
+      <a href="/snapshots" class="ml-1">All snapshots</a>
+    </small>
     <!-- <a href="/feed.xml">RSS</a> -->
   </div>
 
@@ -30,7 +32,7 @@ layout: default
   <div class="snapshots">
     {% assign snapshots = site.photos | sort: 'date' | reverse %}  
   
-    {% for post in snapshots | limit: 4 %}
+    {% for post in snapshots | limit: 6 %}
     <a href="{{post.url}}"><img src="{{ post.photo | slice: 0, 50 }}c_scale,h_180/{{ post.photo | slice: 50, 200 }}" alt=""></a>
   {% endfor %}  
   </div>
@@ -41,8 +43,10 @@ layout: default
 <section> 
   <div class="mb-1">
     <h2 class="d-inline">Notes</h2>
-    <a href="/notes" class="mx-05">All notes</a>
-    <a href="/notes.xml">RSS</a>
+    <small>
+      <a href="/notes" class="mx-05">All notes</a>
+      <a href="/notes.xml">RSS</a>
+    </small>
   </div> 
     {% assign notes = site.notes | sort: 'date' | reverse %} 
     {% for post in notes | limit: 1 %} 
@@ -71,8 +75,10 @@ layout: default
 <section> 
   <div class="mb-1">
     <h2 class="d-inline-block">Writing</h2>
-    <small><a href="/writing" class="mx-05">All writing</a>
-      <a href="/feed.xml">RSS</a></small>
+    <small>
+      <a href="/writing" class="mx-05">All writing</a>
+      <a href="/feed.xml">RSS</a>
+    </small>
   </div>
   <div class="diary">
     {% assign diary = site.posts | sort: 'date' | reverse %}  
@@ -89,7 +95,7 @@ layout: default
 
 
  
-<section>
+<!-- <section>
   <h2>Resources</h2>
   {% assign resources = site.resources | where_exp:"item", "item.show != false" %}  
   <div class="diary">
@@ -102,7 +108,7 @@ layout: default
     {% endfor %} 
     </ul>
   </div>
-</section>
+</section> -->
 
 
 

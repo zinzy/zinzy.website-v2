@@ -42,6 +42,7 @@ settime()
 ///////////////////////////
 
 
+// https://www.slingacademy.com/article/javascript-how-to-convert-date-time-to-time-ago/
 // Define a function that takes a date as an argument
 // and returns a string that represents how long ago the date was
 function timeAgo(date) {
@@ -54,27 +55,27 @@ function timeAgo(date) {
 
   interval = Math.floor(seconds / 2592000);
   if (interval > 1) {
-    return interval + ' months ago';
+    return interval + 'mo ago';
   }
 
   interval = Math.floor(seconds / 86400);
   if (interval > 1) {
-    return interval + ' days ago';
+    return interval + 'd ago';
   }
 
   interval = Math.floor(seconds / 3600);
   if (interval > 1) {
-    return interval + ' hours ago';
+    return interval + 'h ago';
   }
 
   interval = Math.floor(seconds / 60);
   if (interval > 1) {
-    return interval + ' minutes ago';
+    return interval + 'min ago';
   }
 
   if(seconds < 10) return 'just now';
 
-  return Math.floor(seconds) + ' seconds ago';
+  return Math.floor(seconds) + 'sec ago';
 };
 
 
