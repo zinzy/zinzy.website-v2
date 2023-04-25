@@ -64,6 +64,6 @@ settime()
 
 
 let meow = document.getElementById("statusDate").innerHTML;
-result = moment().startOf('meow').fromNow(); ;
+result = moment(meow).fromNow();;
 
 document.getElementById('statusTimeAgo').innerHTML = result; 
