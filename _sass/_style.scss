@@ -1,21 +1,18 @@
 @font-face {
-  font-family: 'Founders Grotesk';
+  font-family: 'GraphikRegular';
   font-weight: normal;
-  src: url("../assets/fonts/foundersGroteskRegular.woff2")
-}
-
-@font-face {
-  font-family: 'Founders Grotesk';
-  font-weight: 500;
-  src: url("../assets/fonts/foundersGroteskMedium.woff2")
+  src: url("../assets/fonts/GraphikRegular.woff2")
 }
 
 
 body {
   max-width: 600px;
   padding: 40px; 
-  font-family: Founders Grotesk, sans-serif;
-  font-size: 20px;
+  font-family: "GraphikRegular", -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-size: 19px;
+  line-height: 150%;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
   @media (prefers-color-scheme: dark) {
     background: #0c0c0c;
     color: white;

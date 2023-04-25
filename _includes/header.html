@@ -10,13 +10,15 @@
 </header>
 
  
+<div class="demo">
+</div>
 
 
 {% assign status = site.status | sort: 'date' | reverse %}  
 {% for post in status | limit: 1 %}
 <p class="m-0">
   {{ post.content }} 
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="d-none" id="statusDate">{{ post.date }}</time>
+  <time datetime="{{ post.specialdate | date: "%Y-%m-%d %H:%M:%S" }}" class="d-none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
   (<span id="statusTimeAgo"></span>)
 </p>
  
