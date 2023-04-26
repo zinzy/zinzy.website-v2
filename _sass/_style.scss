@@ -27,11 +27,24 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  color: black;
+  font-weight: 500; 
   line-height: 150%;
+  color: black;
   @media (prefers-color-scheme: dark) {
     color: white;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    &:visited {
+      color: black;
+    }
+    @media (prefers-color-scheme: dark) {
+      color: white;
+      &:visited {
+        color: white;
+      }
+    }
   }
 }
 
@@ -147,6 +160,23 @@ main {
 
 
 
+
+.comments {
+  .reaction {
+    img {
+      width: 15px;
+    }
+  }
+}
+
+
+blockquote {
+  margin: 50px;
+  p {
+    font-size: 1.5rem;
+    line-height: 150%;
+  }
+}
 
 
 .d-none {
