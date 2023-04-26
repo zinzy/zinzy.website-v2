@@ -1,13 +1,12 @@
 ---
 share: true
-title: "Site"
-subtitle: "Notes on the what, why, and how of this website"
+title: "About this website"
 layout: page
 ---
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
 ### Principles
-I believe the web should be accessible, transparent, and sustainable. In making this website, I do my best to keep in mind the following sources of inspiration:
+I believe things on the web should be <mark>accessible, transparent, and sustainable</mark>. In making this website, I do my best to keep in mind the following sources of inspiration:
 
 - [Brutalist web design principles](https://brutalist-web.design/)
 - [The a11y project](https://www.a11yproject.com/)

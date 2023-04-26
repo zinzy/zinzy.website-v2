@@ -13,6 +13,7 @@ body {
   line-height: 150%;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
+  color: #585858;
   @media (prefers-color-scheme: dark) {
     background: #1f1f1f;
     color: white;
@@ -27,6 +28,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+  color: black;
+  line-height: 150%;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 h1 {
@@ -38,9 +44,9 @@ h1 {
 
 
 a { 
-  color: #696969;
+  color: #797979;
   &:visited {
-    color: #696969;
+    color: #797979;
     @media (prefers-color-scheme: dark) {
       color: #999;
     }
@@ -349,4 +355,9 @@ main {
   img {
     max-width: 300px;
   }
+}
+
+
+figure {
+  margin: 3rem 0;
 }
