@@ -124,7 +124,7 @@ main {
         @media screen and (min-width: 768px) {
           flex-shrink: 0;
           padding-bottom: .9em;
-        width: 8rem;
+          width: 8rem;
         }
       }
     }
@@ -155,7 +155,10 @@ main {
 
 
 .border-top {
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(207, 207, 207);
+  @media (prefers-color-scheme: dark) {
+    border-top: 1px solid rgb(92, 92, 92);
+  }
 }
 
 

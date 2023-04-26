@@ -18,7 +18,7 @@
     baseUrl = "https://zinzy.website"
 
     # Path to the feed URL (optional, default: /feed.xml)
-    feedPath = "/micro.xml"
+    feedPath = "/notes.xml"
 
     # Maximum number of feed entries to check for mentions (optional, default: 1)
     limit = 20
