@@ -73,9 +73,9 @@ function timeAgo(date) {
   //   return interval + 'min ago';
   // }
 
-  if(seconds < 10) return 'just now';
+  // if(seconds < 10) return 'just now';
 
-  return Math.floor(seconds / 3600) + 'h ago';
+  return 'just now';
 };
 
 

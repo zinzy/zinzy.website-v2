@@ -57,15 +57,15 @@ h1 {
 
 
 a { 
-  color: #797979;
+  color: black;
   &:visited {
-    color: #797979;
+    color: black;
     @media (prefers-color-scheme: dark) {
-      color: #999;
+      color: white;
     }
   } 
   @media (prefers-color-scheme: dark) {
-    color: #999;
+    color: white;
   }
 }
 
@@ -367,7 +367,7 @@ blockquote {
 }
  
 .snapshots { 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 992px) {
     overflow: auto;
   }
   display: flex;

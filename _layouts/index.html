@@ -33,7 +33,7 @@ layout: default
     {% assign snapshots = site.photos | sort: 'date' | reverse %}  
   
     {% for post in snapshots | limit: 6 %}
-    <a href="{{post.url}}"><img src="{{ post.photo | slice: 0, 50 }}c_scale,h_180/{{ post.photo | slice: 50, 200 }}" alt=""></a>
+    <a href="{{post.url}}"><img src="{{ post.photo | slice: 0, 50 }}c_scale,h_180/{{ post.photo | slice: 50, 200 }}" alt="{{post.alt}}"></a>
   {% endfor %}  
   </div>
 
@@ -48,7 +48,8 @@ layout: default
       <a href="/notes.xml">RSS</a>
     </small>
   </div> 
-    {% assign notes = site.notes | sort: 'date' | reverse %} 
+    <div class="diary">
+      {% assign notes = site.notes | sort: 'date' | reverse %} 
     {% for post in notes | limit: 1 %} 
       <div class="time">
         <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
@@ -70,6 +71,7 @@ layout: default
         </content> 
         {% endfor %} 
       </div> 
+    </div>
 </section> 
 
 <section> 

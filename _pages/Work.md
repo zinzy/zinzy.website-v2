@@ -27,19 +27,19 @@ I'm currently not available for any new roles or freelance projects, but I do of
 ### Experience
 
 [Gerimedica](https://gerimedica.nl), from May 2023
-: Senior product designer
-: I'm joining this medtech scaleup in May as their second designer to workj on electronic patient records systems
+: _Senior product designer_
+: I'm joining this medtech scaleup in May as their second designer to work on electronic patient records systems
 
 [Leeruniek](https://leeruniek.nl/), 2020 — 2023
-: Design Manager
+: _Design & Product Manager_
 : At Leeruniek, my skills in leadership, research, design, and strategy came in handy while I solved user and operational challenges
 
 [Airtrade](https://airtrade.com), 2015 — 2020
-: Lead Designer
+: _Lead Designer_
 : I crafted a UX practice from the ground up, and built a multi-brand design system that transformed UX, technical, and stakeholder processes
 
 Studio Zinzy, 2007 — 2015
-: Founder & Consultant
+: _Founder & Consultant_
 : As a freelancer, I worked as a designer, developer, and consultant on short-term and long-term projects across academia, healthcare, fine arts, journalism, and entertainment
 
 ### Case studies
