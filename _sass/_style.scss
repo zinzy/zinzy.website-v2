@@ -9,7 +9,7 @@ body {
   padding: 40px; 
   max-width: 600px;
   font-family: "GraphikRegular", -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 150%;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +17,9 @@ body {
   @media (prefers-color-scheme: dark) {
     background: #1f1f1f;
     color: white;
+  }
+  @media screen and (min-width: 768px) {  
+    font-size: 18px;
   }
 }
 
@@ -393,4 +396,24 @@ blockquote {
 
 figure {
   margin: 3rem 0;
+}
+
+// .webmentions {
+//   border-top: 1px solid red;
+// }
+
+.form-label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+  padding: .3rem;
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid rgb(92, 92, 92);
+  }
 }

@@ -4,7 +4,9 @@ title: "Then"
 subtitle: " "
 layout: page
 ---
-While my [Now](/now) page will inform you of what I am up to these days, this page dives into what brought me here. Together, they make up the about page that I can never seem to finish.
+Inspired by [Matthew Smith](https://matthewsmith.website/portfolio), my initial use of the _Then_ concept was as an archive of my Now page. These days, it functions more as [Piper Haywood's Work page](https://piperhaywood.com/work-background/) does: as a story of how I got to [Now](/now). Together, they make up the about page that I can never seem to finish.
+
+🍋
 
 ### I come from a long line of reluctantly-Catholic, loud, burgundian band geeks
 In the Deep Dutch South, I learned to embrace the health benefits of making music, the forests of the German border, and the importance of charcuterie.

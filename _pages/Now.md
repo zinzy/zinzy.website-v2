@@ -28,5 +28,5 @@ After a hiatus, I'm pleased to be back on the mentoring market. With 16 years of
 ### I'm doing my best to accept the ebb and flow of life
 One of the thinking traps in which I routinely fall is the one where "Y can happen when X is completed". We make a plan and God laughs. I've found that meditation helps me break this cycle. I've been devoting time daily to a meditation session. It's becoming easier to remember that even 10 minutes of practice is worthwhile, even when I keep comparing myself to monks on some Tibetan mountain.
 
-### I'm learnming how to be kind to my neurodivergent brain
+### I'm learning how to be kind to my neurodivergent brain
 Through trial and error, I'm finding ways to help myself best learn and deliver. One thing that's been helpful in this regard is accepting my tendency to think top-down rather than bottom-up. It's marvellous to see how much of the world assumes a bottom-up approach to learning, communicating, and creating. YouTuber [Elizabeth Filips](https://www.youtube.com/@elizabethfilips) has been of great help on this journey.
