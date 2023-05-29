@@ -7,13 +7,7 @@
       </a> 
     </h1>
   </div> 
-</header>
- 
-<div class="demo">
-</div>
-
-
-{% assign status = site.status | sort: 'date' | reverse %}  
+  {% assign status = site.status | sort: 'date' | reverse %}  
 {% for post in status | limit: 1 %}
 <p class="m-0">
   <small>
@@ -24,3 +18,4 @@
 </p>
  
 {% endfor %} 
+</header>

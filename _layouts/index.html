@@ -3,18 +3,8 @@ layout: default
 ---    
 
 <section>
-  <p>Heya pal, welcome to my personal website, a home on the web. I come here to share soft stances, lived experiences, and critical notes on the things I hold dear. My real home is in Amsterdam, <span data-timestamp-text="where it's {time}"></span>.</p>
+  <h2>Heya, I'm Zinzy, a researcher and designer from Amsterdam, <span data-timestamp-text="where it's {time}"></span>. This is my personal website, a home on the Internet.</h2>
 </section>
-
-<section>
-  <ul class="menu">
-    <li><a href='/now'>Now</a></li>
-    <li><a href='/then'>Then</a></li>
-    <li><a href='/hello'>Hello</a></li>
-    <li><a href='/work'>Work</a></li>
-  </ul>
-</section>
-
 
 <section> 
   <div class="mb-1">
@@ -39,37 +29,39 @@ layout: default
 </section>
 
 <section> 
-  <div class="mb-1">
-    <h2 class="d-inline">Notes</h2>
-    <small>
-      <a href="/notes" class="mx-05">All notes</a>
-      <a href="/notes.xml">RSS</a>
-    </small>
-  </div> 
-    <div class="diary">
-      {% assign notes = site.notes | sort: 'date' | reverse %} 
-    {% for post in notes | limit: 1 %} 
-      <div class="time">
-        <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
+  <div class="col-md-6">
+    <div class="mb-1">
+      <h2 class="d-inline">Notes</h2>
+      <small>
+        <a href="/notes" class="mx-05">All notes</a>
+        <a href="/notes.xml">RSS</a>
+      </small>
+    </div> 
+      <div class="diary">
+        {% assign notes = site.notes | sort: 'date' | reverse %} 
+      {% for post in notes | limit: 1 %} 
+        <div class="time">
+          <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
+        </div>
+        <div>
+          {% if post.replyTo %}
+            <p class="mt-0 u-in-reply-to">
+              Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+            </p> 
+          {% endif %}
+          {% if post.likeOf %}
+            <p class="mt-0">
+              Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
+            </p> 
+          {% endif %} 
+  
+          <content>
+              {{post.content}} 
+          </content> 
+          {% endfor %} 
+        </div> 
       </div>
-      <div>
-        {% if post.replyTo %}
-          <p class="mt-0 u-in-reply-to">
-            Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
-          </p> 
-        {% endif %}
-        {% if post.likeOf %}
-          <p class="mt-0">
-            Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
-          </p> 
-        {% endif %} 
-
-        <content>
-            {{post.content}} 
-        </content> 
-        {% endfor %} 
-      </div> 
-    </div>
+  </div>
 </section> 
 
 <section> 
@@ -93,7 +85,18 @@ layout: default
   </div>
 </section>
 
-
+<section>
+  <h2>Other pages</h2>
+<ul class="">
+  <li><a href='/now'>Now</a></li>
+  <li><a href='/then'>Then</a></li>
+  <li><a href='/hello'>Hello</a></li>
+  <li><a href='/work'>Work</a></li>
+  <li><a href='/uses'>Uses</a></li>
+  <li><a href='/site'>Site</a></li>
+  <li><a href='/follow'>Follow</a></li>
+</ul>
+</section>
  
 <!-- <section>
   <h2>Resources</h2>

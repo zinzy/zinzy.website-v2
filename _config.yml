@@ -98,14 +98,15 @@ collections:
     output: true
     permalink: /:slug
   status:
+    output: false
 
 defaults: 
-  - scope:
-      path: "**/*"
-    values:
-      layout: "default"
-    values:
-      layout: "post" 
+  # - scope:
+  #     path: "**/*"
+  #   values:
+  #     layout: "default"
+  #   values:
+  #     layout: "post" 
   - scope:
       path: "_notes/**/*.md"
       title: ":year-:month-:day-:hour-:minute"
@@ -132,3 +133,5 @@ defaults:
       layout: "work-item" 
   - scope:
       path: "_status/**/*.md"
+    values:
+      layout: "post" 
