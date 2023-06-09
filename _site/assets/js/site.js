@@ -68,15 +68,18 @@ function timeAgo(date) {
     return interval + 'h ago';
   }
 
-  // interval = Math.floor(seconds / 60);
-  // if (interval > 1) {
-  //   return interval + 'min ago';
-  // }
+  interval = Math.floor(seconds / 60);
+  if (interval > 1) {
+    return interval + ' min ago';
+  }
 
-  // if(seconds < 10) return 'just now';
+  if(seconds < 10) return 'just now';
 
   return 'just now';
 };
+
+
+
 
 
 let meow = document.getElementById("statusDate").innerHTML;

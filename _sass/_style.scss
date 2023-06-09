@@ -472,11 +472,12 @@ figure {
 }
 
 .status {
-  // display: inline; 
+  display: inline-block !important;
+  margin: 0;
 }
 
 .status::first-letter { 
-  text-transform: lowercase;
+  text-transform: lowercase; 
 }
 
 
