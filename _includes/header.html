@@ -1,21 +1,37 @@
+
 <header class="site-header">
-  <div class="h-card">
-    <h1 class="p-author"> 
-      <a class="p-name u-uid u-url" rel="author" href="/">
-        <span class="p-given-name">Zinzy</span>
-        <span class="p-family-name">Waleson Geene</span>
-      </a> 
-    </h1>
-  </div> 
-  {% assign status = site.status | sort: 'date' | reverse %}  
-{% for post in status | limit: 1 %}
-<p class="m-0">
-  <small>
-    {{ post.content }} 
-    <time datetime="{{ post.specialdate | date: "%Y-%m-%d %H:%M:%S" }}" class="d-none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
-    (<span id="statusTimeAgo"></span>)
-  </small>
-</p>
- 
-{% endfor %} 
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/now">Now</a></li>
+    <li><a href="/then">Then</a></li>
+    <li><a href="/work">Work</a></li>
+  </ul>
+</nav>
+
+
+  <!-- <div class="h-card d-flex">
+    <img src="/assets/img/android-chrome-192x192.png" class="portrait">
+     <div>
+      <h1 class="p-author flex-grow-1"> 
+        <a class="p-name u-uid u-url" rel="author" href="/">
+          <span class="p-given-name">Zinzy</span>
+          <span class="p-family-name">Waleson Geene</span>
+        </a> 
+      </h1>
+  
+    {% assign status = site.status | sort: 'date' | reverse %}  
+    {% for post in status | limit: 1 %}
+    <p class="m-0">
+      <small>
+        {{ post.content }} 
+        <time datetime="{{ post.specialdate | date: "%Y-%m-%d %H:%M:%S" }}" class="d-none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
+        (<span id="statusTimeAgo"></span>)
+      </small>
+    </p>
+     
+    {% endfor %} 
+    </div>   -->
+    </div>
 </header>

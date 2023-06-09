@@ -7,21 +7,19 @@
 
 body { 
   padding: 40px; 
-  max-width: 600px;
-  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   font-size: 16px;
   line-height: 150%;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
-  color: #585858;
+  color: #404040;
   margin: 0 auto;
   @media (prefers-color-scheme: dark) {
     background: #1f1f1f;
     color: white;
   }
   @media screen and (min-width: 768px) {  
-    font-size: 18px;
-    margin: 100px auto;
+    padding: 0;
   }
 }
 
@@ -40,16 +38,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   a {
     // text-decoration: none;
-    color: black;
+    // color: black;
     &:visited {
-      color: black;
+      // color: black;
     }
-    @media (prefers-color-scheme: dark) {
-      color: white;
-      &:visited {
-        color: white;
-      }
-    }
+    // @media (prefers-color-scheme: dark) {
+    //   color: white;
+    //   &:visited {
+    //     color: white;
+    //   }
+    // }
   }
 }
 
@@ -62,9 +60,10 @@ h1 {
 
 
 a { 
-  color: black;
+  color: #050505;
+  text-decoration: none;
   &:visited {
-    color: black;
+    // color: black;
     @media (prefers-color-scheme: dark) {
       color: white;
     }
@@ -88,20 +87,27 @@ a {
 
 
 .site-header {
-  // margin: 50px;
-  text-align: center;
   nav {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding: .8rem 0;
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       li {
         display: inline-block;
-        margin: 0;
+        margin: 0 1rem;
         padding: 0;
-        &::after {
-          content: " |";
-          margin-right: .5rem;
+        a {
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 14px;
         }
       }
     }
@@ -113,7 +119,8 @@ section {
 }
 
 main {
-  margin: 100px 0;
+  margin: 150px auto 100px auto;
+  max-width: 600px;
 }
 
 .diary {
@@ -125,6 +132,10 @@ main {
     li {
       @media screen and (min-width: 768px) {
         display: flex;
+      }
+      a {
+        font-weight: 500;
+        text-decoration: none;
       }
       .time {  
         @media screen and (min-width: 768px) {
@@ -146,7 +157,28 @@ main {
 }
 
 
-
+footer {
+  nav {
+    text-align: center;
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: .8rem 0;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: 0 1rem;
+        padding: 0;
+        a {
+          text-decoration: none;
+          color: #999;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
 
 .card {
   border: 1px solid black;
@@ -384,7 +416,7 @@ blockquote {
     flex-shrink: 0; 
   }
   img {
-    height: 180px;
+    height: 130px;
   } 
 }
 
@@ -419,4 +451,40 @@ figure {
   @media (prefers-color-scheme: dark) {
     border: 1px solid rgb(92, 92, 92);
   }
+}
+
+.flex-grow-1 {
+  flex-grow: 1!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+
+.site-logo {
+  margin-right: 1rem;
+}
+
+.portrait {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.status {
+  // display: inline; 
+}
+
+.status::first-letter { 
+  text-transform: lowercase;
+}
+
+
+.button-text {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+time {
+  color: #999;
 }

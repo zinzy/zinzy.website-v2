@@ -2,9 +2,8 @@
 layout: default
 ---  
 <div class="mb-5">
-  <header class="mb-5">
-    <h2>{{ page.title }}</h2>
-  </header>
+  <h2>{{ page.title }}</h2>
+  <p>This is a changelog of sorts; not quite blog posts, not quite tweets. <a href="https://indieweb.org/posts#Types_of_Posts" target="_blank" rel="noopener noreferrer">IndieWeb post type</a>-shaped slices of life: little moments of thinking aloud, changing my mind, connecting the dots.</p>
   {{content}}
 </div>
   
@@ -15,7 +14,7 @@ layout: default
     {% for post in notes %}
     <li class="mb-2">
       <div class="time">
-        <a href="{{ post.url }}" class="date"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
+        <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
       </div>
       <div>
         {% if post.replyTo %}
