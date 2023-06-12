@@ -8,6 +8,12 @@ Inspired by [Matthew Smith](https://matthewsmith.website/portfolio), my initial 
 
 🍋
 
+<!-- - How I got into web publishing
+- Where I grew up
+- How my personal life developed
+- How my professional life developed
+- How my sense of self developed -->
+
 ### I come from a long line of reluctantly-Catholic, loud, burgundian band geeks
 In the Deep Dutch South, I learned to embrace the health benefits of making music, the forests of the German border, and the importance of charcuterie.
 

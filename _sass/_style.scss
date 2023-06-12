@@ -471,16 +471,7 @@ figure {
   width: 80px;
   border-radius: 50%;
 }
-
-.status {
-  display: inline-block !important;
-  margin: 0;
-}
-
-.status::first-letter { 
-  text-transform: lowercase; 
-}
-
+ 
 
 .button-text {
   font-weight: 500;
