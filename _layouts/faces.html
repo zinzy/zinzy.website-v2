@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<section>
-  <h2>These are some of the faces in my life that have made an appearance on this website.</h2>
+<section class="mb-5">
+  <h2>Faces</h2>
+  <p>These are some of the faces in my life that have made an appearance on this website.</p>
 </section>
 
 <section>
   {% assign faces = site.faces %} 
-  <ul class="resources list-unstyled resources-columns">
+  <ul class="faces">
   {% for face in faces %}
     <li>
       <a href="{{face.slug}}"><img src="{{face.hero}}" alt=""></a>

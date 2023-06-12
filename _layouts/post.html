@@ -54,6 +54,15 @@ layout: default
               {% endfor %}
           </span>
         {% endif %} -->
+
+
+        {% if page.faces.size > 0 %}
+          <span class="tags"> 
+              {% for face in page.faces %}
+                <a href="/faces/{{face}}">{{face}}</a>
+              {% endfor %}
+          </span>
+        {% endif %}
         </p>
         </div>  
      
