@@ -97,6 +97,11 @@ a {
     text-align: center;
     border-bottom: 1px solid rgb(235, 235, 235);
     padding: .8rem 0;
+    @media (prefers-color-scheme: dark) {
+      background: #1f1f1f;
+      color: white;
+      border-bottom: 1px solid rgb(43, 43, 43);
+    }
     ul {
       list-style-type: none;
       margin: 0;
@@ -163,6 +168,9 @@ footer {
     text-align: center;
     border-top: 1px solid rgb(235, 235, 235);
     padding: .8rem 0;
+    @media (prefers-color-scheme: dark) {
+      border-top: 1px solid rgb(43, 43, 43);
+    }
     ul {
       list-style-type: none;
       margin: 0;
