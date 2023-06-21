@@ -1,116 +1,27 @@
 ---
 layout: default
----    
-
-<section>
-  <h2>Zinzy Waleson Geene — 
-    
-    <span class="status">{% assign status = site.status | sort: 'date' | reverse %}  
-    {% for post in status | limit: 1 %} 
-        {{ post.content }}  
-          <time datetime="{{ post.specialdate | date: "%Y-%m-%d %H:%M:%S" }}" class="d-none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
-          (<span id="statusTimeAgo"></span>) 
-    {% endfor %}
-    </span>
-</h2>
-  <p>Heya pal, thank you for visiting my personal website. I'm an advocate of the independent web, which is where we make the rules. I work as a researcher and designer in Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. I'm specialized in making tools for people at work. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
-</section>
+---
 
 <section> 
-  <div class="mb-1">
-    <h2 class="d-inline">Recent snapshots</h2>
-    <small>
-      <a href="/snapshots" class="button-text ml-1">All snapshots</a>
-    </small>
-    <!-- <a href="/feed.xml">RSS</a> -->
-  </div>
+  <div class="">
+    {% assign diary = site.posts | sort: 'date' | reverse %}   
+      {% for post in diary | limit: 1 %} 
+        <header class="mb-5">
 
-
-  <div class="snapshots">
-    {% assign snapshots = site.photos | sort: 'date' | reverse %}  
-  
-    {% for post in snapshots | limit: 6 %}
-    <a href="{{post.url}}"><img src="{{ post.photo | slice: 0, 50 }}c_scale,h_130,e_sharpen:200/{{ post.photo | slice: 50, 200 }}" alt="{{post.alt}}"></a>
-  {% endfor %}  
-  </div>
-
-  
-</section>
-
-<section> 
-  <div class="col-md-6">
-    <div class="mb-1">
-      <h2 class="d-inline">Notes</h2>
-      <small>
-        <a href="/notes" class="button-text ml-1">All notes</a>
-        <a href="/notes.xml" class="button-text ml-1">RSS</a>
-      </small>
-    </div> 
-      <div class="diary">
-        {% assign notes = site.notes | sort: 'date' | reverse %} 
-      {% for post in notes | limit: 1 %} 
-        <div class="time">
-          <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-        </div>
-        <div>
-          {% if post.replyTo %}
-            <p class="mt-0 u-in-reply-to">
-              Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
-            </p> 
-          {% endif %}
-          {% if post.likeOf %}
-            <p class="mt-0">
-              Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
-            </p> 
-          {% endif %} 
-  
-          <content>
-              {{post.content}} 
-          </content> 
-          {% endfor %} 
-        </div> 
-      </div>
-  </div>
-</section> 
-
-<section> 
-  <div class="mb-1">
-    <h2 class="d-inline-block">Writing</h2>
-    <small>
-      <a href="/writing" class="button-text ml-1">All writing</a>
-      <a href="/feed.xml" class="button-text ml-1">RSS</a>
-    </small>
-  </div>
-  <div class="diary">
-    {% assign diary = site.posts | sort: 'date' | reverse %}  
-    <ul>
-      {% for post in diary | limit: 5 %}
-      <li class="">
-        <div class="time"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li> 
-      {% endfor %} 
-    </ul>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="mt-0"><time class="dt-published" datetime="{{ post.date | date: "%A, %B %-d, %Y" }}">{{ post.date | date: "%A, %B %-d, %Y" }}</time></p>
+        </header>
+        {{post.content}} 
+      {% endfor %}  
   </div>
 </section>
+
 
  
-<!-- <section>
-  <h2>Resources</h2>
-  {% assign resources = site.resources | where_exp:"item", "item.show != false" %}  
-  <div class="diary">
-    <ul class=" list-unstyled">
-    
-      {% for post in resources %}
-      <li class="mb-1">
-        <a href="{{ post.url }}">{{ post.title }} </a> <span class="ml-1">({{ post.type }})</span>
-      </li>
-    {% endfor %} 
-    </ul>
-  </div>
-</section> -->
 
-
-
-
+<section>
+  <h1>Hey Internet friend,
+</h1>
+  <p>I'm Zinzy Waleson Geene, a researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. I'm specialized in making tools for people at work. Thank you for visiting my personal site. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+</section> 
 

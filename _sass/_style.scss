@@ -15,8 +15,8 @@ body {
   color: #404040;
   margin: 0 auto;
   @media (prefers-color-scheme: dark) {
-    background: #1f1f1f;
-    color: white;
+    // background: #1f1f1f;
+    // color: white;
   }
   @media screen and (min-width: 768px) {  
     padding: 0;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%;
   color: black;
   @media (prefers-color-scheme: dark) {
-    color: white;
+    // color: white;
   }
   a {
     // text-decoration: none;
@@ -51,14 +51,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 {
-  font-size: 100%;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-}
-
-
 a { 
   color: #050505;
   text-decoration: none;
@@ -66,11 +58,11 @@ a {
   &:visited {
     // color: black;
     @media (prefers-color-scheme: dark) {
-      color: white;
+      // color: white;
     }
   } 
   @media (prefers-color-scheme: dark) {
-    color: white;
+    // color: white;
   }
 }
 
@@ -98,9 +90,9 @@ a {
     border-bottom: 1px solid rgb(235, 235, 235);
     padding: .8rem 0;
     @media (prefers-color-scheme: dark) {
-      background: #1f1f1f;
-      color: white;
-      border-bottom: 1px solid rgb(43, 43, 43);
+      // background: #1f1f1f;
+      // color: white;
+      // border-bottom: 1px solid rgb(43, 43, 43);
     }
     ul {
       list-style-type: none;
@@ -122,6 +114,9 @@ a {
 
 section {
   margin-bottom: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 150px;
+  }
 }
 
 main {
@@ -160,6 +155,10 @@ main {
 .footnotes {
   font-size: 80%;
   margin-top: 5rem;
+  color: #999;
+  a {
+    color: #999;
+  }
 }
 
 
@@ -169,16 +168,19 @@ footer {
     border-top: 1px solid rgb(235, 235, 235);
     padding: .8rem 0;
     @media (prefers-color-scheme: dark) {
-      border-top: 1px solid rgb(43, 43, 43);
+      // border-top: 1px solid rgb(43, 43, 43);
     }
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      li {
+      li { 
         display: inline-block;
-        margin: 0 1rem;
+        margin: 1rem;
         padding: 0;
+        @media screen and (min-width: 768px) {
+        margin: 0 1rem;
+        }
         a {
           text-decoration: none;
           color: #999;
@@ -204,7 +206,7 @@ footer {
 .border-top {
   border-top: 1px solid rgb(207, 207, 207);
   @media (prefers-color-scheme: dark) {
-    border-top: 1px solid rgb(92, 92, 92);
+    // border-top: 1px solid rgb(92, 92, 92);
   }
 }
 
@@ -458,7 +460,7 @@ figure {
   border-radius: 3px;
   padding: .3rem;
   @media (prefers-color-scheme: dark) {
-    border: 1px solid rgb(92, 92, 92);
+    // border: 1px solid rgb(92, 92, 92);
   }
 }
 
