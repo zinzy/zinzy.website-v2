@@ -1,59 +1,67 @@
 ---
 layout: default
 ---
-<div class="">
-  <header class="">
-    <h1 class="m-0">{{page.title}}</h1>
-  </header>
-  
-  <section>
+<section>
+  <h1>{{page.title}}</h1>
+  <p>This website functions as a scavenger hunt of sorts. There are many pages, some more easy to find than others. Feel free to take a look around:</p>
 
-    <h3 class="mb-3">I write about</h3>
-    <ul class="tags">
-      {% assign sorted_tags = site.tags %}
-      {% for tag in site.tags %}
-        <li> 
-          <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
-        </li> 
-      {% endfor %}  
-    </ul> 
-  </section>
 
-  <section>
-    <h3>Posts by year</h3>
-    {% for post in site.diary %}
+  <ul>
+    <li><a href="">Now</a>: what I'd tell a friend I hadn't seen in a while</li>
+    <li><a href="">Then</a>: a short history of how I got here</li>
+    <li><a href="">Hello</a>: best ways to contact me</li>
+    <li><a href="">Work</a>: about my professional life</li>
+    <li><a href="">Snapshots</a></li>
+  </ul>
+</section>
 
-    {% capture year_of_current_post %}
-    {{ post.date | date: "%Y" }}
-    {% endcapture %}
 
-    {% capture year_of_previous_post %}
-    {{ post.previous.date | date: "%Y" }}
-    {% endcapture %}
 
-    {% if forloop.first %}
-    <h4>{{ year_of_current_post }}</h4>
-    <ul>
-    {% endif %}
+<section>
+  <h2>Journal</h2>
+  {% for post in site.posts %}
 
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% capture year_of_current_post %}
+  {{ post.date | date: "%Y" }}
+  {% endcapture %}
 
-    {% if forloop.last %}
-    </ul>
-    {% else %}
-    {% if year_of_current_post != year_of_previous_post %}
-    </ul>
+  {% capture year_of_previous_post %}
+  {{ post.previous.date | date: "%Y" }}
+  {% endcapture %}
 
-    <h4>{{ year_of_previous_post }}</h4>
-    <ul>
-    {% endif %}
-    {% endif %}
+  {% if forloop.first %}
+  <h3>{{ year_of_current_post }}</h3>
+  <ul>
+  {% endif %}
+
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+  {% if forloop.last %}
+  </ul>
+  {% else %}
+  {% if year_of_current_post != year_of_previous_post %}
+  </ul>
+
+  <h3>{{ year_of_previous_post }}</h3>
+  <ul>
+  {% endif %}
+  {% endif %}
 
 {% endfor %}
-  </section>
-</div>
+</section>
 
 
+<!-- <section>
+  <h3 class="mb-3">I write about</h3>
+  <ul class="tags">
+    {% assign sorted_tags = site.tags %}
+    {% for tag in site.tags %}
+      <li> 
+        <a href="/tag/{{ tag[0] | replace: ' ', '-' }}">{{tag[0]}}</a> <small class="text-subtext">{{ tag[1].size }}</small>
+      </li> 
+    {% endfor %}  
+  </ul> 
+</section> -->
 
 <!-- 
         {% assign firstletter = tag[0] | truncate: 1, '' %}

@@ -9,6 +9,4 @@ I personally love visiting other people's personal websites to discover whether 
 I couldn't explain it better than [Matt Webb](https://aboutfeeds.com/).
 
 ### How to follow this website
-This website has two feeds: 
-- [Feed.xml](/feed.xml) will keep you updated on all of the new diary entries I publish
-- [Micro.xml](/micro.xml) will hopefully soon let me post to this website and syndicate it to Mastodon
+To follow this website without visiting it, you may use [feed.xml](/feed.xml). It will keep you updated on all of the new diary entries I publish.
