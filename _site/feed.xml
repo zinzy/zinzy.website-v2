@@ -4,10 +4,10 @@
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
-    <link>http://localhost:4000</link>
+    <link>http://0.0.0.0:4000</link>
     <language></language>
-    <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -32,8 +32,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
+        <link>http://0.0.0.0:4000/2023/06/22/we-all-live-in-a-white-submersible/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
         
           
         
@@ -116,8 +116,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 26 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
+        <link>http://0.0.0.0:4000/2023/04/26/dear-nienke-you-should-have-a-website/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
         
           
         
@@ -161,8 +161,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</guid>
+        <link>http://0.0.0.0:4000/2023/04/25/makers-marks-for-kings-day/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/25/makers-marks-for-kings-day/</guid>
         
           
         
@@ -190,8 +190,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
+        <link>http://0.0.0.0:4000/2023/04/17/come-back-to-chigaco/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/17/come-back-to-chigaco/</guid>
         
           
         
@@ -225,8 +225,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 16 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/16/anjas-ceramics-course/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/16/anjas-ceramics-course/</guid>
+        <link>http://0.0.0.0:4000/2023/04/16/anjas-ceramics-course/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/16/anjas-ceramics-course/</guid>
         
           
         
@@ -252,8 +252,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 11 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/11/meeting-yana-and-dj/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/11/meeting-yana-and-dj/</guid>
+        <link>http://0.0.0.0:4000/2023/04/11/meeting-yana-and-dj/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/11/meeting-yana-and-dj/</guid>
         
           
         
@@ -283,8 +283,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 10 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/10/the-cat/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/10/the-cat/</guid>
+        <link>http://0.0.0.0:4000/2023/04/10/the-cat/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/10/the-cat/</guid>
         
           
         
@@ -316,8 +316,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/09/eight-of-ten/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/09/eight-of-ten/</guid>
+        <link>http://0.0.0.0:4000/2023/04/09/eight-of-ten/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/09/eight-of-ten/</guid>
         
           
         
@@ -345,8 +345,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 08 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/08/a-very-mathilde-visit/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/08/a-very-mathilde-visit/</guid>
+        <link>http://0.0.0.0:4000/2023/04/08/a-very-mathilde-visit/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/08/a-very-mathilde-visit/</guid>
         
           
         
@@ -374,8 +374,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
+        <link>http://0.0.0.0:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/04/01/showing-up-not-knowing-what-will-happen/</guid>
         
           
         

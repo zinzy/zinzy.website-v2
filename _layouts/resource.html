@@ -4,18 +4,7 @@ layout: default
 
 <article class="h-entry"> 
   <div class=" ">
-    <div class=" ">
-      <header class="mb-5">
-        <h1 class="mb-2">{{ page.title }}</h1>
-        <p><i>Part of {% if page.type == "concepts" %}concepts{% endif %}
-          {% if page.type == "habits" %}habits{% endif %}
-          {% if page.type == "ideas" %}ideas{% endif %}
-          {% if page.type == "lists" %}lists{% endif %}
-          {% if page.type == "library" %}the library{% endif %}
-          {% if page.type == "places" %}places{% endif %}
-          {% if page.type == "tools" %}tools{% endif %}</i></p>
-      </header>
-    </div>
+    <h1 class="mb-5">{{ page.title }}</h1>
     <div class=" "> 
       {% if page.audience %}
         <div class="card mb-3">
@@ -38,31 +27,21 @@ layout: default
         </content> 
       </div> 
     </div>
+
     {% if page.backlinks.size > 0 %}
-    <div class="border-top mt-5 pt-5">
- 
- 
-      <div> 
-        <h3 class="mt-0">Linking here</h3>
-      {% for backlink in page.backlinks %}
-      <div class="backlink-box mb-2">
-      <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a><br>
-      <div style="font-size: 0.9em">{{ backlink.excerpt | strip_html | truncatewords: 20 }}</div>
+      <div class="border-top mt-5 pt-5">
+        <ul>
+          {% for backlink in page.backlinks %}
+            {% if backlink contains "{{ site.baseurl }}" %}
+              <li><a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a></li>
+            {% endif %}
+          {% endfor %} 
+        </ul>
       </div>
-      {% endfor %}
-      </div>
-      {% else %}
-<!-- 
-      <div style="font-size: 0.9em">
-        <p>
-          There are no notes linking to this note.
-        </p>
-      </div> -->
-    </div>
     {% endif %}
   </div> 
 
-  <div class="webmentions my-5 border-top pt-5 ">
+  <div class="webmentions mt-5">
     <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject={{ page.title | uri_escape }}" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
     <div id="webmentions"></div>
   </div>

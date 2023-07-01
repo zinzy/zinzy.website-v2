@@ -13,17 +13,23 @@ I believe things on the web should be <mark>accessible, transparent, and sustain
 - [Designed to last](https://jeffhuang.com/designed_to_last/)
 - [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto)
 
-### Content
-One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why.
+### The story this space tells
+One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why. What does this space say about my person? What does it say about my skills as a professional designer?
 
 When it comes down to it, this I know: I believe it's good to have a single website that serves as my home on the web rather than separate websites for my professional and personal lives. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
+
+### Content
+There are three main content types on this website:
+- Journal entries, some fleeting, some crafted with great focus, all of which are collected under [Writing](/writing)
+- Short blurbs, reflections, reminders, and notes to friends, which I store in [Notes](/notes)
+- Working notes of topics I think about frequently, collected in [Resources](/resources)
 
 ### Design
 Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. 
 
 I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
 
-I refrain from using custom CSS or content in my diary entries. 
+I usually refrain from using custom CSS or content in my diary entries. 
 
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
@@ -53,9 +59,8 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - Apple shortcuts for IndieWeb likes
 - Apple shortcuts photos
 - Backlinks from posts
-- 2023-07-01
-    - Tailwindcss
-    - Digital garden (with explaners)
+- Tailwindcss
+- Digital garden (with explaners)
 
 
 ### Validation
