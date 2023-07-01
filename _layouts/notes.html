@@ -9,7 +9,7 @@ layout: default
   
 <div>
   <!-- {% assign diary = site.notes | sort: 'date' | reverse %}   -->
-  <ul class="diary">
+  <ul class="notes">
     {% assign notes = site.notes | sort: 'date' | reverse %} 
     {% for post in notes %}
     <li class="item mb-2">

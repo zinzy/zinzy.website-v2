@@ -2,45 +2,14 @@
 layout: default
 ---
 <section>
-  <h1>This is a growing collection of ever-evolving working notes suitable for public consumption.</h1>
-</section>
-
-<section>
+  <h1>Resources</h1>
+  <p>This is a growing collection of ever-evolving working notes suitable for public consumption.</p>
   {% assign resources = site.resources %} 
-<ul class="resources list-unstyled resources-columns">
-  {% for post in resources %}
-    {% unless post.show == false %}
-    <li>
-      <a href="{{post.url}}">
-        <div class="d-flex align-items-center">
-          <div class="flex-shrink-1"> 
-            <div class="type">
-              {% if post.type == "concepts" %}{% include _icons/concepts.html %}{% endif %}
-              {% if post.type == "habits" %}{% include _icons/habits.html %}{% endif %}
-              {% if post.type == "ideas" %}{% include _icons/ideas.html %}{% endif %}
-              {% if post.type == "lists" %}{% include _icons/lists.html %}{% endif %}
-              {% if post.type == "library" %}{% include _icons/library.html %}{% endif %}
-              {% if post.type == "places" %}{% include _icons/places.html %}{% endif %}
-              {% if post.type == "tools" %}{% include _icons/tools.html %}{% endif %}
-            </div>
-          </div>
-          <div class="w-100">
-            <h3 class="h5 m-0">{{ post.title }}</h3>
-            <p class="m-0 text-subtext">
-              {% if post.type == "library" %}
-                <span class="text-sentence-case">{{post.medium}}</span>, 
-                <span>{{post.released}}</span>
-              {% else %}
-                {{post.excerpt}}
-              {% endif %}
-  
-            </p>
-          </div> 
-        </div>
-      </a>
-    </li>
-
-    {% endunless %}
-  {% endfor %} 
-</ul>
+  <ul class="mt-5">
+    {% for post in resources %}
+      {% unless post.show == false %}
+      <li> <a href="{{post.url}}">{{ post.title }}</a></li>
+      {% endunless %}
+    {% endfor %} 
+  </ul>
 </section>

@@ -53,6 +53,10 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - Apple shortcuts for IndieWeb likes
 - Apple shortcuts photos
 - Backlinks from posts
+- 2023-07-01
+    - Tailwindcss
+    - Digital garden (with explaners)
+
 
 ### Validation
 - [Yellow Lab Tools](https://yellowlab.tools/result/gk6j8ztrj0) gives this site a 100/100 global score

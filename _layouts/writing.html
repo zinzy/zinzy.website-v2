@@ -8,9 +8,9 @@ layout: default
 
 <section>
 
-  <div class="diary">
+  <div>
     {% assign diary = site.posts | sort: 'date' | reverse %}  
-    <ul>
+    <ul class="writing">
       {% for post in diary %}
       <li class="">
         <div class="time"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
