@@ -24,6 +24,11 @@ I maintain this page as an incomplete overview of the things I love to use. Kind
 - [Nidra Deep Rest Eye Mask with Nosepiece](https://nidragoods.com/collections/sleep-mask-collection/products/nidra-deep-rest-eye-mask-black): I love being able to have my eyes open while I'm wearing a sleep mask, and this lets me do just that. I use this when I'm having trouble falling asleep, and won't stop looking at my phone.
 - [Medoes Sleep Mask](https://www.bol.com/nl/nl/p/medoes-luxe-slaapmasker-vrouwen-kinderen-mannen-100-verduisterend/9200000118817210): if I'm very tired and need to get to sleep right away, this mask does the trick.
 
+### Music
+- [Piano Chords and Scales](https://apps.apple.com/us/app/piano-chords-and-scales/id714086944)
+- [Toned Ear](https://tonedear.com/)
+- [Sightreading.training](https://sightreading.training/)
+
 ### Indispensable software
 - [Alfred](https://www.alfredapp.com/)
 - [BetterSleep](https://www.bettersleep.com/): I've been using this app since it was still called Relax Melodies. As someone who [hears things loudly](https://en.wikipedia.org/wiki/Hyperacusis), I've been able to significantly improve my experiences in the outside world. I love the fact that I can mix together various sounds.

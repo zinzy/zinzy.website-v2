@@ -49,17 +49,16 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Add progressive blur to top of page~~ 
 - ~~Obsidian post templates~~
 - ~~Apple shortcuts for IndieWeb notes~~
+- ~~Apple shortcuts photos~~
 - Add second xml feed to `netlify-plugin-webmentions` 
 - Add library  
 - Add Netlify a11y plugin 
 - Auto POSSE to Mastodon
 - Auto-send webmentions  
 - Apple shortcuts for IndieWeb replies
-- Apple shortcuts for IndieWeb likes
-- ~~Apple shortcuts photos~~
-- Backlinks from posts
+- Apple shortcuts for IndieWeb likes 
+- Backlinks from posts to notes
 - Tailwindcss
-- Digital garden (with explaners)
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 
 

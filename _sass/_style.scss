@@ -73,12 +73,11 @@ a {
   @media (prefers-color-scheme: dark) {
     // color: white;
   }
-  &[target=_blank] {
+  &[target=_blank] { 
     &::after {
       content: "↗";
-      vertical-align:super; 
-      font-size: 70%; 
-      color: #999;
+      font-size: 60%; 
+      color: blue; 
     }
   }
 }
@@ -92,42 +91,6 @@ a {
  }
 
 
-
-// SECTIONS
-
-
-.site-header {
-  nav {
-    background: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid rgb(235, 235, 235);
-    padding: .8rem 0;
-    @media (prefers-color-scheme: dark) {
-      // background: #1f1f1f;
-      // color: white;
-      // border-bottom: 1px solid rgb(43, 43, 43);
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin: 0 1rem;
-        padding: 0;
-        a {
-          text-decoration: none;
-          font-weight: 500;
-          font-size: 14px;
-        }
-      }
-    }
-  }
-}
 
 section {
   margin-bottom: 50px;
@@ -172,8 +135,6 @@ main {
         display: flex;
       }
       a {
-        font-weight: 500;
-        text-decoration: none;
       }
       .time {  
         @media screen and (min-width: 768px) {
@@ -183,9 +144,6 @@ main {
         }
       }
     }
-    a {
-      // word-break: break-all;
-    } 
   } 
 
 .footnotes {
