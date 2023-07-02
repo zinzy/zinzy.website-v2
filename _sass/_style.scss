@@ -229,7 +229,7 @@ main {
         a {
           text-decoration: none;
           color: #999;
-          font-size: 14px;
+          // font-size: 14px;
         }
       }
     }
@@ -586,4 +586,29 @@ time {
 .col-6 {
   flex: 0 0 auto;
   width: 50%;
+}
+
+
+
+
+.reacts {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  .reaction {
+    text-decoration: none;
+  }
+}
+
+.comments {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    margin-bottom: 1rem;
+  }
 }

@@ -43,9 +43,8 @@ Everything on this website, unless otherwise stated is licensed under [CC BY-NC-
 Much like you, I assume, I don't like being tracked on the Internet. There would be countless things I could learn from having analytics running on this website, but since quantitative analysis is a solid part of my day job, I like to keep the mystery alive in my private affairs. [I don't track you, but others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
 
 ### To do
-- [x] Reinstate digital garden
-- [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
-- Add way to respond to a page
+- ~~Reinstate digital garden~~ 
+- ~~Add way to respond to a page~~
 - Add second xml feed to `netlify-plugin-webmentions` 
 - Add library  
 - Add Netlify a11y plugin 
@@ -61,6 +60,7 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - Backlinks from posts
 - Tailwindcss
 - Digital garden (with explaners)
+- [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 
 
 ### Validation
