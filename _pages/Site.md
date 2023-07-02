@@ -45,18 +45,18 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 ### To do
 - ~~Reinstate digital garden~~ 
 - ~~Add way to respond to a page~~
+- ~~Auto deploy on submodule update~~
+- ~~Add progressive blur to top of page~~ 
+- ~~Obsidian post templates~~
+- ~~Apple shortcuts for IndieWeb notes~~
 - Add second xml feed to `netlify-plugin-webmentions` 
 - Add library  
 - Add Netlify a11y plugin 
 - Auto POSSE to Mastodon
-- Auto-send webmentions
-- ~~Auto deploy on submodule update~~
-- ~~Add progressive blur to top of page~~ 
-- ~~Obsidian post templates~~
-- [x] Apple shortcuts for IndieWeb notes
+- Auto-send webmentions  
 - Apple shortcuts for IndieWeb replies
 - Apple shortcuts for IndieWeb likes
-- Apple shortcuts photos
+- ~~Apple shortcuts photos~~
 - Backlinks from posts
 - Tailwindcss
 - Digital garden (with explaners)
