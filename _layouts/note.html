@@ -36,7 +36,7 @@ layout: default
         <!-- {% if page.tags.size > 0 %} Feel free to read more about {% endif %} -->
       </span>
 
-      {% if page.tags.size > 0 %}
+      <!-- {% if page.tags.size > 0 %}
       <span class="tags"> 
           {% assign sorted_tags = page.tags | sort %}
           {% for tag in sorted_tags %}
@@ -44,7 +44,7 @@ layout: default
             <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
           {% endfor %}
       </span>
-    {% endif %}
+    {% endif %} -->
     </p>
      
     {% include widget-responses.html %}  
