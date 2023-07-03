@@ -85,6 +85,9 @@ collections:
   notes:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
+  now:
+    output: true
+    permalink: /now/:year-:month-:day
   photos:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
@@ -110,6 +113,8 @@ defaults:
   - scope:
       path: "_notes/**/*.md"
       title: ":year-:month-:day-:hour-:minute"
+  - scope:
+      path: "_now/**/*.md"
   - scope:
       path: "_photos/**/*.md"
       title: "snapshots/:year-:month-:day-:hour-:minute"
