@@ -1,7 +1,5 @@
 ---
-share: true
 title: "Now"
-subtitle: " "
 layout: page
 date: 2022-06-09
 ---
