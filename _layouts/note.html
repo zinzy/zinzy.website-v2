@@ -11,6 +11,9 @@ layout: default
           <a href="{{page.url}}" class="u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time></a>
         </div>
         <div>
+          {% if page.photo %}
+            <img class="u-photo" src="{{ page.photo }}" alt="">
+          {% endif %}
           {% if page.replyTo %}
             <p class="mt-0 u-in-reply-to">
               Replied to <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
@@ -25,30 +28,34 @@ layout: default
           <content class="e-content">
               {{page.content}} 
           </content>
-          </li> 
+
+
+  <footer class="mt-5">
+    <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
+      <p class="m-0">
+        <span>Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. 
+          <!-- {% if page.tags.size > 0 %} Feel free to read more about {% endif %} -->
+        </span>
+  
+        <!-- {% if page.tags.size > 0 %}
+        <span class="tags"> 
+            {% assign sorted_tags = page.tags | sort %}
+            {% for tag in sorted_tags %}
+            {%- assign t = tag | first -%}
+              <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
+            {% endfor %}
+        </span>
+      {% endif %} -->
+      </p>
+       
+      {% include widget-responses.html %}  
+    </footer>
+
+    </div>
+      </li> 
         </div>
     </ul>
-  </div>
-  <footer class="">
-  <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
-    <p class="m-0">
-      <span>Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. 
-        <!-- {% if page.tags.size > 0 %} Feel free to read more about {% endif %} -->
-      </span>
-
-      <!-- {% if page.tags.size > 0 %}
-      <span class="tags"> 
-          {% assign sorted_tags = page.tags | sort %}
-          {% for tag in sorted_tags %}
-          {%- assign t = tag | first -%}
-            <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
-          {% endfor %}
-      </span>
-    {% endif %} -->
-    </p>
-     
-    {% include widget-responses.html %}  
-  </footer>
+  </div> 
 
 </article>
  
