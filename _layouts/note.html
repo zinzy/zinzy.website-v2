@@ -8,7 +8,7 @@ layout: default
   <ul class="notes">
       <li class="item mb-2">
         <div class="time">
-          <a href="{{page.url}}"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time></a>
+          <a href="{{page.url}}" class="u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time></a>
         </div>
         <div>
           {% if page.replyTo %}
@@ -22,7 +22,7 @@ layout: default
             </p> 
           {% endif %} 
   
-          <content>
+          <content class="e-content">
               {{page.content}} 
           </content>
           </li> 
