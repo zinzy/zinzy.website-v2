@@ -4,19 +4,67 @@ layout: default
 <h1 class="p-name mb-5">Things I've written about {{ page.title }}</h1>
  
 
-<section>
-  {% for post in page.posts %} 
-  <article>
-    <header> 
-      <time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %e, %Y" }}</time>
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    </header>
-    {{post.content}}
-  </article>
-  {% endfor %} 
-
-
+<section class="section-small">
+  <h2>Blog entries</h2>
+  <ul>
+    {% for post in page.posts %} 
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %} 
+  </ul>  
 </section>
+
+<section class="section-small">
+  <h2>Resources</h2>
+  {% for post in site.resources %}
+  <ul>
+    {% if post.tags contains page.title %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endif %}
+  </ul>
+{% endfor %} 
+</section>
+
+
+<section class="section-small">
+  <h2>Notes</h2>
+<ul class="notes">
+  {% assign notes = site.notes | sort: 'date' | reverse %} 
+  {% for post in notes %}
+  {% if post.tags contains page.title %}
+  <li class="item mb-5">
+    <div class="time">
+      <a href="{{post.url}}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
+    </div>
+    <div>
+      <div>
+        {% if post.photo %}
+          <img class="u-photo" src="{{ post.photo }}" alt="">
+        {% endif %}
+        {% if post.replyTo %}
+          <p class="mt-0 u-in-reply-to">
+            Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+          </p> 
+        {% endif %}
+        {% if post.likeOf %}
+          <p class="mt-0">
+            Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
+          </p> 
+        {% endif %} 
+
+      <content>
+          {{post.content}} 
+      </content>
+      </div>
+      </div>
+      </li> 
+      {% endif %}
+      {% endfor %} 
+</ul>
+</section>
+
+
 
 <!-- Pagination links -->
 <!-- <div class="row">

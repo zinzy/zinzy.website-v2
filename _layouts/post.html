@@ -42,8 +42,7 @@ layout: default
 
         <div class="">
           <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
-        <p class="m-0">
-          <span>Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>, I would love to read about your perspective.</span>
+        <p class="m-0">Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>, I would love to read about your perspective.
 <!--     
           {% if page.tags.size > 0 %}
           <span class="tags"> 
@@ -56,14 +55,22 @@ layout: default
         {% endif %} -->
 
 
-        {% if page.faces.size > 0 %}
+        <!-- {% if page.faces.size > 0 %}
           <span class="tags"> 
               {% for face in page.faces %}
                 <a href="/faces/{{face}}">{{face}}</a>
               {% endfor %}
           </span>
-        {% endif %}
+        {% endif %} -->
         </p>
+
+        <p><span>{% if page.tags.size > 0 %} 
+          {% assign sorted_tags = page.tags | sort %}
+          {% for tag in sorted_tags %}
+          {%- assign t = tag | first -%}
+            <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
+          {% endfor %} 
+    {% endif %} </span></p>
         </div>  
      
 

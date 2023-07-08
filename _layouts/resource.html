@@ -28,6 +28,15 @@ layout: default
       </div> 
     </div>
 
+    <p class="mt-5"><span>{% if page.tags.size > 0 %} 
+      {% assign sorted_tags = page.tags | sort %}
+      {% for tag in sorted_tags %}
+      {%- assign t = tag | first -%}
+        <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
+      {% endfor %} 
+{% endif %} </span></p>
+ 
+
     {% if page.backlinks.size > 0 %}
       <div class="border-top mt-5 pt-5">
         <ul>

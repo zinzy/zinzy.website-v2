@@ -98,6 +98,9 @@ section {
     margin-bottom: 150px;
   }
 }
+section.section-small {
+  margin-bottom: 50px;
+}
 
 main {
   padding: 30px; 
@@ -131,6 +134,7 @@ main {
       &:first-child {margin-top: 0;}
     }
     li.item {
+      margin-bottom: 50px;
       @media screen and (min-width: 768px) {
         display: flex;
       }

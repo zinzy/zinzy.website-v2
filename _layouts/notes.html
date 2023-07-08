@@ -12,7 +12,7 @@ layout: default
   <ul class="notes">
     {% assign notes = site.notes | sort: 'date' | reverse %} 
     {% for post in notes %}
-    <li class="item mb-5">
+    <li class="item">
       <div class="time">
         <a href="{{post.url}}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
       </div>

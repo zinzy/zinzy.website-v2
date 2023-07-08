@@ -6,7 +6,7 @@ layout: default
   <div>
     <!-- {% assign diary = site.notes | sort: 'date' | reverse %}   -->
   <ul class="notes">
-      <li class="item mb-2">
+      <li class="item">
         <div class="time">
           <a href="{{page.url}}" class="u-url"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time></a>
         </div>
@@ -31,6 +31,16 @@ layout: default
 
 
   <footer class="mt-5">
+
+
+    <p class="mt-5"><span>{% if page.tags.size > 0 %} 
+      {% assign sorted_tags = page.tags | sort %}
+      {% for tag in sorted_tags %}
+      {%- assign t = tag | first -%}
+        <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
+      {% endfor %} 
+{% endif %} </span></p>
+
     <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
       <p class="m-0">
         <span>Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a> to share your perspective. 
