@@ -2,6 +2,7 @@ title: Zinzy Waleson Geene
 description: A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
+author: Zinzy Waleson Geene
 include:
   - _pages
   - _content
@@ -41,6 +42,7 @@ plugins:
   - jekyll-archives
   - jekyll-last-modified-at
   - jekyll-timeago
+  - jekyll-json-feed
 
 last-modified-at:
     date-format: '%d-%b-%y'
@@ -115,6 +117,7 @@ defaults:
       title: ":year-:month-:day-:hour-:minute"
   - scope:
       path: "_now/**/*.md"
+      title: "now/:year-:month-:day"
   - scope:
       path: "_photos/**/*.md"
       title: "snapshots/:year-:month-:day-:hour-:minute"

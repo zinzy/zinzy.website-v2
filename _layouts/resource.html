@@ -32,9 +32,21 @@ layout: default
       <div class="border-top mt-5 pt-5">
         <ul>
           {% for backlink in page.backlinks %}
-            {% if backlink contains "{{ site.baseurl }}" %}
+
+          <li>
+            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
+          
+          {% if backlink.path contains "_posts" %}
+
+            <time datetime="{{ backlink.date | date: "%Y-%m-%d" }}">({{ backlink.date | date: "%Y-%m-%d" }})</time>
+
+          {% endif %}
+          </li>
+
+
+            <!-- {% if backlink contains "{{ site.baseurl }}" %}
               <li><a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a></li>
-            {% endif %}
+            {% endif %} -->
           {% endfor %} 
         </ul>
       </div>

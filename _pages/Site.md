@@ -50,16 +50,17 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Obsidian post templates~~
 - ~~Apple shortcuts for IndieWeb notes~~
 - ~~Apple shortcuts photos~~
-- Add second xml feed to `netlify-plugin-webmentions` 
-- Add library  
+- ~~Auto-send webmentions~~
+- ~~Backlinks from posts to notes~~
+- ~~Add library~~
+- ~~Apple shortcuts for IndieWeb likes~~ 
+- ~~Apple shortcuts for IndieWeb replies~~  
+- Fix spacing issues on /Notes
 - Add Netlify a11y plugin 
-- Auto POSSE to Mastodon
-- Auto-send webmentions  
-- Apple shortcuts for IndieWeb replies
-- Apple shortcuts for IndieWeb likes 
-- Backlinks from posts to notes
+- Auto POSSE to Mastodon  
 - Tailwindcss
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
+- Add second xml feed to `netlify-plugin-webmentions` (don't know for sure that I want this)
 
 
 ### Validation

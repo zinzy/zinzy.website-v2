@@ -49,6 +49,8 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-json-feed (1.0.1)
+      jekyll (>= 3.3, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-pandoc (2.0.1)
       jekyll (>= 3.0)
@@ -116,6 +118,7 @@ DEPENDENCIES
   fastimage
   jekyll (~> 4.3.2)
   jekyll-archives
+  jekyll-json-feed
   jekyll-last-modified-at!
   jekyll-paginate
   jekyll-tagging

@@ -16,6 +16,7 @@ gem 'fastimage'
 gem 'jekyll-timeago'
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
+gem 'jekyll-json-feed'
 gem 'tufte-pandoc-jekyll'
 group :jekyll_plugins do
     gem 'jekyll-paginate'
