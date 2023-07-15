@@ -8,6 +8,15 @@
         "name": "Zinzy Waleson Geene"},
     "items": [
       {
+            "id": "http://0.0.0.0:4000/2023/07/09/week-27",
+            "url": "http://0.0.0.0:4000/2023/07/09/week-27/",
+            "title": "Week 27: Haven",
+            "content_html": "<html><body>\n<ul>\n  <li>This week, I attended my first Gerimedica party. It’s great to know I can expect a big celebration every year, and not just for the company’s sweet sixteen. It confirmed what I already know: great vibe, great taste, great people.</li>\n  <li>I went to Bar Bario on Saturday for a meet-up called Hair Haven, which fosters connection between people with curly hair. Again, I was struck by how welcoming the space is. It’s a ridiculous feeling, being the norm there.</li>\n  <li>I’m tired these days. Too much fun, too little rest. I’m better at napping, though. On Sunday, I barely wanted to get out of bed after a little snooze. Three years ago, a nap was unthinkable.</li>\n  <li>I’m giving Reni Eddo-Lodge‘s <em>Why I’m No Longer Talking to White People About Race</em> another spin. The title alone makes it a hard read, but I’m hoping I’ll find myself along the way.</li>\n  <li>I saw <em>Dalva</em> at Ketelhuis. Reading the reviews, I’m surprised so many people seem to interpret the girl’s dress style as “an adult woman in the 50s”. I thought it was reminiscent of the way girls dressed when the camera first came out. Not a girl, not yet a woman. Regardless, I imagine being Dalva’s mother, getting to know her daughter again, and understanding what has gone so wrong in the fibers of het child. It sends chills down my spine.</li>\n  <li>In another childhood trauma narrative, I thought it was so moving that Jan Broberg played the therapist in the Showtime series on her turbulent childhood. I fantasized the scenes functioned as a systemic family constellation, her talking to her childhood self. The reality was probably much more technical than that.</li>\n  <li>Anja had a very intense and short stint with <em>Call of Duty</em>, remarking on its evocative storytelling in the Cold War portion. She finished it, though, and the zombies turned om her off with such immediacy that she’s back to NBA.</li>\n  <li>After hearing it only once, Billie Eilish’s “The 30th” is stuck in my head. She and her brother have a good thing going.</li>\n</ul>\n</body></html>",
+            "date_published": "2023-07-09T00:00:00+02:00",
+            "date_modified": "2023-07-09T22:51:13+02:00",
+            "author": {
+              "name": "Zinzy Waleson Geene"},
+            "tags": ["weeknotes","work","safe spaces","film","party","television","music","gaming"]},{
             "id": "http://0.0.0.0:4000/2023/07/01/week-26",
             "url": "http://0.0.0.0:4000/2023/07/01/week-26/",
             "title": "Week 26: Keti Koti",
@@ -93,15 +102,5 @@
             "date_modified": "2023-04-10T08:40:48+02:00",
             "author": {
               "name": "Zinzy Waleson Geene"},
-            "tags": ["religion","amsterdam","queerdom","queer salon"]},{
-            "id": "http://0.0.0.0:4000/2023/04/08/a-very-mathilde-visit",
-            "url": "http://0.0.0.0:4000/2023/04/08/a-very-mathilde-visit/",
-            "title": "A very Mathilde visit",
-            "content_html": "<html><body>\n<p>Much like last year, I’m so excited for Mathilde to visit our house that I get a headache just thinking about it. We’ve known each other 23 years, and, by miracle, our friendship is both acclimatized to our adult lives <em>and</em> as full of energy and curiosity as it was when we met in our first year of secondary school.</p>\n\n<p>She comes bearing gifts: seeds for the garden, dyke poetry, David Sedaris. She knows what I like. We eat, this time around I’ve kept it simple with dishes from the traiteur and not ten separate homemade recipes of intricate delicacies. We talk about what teaching means to her and Anja. We play with Lemonade.</p>\n\n<p>As a friend, Mathilde is very easy to love. Our times together eventually always bring us back to our shared emotional outlet: making music. “I’m nervous to sing around you, Zinzy” she says, but her voice sounds beautiful, warm, and exactly what my piano calls for. When I think of “blue-eyed soul” I think of Mathilde’s voice. We tell each other Anja and I will make it down south this year, and we’ll go for côte de bœuf in Maastricht. I can’t wait.</p>\n</body></html>",
-            "summary": "Much like last year, I'm so excited for Mathilde to visit our house that I get a headache just thinking about it.",
-            "date_published": "2023-04-08T00:00:00+02:00",
-            "date_modified": "2023-04-08T20:25:59+02:00",
-            "author": {
-              "name": "Zinzy Waleson Geene"},
-            "tags": ["friends","pets","weekends"]}]
+            "tags": ["religion","amsterdam","queerdom","queer salon"]}]
 }

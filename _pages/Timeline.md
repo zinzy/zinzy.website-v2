@@ -1,6 +1,6 @@
 ---
 share: true
-title: "Notes"
+title: "Timeline"
 subtitle: "Short reflections, likes, and replies"
 layout: notes
 ---
