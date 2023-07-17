@@ -1,43 +1,36 @@
 ---
 layout: default
 ---  
-<div class="mb-5">
-  <h1>{{ page.title }}</h1>
-  <p>This is a changelog of sorts; not quite blog posts, not quite tweets. <a href="https://indieweb.org/posts#Types_of_Posts" target="_blank" rel="noopener noreferrer">IndieWeb post type</a>-shaped slices of life: little moments of thinking aloud, changing my mind, connecting the dots.</p>
-  {{content}}
-</div>
-  
-<div>
-  <!-- {% assign diary = site.notes | sort: 'date' | reverse %}   -->
-  <ul class="notes">
-    {% assign notes = site.notes | sort: 'date' | reverse %} 
-    {% for post in notes %}
-    <li class="item">
-      <div class="time">
-        <a href="{{post.url}}"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></a>
-      </div>
-      <div>
-        <div>
-          {% if post.photo %}
-            <img class="u-photo" src="{{ post.photo }}" alt="">
-          {% endif %}
-          {% if post.replyTo %}
-          <p class="mt-0 u-in-reply-to">
-            Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
-          </p> 
-        {% endif %}
-        {% if post.likeOf %}
-          <p class="mt-0">
-            Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
-          </p> 
-        {% endif %} 
 
-        <content>
-            {{post.content}} 
-        </content>
-        </div>
-        </li> 
-        {% endfor %} 
-      </div>
-  </ul>
-</div>
+{{content}}
+   
+{% assign notes = site.notes | sort: 'date' | reverse %}  
+<ul class="list-none m-0 p-0">
+  {% for post in notes %}
+<li class="mt-20"> 
+  <div>
+    <div>  
+      {% if post.photo %}
+        <img src="{{post.photo}}" alt="" class="mb-5">
+      {% elsif post.replyTo %}
+      <p class="mt-0 u-in-reply-to">
+        Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+      </p> 
+      {% elsif post.likeOf %}
+      <p class="mt-0">
+        Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
+      </p> 
+    {% endif %} 
+
+
+    <content>
+      {{post.content}} 
+    </content>
+
+    </div>
+    <div class="time">
+      <a href="{{post.url}}"><time class="dt-published text-sm text-slate-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></a>
+    </div>
+    </li> 
+    {% endfor %} 
+</ul>

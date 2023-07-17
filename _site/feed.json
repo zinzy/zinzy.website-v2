@@ -1,13 +1,20 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Zinzy Waleson Geene",
-    "description": "A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.",
+    "description": "This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.",
     "home_page_url": "http://0.0.0.0:4000/",
     "feed_url": "http://0.0.0.0:4000/feed.json",
-    "author": {
-        "name": "Zinzy Waleson Geene"},
     "items": [
       {
+            "id": "http://0.0.0.0:4000/2023/07/14/the-blonde",
+            "url": "http://0.0.0.0:4000/2023/07/14/the-blonde/",
+            "title": "The blonde",
+            "content_html": "<html><body>\n<p>At the end of the shopping street<br>\nfor people who look like<br>\nthey do in the magazines<br>\nthere’s a blonde marching in place waiting<br>\nfor the light to turn green.<br>\nShe is not running per se, rather<br>\nshe’s hinting at running.<br>\nSelling it, the way<br>\nCharlize Theron sells<br>\na night to remember in a perfume commercial<br>\nwith next to nothing for evidence.</p>\n\n<p>Me, a tired mother,<br>\nand a tennis player with wet hair<br>\nstare at the blonde,<br>\none more covertly than<br>\nthe others.<br>\nI know not to tilt my head<br>\nwhen encounting something<br>\nin which the world tells me<br>\nI will never see myself.</p>\n\n<p>There are so many things<br>\nthat are perfect<br>\nabout the blonde that I<br>\nget dizzy counting.<br>\nEven a thigh gap as big as hers<br>\nwouldn’t be able to hold<br>\nall the details.</p>\n\n<p>At this point, the length,<br>\nand the waviness, and the glossiness,<br>\nand the readiness of her hair<br>\nare just a complete unnecessity.</p>\n\n<p>We all hate her, the blonde.<br>\nMe, a tired mother,<br>\nand a tennis player with wet hair.<br>\nWe hate her because<br>\nof all the little things<br>\nthe world has denied us<br>\nthe words to articulate.</p>\n\n<p>We all hate her, the blonde,<br>\nand the blonde hates herself<br>\na little, too,<br>\nfor reasons so bafflingly<br>\nunimportant to us<br>\nshe could die from jealousy.</p>\n</body></html>",
+            "date_published": "2023-07-14T00:00:00+02:00",
+            "date_modified": "2023-07-16T08:50:59+02:00",
+            "author": {
+              "name": ""},
+            "tags": ["poem","assumptions","standpoint"]},{
             "id": "http://0.0.0.0:4000/2023/07/09/week-27",
             "url": "http://0.0.0.0:4000/2023/07/09/week-27/",
             "title": "Week 27: Haven",
@@ -15,7 +22,7 @@
             "date_published": "2023-07-09T00:00:00+02:00",
             "date_modified": "2023-07-15T14:35:00+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["weeknotes","work","safe spaces","film","party","television","music","gaming"]},{
             "id": "http://0.0.0.0:4000/2023/07/01/week-26",
             "url": "http://0.0.0.0:4000/2023/07/01/week-26/",
@@ -24,7 +31,7 @@
             "date_published": "2023-07-01T00:00:00+02:00",
             "date_modified": "2023-07-08T08:08:48+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["weeknotes","work","onboarding","racism","trans-atlantic slave trade","reading","holidays"]},{
             "id": "http://0.0.0.0:4000/2023/06/22/we-all-live-in-a-white-submersible",
             "url": "http://0.0.0.0:4000/2023/06/22/we-all-live-in-a-white-submersible/",
@@ -33,7 +40,7 @@
             "date_published": "2023-06-22T00:00:00+02:00",
             "date_modified": "2023-06-23T12:09:31+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["news","lyric essay","being black"]},{
             "id": "http://0.0.0.0:4000/2023/04/26/dear-nienke-you-should-have-a-website",
             "url": "http://0.0.0.0:4000/2023/04/26/dear-nienke-you-should-have-a-website/",
@@ -42,7 +49,7 @@
             "date_published": "2023-04-26T00:00:00+02:00",
             "date_modified": "2023-04-26T14:36:37+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["friends","indieweb","personal archiving","letters"]},{
             "id": "http://0.0.0.0:4000/2023/04/25/makers-marks-for-kings-day",
             "url": "http://0.0.0.0:4000/2023/04/25/makers-marks-for-kings-day/",
@@ -51,17 +58,17 @@
             "date_published": "2023-04-25T00:00:00+02:00",
             "date_modified": "2023-04-25T18:44:53+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["neighborhood","funny","language","park"]},{
             "id": "http://0.0.0.0:4000/2023/04/17/come-back-to-chigaco",
             "url": "http://0.0.0.0:4000/2023/04/17/come-back-to-chigaco/",
             "title": "Come back to Chigaco",
-            "content_html": "<html><body>\n<p>Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There’s a boy in the park who’s walking around barefoot. Later we see him on a slack line. I like this scene; it tells me that summer is almost upon us.</p>\n\n<p>I never seem skilled at enjoying whatever season is here. Instead I’m forever yearning for what’s just out of reach. On Javastraat I pass a travel agency, the target audience of which most certainly is concerned with visiting Morocco or Turkey during the summer months. Surprisingly, there’s a wide array of names that would inspire city trips around the world.</p>\n\n<p>Ever since I passed the agency, Andrew Bird’s <a href=\"https://www.youtube.com/watch?v=oecHq2neweA\" target=\"_blank\">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>\n</body></html>",
+            "content_html": "<html><body>\n<p><img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-17_hcdwmk.jpg\" alt=\"\"></p>\n\n<p>Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There’s a boy in the park who’s walking around barefoot. Later we see him on a slack line. I like this scene; it tells me that summer is almost upon us.</p>\n\n<p>I never seem skilled at enjoying whatever season is here. Instead I’m forever yearning for what’s just out of reach. On Javastraat I pass a travel agency, the target audience of which most certainly is concerned with visiting Morocco or Turkey during the summer months. Surprisingly, there’s a wide array of names that would inspire city trips around the world.</p>\n\n<p>Ever since I passed the agency, Andrew Bird’s <a href=\"https://www.youtube.com/watch?v=oecHq2neweA\" target=\"_blank\">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>\n</body></html>",
             "summary": "Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There's a boy in the park who's walking around barefoot. Later we see him on a zipline. I like this scene; it tells me that summer is almost upon us.",
             "date_published": "2023-04-17T00:00:00+02:00",
             "date_modified": "2023-04-20T08:30:29+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["neighborhood","funny","language","park"]},{
             "id": "http://0.0.0.0:4000/2023/04/16/anjas-ceramics-course",
             "url": "http://0.0.0.0:4000/2023/04/16/anjas-ceramics-course/",
@@ -71,17 +78,17 @@
             "date_published": "2023-04-16T00:00:00+02:00",
             "date_modified": "2023-04-19T08:01:00+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["anja","hobbies","ceramics"]},{
             "id": "http://0.0.0.0:4000/2023/04/11/meeting-yana-and-dj",
             "url": "http://0.0.0.0:4000/2023/04/11/meeting-yana-and-dj/",
             "title": "Meeting Yana and DJ",
-            "content_html": "<html><body>\n<p>What I love most about today’s snapshot is the despair I can see in Lemonade’s eyes even when her entire body is a background blur. DJ is a calm 12-year-old dog, and Lemonade was thrilled to see another dog in our home for the first time, but her energy level was high enough that I eventually brought her back to her crate. It was right in time, too, because the afternoon light filling the living room made for a nice little portrait.</p>\n\n<p>It was wonderful to welcome Yana into our home for the first time. When I hired her in the late Winter of 2022 as our newest UX designer, I knew there was something special about her. Now, well over a year later, I’m pleased to call her a friend. We caught up on career adventures, new trends in the design industry, and of course the joys of being a dog mom.</p>\n\n<p>After Yana and DJ left, Anja and I began winding down for the day. After dinner, we watched the latest episode of the final season of <em>Succession</em>, which may have been my favorite one yet. The characters on this show are so complex and candidly-written. I’m already low-key heartbroken that this show is going to end. At the same time, I’m also pleased to be alive to watch it unfold in real time.</p>\n</body></html>",
+            "content_html": "<html><body>\n<p><img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg\" alt=\"\"></p>\n\n<p>What I love most about today’s snapshot is the despair I can see in Lemonade’s eyes even when her entire body is a background blur. DJ is a calm 12-year-old dog, and Lemonade was thrilled to see another dog in our home for the first time, but her energy level was high enough that I eventually brought her back to her crate. It was right in time, too, because the afternoon light filling the living room made for a nice little portrait.</p>\n\n<p>It was wonderful to welcome Yana into our home for the first time. When I hired her in the late Winter of 2022 as our newest UX designer, I knew there was something special about her. Now, well over a year later, I’m pleased to call her a friend. We caught up on career adventures, new trends in the design industry, and of course the joys of being a dog mom.</p>\n\n<p>After Yana and DJ left, Anja and I began winding down for the day. After dinner, we watched the latest episode of the final season of <em>Succession</em>, which may have been my favorite one yet. The characters on this show are so complex and candidly-written. I’m already low-key heartbroken that this show is going to end. At the same time, I’m also pleased to be alive to watch it unfold in real time.</p>\n</body></html>",
             "summary": "What I love most about today's snapshot is the despair I can see in Lemonade's eyes even when her entire body is a background blur.",
             "date_published": "2023-04-11T00:00:00+02:00",
             "date_modified": "2023-04-12T14:59:08+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
+              "name": ""},
             "tags": ["pets","neighborhood","friends","dogs"]},{
             "id": "http://0.0.0.0:4000/2023/04/10/the-cat",
             "url": "http://0.0.0.0:4000/2023/04/10/the-cat/",
@@ -91,16 +98,6 @@
             "date_published": "2023-04-10T00:00:00+02:00",
             "date_modified": "2023-04-10T08:54:05+02:00",
             "author": {
-              "name": "Zinzy Waleson Geene"},
-            "tags": ["pets","neighborhood","cats"]},{
-            "id": "http://0.0.0.0:4000/2023/04/09/eight-of-ten",
-            "url": "http://0.0.0.0:4000/2023/04/09/eight-of-ten/",
-            "title": "Eight of ten",
-            "content_html": "<html><body>\n<p>When I first set foot in the <a href=\"https://amsterdam.oudkatholiek.nl/\" target=\"_blank\">Old Catholic Church</a> to attend an All Saints service, <a href=\"/2023/02/12/all-saints-amsterdam/\" target=\"_blank\">I knew I had found a special place</a>. Today is the third time I make it to their service, which is always on the second Sunday of the month.</p>\n\n<p>It just so happens that this second Sunday falls on Easter, and it’s perhaps because of this that the service is more crowded than previous times. I see All Saints regulars as well as new people, shy and seemingly hopeful.</p>\n\n<p>One woman in particular stands out to me because she smiles intently at me a few times. She has the demeanor of that good Christian girl from that <a href=\"https://www.reddit.com/r/DunderMifflin/comments/hqskev/scotts_tots_may_be_super_cringe_but_its_nearly/\" target=\"_blank\"><em>Office US</em> episode “Christening”</a>.</p>\n\n<p>After service she finds me immediately: “You’re Zinzy from <a href=\"https://meetup.com/queersalon\" target=\"_blank\">Queer Salon</a>, right?” Annika says. Pre-pandemic memories begin to surface, and once she mentions her son I remember her again. “The first time I came here, I thought of you”, she says. We shmooze over crackers and sweet bread, exchange numbers to set a coffee date.</p>\n\n<p>This new church is really a pilot by two reverends hoping to bring fully inclusive Christianity to the Amsterdam expat community. This is service eight out of ten. When I say that out loud, Reverend Howie casually says “yes, we’ll have to talk about that next time.”</p>\n\n<p>I already can’t imagine myself without this community.</p>\n</body></html>",
-            "summary": "When I first set foot in the Old Catholic Church to attend an All Saints service, I knew I had found a special place. Today is the third time I make it to their service, which is always on the second Sunday of the month.",
-            "date_published": "2023-04-09T00:00:00+02:00",
-            "date_modified": "2023-04-10T08:40:48+02:00",
-            "author": {
-              "name": "Zinzy Waleson Geene"},
-            "tags": ["religion","amsterdam","queerdom","queer salon"]}]
+              "name": ""},
+            "tags": ["pets","neighborhood","cats"]}]
 }

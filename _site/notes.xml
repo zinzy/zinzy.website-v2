@@ -3,12 +3,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
   <channel>
     <title>Zinzy Waleson Geene - notes RSS</title>
-    <description>A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</description>
+    <description>This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</description>
     <link>http://0.0.0.0:4000</link>
     <language></language>
     <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
     <atom:link href="http://0.0.0.0:4000/notes.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Sat, 15 Jul 2023 23:36:32 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Happy birthday, flower boy!</p>
+
+          
+          <br />
+          <html><body>
+<p>Happy birthday, flower boy!</p>
+</body></html>]]>
+        </description>
+        <pubDate>Sat, 15 Jul 2023 23:36:32 +0200</pubDate>
+        <link>http://0.0.0.0:4000/2023-07-15-23-36-32</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-15-23-36-32</guid>
+        
+          
+        
+        
+      </item>
     
       <item>
         <title>Sat, 15 Jul 2023 10:58:02 +0200</title>
@@ -1106,28 +1128,6 @@ must be someplace other than in the body?”</p>
         <pubDate>Sat, 20 May 2023 13:23:29 +0200</pubDate>
         <link>http://0.0.0.0:4000/2023-05-20-13-23-29</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-20-13-23-29</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sat, 20 May 2023 13:07:24 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>FC Hyena</p>
-
-          
-          <br />
-          <html><body>
-<p>FC Hyena</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sat, 20 May 2023 13:07:24 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-20-13-07-24</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-20-13-07-24</guid>
         
           
         

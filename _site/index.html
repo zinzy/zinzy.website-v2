@@ -2,19 +2,16 @@
 <html lang="en" class="subpixel-antialiased text-gray-900">
   <head>
   <meta charset="UTF-8">
-
   <link rel="canonical" href="http://0.0.0.0:4000/index" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam."/>
+  <meta name="description" content="This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear."/>
   <meta property="og:site_name" content="Zinzy Waleson Geene">
   
   <link rel="author" href="humans.txt" />
 
   
 
-  
-  <!-- Imagery -->
+  <!------ Imagery ------>
   <meta content="/assets/img/android-chrome-512x512.png" property="og:image">
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
@@ -24,46 +21,45 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="/styles.css">
+  <!------ Styling ------>
+  <!-- SCSS -->
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
 
+  <!-- Tailwind CSS -->
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
-
-  
-  <meta property="og:description" content=""/>
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
 
   
-  <meta property="og:title" content="Welcome">
+  <meta property="og:description" content="I’m an advocate for the IndieWeb because I believe in an Internet that is decentralized, open, available, and whimsical. In one way or another, this space ha..."/>
+  
+
+  
+  <meta property="og:title" content="Hey Internet pal! I'm Zinzy.">
   <meta property="og:type" content="article">
   
 
   
-  <meta property="article:published_time" content="2023-07-15T14:41:32+02:00">
+  <meta property="article:published_time" content="2023-07-17T12:55:52+02:00">
   <meta property="article:author" content="http://0.0.0.0:4000/">
   
- 
 
   <meta property="og:image" content="/assets/img//og-image.png">
     <!--  -->
 
+    <!------ Feeds ------>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"/>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/micro.xml"/>
 
   <title>
     
-        Welcome - Zinzy Waleson Geene
+        Hey Internet pal! I'm Zinzy. - Zinzy Waleson Geene
       
   </title>
-
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Domine&family=Spectral&display=swap" rel="stylesheet">
 
   <!-- Some links that let IndieAuth know it's me, your girl Zinzy -->
   <link rel="me" href="https://github.com/zinzy" />
@@ -83,132 +79,204 @@
   <link rel="pingback" href="https://webmention.io/www.zinzy.website/xmlrpc" /> 
   <script src="/assets/js/webmention.min.js" async></script>
   <script src="/assets/js/site.js" async></script>
-
-
 </head>
 
-  <body>  
+  <body class="p-10 md:p-20">  
 
    
+    <header>
+
+  <h1 class="font-medium"><a href="/">Zinzy Waleson Geene</a></h1>
+  <p>Human in Amsterdam</p>
+
+  <div class="mt-40 h-entry">
+    <h2 class="font-medium text-3xl">
     
-  <!-- 
-<header class="site-header">
+      <span class="text-slate-400">
+        <a href="/">⌘</a>
+      </span>
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/now">Now</a></li>
-    <li><a href="/then">Then</a></li>
-    <li><a href="/work">Work</a></li>
-    <li><a href="/hello">Hello</a></li>
-  </ul>
-</nav>
-
- <div class="h-card d-flex">
-    <img src="/assets/img/android-chrome-192x192.png" class="portrait">
-     <div>
-      <h1 class="p-author flex-grow-1"> 
-        <a class="p-name u-uid u-url" rel="author" href="/">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a> 
-      </h1>
-  
       
-     
-    </div>    
-    </div>
-</header>--> 
- 
-
-
-    <main class="">
-      <section class=""> 
-  <div class="">
-       
-       
-      
-        <article>
-          <header class="mb-5">
-            <h1><a href="/2023/07/09/week-27/">Week 27: Haven</a></h1>
-            <p class="mt-0"><time class="dt-published" datetime="Sunday, July 9, 2023">Sunday, July 9, 2023</time></p>
-            </header>
-            <html><body>
-<ul>
-  <li>This week, I attended my first Gerimedica party. It’s great to know I can expect a big celebration every year, and not just for the company’s sweet sixteen. It confirmed what I already know: great vibe, great taste, great people.</li>
-  <li>I went to Bar Bario on Saturday for a meet-up called Hair Haven, which fosters connection between people with curly hair. Again, I was struck by how welcoming the space is. It’s a ridiculous feeling, being the norm there.</li>
-  <li>I’m tired these days. Too much fun, too little rest. I’m better at napping, though. On Sunday, I barely wanted to get out of bed after a little snooze. Three years ago, a nap was unthinkable.</li>
-  <li>I’m giving Reni Eddo-Lodge‘s <em>Why I’m No Longer Talking to White People About Race</em> another spin. The title alone makes it a hard read, but I’m hoping I’ll find myself along the way.</li>
-  <li>I saw <em>Dalva</em> at Ketelhuis. Reading the reviews, I’m surprised so many people seem to interpret the girl’s dress style as “an adult woman in the 50s”. I thought it was reminiscent of the way girls dressed when the camera first came out. Not a girl, not yet a woman. Regardless, I imagine being Dalva’s mother, getting to know her daughter again, and understanding what has gone so wrong in the fibers of het child. It sends chills down my spine.</li>
-  <li>In another childhood trauma narrative, I thought it was so moving that Jan Broberg played the therapist in the Showtime series on her turbulent childhood. I fantasized the scenes functioned as a systemic family constellation, her talking to her childhood self. The reality was probably much more technical than that.</li>
-  <li>Anja had a very intense and short stint with <em>Call of Duty</em>, remarking on its evocative storytelling in the Cold War portion. She finished it, though, and the zombies turned om her off with such immediacy that she’s back to NBA.</li>
-  <li>After hearing it only once, Billie Eilish’s “The 30th” is stuck in my head. She and her brother have a good thing going.</li>
-</ul>
-</body></html> 
-        </article>
+        <span>Hey Internet pal! I'm Zinzy.</span>
         
+        
+    </h2>
+  </div>
+  
+  <span class="right-now mt-10 mr-10 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+</header> 
+ 
+    <main class="my-10">
+      <section class="prose">
+  <html><body>
+<p>I’m an advocate for the IndieWeb because I believe in an Internet that is decentralized, open, available, and whimsical. In one way or another, this space has been publicly available since 1998. Consider it a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
+
+<p>I’m an amateur writer, an avid musician, and a swimmer. During office hours, I’m a researcher and designer specialized in making tools for people at work. I currently serve as Senior UXer at <a href="https://gerimedica.nl" target="_blank">Gerimedica</a>, a market leader in medical technology. Despite being academically trained in comparative literature and theology, I’ve been an IT professional my entire adult life.</p>
+</body></html>
+</section>
+
+<section class="mt-16"> 
+  <div class="prose">
+    <h3 class="font-medium">Latest writing</h3>
+      
+    <ul class=" ">
+      
+      <li class=" "><a href="/2023/07/14/the-blonde/">The blonde</a></li> 
+      
+      <li class=" "><a href="/2023/07/09/week-27/">Week 27: Haven</a></li> 
+      
+      <li class=" "><a href="/2023/07/01/week-26/">Week 26: Keti Koti</a></li> 
+       
+    </ul>
+  </div>
+  <div class="mt-7">
+    <a href="/writing" class="btn">Visit archive</a>
   </div>
 </section>
 
+<section class="mt-20"> 
+  <div class="">
+    <h3 class="font-medium text-xl">On the timeline</h3>
+      
+    <ul class="list-none m-0 p-0">
+      
+    <li class="mt-5"> 
+      <div>
+        <div>  
+           
 
+
+        
+        <content class="inline"> 
+            <span class="mr-2 inline-block"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_1_2)">
+    <path d="M14.4 0H1.6C1.17565 0 0.768687 0.168234 0.468629 0.467694C0.168571 0.767153 0 1.17331 0 1.59681V14.3713C0.000320064 14.6616 0.07994 14.9463 0.230296 15.1948C0.380652 15.4434 0.596054 15.6463 0.853334 15.7818C1.08313 15.9242 1.34818 15.9998 1.61867 16H14.384C14.6545 15.9998 14.9195 15.9242 15.1493 15.7818C15.4061 15.6459 15.621 15.4429 15.7708 15.1944C15.9207 14.9458 15.9999 14.6613 16 14.3713V1.59681C16 1.17331 15.8314 0.767153 15.5314 0.467694C15.2313 0.168234 14.8243 0 14.4 0ZM1.6 1.06454H14.4C14.5414 1.06454 14.6771 1.12062 14.7771 1.22044C14.8771 1.32026 14.9333 1.45564 14.9333 1.59681V9.63673L12.8853 7.78975C12.6131 7.5376 12.2554 7.39748 11.884 7.39748C11.5126 7.39748 11.1549 7.5376 10.8827 7.78975L7.43733 10.8982C7.39987 10.9361 7.35524 10.9662 7.30603 10.9867C7.25682 11.0073 7.20401 11.0179 7.15067 11.0179C7.09732 11.0179 7.04452 11.0073 6.9953 10.9867C6.94609 10.9662 6.90146 10.9361 6.864 10.8982L5.79733 9.9348C5.5251 9.68265 5.16741 9.54252 4.796 9.54252C4.42459 9.54252 4.0669 9.68265 3.79467 9.9348L1.06667 12.3939V1.59681C1.06667 1.45564 1.12286 1.32026 1.22288 1.22044C1.3229 1.12062 1.45855 1.06454 1.6 1.06454ZM14.4 14.9035H1.6C1.52563 14.9036 1.45205 14.8882 1.384 14.8583C1.29189 14.7861 1.21807 14.6934 1.1685 14.5875C1.11894 14.4817 1.09502 14.3656 1.09867 14.2488V14.161C1.09631 14.0547 1.11593 13.949 1.15631 13.8505C1.19668 13.7521 1.25694 13.663 1.33333 13.5888L4.50933 10.7226C4.54679 10.6847 4.59142 10.6546 4.64064 10.634C4.68985 10.6135 4.74266 10.6029 4.796 10.6029C4.84934 10.6029 4.90215 10.6135 4.95136 10.634C5.00057 10.6546 5.04521 10.6847 5.08267 10.7226L6.14933 11.686C6.42157 11.9381 6.77925 12.0782 7.15067 12.0782C7.52208 12.0782 7.87976 11.9381 8.152 11.686L11.5973 8.58017C11.6348 8.54227 11.6794 8.51218 11.7286 8.49164C11.7778 8.4711 11.8307 8.46052 11.884 8.46052C11.9373 8.46052 11.9902 8.4711 12.0394 8.49164C12.0886 8.51218 12.1332 8.54227 12.1707 8.58017L14.6667 10.8343C14.7422 10.9084 14.8018 10.9972 14.8417 11.0951C14.8816 11.1931 14.901 11.2981 14.8987 11.4039V14.2462C14.9023 14.363 14.8784 14.479 14.8288 14.5849C14.7793 14.6907 14.7054 14.7835 14.6133 14.8556C14.5463 14.8861 14.4737 14.9024 14.4 14.9035Z" fill="black"/>
+    <path d="M11.912 6.53093C12.3623 6.5304 12.8023 6.39666 13.1765 6.1466C13.5506 5.89654 13.8421 5.5414 14.0141 5.12605C14.186 4.71071 14.2308 4.25381 14.1426 3.81311C14.0544 3.37241 13.8373 2.96769 13.5187 2.6501C13.2001 2.33251 12.7943 2.11631 12.3526 2.02883C11.911 1.94135 11.4532 1.98651 11.0372 2.15861C10.6213 2.33071 10.2657 2.62202 10.0156 2.99572C9.7655 3.36942 9.632 3.80874 9.632 4.25814C9.63271 4.86116 9.87324 5.43925 10.3007 5.8654C10.7282 6.29156 11.3078 6.53093 11.912 6.53093ZM11.912 3.04989C12.1513 3.05041 12.3851 3.12172 12.5839 3.25481C12.7826 3.38789 12.9374 3.57678 13.0286 3.7976C13.1198 4.01843 13.1434 4.26128 13.0964 4.49548C13.0494 4.72969 12.9339 4.94473 12.7645 5.11344C12.595 5.28215 12.3793 5.39696 12.1445 5.44336C11.9098 5.48977 11.6665 5.46569 11.4454 5.37416C11.2244 5.28263 11.0354 5.12777 10.9025 4.92913C10.7696 4.73049 10.6987 4.49699 10.6987 4.25814C10.6994 3.93745 10.8275 3.63013 11.055 3.40362C11.2825 3.1771 11.5907 3.04989 11.912 3.04989Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_1_2">
+    <rect width="16" height="16" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+     </span>
+            <html><body>
+<p>Happy birthday, flower boy!</p>
+</body></html> 
+        </content>
+
+        
+
+        </div>
+        <div class="time">
+          <a href="/2023-07-15-23-36-32"><time class="dt-published text-sm text-slate-500" datetime="15 Jul 2023">15 Jul 2023</time></a>
+        </div>
+        </li> 
+        
+    <li class="mt-5"> 
+      <div>
+        <div>  
+           
+
+
+        
+          <content>
+            <html><body>
+<p>I’m envious of teenagers who get to record their singing voices every day if they wanted to. I have a suspicion that I’m a better singer now than I was at 15, but I have no way of confirming it.</p>
+</body></html> 
+          </content>
+        
+
+        </div>
+        <div class="time">
+          <a href="/2023-07-15-10-58-02"><time class="dt-published text-sm text-slate-500" datetime="15 Jul 2023">15 Jul 2023</time></a>
+        </div>
+        </li> 
+        
+    <li class="mt-5"> 
+      <div>
+        <div>  
+           
+
+
+        
+        <content class="inline"> 
+            <span class="mr-2 inline-block"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_1_2)">
+    <path d="M14.4 0H1.6C1.17565 0 0.768687 0.168234 0.468629 0.467694C0.168571 0.767153 0 1.17331 0 1.59681V14.3713C0.000320064 14.6616 0.07994 14.9463 0.230296 15.1948C0.380652 15.4434 0.596054 15.6463 0.853334 15.7818C1.08313 15.9242 1.34818 15.9998 1.61867 16H14.384C14.6545 15.9998 14.9195 15.9242 15.1493 15.7818C15.4061 15.6459 15.621 15.4429 15.7708 15.1944C15.9207 14.9458 15.9999 14.6613 16 14.3713V1.59681C16 1.17331 15.8314 0.767153 15.5314 0.467694C15.2313 0.168234 14.8243 0 14.4 0ZM1.6 1.06454H14.4C14.5414 1.06454 14.6771 1.12062 14.7771 1.22044C14.8771 1.32026 14.9333 1.45564 14.9333 1.59681V9.63673L12.8853 7.78975C12.6131 7.5376 12.2554 7.39748 11.884 7.39748C11.5126 7.39748 11.1549 7.5376 10.8827 7.78975L7.43733 10.8982C7.39987 10.9361 7.35524 10.9662 7.30603 10.9867C7.25682 11.0073 7.20401 11.0179 7.15067 11.0179C7.09732 11.0179 7.04452 11.0073 6.9953 10.9867C6.94609 10.9662 6.90146 10.9361 6.864 10.8982L5.79733 9.9348C5.5251 9.68265 5.16741 9.54252 4.796 9.54252C4.42459 9.54252 4.0669 9.68265 3.79467 9.9348L1.06667 12.3939V1.59681C1.06667 1.45564 1.12286 1.32026 1.22288 1.22044C1.3229 1.12062 1.45855 1.06454 1.6 1.06454ZM14.4 14.9035H1.6C1.52563 14.9036 1.45205 14.8882 1.384 14.8583C1.29189 14.7861 1.21807 14.6934 1.1685 14.5875C1.11894 14.4817 1.09502 14.3656 1.09867 14.2488V14.161C1.09631 14.0547 1.11593 13.949 1.15631 13.8505C1.19668 13.7521 1.25694 13.663 1.33333 13.5888L4.50933 10.7226C4.54679 10.6847 4.59142 10.6546 4.64064 10.634C4.68985 10.6135 4.74266 10.6029 4.796 10.6029C4.84934 10.6029 4.90215 10.6135 4.95136 10.634C5.00057 10.6546 5.04521 10.6847 5.08267 10.7226L6.14933 11.686C6.42157 11.9381 6.77925 12.0782 7.15067 12.0782C7.52208 12.0782 7.87976 11.9381 8.152 11.686L11.5973 8.58017C11.6348 8.54227 11.6794 8.51218 11.7286 8.49164C11.7778 8.4711 11.8307 8.46052 11.884 8.46052C11.9373 8.46052 11.9902 8.4711 12.0394 8.49164C12.0886 8.51218 12.1332 8.54227 12.1707 8.58017L14.6667 10.8343C14.7422 10.9084 14.8018 10.9972 14.8417 11.0951C14.8816 11.1931 14.901 11.2981 14.8987 11.4039V14.2462C14.9023 14.363 14.8784 14.479 14.8288 14.5849C14.7793 14.6907 14.7054 14.7835 14.6133 14.8556C14.5463 14.8861 14.4737 14.9024 14.4 14.9035Z" fill="black"/>
+    <path d="M11.912 6.53093C12.3623 6.5304 12.8023 6.39666 13.1765 6.1466C13.5506 5.89654 13.8421 5.5414 14.0141 5.12605C14.186 4.71071 14.2308 4.25381 14.1426 3.81311C14.0544 3.37241 13.8373 2.96769 13.5187 2.6501C13.2001 2.33251 12.7943 2.11631 12.3526 2.02883C11.911 1.94135 11.4532 1.98651 11.0372 2.15861C10.6213 2.33071 10.2657 2.62202 10.0156 2.99572C9.7655 3.36942 9.632 3.80874 9.632 4.25814C9.63271 4.86116 9.87324 5.43925 10.3007 5.8654C10.7282 6.29156 11.3078 6.53093 11.912 6.53093ZM11.912 3.04989C12.1513 3.05041 12.3851 3.12172 12.5839 3.25481C12.7826 3.38789 12.9374 3.57678 13.0286 3.7976C13.1198 4.01843 13.1434 4.26128 13.0964 4.49548C13.0494 4.72969 12.9339 4.94473 12.7645 5.11344C12.595 5.28215 12.3793 5.39696 12.1445 5.44336C11.9098 5.48977 11.6665 5.46569 11.4454 5.37416C11.2244 5.28263 11.0354 5.12777 10.9025 4.92913C10.7696 4.73049 10.6987 4.49699 10.6987 4.25814C10.6994 3.93745 10.8275 3.63013 11.055 3.40362C11.2825 3.1771 11.5907 3.04989 11.912 3.04989Z" fill="black"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_1_2">
+    <rect width="16" height="16" fill="white"/>
+    </clipPath>
+    </defs>
+    </svg>
+     </span>
+            <html><body>
+<p>For the reading list</p>
+</body></html> 
+        </content>
+
+        
+
+        </div>
+        <div class="time">
+          <a href="/2023-07-14-21-55-27"><time class="dt-published text-sm text-slate-500" datetime="14 Jul 2023">14 Jul 2023</time></a>
+        </div>
+        </li> 
+         
+    </ul>
+  </div>
+  <div class="mt-7">
+    <a href="/timeline" class="btn">Visit timeline</a>
+  </div>
+</section>
+ 
+<section class="mt-20"> 
+  <div class="prose">
+    <h3 class="font-medium">Resources</h3>
+    <p>I maintain a growing collection of working notes, some of which are suitable for public consumption. There are reading notes, thoughts about concepts important to my work or personal life, and unfinished ideas.</p>
+  </div>
+  <div class="mt-7">
+    <a href="/resources" class="btn">Visit resources</a>
+  </div>
+</section>
+
+<section class="mt-20"> 
+  <div class="prose">
+    <h3 class="font-medium">Also on this website</h3>
+    <ul class=" ">
+      <li class=" "><a href="/now">Now</a> — A page detailing what I'm about these days</li> 
+      <li class=" "><a href="/then">Then</a> — Chronicles how I got here</li> 
+      <li class=" "><a href="/hello">Hello</a> — Best ways to get in touch with me</li> 
+      <li class=" "><a href="/site">Site</a> — Notes on the what, why, and how of this website</li> 
+      <li class=" "><a href="/uses">Uses</a> — A list of things I use</li> 
+    </ul>
+  </div>
+</section>
     </main> 
  
   
-    <div class="site-menu">
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/now">Now</a></li>
-      <li><a href="#footer">Sitemap</a></li>
-    </ul>
-  </nav>
-</div>
+    <footer class="mt-40 text-sm text-slate-500">
+  <div class="">
 
-<footer id="footer">
   <div class="footer-content">
-    <div>
-      <h2>Hey Internet friend,</h2>
-      <p>I'm Zinzy Waleson Geene, a senior-but-silly researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. I'm an IndieWeb enthusiast, and I'm specialized in making tools for people at work. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
-
-      <nav class="mt-3">
-        <ul>
-          <h3>On this website</h3>
-          <li><a href="/">Home</a> features the latest blog entry</li>
-          <li><a href="/now">Now</a> tells you what I'm about these days</li>
-          <li><a href="/then">Then</a> will show you where I came from</li>
-          <li><a href="/hello">Hello</a> will tell you how to reach me</li>
-          <li><a href="/work">Work</a> is about my professional life</li>
-          <li><a href="/writing">Writing</a> collects my blog entries</li> 
-          <li><a href="/resources">Resources</a> contains my working notes</li> 
-          <li><a href="/timeline">Timeline</a> collects short, daily blurbs</li>
-          <li><a href='/uses'>Uses</a> is an overview of my favorite tools</li>
-          <li><a href='/site'>Site</a> is meta</li>
-        </ul>
-      </nav>
+    <div class="h-card flex"> 
+      <p>I'm <a class="p-name u-uid u-url" rel="me" href="https://zinzy.website">
+        <span class="p-given-name">Zinzy</span>
+        <span class="p-family-name">Waleson Geene</span></a>, a <span class="hidden p-gender-identity">Non-binary</span> Senior UX researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
     </div>
-  
 
-    
-  
-  
-  
-    <ul class="h-card d-none">
-      <li>
-        <a class="p-name u-uid u-url" rel="me" href="https://zinzy.website">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a>    
-      </li>
-      <li><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="A person with big glasses smiles at the camera"/></li>
-      <li class="p-note">A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</li>
-      <li><a class="u-email" href="mailto:zinzy@pm.me">zinzy@pm.me</a></li>
-      <li class="p-locality">Amsterdam</li>
-      <li class="p-country-name">The Netherlands</li>
-      <li class="p-job-title">UX reseacher and designer</li>
-      <li class="p-gender-identity">Non-binary</li>
-    </ul>
+    <div class="mt-10">
+      <a href="https://xn--sr8hvo.ws/previous">←</a>
+      An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+      <a href="https://xn--sr8hvo.ws/next">→</a>
+    </div>
+
   
   </div>
+  </div> 
 </footer>
 
 

@@ -2,19 +2,16 @@
 <html lang="en" class="subpixel-antialiased text-gray-900">
   <head>
   <meta charset="UTF-8">
-
   <link rel="canonical" href="http://0.0.0.0:4000/2021/07/12/when-jesus-sent-out-his-twelve/" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam."/>
+  <meta name="description" content="This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear."/>
   <meta property="og:site_name" content="Zinzy Waleson Geene">
   
   <link rel="author" href="humans.txt" />
 
   
 
-  
-  <!-- Imagery -->
+  <!------ Imagery ------>
   <meta content="/assets/img/android-chrome-512x512.png" property="og:image">
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
@@ -24,14 +21,18 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="/styles.css">
+  <!------ Styling ------>
+  <!-- SCSS -->
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
 
+  <!-- Tailwind CSS -->
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
 
   
   <meta property="og:description" content=""/>
@@ -46,11 +47,11 @@
   <meta property="article:published_time" content="2021-07-12T00:00:00+02:00">
   <meta property="article:author" content="http://0.0.0.0:4000/">
   
- 
 
   <meta property="og:image" content="/assets/img//og-image.png">
     <!--  -->
 
+    <!------ Feeds ------>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"/>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/micro.xml"/>
 
@@ -59,11 +60,6 @@
         When Jesus sent out his Twelve - Zinzy Waleson Geene
       
   </title>
-
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Domine&family=Spectral&display=swap" rel="stylesheet">
 
   <!-- Some links that let IndieAuth know it's me, your girl Zinzy -->
   <link rel="me" href="https://github.com/zinzy" />
@@ -83,57 +79,45 @@
   <link rel="pingback" href="https://webmention.io/www.zinzy.website/xmlrpc" /> 
   <script src="/assets/js/webmention.min.js" async></script>
   <script src="/assets/js/site.js" async></script>
-
-
 </head>
 
-  <body>  
+  <body class="p-10 md:p-20">  
 
    
+    <header>
+
+  <h1 class="font-medium"><a href="/">Zinzy Waleson Geene</a></h1>
+  <p>Human in Amsterdam</p>
+
+  <div class="mt-40 h-entry">
+    <h2 class="font-medium text-3xl">
     
-  <!-- 
-<header class="site-header">
+      <span class="text-slate-400">
+        <a href="/">⌘</a>
+      </span>
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/now">Now</a></li>
-    <li><a href="/then">Then</a></li>
-    <li><a href="/work">Work</a></li>
-    <li><a href="/hello">Hello</a></li>
-  </ul>
-</nav>
+      
+        
+          <span class="text-slate-400"> / </span>
+          <span class="text-slate-400"> <a href="/writing">Writing</a> </span>
+          <span class="text-slate-400"> / </span>
+          <span class="p-name">When Jesus sent out his Twelve</span>
 
- <div class="h-card d-flex">
-    <img src="/assets/img/android-chrome-192x192.png" class="portrait">
-     <div>
-      <h1 class="p-author flex-grow-1"> 
-        <a class="p-name u-uid u-url" rel="author" href="/">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a> 
-      </h1>
+        
+    </h2>
+  </div>
   
-      
-     
-    </div>    
-    </div>
-</header>--> 
+  <span class="right-now mt-10 mr-10 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+</header> 
  
-
-
-    <main class="">
+    <main class="my-10">
       <article class="h-entry">
-  <div class=" ">
-    <div class=" ">
-      
-      <header class="mb-5">
-        <h1 class="p-name mb-0"><a href="/2021/07/12/when-jesus-sent-out-his-twelve/" class="u-url">When Jesus sent out his Twelve</a></h1>
-        <p class="mt-0"><time class="dt-published" datetime="Monday, July 12, 2021">Monday, July 12, 2021</time></p>
-      </header>
-      <div id="notes-entry-container">
-        <content class="e-content">
-          <html><body>
+  <div class="prose">      
+    <p class=""><time class="dt-published text-slate-500" datetime="12 Jul 2021">12 Jul 2021</time></p>
+
+    <div id="notes-entry-container">
+      <content class="e-content">
+        <html><body>
 <p><em>This was written as part of <a href="https://www.vineandfig.co" target="_blank">Vine &amp; Fig</a>’s Sunday Scripture reflection project.</em></p>
 
 <p>When Jesus sent out his Twelve, He told them: “Whatever place does not welcome you or listen to you, leave there and shake the dust off your feet in testimony against them.” If you’re not welcomed, not listened to, quietly withdraw. Don’t make a scene. Shrug your shoulders and be on your way.</p>
@@ -150,113 +134,75 @@
 
 <p>I imagine all of us building a home, knocking on doors to see who will help us share love the way we see it, and learning to shake the dust off our boots and moving right along, even if it requires making a whole family from scratch.</p>
 </body></html>
-        </content>
+      </content>
+    </div>
+  </div> 
+  <footer class="text-sm">
+    <div class="border rounded mt-20">
+      <div class="grid grid-cols-2">
+        <div class="border-r p-4">
+          
+            <p class="text-slate-500">Older</p>
+            <a class="prev" href="/2021/07/10/weekend-vibes/">Weekend vibes</a>
+          
+        </div>
+        <div class="text-right p-4">
+          
+            <p class="text-slate-500">Newer</p>
+            <a class="next" href="/2021/07/13/the-old-sharing/">The old sharing</a>
+          
+        </div>
+      </div> 
+      <div class="border-t p-4">
+        <h2 class="text-slate-500 font-normal">Join the conversation</h2>
+        <p><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>. I would love to read about your perspective.</p>
       </div>
-    
-      <footer class=" border-top mt-5 pt-5">
-
-
-        <div class="">
-          <span class="h-card d-none p-author"><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="Zinzy Waleson Geene"></span>
-        <p class="m-0">Reply via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>, I would love to read about your perspective.
-<!--     
+       
+      <div class="border-t p-4">
+        <h2 class="text-slate-500 font-normal inline-block mr-5">More about  </h2> 
           
-          <span class="tags"> 
-              
-              <span><a href="/tag/anti-lgbt">anti-lgbt</a></span>
-              <span><a href="/tag/bible">bible</a></span>
-              <span><a href="/tag/catholicism">catholicism</a></span>
-              <span><a href="/tag/queerdom">queerdom</a></span>
-              <span><a href="/tag/religion">religion</a></span>
-              
-          </span>
-         -->
-
-
-        <!--  -->
-        </p>
-
-        <p><span> 
-          
-          <span><a href="/tag/anti-lgbt">anti-lgbt</a></span>
-          <span><a href="/tag/bible">bible</a></span>
-          <span><a href="/tag/catholicism">catholicism</a></span>
-          <span><a href="/tag/queerdom">queerdom</a></span>
-          <span><a href="/tag/religion">religion</a></span>
-           
-     </span></p>
-        </div>  
-     
-
-
-    <div class="webmentions mt-5">
-      <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=When%20Jesus%20sent%20out%20his%20Twelve" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
-      <div id="webmentions"></div>
+          <span class="inline-block mr-3"><a href="/tag/anti-lgbt">#anti-lgbt</a></span>
+          <span class="inline-block mr-3"><a href="/tag/bible">#bible</a></span>
+          <span class="inline-block mr-3"><a href="/tag/catholicism">#catholicism</a></span>
+          <span class="inline-block mr-3"><a href="/tag/queerdom">#queerdom</a></span>
+          <span class="inline-block mr-3"><a href="/tag/religion">#religion</a></span>
+            
+      </div>
+      
     </div>
-      </footer>
-    </div>
+  
+  <div class="webmentions mt-5">
+  <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=When%20Jesus%20sent%20out%20his%20Twelve" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+  <div id="webmentions"></div>
   </div>
+  </footer>
 </article>
+
+ 
  
  
     </main> 
  
   
-    <div class="site-menu">
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/now">Now</a></li>
-      <li><a href="#footer">Sitemap</a></li>
-    </ul>
-  </nav>
-</div>
+    <footer class="mt-40 text-sm text-slate-500">
+  <div class="">
 
-<footer id="footer">
   <div class="footer-content">
-    <div>
-      <h2>Hey Internet friend,</h2>
-      <p>I'm Zinzy Waleson Geene, a senior-but-silly researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. I'm an IndieWeb enthusiast, and I'm specialized in making tools for people at work. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
-
-      <nav class="mt-3">
-        <ul>
-          <h3>On this website</h3>
-          <li><a href="/">Home</a> features the latest blog entry</li>
-          <li><a href="/now">Now</a> tells you what I'm about these days</li>
-          <li><a href="/then">Then</a> will show you where I came from</li>
-          <li><a href="/hello">Hello</a> will tell you how to reach me</li>
-          <li><a href="/work">Work</a> is about my professional life</li>
-          <li><a href="/writing">Writing</a> collects my blog entries</li> 
-          <li><a href="/resources">Resources</a> contains my working notes</li> 
-          <li><a href="/timeline">Timeline</a> collects short, daily blurbs</li>
-          <li><a href='/uses'>Uses</a> is an overview of my favorite tools</li>
-          <li><a href='/site'>Site</a> is meta</li>
-        </ul>
-      </nav>
+    <div class="h-card flex"> 
+      <p>I'm <a class="p-name u-uid u-url" rel="me" href="https://zinzy.website">
+        <span class="p-given-name">Zinzy</span>
+        <span class="p-family-name">Waleson Geene</span></a>, a <span class="hidden p-gender-identity">Non-binary</span> Senior UX researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
     </div>
-  
 
-    
-  
-  
-  
-    <ul class="h-card d-none">
-      <li>
-        <a class="p-name u-uid u-url" rel="me" href="https://zinzy.website">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a>    
-      </li>
-      <li><img class="u-photo" src="/assets/img/android-chrome-192x192.png" alt="A person with big glasses smiles at the camera"/></li>
-      <li class="p-note">A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.</li>
-      <li><a class="u-email" href="mailto:zinzy@pm.me">zinzy@pm.me</a></li>
-      <li class="p-locality">Amsterdam</li>
-      <li class="p-country-name">The Netherlands</li>
-      <li class="p-job-title">UX reseacher and designer</li>
-      <li class="p-gender-identity">Non-binary</li>
-    </ul>
+    <div class="mt-10">
+      <a href="https://xn--sr8hvo.ws/previous">←</a>
+      An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+      <a href="https://xn--sr8hvo.ws/next">→</a>
+    </div>
+
   
   </div>
+  </div> 
 </footer>
 
 

@@ -1,20 +1,22 @@
 ---
 layout: default
 --- 
-<div class="mb-5">
-  <h1>Writing</h1>
-  <p>While my posts are always personal, this section consists mostly of longform content on a particular subject.</p>
-</div>
-
 <section>
 
   <div>
+    {{content}} 
     {% assign diary = site.posts | sort: 'date' | reverse %}  
-    <ul class="writing">
+    <ul class="mt-10">
       {% for post in diary %}
-      <li class="">
-        <div class="time"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time></div>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+      <li class="mb-4">
+        <div class="flex">
+          <div class="w-1/4">
+            <time class="text-slate-600" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
+          </div>
+          <div class="w-3/4">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </div>
+        </div> 
       </li> 
       {% endfor %} 
     </ul>

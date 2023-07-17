@@ -1,11 +1,11 @@
 ---
 layout: default
 --- 
-<h1 class="p-name mb-5">Things I've written about {{ page.title }}</h1>
+<p>These are things I've written about #{{ page.title }}.</p>
  
 
-<section class="section-small">
-  <h2>Blog entries</h2>
+<section class="mt-10">
+  <!-- <h2>Blog entries</h2> -->
   <ul>
     {% for post in page.posts %} 
       <li>
@@ -14,7 +14,7 @@ layout: default
     {% endfor %} 
   </ul>  
 </section>
-
+<!-- 
 <section class="section-small">
   <h2>Resources</h2>
   {% for post in site.resources %}
@@ -62,7 +62,7 @@ layout: default
       {% endif %}
       {% endfor %} 
 </ul>
-</section>
+</section> -->
 
 
 

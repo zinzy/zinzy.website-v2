@@ -3,7 +3,6 @@ layout: post
 title: "Eight of ten"
 date: 2023-04-09
 excerpt: "When I first set foot in the Old Catholic Church to attend an All Saints service, I knew I had found a special place. Today is the third time I make it to their service, which is always on the second Sunday of the month."
-hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1681106797/zinzy.website/2023-04-09_hingfw.jpg
 tags:
 - religion
 - amsterdam
@@ -12,8 +11,10 @@ tags:
 faces: 
 - Annika
 - Howie
-- Mpho 
+- Mpho
 ---
+![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681106797/zinzy.website/2023-04-09_hingfw.jpg)
+
 When I first set foot in the [Old Catholic Church](https://amsterdam.oudkatholiek.nl/) to attend an All Saints service, [I knew I had found a special place](/2023/02/12/all-saints-amsterdam/). Today is the third time I make it to their service, which is always on the second Sunday of the month.
 
 It just so happens that this second Sunday falls on Easter, and it's perhaps because of this that the service is more crowded than previous times. I see All Saints regulars as well as new people, shy and seemingly hopeful.

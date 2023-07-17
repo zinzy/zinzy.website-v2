@@ -4,8 +4,7 @@ layout: default
 
 <article class="h-entry"> 
   <div class=" ">
-    <h1 class="mb-5">{{ page.title }}</h1>
-    <div class=" "> 
+    <div class="prose"> 
       {% if page.audience %}
         <div class="card mb-3">
           <div class="card-body px-4">
@@ -28,42 +27,64 @@ layout: default
       </div> 
     </div>
 
-    <p class="mt-5"><span>{% if page.tags.size > 0 %} 
-      {% assign sorted_tags = page.tags | sort %}
-      {% for tag in sorted_tags %}
-      {%- assign t = tag | first -%}
-        <span><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></span>
-      {% endfor %} 
-{% endif %} </span></p>
- 
-
-    {% if page.backlinks.size > 0 %}
-      <div class="border-top mt-5 pt-5">
-        <ul>
-          {% for backlink in page.backlinks %}
-
-          <li>
-            <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
-          
-          {% if backlink.path contains "_posts" %}
-
-            <time datetime="{{ backlink.date | date: "%Y-%m-%d" }}">({{ backlink.date | date: "%Y-%m-%d" }})</time>
-
-          {% endif %}
-          </li>
 
 
-            <!-- {% if backlink contains "{{ site.baseurl }}" %}
-              <li><a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a></li>
-            {% endif %} -->
-          {% endfor %} 
-        </ul>
+    <footer class="text-sm">
+      <div class="border rounded mt-20">
+        <!-- <div class="grid grid-cols-2">
+          <div class="border-r p-4">
+            {% if page.previous.url %}
+              <p class="text-slate-500">Older</p>
+              <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+            {% endif %}
+          </div>
+          <div class="text-right p-4">
+            {% if page.next.url %}
+              <p class="text-slate-500">Newer</p>
+              <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+            {% endif %}
+          </div>
+        </div>  -->
+        <div class="p-4">
+          <h2 class="text-slate-500 font-normal">Join the conversation</h2>
+          <p><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>. I would love to read about your perspective.</p>
+        </div>
+
+        {% if page.tags.size > 0 %} 
+        <div class="border-t p-4">
+          <h2 class="text-slate-500 font-normal inline-block mr-5">More about  </h2> 
+            {% assign sorted_tags = page.tags | sort %}
+            {% for tag in sorted_tags %}
+              {%- assign t = tag | first -%}
+              <span class="inline-block mr-3"><a href="/tag/{{ tag | replace: ' ', '-' }}">#{{tag}}</a></span>
+            {% endfor %}  
+        </div>
+        {% endif %}
+
+
+
+        {% if page.backlinks.size > 0 %}
+        <div class="border-t p-4">
+          <h2 class="text-slate-500 font-normal inline-block mr-5">Pages that link here  </h2> 
+            
+          <ul class="">
+            {% for backlink in page.backlinks %} 
+            <li>
+              <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
+              {% if backlink.path contains "_posts" %}
+                <time class="text-slate-500" datetime="{{ backlink.date | date: "%Y-%m-%d" }}">({{ backlink.date | date: "%Y-%m-%d" }})</time>
+              {% endif %}
+            </li>
+            {% endfor %} 
+          </ul>
+        </div>
+        {% endif %}
       </div>
-    {% endif %}
-  </div> 
-
-  <div class="webmentions mt-5">
+    
+    <div class="webmentions mt-5">
     <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject={{ page.title | uri_escape }}" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
     <div id="webmentions"></div>
-  </div>
+    </div>
+    </footer>
+
 </article>

@@ -1,38 +1,47 @@
+<header>
 
-  <!-- 
-<header class="site-header">
+  <h1 class="font-medium"><a href="/">Zinzy Waleson Geene</a></h1>
+  <p>Human in Amsterdam</p>
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/now">Now</a></li>
-    <li><a href="/then">Then</a></li>
-    <li><a href="/work">Work</a></li>
-    <li><a href="/hello">Hello</a></li>
-  </ul>
-</nav>
+  <div class="mt-40 h-entry">
+    <h2 class="font-medium text-3xl">
+    
+      <span class="text-slate-400">
+        <a href="/">⌘</a>
+      </span>
 
- <div class="h-card d-flex">
-    <img src="/assets/img/android-chrome-192x192.png" class="portrait">
-     <div>
-      <h1 class="p-author flex-grow-1"> 
-        <a class="p-name u-uid u-url" rel="author" href="/">
-          <span class="p-given-name">Zinzy</span>
-          <span class="p-family-name">Waleson Geene</span>
-        </a> 
-      </h1>
+      {% if page.url == '/index' %}
+        <span>{{page.title}}</span>
+        
+        {% elsif page.path contains "_notes" %}
+        
+          <span class="text-slate-400"> / </span>
+          <span class="text-slate-400"> <a href="/timeline">Timeline</a> </span>
+          <span class="text-slate-400"> / </span>
+          <span>A quick note</span>
+        
+        {% elsif page.path contains "_posts" %}
+        
+          <span class="text-slate-400"> / </span>
+          <span class="text-slate-400"> <a href="/writing">Writing</a> </span>
+          <span class="text-slate-400"> / </span>
+          <span class="p-name">{{page.title}}</span>
+
+        {% elsif page.path contains "_resources" %}
+        
+          <span class="text-slate-400"> / </span>
+          <span class="text-slate-400"> <a href="/resources">Resources</a> </span>
+          <span class="text-slate-400"> / </span>
+          <span class="p-name">{{page.title}}</span>
+
+        {% else %}
+        
+          <span class="text-slate-400"> / </span>
+          <span class="p-name">{{page.title}}</span>
+
+      {% endif %}
+    </h2>
+  </div>
   
-    {% assign status = site.status | sort: 'date' | reverse %}  
-    {% for post in status | limit: 1 %}
-    <p class="m-0">
-      <small>
-        {{ post.content }} 
-        <time datetime="{{ post.specialdate | date: "%Y-%m-%d %H:%M:%S" }}" class="d-none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
-        (<span id="statusTimeAgo"></span>)
-      </small>
-    </p>
-     
-    {% endfor %} 
-    </div>    
-    </div>
-</header>-->
+  <span class="right-now mt-10 mr-10 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+</header>

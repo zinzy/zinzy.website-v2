@@ -1,8 +1,19 @@
 title: Zinzy Waleson Geene
-description: A researcher, designer, mentor, queer facilitator, and IndieWeb enthusiast from Amsterdam.
+description: This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
-author: Zinzy Waleson Geene
+me:
+  - name: Zinzy Waleson Geene
+  - honorific-prefix: Mx.
+  - given-name: Zinzy
+  - family-name: Waleson Geene
+  - gender-identity: Non-binary
+  - photo: /assets/img/android-chrome-192x192.png
+  - url: https://www.zinzy.website
+  - locality: Amsterdam
+  - email: zinzy@pm.me
+  - country: The Netherlands
+  - job-title: Senior UX researcher and designer
 include:
   - _pages
   - _content

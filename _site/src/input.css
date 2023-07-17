@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    /* font-weight: 500; */
+} 
+
+body {
+    max-width: 700px;
+}
+
+.site-menu {
+    position: fixed;
+    bottom: 2rem;
+    width: 300px;
+    background: rgba(248 250 252, 0.7);
+    margin: 0 0 0 -150px;
+    left: 50%;
+    border-radius: 100px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+.site-menu ul {
+    padding: 0;
+    margin: 8px 0;
+    list-style-type: none;
+    text-align: center;
+}
+.site-menu ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.site-menu ul li a {
+    text-decoration: none;
+}
+nav a {
+    font-weight: 600;
+}
+
+.u-url {
+    text-decoration: none;
+}
+
+.right-now {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+ 
+.blink {
+    animation: blink 0.5s infinite;
+    animation-fill-mode: both;
+    margin: 0 .2rem;
+    color: rgb(148 163 184);
+    }
+ 
+ @keyframes blink {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    100% { opacity: 0 }
+    }
+
+.prose :where(a):not(:where([class~="not-prose"] *)) {
+    /* color: var(--tw-prose-links); */
+    text-decoration: underline;
+    font-weight: 400;
+    text-decoration-color: rgb(100 116 139);
+}
+
+.btn {
+    border: 1px solid rgb(203 213 225);
+    font-weight: 500;
+    padding: .5rem .8rem;
+    font-size: 90%;
+    border-radius: 3px;
+}
+
+content.inline svg,
+content.inline p {
+    display: inline;
+}
+ 
+@media screen and (min-width: 1800px) {
+    body {
+        max-width: 1000px;
+    }
+}
