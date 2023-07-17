@@ -88,3 +88,8 @@ content.inline p {
         max-width: 1000px;
     }
 }
+
+.text-url {
+
+  word-break: break-all;
+}

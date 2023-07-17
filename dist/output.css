@@ -1116,10 +1116,6 @@ video {
   list-style-type: none;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1166,10 +1162,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1336,6 +1328,10 @@ content.inline p {
   body {
     max-width: 1000px;
   }
+}
+
+.text-url {
+  word-break: break-all;
 }
 
 @media (min-width: 768px) {
