@@ -26,8 +26,8 @@ layout: default
     {% assign notes = site.notes | sort: 'date' | reverse %}  
     <ul class="list-none m-0 p-0">
       {% for post in notes limit: 3 %}
-    <li class="mt-5"> 
-      <div>
+    <li class="mt-10"> 
+      <div class="prose">
         <div>  
           {% if post.replyTo %}
           <p class="mt-0 u-in-reply-to">
