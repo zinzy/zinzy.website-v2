@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="h-entry prose">
+<article class="h-entry">
  
   <div>
     <!-- {% assign diary = site.notes | sort: 'date' | reverse %}   -->
@@ -10,7 +10,7 @@ layout: default
         <div class="time mb-5">
           <a href="{{page.url}}" class="u-url"><time class="dt-published" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time></a>
         </div>
-        <div>
+        <div class="prose">
           {% if page.photo %}
             <img class="u-photo mb-5" src="{{ page.photo }}" alt="">
           {% endif %}
@@ -28,6 +28,7 @@ layout: default
           <content class="e-content">
               {{page.content}} 
           </content>
+        </div>
 
 
 
@@ -69,8 +70,7 @@ layout: default
           </div>
           </footer>
     </div>
-      </li> 
-        </div>
+      </li>  
     </ul>
   </div> 
 
