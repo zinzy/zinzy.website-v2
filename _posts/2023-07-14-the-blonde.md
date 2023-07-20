@@ -2,11 +2,12 @@
 layout: post
 title: "The blonde"
 date: 2023-07-14
-excerpt: ""
+excerpt: "A poem about a runner"
 tags:
 - poem
-- assumptions
+- culture
 - standpoint
+- prejudice
 ---
 At the end of the shopping street  
 for people who look like  

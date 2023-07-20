@@ -8,15 +8,14 @@ layout: default
     {% assign diary = site.posts | sort: 'date' | reverse %}  
     <ul class="mt-10">
       {% for post in diary %}
-      <li class="mb-4">
-        <div class="flex">
-          <div class="w-1/4">
-            <time class="text-slate-600" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
-          </div>
-          <div class="w-3/4">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </div>
-        </div> 
+      <li class="mb-4"> 
+            <h3 class="font-medium text-lg"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="text-slate-500">
+              <time datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
+              <span class="mx-2 text-slate-300">•</span>
+              {{post.excerpt}}
+            </p>
+             
       </li> 
       {% endfor %} 
     </ul>

@@ -26,7 +26,7 @@ layout: default
     {% assign notes = site.notes | sort: 'date' | reverse %}  
     <ul class="list-none m-0 p-0">
       {% for post in notes limit: 3 %}
-    <li class="mt-5"> 
+    <li class="mt-7"> 
       <div>
         <div>  
           {% if post.replyTo %}
@@ -53,9 +53,9 @@ layout: default
         {% endif %}
 
         </div>
-        <div class="time">
+        <p class="mt-3">
           <a href="{{post.url}}"><time class="dt-published text-sm text-slate-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></a>
-        </div>
+        </p>
         </li> 
         {% endfor %} 
     </ul>

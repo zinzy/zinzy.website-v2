@@ -76,6 +76,10 @@ nav a {
     padding: .5rem .8rem;
     font-size: 90%;
     border-radius: 3px;
+    transition: 0.3s;
+}
+.btn:hover {
+    border: 1px solid rgb(148 163 184);
 }
 
 content.inline svg,
