@@ -81,39 +81,38 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
-  <body class="p-10 md:p-20">  
+  <body class="p-6 md:p-20 mx-auto">  
 
    
     <header>
 
-  <h1 class="font-medium"><a href="/">Zinzy Waleson Geene</a></h1>
-  <p>Human in Amsterdam</p>
+  <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-  <div class="mt-40 h-entry">
-    <h2 class="font-medium text-3xl">
-    
-      <span class="text-slate-400">
-        <a href="/">⌘</a>
-      </span>
+  <nav class="mt-5">
+    <ul class="list-none m-0 p-0">
+      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
+      <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li>
+      <li class="inline-block"><a href="/garden">Garden</a></li>
+    </ul>
+  </nav>
 
-      
-        
-          <span class="text-slate-400"> / </span>
-          <span class="text-slate-400"> <a href="/writing">Writing</a> </span>
-          <span class="text-slate-400"> / </span>
-          <span class="p-name">School supplies</span>
-
-        
-    </h2>
-  </div>
-  
-  <span class="right-now mt-10 mr-10 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+  <span class="right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
 </header> 
+
+
  
-    <main class="my-10">
+    
+ 
+    <main class="my-40">
+      <h2 class="font-medium text-2xl mb-5">
+        
+          School supplies
+        
+      </h2>
       <article class="h-entry">
   <div class="prose">      
-    <p class=""><time class="dt-published text-slate-500" datetime="21 Aug 2009">21 Aug 2009</time></p>
+    <p class="mb-10"><time class="dt-published text-slate-500" datetime="21 Aug 2009">21 Aug 2009</time></p>
 
     <div id="notes-entry-container">
       <content class="e-content">
@@ -184,30 +183,58 @@
  
   
     <footer class="mt-40 text-sm text-slate-500">
-  <div class="">
 
-  <div class="footer-content">
-    <div class="h-card flex"> 
-      <p>I'm <a class="p-name u-uid u-url" rel="me" href="https://zinzy.website">
-        <span class="p-given-name">Zinzy</span>
-        <span class="p-family-name">Waleson Geene</span></a>, a <span class="hidden p-gender-identity">Non-binary</span> Senior UX researcher and designer from Amsterdam<span data-timestamp-text=", where it's {time} right now"></span>. This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear. Thank you for your time.</p>
+  <div class="flex items-stretch">
+    <div class="grow">    
+      <nav class="">
+        <ul class="list-none m-0 p-0">
+          <li class="mb-3 md:-mb-0 md:inline-block md:mr-4"><a href="/now">Now</a></li>
+          <li class="mb-3 md:-mb-0 md:inline-block md:mr-4"><a href="/then">Then</a></li>
+          <!-- <li class="mb-3 md:-mb-0 md:inline-block md:mr-4"><a href="">Codex</a></li> -->
+          <li class="mb-3 md:-mb-0 md:inline-block md:mr-4"><a href="/uses">Uses</a></li> 
+          <li class="mb-3 md:-mb-0 md:inline-block md:mr-4"><a href="/site">Site</a></li> 
+          <li class="mb-0 md:inline-block"><a href="/hello">Hello</a></li>
+        </ul>
+      </nav>
     </div>
-
-    <div class="mt-10">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
-      <a href="https://xn--sr8hvo.ws/next">→</a>
+    <div class="flex-none self-end">
+      <div class="">
+        <a href="https://xn--sr8hvo.ws/previous">←</a>
+        <a href="https://xn--sr8hvo.ws">🕸💍</a>
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+      </div>
     </div>
-
-  
   </div>
-  </div> 
 </footer>
 
 
 
  
 
+
+
+<script>
+
+
+  // JavaScript program to illustrate 
+    // calculation of no. of days between two date 
+      
+    // To set two dates to two variables
+    var date1 = new Date("05/03/2018");
+    var date2 = new Date();
+      
+    // To calculate the time difference of two dates
+    var Difference_In_Time = date2.getTime() - date1.getTime();
+      
+    // To calculate the no. of days between two dates
+    var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+  
+    let a = Math.floor(Difference_In_Days);
+      
+    //To display the final no. of days (result)
+    console.log(a);
+    document.getElementById("sobriety").innerHTML = a + " days";
+  </script>
 
  
 

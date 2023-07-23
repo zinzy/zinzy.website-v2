@@ -6,12 +6,16 @@ layout: default
 </section>
 
 <section class="mt-16"> 
-  <div class="prose">
-    <h3 class="font-medium">Latest writing</h3>
+  <div class="">
+    <h3 class="font-medium text-xl">Latest writing</h3>
     {% assign diary = site.posts | sort: 'date' | reverse %}  
-    <ul class=" ">
-      {% for post in diary limit: 3 %}
-      <li class=" "><a href="{{ post.url }}">{{ post.title }}</a></li> 
+    <ul class="mt-5 divide-y">
+      {% for post in diary limit: 5 %}
+      <li class="py-2">
+        <a href="{{ post.url }}">
+          <span>{{ post.title }}</span>
+          <time class="block md:inline-block md:ml-3 text-slate-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
+        </a></li> 
       {% endfor %} 
     </ul>
   </div>
@@ -20,70 +24,3 @@ layout: default
   </div>
 </section>
 
-<section class="mt-20"> 
-  <div class="">
-    <h3 class="font-medium text-xl">On the timeline</h3>
-    {% assign notes = site.notes | sort: 'date' | reverse %}  
-    <ul class="list-none m-0 p-0">
-      {% for post in notes limit: 3 %}
-    <li class="mt-10"> 
-      <div class="prose">
-        <div>  
-          {% if post.replyTo %}
-          <p class="mt-0 u-in-reply-to">
-            Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
-          </p> 
-          {% elsif post.likeOf %}
-          <p class="mt-0">
-            Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
-          </p> 
-        {% endif %} 
-
-
-        {% if post.photo %}
-        <content class="inline"> 
-            <span class="mr-2 inline-block">{% include _icons/photo.html %} </span>
-            {{post.content}} 
-        </content>
-
-        {% else %}
-          <content>
-            {{post.content}} 
-          </content>
-        {% endif %}
-
-        </div>
-        <p class="mt-3">
-          <a href="{{post.url}}"><time class="dt-published text-sm text-slate-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></a>
-        </p>
-        </li> 
-        {% endfor %} 
-    </ul>
-  </div>
-  <div class="mt-7">
-    <a href="/timeline" class="btn">Visit timeline</a>
-  </div>
-</section>
- 
-<section class="mt-20"> 
-  <div class="prose">
-    <h3 class="font-medium">Resources</h3>
-    <p>I maintain a growing collection of working notes, some of which are suitable for public consumption. There are reading notes, thoughts about concepts important to my work or personal life, and unfinished ideas.</p>
-  </div>
-  <div class="mt-7">
-    <a href="/resources" class="btn">Visit resources</a>
-  </div>
-</section>
-
-<section class="mt-20"> 
-  <div class="prose">
-    <h3 class="font-medium">Also on this website</h3>
-    <ul class=" ">
-      <li class=" "><a href="/now">Now</a> — A page detailing what I'm about these days</li> 
-      <li class=" "><a href="/then">Then</a> — Chronicles how I got here</li> 
-      <li class=" "><a href="/hello">Hello</a> — Best ways to get in touch with me</li> 
-      <li class=" "><a href="/site">Site</a> — Notes on the what, why, and how of this website</li> 
-      <li class=" "><a href="/uses">Uses</a> — A list of things I use</li> 
-    </ul>
-  </div>
-</section>

@@ -1,6 +1,6 @@
 ---
 share: true
-title: "Timeline"
+title: "Changelog"
 subtitle: "Short reflections, likes, and replies"
 layout: notes
 ---

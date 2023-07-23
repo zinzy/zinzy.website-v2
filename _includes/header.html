@@ -1,47 +1,15 @@
 <header>
 
-  <h1 class="font-medium"><a href="/">Zinzy Waleson Geene</a></h1>
-  <p>Human in Amsterdam</p>
+  <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-  <div class="mt-40 h-entry">
-    <h2 class="font-medium text-3xl">
-    
-      <span class="text-slate-400">
-        <a href="/">⌘</a>
-      </span>
+  <nav class="mt-5">
+    <ul class="list-none m-0 p-0">
+      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
+      <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li>
+      <li class="inline-block"><a href="/garden">Garden</a></li>
+    </ul>
+  </nav>
 
-      {% if page.url == '/index' %}
-        <span>{{page.title}}</span>
-        
-        {% elsif page.path contains "_notes" %}
-        
-          <span class="text-slate-400"> / </span>
-          <span class="text-slate-400"> <a href="/timeline">Timeline</a> </span>
-          <span class="text-slate-400"> / </span>
-          <span>A quick note</span>
-        
-        {% elsif page.path contains "_posts" %}
-        
-          <span class="text-slate-400"> / </span>
-          <span class="text-slate-400"> <a href="/writing">Writing</a> </span>
-          <span class="text-slate-400"> / </span>
-          <span class="p-name">{{page.title}}</span>
-
-        {% elsif page.path contains "_resources" %}
-        
-          <span class="text-slate-400"> / </span>
-          <span class="text-slate-400"> <a href="/resources">Resources</a> </span>
-          <span class="text-slate-400"> / </span>
-          <span class="p-name">{{page.title}}</span>
-
-        {% else %}
-        
-          <span class="text-slate-400"> / </span>
-          <span class="p-name">{{page.title}}</span>
-
-      {% endif %}
-    </h2>
-  </div>
-  
-  <span class="right-now mt-10 mr-10 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+  <span class="right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
 </header>

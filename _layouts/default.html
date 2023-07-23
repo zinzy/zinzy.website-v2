@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" class="subpixel-antialiased text-gray-900">
   {% include head.html %}
-  <body class="p-10 md:p-20">  
+  <body class="p-6 md:p-20 mx-auto">  
 
    
     {% include header.html %} 
+
+
  
-    <main class="my-10">
+    
+ 
+    <main class="my-40">
+      <h2 class="font-medium text-2xl mb-5">
+        {% if page.path contains "_notes" %}
+          {{ page.date | date: "%R" }}
+          {% else %}
+          {{page.title}}
+        {% endif %}
+      </h2>
       {{content}}
     </main> 
  

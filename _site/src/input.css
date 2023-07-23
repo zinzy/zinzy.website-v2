@@ -36,9 +36,6 @@ body {
 .site-menu ul li a {
     text-decoration: none;
 }
-nav a {
-    font-weight: 600;
-}
 
 .u-url {
     text-decoration: none;
@@ -96,4 +93,8 @@ content.inline p {
 .text-url {
 
   word-break: break-all;
+}
+
+content p:first-child {
+    margin-top: 0;
 }
