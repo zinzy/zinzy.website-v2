@@ -115,7 +115,7 @@ I wonder where you’ve hidden
 the Pride flag that I sent you  
 as a housewarming gift  
 
-Colossians 3:26 The freedom of the Lord is the wisdom to decide who is truly your sister, your brother, your father, your mother. Don’t let the bastards grind you down.   
+Colossians 3:26 The freedom of HaShem is the wisdom to decide who is truly your sister, your brother, your father, your mother. Don’t let the bastards grind you down.   
 
 ----
 

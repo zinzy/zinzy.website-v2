@@ -4,11 +4,231 @@
   <channel>
     <title>Zinzy Waleson Geene - notes RSS</title>
     <description>This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</description>
-    <link>http://0.0.0.0:4000</link>
+    <link>http://localhost:4000</link>
     <language></language>
-    <copyright>http://0.0.0.0:4000/colophon/#copyright</copyright>
-    <atom:link href="http://0.0.0.0:4000/notes.xml" rel="self" type="application/rss+xml" />
+    <copyright>http://localhost:4000/colophon/#copyright</copyright>
+    <atom:link href="http://localhost:4000/notes.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Thu, 17 Aug 2023 12:17:05 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Pride Week remnants</p>
+
+          
+          <br />
+          <html><body>
+<p>Pride Week remnants</p>
+</body></html>]]>
+        </description>
+        <pubDate>Thu, 17 Aug 2023 12:17:05 +0200</pubDate>
+        <link>http://localhost:4000/2023-08-17-12-17-05</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-08-17-12-17-05</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Sat, 12 Aug 2023 06:14:00 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Whenever I listen to PJ Harvey, I get the sense her songs best reflect the personal life of Juliette Lewis.</p>
+
+          
+          <br />
+          <html><body>
+<p>Whenever I listen to PJ Harvey, I get the sense her songs best reflect the personal life of Juliette Lewis.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Sat, 12 Aug 2023 06:14:00 +0200</pubDate>
+        <link>http://localhost:4000/2023-08-12-06-14-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-08-12-06-14-00</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Wed, 09 Aug 2023 10:51:31 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Not entirely too long ago, Mark Zuckerberg said that he wrote a talk on his phone, and I’m struck by how mind-blowing that seemed at the time.</p>
+
+          
+          <br />
+          <html><body>
+<p>Not entirely too long ago, Mark Zuckerberg said that he wrote a talk on his phone, and I’m struck by how mind-blowing that seemed at the time.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Wed, 09 Aug 2023 10:51:31 +0200</pubDate>
+        <link>http://localhost:4000/2023-08-09-10-51-31</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-08-09-10-51-31</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Wed, 09 Aug 2023 00:12:13 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Someone once told me “it’s ‘dessert’ with double s because you always want more of it”, and I think about that person often.</p>
+
+          
+          <br />
+          <html><body>
+<p>Someone once told me “it’s ‘dessert’ with double s because you always want more of it”, and I think about that person often.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Wed, 09 Aug 2023 00:12:13 +0200</pubDate>
+        <link>http://localhost:4000/2023-08-09-00-12-13</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-08-09-00-12-13</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Sat, 29 Jul 2023 01:30:07 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Nobody: 
+Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise played Hannibal in <em>Silence of the Lambs</em>’ scene where he waltzes into Africa, he would’ve looked like you.”</p>
+
+          
+          <br />
+          <html><body>
+<p>Nobody: 
+Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise played Hannibal in <em>Silence of the Lambs</em>’ scene where he waltzes into Africa, he would’ve looked like you.”</p>
+</body></html>]]>
+        </description>
+        <pubDate>Sat, 29 Jul 2023 01:30:07 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-29-01-30-07</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-29-01-30-07</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Fri, 28 Jul 2023 07:54:59 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Trying to put together a road trip playlist, but getting sufficiently distracted by the fact that The Smith were active for no longer than a mid-decade.</p>
+
+          
+          <br />
+          <html><body>
+<p>Trying to put together a road trip playlist, but getting sufficiently distracted by the fact that The Smith were active for no longer than a mid-decade.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Fri, 28 Jul 2023 07:54:59 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-28-07-54-59</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-28-07-54-59</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Thu, 27 Jul 2023 00:47:37 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          
+
+          
+          <br />
+          ]]>
+        </description>
+        <pubDate>Thu, 27 Jul 2023 00:47:37 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-27-00-47-37</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-27-00-47-37</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Wed, 26 Jul 2023 08:12:09 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>For posterity, I’m archiving here that the <a href="https://amp.theguardian.com/culture/2023/jul/26/npc-tiktok-trend-ice-cream-so-good-gang-what-is-explained-pinky-doll">non-player character streaming trend on TikTok</a> is an example of why I love the weird-but-it’s-ours Internet.</p>
+
+          
+          <br />
+          <html><body>
+<p>For posterity, I’m archiving here that the <a href="https://amp.theguardian.com/culture/2023/jul/26/npc-tiktok-trend-ice-cream-so-good-gang-what-is-explained-pinky-doll" target="_blank">non-player character streaming trend on TikTok</a> is an example of why I love the weird-but-it’s-ours Internet.</p>
+</body></html>]]>
+        </description>
+        <pubDate>Wed, 26 Jul 2023 08:12:09 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-26-08-12-09</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-26-08-12-09</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Wed, 26 Jul 2023 08:11:28 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Metro stop with pretty blue</p>
+
+          
+          <br />
+          <html><body>
+<p>Metro stop with pretty blue</p>
+</body></html>]]>
+        </description>
+        <pubDate>Wed, 26 Jul 2023 08:11:28 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-26-08-11-28</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-26-08-11-28</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title>Mon, 24 Jul 2023 18:56:27 +0200</title>
+        <author> ()</author>
+        <description><![CDATA[
+          
+          <p>Waiting game</p>
+
+          
+          <br />
+          <html><body>
+<p>Waiting game</p>
+</body></html>]]>
+        </description>
+        <pubDate>Mon, 24 Jul 2023 18:56:27 +0200</pubDate>
+        <link>http://localhost:4000/2023-07-24-18-56-27</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-24-18-56-27</guid>
+        
+          
+        
+        
+      </item>
     
       <item>
         <title>Sun, 23 Jul 2023 14:55:19 +0200</title>
@@ -24,8 +244,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 23 Jul 2023 14:55:19 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-23-14-55-19</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-23-14-55-19</guid>
+        <link>http://localhost:4000/2023-07-23-14-55-19</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-23-14-55-19</guid>
         
           
         
@@ -46,8 +266,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 23 Jul 2023 11:31:44 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-23-11-31-44</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-23-11-31-44</guid>
+        <link>http://localhost:4000/2023-07-23-11-31-44</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-23-11-31-44</guid>
         
           
         
@@ -68,8 +288,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 23 Jul 2023 10:33:24 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-23-10-33-24</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-23-10-33-24</guid>
+        <link>http://localhost:4000/2023-07-23-10-33-24</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-23-10-33-24</guid>
         
           
         
@@ -90,8 +310,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 21 Jul 2023 06:29:49 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-21-06-29-49</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-21-06-29-49</guid>
+        <link>http://localhost:4000/2023-07-21-06-29-49</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-21-06-29-49</guid>
         
           
         
@@ -112,8 +332,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 19 Jul 2023 19:30:29 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-19-19-30-29</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-19-19-30-29</guid>
+        <link>http://localhost:4000/2023-07-19-19-30-29</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-19-19-30-29</guid>
         
           
         
@@ -143,8 +363,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 19 Jul 2023 13:46:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-19-13-46-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-19-13-46-00</guid>
+        <link>http://localhost:4000/2023-07-19-13-46-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-19-13-46-00</guid>
         
           
         
@@ -165,8 +385,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 18 Jul 2023 23:35:19 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-18-23-35-19</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-18-23-35-19</guid>
+        <link>http://localhost:4000/2023-07-18-23-35-19</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-18-23-35-19</guid>
         
           
         
@@ -187,8 +407,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 17 Jul 2023 16:46:30 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-17-16-46-30</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-17-16-46-30</guid>
+        <link>http://localhost:4000/2023-07-17-16-46-30</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-17-16-46-30</guid>
         
           
         
@@ -209,8 +429,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 15 Jul 2023 23:36:32 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-15-23-36-32</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-15-23-36-32</guid>
+        <link>http://localhost:4000/2023-07-15-23-36-32</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-15-23-36-32</guid>
         
           
         
@@ -231,8 +451,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 15 Jul 2023 10:58:02 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-15-10-58-02</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-15-10-58-02</guid>
+        <link>http://localhost:4000/2023-07-15-10-58-02</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-15-10-58-02</guid>
         
           
         
@@ -253,8 +473,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 14 Jul 2023 21:55:27 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-14-21-55-27</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-14-21-55-27</guid>
+        <link>http://localhost:4000/2023-07-14-21-55-27</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-14-21-55-27</guid>
         
           
         
@@ -273,8 +493,8 @@
           ]]>
         </description>
         <pubDate>Fri, 14 Jul 2023 06:08:54 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-14-06-08-54</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-14-06-08-54</guid>
+        <link>http://localhost:4000/2023-07-14-06-08-54</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-14-06-08-54</guid>
         
           
         
@@ -295,8 +515,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 13 Jul 2023 00:43:39 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-13-00-43-39</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-13-00-43-39</guid>
+        <link>http://localhost:4000/2023-07-13-00-43-39</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-13-00-43-39</guid>
         
           
         
@@ -315,8 +535,8 @@
           ]]>
         </description>
         <pubDate>Wed, 12 Jul 2023 08:46:10 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-12-08-46-10</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-12-08-46-10</guid>
+        <link>http://localhost:4000/2023-07-12-08-46-10</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-12-08-46-10</guid>
         
           
         
@@ -337,8 +557,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Jul 2023 12:08:55 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-09-12-08-55</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-09-12-08-55</guid>
+        <link>http://localhost:4000/2023-07-09-12-08-55</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-09-12-08-55</guid>
         
           
         
@@ -359,8 +579,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 09 Jul 2023 09:27:09 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-09-09-27-09</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-09-09-27-09</guid>
+        <link>http://localhost:4000/2023-07-09-09-27-09</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-09-09-27-09</guid>
         
           
         
@@ -381,8 +601,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sat, 08 Jul 2023 13:03:05 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-08-13-03-05</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-08-13-03-05</guid>
+        <link>http://localhost:4000/2023-07-08-13-03-05</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-08-13-03-05</guid>
         
           
         
@@ -401,8 +621,8 @@
           ]]>
         </description>
         <pubDate>Sat, 08 Jul 2023 07:51:33 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-08-07-51-33</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-08-07-51-33</guid>
+        <link>http://localhost:4000/2023-07-08-07-51-33</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-08-07-51-33</guid>
         
           
         
@@ -421,8 +641,8 @@
           ]]>
         </description>
         <pubDate>Fri, 07 Jul 2023 13:06:23 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-07-13-06-23</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-07-13-06-23</guid>
+        <link>http://localhost:4000/2023-07-07-13-06-23</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-07-13-06-23</guid>
         
           
         
@@ -443,8 +663,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 07 Jul 2023 12:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-07-12-00-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-07-12-00-00</guid>
+        <link>http://localhost:4000/2023-07-07-12-00-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-07-12-00-00</guid>
         
           
         
@@ -465,8 +685,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 07 Jul 2023 09:48:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-07-09-48-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-07-09-48-00</guid>
+        <link>http://localhost:4000/2023-07-07-09-48-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-48-00</guid>
         
           
         
@@ -487,8 +707,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 07 Jul 2023 09:47:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-07-09-47-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-07-09-47-00</guid>
+        <link>http://localhost:4000/2023-07-07-09-47-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-47-00</guid>
         
           
         
@@ -509,8 +729,8 @@
 </body></html>]]>
         </description>
         <pubDate>Fri, 07 Jul 2023 09:46:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-07-09-46-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-07-09-46-00</guid>
+        <link>http://localhost:4000/2023-07-07-09-46-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-46-00</guid>
         
           
         
@@ -531,8 +751,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 06 Jul 2023 23:33:09 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-06-23-33-09</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-06-23-33-09</guid>
+        <link>http://localhost:4000/2023-07-06-23-33-09</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-06-23-33-09</guid>
         
           
         
@@ -553,8 +773,8 @@
 </body></html>]]>
         </description>
         <pubDate>Thu, 06 Jul 2023 06:13:34 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-06-06-13-34</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-06-06-13-34</guid>
+        <link>http://localhost:4000/2023-07-06-06-13-34</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-06-06-13-34</guid>
         
           
         
@@ -575,8 +795,8 @@
 </body></html>]]>
         </description>
         <pubDate>Wed, 05 Jul 2023 09:46:18 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-05-09-46-18</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-05-09-46-18</guid>
+        <link>http://localhost:4000/2023-07-05-09-46-18</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-05-09-46-18</guid>
         
           
         
@@ -597,8 +817,8 @@
 </body></html>]]>
         </description>
         <pubDate>Tue, 04 Jul 2023 20:26:08 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-04-20-26-08</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-04-20-26-08</guid>
+        <link>http://localhost:4000/2023-07-04-20-26-08</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-04-20-26-08</guid>
         
           
         
@@ -619,8 +839,8 @@
 </body></html>]]>
         </description>
         <pubDate>Mon, 03 Jul 2023 19:45:52 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-03-19-45-52</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-03-19-45-52</guid>
+        <link>http://localhost:4000/2023-07-03-19-45-52</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-03-19-45-52</guid>
         
           
         
@@ -641,8 +861,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 02 Jul 2023 21:10:44 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-02-21-10-44</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-02-21-10-44</guid>
+        <link>http://localhost:4000/2023-07-02-21-10-44</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-02-21-10-44</guid>
         
           
         
@@ -674,8 +894,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 02 Jul 2023 11:24:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-02-11-24-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-02-11-24-00</guid>
+        <link>http://localhost:4000/2023-07-02-11-24-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-02-11-24-00</guid>
         
           
         
@@ -698,8 +918,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 02 Jul 2023 09:54:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-02-09-54-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-02-09-54-00</guid>
+        <link>http://localhost:4000/2023-07-02-09-54-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-02-09-54-00</guid>
         
           
         
@@ -726,8 +946,8 @@
 </body></html>]]>
         </description>
         <pubDate>Sun, 02 Jul 2023 01:09:07 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-02-01-09-07</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-02-01-09-07</guid>
+        <link>http://localhost:4000/2023-07-02-01-09-07</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-02-01-09-07</guid>
         
           
         
@@ -754,8 +974,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Jul 2023 13:35:59 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-01-13-35-59</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-01-13-35-59</guid>
+        <link>http://localhost:4000/2023-07-01-13-35-59</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-01-13-35-59</guid>
         
           
         
@@ -776,8 +996,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Jul 2023 13:19:02 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-01-13-19-02</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-01-13-19-02</guid>
+        <link>http://localhost:4000/2023-07-01-13-19-02</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-01-13-19-02</guid>
         
           
         
@@ -798,8 +1018,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Sat, 01 Jul 2023 08:52:42 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-07-01-08-52-42</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-07-01-08-52-42</guid>
+        <link>http://localhost:4000/2023-07-01-08-52-42</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-07-01-08-52-42</guid>
         
           
         
@@ -828,8 +1048,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Thu, 29 Jun 2023 17:36:41 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-29-17-36-41</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-29-17-36-41</guid>
+        <link>http://localhost:4000/2023-06-29-17-36-41</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-06-29-17-36-41</guid>
         
           
         
@@ -857,8 +1077,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Fri, 23 Jun 2023 14:00:00 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-23-14-00-00</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-23-14-00-00</guid>
+        <link>http://localhost:4000/2023-06-23-14-00-00</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-06-23-14-00-00</guid>
         
           
         
@@ -879,8 +1099,8 @@ must be someplace other than in the body?”</p>
 </body></html>]]>
         </description>
         <pubDate>Wed, 14 Jun 2023 20:55:36 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-14-20-55-36</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-14-20-55-36</guid>
+        <link>http://localhost:4000/2023-06-14-20-55-36</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-06-14-20-55-36</guid>
         
           
         
@@ -899,8 +1119,8 @@ must be someplace other than in the body?”</p>
           ]]>
         </description>
         <pubDate>Wed, 14 Jun 2023 18:57:47 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-14-18-57-47</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-14-18-57-47</guid>
+        <link>http://localhost:4000/2023-06-14-18-57-47</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-06-14-18-57-47</guid>
         
           
         
@@ -919,226 +1139,8 @@ must be someplace other than in the body?”</p>
           ]]>
         </description>
         <pubDate>Fri, 09 Jun 2023 22:14:10 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-09-22-14-10</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-09-22-14-10</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Fri, 09 Jun 2023 15:40:51 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Space issues</p>
-
-          
-          <br />
-          <html><body>
-<p>Space issues</p>
-</body></html>]]>
-        </description>
-        <pubDate>Fri, 09 Jun 2023 15:40:51 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-09-15-40-51</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-09-15-40-51</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Mon, 05 Jun 2023 00:03:29 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>I wonder how much of a boomer it makes me that I use <em>red</em> hearts regardless of the social context in which I use them.</p>
-
-          
-          <br />
-          <html><body>
-<p>I wonder how much of a boomer it makes me that I use <em>red</em> hearts regardless of the social context in which I use them.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Mon, 05 Jun 2023 00:03:29 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-05-00-03-29</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-05-00-03-29</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sat, 03 Jun 2023 16:59:47 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Shehecheyanu</p>
-
-          
-          <br />
-          <html><body>
-<p>Shehecheyanu</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sat, 03 Jun 2023 16:59:47 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-03-16-59-47</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-03-16-59-47</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Thu, 01 Jun 2023 18:20:18 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>I’m not crying. You’re crying.</p>
-
-          
-          <br />
-          <html><body>
-<p>I’m not crying. You’re crying.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Thu, 01 Jun 2023 18:20:18 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-06-01-18-20-18</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-06-01-18-20-18</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sun, 28 May 2023 11:02:56 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Anja finished her ceramics class</p>
-
-          
-          <br />
-          <html><body>
-<p>Anja finished her ceramics class</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sun, 28 May 2023 11:02:56 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-28-11-02-56</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-28-11-02-56</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sat, 27 May 2023 09:42:33 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>It’s a cruel God who would end <em>Succession</em> and <em>Ted Lasso</em> in the same calendar year.</p>
-
-          
-          <br />
-          <html><body>
-<p>It’s a cruel God who would end <em>Succession</em> and <em>Ted Lasso</em> in the same calendar year.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sat, 27 May 2023 09:42:33 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-27-09-42-33</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-27-09-42-33</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sat, 27 May 2023 07:41:11 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Racism is the relief I feel when I’m woken up at 5 by a drunken fight because I see I won’t have to hear any racial slurs from the participants, who are Black.</p>
-
-          
-          <br />
-          <html><body>
-<p>Racism is the relief I feel when I’m woken up at 5 by a drunken fight because I see I won’t have to hear any racial slurs from the participants, who are Black.</p>
-</body></html>]]>
-        </description>
-        <pubDate>Sat, 27 May 2023 07:41:11 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-27-07-41-11</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-27-07-41-11</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Sat, 27 May 2023 06:39:51 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          
-
-          
-          <br />
-          ]]>
-        </description>
-        <pubDate>Sat, 27 May 2023 06:39:51 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-27-06-39-51</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-27-06-39-51</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Fri, 26 May 2023 07:33:20 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>90s aesthetic on pick-up day</p>
-
-          
-          <br />
-          <html><body>
-<p>90s aesthetic on pick-up day</p>
-</body></html>]]>
-        </description>
-        <pubDate>Fri, 26 May 2023 07:33:20 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-26-07-33-20</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-26-07-33-20</guid>
-        
-          
-        
-        
-      </item>
-    
-      <item>
-        <title>Fri, 26 May 2023 07:31:35 +0200</title>
-        <author> ()</author>
-        <description><![CDATA[
-          
-          <p>Second scene from Nascosto</p>
-
-          
-          <br />
-          <html><body>
-<p>Second scene from Nascosto</p>
-</body></html>]]>
-        </description>
-        <pubDate>Fri, 26 May 2023 07:31:35 +0200</pubDate>
-        <link>http://0.0.0.0:4000/2023-05-26-07-31-35</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023-05-26-07-31-35</guid>
+        <link>http://localhost:4000/2023-06-09-22-14-10</link>
+        <guid isPermaLink="true">http://localhost:4000/2023-06-09-22-14-10</guid>
         
           
         
