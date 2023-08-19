@@ -107,24 +107,26 @@
           Guestbook
         
       </h2>
-      <div>
-  <h2>Sign the guestbook</h2>
+      <html><body>
+<p>Guestbooks are back! Or well, kinda. I’m currently ironing out some technical details to get this guestbook to actually display the messages it receives. In the meantime, feel most free to leave a note for me.</p>
+</body></html>
 
+<section class="my-20">
   <form action="/submitted" name="guestbook" netlify netlify-honeypot="not-for-humans">
     <p style="display: none;">
       <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
     </p>
+    <p><label><input placeholder="Name" type="text" name="name" class="mt-5 form-input border-slate-200 w-full rounded" /></label></p>
+    <p><label><input placeholder="Website" type="url" name="website" class="mt-5 form-input border-slate-200 w-full rounded" /></label></p>
     <p>
-      <label>Name<br><input placeholder="Your name..." type="text" name="name" /></label>
+      <label><textarea placeholder="Message" name="message" class="mt-5 form-input border-slate-200 w-full rounded"></textarea></label>
     </p>
-    <p>
-      <label>Message<br><textarea name="message" placeholder="Your message..."></textarea></label>
-    </p>
-    <p>
+    <p class="text-right mt-5">
       <button type="submit">Submit</button>
     </p>
   </form>
-</div>
+</section>
+ 
 
 
 

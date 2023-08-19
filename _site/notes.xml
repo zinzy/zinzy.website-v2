@@ -1,31 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/notes.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/notes.xsl" type="text/xsl"?><html><body><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
   <channel>
     <title>Zinzy Waleson Geene - notes RSS</title>
     <description>This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</description>
-    <link>http://localhost:4000</link>
+    <link>http://localhost:4000
     <language></language>
     <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4000/notes.xml" rel="self" type="application/rss+xml" />
+    <link href="http://localhost:4000/notes.xml" rel="self" type="application/rss+xml">
     
     
       <item>
         <title>Thu, 17 Aug 2023 12:17:05 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Pride Week remnants</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Pride Week remnants</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 17 Aug 2023 12:17:05 +0200</pubDate>
-        <link>http://localhost:4000/2023-08-17-12-17-05</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-08-17-12-17-05</guid>
+        <pubdate>Thu, 17 Aug 2023 12:17:05 +0200</pubdate>
+        <link>http://localhost:4000/2023-08-17-12-17-05
+        <guid ispermalink="true">http://localhost:4000/2023-08-17-12-17-05</guid>
         
           
         
@@ -35,19 +33,19 @@
       <item>
         <title>Sat, 12 Aug 2023 06:14:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Whenever I listen to PJ Harvey, I get the sense her songs best reflect the personal life of Juliette Lewis.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Whenever I listen to PJ Harvey, I get the sense her songs best reflect the personal life of Juliette Lewis.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 12 Aug 2023 06:14:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-08-12-06-14-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-08-12-06-14-00</guid>
+        <pubdate>Sat, 12 Aug 2023 06:14:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-08-12-06-14-00
+        <guid ispermalink="true">http://localhost:4000/2023-08-12-06-14-00</guid>
         
           
         
@@ -57,19 +55,19 @@
       <item>
         <title>Wed, 09 Aug 2023 10:51:31 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Not entirely too long ago, Mark Zuckerberg said that he wrote a talk on his phone, and I’m struck by how mind-blowing that seemed at the time.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Not entirely too long ago, Mark Zuckerberg said that he wrote a talk on his phone, and I’m struck by how mind-blowing that seemed at the time.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 09 Aug 2023 10:51:31 +0200</pubDate>
-        <link>http://localhost:4000/2023-08-09-10-51-31</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-08-09-10-51-31</guid>
+        <pubdate>Wed, 09 Aug 2023 10:51:31 +0200</pubdate>
+        <link>http://localhost:4000/2023-08-09-10-51-31
+        <guid ispermalink="true">http://localhost:4000/2023-08-09-10-51-31</guid>
         
           
         
@@ -79,19 +77,19 @@
       <item>
         <title>Wed, 09 Aug 2023 00:12:13 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Someone once told me “it’s ‘dessert’ with double s because you always want more of it”, and I think about that person often.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Someone once told me “it’s ‘dessert’ with double s because you always want more of it”, and I think about that person often.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 09 Aug 2023 00:12:13 +0200</pubDate>
-        <link>http://localhost:4000/2023-08-09-00-12-13</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-08-09-00-12-13</guid>
+        <pubdate>Wed, 09 Aug 2023 00:12:13 +0200</pubdate>
+        <link>http://localhost:4000/2023-08-09-00-12-13
+        <guid ispermalink="true">http://localhost:4000/2023-08-09-00-12-13</guid>
         
           
         
@@ -101,21 +99,21 @@
       <item>
         <title>Sat, 29 Jul 2023 01:30:07 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Nobody: 
 Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise played Hannibal in <em>Silence of the Lambs</em>’ scene where he waltzes into Africa, he would’ve looked like you.”</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Nobody: 
 Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise played Hannibal in <em>Silence of the Lambs</em>’ scene where he waltzes into Africa, he would’ve looked like you.”</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 29 Jul 2023 01:30:07 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-29-01-30-07</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-29-01-30-07</guid>
+        <pubdate>Sat, 29 Jul 2023 01:30:07 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-29-01-30-07
+        <guid ispermalink="true">http://localhost:4000/2023-07-29-01-30-07</guid>
         
           
         
@@ -125,19 +123,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 28 Jul 2023 07:54:59 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Trying to put together a road trip playlist, but getting sufficiently distracted by the fact that The Smith were active for no longer than a mid-decade.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Trying to put together a road trip playlist, but getting sufficiently distracted by the fact that The Smith were active for no longer than a mid-decade.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 28 Jul 2023 07:54:59 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-28-07-54-59</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-28-07-54-59</guid>
+        <pubdate>Fri, 28 Jul 2023 07:54:59 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-28-07-54-59
+        <guid ispermalink="true">http://localhost:4000/2023-07-28-07-54-59</guid>
         
           
         
@@ -147,17 +145,17 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Thu, 27 Jul 2023 00:47:37 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Thu, 27 Jul 2023 00:47:37 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-27-00-47-37</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-27-00-47-37</guid>
+        <pubdate>Thu, 27 Jul 2023 00:47:37 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-27-00-47-37
+        <guid ispermalink="true">http://localhost:4000/2023-07-27-00-47-37</guid>
         
           
         
@@ -167,19 +165,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 26 Jul 2023 08:12:09 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
-          <p>For posterity, I’m archiving here that the <a href="https://amp.theguardian.com/culture/2023/jul/26/npc-tiktok-trend-ice-cream-so-good-gang-what-is-explained-pinky-doll">non-player character streaming trend on TikTok</a> is an example of why I love the weird-but-it’s-ours Internet.</p>
+          <p>For posterity, I’m archiving here that the <a href="https://amp.theguardian.com/culture/2023/jul/26/npc-tiktok-trend-ice-cream-so-good-gang-what-is-explained-pinky-doll" target="_blank">non-player character streaming trend on TikTok</a> is an example of why I love the weird-but-it’s-ours Internet.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>For posterity, I’m archiving here that the <a href="https://amp.theguardian.com/culture/2023/jul/26/npc-tiktok-trend-ice-cream-so-good-gang-what-is-explained-pinky-doll" target="_blank">non-player character streaming trend on TikTok</a> is an example of why I love the weird-but-it’s-ours Internet.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 26 Jul 2023 08:12:09 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-26-08-12-09</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-26-08-12-09</guid>
+        <pubdate>Wed, 26 Jul 2023 08:12:09 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-26-08-12-09
+        <guid ispermalink="true">http://localhost:4000/2023-07-26-08-12-09</guid>
         
           
         
@@ -189,19 +187,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 26 Jul 2023 08:11:28 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Metro stop with pretty blue</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Metro stop with pretty blue</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 26 Jul 2023 08:11:28 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-26-08-11-28</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-26-08-11-28</guid>
+        <pubdate>Wed, 26 Jul 2023 08:11:28 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-26-08-11-28
+        <guid ispermalink="true">http://localhost:4000/2023-07-26-08-11-28</guid>
         
           
         
@@ -211,19 +209,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Mon, 24 Jul 2023 18:56:27 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Waiting game</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Waiting game</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Mon, 24 Jul 2023 18:56:27 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-24-18-56-27</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-24-18-56-27</guid>
+        <pubdate>Mon, 24 Jul 2023 18:56:27 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-24-18-56-27
+        <guid ispermalink="true">http://localhost:4000/2023-07-24-18-56-27</guid>
         
           
         
@@ -233,19 +231,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 23 Jul 2023 14:55:19 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>“Surinamese is not slang”</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>“Surinamese is not slang”</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 23 Jul 2023 14:55:19 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-23-14-55-19</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-23-14-55-19</guid>
+        <pubdate>Sun, 23 Jul 2023 14:55:19 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-23-14-55-19
+        <guid ispermalink="true">http://localhost:4000/2023-07-23-14-55-19</guid>
         
           
         
@@ -255,19 +253,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 23 Jul 2023 11:31:44 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>On the playground, a dad rocks back and forth in a swing just slightly and stares into the distance while his child sits in the stroller. The parental leave coffee break.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>On the playground, a dad rocks back and forth in a swing just slightly and stares into the distance while his child sits in the stroller. The parental leave coffee break.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 23 Jul 2023 11:31:44 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-23-11-31-44</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-23-11-31-44</guid>
+        <pubdate>Sun, 23 Jul 2023 11:31:44 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-23-11-31-44
+        <guid ispermalink="true">http://localhost:4000/2023-07-23-11-31-44</guid>
         
           
         
@@ -277,19 +275,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 23 Jul 2023 10:33:24 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>In some life-imitating-art kind of way, England’s Prince George looks like Olivia Colman to me.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>In some life-imitating-art kind of way, England’s Prince George looks like Olivia Colman to me.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 23 Jul 2023 10:33:24 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-23-10-33-24</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-23-10-33-24</guid>
+        <pubdate>Sun, 23 Jul 2023 10:33:24 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-23-10-33-24
+        <guid ispermalink="true">http://localhost:4000/2023-07-23-10-33-24</guid>
         
           
         
@@ -299,19 +297,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 21 Jul 2023 06:29:49 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Bird on a bike</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Bird on a bike</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 21 Jul 2023 06:29:49 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-21-06-29-49</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-21-06-29-49</guid>
+        <pubdate>Fri, 21 Jul 2023 06:29:49 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-21-06-29-49
+        <guid ispermalink="true">http://localhost:4000/2023-07-21-06-29-49</guid>
         
           
         
@@ -321,19 +319,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 19 Jul 2023 19:30:29 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Just spotted a family of tourists, the dad one of those Pabst Blue Ribbon hipsters who’s now adulting. He wore a shirt that read “THE SMITHS”, accompanied by a black-and-white group photo of Will Smith with his wife and kids. Thought it was deeply hilarious.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Just spotted a family of tourists, the dad one of those Pabst Blue Ribbon hipsters who’s now adulting. He wore a shirt that read “THE SMITHS”, accompanied by a black-and-white group photo of Will Smith with his wife and kids. Thought it was deeply hilarious.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 19 Jul 2023 19:30:29 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-19-19-30-29</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-19-19-30-29</guid>
+        <pubdate>Wed, 19 Jul 2023 19:30:29 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-19-19-30-29
+        <guid ispermalink="true">http://localhost:4000/2023-07-19-19-30-29</guid>
         
           
         
@@ -343,13 +341,13 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 19 Jul 2023 13:46:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Hey Desi love, hope you’re well! As promised, here’s that overview of handy UX things:</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Hey Desi love, hope you’re well! As promised, here’s that overview of handy UX things:</p>
 
 <ul>
@@ -360,11 +358,11 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
 </ul>
 
 <p>Let’s use tomorrow to go into some more detail about how to put together a portfolio!</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 19 Jul 2023 13:46:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-19-13-46-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-19-13-46-00</guid>
+        <pubdate>Wed, 19 Jul 2023 13:46:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-19-13-46-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-19-13-46-00</guid>
         
           
         
@@ -374,19 +372,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Tue, 18 Jul 2023 23:35:19 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Excuse me, sir, but is that a threat?</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Excuse me, sir, but is that a threat?</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Tue, 18 Jul 2023 23:35:19 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-18-23-35-19</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-18-23-35-19</guid>
+        <pubdate>Tue, 18 Jul 2023 23:35:19 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-18-23-35-19
+        <guid ispermalink="true">http://localhost:4000/2023-07-18-23-35-19</guid>
         
           
         
@@ -396,19 +394,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Mon, 17 Jul 2023 16:46:30 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>A childhood dream came true today when my very first Polaroid camera came in the mail. The picture is slightly blurry, but it matches this dreary Monday.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>A childhood dream came true today when my very first Polaroid camera came in the mail. The picture is slightly blurry, but it matches this dreary Monday.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Mon, 17 Jul 2023 16:46:30 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-17-16-46-30</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-17-16-46-30</guid>
+        <pubdate>Mon, 17 Jul 2023 16:46:30 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-17-16-46-30
+        <guid ispermalink="true">http://localhost:4000/2023-07-17-16-46-30</guid>
         
           
         
@@ -418,19 +416,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sat, 15 Jul 2023 23:36:32 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Happy birthday, flower boy!</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Happy birthday, flower boy!</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 15 Jul 2023 23:36:32 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-15-23-36-32</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-15-23-36-32</guid>
+        <pubdate>Sat, 15 Jul 2023 23:36:32 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-15-23-36-32
+        <guid ispermalink="true">http://localhost:4000/2023-07-15-23-36-32</guid>
         
           
         
@@ -440,19 +438,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sat, 15 Jul 2023 10:58:02 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>I’m envious of teenagers who get to record their singing voices every day if they wanted to. I have a suspicion that I’m a better singer now than I was at 15, but I have no way of confirming it.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>I’m envious of teenagers who get to record their singing voices every day if they wanted to. I have a suspicion that I’m a better singer now than I was at 15, but I have no way of confirming it.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 15 Jul 2023 10:58:02 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-15-10-58-02</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-15-10-58-02</guid>
+        <pubdate>Sat, 15 Jul 2023 10:58:02 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-15-10-58-02
+        <guid ispermalink="true">http://localhost:4000/2023-07-15-10-58-02</guid>
         
           
         
@@ -462,19 +460,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 14 Jul 2023 21:55:27 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>For the reading list</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>For the reading list</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 14 Jul 2023 21:55:27 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-14-21-55-27</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-14-21-55-27</guid>
+        <pubdate>Fri, 14 Jul 2023 21:55:27 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-14-21-55-27
+        <guid ispermalink="true">http://localhost:4000/2023-07-14-21-55-27</guid>
         
           
         
@@ -484,17 +482,17 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 14 Jul 2023 06:08:54 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Fri, 14 Jul 2023 06:08:54 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-14-06-08-54</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-14-06-08-54</guid>
+        <pubdate>Fri, 14 Jul 2023 06:08:54 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-14-06-08-54
+        <guid ispermalink="true">http://localhost:4000/2023-07-14-06-08-54</guid>
         
           
         
@@ -504,19 +502,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Thu, 13 Jul 2023 00:43:39 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Finally we have them over to the house again, for the first time in what feels like a human life. One walks in smiling, the other bursts out in tears. “She’s pregnant” I think to myself. I’m right. For whatever godforsaken reason I see her as a submarine now. We talk without pausing, picking up from what could have been yesterday.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Finally we have them over to the house again, for the first time in what feels like a human life. One walks in smiling, the other bursts out in tears. “She’s pregnant” I think to myself. I’m right. For whatever godforsaken reason I see her as a submarine now. We talk without pausing, picking up from what could have been yesterday.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 13 Jul 2023 00:43:39 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-13-00-43-39</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-13-00-43-39</guid>
+        <pubdate>Thu, 13 Jul 2023 00:43:39 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-13-00-43-39
+        <guid ispermalink="true">http://localhost:4000/2023-07-13-00-43-39</guid>
         
           
         
@@ -526,17 +524,17 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 12 Jul 2023 08:46:10 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Wed, 12 Jul 2023 08:46:10 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-12-08-46-10</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-12-08-46-10</guid>
+        <pubdate>Wed, 12 Jul 2023 08:46:10 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-12-08-46-10
+        <guid ispermalink="true">http://localhost:4000/2023-07-12-08-46-10</guid>
         
           
         
@@ -546,19 +544,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 09 Jul 2023 12:08:55 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>New friend in the neighborhood</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>New friend in the neighborhood</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 09 Jul 2023 12:08:55 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-09-12-08-55</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-09-12-08-55</guid>
+        <pubdate>Sun, 09 Jul 2023 12:08:55 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-09-12-08-55
+        <guid ispermalink="true">http://localhost:4000/2023-07-09-12-08-55</guid>
         
           
         
@@ -568,19 +566,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 09 Jul 2023 09:27:09 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Looking at a picture of Elon Musk on The Guardian, and I need to do a triple take to see the caption does not, in fact, read “Elton John”. Sometimes, I feel like I’m in a live action dyslexia test.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Looking at a picture of Elon Musk on The Guardian, and I need to do a triple take to see the caption does not, in fact, read “Elton John”. Sometimes, I feel like I’m in a live action dyslexia test.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 09 Jul 2023 09:27:09 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-09-09-27-09</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-09-09-27-09</guid>
+        <pubdate>Sun, 09 Jul 2023 09:27:09 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-09-09-27-09
+        <guid ispermalink="true">http://localhost:4000/2023-07-09-09-27-09</guid>
         
           
         
@@ -590,19 +588,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sat, 08 Jul 2023 13:03:05 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Recital</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Recital</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 08 Jul 2023 13:03:05 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-08-13-03-05</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-08-13-03-05</guid>
+        <pubdate>Sat, 08 Jul 2023 13:03:05 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-08-13-03-05
+        <guid ispermalink="true">http://localhost:4000/2023-07-08-13-03-05</guid>
         
           
         
@@ -612,17 +610,17 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sat, 08 Jul 2023 07:51:33 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Sat, 08 Jul 2023 07:51:33 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-08-07-51-33</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-08-07-51-33</guid>
+        <pubdate>Sat, 08 Jul 2023 07:51:33 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-08-07-51-33
+        <guid ispermalink="true">http://localhost:4000/2023-07-08-07-51-33</guid>
         
           
         
@@ -632,17 +630,17 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 07 Jul 2023 13:06:23 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Fri, 07 Jul 2023 13:06:23 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-07-13-06-23</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-07-13-06-23</guid>
+        <pubdate>Fri, 07 Jul 2023 13:06:23 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-07-13-06-23
+        <guid ispermalink="true">http://localhost:4000/2023-07-07-13-06-23</guid>
         
           
         
@@ -652,19 +650,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 07 Jul 2023 12:00:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Thanks for the inspiration, Barry! I had a separate page for snapshots, but why not move them under Notes with the other IndieWeb post types?</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Thanks for the inspiration, Barry! I had a separate page for snapshots, but why not move them under Notes with the other IndieWeb post types?</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 07 Jul 2023 12:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-07-12-00-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-07-12-00-00</guid>
+        <pubdate>Fri, 07 Jul 2023 12:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-07-12-00-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-07-12-00-00</guid>
         
           
         
@@ -674,19 +672,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 07 Jul 2023 09:48:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Oops, used <code class="language-plaintext highlighter-rouge">u-like-of</code> instead of <code class="language-plaintext highlighter-rouge">in-reply-to</code>. Hopefully got it right this time.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Oops, used <code class="language-plaintext highlighter-rouge">u-like-of</code> instead of <code class="language-plaintext highlighter-rouge">in-reply-to</code>. Hopefully got it right this time.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 07 Jul 2023 09:48:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-07-09-48-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-48-00</guid>
+        <pubdate>Fri, 07 Jul 2023 09:48:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-07-09-48-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-07-09-48-00</guid>
         
           
         
@@ -696,19 +694,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 07 Jul 2023 09:47:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Using proper <code class="language-plaintext highlighter-rouge">in-reply-to</code> mark-up this time around. Note for Elliott and myself: I think I was mistaken about the Netlify build plugin not working.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Using proper <code class="language-plaintext highlighter-rouge">in-reply-to</code> mark-up this time around. Note for Elliott and myself: I think I was mistaken about the Netlify build plugin not working.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 07 Jul 2023 09:47:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-07-09-47-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-47-00</guid>
+        <pubdate>Fri, 07 Jul 2023 09:47:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-07-09-47-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-07-09-47-00</guid>
         
           
         
@@ -718,19 +716,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Fri, 07 Jul 2023 09:46:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
-          <p>Testing a simple webmention by talking to webmention.rocks’ <a href="https://webmention.rocks/test/1">Discovery Test #1</a>.</p>
+          <p>Testing a simple webmention by talking to webmention.rocks’ <a href="https://webmention.rocks/test/1" target="_blank">Discovery Test #1</a>.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Testing a simple webmention by talking to webmention.rocks’ <a href="https://webmention.rocks/test/1" target="_blank">Discovery Test #1</a>.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 07 Jul 2023 09:46:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-07-09-46-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-07-09-46-00</guid>
+        <pubdate>Fri, 07 Jul 2023 09:46:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-07-09-46-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-07-09-46-00</guid>
         
           
         
@@ -740,19 +738,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Thu, 06 Jul 2023 23:33:09 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>First office party</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>First office party</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 06 Jul 2023 23:33:09 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-06-23-33-09</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-06-23-33-09</guid>
+        <pubdate>Thu, 06 Jul 2023 23:33:09 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-06-23-33-09
+        <guid ispermalink="true">http://localhost:4000/2023-07-06-23-33-09</guid>
         
           
         
@@ -762,19 +760,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Thu, 06 Jul 2023 06:13:34 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Along came Poly</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Along came Poly</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 06 Jul 2023 06:13:34 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-06-06-13-34</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-06-06-13-34</guid>
+        <pubdate>Thu, 06 Jul 2023 06:13:34 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-06-06-13-34
+        <guid ispermalink="true">http://localhost:4000/2023-07-06-06-13-34</guid>
         
           
         
@@ -784,19 +782,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Wed, 05 Jul 2023 09:46:18 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Y’all remember MTV Unplugged?</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Y’all remember MTV Unplugged?</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 05 Jul 2023 09:46:18 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-05-09-46-18</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-05-09-46-18</guid>
+        <pubdate>Wed, 05 Jul 2023 09:46:18 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-05-09-46-18
+        <guid ispermalink="true">http://localhost:4000/2023-07-05-09-46-18</guid>
         
           
         
@@ -806,19 +804,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Tue, 04 Jul 2023 20:26:08 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Welcome, home</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Welcome, home</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Tue, 04 Jul 2023 20:26:08 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-04-20-26-08</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-04-20-26-08</guid>
+        <pubdate>Tue, 04 Jul 2023 20:26:08 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-04-20-26-08
+        <guid ispermalink="true">http://localhost:4000/2023-07-04-20-26-08</guid>
         
           
         
@@ -828,19 +826,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Mon, 03 Jul 2023 19:45:52 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Happy birthday, Gerimedica!</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Happy birthday, Gerimedica!</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Mon, 03 Jul 2023 19:45:52 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-03-19-45-52</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-03-19-45-52</guid>
+        <pubdate>Mon, 03 Jul 2023 19:45:52 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-03-19-45-52
+        <guid ispermalink="true">http://localhost:4000/2023-07-03-19-45-52</guid>
         
           
         
@@ -850,19 +848,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 02 Jul 2023 21:10:44 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>I am humbled to the fullest extent of the word by Bar Bario, where A. took me in a sheer stroke of luck, and where I felt Black in <em>so</em> the right way and where I made friends, and where I saw myself in everyone.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>I am humbled to the fullest extent of the word by Bar Bario, where A. took me in a sheer stroke of luck, and where I felt Black in <em>so</em> the right way and where I made friends, and where I saw myself in everyone.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 02 Jul 2023 21:10:44 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-02-21-10-44</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-02-21-10-44</guid>
+        <pubdate>Sun, 02 Jul 2023 21:10:44 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-02-21-10-44
+        <guid ispermalink="true">http://localhost:4000/2023-07-02-21-10-44</guid>
         
           
         
@@ -872,13 +870,13 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 02 Jul 2023 11:24:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Hey Ornella, as promised a small introduction into the world of personal knowledge management (PKM):</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Hey Ornella, as promised a small introduction into the world of personal knowledge management (PKM):</p>
 
 <ul>
@@ -891,11 +889,11 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
   <li>I think you may enjoy <a href="https://writingcooperative.com/note-taking-is-not-enough-knowledge-management-for-researchers-and-writers-319acec1fc2e" target="_blank">this article on PKM for researchers</a>
 </li>
 </ul>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 02 Jul 2023 11:24:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-02-11-24-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-02-11-24-00</guid>
+        <pubdate>Sun, 02 Jul 2023 11:24:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-02-11-24-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-02-11-24-00</guid>
         
           
         
@@ -907,19 +905,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 02 Jul 2023 09:54:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>I’m humbled by learning that my words are the introduction of someone else’s biography.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>I’m humbled by learning that my words are the introduction of someone else’s biography.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 02 Jul 2023 09:54:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-02-09-54-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-02-09-54-00</guid>
+        <pubdate>Sun, 02 Jul 2023 09:54:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-02-09-54-00
+        <guid ispermalink="true">http://localhost:4000/2023-07-02-09-54-00</guid>
         
           
         
@@ -935,19 +933,19 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sun, 02 Jul 2023 01:09:07 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>It feels cliché to phrase it like this, but I feel I witnessed a historic Keti Koti ceremony today, with a surprisingly genuine request for forgiveness by our king. It was a good year for me to finally understand my place in a holiday that’s part mine and part not. The ceremony made up for the hour-long wait in the half rain to get a sandwich for someone who had already gone home. Wan swit’ manspasi!</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>It feels cliché to phrase it like this, but I feel I witnessed a historic Keti Koti ceremony today, with a surprisingly genuine request for forgiveness by our king. It was a good year for me to finally understand my place in a holiday that’s part mine and part not. The ceremony made up for the hour-long wait in the half rain to get a sandwich for someone who had already gone home. Wan swit’ manspasi!</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 02 Jul 2023 01:09:07 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-02-01-09-07</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-02-01-09-07</guid>
+        <pubdate>Sun, 02 Jul 2023 01:09:07 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-02-01-09-07
+        <guid ispermalink="true">http://localhost:4000/2023-07-02-01-09-07</guid>
         
           
         
@@ -957,13 +955,13 @@ Me: “Sir, may I give you the weirdest compliment of your life? If Tom Cruise p
       <item>
         <title>Sat, 01 Jul 2023 13:35:59 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>How to care for the injured body,</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>How to care for the injured body,</p>
 
 <p>the kind of body that can’t hold
@@ -971,11 +969,11 @@ the content it is living?</p>
 
 <p>And where is the safest place when that place
 must be someplace other than in the body?”</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 01 Jul 2023 13:35:59 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-01-13-35-59</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-01-13-35-59</guid>
+        <pubdate>Sat, 01 Jul 2023 13:35:59 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-01-13-35-59
+        <guid ispermalink="true">http://localhost:4000/2023-07-01-13-35-59</guid>
         
           
         
@@ -985,19 +983,19 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Sat, 01 Jul 2023 13:19:02 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>“We have all the answers. It is the questions we do not know.”</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>“We have all the answers. It is the questions we do not know.”</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 01 Jul 2023 13:19:02 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-01-13-19-02</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-01-13-19-02</guid>
+        <pubdate>Sat, 01 Jul 2023 13:19:02 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-01-13-19-02
+        <guid ispermalink="true">http://localhost:4000/2023-07-01-13-19-02</guid>
         
           
         
@@ -1007,19 +1005,19 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Sat, 01 Jul 2023 08:52:42 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>Yesterday, someone asked if I’m Jewish, and I said “my partner’s Jewish, and because Judaism sometimes explains much better where I am theologically, I’m Jew-ish” and he said I sounded like most natural, well-rehearsed thing he has heard me say.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Yesterday, someone asked if I’m Jewish, and I said “my partner’s Jewish, and because Judaism sometimes explains much better where I am theologically, I’m Jew-ish” and he said I sounded like most natural, well-rehearsed thing he has heard me say.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 01 Jul 2023 08:52:42 +0200</pubDate>
-        <link>http://localhost:4000/2023-07-01-08-52-42</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-07-01-08-52-42</guid>
+        <pubdate>Sat, 01 Jul 2023 08:52:42 +0200</pubdate>
+        <link>http://localhost:4000/2023-07-01-08-52-42
+        <guid ispermalink="true">http://localhost:4000/2023-07-01-08-52-42</guid>
         
           
         
@@ -1029,13 +1027,13 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Thu, 29 Jun 2023 17:36:41 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
-          <p>Hey <a href="https://elliott.computer/">Elliott</a>, so lovely to have you over for coworking this afternoon! I love the way you think about UX; your artistic perspective is so valuable for the Internet and for web design, and you always make me see things from a new angle. Aside from the links I already shared with John and Maarten on <a href="/2023-06-23-14-00-00">June 23rd</a>, here’s some stuff I love:</p>
+          <p>Hey <a href="https://elliott.computer/" target="_blank">Elliott</a>, so lovely to have you over for coworking this afternoon! I love the way you think about UX; your artistic perspective is so valuable for the Internet and for web design, and you always make me see things from a new angle. Aside from the links I already shared with John and Maarten on <a href="/2023-06-23-14-00-00" target="_blank">June 23rd</a>, here’s some stuff I love:</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Hey <a href="https://elliott.computer/" target="_blank">Elliott</a>, so lovely to have you over for coworking this afternoon! I love the way you think about UX; your artistic perspective is so valuable for the Internet and for web design, and you always make me see things from a new angle. Aside from the links I already shared with John and Maarten on <a href="/2023-06-23-14-00-00" target="_blank">June 23rd</a>, here’s some stuff I love:</p>
 
 <ul>
@@ -1045,11 +1043,11 @@ must be someplace other than in the body?”</p>
 <a href="https://agilemanifesto.org/" target="_blank">Agile</a> and <a href="https://www.atlassian.com/agile/scrum" target="_blank">Scrum</a> are quite complex, and multi-interpretable, but <a href="https://www.nngroup.com/articles/lean-ux-agile-study-guide/" target="_blank">Nielsen Norman Group</a> has a few nice resources.</li>
   <li>When it comes to extraversion and “people-person”-ness, I think the UX industry is quite a good fit for those who aren’t those things. Like I said, your ability to create an icebreaker on the fly isn’t half as interesting as your ability to figure out what UX method can answer a specific question. This reminds me of <a href="https://vimeo.com/719000396/65193d4f26" target="_blank">a talk I attended at UXInsights Festival 2022</a>, which wasn’t about this topic per se, but about making UX research accessible for neurodivergent UX professionals. You might like it!</li>
 </ul>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 29 Jun 2023 17:36:41 +0200</pubDate>
-        <link>http://localhost:4000/2023-06-29-17-36-41</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-06-29-17-36-41</guid>
+        <pubdate>Thu, 29 Jun 2023 17:36:41 +0200</pubdate>
+        <link>http://localhost:4000/2023-06-29-17-36-41
+        <guid ispermalink="true">http://localhost:4000/2023-06-29-17-36-41</guid>
         
           
         
@@ -1059,13 +1057,13 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Fri, 23 Jun 2023 14:00:00 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
-          <p>Hey <a href="https://www.jboy.space/">John</a> and <a href="https://murb.nl/">Maarten</a>, thanks for meeting me for coffee! I loved nerding out with you two about IndieWeb stuff, personal sites, the red ThinkPad belly button, and what personal web projects we’re working on. As promised, here’s a list of things I wanted to share with you:</p>
+          <p>Hey <a href="https://www.jboy.space/" target="_blank">John</a> and <a href="https://murb.nl/" target="_blank">Maarten</a>, thanks for meeting me for coffee! I loved nerding out with you two about IndieWeb stuff, personal sites, the red ThinkPad belly button, and what personal web projects we’re working on. As promised, here’s a list of things I wanted to share with you:</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>Hey <a href="https://www.jboy.space/" target="_blank">John</a> and <a href="https://murb.nl/" target="_blank">Maarten</a>, thanks for meeting me for coffee! I loved nerding out with you two about IndieWeb stuff, personal sites, the red ThinkPad belly button, and what personal web projects we’re working on. As promised, here’s a list of things I wanted to share with you:</p>
 
 <ul>
@@ -1074,11 +1072,11 @@ must be someplace other than in the body?”</p>
 </ul>
 
 <p>I’ll spend some time in the next few weeks cleaning up my site. I’ll probably also try to establish some form of digital garden again.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 23 Jun 2023 14:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023-06-23-14-00-00</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-06-23-14-00-00</guid>
+        <pubdate>Fri, 23 Jun 2023 14:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023-06-23-14-00-00
+        <guid ispermalink="true">http://localhost:4000/2023-06-23-14-00-00</guid>
         
           
         
@@ -1088,19 +1086,19 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Wed, 14 Jun 2023 20:55:36 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           <p>While walking to grab coffee, my colleague tells me about the peculiarities of his seventeenth-century hat making ancestors, proud of the genealogical research his dad has done. After work, I google “Trans-Atlantic slave trade”, looking to see if I can spot my father’s generic colonist surname among those who made it back to his island. I can’t, of course.</p>
 
           
-          <br />
-          <html><body>
+          <br>
+          
 <p>While walking to grab coffee, my colleague tells me about the peculiarities of his seventeenth-century hat making ancestors, proud of the genealogical research his dad has done. After work, I google “Trans-Atlantic slave trade”, looking to see if I can spot my father’s generic colonist surname among those who made it back to his island. I can’t, of course.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 14 Jun 2023 20:55:36 +0200</pubDate>
-        <link>http://localhost:4000/2023-06-14-20-55-36</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-06-14-20-55-36</guid>
+        <pubdate>Wed, 14 Jun 2023 20:55:36 +0200</pubdate>
+        <link>http://localhost:4000/2023-06-14-20-55-36
+        <guid ispermalink="true">http://localhost:4000/2023-06-14-20-55-36</guid>
         
           
         
@@ -1110,17 +1108,17 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Wed, 14 Jun 2023 18:57:47 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Wed, 14 Jun 2023 18:57:47 +0200</pubDate>
-        <link>http://localhost:4000/2023-06-14-18-57-47</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-06-14-18-57-47</guid>
+        <pubdate>Wed, 14 Jun 2023 18:57:47 +0200</pubdate>
+        <link>http://localhost:4000/2023-06-14-18-57-47
+        <guid ispermalink="true">http://localhost:4000/2023-06-14-18-57-47</guid>
         
           
         
@@ -1130,17 +1128,17 @@ must be someplace other than in the body?”</p>
       <item>
         <title>Fri, 09 Jun 2023 22:14:10 +0200</title>
         <author> ()</author>
-        <description><![CDATA[
+        <description>&lt;![CDATA[
           
           
 
           
-          <br />
-          ]]>
+          <br>
+          ]]&gt;
         </description>
-        <pubDate>Fri, 09 Jun 2023 22:14:10 +0200</pubDate>
-        <link>http://localhost:4000/2023-06-09-22-14-10</link>
-        <guid isPermaLink="true">http://localhost:4000/2023-06-09-22-14-10</guid>
+        <pubdate>Fri, 09 Jun 2023 22:14:10 +0200</pubdate>
+        <link>http://localhost:4000/2023-06-09-22-14-10
+        <guid ispermalink="true">http://localhost:4000/2023-06-09-22-14-10</guid>
         
           
         
@@ -1148,4 +1146,4 @@ must be someplace other than in the body?”</p>
       </item>
     
   </channel>
-</rss>
+</rss></body></html>

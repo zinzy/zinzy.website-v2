@@ -3,9 +3,9 @@
 
 require 'httparty'
 
-NETLIFY_PERSONAL_ACCESS_TOKEN = your_netlify_access_token_here
-NETLIFY_SITE_ID =               your_netlify_site_id_here
-NETLIFY_FORM_ID =               your_netlify_form_id_here
+NETLIFY_PERSONAL_ACCESS_TOKEN = 'your_netlify_access_token_here'
+NETLIFY_SITE_ID =               'your_netlify_site_id_here'
+NETLIFY_FORM_ID =               'your_netlify_form_id_here'
 
 headers = {
   'Authorization': "Bearer #{NETLIFY_PERSONAL_ACCESS_TOKEN}"

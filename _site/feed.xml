@@ -1,20 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/feed.xsl" type="text/xsl"?><html><body><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</description>
-    <link>http://localhost:4000</link>
+    <link>http://localhost:4000
     <language></language>
     <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml">
     
     
       <item>
         <title>What Pride means to me in 2023</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p><a href="/2023/04/26/dear-nienke-you-should-have-a-website/" target="_blank">Nienke</a>, Mehdi, an anonymous friend, and I attend the annual Pride March. It’s the city’s first <a href="https://pride.amsterdam/en/pride-foundation/" target="_blank">two-week Pride festival in Amsterdam</a>, each week organized by a different organization. With a naturally intersectional and radically-inclusive interpretation of the term “queer”, I am pleased <a href="https://queer-amsterdam.org/" target="_blank">Queer Amsterdam</a> is taking care of the annual Pride Walk.</p>
 
 <p>On Friday, I tell colleagues over office drinks why we still need Pride. The fact that I had to write “an anonymous friend” instead of the name of a person I love and admire illustrates my point beautifully.</p>
@@ -41,11 +39,11 @@ NOW!</p>
 <p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1690043396/FullSizeRender_2_alxoze.jpg" alt="A person in a colorful jacket walks in a Pride march"></p>
 
 <!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1690043404/IMG_3947_nmdiap.jpg) -->
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 22 Jul 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/07/22/pride-walk-2023/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/07/22/pride-walk-2023/</guid>
+        <pubdate>Sat, 22 Jul 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/07/22/pride-walk-2023/
+        <guid ispermalink="true">http://localhost:4000/2023/07/22/pride-walk-2023/</guid>
         
           
         
@@ -69,8 +67,8 @@ NOW!</p>
       <item>
         <title>The blonde</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>At the end of the shopping street<br>
 for people who look like<br>
 they do in the magazines<br>
@@ -120,11 +118,11 @@ a little, too,<br>
 for reasons so bafflingly<br>
 unimportant to us<br>
 she could die from jealousy.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Fri, 14 Jul 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/07/14/the-blonde/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/07/14/the-blonde/</guid>
+        <pubdate>Fri, 14 Jul 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/07/14/the-blonde/
+        <guid ispermalink="true">http://localhost:4000/2023/07/14/the-blonde/</guid>
         
           
         
@@ -142,8 +140,8 @@ she could die from jealousy.</p>
       <item>
         <title>Week 27: Haven</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <ul>
   <li>This week, I attended my first Gerimedica party. It’s great to know I can expect a big celebration every year, and not just for the company’s sweet sixteen. It confirmed what I already know: great vibe, great taste, great people.</li>
   <li>I went to Bar Bario on Saturday for a meet-up called Hair Haven, which fosters connection between people with curly hair. Again, I was struck by how welcoming the space is. It’s a ridiculous feeling, being the norm there.</li>
@@ -154,11 +152,11 @@ she could die from jealousy.</p>
   <li>Anja had a very intense and short stint with <em>Call of Duty</em>, remarking on its evocative storytelling in the Cold War portion. She finished it, though, and the zombies turned om her off with such immediacy that she’s back to NBA.</li>
   <li>After hearing it only once, Billie Eilish’s “The 30th” is stuck in my head. She and her brother have a good thing going.</li>
 </ul>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 09 Jul 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/07/09/week-27/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/07/09/week-27/</guid>
+        <pubdate>Sun, 09 Jul 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/07/09/week-27/
+        <guid ispermalink="true">http://localhost:4000/2023/07/09/week-27/</guid>
         
           
         
@@ -184,8 +182,8 @@ she could die from jealousy.</p>
       <item>
         <title>Week 26: Keti Koti</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>Two months of onboarding have rushed by in a blink. The new job is absolutely wonderful: the people are great, the work is complex and important, and the office itself is perhaps the finest I’ve ever worked at. I joined this company because the challenges they have seemed interesting to me. I’m very pleased that, two months in, it’s difficult to think that, at one point in time, these challenges weren’t also mine. I’ve made the right decision.</p>
 
 <p>On Wednesday, I met two friends with whom I share a special history. The time we spent together resulted in many things. One of them was the tattoo on my left arm that say “WAT ER IS” (“what is there”). Spending my evening with them, sharing a meal, shedding a few tears, reminded me of why the tattoo is there.</p>
@@ -195,11 +193,11 @@ she could die from jealousy.</p>
 <p>In the afternoon we made our way to Museumplein for the Keti Koti festival. Upside: I got to eat cotton candy, twice, and we got to financially contribute to many great Black causes in the city. Downside: I spent way too much time in line for food with hundreds of other people.</p>
 
 <p>Reading! I finished a book. I have a track record of struggling to enjoy reading as a burnt-out lit major, but <a class="internal-link" href="/citizen-2015">Citizen (2015)</a> was easy to get through. It turns out I am enthusiast of the lyric essay genre. I picked up a book of poetry by Anton de Kom at Keti Koti, and I’m diving head-first into that.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sat, 01 Jul 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/07/01/week-26/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/07/01/week-26/</guid>
+        <pubdate>Sat, 01 Jul 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/07/01/week-26/
+        <guid ispermalink="true">http://localhost:4000/2023/07/01/week-26/</guid>
         
           
         
@@ -223,8 +221,8 @@ she could die from jealousy.</p>
       <item>
         <title>We all live in a white submersible</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. I check the news multiple times a day. I scoff at outlets that don’t deem it worthy of the front page. I also scoff at outlets that do. A media drama can antagonize me the way Adele disappoints me with her popularity.</p>
 
 <p>The fact that I’m part of a Titanic/<em>Titanic</em>-obsessed gaggle of netizens somehow has me convinced I’m not just procrastinating. Five men with money — sums of it — on their way to Titanic in a little titanium box, are lost at sea. To empathize, the world holds her breath.</p>
@@ -239,11 +237,11 @@ she could die from jealousy.</p>
 
 <p>I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. Like a mosquito it drowns out the other humming. Like a natural disaster it refrigerates the other stories, the puzzles I fear I will never solve.</p>
 
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
+        <pubdate>Thu, 22 Jun 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/
+        <guid ispermalink="true">http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
         
           
         
@@ -259,8 +257,8 @@ she could die from jealousy.</p>
       <item>
         <title>Dear Nienke, you should have a website</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>Every time I embark on a journey towards a published post about why it’s good to have a website, I get lost in the reality of personal details. Everyone has different reasons for believing something. Aiming to take them all into account doesn’t help me write anything that feels worthwhile and not like a derivative<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>It feels much more relevant to focus my attention on specific people. In this case I’m focusing my attention on you, Nienke. I think you should have a personal website. Let me tell you why.</p>
@@ -323,11 +321,11 @@ she could die from jealousy.</p>
     </li>
   </ol>
 </div>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Wed, 26 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
+        <pubdate>Wed, 26 Apr 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/
+        <guid ispermalink="true">http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
         
           
         
@@ -345,8 +343,8 @@ she could die from jealousy.</p>
       <item>
         <title>Maker's marks for King's Day</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>It’s late in the morning and I’m on my way to Gerimedica, the company’s I’m excited to be joining in May, which is next week already. I’m on my bike listening to an American podcast about the history of Dutch anarchist cycling culture.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> The scene could only be more Dutch if I had a frying pan with bitterballen on the back of my bike.</p>
 
 <p>The commute is wonderful: it takes me from the East side of Amsterdam via De Pijp and Vondelpark to perhaps the most beautiful building I’ve ever had the privilege of calling my office. I cross the river Amstel, enjoy the sun, and marvel at the preparations people have been making.</p>
@@ -368,11 +366,11 @@ she could die from jealousy.</p>
     </li>
   </ol>
 </div>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</guid>
+        <pubdate>Tue, 25 Apr 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/04/25/makers-marks-for-kings-day/
+        <guid ispermalink="true">http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</guid>
         
           
         
@@ -390,8 +388,8 @@ she could die from jealousy.</p>
       <item>
         <title>Come back to Chigaco</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-17_hcdwmk.jpg" alt=""></p>
 
 <p>Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There’s a boy in the park who’s walking around barefoot. Later we see him on a slack line. I like this scene; it tells me that summer is almost upon us.</p>
@@ -399,11 +397,11 @@ she could die from jealousy.</p>
 <p>I never seem skilled at enjoying whatever season is here. Instead I’m forever yearning for what’s just out of reach. On Javastraat I pass a travel agency, the target audience of which most certainly is concerned with visiting Morocco or Turkey during the summer months. Surprisingly, there’s a wide array of names that would inspire city trips around the world.</p>
 
 <p>Ever since I passed the agency, Andrew Bird’s <a href="https://www.youtube.com/watch?v=oecHq2neweA" target="_blank">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
+        <pubdate>Mon, 17 Apr 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/
+        <guid ispermalink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
         
           
         
@@ -421,8 +419,8 @@ she could die from jealousy.</p>
       <item>
         <title>Anja's ceramics course</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p>Today, Lemonade and I visited <a href="https://www.studiopansa.com/studio-pansa-amstel" target="_blank">Studio Pansa Amstel</a>, where Anja has spent the last seven Sundays learning how to work a ceramics wheel. It’s quite the adventure for her, and I love seeing her dive into a new field that’s so different from her day-to-day life and work. Their motto is “dirty hands, clear mind”, and that certainly seems to be the case for Anja.</p>
 
 <p>I saw dozens of gorgeous little cups in the making, each with a unique maker’s mark and the intricate details only found in things that were crafted by hands. I think I’ll sign up for one of Pansa’s courses myself some day.</p>
@@ -434,11 +432,11 @@ she could die from jealousy.</p>
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_2_k1jgtv.jpg" alt="" class="mb-5">
     </div>
 </div>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Sun, 16 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/16/anjas-ceramics-course/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/16/anjas-ceramics-course/</guid>
+        <pubdate>Sun, 16 Apr 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/04/16/anjas-ceramics-course/
+        <guid ispermalink="true">http://localhost:4000/2023/04/16/anjas-ceramics-course/</guid>
         
           
         
@@ -454,8 +452,8 @@ she could die from jealousy.</p>
       <item>
         <title>Meeting Yana and DJ</title>
         <author> ()</author>
-        <description><![CDATA[
-          <html><body>
+        <description>&lt;![CDATA[
+          
 <p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg" alt=""></p>
 
 <p>What I love most about today’s snapshot is the despair I can see in Lemonade’s eyes even when her entire body is a background blur. DJ is a calm 12-year-old dog, and Lemonade was thrilled to see another dog in our home for the first time, but her energy level was high enough that I eventually brought her back to her crate. It was right in time, too, because the afternoon light filling the living room made for a nice little portrait.</p>
@@ -463,11 +461,11 @@ she could die from jealousy.</p>
 <p>It was wonderful to welcome Yana into our home for the first time. When I hired her in the late Winter of 2022 as our newest UX designer, I knew there was something special about her. Now, well over a year later, I’m pleased to call her a friend. We caught up on career adventures, new trends in the design industry, and of course the joys of being a dog mom.</p>
 
 <p>After Yana and DJ left, Anja and I began winding down for the day. After dinner, we watched the latest episode of the final season of <em>Succession</em>, which may have been my favorite one yet. The characters on this show are so complex and candidly-written. I’m already low-key heartbroken that this show is going to end. At the same time, I’m also pleased to be alive to watch it unfold in real time.</p>
-</body></html>]]>
+]]&gt;
         </description>
-        <pubDate>Tue, 11 Apr 2023 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2023/04/11/meeting-yana-and-dj/</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/11/meeting-yana-and-dj/</guid>
+        <pubdate>Tue, 11 Apr 2023 00:00:00 +0200</pubdate>
+        <link>http://localhost:4000/2023/04/11/meeting-yana-and-dj/
+        <guid ispermalink="true">http://localhost:4000/2023/04/11/meeting-yana-and-dj/</guid>
         
           
         
@@ -483,4 +481,4 @@ she could die from jealousy.</p>
       </item>
     
   </channel>
-</rss>
+</rss></body></html>
