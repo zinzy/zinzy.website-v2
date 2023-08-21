@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="subpixel-antialiased text-gray-900">
+<html lang="en" class=" ">
   <head>
   <meta charset="UTF-8">
   <link rel="canonical" href="http://localhost:4000/_pages/" />
@@ -78,7 +78,7 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
-  <body class="p-6 md:py-20 mx-auto">  
+  <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-100">  
 
    
     <header>
@@ -87,7 +87,7 @@
 
   <nav class="mt-5">
     <ul class="list-none m-0 p-0">
-      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/now">Now</a></li>
       <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
       <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li> 
       <li class="inline-block"><a href="/more">More</a></li>
@@ -107,7 +107,7 @@
           
         
       </h2>
-      <section class="prose">
+      <section class="prose dark:prose-invert">
   <html><body>
 <p>Heya internet pal, welcome to my website. Consider it a quiet street on the Internet; a place for soft stances, lived experiences, and critical notes on the things I hold dear. I appreciate that you chose to visit this place. Thank you for your time.</p>
 
@@ -119,7 +119,13 @@
   <div class="">
     <h3 class="font-medium text-xl">Latest writing</h3>
       
-    <ul class="mt-5 divide-y">
+    <ul class="mt-5 divide-y dark:divide-slate-600">
+      
+      <li class="py-2">
+        <a href="/2023/08/17/norway-et-al/">
+          <span>Norway et al</span>
+          <time class="block md:inline-block md:ml-3 text-slate-500" datetime="17 Aug 2023">17 Aug 2023</time>
+        </a></li> 
       
       <li class="py-2">
         <a href="/2023/07/22/pride-walk-2023/">
@@ -143,12 +149,6 @@
         <a href="/2023/07/01/week-26/">
           <span>Week 26: Keti Koti</span>
           <time class="block md:inline-block md:ml-3 text-slate-500" datetime="1 Jul 2023">1 Jul 2023</time>
-        </a></li> 
-      
-      <li class="py-2">
-        <a href="/2023/06/22/we-all-live-in-a-white-submersible/">
-          <span>We all live in a white submersible</span>
-          <time class="block md:inline-block md:ml-3 text-slate-500" datetime="22 Jun 2023">22 Jun 2023</time>
         </a></li> 
        
     </ul>
@@ -205,6 +205,7 @@
     //To display the final no. of days (result)
     console.log(a);
     document.getElementById("sobriety").innerHTML = a + " days";
+
   </script>
  
 

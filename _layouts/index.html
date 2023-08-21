@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="prose">
+<section class="prose dark:prose-invert">
   {{content}}
 </section>
 
@@ -9,7 +9,7 @@ layout: default
   <div class="">
     <h3 class="font-medium text-xl">Latest writing</h3>
     {% assign diary = site.posts | sort: 'date' | reverse %}  
-    <ul class="mt-5 divide-y">
+    <ul class="mt-5 divide-y dark:divide-slate-600">
       {% for post in diary limit: 5 %}
       <li class="py-2">
         <a href="{{ post.url }}">

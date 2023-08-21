@@ -3,7 +3,7 @@ title: "Now"
 layout: page
 date: 2022-06-09
 ---
-This is a [Now](https://nownownow.com/) page. It contains what I'd tell a friend I hadn't seen in a year. I'm using it as a casual version of an about page. You should make a Now page for yourself. 
+This is a [Now](https://nownownow.com/) page. It contains what I'd tell a friend I hadn't seen in a year. I'm using it as a casual version of an [About](/about) page. You should make a Now page for yourself. 
 
 ✌🏽
 

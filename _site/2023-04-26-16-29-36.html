@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="subpixel-antialiased text-gray-900">
+<html lang="en" class=" ">
   <head>
   <meta charset="UTF-8">
   <link rel="canonical" href="http://localhost:4000/2023-04-26-16-29-36" />
@@ -81,7 +81,7 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
-  <body class="p-6 md:py-20 mx-auto">  
+  <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-100">  
 
    
     <header>
@@ -90,7 +90,7 @@
 
   <nav class="mt-5">
     <ul class="list-none m-0 p-0">
-      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/now">Now</a></li>
       <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
       <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li> 
       <li class="inline-block"><a href="/more">More</a></li>
@@ -117,8 +117,8 @@
   <ul class="notes">
       <li class="item">
 
-        <div class="border p-5 rounded">  
-          <div class="prose">
+        <div class="border dark:border-slate-600 p-5 rounded">  
+          <div class="prose dark:prose-invert">
             
           <p class="mt-0 u-in-reply-to">
             Replied to <a href="https://barryfrost.com/2023/04/homepage" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">https://barryfrost.com/2023/04/homepage</a>
@@ -140,23 +140,23 @@
         </div> 
 
           <footer class="text-sm">
-            <div class="border rounded mt-20">
+            <div class="border dark:border-slate-600 rounded mt-20">
               <div class="grid grid-cols-2">
-                <div class="border-r p-4">
+                <div class="border-r dark:border-r-slate-600 p-4">
                   
-                    <p class="text-slate-500">Older</p>
+                    <p class="text-slate-500 dark:text-slate-300">Older</p>
                     <a class="prev" href="/2023-04-26-12-53-00">26 Apr 2023 12:53</a>
                   
                 </div>
                 <div class="text-right p-4">
                   
-                    <p class="text-slate-500">Newer</p>
+                    <p class="text-slate-500 dark:text-slate-300">Newer</p>
                     <a class="next" href="/2023-04-27-07-50-32">27 Apr 2023  7:50</a>
                   
                 </div>
               </div> 
-              <div class="border-t p-4">
-                <h2 class="text-slate-500 font-normal">Join the conversation</h2>
+              <div class="border-t dark:border-t-slate-600 p-4">
+                <h2 class="text-slate-500 font-normal dark:text-slate-300">Join the conversation</h2>
                 <p><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>. I would love to read about your perspective.</p>
               </div>
                
@@ -230,6 +230,7 @@
     //To display the final no. of days (result)
     console.log(a);
     document.getElementById("sobriety").innerHTML = a + " days";
+
   </script>
  
 

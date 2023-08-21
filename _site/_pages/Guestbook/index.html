@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="subpixel-antialiased text-gray-900">
+<html lang="en" class=" ">
   <head>
   <meta charset="UTF-8">
   <link rel="canonical" href="http://localhost:4000/_pages/Guestbook/" />
@@ -78,7 +78,7 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
-  <body class="p-6 md:py-20 mx-auto">  
+  <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-100">  
 
    
     <header>
@@ -87,7 +87,7 @@
 
   <nav class="mt-5">
     <ul class="list-none m-0 p-0">
-      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/now">Now</a></li>
       <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
       <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li> 
       <li class="inline-block"><a href="/more">More</a></li>
@@ -116,11 +116,9 @@
     <p style="display: none;">
       <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
     </p>
-    <p><label><input placeholder="Name" type="text" name="name" class="mt-5 form-input border-slate-200 w-full rounded" /></label></p>
-    <p><label><input placeholder="Website" type="url" name="website" class="mt-5 form-input border-slate-200 w-full rounded" /></label></p>
-    <p>
-      <label><textarea placeholder="Message" name="message" class="mt-5 form-input border-slate-200 w-full rounded"></textarea></label>
-    </p>
+    <p><label><input placeholder="Name" type="text" name="name" class="mt-5 form-input border-slate-200 w-full rounded dark:bg-slate-700 dark:border-slate-600" /></label></p>
+    <p><label><input placeholder="Website" type="url" name="website" class="mt-5 form-input border-slate-200 w-full rounded dark:bg-slate-700 dark:border-slate-600" /></label></p>
+    <p><label><textarea placeholder="Message" name="message" class="mt-5 form-input border-slate-200 w-full rounded dark:bg-slate-700 dark:border-slate-600"></textarea></label></p>
     <p class="text-right mt-5">
       <button type="submit">Submit</button>
     </p>
@@ -176,6 +174,7 @@
     //To display the final no. of days (result)
     console.log(a);
     document.getElementById("sobriety").innerHTML = a + " days";
+
   </script>
  
 

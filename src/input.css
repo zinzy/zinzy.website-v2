@@ -60,8 +60,7 @@ body {
     100% { opacity: 0 }
     }
 
-.prose :where(a):not(:where([class~="not-prose"] *)) {
-    /* color: var(--tw-prose-links); */
+.prose :where(a):not(:where([class~="not-prose"] *)) { 
     text-decoration: underline;
     font-weight: 400;
     text-decoration-color: rgb(100 116 139);

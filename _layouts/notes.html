@@ -7,10 +7,10 @@ layout: default
 {% assign notes = site.notes | sort: 'date' | reverse %}  
 <ul class="">
   {% for post in notes %}
-  <li class="mt-20 border hover:border-slate-300 p-5 rounded transition duration-300 ease-in-out"> 
+  <li class="mt-20 border dark:border-slate-600 hover:border-slate-300 p-5 rounded transition duration-300 ease-in-out"> 
     <a href="{{post.url}}">
 
-    <div class="prose">  
+    <div class="prose dark:prose-invert">  
       {% if post.photo %}
         <img src="{{post.photo}}" alt="" class="mb-5">
       {% elsif post.replyTo %}

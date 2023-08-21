@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="subpixel-antialiased text-gray-900">
+<html lang="en" class=" ">
   <head>
   <meta charset="UTF-8">
   <link rel="canonical" href="http://localhost:4000/_pages/Site/" />
@@ -78,7 +78,7 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
-  <body class="p-6 md:py-20 mx-auto">  
+  <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-100">  
 
    
     <header>
@@ -87,7 +87,7 @@
 
   <nav class="mt-5">
     <ul class="list-none m-0 p-0">
-      <li class="inline-block mr-4"><a href="/about">About</a></li>
+      <li class="inline-block mr-4"><a href="/now">Now</a></li>
       <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
       <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li> 
       <li class="inline-block"><a href="/more">More</a></li>
@@ -107,7 +107,7 @@
           About this website
         
       </h2>
-      <article class="h-entry prose"> 
+      <article class="h-entry prose dark:prose-invert"> 
   <div id="notes-entry-container">
     <content class="e-content"> 
       <html><body>
@@ -133,9 +133,9 @@
 <ul>
   <li>Journal entries, some fleeting, some crafted with great focus, all of which are collected under <a href="/writing" target="_blank">Writing</a>
 </li>
-  <li>Short blurbs, reflections, reminders, and notes to friends, which I store in <a href="/notes" target="_blank">Notes</a>
+  <li>Short blurbs, reflections, reminders, and notes to friends, which I store in <a href="/changelog" target="_blank">my changelog</a>
 </li>
-  <li>Working notes of topics I think about frequently, collected in <a href="/resources" target="_blank">Resources</a>
+  <li>Working notes of topics I think about frequently, collected in <a href="/garden" target="_blank">my garden</a>
 </li>
 </ul>
 
@@ -173,10 +173,9 @@
   <li><del>Add library</del></li>
   <li><del>Apple shortcuts for IndieWeb likes</del></li>
   <li><del>Apple shortcuts for IndieWeb replies</del></li>
-  <li>Fix spacing issues on /Notes</li>
+  <li><del>Tailwindcss</del></li>
   <li>Add Netlify a11y plugin</li>
   <li>Auto POSSE to Mastodon</li>
-  <li>Tailwindcss</li>
   <li><a href="https://github.com/jekyll/jekyll-archives/pull/88" target="_blank">Universal tags for posts and notes</a></li>
   <li>Add second xml feed to <code class="language-plaintext highlighter-rouge">netlify-plugin-webmentions</code> (don’t know for sure that I want this)</li>
 </ul>
@@ -190,7 +189,7 @@
 </ul>
 
 <h3 id="most-recently">Most recently</h3>
-<p>This site was last deployed on Saturday, July 8, 2023.</p>
+<p>This site was last deployed on Monday, August 21, 2023.</p>
 </body></html>
     </content> 
   </div> 
@@ -246,6 +245,7 @@
     //To display the final no. of days (result)
     console.log(a);
     document.getElementById("sobriety").innerHTML = a + " days";
+
   </script>
  
 

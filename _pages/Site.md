@@ -21,8 +21,8 @@ When it comes down to it, this I know: I believe it's good to have a single webs
 ### Content
 There are three main content types on this website:
 - Journal entries, some fleeting, some crafted with great focus, all of which are collected under [Writing](/writing)
-- Short blurbs, reflections, reminders, and notes to friends, which I store in [Notes](/notes)
-- Working notes of topics I think about frequently, collected in [Resources](/resources)
+- Short blurbs, reflections, reminders, and notes to friends, which I store in [my changelog](/changelog)
+- Working notes of topics I think about frequently, collected in [my garden](/garden)
 
 ### Design
 Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. 
@@ -54,11 +54,10 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Backlinks from posts to notes~~
 - ~~Add library~~
 - ~~Apple shortcuts for IndieWeb likes~~ 
-- ~~Apple shortcuts for IndieWeb replies~~  
-- Fix spacing issues on /Notes
-- Add Netlify a11y plugin 
-- Auto POSSE to Mastodon  
-- Tailwindcss
+- ~~Apple shortcuts for IndieWeb replies~~ 
+- ~~Tailwindcss~~ 
+- Add Netlify a11y plugin
+- Auto POSSE to Mastodon
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add second xml feed to `netlify-plugin-webmentions` (don't know for sure that I want this)
 
@@ -68,4 +67,4 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 
 ### Most recently
-This site was last deployed on {{ page.last_modified_at | date: "%A, %B %-d, %Y" }}.
+This site was last deployed on {{ site.time | date: "%A, %B %-d, %Y" }}.

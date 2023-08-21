@@ -6,12 +6,12 @@ layout: default
   <div>
     {{content}} 
     {% assign diary = site.posts | sort: 'date' | reverse %}    
-    <ul class="mt-20 divide-y">
+    <ul class="mt-20 divide-y dark:divide-slate-600">
       {% for post in diary %}
       <li class="py-2">
         <a href="{{ post.url }}">
           <span>{{ post.title }}</span>
-          <time class="block md:inline-block md:ml-3 text-slate-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
+          <time class="block md:inline-block md:ml-3 text-slate-500 dark:text-gray:300" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
         </a></li> 
       {% endfor %} 
     </ul>

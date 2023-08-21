@@ -8,8 +8,8 @@ layout: default
   <ul class="notes">
       <li class="item">
 
-        <div class="border p-5 rounded">  
-          <div class="prose">
+        <div class="border dark:border-slate-600 p-5 rounded">  
+          <div class="prose dark:prose-invert">
             {% if page.photo %}
             <img src="{{page.photo}}" alt="" class="mb-5">
           {% elsif page.replyTo %}
@@ -35,23 +35,23 @@ layout: default
         </div> 
 
           <footer class="text-sm">
-            <div class="border rounded mt-20">
+            <div class="border dark:border-slate-600 rounded mt-20">
               <div class="grid grid-cols-2">
-                <div class="border-r p-4">
+                <div class="border-r dark:border-r-slate-600 p-4">
                   {% if page.previous.url %}
-                    <p class="text-slate-500">Older</p>
+                    <p class="text-slate-500 dark:text-slate-300">Older</p>
                     <a class="prev" href="{{page.previous.url}}">{{ page.previous.date | date: "%-d %b %Y %k:%M" }}</a>
                   {% endif %}
                 </div>
                 <div class="text-right p-4">
                   {% if page.next.url %}
-                    <p class="text-slate-500">Newer</p>
+                    <p class="text-slate-500 dark:text-slate-300">Newer</p>
                     <a class="next" href="{{page.next.url}}">{{ page.next.date | date: "%-d %b %Y %k:%M" }}</a>
                   {% endif %}
                 </div>
               </div> 
-              <div class="border-t p-4">
-                <h2 class="text-slate-500 font-normal">Join the conversation</h2>
+              <div class="border-t dark:border-t-slate-600 p-4">
+                <h2 class="text-slate-500 font-normal dark:text-slate-300">Join the conversation</h2>
                 <p><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me">email</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>. I would love to read about your perspective.</p>
               </div>
               {% if page.tags.size > 0 %} 
