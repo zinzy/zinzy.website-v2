@@ -63,12 +63,10 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/micro.xml"/>
 
   <title>
-    {% if page.path contains "_notes" %}
-      A note from {{ page.date | date: "%Y-%m-%d" }}
-      {% elsif page.path contains "_posts" or "_pages" %}
-        {{page.title}} - {{site.title}}
-      {% else %}
+    {% if page.title == "Index" %}
       {{site.title}}
+      {% else %}
+      {{page.title}} - {{site.title}}
     {% endif %}
   </title>
 

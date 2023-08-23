@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Index"
 layout: index
 ---
 Heya internet pal, welcome to my website. Consider it a quiet street on the Internet; a place for soft stances, lived experiences, and critical notes on the things I hold dear. I appreciate that you chose to visit this place. Thank you for your time.
