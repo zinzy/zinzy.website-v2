@@ -64,7 +64,6 @@ Copenhagen, _kubnhawn_ for the in-crowd, was a lot lighter, sunnier, and safer. 
 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260655/FullSizeRender_23_zsjphm.jpg">
 
 ### Some preliminary (mostly food-related) highlights from two weeks in Norway, Sweden, and Denmark
-
 - So far, not impressed with Norwegian bakeries
 - [Brunost](https://en.wikipedia.org/wiki/Brunost), however, is my new favorite snack.
 - The quiet atmosphere of the fjords in the Summer months is spectacular. We went days without seeing a person.
@@ -76,3 +75,8 @@ Copenhagen, _kubnhawn_ for the in-crowd, was a lot lighter, sunnier, and safer. 
 - Whatever positive things you've heard about Copenhagen's [Hija de Sanchez](https://lovesanchez.com/taquerias) are true
 - The Norwegian mountains have Karens just like any other place in the world
 - There's a [gas station in Gol, Norway](https://goo.gl/maps/PGBfQMjaHrvZguP78) that sells one of the finest soft-serve ice creams I've ever had
+
+### General vacation notes
+- I should get my driver's license
+- An icebox with proper cooling elements can go a long way
+- Vacuum-sealed cheese stays fine for at least two weeks (provided you have an icebox)
