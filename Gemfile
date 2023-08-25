@@ -14,6 +14,7 @@ gem 'jekyll-archives'
 gem 'jekyll-tagging'
 gem 'fastimage'
 gem 'jekyll-timeago'
+gem 'jekyll-external-links', :path => ".."
 # gem 'jekyll-toc'
 # gem 'jekyll-feed'
 gem 'jekyll-json-feed'

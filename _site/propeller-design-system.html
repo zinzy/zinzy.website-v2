@@ -92,10 +92,15 @@
 
   <nav class="mt-5">
     <ul class="list-none m-0 p-0">
-      <li class="inline-block mr-4"><a href="/about">About</a></li>
-      <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
-      <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li> 
-      <li class="inline-block"><a href="/more">More</a></li>
+      
+            <li class="inline-block mr-4"><a href="about">About</a></li>
+      
+            <li class="inline-block mr-4"><a href="writing">Writing</a></li>
+      
+            <li class="inline-block mr-4"><a href="changelog">Changelog</a></li>
+      
+            <li class="inline-block mr-4"><a href="more">More</a></li>
+      
     </ul>
   </nav>
 
@@ -120,8 +125,7 @@
     <p>When I joined Airtrade, one thing was quite clear: a democratized multi-brand design system built for the biggest brands in the travel industry would solve 99 of our problems.</p>
   </div>
 
-  <html><body>
-<div class="micro-header mb-2">A little context</div>
+  <div class="micro-header mb-2">A little context</div>
 <h2 id="airtrade-offers-a-suite-of-consumer-and-enterprise-travel-technology-products">Airtrade offers a suite of consumer and enterprise travel technology products</h2>
 
 <p>Over the course of twenty years, the company had established a strong name for itself with award-winning products, working with major players like KLM, Transavia, and D-reizen. Many of these products are white label, some B2B and others B2C.</p>
@@ -170,7 +174,7 @@
 <h6 id="challenge">Challenge</h6>
 <h3 id="build-a-flexible-democratized-design-system-for-17-brand-identities">Build a flexible, democratized design system for 17 brand identities</h3>
 
-<hr>
+<hr />
 
 <h6 id="inventory">Inventory</h6>
 <h3 id="taking-stock-of-all-the-visuals">Taking stock of all the visuals</h3>
@@ -178,16 +182,16 @@
 <p>While creating an inventory of the things we’d be eager to solve, I ran into all sorts of challenges: there were thousands of hard-coded color and size declarations, often the result of an incorrect application of the Bootstrap grid. Brand colors weren’t used consistently, and component variants seemed to be applied randomly. In short: the clear pattern was that there <em>was</em> no pattern.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-specificity_ptufc2.png" alt=""> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-hard-coded-colors_uwx76e.png" alt="" class="mt-5"> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-antipatterns_g3vtmm.png" alt="" class="mt-5"> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-specificity_ptufc2.png" alt="" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-hard-coded-colors_uwx76e.png" alt="" class="mt-5" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-antipatterns_g3vtmm.png" alt="" class="mt-5" /> 
 </div>
 
 <h4 id="going-rogue-on-existing-styleguides">Going rogue on existing styleguides</h4>
 <p>Research uncovered doubts among some users about the legitimacy of our white label products. Users would see one coherent style on a brand’s website, and then be directed to us and wonder out loud if they had landed on a dodgy website.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055075/Portfolio/Propeller%20Design%20System/prp-us-vs-them_p1sobb.png" alt=""> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055075/Portfolio/Propeller%20Design%20System/prp-us-vs-them_p1sobb.png" alt="" /> 
 </div>
 
 <h6 id="definitions">Definitions</h6>
@@ -196,19 +200,19 @@
 <p>Before we made any architectural decisions, I created a sturdy color palette, clear typographic definitions, and component bases to be used across all of our products. Keeping stakeholders in the loop helped me get early buy-in, helping them understand what results our choices would have for our products.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-color-variables_emltnr.png" alt=""> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-typography_llgt4k.png" alt="" class="mt-5"> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677066941/Portfolio/Propeller%20Design%20System/prp-component-base_1_xiukkw.png" alt="" class="mt-5"> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-color-variables_emltnr.png" alt="" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-typography_llgt4k.png" alt="" class="mt-5" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677066941/Portfolio/Propeller%20Design%20System/prp-component-base_1_xiukkw.png" alt="" class="mt-5" /> 
 </div>
 
 <h6 id="architecture">Architecture</h6>
 <h3 id="a-design-system-built-to-last">A design system built to last</h3>
-<p>While we were initially curious to see what <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank">Atomic Design</a> and <a href="https://patternlab.io/" target="_blank">Pattern Lab</a> could do for our design system, we soon learned that neither was meeting our needs. Our concerns had less to do with the granularity of interface elements and more with a growing number of brand identities.</p>
+<p>While we were initially curious to see what <a href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a> and <a href="https://patternlab.io/">Pattern Lab</a> could do for our design system, we soon learned that neither was meeting our needs. Our concerns had less to do with the granularity of interface elements and more with a growing number of brand identities.</p>
 
-<p>With its limited theming capacities at the time, <a href="https://storybook.js.org/" target="_blank">Storybook</a> didn’t make the cut either, even though we loved it. We placed a lot of value on the idea of centralized, democratized documentation available to anyone interested, and so on we went, like many developers before us, to create our own framework built in Angular.</p>
+<p>With its limited theming capacities at the time, <a href="https://storybook.js.org/">Storybook</a> didn’t make the cut either, even though we loved it. We placed a lot of value on the idea of centralized, democratized documentation available to anyone interested, and so on we went, like many developers before us, to create our own framework built in Angular.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-architecture_jkvtql.png" alt=""> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-architecture_jkvtql.png" alt="" /> 
 </div>
 
 <h6 id="build-stage">Build stage</h6>
@@ -219,8 +223,8 @@
 <p>For each of the components in our library I created high-fidelity blueprints per affiliate brand. While I wasn’t planning on delivering high-fidelity designs each time I worked on a feature, I wanted to have them at hand for changes our developers were going to carry out. <mark>For everyday design, we began to rely much more heavily on our wireframe library</mark>.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-themed-components_vvoxr3.png" alt=""> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png" class="mt-5" alt=""> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-themed-components_vvoxr3.png" alt="" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-flight-card_imc3sh.png" class="mt-5" alt="" /> 
 </div>
 
 <h6 id="documentation">Documentation</h6>
@@ -228,29 +232,29 @@
 <p>The central part of this entire endeavor was the fact that, at Airtrade, design had always been a joint effort, and that we should facilitate this accordingly. I hand-built a documentation system that was available to our designers, developers, internal stakeholders, and our clients alike. <mark>From the level of customization allowed for each component to best practices and interaction patterns, this documentation covered it all.</mark></p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-docs-welcome_swroyy.png" class="border" alt=""> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-docs-colors_k4lhsh.png" alt="" class="mt-5 border"> 
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-docs-design-tokens_ktbxmu.png" alt="" class="mt-5 border"> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-docs-welcome_swroyy.png" class="border" alt="" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-docs-colors_k4lhsh.png" alt="" class="mt-5 border" /> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055073/Portfolio/Propeller%20Design%20System/prp-docs-design-tokens_ktbxmu.png" alt="" class="mt-5 border" /> 
 </div>
 
 <h6 id="changing-patterns">Changing patterns</h6>
 <h3 id="a-process-to-update-the-design-system-sustainably">A process to update the design system sustainably</h3>
-<p>Borrowing from the work León Persson and the Canonical web team had been doing on their <a href="https://vanillaframework.io/" target="_blank">Vanilla framework</a>, we made sure that new ideas for patterns checked all the boxes before they were incorporated into Propeller.</p>
+<p>Borrowing from the work León Persson and the Canonical web team had been doing on their <a href="https://vanillaframework.io/">Vanilla framework</a>, we made sure that new ideas for patterns checked all the boxes before they were incorporated into Propeller.</p>
 
 <div class="hero">
-    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-vanilla_ie3jo2.png" class="border" alt=""> 
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677055074/Portfolio/Propeller%20Design%20System/prp-vanilla_ie3jo2.png" class="border" alt="" /> 
 </div>
 
 <h6 id="what-changed">What changed</h6>
 <h3 id="propeller-helped-us-launch-airtrades-design-department-as-a-force-for-good">Propeller helped us launch Airtrade’s design department as a force for good</h3>
 <p>Drastically reducing design cycle time, Propeller Design System gave designers and stakeholders the tools to have the right conversations. What’s more, the number of deliverables required to get a feature ready for sign-off went from 15+ to two or three. The artefacts I and eventually other designers used to do our work were well-documented, reusable, and proved valuable years down the line.</p>
 
-<hr>
+<hr />
 
 <h6 id="what-i-learned">What I learned</h6>
 <h3 id="how-to-think-holistically-about-a-product-suite-while-managing-opinionated-stakeholders">How to think holistically about a product suite while managing opinionated stakeholders</h3>
 <p>My time at Airtrade in general, and this project specifically taught me volumes on how to be effective at stakeholder management, and how to coach my coworkers in design thinking. Propeller showed me how to remain on-brand without neglecting design priorities. I also learned that frameworks are great, but only if you know how to use them to your advantage.</p>
-</body></html>
+
 
 
 </article>
@@ -261,7 +265,7 @@
 
   <div class="flex items-stretch">
     <div class="grow">    
-      &copy; 1999 - 2023 <a href="/about">Zinzy Waleson Geene</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">BY-NC-SA</a>
+      &copy; 1997 - 2023 <a href="/about">Zinzy Waleson Geene</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">BY-NC-SA</a>
     </div>
     <div class="flex-none self-end">
       <div class="">

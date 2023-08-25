@@ -3,13 +3,12 @@ layout: default
 ---
 {{content}}
 
-<section class="my-20">
-  {% assign doclist = site.data.more.links | sort: 'title'  %}
+<section class="my-10"> 
   <div class="grid grid-cols-3 gap-4">
-  {% for item in doclist %}
-      <div class="">
-        <a href="{{ item.url }}" class="bg-slate-50 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 rounded">{{ item.icon }} <span class="inline-block ml-3">{{ item.title }}</span></a>
-      </div> 
+  {% for item in site.data.menu-more %}
+  <a href="{{ item.url }}" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
+    {{ item.icon }} <span class="inline-block ml-3">{{ item.title }}</span>
+  </a>
   {% endfor %}
   </div>
 </section>

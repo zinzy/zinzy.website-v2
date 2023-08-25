@@ -1,31 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/feed.xsl" type="text/xsl"?><html><body><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="">
   <channel>
     <title>Zinzy Waleson Geene - RSS</title>
     <description>This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.</description>
-    <link>http://localhost:4000
+    <link>http://localhost:4000</link>
     <language></language>
     <copyright>http://localhost:4000/colophon/#copyright</copyright>
-    <link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml">
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
         <title>Week 33: Landing</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<ul>
+        <description><![CDATA[
+          <ul>
   <li>The first week back at work is fairly quiet, I even found myself on the verge of boredom at one point. Organically, this makes me feel bad, but I remind myself that weeks before and after holidays tend to have this effect on my life. I tell myself I’m just landing.</li>
   <li>No one can convince me the municipality of Amsterdam <em>isn’t</em> using major construction projects to show tourists how crap the city can be. On Sunday, I go for a long bike ride to Amsterdamse Bos and back, and crossing the Berlagebrug I’m struck by how quiet the street is without cars racing by. I like it.</li>
   <li>I finished watching <em><span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  The Righteous Gemstones  <span class="invalid-link-brackets"></span></span></em>, and I miss them already.</li>
   <li>Anja’s still off for the summer, and I’m watching her slowly recover from being my personal chauffeur for two weeks</li>
-  <li>The Summer makes me not want to cook. It’s no help that I’m using <a href="https://anneliewambeek.com/" target="_blank">Annelie</a>’s apartment to work while she’s travelling, and that I use the occasion to order poke bowls for lunch. I’m surprised by the quality of <a href="https://pokeperfect.nl/en/amsterdam/linnaeusstraat/" target="_blank">Poke Perfect</a>’s teriyaki chicken bowl, extra edamame.</li>
+  <li>The Summer makes me not want to cook. It’s no help that I’m using <a href="https://anneliewambeek.com/">Annelie</a>’s apartment to work while she’s travelling, and that I use the occasion to order poke bowls for lunch. I’m surprised by the quality of <a href="https://pokeperfect.nl/en/amsterdam/linnaeusstraat/">Poke Perfect</a>’s teriyaki chicken bowl, extra edamame.</li>
   <li>I’m reading and enjoying Robin Meyer’s <em><span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  Saving Jesus From the Church  <span class="invalid-link-brackets"></span></span></em>, a tool to make my interest in <span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  orthopraxy  <span class="invalid-link-brackets"></span></span> more tangible.</li>
 </ul>
-]]&gt;
+]]>
         </description>
-        <pubdate>Sun, 20 Aug 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/08/20/week-33/
-        <guid ispermalink="true">http://localhost:4000/2023/08/20/week-33/</guid>
+        <pubDate>Sun, 20 Aug 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/08/20/week-33/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/08/20/week-33/</guid>
         
           
         
@@ -47,9 +48,8 @@
       <item>
         <title>Norway et al</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260659/IMG_4735_mxgbxc.jpg"></p>
+        <description><![CDATA[
+          <p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260659/IMG_4735_mxgbxc.jpg" /></p>
 
 <p>After two weeks in Scandinavia, it’s clear: we are both too Dutch for proper recycling. Secretly hoarding our trash to avoid a reprimanding from our AirBnb host as he hovers over his six-compartment recycling bin, we continue our trip from rural Sweden to Copenhagen looking for a public recycling station.</p>
 
@@ -63,57 +63,55 @@
 
 <p>By now, we’re home again, back from our first proper vacation in four years, and boy oh boy, did we need it.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260665/IMG_5143_zgqdss.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260665/IMG_5143_zgqdss.jpg" /></p>
 
 <p>Our plan was simple: make Anja’s dream come true by renting a Tesla, drive it to Norway, do nothing there for a week, and then spend another week slowly making our way back via the Swedish countryside, and Copenhagen, where our friends live.</p>
 
 <p>After two long, well-airconditioned days in our wonderful car we made it to Eastern Norway. In Hallingdal, one of the country’s most popular ski destinations, we found a beautiful and cozy cabin on top of a mountain, overlooking the Tisleifjorden. To our surprise, it proved the perfect getaway for people who didn’t really want to… <em>do</em> anything.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260664/IMG_4771_w0rdef.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260664/IMG_4771_w0rdef.jpg" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260657/IMG_4764_wegskx.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260657/IMG_4764_wegskx.jpg" /></p>
 
-<p>It’s indeed exquisite, the Norwegian faith in our human ability to treat nature with respect. Quietly, it makes an enormous difference. The difference is in the shared understanding of where we leave our trash. It’s in the thousands of cabins spread out across the country, <a href="https://english.dnt.no/" target="_blank">where travellers can stay for next to nothing</a>. It’s in the fire wood left behind in the <a href="https://www.facebook.com/golsfjelletvest/posts/pfbid021q9V7g4XeKd5Wz3QfEbxmsBHWVYmEHEb9mqBT4mn1F34SUCe8LoafcfE6fE61pQBl?locale=nl_NL" target="_blank">freely-accessible <em>grillhytte</em></a>. It’s in the canoe that just lays by the water, available to anyone.</p>
+<p>It’s indeed exquisite, the Norwegian faith in our human ability to treat nature with respect. Quietly, it makes an enormous difference. The difference is in the shared understanding of where we leave our trash. It’s in the thousands of cabins spread out across the country, <a href="https://english.dnt.no/">where travellers can stay for next to nothing</a>. It’s in the fire wood left behind in the <a href="https://www.facebook.com/golsfjelletvest/posts/pfbid021q9V7g4XeKd5Wz3QfEbxmsBHWVYmEHEb9mqBT4mn1F34SUCe8LoafcfE6fE61pQBl?locale=nl_NL">freely-accessible <em>grillhytte</em></a>. It’s in the canoe that just lays by the water, available to anyone.</p>
 
 <p>“You don’t even really have to lock your doors”, one fisherman commented while teaching his son to throw a line.</p>
 
 <p>We never kept our doors unlocked, of course. The city is embedded in our system too deeply, as were the countless “cabin in the woods” movie plots I remembered. If anything, though, it helped us pause, listen to the sound of nothing, and listen to our bodies, which were telling us to take that second nap of the day.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260657/FullSizeRender_6_wlkfj3.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260657/FullSizeRender_6_wlkfj3.jpg" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260666/IMG_4778_fm3g1i.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260666/IMG_4778_fm3g1i.jpg" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260656/FullSizeRender_1_ci1pqv.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260656/FullSizeRender_1_ci1pqv.jpg" /></p>
 
 <p>On Sunday, one day earlier than intended, we swiftly packed the car and drove all night to Lidköping, by Vänern, Sweden’s largest lake. While we’d been napping and relaxing, the world was reading the headlines about Storm Hans, a twice-a-century type of storm that would’ve gotten us stuck on that mountain if we hadn’t left when we did. That three hours of driving through landslide-prone mountains wasn’t going to be pleasant, even in a well-heated Tesla.</p>
 
 <p>The clouds were low as we drove off.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260661/IMG_5247_q6xbsb.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260661/IMG_5247_q6xbsb.jpg" /></p>
 
 <p>Copenhagen, <em>kubnhawn</em> for the in-crowd, was a lot lighter, sunnier, and safer. We stayed with Naomi, Shlomik and little Goldie. Their cute, young family, the house, and the fact that were surrounded by thousands of people everywhere we went, was everything I needed after the quiet Norwegian fjords. One day exploring the city was enough to convince me: I need to visit again.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260654/IMG_5556_zetoqz.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260654/IMG_5556_zetoqz.jpg" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260660/FullSizeRender_24_or4mju.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260660/FullSizeRender_24_or4mju.jpg" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260655/FullSizeRender_23_zsjphm.jpg"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260655/FullSizeRender_23_zsjphm.jpg" /></p>
 
 <h3 id="some-preliminary-mostly-food-related-highlights-from-two-weeks-in-norway-sweden-and-denmark">Some preliminary (mostly food-related) highlights from two weeks in Norway, Sweden, and Denmark</h3>
 <ul>
   <li>So far, not impressed with Norwegian bakeries</li>
-  <li>
-<a href="https://en.wikipedia.org/wiki/Brunost" target="_blank">Brunost</a>, however, is my new favorite snack.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Brunost">Brunost</a>, however, is my new favorite snack.</li>
   <li>The quiet atmosphere of the fjords in the Summer months is spectacular. We went days without seeing a person.</li>
-  <li>
-<a href="https://www.polarbrod.se/" target="_blank">Polarbröd</a> remains amazing, and next to jubileumskaka I now also love hällakaka</li>
+  <li><a href="https://www.polarbrod.se/">Polarbröd</a> remains amazing, and next to jubileumskaka I now also love hällakaka</li>
   <li>Sheep are scarier than I thought they would be</li>
   <li>Lemonade appears to possess a strong instinct for herding sheep</li>
   <li>Copenhagen gives hints of The Hague, Berlin, Paris, and Amsterdam</li>
   <li>They weren’t lying about mountain air</li>
-  <li>Whatever positive things you’ve heard about Copenhagen’s <a href="https://lovesanchez.com/taquerias" target="_blank">Hija de Sanchez</a> are true</li>
+  <li>Whatever positive things you’ve heard about Copenhagen’s <a href="https://lovesanchez.com/taquerias">Hija de Sanchez</a> are true</li>
   <li>The Norwegian mountains have Karens just like any other place in the world</li>
-  <li>There’s a <a href="https://goo.gl/maps/PGBfQMjaHrvZguP78" target="_blank">gas station in Gol, Norway</a> that sells one of the finest soft-serve ice creams I’ve ever had</li>
+  <li>There’s a <a href="https://goo.gl/maps/PGBfQMjaHrvZguP78">gas station in Gol, Norway</a> that sells one of the finest soft-serve ice creams I’ve ever had</li>
 </ul>
 
 <h3 id="general-vacation-notes">General vacation notes</h3>
@@ -122,11 +120,11 @@
   <li>An icebox with proper cooling elements can go a long way</li>
   <li>Vacuum-sealed cheese stays fine for at least two weeks (provided you have an icebox)</li>
 </ul>
-]]&gt;
+]]>
         </description>
-        <pubdate>Thu, 17 Aug 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/08/17/norway-et-al/
-        <guid ispermalink="true">http://localhost:4000/2023/08/17/norway-et-al/</guid>
+        <pubDate>Thu, 17 Aug 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/08/17/norway-et-al/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/08/17/norway-et-al/</guid>
         
           
         
@@ -144,9 +142,8 @@
       <item>
         <title>What Pride means to me in 2023</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p><a href="/2023/04/26/dear-nienke-you-should-have-a-website/" target="_blank">Nienke</a>, Mehdi, an anonymous friend, and I attend the annual Pride March. It’s the city’s first <a href="https://pride.amsterdam/en/pride-foundation/" target="_blank">two-week Pride festival in Amsterdam</a>, each week organized by a different organization. With a naturally intersectional and radically-inclusive interpretation of the term “queer”, I am pleased <a href="https://queer-amsterdam.org/" target="_blank">Queer Amsterdam</a> is taking care of the annual Pride Walk.</p>
+        <description><![CDATA[
+          <p><a href="/2023/04/26/dear-nienke-you-should-have-a-website/">Nienke</a>, Mehdi, an anonymous friend, and I attend the annual Pride March. It’s the city’s first <a href="https://pride.amsterdam/en/pride-foundation/">two-week Pride festival in Amsterdam</a>, each week organized by a different organization. With a naturally intersectional and radically-inclusive interpretation of the term “queer”, I am pleased <a href="https://queer-amsterdam.org/">Queer Amsterdam</a> is taking care of the annual Pride Walk.</p>
 
 <p>On Friday, I tell colleagues over office drinks why we still need Pride. The fact that I had to write “an anonymous friend” instead of the name of a person I love and admire illustrates my point beautifully.</p>
 
@@ -157,26 +154,26 @@
 <p>The intersection of queerdom, the way it interacts with ethnicity, religion, ability, neurodivergence, age, education, and location, is why I’m here today. Why I’m here at all. Mehdi, who has never attended a Pride event in his life, learns to shout along:</p>
 
 <blockquote>
-  <p>What do we want?<br>
-TRANS RIGHTS!<br>
-When do we want them?<br>
+  <p>What do we want?<br />
+TRANS RIGHTS!<br />
+When do we want them?<br />
 NOW!</p>
 </blockquote>
 
-<p>The speeches this year spark my interest. <a href="https://pride.amsterdam/ambassadors/tieneke-sumter/" target="_blank">Tieneke</a> talks about consent, an oft-overlooked point of concern in our queer communities. Someone whose name I forgot talks about bisexuality. I remember how unsettling it was as a young adult that people told me I was “in transit”, on my way to being either gay or straight.</p>
+<p>The speeches this year spark my interest. <a href="https://pride.amsterdam/ambassadors/tieneke-sumter/">Tieneke</a> talks about consent, an oft-overlooked point of concern in our queer communities. Someone whose name I forgot talks about bisexuality. I remember how unsettling it was as a young adult that people told me I was “in transit”, on my way to being either gay or straight.</p>
 
 <p>I’m here today shouting for myself, a little bit, but also to engage in the praxis of allyship which is by default an aspirational habit: doing the things we know to be right, without determining for other people whether we can call ourselves their allies.</p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1690043403/FullSizeRender_qbh0ze.jpg" alt="A person in a trenchcoat and a hat looks on as a Pride march walks by, photographing the event"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1690043403/FullSizeRender_qbh0ze.jpg" alt="A person in a trenchcoat and a hat looks on as a Pride march walks by, photographing the event" /></p>
 
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1690043396/FullSizeRender_2_alxoze.jpg" alt="A person in a colorful jacket walks in a Pride march"></p>
+<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1690043396/FullSizeRender_2_alxoze.jpg" alt="A person in a colorful jacket walks in a Pride march" /></p>
 
 <!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1690043404/IMG_3947_nmdiap.jpg) -->
-]]&gt;
+]]>
         </description>
-        <pubdate>Sat, 22 Jul 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/07/22/pride-walk-2023/
-        <guid ispermalink="true">http://localhost:4000/2023/07/22/pride-walk-2023/</guid>
+        <pubDate>Sat, 22 Jul 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/07/22/pride-walk-2023/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/07/22/pride-walk-2023/</guid>
         
           
         
@@ -200,62 +197,61 @@ NOW!</p>
       <item>
         <title>The blonde</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p>At the end of the shopping street<br>
-for people who look like<br>
-they do in the magazines<br>
-there’s a blonde marching in place waiting<br>
-for the light to turn green.<br>
-She is not running per se, rather<br>
-she’s hinting at running.<br>
-Selling it, the way<br>
-Charlize Theron sells<br>
-a night to remember in a perfume commercial<br>
+        <description><![CDATA[
+          <p>At the end of the shopping street<br />
+for people who look like<br />
+they do in the magazines<br />
+there’s a blonde marching in place waiting<br />
+for the light to turn green.<br />
+She is not running per se, rather<br />
+she’s hinting at running.<br />
+Selling it, the way<br />
+Charlize Theron sells<br />
+a night to remember in a perfume commercial<br />
 with next to nothing for evidence.</p>
 
-<p>Me, a tired mother,<br>
-and a tennis player with wet hair<br>
-stare at the blonde,<br>
-one more covertly than<br>
-the others.<br>
-I know not to tilt my head<br>
-when encounting something<br>
-in which the world tells me<br>
+<p>Me, a tired mother,<br />
+and a tennis player with wet hair<br />
+stare at the blonde,<br />
+one more covertly than<br />
+the others.<br />
+I know not to tilt my head<br />
+when encounting something<br />
+in which the world tells me<br />
 I will never see myself.</p>
 
-<p>There are so many things<br>
-that are perfect<br>
-about the blonde that I<br>
-get dizzy counting.<br>
-Even a thigh gap as big as hers<br>
-wouldn’t be able to hold<br>
+<p>There are so many things<br />
+that are perfect<br />
+about the blonde that I<br />
+get dizzy counting.<br />
+Even a thigh gap as big as hers<br />
+wouldn’t be able to hold<br />
 all the details.</p>
 
-<p>At this point, the length,<br>
-and the waviness, and the glossiness,<br>
-and the readiness of her hair<br>
+<p>At this point, the length,<br />
+and the waviness, and the glossiness,<br />
+and the readiness of her hair<br />
 are just a complete unnecessity.</p>
 
-<p>We all hate her, the blonde.<br>
-Me, a tired mother,<br>
-and a tennis player with wet hair.<br>
-We hate her because<br>
-of all the little things<br>
-the world has denied us<br>
+<p>We all hate her, the blonde.<br />
+Me, a tired mother,<br />
+and a tennis player with wet hair.<br />
+We hate her because<br />
+of all the little things<br />
+the world has denied us<br />
 the words to articulate.</p>
 
-<p>We all hate her, the blonde,<br>
-and the blonde hates herself<br>
-a little, too,<br>
-for reasons so bafflingly<br>
-unimportant to us<br>
+<p>We all hate her, the blonde,<br />
+and the blonde hates herself<br />
+a little, too,<br />
+for reasons so bafflingly<br />
+unimportant to us<br />
 she could die from jealousy.</p>
-]]&gt;
+]]>
         </description>
-        <pubdate>Fri, 14 Jul 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/07/14/the-blonde/
-        <guid ispermalink="true">http://localhost:4000/2023/07/14/the-blonde/</guid>
+        <pubDate>Fri, 14 Jul 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/07/14/the-blonde/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/07/14/the-blonde/</guid>
         
           
         
@@ -273,9 +269,8 @@ she could die from jealousy.</p>
       <item>
         <title>Week 27: Haven</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<ul>
+        <description><![CDATA[
+          <ul>
   <li>This week, I attended my first Gerimedica party. It’s great to know I can expect a big celebration every year, and not just for the company’s sweet sixteen. It confirmed what I already know: great vibe, great taste, great people.</li>
   <li>I went to Bar Bario on Saturday for a meet-up called Hair Haven, which fosters connection between people with curly hair. Again, I was struck by how welcoming the space is. It’s a ridiculous feeling, being the norm there.</li>
   <li>I’m tired these days. Too much fun, too little rest. I’m better at napping, though. On Sunday, I barely wanted to get out of bed after a little snooze. Three years ago, a nap was unthinkable.</li>
@@ -285,11 +280,11 @@ she could die from jealousy.</p>
   <li>Anja had a very intense and short stint with <em>Call of Duty</em>, remarking on its evocative storytelling in the Cold War portion. She finished it, though, and the zombies turned om her off with such immediacy that she’s back to NBA.</li>
   <li>After hearing it only once, Billie Eilish’s “The 30th” is stuck in my head. She and her brother have a good thing going.</li>
 </ul>
-]]&gt;
+]]>
         </description>
-        <pubdate>Sun, 09 Jul 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/07/09/week-27/
-        <guid ispermalink="true">http://localhost:4000/2023/07/09/week-27/</guid>
+        <pubDate>Sun, 09 Jul 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/07/09/week-27/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/07/09/week-27/</guid>
         
           
         
@@ -315,22 +310,21 @@ she could die from jealousy.</p>
       <item>
         <title>Week 26: Keti Koti</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p>Two months of onboarding have rushed by in a blink. The new job is absolutely wonderful: the people are great, the work is complex and important, and the office itself is perhaps the finest I’ve ever worked at. I joined this company because the challenges they have seemed interesting to me. I’m very pleased that, two months in, it’s difficult to think that, at one point in time, these challenges weren’t also mine. I’ve made the right decision.</p>
+        <description><![CDATA[
+          <p>Two months of onboarding have rushed by in a blink. The new job is absolutely wonderful: the people are great, the work is complex and important, and the office itself is perhaps the finest I’ve ever worked at. I joined this company because the challenges they have seemed interesting to me. I’m very pleased that, two months in, it’s difficult to think that, at one point in time, these challenges weren’t also mine. I’ve made the right decision.</p>
 
 <p>On Wednesday, I met two friends with whom I share a special history. The time we spent together resulted in many things. One of them was the tattoo on my left arm that say “WAT ER IS” (“what is there”). Spending my evening with them, sharing a meal, shedding a few tears, reminded me of why the tattoo is there.</p>
 
-<p>On Saturday, Anja and I watched Keti Koti’s <a href="https://ketikotiamsterdam.nl/bigi-spikri-optocht/" target="_blank">Bigi Spikri memorial service</a> on television. I truly detest that the thing we requested became such a point of contention, that finally getting it almost made us forget that what we requested was a minimum viable product. Still, King Willem Alexander offering an apology and asking for forgiveness was history in the making. As an Afropean person I’m easily erased from the Dutch narrative of Trans-Atlantic slave trade that focuses on the Netherlands and her former colonies. Mentioning us by name specifically let Willem Alexander articulate how well he has been listening these past few years.</p>
+<p>On Saturday, Anja and I watched Keti Koti’s <a href="https://ketikotiamsterdam.nl/bigi-spikri-optocht/">Bigi Spikri memorial service</a> on television. I truly detest that the thing we requested became such a point of contention, that finally getting it almost made us forget that what we requested was a minimum viable product. Still, King Willem Alexander offering an apology and asking for forgiveness was history in the making. As an Afropean person I’m easily erased from the Dutch narrative of Trans-Atlantic slave trade that focuses on the Netherlands and her former colonies. Mentioning us by name specifically let Willem Alexander articulate how well he has been listening these past few years.</p>
 
 <p>In the afternoon we made our way to Museumplein for the Keti Koti festival. Upside: I got to eat cotton candy, twice, and we got to financially contribute to many great Black causes in the city. Downside: I spent way too much time in line for food with hundreds of other people.</p>
 
 <p>Reading! I finished a book. I have a track record of struggling to enjoy reading as a burnt-out lit major, but <a class="internal-link" href="/citizen-2015">Citizen (2015)</a> was easy to get through. It turns out I am enthusiast of the lyric essay genre. I picked up a book of poetry by Anton de Kom at Keti Koti, and I’m diving head-first into that.</p>
-]]&gt;
+]]>
         </description>
-        <pubdate>Sat, 01 Jul 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/07/01/week-26/
-        <guid ispermalink="true">http://localhost:4000/2023/07/01/week-26/</guid>
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/07/01/week-26/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/07/01/week-26/</guid>
         
           
         
@@ -354,9 +348,8 @@ she could die from jealousy.</p>
       <item>
         <title>We all live in a white submersible</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p>I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. I check the news multiple times a day. I scoff at outlets that don’t deem it worthy of the front page. I also scoff at outlets that do. A media drama can antagonize me the way Adele disappoints me with her popularity.</p>
+        <description><![CDATA[
+          <p>I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. I check the news multiple times a day. I scoff at outlets that don’t deem it worthy of the front page. I also scoff at outlets that do. A media drama can antagonize me the way Adele disappoints me with her popularity.</p>
 
 <p>The fact that I’m part of a Titanic/<em>Titanic</em>-obsessed gaggle of netizens somehow has me convinced I’m not just procrastinating. Five men with money — sums of it — on their way to Titanic in a little titanium box, are lost at sea. To empathize, the world holds her breath.</p>
 
@@ -370,11 +363,11 @@ she could die from jealousy.</p>
 
 <p>I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. Like a mosquito it drowns out the other humming. Like a natural disaster it refrigerates the other stories, the puzzles I fear I will never solve.</p>
 
-]]&gt;
+]]>
         </description>
-        <pubdate>Thu, 22 Jun 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/
-        <guid ispermalink="true">http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/06/22/we-all-live-in-a-white-submersible/</guid>
         
           
         
@@ -390,9 +383,8 @@ she could die from jealousy.</p>
       <item>
         <title>Dear Nienke, you should have a website</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p>Every time I embark on a journey towards a published post about why it’s good to have a website, I get lost in the reality of personal details. Everyone has different reasons for believing something. Aiming to take them all into account doesn’t help me write anything that feels worthwhile and not like a derivative<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+        <description><![CDATA[
+          <p>Every time I embark on a journey towards a published post about why it’s good to have a website, I get lost in the reality of personal details. Everyone has different reasons for believing something. Aiming to take them all into account doesn’t help me write anything that feels worthwhile and not like a derivative<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <p>It feels much more relevant to focus my attention on specific people. In this case I’m focusing my attention on you, Nienke. I think you should have a personal website. Let me tell you why.</p>
 
@@ -434,7 +426,7 @@ she could die from jealousy.</p>
   <p>I want you to take up space on the Internet, Nienke.</p>
 </blockquote>
 
-<p>I want you to enjoy doing so and perhaps even making new connections in the process. I want you to learn how to build your own website and tell me in a year that it’s actually much easier than you thought. I want you to feel empowered. And to have a <a href="/now" target="_blank">now</a> page, and to keep lists on your websites of things you love in Amsterdam and beyond.</p>
+<p>I want you to enjoy doing so and perhaps even making new connections in the process. I want you to learn how to build your own website and tell me in a year that it’s actually much easier than you thought. I want you to feel empowered. And to have a <a href="/now">now</a> page, and to keep lists on your websites of things you love in Amsterdam and beyond.</p>
 
 <p>I want you to feel that you can escape the rat race of likes, favs, and reposts. I think what you have to say is worth more than the hipness of some platform.</p>
 
@@ -447,18 +439,18 @@ she could die from jealousy.</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>See for example <a href="https://jamesg.blog/2023/04/13/exploring-personal-websites/" target="_blank">James’ neat post on personal sites</a> or, more broadly, <a href="https://indieweb.org/why" target="_blank">the “Why” page on the IndieWeb Wiki</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>See for example <a href="https://jamesg.blog/2023/04/13/exploring-personal-websites/">James’ neat post on personal sites</a> or, more broadly, <a href="https://indieweb.org/why">the “Why” page on the IndieWeb Wiki</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
-      <p>On the IndieWeb we call this a <a href="https://indieweb.org/Webmention" target="_blank">“webmention”</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>On the IndieWeb we call this a <a href="https://indieweb.org/Webmention">“webmention”</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
-]]&gt;
+]]>
         </description>
-        <pubdate>Wed, 26 Apr 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/
-        <guid ispermalink="true">http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
+        <pubDate>Wed, 26 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/26/dear-nienke-you-should-have-a-website/</guid>
         
           
         
@@ -476,9 +468,8 @@ she could die from jealousy.</p>
       <item>
         <title>Maker's marks for King's Day</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p>It’s late in the morning and I’m on my way to Gerimedica, the company’s I’m excited to be joining in May, which is next week already. I’m on my bike listening to an American podcast about the history of Dutch anarchist cycling culture.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> The scene could only be more Dutch if I had a frying pan with bitterballen on the back of my bike.</p>
+        <description><![CDATA[
+          <p>It’s late in the morning and I’m on my way to Gerimedica, the company’s I’m excited to be joining in May, which is next week already. I’m on my bike listening to an American podcast about the history of Dutch anarchist cycling culture.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> The scene could only be more Dutch if I had a frying pan with bitterballen on the back of my bike.</p>
 
 <p>The commute is wonderful: it takes me from the East side of Amsterdam via De Pijp and Vondelpark to perhaps the most beautiful building I’ve ever had the privilege of calling my office. I cross the river Amstel, enjoy the sun, and marvel at the preparations people have been making.</p>
 
@@ -495,15 +486,15 @@ she could die from jealousy.</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>I’m referring to the episode <a href="https://99percentinvisible.org/episode/de-fiets-is-niets/" target="_blank">“De fiets is niets”</a> (“the bike is nothing”) of the impeccable podcast <em>99% Invisible</em> by Roman Mars. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>I’m referring to the episode <a href="https://99percentinvisible.org/episode/de-fiets-is-niets/">“De fiets is niets”</a> (“the bike is nothing”) of the impeccable podcast <em>99% Invisible</em> by Roman Mars. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
-]]&gt;
+]]>
         </description>
-        <pubdate>Tue, 25 Apr 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/04/25/makers-marks-for-kings-day/
-        <guid ispermalink="true">http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</guid>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/25/makers-marks-for-kings-day/</guid>
         
           
         
@@ -521,20 +512,19 @@ she could die from jealousy.</p>
       <item>
         <title>Come back to Chigaco</title>
         <author> ()</author>
-        <description>&lt;![CDATA[
-          
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-17_hcdwmk.jpg" alt=""></p>
+        <description><![CDATA[
+          <p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-17_hcdwmk.jpg" alt="" /></p>
 
 <p>Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There’s a boy in the park who’s walking around barefoot. Later we see him on a slack line. I like this scene; it tells me that summer is almost upon us.</p>
 
 <p>I never seem skilled at enjoying whatever season is here. Instead I’m forever yearning for what’s just out of reach. On Javastraat I pass a travel agency, the target audience of which most certainly is concerned with visiting Morocco or Turkey during the summer months. Surprisingly, there’s a wide array of names that would inspire city trips around the world.</p>
 
-<p>Ever since I passed the agency, Andrew Bird’s <a href="https://www.youtube.com/watch?v=oecHq2neweA" target="_blank">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>
-]]&gt;
+<p>Ever since I passed the agency, Andrew Bird’s <a href="https://www.youtube.com/watch?v=oecHq2neweA">Pulaski at Night</a> has been in my head non-stop. “Come back to Chigaco, city of, city of light.”</p>
+]]>
         </description>
-        <pubdate>Mon, 17 Apr 2023 00:00:00 +0200</pubdate>
-        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/
-        <guid ispermalink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
+        <pubDate>Mon, 17 Apr 2023 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2023/04/17/come-back-to-chigaco/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/17/come-back-to-chigaco/</guid>
         
           
         
@@ -550,4 +540,4 @@ she could die from jealousy.</p>
       </item>
     
   </channel>
-</rss></body></html>
+</rss>

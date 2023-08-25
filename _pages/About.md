@@ -5,6 +5,13 @@ layout: page
 ---
 Heya, I'm Zinzy, and I’ve been yelling at Internet clouds since 1997.
 
+<div class="grid grid-cols-2 gap-4">
+  <div><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg"></div>
+  <!-- ... -->
+  <div>
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg"></div>
+</div>
+ 
 To learn about the story of who I am today, please visit my [Now](/now) page. To discover how I got here, head over to [Then](/then). This (growing) about page is one of a technical, factual nature.
 
 - I call myself an Afropean, because my father is São Toméan and my mother is Dutch
@@ -15,8 +22,8 @@ To learn about the story of who I am today, please visit my [Now](/now) page. To
 - I'm neurodivergent
 - I live in Amsterdam's Indische Buurt
 - I am an orthoprax Jesus follower operating in the venn diagram of the Episcopal Church, [Lab/Shul](https://www.labshul.org/), and Catholicism
-- My life story contains a number of adverse childhood experiences which resulted in a long-term eating disorder as well as substance abuse issues
-- I'm <span id="sobriety"></span> sober, and I'm in recovery from my eating disorder
+- My life story contains a number of adverse childhood experiences which resulted in a long-term health issues that I manage
+- I'm <span id="sobriety"></span> sober
 
 
 

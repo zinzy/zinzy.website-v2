@@ -17,17 +17,6 @@ This is a [Now](https://nownownow.com/) page. It contains what I'd tell a friend
 ### I'm Zinzy Waleson Geene, I'm in my mid-thirties and I have a penchant for casual web publishing
 This website is a digital living room; a place where I think aloud, change my mind, and share slices of life. I think the Internet is a miraculous place, and believe we all have the right to own our stuff, and do so in a sustainable way. I suppose this means I like [IndieWeb principles](https://indieweb.org/principles).
 
-<div class="my-2">
-<div class="row">
-<div class="col-6">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg">
-</div>
-<div class="col-6">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg">
-</div>
-</div>
-</div>
-
 ### I live in Amsterdam's finest neighborhood: de Indische Buurt.
 I share my life with [Anja Waleson](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55), a high school English teacher and new ceramics enthusiast. We live in a little shoebox with a petit garden. We're companions to puppy Lemonade, who may or may not have her own blog, [let's find out together](https://lemonade.waleson.us).
 
