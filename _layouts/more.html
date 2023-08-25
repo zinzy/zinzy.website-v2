@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{{content}}
+
+<section class="my-20">
+  {% assign doclist = site.data.more.links | sort: 'title'  %}
+  <div class="grid grid-cols-3 gap-4">
+  {% for item in doclist %}
+      <div class="">
+        <a href="{{ item.url }}" class="bg-slate-50 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 rounded">{{ item.icon }} <span class="inline-block ml-3">{{ item.title }}</span></a>
+      </div> 
+  {% endfor %}
+  </div>
+</section>

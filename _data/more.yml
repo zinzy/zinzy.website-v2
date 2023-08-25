@@ -1,0 +1,21 @@
+More_list: More
+links:
+
+- title: Hello
+  url: hello
+  icon: 👋🏽
+- title: Now
+  url: now
+  icon: 🍎
+- title: Then
+  url: then
+  icon: 📜
+- title: Uses
+  url: uses
+  icon: 🛠️
+- title: Site
+  url: site
+  icon: 🔖
+- title: Work
+  url: work
+  icon: 🐙
