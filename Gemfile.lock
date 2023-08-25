@@ -7,13 +7,6 @@ GIT
       jekyll (>= 3.7, < 5.0)
       posix-spawn (~> 0.3.9)
 
-PATH
-  remote: ..
-  specs:
-    jekyll-external-links (1.0.2)
-      jekyll (~> 4.0)
-      nokogiri (~> 1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -56,6 +49,9 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-external-links (1.0.2)
+      jekyll (~> 4.0)
+      nokogiri (~> 1.0)
     jekyll-json-feed (1.0.1)
       jekyll (>= 3.3, < 5.0)
     jekyll-paginate (1.1.0)
@@ -125,7 +121,7 @@ DEPENDENCIES
   fastimage
   jekyll (~> 4.3.2)
   jekyll-archives
-  jekyll-external-links!
+  jekyll-external-links
   jekyll-json-feed
   jekyll-last-modified-at!
   jekyll-paginate
