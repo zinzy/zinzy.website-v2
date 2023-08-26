@@ -2,7 +2,7 @@
   url: /about
 - title: Writing
   url: /writing
-- title: Changelog
-  url: /changelog
+# - title: Changelog
+#   url: /changelog
 - title: More
   url: /more
