@@ -3,16 +3,16 @@ layout: default
 --- 
 <p>These are things I've written about #{{ page.title }}.</p>
  
-
-<section class="mt-10">
-  <!-- <h2>Blog entries</h2> -->
-  <ul>
-    {% for post in page.posts %} 
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+<section class="mt-20">
+  <ul class="divide-y dark:divide-zinc-600">
+    {% for post in page.posts %}
+    <li class="py-2">
+      <a href="{{ post.url }}">
+        <span>{{ post.title }}</span>
+        <time class="block md:inline-block md:ml-3 text-slate-500 dark:text-zinc-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      </a></li> 
     {% endfor %} 
-  </ul>  
+  </ul>
 </section>
 <!-- 
 <section class="section-small">

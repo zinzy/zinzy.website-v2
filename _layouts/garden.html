@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section>
+  {{content}}
+  {% assign garden = site.garden %} 
+  <ul class="mt-20 divide-y">
+    {% for entry in garden %}
+      {% unless entry.show == false %}
+    <li class="py-2"><a href="{{entry.url}}">{{ entry.title }}</a></li> 
+      {% endunless %}
+    {% endfor %} 
+  </ul>
+</section>

@@ -1,18 +1,18 @@
 - title: Hello
-  url: hello
+  url: /hello
   icon: 👋🏽
 - title: Now
-  url: now
+  url: /now
   icon: 🍎
 - title: Then
-  url: then
+  url: /then
   icon: 📜
 - title: Uses
-  url: uses
+  url: /uses
   icon: 🛠️
 - title: Site
-  url: site
+  url: /site
   icon: 🔖
 - title: Work
-  url: work
+  url: /work
   icon: 🐙

@@ -94,6 +94,7 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+collections_dir: resources
 collections: 
   faces:
     output: true
@@ -101,48 +102,29 @@ collections:
   notes:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
-  now:
-    output: true
-    permalink: /now/:year-:month-:day
-  photos:
-    output: true
-    permalink: /:year-:month-:day-:hour-:minute-:second
-  resources:
+  garden:
     output: true
     permalink: /:slug
   pages:
     output: true
     permalink: /:slug
-  work:
+  posts:
     output: true
-    permalink: /:slug
+    permalink: /:year/:month/:day/:slug
   status:
     output: false
 
 defaults: 
-  # - scope:
-  #     path: "**/*"
-  #   values:
-  #     layout: "default"
-  #   values:
-  #     layout: "post" 
   - scope:
       path: "_notes/**/*.md"
-      title: ":year-:month-:day-:hour-:minute"
-  - scope:
-      path: "_now/**/*.md"
-      title: "now/:year-:month-:day"
-  - scope:
-      path: "_photos/**/*.md"
-      title: "snapshots/:year-:month-:day-:hour-:minute"
     values:
-      layout: "snapshot" 
+      layout: "note" 
   - scope:
       path: "_faces/**/*.md"
     values:
       layout: "face" 
   - scope:
-      path: "_resources/**/*.md"
+      path: "_garden/**/*.md"
     values:
       layout: "resource" 
   - scope:
@@ -150,9 +132,9 @@ defaults:
     values:
       layout: "page" 
   - scope:
-      path: "_work/**/*.md"
+      path: "_posts/**/*.md"
     values:
-      layout: "work-item" 
+      layout: "post" 
   - scope:
       path: "_status/**/*.md"
     values:
