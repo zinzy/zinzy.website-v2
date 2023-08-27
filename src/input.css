@@ -50,8 +50,7 @@ body {
 .blink {
     animation: blink 0.5s infinite;
     animation-fill-mode: both;
-    margin: 0 .2rem;
-    color: rgb(148 163 184);
+    margin: 0 .1rem;
     }
  
  @keyframes blink {
@@ -97,3 +96,17 @@ content.inline p {
 content p:first-child {
     margin-top: 0;
 }
+
+
+
+.status {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking .8s;
+    /* font-size: 1.6rem; */
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

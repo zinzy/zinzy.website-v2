@@ -79,6 +79,7 @@
   <script src="/assets/js/site.js" async></script>
 </head>
 
+
   <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-zinc-800 dark:text-zinc-100">  
 
    
@@ -86,9 +87,17 @@
 
   <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-    <div class="text-slate-500 text-sm">
-      <span data-status-text></span>
-      <span data-status-datetime></span>
+    <div class="inline-block">
+      <!-- 
+        https://www.sitepoint.com/css-typewriter-effect/ 
+        https://codepen.io/SitePoint/pen/rNzBMee
+      -->
+      <div class="status text-slate-500 text-sm"> 
+        <span class="">is </span>
+        <span data-status-text></span>
+        <span data-status-datetime></span> 
+        <span class="blink text-slate-300 dark:bg-zinc-700">|</span>
+      </div>
     </div>
 
   <nav class="mt-10">
@@ -105,12 +114,8 @@
     </ul>
   </nav>
 
-  <span class="right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
-</header> 
-
-
- 
-    
+  <span class="text-slate-500 dark:bg-zinc-600 right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+</header>
  
     <main class="my-40">
       <h2 class="font-medium text-2xl mb-5">
@@ -124,29 +129,33 @@
 <section class="my-10"> 
   <div class="grid grid-cols-3 gap-4">
   
-  <a href="/hello" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    👋🏽 <span class="inline-block ml-3">Hello</span>
-  </a>
+    <a href="/hello" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      👋🏽 <span class="inline-block ml-2">Hello</span>
+    </a>
   
-  <a href="/now" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    🍎 <span class="inline-block ml-3">Now</span>
-  </a>
+    <a href="/now" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      🍎 <span class="inline-block ml-2">Now</span>
+    </a>
   
-  <a href="/then" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    📜 <span class="inline-block ml-3">Then</span>
-  </a>
+    <a href="/then" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      📜 <span class="inline-block ml-2">Then</span>
+    </a>
   
-  <a href="/uses" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    🛠️ <span class="inline-block ml-3">Uses</span>
-  </a>
+    <a href="/blogroll" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      ☕ <span class="inline-block ml-2">Blogroll</span>
+    </a>
   
-  <a href="/site" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    🔖 <span class="inline-block ml-3">Site</span>
-  </a>
+    <a href="/uses" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      🛠️ <span class="inline-block ml-2">Uses</span>
+    </a>
   
-  <a href="/work" class="bg-slate-50 dark:bg-zinc-800 p-3 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded">
-    🐙 <span class="inline-block ml-3">Work</span>
-  </a>
+    <a href="/site" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      🔖 <span class="inline-block ml-2">Site</span>
+    </a>
+  
+    <a href="/work" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm font-medium block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3">
+      🐙 <span class="inline-block ml-2">Work</span>
+    </a>
   
   </div>
 </section>

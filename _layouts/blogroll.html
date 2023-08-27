@@ -1,0 +1,76 @@
+---
+layout: default
+---
+{{content}}
+
+<section class="my-10"> 
+  <div class="">
+    <div class="prose dark:prose-invert">
+      <h3>Friends with websites</h3>
+    <p>I wish I had the type of life where the venn diagram of "my friends" and "my friends with websites" was a perfect circle, but here we are. These are the people I know in person who go through the efforts of having their own website, for business, pleasure or both.</p>
+    </div>
+    <div class="mt-5">
+      {% assign blogroll_first = site.data.blogroll.first | sort: 'name' %}
+      {% for item in blogroll_first %}
+        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded  mr-3 mb-3">
+          <img class="h-4 mr-2 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+          <span class="inline-block">{{item.name}}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="my-10"> 
+  <div class="">
+    <div class="prose dark:prose-invert">
+      <h3>Internet pals</h3>
+    <p>The beauty of the IndieWeb is that I meet countless wonderful people in various corners of the Internet. These are the ones with whom I sometimes have the pleasure of interacting.</p>
+    </div>
+    <div class="mt-5">
+      {% assign blogroll_second = site.data.blogroll.second | sort: 'name' %}
+      {% for item in blogroll_second %}
+        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded  mr-3 mb-3">
+          <img class="h-4 mr-2 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+          <span class="inline-block">{{item.name}}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="my-10"> 
+  <div class="">
+    <div class="prose dark:prose-invert">
+      <h3>People I follow</h3>
+    <p>These are some of the websites in my RSS feed; the ones I return to in order to just spend a little time with them, <a href="https://www.nytimes.com/2013/01/13/technology/aaron-swartz-internet-activist-dies-at-26.html" target="_blank" rel="noopener noreferrer">even if they're already gone</a>.</p>
+    </div>
+    <div class="mt-5">
+      {% assign blogroll_third = site.data.blogroll.third | sort: 'name' %}
+      {% for item in blogroll_third %}
+        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded  mr-3 mb-3">
+          <img class="h-4 mr-2 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+          <span class="inline-block">{{item.name}}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="my-10"> 
+  <div class="">
+    <div class="prose dark:prose-invert">
+      <h3>Around the web</h3>
+    <p>This section will require some tidying at some point. For now, it's enough for me to say these are other places on the web that I frequent.</p>
+    </div>
+    <div class="mt-5">
+      {% assign blogroll_other = site.data.blogroll.other | sort: 'name' %}
+      {% for item in blogroll_other %}
+        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded  mr-3 mb-3">
+          <img class="h-4 mr-2 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+          <span class="inline-block">{{item.name}}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

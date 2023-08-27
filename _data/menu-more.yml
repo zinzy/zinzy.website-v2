@@ -7,6 +7,9 @@
 - title: Then
   url: /then
   icon: 📜
+- title: Blogroll
+  url: /blogroll
+  icon: ☕
 - title: Uses
   url: /uses
   icon: 🛠️
