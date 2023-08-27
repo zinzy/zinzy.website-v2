@@ -8,8 +8,6 @@ layout: default
 <ul class="">
   {% for post in notes %}
   <li class="mt-10 border dark:border-zinc-600 hover:border-slate-300 p-5 rounded transition duration-300 ease-in-out"> 
-    <a href="{{post.url}}">
-
     <div class="prose dark:prose-invert">  
       {% if post.photo %}
         <img src="{{post.photo}}" alt="" class="mb-5">
@@ -22,8 +20,6 @@ layout: default
         Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
       </p> 
     {% endif %} 
-
-
     <content>
       {{post.content}} 
     </content>
@@ -32,7 +28,6 @@ layout: default
     <p class="mt-3">
       <a href="{{post.url}}"><time class="dt-published text-sm text-slate-500 dark:text-zinc-500" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></a>
     </p>
-  </a>
     </li> 
     {% endfor %} 
 </ul>
