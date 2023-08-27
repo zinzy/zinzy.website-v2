@@ -1721,11 +1721,6 @@ content p:first-child {
     color: rgb(244 244 245 / var(--tw-text-opacity));
   }
 
-  .dark\:text-zinc-300 {
-    --tw-text-opacity: 1;
-    color: rgb(212 212 216 / var(--tw-text-opacity));
-  }
-
   .dark\:text-zinc-500 {
     --tw-text-opacity: 1;
     color: rgb(113 113 122 / var(--tw-text-opacity));

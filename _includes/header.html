@@ -2,7 +2,12 @@
 
   <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-  <nav class="mt-5">
+    <div class="text-slate-500 text-sm">
+      <span data-status-text></span>
+      <span data-status-datetime></span>
+    </div>
+
+  <nav class="mt-10">
     <ul class="list-none m-0 p-0">
       {% for item in site.data.menu-main %}
             <li class="inline-block mr-4"><a href="{{item.url}}">{{ item.title }}</a></li>

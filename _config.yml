@@ -116,7 +116,7 @@ collections:
 
 defaults: 
   - scope:
-      path: "../_notes/**/*.md"
+      path: "_notes/**/*.md"
     values:
       layout: "note" 
   - scope:
