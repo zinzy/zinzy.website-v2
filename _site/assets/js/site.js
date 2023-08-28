@@ -35,7 +35,7 @@ function settime() {
 settime()
 
 // https://codesandbox.io/s/read-local-txt-file-in-javascript-vmiy4?from-embed=&file=/src/index.js:458-764
-fetch("status.txt").then(function(s) {
+fetch("/status.txt").then(function(s) {
   return s
 }).then(function(data) {
  return data.text()
