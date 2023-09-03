@@ -8,16 +8,14 @@ layout: default
 <section class="mt-16"> 
   <div class="">
     <h3 class="font-medium text-xl">Latest writing</h3>
-    {% assign diary = site.posts | sort: 'date' | reverse %}  
+    {% assign diary = site.posts | where_exp: "item", "item.path contains '_posts'" | sort: 'date' | reverse %}  
     <ul class="mt-5 divide-y dark:divide-zinc-600">
-      {% for post in diary limit: 5 %}
-      {% unless post.url contains "/resources" %}
+      {% for post in diary limit: 5 %} 
       <li class="py-2">
         <a href="{{ post.url }}">
           <span class="font-medium ">{{ post.title }}</span>
           <time class="block md:inline-block md:ml-3 text-slate-500 dark:text-zinc-400" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
         </a></li> 
-        {% endunless %}
       {% endfor %} 
     </ul>
   </div>
