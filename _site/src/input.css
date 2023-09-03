@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    /* font-family: 'Inter', sans-serif; */
+    /* font-weight: 500; */
+} 
+
+body {
+    max-width: 600px;
+}
+
+.site-menu {
+    position: fixed;
+    bottom: 2rem;
+    width: 300px;
+    background: rgba(248 250 252, 0.7);
+    margin: 0 0 0 -150px;
+    left: 50%;
+    border-radius: 100px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+.site-menu ul {
+    padding: 0;
+    margin: 8px 0;
+    list-style-type: none;
+    text-align: center;
+}
+.site-menu ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.site-menu ul li a {
+    text-decoration: none;
+}
+
+.u-url {
+    text-decoration: none;
+}
+
+.right-now {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+ 
+.blink {
+    animation: blink 0.5s infinite;
+    animation-fill-mode: both;
+    margin: 0 .1rem;
+    }
+ 
+ @keyframes blink {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    100% { opacity: 0 }
+    }
+
+.prose :where(a):not(:where([class~="not-prose"] *)) { 
+    text-decoration: underline;
+    font-weight: 400;
+    text-decoration-color: rgb(100 116 139);
+}
+
+.btn {
+    border: 1px solid rgb(203 213 225);
+    font-weight: 500;
+    padding: .5rem .8rem;
+    font-size: 90%;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.btn:hover {
+    border: 1px solid rgb(148 163 184);
+}
+
+content.inline svg,
+content.inline p {
+    display: inline;
+}
+ 
+/* @media screen and (min-width: 1800px) {
+    body {
+        max-width: 1000px;
+    }
+} */
+
+.text-url {
+
+  word-break: break-all;
+}
+
+content p:first-child {
+    margin-top: 0;
+}
+
+
+
+.status {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking .8s;
+    /* font-size: 1.6rem; */
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .status p {
+    display: inline;
+  }

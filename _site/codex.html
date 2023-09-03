@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <link rel="canonical" href="http://localhost:4000/codex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.">
+  <meta property="og:site_name" content="Zinzy Waleson Geene">
+  
+  <link rel="author" href="humans.txt">
+
+  
+
+  <!------ Imagery ------>
+  <meta content="/assets/img/android-chrome-512x512.png" property="og:image">
+  <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!------ Styling ------>
+  <!-- SCSS -->
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
+
+  <!-- Tailwind CSS -->
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+ 
+
+  
+  <meta property="og:description" content="A growing record of the things I believe">
+  
+
+  
+  <meta property="og:title" content="Codex">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2023-09-03T11:24:09+02:00">
+  <meta property="article:author" content="http://localhost:4000/">
+  
+
+  <meta property="og:image" content="/assets/img//og-image.png">
+    <!--  -->
+
+    <!------ Feeds ------>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/micro.xml">
+
+  <title>
+    
+      Codex - Zinzy Waleson Geene
+    
+  </title>
+
+  <!-- Some links that let IndieAuth know it's me, your girl Zinzy -->
+  <link rel="me" href="https://github.com/zinzy">
+  <link rel="me" href="https://tech.lgbt/@zinzy">
+  <link rel="me" href="https://twitter.com/zinzywaleson">
+  <link rel="me" href="mailto:zinzy@pm.me">
+
+  <!-- IndieAuth -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/596">
+  <link rel="micropub" href="https://zinzy.website/micropub/main">
+
+  <!-- IndieWeb webmentions -->
+  <link rel="webmention" href="https://webmention.io/www.zinzy.website/webmention">
+  <link rel="pingback" href="https://webmention.io/www.zinzy.website/xmlrpc"> 
+  <script src="/assets/js/webmention.min.js" async></script>
+  <script src="/assets/js/site.js" async></script>
+</head>
+
+
+  <body class="p-6 md:py-20 mx-auto antialiased bg-white text-slate-900 dark:bg-zinc-800 dark:text-zinc-100">  
+
+   
+    <header>
+
+  <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
+
+    <div class="inline-block">
+      <!-- 
+        https://www.sitepoint.com/css-typewriter-effect/ 
+        https://codepen.io/SitePoint/pen/rNzBMee
+      -->
+      <div class="status text-slate-500 dark:text-zinc-400 text-sm"> 
+        <span class="">
+               
+          
+            plotting next tattoo
+
+            <time datetime="3 Sep 2023" class="hidden" id="statusDate">2023-09-03 10:03:34</time>
+            (<span id="statusTimeAgo"></span>)
+          
+        </span>
+        <span class=" blink dark:text-zinc-400">|</span>
+      </div>
+    </div>
+
+  <nav class="mt-10">
+    <ul class="list-none m-0 p-0">
+      
+            <li class="inline-block mr-4"><a href="/about" class="font-medium">About</a></li>
+      
+            <li class="inline-block mr-4"><a href="/hello" class="font-medium">Hello</a></li>
+      
+            <li class="inline-block mr-4"><a href="/writing" class="font-medium">Writing</a></li>
+      
+            <li class="inline-block mr-4"><a href="/changelog" class="font-medium">Changelog</a></li>
+      
+            <li class="inline-block mr-4"><a href="/more" class="font-medium">More</a></li>
+      
+    </ul>
+  </nav>
+
+  <span class="text-slate-500 dark:text-zinc-400 right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+</header>
+ 
+    <main class="my-40">
+      <h2 class="font-medium text-2xl mb-5">
+        
+          Codex
+        
+      </h2>
+      <article class="h-entry prose dark:prose-invert"> 
+  <div id="notes-entry-container">
+    <content class="e-content"> 
+      <p>Inspired by <a href="https://busterbenson.com/beliefs/" rel="external noopener noreferrer noopener noreferrer" target="_blank">Buster Benson’s <em>Codex</em><span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>, <a href="https://gregology.net/codex/" rel="external noopener noreferrer noopener noreferrer" target="_blank">Greg Clarke<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>, <a href="http://web.archive.org/web/20220123045740/https://elliott.computer/pages/opinion" rel="external noopener noreferrer noopener noreferrer" target="_blank">Elliott Cost’s <em>Opinions</em><span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a> and others I’m using this page to grow<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> a record of things I believe.</p>
+
+<h3 id="terms-of-use">Terms of use</h3>
+
+<h4 id="if-youre-zinzy">If you’re Zinzy</h4>
+<p>No human experience can ever be summed up in a list of bullet points. Nevertheless, the things below you have written in earnest. Look at them whenever you need a reminder of what’s important to you.</p>
+
+<h4 id="if-youre-someone-else">If you’re someone else</h4>
+<p>Feel free to read, learn, wonder, and remember:</p>
+<ul>
+  <li>Statements below apply to me, and to me only, even though their phrasing is often general</li>
+  <li>This is an unapologetic codex, in which I may say things that offend your sensibilities, simply because of the person I am. You are not me, you may disagree with me. That’s okay. Make your own codex!</li>
+  <li>These things may be subject to change.</li>
+</ul>
+
+<h3 id="the-codex">The codex</h3>
+
+<h4 id="chapter-0-meta-beliefs">Chapter 0: Meta beliefs</h4>
+<ul>
+  <li>Opinions, beliefs, and values may change over time</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>I am ignorant and see only a very small fraction of reality from my own [[Standpoint theory</td>
+          <td>standpoint]]</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h4 id="chapter-1-self">Chapter 1: Self</h4>
+<ul>
+  <li>I am an optimist</li>
+  <li>I make mistakes</li>
+  <li>My intuition will always be able to lead the way</li>
+  <li>My emotions are my responsibility (Gregology)</li>
+  <li>My beliefs and principles may change and that’s okay</li>
+  <li>My questions are relevant</li>
+  <li>I’m great at finding connections with others</li>
+  <li>At heart I’m a cultural relativist</li>
+  <li>I’m privileged because:
+    <ul>
+      <li>I have no serious, untreatable physical disabilities</li>
+      <li>I live in a North-West European country with solid infrastructure, excellent health care, and good education opportunities, where I mostly feel safe and free presenting as queer with my partner</li>
+      <li>My partner and I are invested in our relationship, share the same values, and have succeeded at cohabitating so far</li>
+      <li>I have close friendships with White people who are fiercely antiracist</li>
+    </ul>
+  </li>
+  <li>I lack privilege because:
+    <ul>
+      <li>I’m a first-generation university graduate, and I was not at all prepared for what academic life would bring</li>
+      <li>I cannot safely travel to certain countries with my partner</li>
+      <li>There are church communities that I cannot join because of the color of my skin, my gender identity, or my sexual orientation.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="chapter-2-spirituality-and-philosophy">Chapter 2: Spirituality and philosophy</h4>
+<ul>
+  <li>The Bible is too complex to be taken literally.</li>
+  <li>God is easiest to find in nature.</li>
+  <li>Orthopraxy trumps orthodoxy.</li>
+  <li>Christian culture is too much about what we should believe and too little about what we should do</li>
+  <li>Jesus is not my savior, but my teacher.</li>
+  <li>Jesus’ physical resurrection, ascension into heaven, his virgin birth or position as the son of God are irrelevant to my faith.</li>
+</ul>
+
+<h4 id="chapter-3-people--relationships">Chapter 3: People &amp; relationships</h4>
+<ul>
+  <li>People try to do what they think will make the world a better place.</li>
+  <li>Strangers don’t often expect kindness. It can be a spark for a great friendship.</li>
+  <li>Everybody’s lives are infinitely complex, vulnerable, precious, and potential, just like mine.</li>
+  <li>White isn’t a color unless it’s a skin color</li>
+  <li>Seeing yourself in other people is crucial to developing a healthy sense of self</li>
+  <li>No adult person should be forced to carry on a relationship with family members.</li>
+  <li>Some people shouldn’t have children.</li>
+  <li>Sometimes, going no contact with a parent is the least damaging option.</li>
+  <li>Everyone has their own way of saying “I love you”</li>
+</ul>
+
+<h4 id="chapter-4-culture-society-and-media">Chapter 4: Culture, society, and media</h4>
+<ul>
+  <li>I know for a fact it’s pronounced “Timothy Charmander”</li>
+  <li>Seeing your experiences and standpoint reflected in media is crucial to developing a healthy sense of self</li>
+  <li>It’s good to have one website as your central point of communication with the Internet</li>
+  <li>To learn about a group of people, look at the stories they tell themselves and others</li>
+  <li>History is told by the winner, and sometimes by the loudest</li>
+</ul>
+
+<h4 id="chapter-5-politics-and-policies">Chapter 5: Politics and policies</h4>
+<ul>
+  <li>No political system is flawless, some are worse than others</li>
+  <li>Both revolution and evolution are required for change</li>
+  <li>Ones politics cannot be seen separatedly from ones character and conduct. Sometimes, it’s not possible to “engage with someone despite your different views”, because of the implications those views have</li>
+</ul>
+
+<h4 id="chapter-6-health--wellbeing">Chapter 6: Health &amp; Wellbeing</h4>
+<ul>
+  <li>Diet culture is dangerous</li>
+  <li>Eating disorders are not about food</li>
+</ul>
+
+<h4 id="chapter-7-learning">Chapter 7: Learning</h4>
+<ul>
+  <li>Discomfort is where growth happens</li>
+  <li>Top-down learning works best</li>
+</ul>
+
+<h4 id="chapter-8-work">Chapter 8: Work</h4>
+<ul>
+  <li>Praise in public, criticize in private</li>
+  <li>Don’t work overtime unless required</li>
+</ul>
+
+<h4 id="chapter-9-habits">Chapter 9: Habits</h4>
+<ul>
+  <li>Practice yin yoga to train your quietude muscle, and tolerance of discomfort</li>
+  <li>Wash your face every day, and moisturize properly.</li>
+  <li>Buy simple black t-shirts and wear one every day</li>
+  <li>Dress in calm tones, have one splash of style (glasses, weird socks)</li>
+</ul>
+
+<h4 id="chapter-10-personal-productivity">Chapter 10: Personal Productivity</h4>
+<ul>
+  <li>One notebook for everything is enough</li>
+</ul>
+
+<h4 id="chapter-11-nitty-gritty">Chapter 11: Nitty Gritty</h4>
+<ul>
+  <li>Treat or split the tab. Don’t try to remember who owes who what.</li>
+  <li>Carnations are the best flowers</li>
+  <li>Growing plants is more fun when the plants are small</li>
+  <li>People in their early- to mid-thirties should have access to Pokémon Red on a floppy disk, as well as a device on which to play it</li>
+  <li>Ironing is a calming activity</li>
+  <li>Neon candles are usually the most beautiful candles</li>
+</ul>
+
+<h4 id="chapter-12-influences-and-recommendations">Chapter 12: Influences and Recommendations</h4>
+<ul>
+  <li>Food</li>
+  <li>Books</li>
+  <li>Movies
+    <ul>
+      <li>
+<em>Halloween</em> is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another.</li>
+    </ul>
+  </li>
+  <li>Documentaries</li>
+  <li>Quotes</li>
+</ul>
+
+<h4 id="chapter-13-a-timeline-of-my-life">Chapter 13: A Timeline of My Life</h4>
+<ul>
+  <li>Annual Gratitude Lists</li>
+  <li>Named Years</li>
+</ul>
+
+<h3 id="in-closing">In closing</h3>
+
+<h4 id="further-reading">Further reading</h4>
+<ul>
+  <li>http://terrie.me/codex/</li>
+  <li>reddit.com/r/IAmA/comments/1kgmes/comment/cborf31/</li>
+  <li>
+</li>
+</ul>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>https://codex.betterhumans.pub/what-is-a-codex-vitae-and-how-to-make-your-own/ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+    </content> 
+  </div> 
+
+  <div class="webmentions">
+    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Codex" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+    <div id="webmentions"></div>
+  </div>
+</article>
+    </main> 
+ 
+  
+    <footer class="mt-40 text-sm text-slate-500 text-slate-500 dark:text-zinc-400">
+
+  <div class="flex items-stretch">
+    <div class="grow">    
+      © 1997 - 2023 <a href="/about">Zinzy Waleson Geene</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer noopener noreferrer noopener noreferrer">BY-NC-SA</a>
+    </div>
+    <div class="flex-none self-end">
+      <div class="">
+        <a href="https://xn--sr8hvo.ws/previous" target="_blank" rel="noopener noreferrer noopener noreferrer">←</a>
+        <a href="https://xn--sr8hvo.ws" target="_blank" rel="noopener noreferrer noopener noreferrer">🕸💍</a>
+        <a href="https://xn--sr8hvo.ws/next" target="_blank" rel="noopener noreferrer noopener noreferrer">→</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+ 
+
+
+
+<script>
+
+
+  // JavaScript program to illustrate 
+    // calculation of no. of days between two date 
+      
+    // To set two dates to two variables
+    var date1 = new Date("05/03/2018");
+    var date2 = new Date();
+      
+    // To calculate the time difference of two dates
+    var Difference_In_Time = date2.getTime() - date1.getTime();
+      
+    // To calculate the no. of days between two dates
+    var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+  
+    let a = Math.floor(Difference_In_Days);
+      
+    //To display the final no. of days (result)
+    console.log(a);
+    document.getElementById("sobriety").innerHTML = a + " days";
+
+  </script>
+ 
+
+      <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+    /* content a.internal-link {
+      border-color: #8b88e6;
+      background-color: #efefff;
+    } */
+  
+    #tooltip-wrapper {
+      background: white;
+      padding: 1em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+      position: absolute;
+      width: 300px;
+      height: auto;
+      font-size: 0.8em;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      opacity: 0;
+      transition: opacity 100ms;
+    }
+  
+    /* #tooltip-wrapper:after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          pointer-events: none;
+          background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+          width: 100%;
+          height: 75px;
+    } */
+  </style>
+  
+  <div style="opacity: 0; display: none;" id="tooltip-wrapper">
+    <div id="tooltip-content">
+    </div>
+  </div>
+  
+  <iframe style="display: none; height: 0; width: 0;" id="link-preview-iframe" src="">
+  </iframe>
+  
+  <script>
+    var opacityTimeout;
+    var contentTimeout;
+    var transitionDurationMs = 100;
+  
+    var iframe = document.getElementById('link-preview-iframe')
+    var tooltipWrapper = document.getElementById('tooltip-wrapper')
+    var tooltipContent = document.getElementById('tooltip-content')
+  
+    var linkHistories = {};
+  
+    function hideTooltip() {
+      opacityTimeout = setTimeout(function() {
+        tooltipWrapper.style.opacity = 0;
+        contentTimeout = setTimeout(function() {
+          tooltipContent.innerHTML = '';
+          tooltipWrapper.style.display = 'none';
+        }, transitionDurationMs + 1);
+      }, transitionDurationMs)
+    }
+  
+    function showTooltip(event) {
+      var elem = event.target;
+      var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+      var top = window.pageYOffset || document.documentElement.scrollTop
+  
+      if (event.target.host === window.location.host) {
+        if (!linkHistories[event.target.href]) {
+          iframe.src = event.target.href
+          iframe.onload = function() {
+            tooltipContentHtml = ''
+            tooltipContentHtml += '<div style="font-weight: 500;">' + iframe.contentWindow.document.querySelector('h2').innerHTML + '</div>'
+            tooltipContentHtml += iframe.contentWindow.document.querySelector('.note-description').innerHTML
+  
+            tooltipContent.innerHTML = tooltipContentHtml
+            linkHistories[event.target.href] = tooltipContentHtml
+  
+            tooltipWrapper.style.display = 'block';
+            setTimeout(function() {
+              tooltipWrapper.style.opacity = 1;
+            }, 1)
+          } 
+        } else {
+          tooltipContent.innerHTML = linkHistories[event.target.href]
+          tooltipWrapper.style.display = 'block';
+          setTimeout(function() {
+            tooltipWrapper.style.opacity = 1;
+          }, 1)
+        }
+  
+  
+        tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+        if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+            tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+        } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+            tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+        }
+  
+        if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+            tooltipWrapper.style.left = "10px";
+        } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+            tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+        }
+      }
+    }
+  
+    function setupListeners(linkElement) {
+      linkElement.addEventListener('mouseleave', function(_event) {
+        hideTooltip();
+      });
+  
+      tooltipWrapper.addEventListener('mouseleave', function(_event) {
+        hideTooltip();
+      });
+  
+      linkElement.addEventListener('touchend', function(_event) {
+        hideTooltip();
+      });
+  
+      tooltipWrapper.addEventListener('touchend', function(_event) {
+        hideTooltip();
+      });
+  
+      linkElement.addEventListener('mouseenter', function(event) {
+        clearTimeout(opacityTimeout);
+        clearTimeout(contentTimeout);
+        showTooltip(event);
+      });
+  
+      tooltipWrapper.addEventListener('mouseenter', function(event) {
+        clearTimeout(opacityTimeout);
+        clearTimeout(contentTimeout);
+      });
+    }
+  
+    document.querySelectorAll('content a').forEach(setupListeners);
+  </script>
+  </body>
+</html>

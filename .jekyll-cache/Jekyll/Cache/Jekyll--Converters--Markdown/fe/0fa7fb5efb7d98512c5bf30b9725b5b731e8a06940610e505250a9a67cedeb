@@ -1,0 +1,70 @@
+I"h<p>creation: 20200727121408
+status:
+tags:</p>
+
+<p><span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  Enterprise SaaS  <span class="invalid-link-brackets"></span></span> are (web) applications created to help professionals carry out tasks as part of their work. There are general, often well-known tools such as Jira, Slack or Google Docs. There are also highly specialized, usually lesser-known tools. Think: the software your doctor uses to send out a prescription, or the web app used by a high school coordinator in charge of creating classroom schedules.</p>
+
+<p>Enterprise UX deals with researching and creating ways to make it easier for such people to use these products. Personally, I specialize in the latter form of enterprise SaaS, or as I like to say: I make tools that help people solve problems at work<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Somewhere along <a href="/work">my design journey</a> I fell in love with the complexity, people, and usability challenges of the software professionals use to do their job.</p>
+
+<p>I’ve learnt plenty about this field in the eight years that I’ve been specializing in it. Here are some characteristics of enterprise SaaS that I think are worth noting. I’ll list them first and then discuss effects these characteristics may have on the work we do as designers.</p>
+
+<h3 id="buyer--user">Buyer ≠ user</h3>
+<p>Unlike consumer products, enterprise software is usually acquired by individuals in management positions. A school district might decide all school employees will begin using a particular administrative tool, or the head of a large travel agency opts to implement a new booking system in all offices.</p>
+
+<p>Users are hardly ever the ones making a decision on these matters, and if they’re lucky they get to share their opinion before the decision is made. Depending on the type of businesses using the product, users may never come into actual contact with anyone making the product.</p>
+
+<h3 id="complexity-is-----leitmotif--">Complexity is <span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  Leitmotif  <span class="invalid-link-brackets"></span></span></h3>
+<p>One of the reasons enterprise UX satisfies my appetite is because everything about it can be very complex. The software in itself is often highly specialized, almost indecipherable by people who are not in a particular line of work. In addition, the lack of UX expertise during product infancy often makes for less-than-ideal user experiences. On top of all of this, collaboration on these products is often complicated.</p>
+
+<h3 id="few-competitors-slow-decision-making">Few competitors, slow decision-making</h3>
+<p>The enterprise environments I’ve experienced so far all dealt with a fairly long sales funnel.</p>
+
+<ul>
+  <li>Opportunities for service design</li>
+</ul>
+
+<h3 id="subject-matter-expert---user">Subject matter expert  ≠ user</h3>
+<ul>
+  <li>Challenging stakeholder management</li>
+  <li>Benefit of UX over subject matter experts is HCI knowledge</li>
+</ul>
+
+<h3 id="innovation-might-be-a-challenge">Innovation might be a challenge</h3>
+<ul>
+  <li>Users are comfortable with suboptimal legacy solutions</li>
+</ul>
+
+<h3 id="effects-and-tips">Effects and tips</h3>
+<ul>
+  <li>Longer onboarding because of complexity</li>
+  <li>Navigating legacy patterns while crafting new solutions can be quite the undertaking for UX designers.</li>
+  <li>Leeway for product quality</li>
+  <li>You may never speak to actual users</li>
+  <li><span title="This note is not for public consumption (yet)" class="invalid-link">  <span class="invalid-link-brackets"></span>  My Second Brain/3. Resources/Ideas/Design what you need  <span class="invalid-link-brackets"></span></span>, now more than ever
+    <ul>
+      <li>Tactical design</li>
+      <li>learning how to make trade-offs can help you properly advocate for UX</li>
+    </ul>
+  </li>
+  <li>Use sales funnel to identify first-time user challenges</li>
+</ul>
+
+<h3 id="people-in-the-industry">People in the industry</h3>
+<ul>
+  <li>Page Laubheimer: learned of him through NN/g’s <em>UX Podcast</em> episode on <a href="https://podcasts.apple.com/jo/podcast/7-lessen-digital-misery-with-complex-apps-feat-page/id1527196035?i=1000507924636">lessening digital misery</a></li>
+  <li><a href="https://stephaniewalter.design/">Stéphanie Walter</a>: freelance UX researcher I know through the fediverse.</li>
+</ul>
+
+<h3 id="further-reading">Further reading</h3>
+<ul>
+  <li><em>UX Matters</em>, <a href="https://www.uxmatters.com/mt/archives/2018/09/defining-enterprise-ux.php">“Defining Enterprise UX”</a>, 2018-09-24</li>
+</ul>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I borrow this term from <a href="https://www.uxmatters.com/mt/archives/2018/09/defining-enterprise-ux.php">“Defining Enterprise UX”</a> by UXmatters, an important resource for me. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
