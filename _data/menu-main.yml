@@ -1,5 +1,7 @@
 - title: About
   url: /about
+- title: Hello
+  url: /hello
 - title: Writing
   url: /writing
 - title: Changelog
