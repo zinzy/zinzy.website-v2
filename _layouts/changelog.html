@@ -2,7 +2,9 @@
 layout: default
 ---  
 
-{{content}}
+<section class="prose dark:prose-invert">
+  {{content}}
+</section>
    
 {% assign notes = site.notes | sort: 'date' | reverse %}  
 <ul class="">

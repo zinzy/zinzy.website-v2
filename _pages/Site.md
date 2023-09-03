@@ -55,8 +55,10 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - ~~Apple shortcuts for IndieWeb likes~~ 
 - ~~Apple shortcuts for IndieWeb replies~~ 
 - ~~Tailwindcss~~ 
+- Display guestbook posts
 - Add Netlify a11y plugin
 - Auto POSSE to Mastodon
+- iOS Shortcut likes with content field
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add second xml feed to `netlify-plugin-webmentions` (don't know for sure that I want this)
 
