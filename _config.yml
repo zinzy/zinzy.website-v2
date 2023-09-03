@@ -108,9 +108,9 @@ collections:
   pages:
     output: true
     permalink: /:slug
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
+  # posts:
+  #   output: true
+  #   permalink: /:year/:month/:day/:slug
   status:
     output: false
 
@@ -131,10 +131,10 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page" 
-  - scope:
-      path: "_posts/**/*.md"
-    values:
-      layout: "post" 
+  # - scope:
+  #     path: "_posts/**/*.md"
+  #   values:
+  #     layout: "post" 
   - scope:
       path: "_status/**/*.md"
     values:
