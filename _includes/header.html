@@ -7,9 +7,8 @@
         https://www.sitepoint.com/css-typewriter-effect/ 
         https://codepen.io/SitePoint/pen/rNzBMee
       -->
-      <div class="xxxstatus text-slate-500 dark:text-zinc-400 text-sm"> 
-        <span class="">... </span>
-        <span>
+      <div class="status text-slate-500 dark:text-zinc-400 text-sm"> 
+        <span class="">
           {% assign status = site.status | sort: 'date' | reverse  %}     
           {% for post in status limit: 1 %}
             {{post.content}}
@@ -17,7 +16,7 @@
             (<span id="statusTimeAgo"></span>)
           {% endfor %}
         </span>
-        <span class="blink dark:text-zinc-400">|</span>
+        <span class=" blink dark:text-zinc-400">|</span>
       </div>
     </div>
 
