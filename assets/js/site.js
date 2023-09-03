@@ -20,7 +20,7 @@ function settime() {
   // Setting interpolated string instead of just the time because
   // if there's no JS there should be no mentions of current time
   const text = timestamp.getAttribute('data-timestamp-text').replace('{time}', time)
-  timestamp.innerHTML = text.replace(':', '<span class="timestamp-colon blink text-slate-300 dark:text-zinc-500" data-colon>:</span>')
+  timestamp.innerHTML = text.replace(':', '<span class="timestamp-colon blink text-slate-300 dark:text-zinc-400" data-colon>:</span>')
 
   const now = new Date()
   const sec = now.getSeconds()

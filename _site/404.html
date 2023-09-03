@@ -40,7 +40,7 @@
   
 
   
-  <meta property="og:title" content="404">
+  <meta property="og:title" content="404, okay you're screwed">
   <meta property="og:type" content="article">
   
 
@@ -55,7 +55,7 @@
 
   <title>
     
-      404 - Zinzy Waleson Geene
+      404, okay you're screwed - Zinzy Waleson Geene
     
   </title>
 
@@ -80,7 +80,7 @@
 </head>
 
 
-  <body class="p-6 md:py-20 mx-auto subpixel-antialiased bg-white text-slate-900 dark:bg-zinc-800 dark:text-zinc-100">  
+  <body class="p-6 md:py-20 mx-auto antialiased bg-white text-slate-900 dark:bg-zinc-800 dark:text-zinc-100">  
 
    
     <header>
@@ -92,52 +92,55 @@
         https://www.sitepoint.com/css-typewriter-effect/ 
         https://codepen.io/SitePoint/pen/rNzBMee
       -->
-      <div class="status text-slate-500 dark:text-zinc-500 text-sm"> 
-        <span class="">is </span>
+      <div class="status text-slate-500 dark:text-zinc-400 text-sm"> 
+        <span class="">... </span>
         <span data-status-text></span>
         <span data-status-datetime></span> 
-        <span class="blink">|</span>
+        <span class="blink dark:text-zinc-400">|</span>
       </div>
     </div>
 
   <nav class="mt-10">
     <ul class="list-none m-0 p-0">
       
-            <li class="inline-block mr-4"><a href="/about">About</a></li>
+            <li class="inline-block mr-4"><a href="/about" class="font-medium">About</a></li>
       
-            <li class="inline-block mr-4"><a href="/writing">Writing</a></li>
+            <li class="inline-block mr-4"><a href="/writing" class="font-medium">Writing</a></li>
       
-            <li class="inline-block mr-4"><a href="/changelog">Changelog</a></li>
+            <li class="inline-block mr-4"><a href="/changelog" class="font-medium">Changelog</a></li>
       
-            <li class="inline-block mr-4"><a href="/more">More</a></li>
+            <li class="inline-block mr-4"><a href="/more" class="font-medium">More</a></li>
       
     </ul>
   </nav>
 
-  <span class="text-slate-500 dark:text-zinc-600 right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
+  <span class="text-slate-500 dark:text-zinc-400 right-now mt-6 mr-6 md:mt-20 md:mr-20" data-timestamp-text="{time}"></span>
 </header>
  
     <main class="my-40">
       <h2 class="font-medium text-2xl mb-5">
         
-          404
+          404, okay you're screwed
         
       </h2>
-      <div class="my-5">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1677828599/zinzy.website/404_ucor50.gif" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-6">
-            <h2>404</h2>
-            <p>Whoopsie daisy, whatever you were promised is not available. Head on back <a href="/">home</a> to continue your journey.</p>        
-        </div>
-    </div>
-</div>
+      <section class="prose dark:prose-invert">
+    <p>Honestly, I don't know how you're coping right now. The Internet is all about establishing a healthy back-and-forth, I offer, and you receive. And now I've left you with nothing. Luckily, there are a few ways for you to get out of this rut. Why don't you ask Google for help?</p>
+</section>
+
+<form method="get" action="https://www.google.com/search" target="_blank" class="my-10 flex">
+    <input type="text" name="q" maxlength="255" class="border border-solid border-slate-200 w-full rounded dark:bg-zinc-800 dark:border-zinc-600  mr-3" placeholder="What are you looking for?">
+    <input type="hidden" name="domains" value="https://zinzy.website">
+    <input type="hidden" name="sitesearch" value="https://zinzy.website">
+    <button type="submit" name="sa" value="Search" class="px-4 border border-solid border-slate-200 rounded dark:bg-zinc-800 dark:border-zinc-600 shrink-0 font-medium hover:bg-slate-100 dark: hover:bg-zinc-700">Search</button>
+</form>
+
+<section class="prose dark:prose-invert">
+    <p>Aternatively, you may try the <a href="/">Home page</a> or my <a href="/writing">Writing archive</a> to find what you need. More information about me can be found on my <a href="/about">About page</a>, and more techncial details about this site are stored on my <a href="/site">Site page</a>. If you really can't find what you're looking for, don't hesitate to <a href="/hello">contact me</a>.</p>
+</section>
     </main> 
  
   
-    <footer class="mt-40 text-sm text-slate-500 text-slate-500 dark:text-zinc-500">
+    <footer class="mt-40 text-sm text-slate-500 text-slate-500 dark:text-zinc-400">
 
   <div class="flex items-stretch">
     <div class="grow">    
