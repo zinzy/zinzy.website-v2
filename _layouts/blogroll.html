@@ -12,8 +12,8 @@ layout: default
     <div class="mt-5">
       {% assign blogroll_first = site.data.blogroll.first | sort: 'name' %}
       {% for item in blogroll_first %}
-        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded  mr-3 mb-3">
-          <img class="h-4 mr-2 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+        <a href="{{item.url}}" rel="noopener noreferrer" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3 mb-3  px-4">
+          <img class="h-4 mr-3 icon inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
           <span class="inline-block">{{item.name}}</span>
         </a>
       {% endfor %}

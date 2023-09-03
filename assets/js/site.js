@@ -73,6 +73,52 @@ function relativeDate(date) {
 }
 
 
+
+// https://www.slingacademy.com/article/javascript-how-to-convert-date-time-to-time-ago/
+// Define a function that takes a date as an argument
+// and returns a string that represents how long ago the date was
+function timeAgo(date) {
+  const seconds = Math.floor((new Date() - date) / 1000);
+
+  let interval = Math.floor(seconds / 31536000);
+  if (interval > 1) {
+    return interval + ' years ago';
+  }
+
+  interval = Math.floor(seconds / 2592000);
+  if (interval > 1) {
+    return interval + 'mo ago';
+  }
+
+  interval = Math.floor(seconds / 86400);
+  if (interval > 1) {
+    return interval + 'd ago';
+  }
+
+  interval = Math.floor(seconds / 3600);
+  if (interval > 1) {
+    return interval + 'h ago';
+  }
+
+  interval = Math.floor(seconds / 60);
+  if (interval > 1) {
+    return interval + ' min ago';
+  }
+
+  if(seconds < 10) return 'just now';
+
+  return 'just now';
+};
+
+
+
+
+
+let meow = document.getElementById("statusDate").innerHTML;
+
+document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow)); 
+
+
 // function settime() {
 //     const timestamp = document.querySelector('[data-timestamp-text]')
 //     if (!timestamp || !('Intl' in window)) return
