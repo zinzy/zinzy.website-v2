@@ -19,7 +19,7 @@ As soon as I head over, we hug, and he begins telling me that he talks about me 
 
 He turns towards to his friends and continues. "I lean in to kiss her, but she rejects me. And I'm so nervous, thinking 'gosh, did I really misread all the signs?!'" Apparently, then I said these words, which...:
 
-> "Wait. This is the last moment that you and I have never kissed."
+> Wait. This is the last moment that you and I have never kissed.
 
 As he was telling this story, my entire body lit up. Partially turned on, but predominantly struck with delight. Who is that person? Can I have her number? Oh hold on, he's talking about me. 
 
