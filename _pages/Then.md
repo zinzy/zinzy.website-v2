@@ -24,13 +24,11 @@ I've always had a knack for languages, though: learning how to read, write, and 
 At Utrecht University, I dove head-first into literature and linguistics, specializing in narratology and comics studies, and running the absurdist student magazine BOMBOMMER. I graduated with a thesis on focalization in the comicized Dutch classic _The Evenings_.
 
 ### I've been building things for the web since there were still five Spice Girls
-Somehow I ended up with a degree in literature and linguistics. How is this all connected, you ask? Well, [naming things](http://www.tbray.org/ongoing/When/200x/2005/12/23/UPI), of course. Parallel to my hopes of becoming a humanities PhD, I had been running a design studio since I was 18. Back then, building sites and helping out startups was an easy way to make money. Eventually, it'd come to mean [more than just that](/work).
+Somehow I ended up in the school of humanities. How is this all connected, you ask? Well, [naming things](http://www.tbray.org/ongoing/When/200x/2005/12/23/UPI), of course. Parallel to my hopes of becoming a humanities PhD, I had been running a design studio since I was 18. Back then, building sites and helping out startups was an easy way to make money. Eventually, it'd come to mean [more than just that](/work).
 
 The imposter syndrome self-taught designers and researchers may feel resonates very, very deeply with me. It wasn't until 13 years in that I began feeling like a proper designer. I've found, though, that there is something very beautiful and effective in learning by solving your own problems. I suppose that's also very much my learning style.
 
 ### Speaking of learning styles, I'm neurodivergent
 My understanding of how I work and what that means for my life is on a seemingly never-ending journey. Unlike what people often think when they meet me, I wasn't blessed with a dust-free school career. I was put on the fast track for mathematics at age seven, but got bored and fannied my way through elementary school, wondering why I was so different.
 
-At my edtech employer Leeruniek I always joked that I was the only person at the company who had experienced all levels of the [Dutch educational system](https://en.wikipedia.org/wiki/Education_in_the_Netherlands). My high school and college experiences were so deeply drenched in underachievement that putting them on LinkedIn would make me entirely unhireable.
-
-Luckily though, I eventually made it to university, where I found the pace that was right for me.
+At my edtech employer Leeruniek I always joked that I was the only person at the company who had experienced all levels of the [Dutch educational system](https://en.wikipedia.org/wiki/Education_in_the_Netherlands). My high school and college experiences were so deeply drenched in underachievement that putting them on LinkedIn would make me entirely unhireable. Luckily though, I eventually made it to university, where I found the pace that was right for me.
