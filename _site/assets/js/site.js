@@ -53,22 +53,57 @@ fetch("/status.txt").then(function(s) {
  console.log('Fetch problem show: ' + err.message);
 });
 
-function relativeDate(date) {
-  const now = new Date()
-  const diff = now - date
-  const hour = 1000 * 60 * 60
-  const day = hour * 24
-  const week = day * 7
-  const rtf = new Intl.RelativeTimeFormat('en', { style: 'narrow' })
+// function relativeDate(date) {
+//   const now = new Date()
+//   const diff = now - date
+//   const hour = 1000 * 60 * 60
+//   const day = hour * 24
+//   const week = day * 7
+//   const rtf = new Intl.RelativeTimeFormat('en', { style: 'narrow' })
 
-  if (diff < hour) {
-    return rtf.format(-Math.floor(diff / 60000), 'minute')
+//   if (diff < hour) {
+//     return rtf.format(-Math.floor(diff / 60000), 'minute')
+//   } else if (diff < day) {
+//     return rtf.format(-Math.floor(diff / hour), 'hour')
+//   } else if (diff < week) {
+//     return rtf.format(-Math.floor(diff / day), 'day')
+//   } else {
+//     return
+//   }
+// }
+
+function relativeDate(date) {
+  const diff = Math.round((new Date() - new Date(date)) / 1000);
+
+  const minute = 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+  const week = day * 7;
+  const month = day * 30;
+  const year = month * 12;
+
+  if (diff < 30) {
+    return "just now";
+  } else if (diff < minute) {
+    return diff + " seconds ago";
+  } else if (diff < 2 * minute) {
+    return "a minute ago";
+  } else if (diff < hour) {
+    return Math.floor(diff / minute) + " minutes ago";
+  } else if (Math.floor(diff / hour) == 1) {
+    return "1 hour ago";
   } else if (diff < day) {
-    return rtf.format(-Math.floor(diff / hour), 'hour')
+    return Math.floor(diff / hour) + " hours ago";
+  } else if (diff < day * 2) {
+    return "yesterday";
   } else if (diff < week) {
-    return rtf.format(-Math.floor(diff / day), 'day')
+    return week + " days ago";
+  } else if (diff < month) {
+    return Math.floor(diff / week) + " weeks ago";
+  } else if (diff < year) {
+    return Math.floor(diff / month) + " months ago";
   } else {
-    return
+    return Math.floor(diff / year) + " years ago";
   }
 }
 
@@ -116,7 +151,7 @@ function timeAgo(date) {
 
 let meow = document.getElementById("statusDate").innerHTML;
 
-document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow)); 
+document.getElementById('statusTimeAgo').innerHTML = relativeDate(new Date(meow)); 
 
 
 // function settime() {
