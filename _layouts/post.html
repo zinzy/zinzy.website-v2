@@ -16,24 +16,23 @@ layout: default
       <div class="grid grid-cols-2">
         <div class="border-r p-4">
           {% if page.previous.url %}
-            <p class="text-slate-500 dark:text-zinc-400">Older</p>
+          Older 
             <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
           {% endif %}
         </div>
         <div class="text-right p-4">
           {% if page.next.url %}
-            <p class="text-slate-500 dark:text-zinc-400">Newer</p>
+          Newer 
             <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
           {% endif %}
         </div>
       </div> 
       <div class="border-t p-4">
-        <h2 class="text-slate-500 dark:text-zinc-400 font-normal">Join the conversation</h2>
-        <p><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re: '{{page.title}}'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline">webmention</a>. I would love to read about your perspective.</p>
+        <p><strong>Let me know what you think</strong> <a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re: '{{page.title}}'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline">webmention</a>. I would love to read about your perspective.</p>
       </div>
       {% if page.tags.size > 0 %} 
       <div class="border-t p-4">
-        <h2 class="text-slate-500 dark:text-zinc-400 font-normal inline-block mr-5">More about  </h2> 
+        <strong>More about</strong>
           {% assign sorted_tags = page.tags | sort %}
           {% for tag in sorted_tags %}
             {%- assign t = tag | first -%}
