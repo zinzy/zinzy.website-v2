@@ -4,11 +4,13 @@ layout: default
 {{content}}
 
 <section class="my-10"> 
-  <div class="">
+  <ul class="">
   {% for item in site.data.menu-more %}
-    <a href="{{ item.url }}" class="bg-slate-50 dark:bg-zinc-800 p-2 text-sm inline-block border-solid border border-slate-200 hover:border-slate-300 dark:border-zinc-700 dark:hover:border-zinc-600 rounded mr-3 mb-3 px-4">
-      {{ item.icon }} <span class="inline-block ml-3">{{ item.title }}</span>
-    </a>
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.icon }} {{ item.title }}
+      </a>
+    </li>
   {% endfor %}
-  </div>
+  </ul>
 </section>
