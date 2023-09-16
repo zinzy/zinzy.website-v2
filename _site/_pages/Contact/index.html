@@ -91,9 +91,9 @@
     <li class="status">
            
       
-        <p>Coming off it</p>
+        <p>Afterglowing</p>
 
-        <time datetime="14 Sep 2023" class="none" id="statusDate">2023-09-14 11:49:32</time>
+        <time datetime="15 Sep 2023" class="none" id="statusDate">2023-09-15 23:20:56</time>
         (<span id="statusTimeAgo"></span>)
       
     </li>
@@ -130,23 +130,17 @@
 <form action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b" method="POST">
 
     <div class="row">
-        <div class="mb-5">
-            <label for="formName">Name</label>
-            <input type="text" name="Name" class="mt-3 form-input border-slate-200 w-full rounded dark:bg-zinc-800 dark:border-zinc-600" id="formName">
-        </div>
-        <div class="mb-5">
-            <label for="formEmail">Email</label>
-            <input type="email" name="Email" class="mt-3 form-input border-slate-200 w-full rounded dark:bg-zinc-800 dark:border-zinc-600" id="formEmail">
-        </div>
-        <div class="mb-5">
-            <label for="formMessage">Message</label>
-            <textarea type="text" name="Message" class="mt-3 form-input border-slate-200 w-full rounded dark:bg-zinc-800 dark:border-zinc-600" id="formMessage" rows="10"></textarea>
-        </div>
+        <label for="formName">Name</label>
+        <input type="text" name="Name" id="formName">
+        <label for="formEmail">Email</label>
+        <input type="email" name="Email" id="formEmail">
+        <label for="formMessage">Message</label>
+        <textarea type="text" name="Message" id="formMessage" rows="10"></textarea>
     </div>  
     <!-- add hidden Honeypot input to prevent spams -->
     <input type="hidden" name="_gotcha" style="display:none !important">
     <div class="text-right">
-        <button type="submit" class="px-4 py-2 border border-solid border-slate-200 rounded dark:bg-zinc-800 dark:border-zinc-600 shrink-0 font-medium hover:bg-slate-100 dark: hover:bg-zinc-700" name="Submit">Send</button>
+        <button type="submit" name="Submit">Send</button>
     </div>
 </form>
     </main> 

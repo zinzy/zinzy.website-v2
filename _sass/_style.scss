@@ -53,8 +53,8 @@ footer {
 }
 
 .status {
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
   p {
     display: inline-block; 
     margin: 0;
@@ -65,4 +65,22 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   color: black;
   font-size: 100%;
+}
+
+p {
+  line-height: 150%;
+}
+
+form {
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+}
+
+ul {
+  li {
+    margin-bottom: .5rem;
+  }
 }
