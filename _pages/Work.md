@@ -2,7 +2,7 @@
 title: "Work"
 layout: page
 ---
-I'm a senior-but-silly designer and researcher with 16 years of experience making digital products. Eight years ago I began to specialize in making tools for people at work.
+I'm a senior-but-silly researcher and designer with 17 years of experience making digital products. I'm specialized in making tools for people at work.
 
 <figure>
 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1673958111/me/zinzy-at-a-party_vrzlqr.jpg" alt="" />

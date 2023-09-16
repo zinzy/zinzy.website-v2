@@ -7,9 +7,9 @@ layout: default
 </section>
    
 {% assign notes = site.notes | sort: 'date' | reverse %}  
-<ul class="">
+<ul class="changelog">
   {% for post in notes %}
-  <li class="mt-10 border dark:border-zinc-600 hover:border-slate-300 p-5 rounded transition duration-300 ease-in-out"> 
+  <li class="item"> 
     <div class="prose dark:prose-invert">  
       {% if post.photo %}
         <img src="{{post.photo}}" alt="" class="mb-5">
