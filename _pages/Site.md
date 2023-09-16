@@ -5,30 +5,15 @@ layout: page
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
 ### Principles
-I believe things on the web should be <mark>accessible, transparent, and sustainable</mark>. In making this website, I do my best to keep in mind the following sources of inspiration:
-
-- [Brutalist web design principles](https://brutalist-web.design/)
-- [The a11y project](https://www.a11yproject.com/)
-- [Designed to last](https://jeffhuang.com/designed_to_last/)
-- [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto)
+- I believe things on the web should be accessible, transparent, and sustainable.
+- This website is inspired by [Brutalist web design principles](https://brutalist-web.design/), [The a11y project](https://www.a11yproject.com/), [Designed to last](https://jeffhuang.com/designed_to_last/), [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto), and others.
 
 ### The story this space tells
-One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why. What does this space say about my person? What does it say about my skills as a professional designer?
+One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, and lived experiences, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why. What does this space say about my person? What does it say about my skills as a professional designer? When it comes down to it, this I know: I believe it's good to have a single website that serves as my home on the web rather than separate websites for my professional and personal lives. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
 
-When it comes down to it, this I know: I believe it's good to have a single website that serves as my home on the web rather than separate websites for my professional and personal lives. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
-
-### Content
-There are three main content types on this website:
-- Journal entries, some fleeting, some crafted with great focus, all of which are collected under [Writing](/writing)
-- Short blurbs, reflections, reminders, and notes to friends, which I store in [my changelog](/changelog)
-- Working notes of topics I think about frequently, collected in [my garden](/garden)
 
 ### Design
-Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. 
-
-I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you.
-
-I usually refrain from using custom CSS or content in my diary entries. 
+Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you. I usually refrain from using custom CSS or content in my diary entries. 
 
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
