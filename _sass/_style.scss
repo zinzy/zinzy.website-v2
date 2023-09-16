@@ -3,12 +3,19 @@ body {
   max-width: 500px;
   margin: 0 auto;
   @media screen and (min-width: 992px) {
-
+    padding: 100px;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background: black;
   }
 }
 
 a {
-  color: blue;
+  color: black;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 .none {
@@ -53,4 +60,9 @@ footer {
     margin: 0;
     padding: 0;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-size: 100%;
 }
