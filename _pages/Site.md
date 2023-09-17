@@ -5,11 +5,10 @@ layout: page
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
 ### Principles
-- I believe things on the web should be accessible, transparent, and sustainable.
-- This website is inspired by [Brutalist web design principles](https://brutalist-web.design/), [The a11y project](https://www.a11yproject.com/), [Designed to last](https://jeffhuang.com/designed_to_last/), [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto), and others.
+I believe things on the web should be accessible, transparent, and sustainable. This website is inspired by [Brutalist web design principles](https://brutalist-web.design/), [The a11y project](https://www.a11yproject.com/), [Designed to last](https://jeffhuang.com/designed_to_last/), [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto), and others.
 
-### The story this space tells
-One element about web publishing that has forever been intriguing me is the question of online identity. As an adult person with hobbies, a career, and various interests, and lived experiences, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why. What does this space say about my person? What does it say about my skills as a professional designer? When it comes down to it, this I know: I believe it's good to have a single website that serves as my home on the web rather than separate websites for my professional and personal lives. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
+### What I put on here
+As an adult person with hobbies, a career, and various interests, and lived experiences, I routinely wonder what I should put on my website, what I should leave out, what style of design I should implement and why. What does this space say about my person? What does it say about my skills as a professional designer? This I know: I believe it's good to have a single website that serves as my home on the web. I also believe that it's okay to use this space to be vulnerable, lack awareness, and change my mind.
 
 
 ### Design

@@ -2,12 +2,9 @@
 title: "About"
 layout: page
 ---
-Heya, I'm Zinzy, and I’ve been yelling at Internet clouds since 1997. I [work](/work) at the intersection of research, design, language, and strategy. I'm a crazy church lady, a mid-range millennial, and a bit of an edge case. I like a good story.
+Hello, I'm Zinzy, and I’ve been yelling at Internet clouds since 1997. 
 
-<!-- <div class="grid grid-cols-2 gap-4">
-  <div><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1649240297/me/FullSizeRender_copy_y5whli.jpg"></div>
-  <div><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg"></div>
-</div> -->
+I'm an amateur musician, a fervent diarist, a crazy church lady, a mid-range millennial, and a bit of an edge case. During office hours, I [work](/work) in healthcare technology, serving as senior UX researcher and designer at [Gerimedica](https://gerimedica.nl). 
  
 To learn about the story of who I am today, please visit my [Now](/now) page. To discover how I got here, head over to [Then](/then). This (growing) about page is one of a technical, factual nature.
 
