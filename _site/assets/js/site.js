@@ -44,7 +44,7 @@ function relativeDate(date) {
   const month = day * 30;
   const year = month * 12;
 
-  
+
   if (diff < 30) {
     return "just now";
   } else if (diff < minute) {
@@ -109,11 +109,7 @@ function timeAgo(date) {
 };
 
 
-
-
-
 let meow = document.getElementById("statusDate").innerHTML;
-
 document.getElementById('statusTimeAgo').innerHTML = relativeDate(new Date(meow)); 
 
 
