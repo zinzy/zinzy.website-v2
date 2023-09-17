@@ -18,7 +18,7 @@ To learn about the story of who I am today, please visit my [Now](/now) page. To
 - I live in Amsterdam's Indische Buurt
 - I am an orthoprax Jesus follower operating in the venn diagram of the Episcopal Church, [Lab/Shul](https://www.labshul.org/), and Catholicism
 - I had a bit of a rough start in life, which resulted in long-lasting health challenges
-- I'm <span id="sobriety"></span> sober
+- I'm <span id="sobrietyCount"></span>  <span id="sobrietyDays"></span> sober
 
 
 

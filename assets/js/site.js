@@ -142,4 +142,5 @@ document.getElementById('statusTimeAgo').innerHTML = relativeDate(new Date(meow)
       
     //To display the final no. of days (result)
     console.log(a);
-    document.getElementById("sobriety").innerHTML = a + " days";
+    document.getElementById("sobrietyCount").innerHTML = a;
+    document.getElementById("sobrietyDays").innerHTML = " days";
