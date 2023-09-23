@@ -1,5 +1,8 @@
 html, body {
-  font-size: 20px;
+  font-size: 16px;
+  @media screen and (min-width: 992px) {
+    font-size: 20px;
+  }
 }
 
 body {
@@ -24,7 +27,7 @@ a {
   @media (prefers-color-scheme: dark) {
     color: white;
     &:hover {
-      color: blue;
+      color: fuchsia;
     }
   }
 }
@@ -71,6 +74,10 @@ header {
     left: 0;
     width: 100%;
     padding: 1rem 0;
+    @media (prefers-color-scheme: dark) {
+      background: black;
+      border-bottom: 3px solid fuchsia;
+    }
     @media screen and (min-width: 992px) {
       padding: 1rem 0;
       text-align: left;
@@ -115,6 +122,9 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   font-size: 1rem;
   line-height: 150%;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 p {

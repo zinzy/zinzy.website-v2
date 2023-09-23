@@ -1,9 +1,9 @@
-- title: Now
-  url: /now
-  icon: 🍎
 - title: Then
   url: /then
   icon: 📜
+- title: Changelog
+  url: /changelog
+  icon: ✏️
 - title: Blogroll
   url: /blogroll
   icon: ☕
