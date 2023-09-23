@@ -11,9 +11,10 @@
         {% if page.path contains "_notes" %}
           {{ page.date | date: "%R" }}
           {% else %}
-          {{page.title}}
+          {{page.title}}{% if page.slug == "now" %}, updated from Amsterdam in {{ page.date | date: "%B %Y" }}{% endif %}
         {% endif %}
       </h2>
+       
       {{content}}
     </main> 
  

@@ -46,9 +46,8 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add second xml feed to `netlify-plugin-webmentions` (don't know for sure that I want this)
 
-
 ### Validation
-- [Yellow Lab Tools](https://yellowlab.tools/result/gk6j8ztrj0) gives this site a 100/100 global score
+- [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 
 ### Most recently

@@ -1,9 +1,14 @@
+html, body {
+  font-size: 20px;
+}
+
 body {
-  padding: 40px;
-  max-width: 500px;
+  font-size: 1rem; 
+  max-width: 30rem;
   margin: 0 auto;
+  padding: 5rem 2rem 2rem 2rem;
   @media screen and (min-width: 992px) {
-    padding: 100px;
+    padding: 8rem 0;
   }
   @media (prefers-color-scheme: dark) {
     color: white;
@@ -14,12 +19,12 @@ body {
 a {
   color: black;
   &:hover {
-    color: red;
+    color: blue;
   }
   @media (prefers-color-scheme: dark) {
     color: white;
     &:hover {
-      color: red;
+      color: blue;
     }
   }
 }
@@ -52,11 +57,43 @@ img, svg, video, canvas, audio, iframe, embed, object {
 
 header {
   margin-bottom: 100px;
+  h1, p {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+  }
+  nav {
+    background: white;
+    border-bottom: 3px solid blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    @media screen and (min-width: 992px) {
+      padding: 1rem 0;
+    }
+    ul {
+      max-width: 30rem;
+      margin: 0 auto;
+      padding: 0;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin: 0 1rem 0 0;
+        padding: 0;
+      }
+    }
+  }
 }
 
 footer {
-  margin-top: 100px;
-  font-size: 90%;
+  margin-top: 5rem;
+  font-size: .8rem;
+}
+
+section {
+  margin-bottom: 2rem;
 }
 
 .status {
@@ -71,7 +108,8 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
   color: black;
-  font-size: 100%;
+  font-size: 1rem;
+  line-height: 150%;
 }
 
 p {
@@ -97,6 +135,16 @@ ul {
   padding: 0;
   list-style-type: none;
   li.item {
-    margin-top: 50px;
+    margin-top: 3rem;
+  }
+}
+
+.invalid-link {
+  color: #8a8a8a;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  @media (prefers-color-scheme: dark) {
+    color: #b5b5b5;
   }
 }

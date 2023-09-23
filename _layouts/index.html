@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<section class="prose dark:prose-invert">
-  {{content}}
+<section>
+  <p>Heya internet pal, welcome to my website. I'm Zinzy, a human on the Internet and in Amsterdam<span data-timestamp-text=", where it's {time}"></span>. Consider this a quiet street on the Internet; a place for soft stances, lived experiences, and critical notes on the things I hold dear. I appreciate that you chose to visit this place. Thank you for your time.</p>
 </section>
 
-<section class="mt-16"> 
+<section> 
   <div class="">
     <h3 class="font-medium text-xl">Latest writing</h3>
     {% assign diary = site.posts | where_exp: "item", "item.path contains '_posts'" | sort: 'date' | reverse %}  

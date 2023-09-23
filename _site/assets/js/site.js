@@ -110,7 +110,7 @@ function timeAgo(date) {
 
 
 let meow = document.getElementById("statusDate").innerHTML;
-document.getElementById('statusTimeAgo').innerHTML = relativeDate(new Date(meow)); 
+document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow)); 
 
 
 

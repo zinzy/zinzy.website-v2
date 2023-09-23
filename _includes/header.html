@@ -2,20 +2,22 @@
 
   <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-  <ul>
-    <li class="status">
-      {% assign status = site.status | sort: 'date' | reverse  %}     
-      {% for post in status limit: 1 %}
-        {{post.content}}
-        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
-        (<span id="statusTimeAgo"></span>)
-      {% endfor %}
-    </li>
-    <li>Based in Amsterdam<span data-timestamp-text=", where it's {time}"></span></li> 
-    <li>
+  <p class="status">
+    {% assign status = site.status | sort: 'date' | reverse  %}     
+    {% for post in status limit: 1 %}
+      {{post.content}}
+      <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
+      (<span id="statusTimeAgo"></span>)
+    {% endfor %}
+  </p> 
+
+  <nav>
+    <ul>
       {% for item in site.data.menu-main %}
-            <span class=""><a href="{{item.url}}" class="font-medium">{{ item.title }}</a></span>
+      <li> 
+        <a href="{{item.url}}" class="font-medium">{{ item.title }}</a>
+      </li>
       {% endfor %}
-    </li>
-  </ul>
+    </ul>
+  </nav>
 </header>

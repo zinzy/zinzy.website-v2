@@ -1,8 +1,10 @@
-- title: About
-  url: /about
 - title: Writing
   url: /writing
 - title: Changelog
   url: /changelog
+- title: Now
+  url: /now 
+- title: About
+  url: /about 
 - title: More...
   url: /more
