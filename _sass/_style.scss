@@ -1,17 +1,31 @@
+html { 
+  --light-yellow: rgb(255, 249, 188);
+  --yellow: rgb(255, 240, 76);
+  --serif: "Times New Roman", serif;
+  --sans: "Helvetica Neue", sans-serif; 
+}
+
 html, body {
   font-size: 16px;
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 768px) {
     font-size: 20px;
   }
 }
 
 body {
+  font-family: var(--serif);
+  background: var(--light-yellow);
   font-size: 1rem; 
   max-width: 30rem;
   margin: 0 auto;
-  padding: 8rem 2rem 2rem 2rem;
+  line-height: 150%;
+  padding: 10rem 2rem 8rem 2rem;
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-backface-visibility: visible;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   @media screen and (min-width: 992px) {
-    padding: 8rem 0;
+    padding: 10rem 0 8rem 0;
   }
   @media (prefers-color-scheme: dark) {
     color: white;
@@ -21,13 +35,16 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
   &:hover {
-    color: blue;
+    color: black;
+    background: var(--yellow);
   }
   @media (prefers-color-scheme: dark) {
     color: white;
     &:hover {
-      color: fuchsia;
+      color: white;
+      background: rgb(113, 113, 24);
     }
   }
 }
@@ -45,6 +62,10 @@ img, video {
 img, svg, video, canvas, audio, iframe, embed, object {
   display: block;
   vertical-align: middle;
+}
+
+.inline {
+  display: inline;
 }
 
 .inline-block {
@@ -66,9 +87,10 @@ header {
     line-height: 150%;
   }
   nav {
-    text-align: center;
-    background: white;
-    border-bottom: 3px solid blue;
+    // background: rgb(255, 251, 217);
+    backdrop-filter: blur(10px);
+    text-align: center; 
+    border-bottom: 1px solid black;
     position: fixed;
     top: 0;
     left: 0;
@@ -76,7 +98,7 @@ header {
     padding: 1rem 0;
     @media (prefers-color-scheme: dark) {
       background: black;
-      border-bottom: 3px solid fuchsia;
+      border-color: white;
     }
     @media screen and (min-width: 992px) {
       padding: 1rem 0;
@@ -91,6 +113,9 @@ header {
         display: inline-block;
         margin: 0 1rem;
         padding: 0;
+        a {
+          font-family: var(--sans);
+        }
         @media screen and (min-width: 992px) {
           margin: 0 1rem 0 0;
         }
@@ -100,7 +125,12 @@ header {
 }
 
 footer {
+  font-family: var(--sans);
   margin-top: 5rem;
+  font-size: .8rem;
+}
+
+time {
   font-size: .8rem;
 }
 
@@ -118,8 +148,14 @@ section {
   }
 }
 
+time {
+  font-family: var(--sans);
+}
+
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sans);
   color: black;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
   @media (prefers-color-scheme: dark) {
@@ -127,8 +163,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-p {
-  line-height: 150%;
+p { 
+  a { 
+  text-decoration: underline;
+  }
 }
 
 form {
@@ -161,5 +199,26 @@ ul {
   text-underline-offset: 2px;
   @media (prefers-color-scheme: dark) {
     color: #b5b5b5;
+  }
+}
+
+.paragraph-list {
+  list-style-type: none;
+  display: inline;
+  margin:0;
+  padding: 0;
+  li {
+    display: inline;
+    &:not(:last-child):after {
+      content: ", "
+    }
+    &:last-child {
+      &::after {
+        content: "."
+      }
+    }
+    a {
+      text-decoration: underline;
+    }
   }
 }

@@ -11,7 +11,7 @@ layout: default
       {% unless post.url contains "resources" %}
       <li class="py-2">
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></li>  
+        <time datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
       {% endunless %}
       {% endfor %} 
     </ul>

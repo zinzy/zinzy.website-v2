@@ -7,7 +7,9 @@ layout: default
 
 <section> 
   <div class="">
-    <h3 class="font-medium text-xl">Latest writing</h3>
+    <h3 class="font-medium text-xl">
+      <a href="/writing">Latest writing →</a>
+    </h3>
     {% assign diary = site.posts | where_exp: "item", "item.path contains '_posts'" | sort: 'date' | reverse %}  
     <ul class="mt-5 divide-y dark:divide-zinc-600">
       {% for post in diary limit: 10 %} 
@@ -19,9 +21,6 @@ layout: default
       {% endunless %}
       {% endfor %} 
     </ul>
-  </div>
-  <div class="mt-7">
-    <a href="/writing" class="btn">Visit archive</a>
   </div>
 </section>
 

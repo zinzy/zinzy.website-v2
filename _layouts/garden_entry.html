@@ -8,7 +8,7 @@ layout: default
       {% if page.audience %}
         <div class="card mb-3">
           <div class="card-body px-4">
-            <strong>Intended audience:</strong> {{page.audience}}
+            <em>Intended audience:</em> {{page.audience}}
           </div>
         </div>
       {% endif %}
@@ -46,12 +46,12 @@ layout: default
           </div>
         </div>  -->
         <div class="p-4">
-          <p><strong>Let me know what you think</strong> <a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re: '{{page.title}}'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline">webmention</a>. I would love to read about your perspective.</p>
+          <p><em>Let me know what you think</em> <a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re: '{{page.title}}'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline">webmention</a>. I would love to read about your perspective.</p>
         </div>
 
         {% if page.backlinks.size > 0 %}
         <div class="border-t p-4">
-          <strong>Pages that link here</strong>
+          <em>Pages that link here</em>
             
           <ul class="">
             {% for backlink in page.backlinks %} 
