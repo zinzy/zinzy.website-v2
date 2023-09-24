@@ -2,24 +2,25 @@
 title: "About"
 layout: page
 ---
-Hello, I'm Zinzy, and I’ve been yelling at Internet clouds since 1997. 
+Hello, I'm Zinzy, and I’ve been yelling at Internet clouds since 1997. Welcome to my personal website. Consider this a quiet street on the Internet; a place for soft stances, lived experiences, and critical notes on the things I hold dear. I'm an advocate of the IndieWeb, which helps us keep the Internet transparent, intimate, and human-centered. I think [you should join us](https://indieweb.org/).
 
-I'm an amateur musician, a fervent diarist, a crazy church lady, a mid-range millennial, and a bit of an edge case. During office hours, I [work](/work) in healthcare technology, serving as senior UX researcher and designer at [Gerimedica](https://gerimedica.nl). 
- 
-To learn about the story of who I am today, please visit my [Now](/now) page. To discover how I got here, head over to [Then](/then). This (growing) about page is one of a technical, factual nature.
+ This website is very much a personal endeavor. You may find me contemplate work challenges, or sharing openly the health struggles I experience because I got a rough start in life. If this resonates with you, feel especially free to [say hello](/hello). I appreciate that you chose to visit this place. Thank you for your time. 
 
-- I am a senior-but-silly UX researcher and designer working at healthcare technology scaleup Gerimedica
-- I call myself an Afropean, because my father is São Toméan and my mother is Dutch
-- I am non-binary, and my pronouns are she / they
-- I hold a degree in Dutch literature and linguistics from Utrecht University
-- I felt called to ministry, but dropped out of VU seminary
-- I am in my mid-thirties
-- I'm neurodivergent
-- I live in Amsterdam's Indische Buurt
-- I am an orthoprax Jesus follower operating in the venn diagram of the Episcopal Church, [Lab/Shul](https://www.labshul.org/), and Catholicism
-- I had a bit of a rough start in life, which resulted in long-lasting health challenges
-- I've been sober since May 2018
+Call me
+: She/They, Afropean, queer, neurodivergent, Amsterdammer, European, child-free, Zinzatron
 
+Home
+: Is with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](https://lemonade.waleson.us/) in Amsterdam's Indische Buurt
 
+Work
+: Senior UX researcher and designer at [Gerimedica](https://gerimedica.nl)
 
- 
+Interests
+: Keeping a diary, orthoprax Christianity, making music and singing, yin yoga, painting, short stories, quality horror, cinema, dog, cooking, swimming, embroidery, garbage television
+
+Yay
+: I've been sober since May 2018
+
+<div style="margin-top: 3rem;">
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1667744670/me/zinzy-2_eixpog.jpg" alt="Non-binary Black person bursting out laughing">
+</div>

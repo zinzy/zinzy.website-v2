@@ -1,18 +1,24 @@
 - title: Then
   url: /then
   icon: 📜
+  tagline: A record of how I got to where I am today
 - title: Changelog
   url: /changelog
   icon: ✏️
+  tagline: Short blurbs and slices of life
 - title: Blogroll
   url: /blogroll
   icon: ☕
+  tagline: Some of the websites I love
 - title: Uses
   url: /uses
   icon: 🛠️
+  tagline: Products and services I love to use
 - title: Site
   url: /site
   icon: 🌐
+  tagline: Technical and philosophical details of this website
 - title: Work
   url: /work
   icon: 🐙
+  tagline: A page about what I do during office hours
