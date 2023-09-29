@@ -49,3 +49,9 @@ body {
         height: 25px;
 	}
 }
+
+@media (prefers-color-scheme: dark) {
+    .send:after {
+        background-color: #27272A;
+    }
+}
