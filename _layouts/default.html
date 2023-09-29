@@ -6,14 +6,7 @@
    
     {% include header.html %}
  
-    <main class="my-40">
-      <h2 class="font-medium text-2xl mb-5">
-        {% if page.path contains "_notes" %}
-          {{ page.date | date: "%R" }}
-          {% else %}
-          {{page.title}}{% if page.slug == "now" %}, updated from Amsterdam in {{ page.date | date: "%B %Y" }}{% endif %}
-        {% endif %}
-      </h2>
+    <main class="my-28">
        
       {{content}}
     </main> 

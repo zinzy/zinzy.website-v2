@@ -24,10 +24,10 @@
 
   <!------ Styling ------>
   <!-- SCSS -->
-  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
 
   <!-- Tailwind CSS -->
-  <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+  <link href="/dist/output.css" rel="stylesheet">
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,24 +85,34 @@
    
     <header>
 
+  <div class="flex ...">
+    <div class="grow">
+      <a href="/">Zinzy</a>
+    </div>
+    <div class="flex-none">
+      <a href="/about">About</a>
+    </div>
+  </div>
+<!-- 
+
+
   <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
   <p class="status">
          
     
-      </p>
-<p>Shabbat shaloming</p>
+      <p>Hanging with Uncle Rosie</p>
 
-      <time datetime="22 Sep 2023" class="none" id="statusDate">2023-09-22 22:07:56</time>
+      <time datetime="24 Sep 2023" class="none" id="statusDate">2023-09-24 22:07:15</time>
       (<span id="statusTimeAgo"></span>)
     
-   
+  </p> 
 
   <nav>
     <ul>
       
       <li> 
-        <a href="/writing" class="font-medium">Writing</a>
+        <a href="/" class="font-medium">Index</a>
       </li>
       
       <li> 
@@ -110,28 +120,29 @@
       </li>
       
       <li> 
-        <a href="/about" class="font-medium">About</a>
-      </li>
-      
-      <li> 
-        <a href="/more" class="font-medium">More...</a>
+        <a href="/hello" class="font-medium">Hello</a>
       </li>
       
     </ul>
-  </nav>
+  </nav> -->
 </header>
  
-    <main class="my-40">
-      <h2 class="font-medium text-2xl mb-5">
-        
-          Uses
-        
-      </h2>
+    <main class="my-28">
        
-      <article class="h-entry prose dark:prose-invert"> 
-  <div id="notes-entry-container">
-    <content class="e-content"> 
-      <p>I maintain this page as an incomplete overview of the things I love to use. Kind of like <a href="https://usesthis.com/" rel="external noopener noreferrer" target="_blank">Uses This<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>, but they haven’t requested an interview yet. Before you dive in, please know that I believe (and tell myself in the mirror that) tools don’t matter. I don’t list all the tools I use (you don’t care that I have an iPhone), just the ones I think you might find useful.</p>
+      <article class="prose dark:prose-invert">  
+  <h2>
+    
+      Uses
+    
+  </h2>  
+
+    
+
+     
+
+    <div id="notes-entry-container">
+      <content class="e-content">
+        <p>I maintain this page as an incomplete overview of the things I love to use. Kind of like <a href="https://usesthis.com/" rel="external noopener noreferrer" target="_blank">Uses This<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>, but they haven’t requested an interview yet. Before you dive in, please know that I believe (and tell myself in the mirror that) tools don’t matter. I don’t list all the tools I use (you don’t care that I have an iPhone), just the ones I think you might find useful.</p>
 
 <h3 id="hardware">Hardware</h3>
 <ul>
@@ -169,6 +180,26 @@
 <a href="https://www.bol.com/nl/nl/p/medoes-luxe-slaapmasker-vrouwen-kinderen-mannen-100-verduisterend/9200000118817210" rel="external noopener noreferrer" target="_blank">Medoes Sleep Mask<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>: if I’m very tired and need to get to sleep right away, this mask does the trick.</li>
 </ul>
 
+<h3 id="skin-care">Skin care</h3>
+<p>Developing a skincare routine has been one of the sweetest quiet pleasures of my thirties. These are the products I use (in that order):</p>
+<ul>
+  <li>Clinique’s All About Clean Mild Liquid Facial Soap</li>
+  <li>Lush’s toner, Eau Roma Water</li>
+  <li>Clinique’s Clarifying Lotion</li>
+  <li>Rituals’ The Ritual of Namaste Hyaluronic Acid Natural Booster</li>
+  <li>Bepanthen’s Eczema Cream (for the space between my eyebrows)</li>
+  <li>Clinique’s All About Eyes</li>
+  <li>Clinique’s Dramatically Different Hydrating Jelly Anti-Pollution for my forehead</li>
+  <li>Clinique’s Moisture Surge for the rest of my face</li>
+</ul>
+
+<h3 id="hair-care">Hair care</h3>
+<ul>
+  <li>Yari’s Green Curls Sulfate-Free Moisturizing Shampoo</li>
+  <li>Yari’s Green Curls Sulfate-Free Hydrating Conditioner</li>
+  <li>Yari’s Green Curls Curl Maker</li>
+</ul>
+
 <h3 id="music">Music</h3>
 <ul>
   <li><a href="https://apps.apple.com/us/app/piano-chords-and-scales/id714086944" rel="external noopener noreferrer" target="_blank">Piano Chords and Scales<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a></li>
@@ -185,32 +216,44 @@
   <li><a href="https://rectangleapp.com/" rel="external noopener noreferrer" target="_blank">Rectangle<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a></li>
 </ul>
 
-    </content> 
-  </div> 
+      </content>
+    </div> 
+  <footer class="mt-14"> 
+    
+    <div class="border-bottom p-1">
+      <a class="prev" href="">Older</a> | <a class="next" href="">Newer</a>
+    </div>
+    
+      <div class="p-1">
+        <p class="inline"><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:%20'Uses'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="external noopener noreferrer" class="underline">Mastodon<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="external noopener noreferrer" class="underline">webmention<span class="ico-ext"><i class="fas fa-external-link-square-alt"></i></span></a>. I would love to read about your perspective.
 
+          
+        </p>
+      </div>
+        
+  
   <div class="webmentions">
-    <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Uses" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
-    <div id="webmentions"></div>
+  <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject=Uses" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+  <div id="webmentions"></div>
   </div>
+  </footer>
 </article>
+
+ 
+ 
+ 
     </main> 
  
   
-    <footer class="">
+    <footer class="font-sm text-center">
+   
+  <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer noopener noreferrer">BY-NC-SA</a> 1997 - 2023 <a href="/about">Zinzy Waleson Geene</a></p>
 
-  <div class="flex items-stretch">
-    <div class="grow">    
-      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer noopener noreferrer">BY-NC-SA</a> 1997 - 2023 <a href="/about">Zinzy Waleson Geene</a>
-    </div>
-    <br><br>
-    <div class="flex-none self-end">
-      <div class="">
-        <a href="https://xn--sr8hvo.ws/previous" target="_blank" rel="noopener noreferrer">←</a>
-        <a href="https://xn--sr8hvo.ws" target="_blank" rel="noopener noreferrer">🕸💍</a>
-        <a href="https://xn--sr8hvo.ws/next" target="_blank" rel="noopener noreferrer">→</a>
-      </div>
-    </div>
-  </div>
+  <p class="mt-5">
+    <a href="https://xn--sr8hvo.ws/previous" target="_blank" rel="noopener noreferrer">←</a>
+    <a href="https://xn--sr8hvo.ws" target="_blank" rel="noopener noreferrer">🕸💍</a>
+    <a href="https://xn--sr8hvo.ws/next" target="_blank" rel="noopener noreferrer">→</a>
+  </p>
 </footer>
 
 

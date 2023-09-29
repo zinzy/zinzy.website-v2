@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 subtitle: "An overview of the things I love to use"
-layout: page
+layout: post
 ---
 I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but they haven't requested an interview yet. Before you dive in, please know that I believe (and tell myself in the mirror that) tools don't matter. I don't list all the tools I use (you don't care that I have an iPhone), just the ones I think you might find useful.
 
@@ -22,6 +22,22 @@ I maintain this page as an incomplete overview of the things I love to use. Kind
 ### Wellbeing
 - [Nidra Deep Rest Eye Mask with Nosepiece](https://nidragoods.com/collections/sleep-mask-collection/products/nidra-deep-rest-eye-mask-black): I love being able to have my eyes open while I'm wearing a sleep mask, and this lets me do just that. I use this when I'm having trouble falling asleep, and won't stop looking at my phone.
 - [Medoes Sleep Mask](https://www.bol.com/nl/nl/p/medoes-luxe-slaapmasker-vrouwen-kinderen-mannen-100-verduisterend/9200000118817210): if I'm very tired and need to get to sleep right away, this mask does the trick.
+
+### Skin care
+Developing a skincare routine has been one of the sweetest quiet pleasures of my thirties. These are the products I use (in that order):
+- Clinique's All About Clean Mild Liquid Facial Soap
+- Lush's toner, Eau Roma Water
+- Clinique's Clarifying Lotion
+- Rituals' The Ritual of Namaste Hyaluronic Acid Natural Booster
+- Bepanthen's Eczema Cream (for the space between my eyebrows)
+- Clinique's All About Eyes 
+- Clinique's Dramatically Different Hydrating Jelly Anti-Pollution for my forehead
+- Clinique's Moisture Surge for the rest of my face 
+
+### Hair care
+- Yari's Green Curls Sulfate-Free Moisturizing Shampoo
+- Yari's Green Curls Sulfate-Free Hydrating Conditioner
+- Yari's Green Curls Curl Maker
 
 ### Music
 - [Piano Chords and Scales](https://apps.apple.com/us/app/piano-chords-and-scales/id714086944)

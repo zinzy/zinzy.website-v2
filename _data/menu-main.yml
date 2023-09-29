@@ -1,8 +1,6 @@
-- title: Writing
-  url: /writing
+- title: Index
+  url: /
 - title: Now
   url: /now 
-- title: About
-  url: /about 
-- title: More...
-  url: /more
+- title: Hello
+  url: /hello

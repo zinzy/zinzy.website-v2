@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section>
+  {{content}}
+
+  <!-- https://gist.github.com/budparr/0ad4a7449f9604f47eec#file-jekyll-group_by-example-liquid -->
+  {% assign grouped_items = site.digital-garden | where_exp: "item", "item.type == 'library'" | group_by: 'init' %}
+  {% assign items_grouped = grouped_items | sort: 'init' | reverse %}
+   
+  {% for group in items_grouped %}
+  <h3>{{group.name}}</h3>
+    <ul class="list-unstyled">
+      {% assign items = site.digital-garden | where_exp: "item", "item.init == group.name" %}
+      {% for item in items  %}
+        <li><a href="{{item.url}}">{{ item.title }}</a> — {{item.media-type}} — {{item.rating}}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section> 

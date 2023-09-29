@@ -1,7 +1,7 @@
 ---
 title: "Codex"
 excerpt: "A growing record of the things I believe"
-layout: page
+layout: post
 ---
 Inspired by [Buster Benson's _Codex_](https://busterbenson.com/beliefs/), [Greg Clarke](https://gregology.net/codex/), [Elliott Cost's _Opinions_](http://web.archive.org/web/20220123045740/https://elliott.computer/pages/opinion) and others I'm using this page to grow[^1] a record of things I believe.
 

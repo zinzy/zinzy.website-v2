@@ -1,6 +1,6 @@
 ---
 title: "Frequently asked questions"
-layout: page
+layout: post
 ---
 ### I'm thinking of moving into UX. Can we chat?
 I'm currently taking a break from extracurricular activities, and so I don't have space on my calendar for mentoring. Feel free, however, to connect with me on [LinkedIn](https://nl.linkedin.com/in/zinzy). Who knows what the future might have in store for us.

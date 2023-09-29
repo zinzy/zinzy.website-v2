@@ -1,7 +1,7 @@
 ---
 title: "Mentoring"
 introduction: "This is a [Now](https://nownownow.com/) page. You should make one for yourself."
-layout: page
+layout: post
 ---
 I reserve a portion of my time to (remotely) mentor researchers and designers. I do this because I find gratification in helping others navigate paths with which I'm familiar. An added bonus is that it helps me keep a pulse on how the tech industry is developing. I've been doing this since around 2013. 
 

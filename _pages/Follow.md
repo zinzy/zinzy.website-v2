@@ -1,6 +1,6 @@
 ---
 title: "Follow"
-layout: page
+layout: post
 ---
 I personally love visiting other people's personal websites to discover whether they've updated anything since I was last there. Usually, I'm pleasantly surprised by a new port, or a typographic change. A good way to keep track of all these websites is by using an RSS reader.
 

@@ -1,5 +1,5 @@
 ---
 title: "Welcome to the insiders"
-layout: page
+layout: post
 ---
 Thank you for signing up to my newsletter!

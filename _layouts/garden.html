@@ -7,7 +7,9 @@ layout: default
   <ul class="mt-20 divide-y">
     {% for entry in garden %}
       {% unless entry.show == false %}
+      {% unless entry.type == "library" %}
     <li class="py-2"><a href="{{entry.url}}">{{ entry.title }}</a></li> 
+      {% endunless %}
       {% endunless %}
     {% endfor %} 
   </ul>

@@ -1,6 +1,6 @@
 ---
 title: "About this website"
-layout: page
+layout: post
 ---
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
 
