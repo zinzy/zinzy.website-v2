@@ -6,6 +6,15 @@
     "feed_url": "http://localhost:4000/feed.json",
     "items": [
       {
+            "id": "http://localhost:4000/2023/09/30/film-club-s01e01",
+            "url": "http://localhost:4000/2023/09/30/film-club-s01e01/",
+            "title": "Film club S01E01",
+            "content_html": "<p>Yesterday, I attended the very first gathering of FC de Filmfanaten, a brand-new film club that my friend Jolien started. There were four of us, and we discussed the movie I was proud to have suggested: <em><span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  Talk To Me  <span class=\"invalid-link-brackets\"></span></span></em>. I love speaking about films with others, and particularly with this diverse group of people. Everyone brought a completely unique perspective to the film, one brought film industry insights while the other had thoughtful ideas that I hadn’t considered.</p>\n\n<p>Below are the notes I took (in Dutch).</p>\n\n<p><img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058374/FC_de_Filmfanaten_aflevering_1_-_1_eofyos.jpg\" alt=\"A stylistic illustration of the cover of the movie 'Talk To Me', with a banner for the film club\" class=\"border border-gray-200 dark:border-gray-700\" />\n<img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058379/FC_de_Filmfanaten_aflevering_1_-_2_lagm9a.jpg\" alt=\"Impressions and associations we had as a result of watching the movie\" class=\"border border-gray-200 dark:border-gray-700\" />\n<img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058374/FC_de_Filmfanaten_aflevering_1_-_3_n6yio4.jpg\" alt=\"Our combined rating and feedback\" class=\"border border-gray-200 dark:border-gray-700\" /></p>",
+            "date_published": "2023-09-30T09:16:15+02:00",
+            "date_modified": "2023-09-30T09:27:09+02:00",
+            "author": {
+              "name": ""},
+            "tags": ["cinema","film club","community","gathering","horror"]},{
             "id": "http://localhost:4000/2023/09/17/week-37",
             "url": "http://localhost:4000/2023/09/17/week-37/",
             "title": "Week 37: Rosh Hashanah",
@@ -91,15 +100,5 @@
             "date_modified": "2023-09-03T10:01:57+02:00",
             "author": {
               "name": ""},
-            "tags": ["weeknotes","work","safe spaces","film","party","television","music","gaming"]},{
-            "id": "http://localhost:4000/2023/07/01/week-26",
-            "url": "http://localhost:4000/2023/07/01/week-26/",
-            "title": "Week 26: Keti Koti",
-            "content_html": "<p>Two months of onboarding have rushed by in a blink. The new job is absolutely wonderful: the people are great, the work is complex and important, and the office itself is perhaps the finest I’ve ever worked at. I joined this company because the challenges they have seemed interesting to me. I’m very pleased that, two months in, it’s difficult to think that, at one point in time, these challenges weren’t also mine. I’ve made the right decision.</p>\n\n<p>On Wednesday, I met two friends with whom I share a special history. The time we spent together resulted in many things. One of them was the tattoo on my left arm that say “WAT ER IS” (“what is there”). Spending my evening with them, sharing a meal, shedding a few tears, reminded me of why the tattoo is there.</p>\n\n<p>On Saturday, Anja and I watched Keti Koti’s <a href=\"https://ketikotiamsterdam.nl/bigi-spikri-optocht/\">Bigi Spikri memorial service</a> on television. I truly detest that the thing we requested became such a point of contention, that finally getting it almost made us forget that what we requested was a minimum viable product. Still, King Willem Alexander offering an apology and asking for forgiveness was history in the making. As an Afropean person I’m easily erased from the Dutch narrative of Trans-Atlantic slave trade that focuses on the Netherlands and her former colonies. Mentioning us by name specifically let Willem Alexander articulate how well he has been listening these past few years.</p>\n\n<p>In the afternoon we made our way to Museumplein for the Keti Koti festival. Upside: I got to eat cotton candy, twice, and we got to financially contribute to many great Black causes in the city. Downside: I spent way too much time in line for food with hundreds of other people.</p>\n\n<p>Reading! I finished a book. I have a track record of struggling to enjoy reading as a burnt-out lit major, but <span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  Citizen (2015)  <span class=\"invalid-link-brackets\"></span></span> was easy to get through. It turns out I am enthusiast of the lyric essay genre. I picked up a book of poetry by Anton de Kom at Keti Koti, and I’m diving head-first into that.</p>",
-            "summary": "Onboarding, national holiday, book",
-            "date_published": "2023-07-01T00:00:00+02:00",
-            "date_modified": "2023-09-03T10:01:57+02:00",
-            "author": {
-              "name": ""},
-            "tags": ["weeknotes","work","onboarding","racism","trans-atlantic slave trade","reading","holidays"]}]
+            "tags": ["weeknotes","work","safe spaces","film","party","television","music","gaming"]}]
 }
