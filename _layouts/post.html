@@ -1,62 +1,114 @@
 ---
 layout: default
 ---
-<article class="prose dark:prose-invert">  
-  <h2>
-    {% if page.path contains "_notes" %}
-      {{ page.date | date: "%B %d, %Y — %R" }}
-      {% else %}
-      {{page.title}}{% if page.slug == "now" %}, updated from Amsterdam in {{ page.date | date: "%B %Y" }}{% endif %}
-    {% endif %}
-  </h2>  
+<article>
+  
+  <div class="prose dark:prose-invert">
 
-    {% if page.path contains "_posts" %}
-    <p>
-      <time class="dt-published" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
-    </p>
-    {% endif %}
+  {% if page.category == "now" %}
+  <section class="prose dark:prose-invert italic text-gray-500 mb-10">
+    <p>This is a <a href="https://nownownow.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 font-normal">Now page</a>. It contains what I'd tell a friend I hadn't seen in a year. You should make a Now page for yourself.</p>
+  </section>
+{% endif %} 
 
-    {% if page.photo %}
-      <img src="{{page.photo}}" alt="" class="mb-5">
-      {% elsif page.replyTo %}
-      <p class="mt-0 u-in-reply-to">
-        Replied to <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
-      </p> 
-      {% elsif page.likeOf %}
-      <p class="mt-0">
-        Liked <a href="{{page.likeOf}}" class="u-like-of text-url" target="_blank">{{page.likeOf}}</a> 
-      </p> 
-    {% endif %} 
+<div class="my-20">
 
-    <div id="notes-entry-container">
-      <content class="e-content">
-        {{ content }}
-      </content>
-    </div> 
-  <footer class="mt-14"> 
-    {% if page.path contains "_posts" or "_notes" %}
-    <div class="border-bottom p-1">
-      <a class="prev" href="{{page.previous.url}}">Older</a> | <a class="next" href="{{page.next.url}}">Newer</a>
-    </div>
-    {% endif %}
-      <div class="p-1">
-        <p class="inline"><a href="/site#privacy">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re: '{{page.title}}'" class="underline">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline">webmention</a>. I would love to read about your perspective.
 
-          {% if page.tags.size > 0 %} 
+<h2>
+  {% if page.path contains "_notes" %}
+      {{ page.date | date: "%B %d, %Y — %R" }} 
+    {% elsif page.category == "now" %}
+      {{page.title}}: <time class="dt-published" datetime="{{ page.date | date: "%b %Y" }}">{{ page.date | date: "%b %Y" }}</time>
+    {% else %}
+      {{page.title}}
+  {% endif %}
+</h2>  
+
+{% if page.title == "About" %} 
+<div class="my-14">
+  <h3>Areas to explore</h3>
+  <div class="grid grid-cols-3 gap-3">
+    {% for item in site.data.menu %}
+    <a href="{{item.url}}" class="no-underline font-sm bg-gray-100 border border-transparent hover:border-gray-200 dark:bg-gray-700 px-3 py-2 rounded icon-link">
+      <span class="inline-block mr-2 icon">{{item.icon}}</span>
+      {{item.title}}
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+
+
+  {% if page.path contains "_posts" %}
+    {% unless page.category == "now" %}
+      <p>
+        <time class="dt-published text-gray-500" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
+      </p>
+    {% endunless %}
+  {% endif %}
+
+  {% if page.photo %}
+    <img src="{{page.photo}}" alt="" class="mb-5">
+    {% elsif page.replyTo %}
+    <p class="mt-0 u-in-reply-to">
+      Replied to <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
+    </p> 
+    {% elsif page.likeOf %}
+    <p class="mt-0">
+      Liked <a href="{{page.likeOf}}" class="u-like-of text-url" target="_blank">{{page.likeOf}}</a> 
+    </p> 
+  {% endif %} 
+
+  <div id="notes-entry-container">
+    <content class="e-content">
+      {{ content }}
+    </content>
+  </div> 
+  </div>
+  
+</div>
+
+    
+
+{% if page.category == "now" %}
+<section class="">
+  <div class="prose dark:prose-invert">
+    <h2>All now pages</h2>
+  </div>
+  <ul class="mt-5 divide-y dark:divide-zinc-600">
+    {% for post in site.categories.now  %} 
+    <li class="py-2">
+      <a href="{{ post.url }}">
+        {{ post.title }}: 
+        <time datetime="{{ post.date | date: "%b %Y" }}">{{ post.date | date: "%b %Y" }}</time> 
+      </a>
+    </li>  
+    {% endfor %} 
+  </ul>
+</section>
+{% endif %} 
+
+
+
+  <footer class="mt-20 italic text-gray-500 mb-10"> 
+
+      <div class="">
+        <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to read about your perspective.
+
+          <!-- {% if page.tags.size > 0 %} 
           Read more of what I've written about {% assign sorted_tags = page.tags | sort %}
               <ul class="inline">
                 {% for tag in sorted_tags %}
                 {%- assign t = tag | first -%}
-                <li class="inline"><a href="/tag/{{ tag | replace: ' ', '-' }}">{{tag}}</a></li>
+                <li class="inline"><a href="/tag/{{ tag | replace: ' ', '-' }}" class=" font-normal text-gray-500">{{tag}}</a></li>
               {% endfor %}  
               </ul> 
-          {% endif %}
+          {% endif %} -->
         </p>
-      </div>
-        
-  
+      </div> 
   <div class="webmentions">
-  <noscript>I use client-side Javascript to display replies to this page, or <a href="mailto:zinzy@pm.me?subject={{ page.title | uri_escape }}" title="Reply to this post" rel="noopener noreferrer">webmentions</a>. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
+  <noscript>I use client-side Javascript to display webmentions to this page. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
   <div id="webmentions"></div>
   </div>
   </footer>

@@ -8,10 +8,8 @@ body {
 }
 
 :root {
-  --send-bg: #3b82f6;
+  --send-bg: #2563eb;
   --send-color: white;
-  --receive-bg: #E5E5EA;
-  --receive-text: black;
   --page-background: white;
 }
  
@@ -54,4 +52,11 @@ body {
     .send:after {
         background-color: #27272A;
     }
+}
+
+.icon-link .icon {
+  transition: 0.3s;
+}
+.icon-link:hover .icon {
+  transform: rotate(20deg);
 }

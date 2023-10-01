@@ -144,3 +144,19 @@ document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow));
   //   console.log(a);
   //   document.getElementById("sobrietyCount").innerHTML = a;
   //   document.getElementById("sobrietyDays").innerHTML = " days";
+
+
+  function copyToClipboard() {
+    // Get the text field
+    var copyText = document.getElementById("clipboard");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }

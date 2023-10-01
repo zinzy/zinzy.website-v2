@@ -2,14 +2,14 @@
 layout: default
 ---  
 
-<section class="prose dark:prose-invert">
+<section class="prose dark:prose-invert italic text-gray-500 mb-10">
   {{content}}
 </section>
    
 {% assign notes = site.notes | sort: 'date' | reverse %}  
 <ul class="changelog">
   {% for post in notes %}
-  <li class="item"> 
+  <li class="item mt-20"> 
     <div class="prose dark:prose-invert">  
       {% if post.photo %}
         <img src="{{post.photo}}" alt="" class="mb-5">

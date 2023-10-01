@@ -108,9 +108,9 @@ collections:
   pages:
     output: true
     permalink: /:slug
-  # posts:
-  #   output: true
-  #   permalink: /:year/:month/:day/:slug
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
   status:
     output: false
 
