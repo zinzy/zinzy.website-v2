@@ -118,7 +118,7 @@ defaults:
   - scope:
       path: "_notes/**/*.md"
     values:
-      layout: "note" 
+      layout: "post" 
   - scope:
       path: "_faces/**/*.md"
     values:
