@@ -46,7 +46,7 @@ layout: default
 
 <section class="mt-14"> 
   <div class="">
-    {% assign diary = site.posts | where_exp: "item", "item.path contains '_posts'" | sort: 'date' | reverse %}  
+    {% assign diary = site.posts | sort: 'date' | reverse %}  
     <ul class="mt-5 divide-y dark:divide-zinc-600">
       {% for post in site.posts %} 
       {% unless post.url contains "resources" or post.category == "now" %}
