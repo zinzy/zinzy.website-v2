@@ -4,25 +4,42 @@ layout: default
 <article>
   
   <div class="prose dark:prose-invert">
-
   {% if page.category == "now" %}
-  <section class="prose dark:prose-invert italic text-gray-500 mb-10">
-    <p>This is a <a href="https://nownownow.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 font-normal">Now page</a>. It contains what I'd tell a friend I hadn't seen in a year. You should make a Now page for yourself.</p>
-  </section>
-{% endif %} 
+    <section class="prose dark:prose-invert italic text-gray-500 mb-10">
+      <p>This is a <a href="https://nownownow.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 font-normal">Now page</a>. It contains what I'd tell a friend I hadn't seen in a year. You should make a Now page for yourself.</p>
+    </section>
+  {% endif %} 
 
 <div class="my-20">
 
 
 <h2>
-  {% if page.path contains "_notes" %}
+  {% if page.path contains "_notes" and page.category != "instant" %}
       {{ page.date | date: "%B %d, %Y — %R" }} 
+    {% elsif page.category == "instant" %}
+      {{ page.date | date: "%B %d, %Y" }} 
     {% elsif page.category == "now" %}
       {{page.title}}: <time class="dt-published" datetime="{{ page.date | date: "%b %Y" }}">{{ page.date | date: "%b %Y" }}</time>
     {% else %}
       {{page.title}}
   {% endif %}
 </h2>  
+
+{% if page.category == "instant" %}
+<section class="prose dark:prose-invert italic text-gray-500 mb-10">
+  <ul class="m-0 p-0">
+    <li class="inline-block">
+      {% if page.flash %}
+        Flash
+      {% else %}
+        No flash
+      {% endif %} 
+    </li> <span class="inline-block ml-3 mr-2">&#183;</span>
+    <li class="inline-block">Pack no. {{page.pack}}</li> <span class="inline-block ml-3 mr-2">&#183;</span>
+    <li class="inline-block">{{page.camera}}</li>
+  </ul>
+</section>
+{% endif %} 
 
 {% if page.title == "About" %} 
 <div class="my-14">
@@ -49,7 +66,13 @@ layout: default
   {% endif %}
 
   {% if page.photo %}
-    <img src="{{page.photo}}" alt="" class="mb-5">
+      {% if page.redacted %}
+        <div class="image-wrapper">
+          <img class="image mb-5" src='{{page.photo}}'/>
+        </div>
+      {% else %}
+      <img src="{{page.photo}}" alt="" class="mb-5">
+      {% endif %} 
     {% elsif page.replyTo %}
     <p class="mt-0 u-in-reply-to">
       Replied to <a href="{{page.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{page.replyTo}}</a>
@@ -94,7 +117,7 @@ layout: default
   <footer class="mt-20 italic text-gray-500 mb-10"> 
 
       <div class="">
-        <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to read about your perspective.
+        <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to hear from you!
 
           <!-- {% if page.tags.size > 0 %} 
           Read more of what I've written about {% assign sorted_tags = page.tags | sort %}

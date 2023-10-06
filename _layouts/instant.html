@@ -1,0 +1,23 @@
+---
+layout: default
+---  
+
+<section class="prose dark:prose-invert mb-10">
+  <h2>{{page.title}}</h2>
+  <div>
+    {{content}}
+  </div>
+</section>
+   
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+  {% assign posts = site.notes | where_exp: "item", "item.category == 'instant'" | sort: 'date' | reverse %} 
+  {% for post in posts %}
+    {% if post.redacted == true %}
+    <div class="image-wrapper">
+      <img class="image" src='{{post.photo}}'/>
+    </div>
+    {% else %}
+    <a href="{{post.url}}"><img src="{{post.photo}}" alt="" loading="lazy"></a>
+    {% endif %}
+  {% endfor %} 
+</div>

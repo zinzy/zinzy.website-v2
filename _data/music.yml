@@ -1,0 +1,18 @@
+- title: Hello
+  url: /hello
+  icon: 👋🏽
+- title: Now
+  url: /now
+  icon: ☕
+- title: Then
+  url: /then
+  icon: 📜
+- title: Blogroll
+  url: /blogroll
+  icon: 🔗
+- title: Uses
+  url: /uses
+  icon: 🛠️
+- title: Site
+  url: /site
+  icon: 🌐

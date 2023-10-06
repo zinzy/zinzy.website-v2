@@ -7,6 +7,12 @@
 - title: Then
   url: /then
   icon: 📜
+- title: Photos
+  url: /photos
+  icon: 🤳🏽
+- title: Instant
+  url: /instant
+  icon: 📷
 - title: Blogroll
   url: /blogroll
   icon: 🔗
@@ -15,4 +21,4 @@
   icon: 🛠️
 - title: Site
   url: /site
-  icon: 🌐
+  icon: 🌐 

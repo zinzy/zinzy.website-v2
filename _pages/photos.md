@@ -1,6 +1,6 @@
 ---
-title: "photos"
-subtitle: "Short reflections, blurbs, likes, and replies"
+title: "Photos"
+subtitle: ""
 layout: photos
 ---
-This is a changelog of sorts; not quite blog posts, not quite tweets. They are IndieWeb-shaped slices of life: little moments of thinking aloud, changing my mind, connecting the dots.
+This is a collection of snapshots I've taken. Most of them are taken with my smartphone. You may also be interested in my collection of [instant photographs](instant).

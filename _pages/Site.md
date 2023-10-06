@@ -45,6 +45,9 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - iOS Shortcut likes with content field
 - [Universal tags for posts and notes](https://github.com/jekyll/jekyll-archives/pull/88)
 - Add second xml feed to `netlify-plugin-webmentions` (don't know for sure that I want this)
+- Music history
+- Media library
+- ~~Polaroid archive~~
 
 ### Validation
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score

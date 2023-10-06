@@ -60,3 +60,21 @@ body {
 .icon-link:hover .icon {
   transform: rotate(20deg);
 }
+
+.blur {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.image-wrapper{
+  width: auto;
+  height: auto;
+  overflow: hidden
+}
+
+.image-wrapper .image{
+  width: 105%;
+  height: 105%;
+  margin: -5px;
+  filter: blur(30px);
+}
