@@ -9,7 +9,6 @@ tags:
 - likes
 - archiving
 ---
-
 Yesterday, as I swiped through my digital September issue of Wired, I came across a bit that immediately swung me back right into my first year of high school. Presented on the page where a Nokia 3310, a 56k modem, a Dot-matrix printer, a Tube TV, and a Speak & Spell. It was a piece about the Museum of Endangered Sounds, a digital archive of sounds we all remember so, so well.
 
 Super geek Brendan Chilcutt (the nom de plume used by the collective who founded the museum), fearfully wonders:

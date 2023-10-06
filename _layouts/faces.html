@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<section class="mb-5">
-  <h1>Faces</h1>
-  <p>These are some of the faces in my life that have made an appearance on this website.</p>
+<section class="prose dark:prose-invert mb-10">
+  <h2>{{page.title}}</h2>
+  <div>
+    {{content}}
+  </div>
 </section>
 
 <section>
-  {% assign faces = site.faces %} 
-  <ul class="faces">
-  {% for face in faces %}
-    <li>
-      <a href="{{face.slug}}"><img src="{{face.hero}}" alt=""></a>
-    </li>
-  {% endfor %} 
-</ul>
+  {% assign faces = site.faces %}  
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    {% for face in faces %}
+      <a href="/faces/{{face.slug}}"><img src="{{face.hero}}" alt="" class="object-cover aspect-square" loading="lazy"></a>
+    {% endfor %} 
+  </div>
 </section>

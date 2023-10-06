@@ -1,5 +1,6 @@
 ---
 title: "Anja"
+tagline: "My partner since 2016"
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1681288020/zinzy.website/anja_zdq74h.jpg
 hero-portrait: true
 ---
@@ -7,4 +8,4 @@ I met Anja the way many people do these days: on a [dating app](https://weareher
 
 The story of how we met has two deliciously distinct perspectives: I was bored, lonely, and mischievous, Anja browsed around for twelve minutes before seeing my profile picture and thinking calmly "okay, she is the one".
 
-That was early 2016, and Anja has been my life partner ever since. She's hilarious, compassionate, true, gorgeous, the sweetest dog mom, and so, so many other things.
+That was early 2016, and Anja has been my life partner ever since. She's hilarious, brilliant, real, true, gorgeous, the sweetest dog mom, and so, so many other things. If you want your shirt tailored, call Anja. If you want your own personal [Wirecutter](https://www.nytimes.com/wirecutter/), call Anja. If you need an honest, compassionate opinion, call Anja. 
