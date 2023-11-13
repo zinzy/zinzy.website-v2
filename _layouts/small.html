@@ -2,7 +2,7 @@
 layout: default
 ---  
 
-<section class="prose dark:prose-invert italic text-gray-500 mb-10">
+<section class="prose dark:prose-invert italic text-gray-500 dark:text-zinc-400 mb-10">
   {{content}}
 </section>
    
@@ -15,11 +15,11 @@ layout: default
         <img src="{{post.photo}}" alt="" class="mb-5">
       {% elsif post.replyTo %}
       <p class="mt-0 u-in-reply-to">
-        Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+        Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
       </p> 
       {% elsif post.likeOf %}
       <p class="mt-0">
-        Liked <a href="{{post.likeOf}}" class="u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
+        Liked <a href="{{post.likeOf}}" class="break-all u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
       </p> 
     {% endif %} 
     <content>

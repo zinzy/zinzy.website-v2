@@ -3,7 +3,7 @@ title: "How I work"
 tagline: "Curiously, laterally, impatiently"
 layout: post
 ---
-I'm a senior-but-silly UX researcher and designer with 17 years of working experience making digital products. I specialize in enterprise SaaS solutions with social impact. Simply put: I make tools people use to solve problems at work. This page is about how I work. You may also be interested in my [résumé](/resume).
+I'm a senior-but-silly UX researcher and designer with 17 years of working experience making digital products. I specialize in enterprise SaaS solutions with social impact. Simply put: I make tools people use to solve problems at work.
 
 ### Why enterprise SaaS
 In the years I've spent getting paid to make digital products I've learnt one thing: I like a good challenge. Tools built for people at work are usually highly specialized, and embarrassingly behind on modern design practices. They also tend to be created by well-meaning domain experts with limited understanding of user-centered thinking. 
