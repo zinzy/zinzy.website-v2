@@ -1242,19 +1242,9 @@ select {
   margin-bottom: 1.25rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+.my-52 {
+  margin-top: 13rem;
+  margin-bottom: 13rem;
 }
 
 .mb-0 {
@@ -1263,6 +1253,10 @@ select {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-3 {
@@ -1277,9 +1271,17 @@ select {
   margin-bottom: 1.25rem;
 }
 
+.mb-52 {
+  margin-bottom: 13rem;
+}
+
 .me-3 {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mr-2 {
@@ -1316,18 +1318,6 @@ select {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .block {
@@ -1410,12 +1400,21 @@ select {
   border-width: 1px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-r {
   border-right-width: 1px;
 }
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-slate-200 {
@@ -1471,6 +1470,11 @@ select {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-5 {
@@ -1543,10 +1547,6 @@ select {
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.opacity-70 {
-  opacity: 0.7;
 }
 
 .opacity-50 {
@@ -1638,6 +1638,10 @@ body {
   height: 105%;
   margin: -5px;
   filter: blur(30px);
+}
+
+.prose h5::before {
+  content:"§ "
 }
 
 @media (prefers-color-scheme: dark) {

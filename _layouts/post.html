@@ -12,8 +12,7 @@ layout: default
 
 <div class="my-20">
 
-
-<h2>
+<!-- <h2>
   {% if page.path contains "_notes" and page.category != "instant" %}
       {{ page.date | date: "%B %d, %Y — %R" }} 
     {% elsif page.category == "instant" %}
@@ -23,7 +22,7 @@ layout: default
     {% else %}
       {{page.title}}
   {% endif %}
-</h2>  
+</h2>   -->
 
 {% if page.category == "instant" %}
 <section class="prose dark:prose-invert italic text-gray-500 mb-10">
@@ -41,7 +40,7 @@ layout: default
 </section>
 {% endif %} 
 
-{% if page.title == "About" %} 
+{% if page.title == "More" %} 
 <div class="my-14">
   <h3>Areas to explore</h3>
   <div class="grid grid-cols-2 gap-3 md:grid-cols-3">
@@ -115,25 +114,16 @@ layout: default
 
 
   <footer class="mt-20 italic text-gray-500 mb-10"> 
+  {% if page.path contains "_posts" %}
 
-      <div class="">
-        <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to hear from you!
+  <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to hear from you!
 
-          <!-- {% if page.tags.size > 0 %} 
-          Read more of what I've written about {% assign sorted_tags = page.tags | sort %}
-              <ul class="inline">
-                {% for tag in sorted_tags %}
-                {%- assign t = tag | first -%}
-                <li class="inline"><a href="/tag/{{ tag | replace: ' ', '-' }}" class=" font-normal text-gray-500">{{tag}}</a></li>
-              {% endfor %}  
-              </ul> 
-          {% endif %} -->
-        </p>
-      </div> 
   <div class="webmentions">
   <noscript>I use client-side Javascript to display webmentions to this page. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>
   <div id="webmentions"></div>
   </div>
+  {% endif %}
+
   </footer>
 </article>
 

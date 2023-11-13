@@ -1,8 +1,11 @@
 ---
 title: "About this website"
+tagline: "A quiet street on the Internet"
 layout: post
 ---
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. I remember a sense of whimsy, endless curiosity, and a beautiful lack of information overload. It instilled in me a deep appreciation for hand-crafted websites. This is one of them.
+
+Consider this website a quiet street on the Internet; a place for soft stances, lived experiences, and critical notes on the things I hold dear. I'm a fan of the small-scale, intimate, and friendly internet, and [a part of the IndieWeb community](https://indieweb.org/User:Www.zinzy.website). I’ve been yelling at Internet clouds since 1997.
 
 ### Principles
 I believe things on the web should be accessible, transparent, and sustainable. This website is inspired by [Brutalist web design principles](https://brutalist-web.design/), [The a11y project](https://www.a11yproject.com/), [Designed to last](https://jeffhuang.com/designed_to_last/), [Sadness' internet Manifesto](https://sadgrl.online/cyberspace/internet-manifesto), and others.

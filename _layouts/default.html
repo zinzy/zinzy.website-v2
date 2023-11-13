@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class=" ">
+<html lang="en" class="">
   {% include head.html %}
   <body class="p-6 md:py-20 mx-auto antialiased bg-white text-slate-900 dark:bg-zinc-800 dark:text-zinc-100">  
 
@@ -7,8 +7,26 @@
     {% include header.html %}
  
     <main class="my-28">
-       
-      {{content}}
+      <header>
+        <h1 class="inline-block italic">
+          {% if page.category == "now" %}
+            {{ page.title }}: 
+            <time datetime="{{ page.date | date: "%b %Y" }}">{{ page.date | date: "%b %Y" }}</time> 
+          {% else %}
+            {{page.title}}
+          {% endif %} 
+        </h1>
+        {% if page.tagline %}
+        — 
+        <h2 class="inline-block">{{page.tagline}}</h2>
+        {% endif %} 
+      </header>
+
+      
+      <div class="my-52">
+        {{content}}
+      </div>
+      
     </main> 
  
   

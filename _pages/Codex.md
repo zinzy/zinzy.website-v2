@@ -1,6 +1,6 @@
 ---
 title: "Codex"
-excerpt: "A growing record of the things I believe"
+tagline: "A growing record of the things I believe"
 layout: post
 ---
 Inspired by [Buster Benson's _Codex_](https://busterbenson.com/beliefs/), [Greg Clarke](https://gregology.net/codex/), [Elliott Cost's _Opinions_](http://web.archive.org/web/20220123045740/https://elliott.computer/pages/opinion) and others I'm using this page to grow[^1] a record of things I believe.
@@ -19,15 +19,14 @@ Feel free to read, learn, wonder, and remember:
 ### The codex
 
 #### Chapter 0: Meta beliefs
-- Opinions, beliefs, and values may change over time
-- I am ignorant and see only a very small fraction of reality from my own [[Standpoint theory|standpoint]]
+- Opinions, beliefs, and values may change over time and that's okay
+- I am ignorant and see only a very small fraction of reality from my own standpoint
 
 #### Chapter 1: Self
 - I am an optimist
 - I make mistakes 
 - My intuition will always be able to lead the way
 - My emotions are my responsibility (Gregology)
-- My beliefs and principles may change and that's okay 
 - My questions are relevant
 - I'm great at finding connections with others 
 - At heart I'm a cultural relativist
@@ -46,11 +45,13 @@ Feel free to read, learn, wonder, and remember:
 - God is easiest to find in nature.
 - Orthopraxy trumps orthodoxy.
 - Christian culture is too much about what we should believe and too little about what we should do
-- Jesus is not my savior, but my teacher.
-- Jesus' physical resurrection, ascension into heaven, his virgin birth or position as the son of God are irrelevant to my faith.
+- Christian culture is concerned too much with what's to come and not enough with what is
+- Jesus is my teacher, not my savior
+- Jesus' physical resurrection, ascension into heaven, his virgin birth or position as the son of God are irrelevant to my faith
+- Studying the Bible in its historical, literary, and liturgical context is an important tool to better understand the cultures in which it has become or has been dominant
 
 #### Chapter 3: People & relationships
-- People try to do what they think will make the world a better place.
+- People try to do what they think will make the world a better place, even if that means its destruction
 - Strangers don't often expect kindness. It can be a spark for a great friendship.
 - Everybody's lives are infinitely complex, vulnerable, precious, and potential, just like mine.
 - White isn't a color unless it's a skin color
@@ -83,8 +84,11 @@ Feel free to read, learn, wonder, and remember:
 #### Chapter 8: Work
 - Praise in public, criticize in private
 - Don't work overtime unless required
+- The product designer should conduct user research
+- The product designer should be a PO's sidekick
 
 #### Chapter 9: Habits
+- I am intrinsically motivated, and will struggle with anything that I must do based on extrinsic motivation
 - Practice yin yoga to train your quietude muscle, and tolerance of discomfort 
 - Wash your face every day, and moisturize properly. 
 - Buy simple black t-shirts and wear one every day
@@ -107,11 +111,13 @@ Feel free to read, learn, wonder, and remember:
 -   Movies
 	- _Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another. 
 -   Documentaries
--   Quotes
+
+##### Quotes
+- > [I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.](https://www.goodreads.com/quotes/568877-i-choose-a-lazy-person-to-do-a-hard-job)
 
 #### Chapter 13: A Timeline of My Life
--   Annual Gratitude Lists
--   Named Years
+-   ~~Annual Gratitude Lists~~
+-   ~~Named Years~~
 
 ### In closing
 
