@@ -109,8 +109,8 @@ function timeAgo(date) {
 };
 
 
-let meow = document.getElementById("statusDate").innerHTML;
-document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow)); 
+// let meow = document.getElementById("statusDate").innerHTML;
+// document.getElementById('statusTimeAgo').innerHTML = timeAgo(new Date(meow)); 
 
 
 

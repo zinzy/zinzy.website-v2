@@ -1237,6 +1237,11 @@ select {
   margin-bottom: 5rem;
 }
 
+.my-28 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -1245,11 +1250,6 @@ select {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-28 {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
 }
 
 .mb-0 {
@@ -1305,6 +1305,10 @@ select {
   margin-top: 5rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1315,18 +1319,6 @@ select {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mb-28 {
-  margin-bottom: 7rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .block {
@@ -1389,24 +1381,8 @@ select {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.place-content-center {
-  place-content: center;
-}
-
-.content-center {
-  align-content: center;
-}
-
-.content-stretch {
-  align-content: stretch;
-}
-
 .items-center {
   align-items: center;
-}
-
-.items-stretch {
-  align-items: stretch;
 }
 
 .gap-3 {
@@ -1567,10 +1543,6 @@ select {
 
 .italic {
   font-style: italic;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .text-black {
@@ -1834,10 +1806,6 @@ body {
     margin-left: 0.75rem;
   }
 
-  .md\:mt-28 {
-    margin-top: 7rem;
-  }
-
   .md\:inline-block {
     display: inline-block;
   }
@@ -1852,12 +1820,5 @@ body {
 
   .md\:p-0 {
     padding: 0px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:my-56 {
-    margin-top: 14rem;
-    margin-bottom: 14rem;
   }
 }
