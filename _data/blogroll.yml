@@ -253,6 +253,20 @@ third:
     url: https://bencrowder.net/
   - name: Lizz Thabet
     url: https://www.lizzthabet.com/ 
+  - name: Josh Kim
+    url: https://www.joshkimux.com/
+  - name: Ron Vaisman
+    url: https://ronvaisman.dev/
+  - name: Jason Morris
+    url: https://jasonmorris.com/
+  - name: Katy Decorah
+    url: https://katydecorah.com/
+  - name: DJ Chase
+    url: https://dj-chase.com/
+  - name: Kehinde Adeleke
+    url: https://www.kehinde.xyz/
+  - name: Robin Rendle
+    url: https://robinrendle.com/
 other:
   - name: Improve Something Today
     url: https://improvesomething.today
@@ -316,3 +330,7 @@ other:
     url: https://www.robinrexmeyers.com
   - name: Temporary Liveness
     url: https://temporaryliveness.org/
+  - name: a11y-webring.club
+    url: https://a11y-webring.club
+  - name: Sunday Sites
+    url: https://sundaysites.cafe/

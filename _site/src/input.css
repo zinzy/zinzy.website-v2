@@ -83,3 +83,14 @@ body {
 .prose h5::before {
   content:"§ "
 }
+
+
+
+.home {
+  /* background: rgb(226,232,240);
+  background: -moz-linear-gradient(254deg, rgba(226,232,240,1) 0%, rgba(148,163,184,1) 100%);
+  background: -webkit-linear-gradient(254deg, rgba(226,232,240,1) 0%, rgba(148,163,184,1) 100%);
+  background: linear-gradient(254deg, rgba(226,232,240,1) 0%, rgba(148,163,184,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2e8f0",endColorstr="#94a3b8",GradientType=1); */
+  transition: 0.6s;
+}

@@ -106,11 +106,13 @@ Feel free to read, learn, wonder, and remember:
 - Neon candles are usually the most beautiful candles  
 
 #### Chapter 12: Influences and Recommendations
--   Food
--   Books
--   Movies
+- Food
+- Books
+- Movies
 	- _Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another. 
--   Documentaries
+- Documentaries
+- People
+	Bridget Everett
 
 ##### Quotes
 - > [I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.](https://www.goodreads.com/quotes/568877-i-choose-a-lazy-person-to-do-a-hard-job)

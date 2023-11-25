@@ -1,5 +1,5 @@
 ---
-title: "Writing"
+title: "Essays"
 tagline: "Reflections on life, work, play, and everything in between"
-layout: writing
+layout: essays
 ---

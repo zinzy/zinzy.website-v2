@@ -1,5 +1,28 @@
 ---
 title: "Now"
 tagline: "What I'd tell a friend I hadn't seen in a year"
-layout: now
+layout: page
 ---
+_Last updated in October 2023._
+
+![A person sits at home on their sofa and reads something on a laptop](https://res.cloudinary.com/dbi2zounq/image/upload/v1696161718/IMG_6505_ryjokz.jpg)
+
+Here I am in my living room, on the sofa in its fresh location underneath our [JR](https://www.jr-art.net/) piece. The living room looks so much more spacious this way. I'm wearing my favorite jeans, and my hair is demonstrably longer than it has been in recent years. I call this combed-out afro The Microphone.
+
+### Existing
+In Amsterdam's finest neighborhood, de Indische Buurt, I'm watching the autumn set in, and I'm loving every minute of it. Apart from the scorching hot first week of September, everything about the weather tells me it's time for _hygge, hygge, hygge_. Anja's back in school, which means I'm settling back into a more structured hybrid work method. Wednesdays I spend at the office, and the other days I start off at home, and join my coworkers on-site on most afternoons. I love this, and the structure of it all is doing me good. Lemonade has entered puberty.
+
+### Enjoying
+Unlike what I had planned, I barely spent any time in the pool this summer. What I did continue to develop is my [[Yin yoga]] practice, alongside a practice of guided and unguided meditation. To decompress in the mornings and evenings, piano practice remains a close friend. I'm not making the progress I want to be making, but composition and singing help me regulate emotions stunningly well. Lastly, I'm fond of the writing practice I've established. I publish on this website, write in my diary, and correspond via snail mail with a few friends. Also, I fantasize about trying my very first pumpkin spiced latte.
+
+### Community
+I feel fortunate to be engaged in a number of communities where I meet people in which I can see myself. A few months ago, I discovered [[Bar Bario]], a place by and for queer people of color. In addition, I'm enjoying watching the community grow at [[All Saints Amsterdam]], where I've joined the team as website person. In the margins of my thoughts, I'm slowly putting together what the future of [[Queer Salon]] will be.
+
+### Working
+I'm approaching six months at healthcare technology scaleup [[Gerimedica]], where I'm a senior-but-silly researcher and designer. The term _senior-but-silly_ is growing on me, because it helps me be humbly confident, and open to the whimsy's of working with other people for a common good. I'm impressed by the company Gerimedica has become, and I am even more excited about their current challenges than I was when I began. Some questions I ask myself as part of my daily work are: how can designers facilitate developers? How do I foster user-centered curiosity among domain experts? How do we organize a UX research repository in a strict GDPR environment?
+
+### Learning
+Through trial and error, I [continue](/2023/05/31/now/) to find ways to be my best self, both at home and at work. Acknowledging the physical and mental realities of my life, I've been learning a lot about [[Neurodivergence in the workplace]], about the [[Polyvagal theory]], and about a holistic, trauma-informed understanding of mental health. Practically, the books _[The Smart but Scattered Guide to Success](https://www.goodreads.com/book/show/25404196-the-smart-but-scattered-guide-to-success)_, _[Divergent Mind](https://www.goodreads.com/book/show/44285784-divergent-mind?from_search=true&from_srp=true&qid=totomZ1WpA&rank=1)_, and _[Living with Intensity](https://www.goodreads.com/book/show/4912918-living-with-intensity)_, and [Elizabeth Filips](https://www.youtube.com/@elizabethfilips) and [the Crappy Childhood Fairy](https://www.youtube.com/@CrappyChildhoodFairy) have been sources of inspiration.
+
+### Reading, watching, listening
+_[The History of Love](https://www.goodreads.com/book/show/3867.The_History_of_Love)_ takes my breath away, as did _[Fleabag](https://www.imdb.com/title/tt5687612/)_.

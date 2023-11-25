@@ -1,34 +1,43 @@
-<header>
+<header class="">
+  <div class="flex items-center">
 
-  <!-- <div class="flex ...">
-    <div class="grow">
-      <a href="/">Zinzy</a>
+  <div class="">
+    <a href="/" class="align-middle hover:rotate-3 hover:animate-pulse bg-gradient-to-r from-slate-200 to-slate-300
+    h-10 w-10 home hover:shadow-md shadow-slate-50 border-4 border-white rounded-full inline-block "></a>
+  
+  </div> 
+
+  {% unless page.thing == "index" %}
+
+    <div class="mx-5 text-slate-400">›</div>
+ 
+    {% if page.path contains "_posts" %}
+
+      <div class="font-medium"><a href="/essays">Essays</a></div>
+
+    {% else %}
+
+    <div>
+      <h1 class="font-medium">{{page.title}}</h1>
     </div>
-    <div class="flex-none">
-      <a href="/more">More</a>
-    </div>
-  </div> -->
-<!-- 
+
+  {% endif %}
+
+   
+
+  {% endunless %}
+
+  </div>
 
 
-  <h1 class="font-medium text-lg"><a href="/">Zinzy Waleson Geene</a></h1>
 
-  <p class="status">
-    {% assign status = site.status | sort: 'date' | reverse  %}     
-    {% for post in status limit: 1 %}
-      {{post.content}}
-      <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="none" id="statusDate">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
-      (<span id="statusTimeAgo"></span>)
-    {% endfor %}
-  </p> 
+  {% if page.path contains "_posts" %}
+  <div class="md:mt-28">
 
-  <nav>
-    <ul>
-      {% for item in site.data.menu-main %}
-      <li> 
-        <a href="{{item.url}}" class="font-medium">{{ item.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav> -->
+    <h1 class="font-medium">{{page.title}}</h1> 
+      <time class="dt-published text-gray-500" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time> 
+  </div>
+  {% endif %}
+
+
 </header>
