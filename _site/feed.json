@@ -6,6 +6,15 @@
     "feed_url": "http://localhost:4000/feed.json",
     "items": [
       {
+            "id": "http://localhost:4000/2023/11/25/week-47",
+            "url": "http://localhost:4000/2023/11/25/week-47",
+            "title": "Week 47: Geert Milders",
+            "content_html": "<h3 id=\"covid\">Covid</h3>\n<p>It’s curious to see my response to a bout of Covid is not much different from what it was in early 2020. Despite a <a href=\"/2023/11/19/week-46\">negative test</a>, symptoms tell me everything I need to know. I have to remind myself every day this week that, given the regulations, I’m not obliged to quarantine. Nevertheless, Anja and I are both barely able to walk the dog. I work half days, and spend my afternoons in bed with hot water bottles.</p>\n\n<p>Later in the week, I have cabin fever that is so intense it makes me cry in the park a little bit. On Sunday, the only thing I’m left with is a stuffy nose as well as some fatigue. God, I hope I don’t develop long Covid.</p>\n\n<h3 id=\"consuming\">Consuming</h3>\n<p>Anja and I watch season two of <em>Somebody Somewhere</em>. It makes me regain a new appreciation for Bridget Everett’s physical comedy, new sincerity, and sass. I wish she and I were friends.</p>\n\n<h3 id=\"tinkering\">Tinkering</h3>\n<p>I make some changes to my website this week, centering a page of text with links on the homepage. Sometimes, I feel bad that I don’t take screenshots every time I change it. But I suppose my continuous redesign strategy prevents that from being realistic.</p>\n\n<h3 id=\"politics\">Politics</h3>\n<p>On Wednesday, the country has her very own 2016 American election result: after 20 years of being (rightfully) ridiculed as a far right party, PVV is finally the biggest, taking 37 of 150 seats in the House. Most people in my safe, progressive, friendly Amsterdam that I’ve spoken with are gobsmacked. A part of me is angry and sad, but a much larger part says: welcome to my world.</p>",
+            "date_published": "2023-11-25T09:16:15+01:00",
+            "date_modified": "2023-11-26T08:47:29+01:00",
+            "author": {
+              "name": ""},
+            "tags": ["weeknotes"]},{
             "id": "http://localhost:4000/2023/11/19/week-46",
             "url": "http://localhost:4000/2023/11/19/week-46",
             "title": "Week 46: Osama",
@@ -86,15 +95,5 @@
             "date_modified": "2023-09-03T10:15:37+02:00",
             "author": {
               "name": ""},
-            "tags": ["weeknotes","lemonade","teamwork","horror","summer","bible study","documentaries"]},{
-            "id": "http://localhost:4000/2023/08/20/week-33",
-            "url": "http://localhost:4000/2023/08/20/week-33",
-            "title": "Week 33: Landing",
-            "content_html": "<ul>\n  <li>The first week back at work is fairly quiet, I even found myself on the verge of boredom at one point. Organically, this makes me feel bad, but I remind myself that weeks before and after holidays tend to have this effect on my life. I tell myself I’m just landing.</li>\n  <li>No one can convince me the municipality of Amsterdam <em>isn’t</em> using major construction projects to show tourists how crap the city can be. On Sunday, I go for a long bike ride to Amsterdamse Bos and back, and crossing the Berlagebrug I’m struck by how quiet the street is without cars racing by. I like it.</li>\n  <li>I finished watching <em><span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  The Righteous Gemstones  <span class=\"invalid-link-brackets\"></span></span></em>, and I miss them already.</li>\n  <li>Anja’s still off for the summer, and I’m watching her slowly recover from being my personal chauffeur for two weeks</li>\n  <li>The Summer makes me not want to cook. It’s no help that I’m using <a href=\"https://anneliewambeek.com/\">Annelie</a>’s apartment to work while she’s travelling, and that I use the occasion to order poke bowls for lunch. I’m surprised by the quality of <a href=\"https://pokeperfect.nl/en/amsterdam/linnaeusstraat/\">Poke Perfect</a>’s teriyaki chicken bowl, extra edamame.</li>\n  <li>I’m reading and enjoying Robin Meyer’s <em><span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  Saving Jesus From the Church  <span class=\"invalid-link-brackets\"></span></span></em>, a tool to make my interest in <span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  orthopraxy  <span class=\"invalid-link-brackets\"></span></span> more tangible.</li>\n</ul>",
-            "summary": "The first week back at work is fairly quiet, I even found myself on the verge of boredom at one point. Organically, this makes me feel bad, but I remind myself that weeks before and after holidays tend to have this effect on my life. I tell myself I’m just landing. No one can convince me the municipality of Amsterdam isn’t using major construction projects to show tourists how crap the city can be. On Sunday, I go for a long bike ride to Amsterdamse Bos and back, and crossing the Berlagebrug I’m struck by how quiet the street is without cars racing by. I like it. I finished watching [[The Righteous Gemstones]], and I miss them already. Anja’s still off for the summer, and I’m watching her slowly recover from being my personal chauffeur for two weeks The Summer makes me not want to cook. It’s no help that I’m using Annelie’s apartment to work while she’s travelling, and that I use the occasion to order poke bowls for lunch. I’m surprised by the quality of Poke Perfect’s teriyaki chicken bowl, extra edamame. I’m reading and enjoying Robin Meyer’s [[Saving Jesus From the Church]], a tool to make my interest in [[orthopraxy]] more tangible.",
-            "date_published": "2023-08-20T00:00:00+02:00",
-            "date_modified": "2023-09-03T10:01:57+02:00",
-            "author": {
-              "name": ""},
-            "tags": ["weeknotes","food","amsterdam","summer","reading","theology"]}]
+            "tags": ["weeknotes","lemonade","teamwork","horror","summer","bible study","documentaries"]}]
 }

@@ -279,6 +279,12 @@ third:
     url: https://47nil.com/
   - name: Scott Nesbitt
     url: https://scottnesbitt.net/
+  - name: Oatmeal
+    url: https://eli.li/
+  - name: Andrew Healey
+    url: https://healeycodes.com/
+  - name: Daryl Sun
+    url: darylsun.page
 other:
   - name: Improve Something Today
     url: https://improvesomething.today
@@ -346,3 +352,5 @@ other:
     url: https://a11y-webring.club
   - name: Sunday Sites
     url: https://sundaysites.cafe/
+  - name: Big List of Personal Websites
+    url: http://biglist.terraaeon.com/

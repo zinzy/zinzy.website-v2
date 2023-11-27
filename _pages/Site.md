@@ -16,6 +16,17 @@ As an adult person with hobbies, a career, and various interests, and lived expe
 ### Design
 Currently this website sports a brutalist single-column design. It's a humble form of activism of mine to combat the pressure my fellow UX designers and I feel about personal branding. I love narrow, single-column personal websites. They tell me: "hey, I'm just a person like you, and this is a way for you to get to know me a bit better. All you have to do is knock, I'll always open the door." I truly hope this website invokes a similar vibe for you. I usually refrain from using custom CSS or content in my diary entries. 
 
+<!-- ### Ideas that inspire me
+- [_Minimal web_ by Leo Babauta](https://mnmlist.com/w/)
+- []()
+https://blog.darylsun.page/textplaylist
+https://leobabauta.com/pl/
+- []()
+- []()
+- []()
+- []()
+- []() -->
+
 ### Copyright
 Everything on this website, unless otherwise stated is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1), which means: 
 

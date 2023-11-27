@@ -3,7 +3,7 @@ title: "Uses"
 subtitle: "An overview of the things I love to use"
 layout: post
 ---
-I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but they haven't requested an interview yet. Before you dive in, please know that I believe (and tell myself in the mirror that) tools don't matter. I don't list all the tools I use (you don't care that I have an iPhone), just the ones I think you might find useful.
+I maintain this page as an incomplete overview of the things I love to use. Kind of like [Uses This](https://usesthis.com/), but they haven't requested an interview yet. Before you dive in, please know that I believe (and tell myself in the mirror that) tools don't matter. I don't list all the tools I use, because you don't care that I have an iPhone, just the ones I think you might find useful.
 
 ### Hardware 
 - [WH-1000XM4 Wireless Premium Noise Canceling Headphones](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b) have kept me sane working from home in the same room as a high school teacher
