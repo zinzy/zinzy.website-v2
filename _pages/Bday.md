@@ -19,7 +19,7 @@ Before I tell you about my hopes and dreams for this year, let me sell you on th
 
 1. I'd love to improve my music-making experience with a pair of studio-grade headphones (I had a lovely pair, but the puppy chewed through the cable).
 2. In addition, I'd like to record and produce some work with production software.
-3. Lastly, after borrowing my neighbor's ukelele I'm positive: I want to go to there.
+3. Lastly, after borrowing my neighbor's ukelele for that office party I'm positive: I want one.
 
 If you can, thank you for contributing to my birthday this year. It means a lot to me that we get to celebrate not just my birthday but our relationship as well.
 
