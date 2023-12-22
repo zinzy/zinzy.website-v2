@@ -5,7 +5,7 @@ title: "Indian Summer Christmas"
 date: 2013-12-30
 excerpt: ""
 tags:
-- christmas
+- Christmas
 - holidays
 - productivity
 - haarlem

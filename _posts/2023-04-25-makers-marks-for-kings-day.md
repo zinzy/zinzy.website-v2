@@ -8,7 +8,7 @@ tags:
 - neighborhood
 - funny
 - language
-- park
+- parks
 ---
 It's late in the morning and I'm on my way to Gerimedica, the company's I'm excited to be joining in May, which is next week already. I'm on my bike listening to an American podcast about the history of Dutch anarchist cycling culture.[^1] The scene could only be more Dutch if I had a frying pan with bitterballen on the back of my bike. 
 

@@ -8,7 +8,7 @@ tags:
 - religion
 - amsterdam
 - queerdom
-- queer salon
+- Queer Salon
 faces: 
 - Annika
 - Howie

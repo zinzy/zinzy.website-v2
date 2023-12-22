@@ -42,5 +42,5 @@ Much like you, I assume, I don't like being tracked on the Internet. There would
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 
-### Most recently
-This site was last deployed on {{ site.time | date: "%A, %B %-d, %Y" }}.
+### To do
+- [ ] Save highlights on website

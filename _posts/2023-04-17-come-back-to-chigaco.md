@@ -8,7 +8,7 @@ tags:
 - neighborhood
 - funny
 - language
-- park
+- parks
 faces:
 - Susan
 ---

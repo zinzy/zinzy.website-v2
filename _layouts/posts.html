@@ -1,24 +1,9 @@
 ---
 layout: default
 ---
-<section>
-  <h1>{{page.title}}</h1>
-  <p>This website functions as a scavenger hunt of sorts. There are many pages, some more easy to find than others. Feel free to take a look around:</p>
-
-
-  <ul>
-    <li><a href="">Now</a>: what I'd tell a friend I hadn't seen in a while</li>
-    <li><a href="">Then</a>: a short history of how I got here</li>
-    <li><a href="">Hello</a>: best ways to contact me</li>
-    <li><a href="">Work</a>: about my professional life</li>
-    <li><a href="">Snapshots</a></li>
-  </ul>
-</section>
-
-
+Exploring: posts / <a href="/tags" class="underline">tags</a>
 
 <section>
-  <h2>Journal</h2>
   {% for post in site.posts %}
 
   {% capture year_of_current_post %}
@@ -30,11 +15,11 @@ layout: default
   {% endcapture %}
 
   {% if forloop.first %}
-  <h3>{{ year_of_current_post }}</h3>
+  <h3 class="mt-10 mb-3">{{ year_of_current_post }}</h3>
   <ul>
   {% endif %}
 
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
 
   {% if forloop.last %}
   </ul>
@@ -42,7 +27,7 @@ layout: default
   {% if year_of_current_post != year_of_previous_post %}
   </ul>
 
-  <h3>{{ year_of_previous_post }}</h3>
+  <h3 class="mt-10 mb-3">{{ year_of_previous_post }}</h3>
   <ul>
   {% endif %}
   {% endif %}

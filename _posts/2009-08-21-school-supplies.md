@@ -5,7 +5,6 @@ title: "School supplies"
 date: 2009-08-21
 excerpt: ""
 tags:
-- milestones
 - university
 - office supplies
 - life changes

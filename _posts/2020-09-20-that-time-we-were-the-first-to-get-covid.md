@@ -8,7 +8,7 @@ faces:
 tags:
 - milestones
 - pandemic
-- anja
+- Anja
 - health
 ---
 Amsterdam's patient zero is a woman who just happens to have spent early 2020 in the north of Italy. She has a son who attends the high school which just happens to be Anja's place of employment. Anja is the first person I know to be infected with Covid 19. I am the second.

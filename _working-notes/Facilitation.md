@@ -1,7 +1,5 @@
 ---
 title: "Facilitation"
-tagline: "I'm an enthusiast"
-layout: post
 ---
 Both at work and in my spare time I engage in a lot of facilitation: I create spaces for groups of like-minded people to come and share in an experience. Okay, that sounds very tantric and ayahuasca-esque (and if that's your thing more power to you), but I'm talking about things like a book club.
 

@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./_layouts/**/*.{html,js}", "./_includes/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': theme('colors.black'),
+          },
+        },
+      }),
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),
@@ -10,14 +18,3 @@ module.exports = {
     // ...
   ],
 }
-
-
-
-
-// module.exports = {
-//   plugins: {
-//     'postcss-import': {},
-//     tailwindcss: {},
-//     autoprefixer: {},
-//   }
-// }

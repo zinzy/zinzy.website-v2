@@ -9,7 +9,7 @@ tags:
 - queerdom
 - poem
 - bible
-- christmas
+- Christmas
 - holidays
 - anti-lgbt
 - religion

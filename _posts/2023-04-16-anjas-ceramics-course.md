@@ -6,7 +6,7 @@ date: 2023-04-16
 excerpt: "Today, Lemonade and I visited Studio Pansa Amstel, where Anja has spent the last seven Sundays learning how to work a ceramics wheel."
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_3_tkf1za.jpg
 tags:
-- anja
+- Anja
 - hobbies
 - ceramics
 faces: 

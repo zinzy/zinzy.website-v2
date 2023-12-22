@@ -102,7 +102,7 @@ collections:
   notes:
     output: true
     permalink: /:year-:month-:day-:hour-:minute-:second
-  digital-garden:
+  working-notes:
     output: true
     permalink: /:slug
   pages:
@@ -124,7 +124,7 @@ defaults:
     values:
       layout: "face" 
   - scope:
-      path: "_digital-garden/**/*.md"
+      path: "_working-notes/**/*.md"
     values:
       layout: "garden_entry" 
   - scope:

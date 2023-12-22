@@ -7,12 +7,10 @@ edited: "I love the opinions I had on the subject matter below back in 2009. Ple
 faces:
 - Ex N
 tags:
-- queerdom
-- anti-lgbt
-- discrimination
+- queerphobia
 - multiculturalism
-- eindhoven
-- diversity and inclusion
+- Eindhoven
+- inclusion
 - emancipation
 ---
 It's Gay Pride today. Yesterday, as N and I were on our way to the cinema, somebody yelled "DYKES!" at us.

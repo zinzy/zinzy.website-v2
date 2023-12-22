@@ -4,9 +4,9 @@ date: 2023-08-05 10:16:15 +0200
 layout: post
 excerpt: ""
 tags:
-- scriptogram
+- Scriptogram
 - blogging
-- web 2.0
+- Web 2.0
 - tooling
 ---
 I am notorious for never grasping how many people know how much about what. To save myself from any further embarrassment I won't spend my time here telling you what the app is about. The team does that nicely over here. I do think I have something to say about what Scriptogr.am came exactly at the right time for me.

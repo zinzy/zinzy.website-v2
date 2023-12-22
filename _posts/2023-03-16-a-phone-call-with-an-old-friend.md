@@ -9,7 +9,7 @@ tags:
 - phone calls
 - happiness
 - catholicism
-- christianity
+- Christianity
 ---
 Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven't spoken in eight years.
 

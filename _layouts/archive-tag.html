@@ -1,13 +1,11 @@
 ---
 layout: default
 --- 
-<p>These are things I've written about #{{ page.title }}.</p>
- 
-<section class="mt-20">
-  <ul class="divide-y dark:divide-zinc-600">
+<section class="">
+  <ul class="">
     {% for post in page.posts %}
-    <li class="py-2">
-      <a href="{{ post.url }}">
+    <li class="">
+      <a href="{{ post.url }}" class="underline">
         <span>{{ post.title }}</span>
         <time class="block md:inline-block md:ml-3 text-slate-500 dark:text-zinc-400" datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
       </a></li> 
