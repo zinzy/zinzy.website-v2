@@ -13,9 +13,9 @@ layout: default
     <h2>Latest</h2>
     <ul class="my-5"> 
       {% for post in site.posts limit:3 %}  
-      <li class="">
+      <li class="mb-2 md:mb-0">
         <a href="{{ post.url }}" class="underline">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="text-gray-500 dark:text-zinc-500 ml-3">{{ post.date | date: "%-d %b %Y" }}</time>
+        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="block md:inline-block text-sm md:ml-3">{{ post.date | date: "%-d %b %Y" }}</time>
         </li>
       {% endfor %} 
     </ul>

@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "36c7767c072e7f5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec7792ef8092964c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d9687c190247dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_working-notes/Codex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cd54a5cff177e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_working-notes/Jesus is my teacher, not my savior.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1446895fd62ec4ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_working-notes/I take the Bible too seriously to take it literally.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6835196de387122d",
+    "type": "split",
+    "children": [
+      {
+        "id": "16c337f42d1b378b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3620e03661c5e406",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f7d92501ad2f0c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e0f1911248b41477",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7f0f8bef3cc2497c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b1f998fc0d81c10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a82b0109ca974686",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_working-notes/Codex.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d060215a45a6c3e6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_working-notes/Codex.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "019c3ec329299971",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "461768c5fc117dbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_working-notes/Codex.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9d9687c190247dd4",
+  "lastOpenFiles": [
+    "_working-notes/Jesus is my teacher, not my savior.md",
+    "_working-notes/Codex.md",
+    "_site/jesus-is-my-teacher-not-my-savior.html",
+    "_working-notes/I take the Bible too seriously to take it literally.md",
+    "_site/i-take-the-bible-too-seriously-to-take-it-literally.html",
+    "_working-notes/What we do trumps what we believe.md",
+    "_site/what-we-do-trumps-what-we-believe.html",
+    "_site/:slug.md",
+    "_posts/2023-12-22-why-the-website.md",
+    "_site/2023/12/22/why-the-website.html",
+    "_site/2023/12/22",
+    "_site/tag/website/index.html",
+    "_site/tag/website",
+    "_site/2023/12/21/why-the-website.html",
+    "_pages/Site.md"
+  ]
+}

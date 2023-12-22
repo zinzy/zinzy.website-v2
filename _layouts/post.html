@@ -5,8 +5,8 @@ layout: default
   
   <div class="prose dark:prose-invert">
   {% if page.category == "now" %}
-    <section class="prose dark:prose-invert italic text-gray-500 mb-10">
-      <p>This is a <a href="https://nownownow.com/" target="_blank" rel="noopener noreferrer" class="text-gray-500 font-normal">Now page</a>. It contains what I'd tell a friend I hadn't seen in a year. You should make a Now page for yourself.</p>
+    <section class="prose dark:prose-invert italic  mb-10">
+      <p>This is a <a href="https://nownownow.com/" target="_blank" rel="noopener noreferrer" class=" font-normal">Now page</a>. It contains what I'd tell a friend I hadn't seen in a year. You should make a Now page for yourself.</p>
     </section>
   {% endif %} 
 
@@ -25,7 +25,7 @@ layout: default
 </h2>   -->
 
 {% if page.category == "instant" %}
-<section class="prose dark:prose-invert italic text-gray-500 mb-10">
+<section class="prose dark:prose-invert italic  mb-10">
   <ul class="m-0 p-0">
     <li class="inline-block">
       {% if page.flash %}
@@ -59,7 +59,7 @@ layout: default
   {% if page.path contains "_posts" %}
     {% unless page.category == "now" %}
       <p>
-        <time class="dt-published text-gray-500" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
+        <time class="dt-published " datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
       </p>
     {% endunless %}
   {% endif %} -->
@@ -113,10 +113,10 @@ layout: default
 
 
 
-  <footer class="mt-20 italic text-gray-500 mb-10"> 
+  <footer class="mt-20 italic  mb-10"> 
   {% if page.path contains "_posts" %}
 
-  <p><a href="/site#privacy" class="text font-normal text-gray-500">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal text-gray-500">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal text-gray-500">webmention</a>. I would love to hear from you!
+  <p><a href="/site#privacy" class="text font-normal ">I won't know you've been here</a> unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline  font-normal ">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal ">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal ">webmention</a>. I would love to hear from you!
 
   <div class="webmentions">
   <noscript>I use client-side Javascript to display webmentions to this page. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>

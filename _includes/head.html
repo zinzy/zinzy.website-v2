@@ -1,5 +1,5 @@
 <head>
-  <meta charset="UTF-8">
+  <!-- <meta charset="UTF-8"> -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{site.description}}"/>
@@ -11,7 +11,7 @@
     <META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW"/>
   {% endif %}
 
-  <!------ Imagery ------>
+  <!-- Imagery -->
   <meta content="/assets/img/android-chrome-512x512.png" property="og:image">
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
@@ -21,18 +21,8 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <!------ Styling ------>
-  <!-- SCSS -->
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/styles.css"> -->
-
   <!-- Tailwind CSS -->
   <link href="{{ site.baseurl }}/dist/css/output.css" rel="stylesheet">
-
-  <!-- Google Web Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
- 
 
   {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"/>
@@ -58,7 +48,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     {% endif %} -->
 
-    <!------ Feeds ------>
+  <!-- Feeds -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"/>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/micro.xml"/>
 

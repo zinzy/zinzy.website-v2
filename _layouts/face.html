@@ -22,7 +22,7 @@ layout: default
       {% for post in diary %} 
       <li class="py-2 flex">
         <div class="grow"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="flex-none text-gray-500">{{ post.date | date: "%-d %b %Y" }}</time>
+        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="flex-none ">{{ post.date | date: "%-d %b %Y" }}</time>
       </li>  
       {% endfor %}
     </ul>

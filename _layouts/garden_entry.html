@@ -39,7 +39,7 @@ layout: default
             <li>
               <a class="internal-lin underline" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
               {% if backlink.path contains "_posts" %}
-                <time class="text-slate-500" datetime="{{ backlink.date | date: "%Y-%m-%d" }}">({{ backlink.date | date: "%Y-%m-%d" }})</time>
+                <time class="" datetime="{{ backlink.date | date: "%Y-%m-%d" }}">({{ backlink.date | date: "%Y-%m-%d" }})</time>
               {% endif %}
             </li>
             {% endfor %} 

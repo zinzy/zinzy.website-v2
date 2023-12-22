@@ -119,3 +119,25 @@ time {
   border-top: 1px solid black;
   padding-top: 30px;
 }
+
+.task-list-item-checkbox {
+  margin-right: 10px;
+}
+
+.prose h3::before,
+.prose h4::before,
+.prose h5::before,
+.prose h6::before {
+  opacity: .5;
+  position: absolute; 
+  margin-left: -80px; 
+  width: 70px; 
+  text-align: right;
+  font-size: 70%;
+  margin-top: 4px;
+}
+
+.prose h3::before { content: "###" }
+.prose h4::before { content: "####" }
+.prose h5::before { content: "#####" }
+.prose h6::before { content: "######" }
