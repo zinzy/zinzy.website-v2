@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_working-notes/Codex.md",
+                "file": "_pages/Now.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_working-notes/Codex.md",
+                "file": "_pages/Now.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_working-notes/Codex.md",
+                "file": "_pages/Now.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_working-notes/Codex.md"
+                "file": "_pages/Now.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "9d9687c190247dd4",
   "lastOpenFiles": [
+    "_working-notes/Codex.md",
     "_posts/_2023-12-22-why-the-website.md",
     "_site/now.html",
     "_site/_pages/Now.html",
@@ -184,7 +185,6 @@
     "_pages/_2023-10-15_now.md",
     "_pages/)2023-10-15_now.md",
     "_working-notes/Jesus is my teacher, not my savior.md",
-    "_working-notes/Codex.md",
     "_site/jesus-is-my-teacher-not-my-savior.html",
     "_working-notes/I take the Bible too seriously to take it literally.md",
     "_site/i-take-the-bible-too-seriously-to-take-it-literally.html",
