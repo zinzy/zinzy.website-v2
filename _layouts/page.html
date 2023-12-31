@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="h-entry prose dark:prose-invert"> 
+<article class="h-entry prose"> 
   <div id="notes-entry-container">
     <content class="e-content"> 
       {{ content }}
@@ -11,7 +11,7 @@ layout: default
 
 
   {% unless page.thing == "index" %}
-  <footer class="mt-20 italic mb-10"> 
+  <footer class="mt-20 italic mb-10 prose dark:prose-invert"> 
     <p>As per <a href="/site#privacy" class="text font-normal ">my privacy policy</a>, I won't know you've been here unless you tell me. Let me know what you think about this either via <a href="mailto:zinzy@pm.me?subject=Re:{{page.title}}" class="underline font-normal ">email</a>, <a href="https://tech.lgbt/@zinzy" target="_blank" rel="noopener noreferrer" class="underline font-normal ">Mastodon</a> or <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer" class="underline font-normal ">webmention</a>. I would love to hear from you!</p>
     <div class="webmentions">
     <noscript>I use client-side Javascript to display webmentions to this page. I appreciate you in having Javascript disabled, but it does mean you won't be able to see the conversation going on.</noscript>

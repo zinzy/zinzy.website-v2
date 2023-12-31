@@ -12,7 +12,7 @@
             "content_html": "<ul>\n  <li>Updated the general UI of this website by adding a softer background color</li>\n  <li>Added a <a href=\"https://github.com/zinzy/zinzy.website/blob/6b0d3cf68e30b2c6d38e81dc3b3d7f4517d44913/_layouts/index.html\">splice method I used earlier</a> to <a href=\"https://indieweb.org/photo\">photo posts</a>, which allows me to alter the size of the images served through Cloudinary</li>\n  <li>Merged <code class=\"language-plaintext highlighter-rouge\">_notes</code> contents into my <code class=\"language-plaintext highlighter-rouge\">_posts</code> folder so that my dated content is organized in a single place (this is convenient for pagination purposes)</li>\n  <li>Styled the <a href=\"/tags\">tags page</a></li>\n  <li>Updated layout of an individual tag page so that short notes and posts are grouped accordingly</li>\n</ul>",
             "summary": "Updated the general UI of this website by adding a softer background color Added a splice method I used earlier to photo posts, which allows me to alter the size of the images served through Cloudinary Merged _notes contents into my _posts folder so that my dated content is organized in a single place (this is convenient for pagination purposes) Styled the tags page Updated layout of an individual tag page so that short notes and posts are grouped accordingly",
             "date_published": "2023-12-31T10:53:02+01:00",
-            "date_modified": "2023-12-31T13:58:44+01:00",
+            "date_modified": "2023-12-31T13:59:24+01:00",
             "author": {
               "name": ""},
             "tags": ["changelog","website"]},{

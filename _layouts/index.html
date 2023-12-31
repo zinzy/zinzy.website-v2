@@ -10,7 +10,7 @@ layout: default
 
 <div class="mt-10">
     <h2>Latest</h2>
-    <ul class="my-5"> 
+    <ul class="my-5 list-none m-0 p-0"> 
       {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
       {% for post in posts limit:6 %}  
       <li class="mb-2 md:mb-0">

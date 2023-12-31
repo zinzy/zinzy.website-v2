@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="">
   {% include head.html %}
-  <body class="p-5 md:p-0 md:mb-28 md:mt-40 mx-auto bg-amber-100 dark:bg-amber-900 text-black dark:text-white">  
+  <body class="p-5 md:p-0 md:mb-28 md:mt-40 mx-auto bg-amber-100 text-black dark:bg-stone-900 dark:text-white">  
 
 
     <div class="">
@@ -9,7 +9,7 @@
     </div>
     
  
-    <main class="my-28 prose">
+    <main class="my-28 prose dark:prose-invert">
   
       <div class="">
 
@@ -24,9 +24,9 @@
         </div>
       {% endunless %}
         {{content}}
-      </div>
-      
+      </div>  
     </main> 
+
     <div class="">
       {% include footer.html %}
     </div>

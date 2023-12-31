@@ -17,7 +17,7 @@ layout: default
 
     {% if forloop.first %}
     <h3 class="mt-10 mb-3">{{ year_of_current_post }}</h3>
-    <ul>
+    <ul class="list-none m-0 p-0">
     {% endif %}
 
     <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
@@ -29,7 +29,7 @@ layout: default
       </ul>
 
       <h3 class="mt-10 mb-3">{{ year_of_previous_post }}</h3>
-      <ul>
+      <ul class="list-none m-0 p-0">
       {% endif %}
     {% endif %}
   {% endunless %}

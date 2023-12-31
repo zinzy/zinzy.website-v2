@@ -19,9 +19,9 @@ layout: default
 
  <ul class="list-none m-0 p-0">
   {% for t in sorted_tags %}
-    <li class="inline-block bg-amber-300/50 hover:bg-amber-300/40 text-sm rounded-full p-1 pl-2 mr-1 mb-1">
+    <li class="inline-block bg-amber-300/20 hover:bg-amber-300/10 text-sm rounded-full p-1 pl-2 mr-1 mb-1">
       <a href="tag/{{ t | slugify }}" class="no-underline">{{ t }}</a>
-      <span class="bg-amber-300 inline-block w-4 h-4 text-xs text-center rounded-full ml-2">{{ site.tags[t].size }}</span>
+      <span class="bg-amber-300/50 inline-block w-4 h-4 text-xs text-center rounded-full ml-2 dark:text-black">{{ site.tags[t].size }}</span>
     </li>
   {% endfor %}
   </ul>
