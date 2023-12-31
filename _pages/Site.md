@@ -27,6 +27,7 @@ I’ve been yelling at Internet clouds since 1997.
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - It's a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 - It has been designed to minimise the energy consumption and CO2 emissions that result from navigating the Internet. Current emissions are available to view on [Website Carbon Calculator](https://www.websitecarbon.com/website/zinzy-website/).
+- It uses [webmention, h-card, and h-entry IndieWeb standards](https://spec.indieweb.org/)
 
 ### Copyleft
 Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1): 
