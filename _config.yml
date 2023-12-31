@@ -99,7 +99,7 @@ collections:
   faces:
     output: true
     permalink: /faces/:slug
-  working-notes:
+  notes:
     output: true
     permalink: /:slug
   pages:
@@ -112,11 +112,11 @@ defaults:
   - scope:
       path: "_faces/**/*.md"
     values:
-      layout: "face" 
+      layout: "page" 
   - scope:
-      path: "_working-notes/**/*.md"
+      path: "_notes/**/*.md"
     values:
-      layout: "garden_entry" 
+      layout: "page" 
   - scope:
       path: "_pages/**/*.md"
     values:

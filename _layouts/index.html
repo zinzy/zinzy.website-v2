@@ -13,7 +13,7 @@ layout: default
     <ul class="my-5 list-none m-0 p-0"> 
       {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
       {% for post in posts limit:6 %}  
-      <li class="mb-2 md:mb-0">
+      <li class="mb-2 md:mb-0 p-0">
         <a href="{{ post.url }}" class="underline">{{ post.title }}</a>
         <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="block md:inline-block text-sm md:ml-3">{{ post.date | date: "%-d %b %Y" }}</time>
         </li>

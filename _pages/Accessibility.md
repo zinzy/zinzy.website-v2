@@ -1,6 +1,6 @@
 ---
 title: "Accessibility"
-layout: post
+layout: page
 ---
 I copied [the WCAG compliance checklist of the A11Y Project](https://www.a11yproject.com/checklist/) down below on December 22, 2023 to help me improve the usability of this website.
 

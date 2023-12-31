@@ -2,10 +2,14 @@
 layout: default
 --- 
 <section class="">
+
+<h2>Things about {{page.title}}
+</h2>
+
   <ul class="list-none m-0 p-0">
     {% assign tag_posts = page.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}
     {% for post in tag_posts %} 
-    <li class="">
+    <li class="p-0">
       <a href="{{ post.url }}" class="underline">
         <span>{{ post.title }}</span>
         <time class="block md:inline-block md:ml-3  " datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time>
@@ -16,9 +20,9 @@ layout: default
 
 
   <ul class="mt-20 list-none m-0 p-0">
-    {% assign tag_notes = page.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}
-    {% for post in tag_notes %}
-    <li class="note mb-10"> 
+    {% assign tag_updates = page.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}
+    {% for post in tag_updates %}
+    <li class="note mb-10 p-0"> 
       <div class="prose dark:prose-invert">  
         {% if post.photo %}
           {% if post.photo == "redacted" %}

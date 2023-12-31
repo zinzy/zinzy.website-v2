@@ -1,7 +1,7 @@
 ---
 title: "How I work"
 tagline: "Curiously, laterally, impatiently"
-layout: post
+layout: page
 ---
 I'm a senior-but-silly UX researcher and designer with 17 years of working experience making digital products. I specialize in enterprise SaaS solutions with social impact. Simply put: I make tools people use to solve problems at work.
 

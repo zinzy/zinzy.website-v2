@@ -1,7 +1,7 @@
 ---
 title: Graveyard
 subtitle: "Starting is good, quitting ain't a crime. Here's a list of old projects. No regrets, many lessons."
-layout: post
+layout: page
 ---
 Inspired by a [few](https://robhope.com/graveyard) [good](https://www.danielzarick.com/failed/) [people](), I maintain an overview of projects in which I've been involved. I love personal websites that aren't just a highlight reel of someone's life, but that instead give a glimpse into someone's actual life. The projects below were all part of my life at one point or another. If you'd like to learn more about them, [get in touch](/hello).
 
