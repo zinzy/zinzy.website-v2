@@ -6,31 +6,35 @@ Exploring: posts / <a href="/tags" class="underline">tags</a>
 <section>
   {% for post in site.posts %}
 
-  {% capture year_of_current_post %}
-  {{ post.date | date: "%Y" }}
-  {% endcapture %}
+    {% unless post.title == "null" %}
 
-  {% capture year_of_previous_post %}
-  {{ post.previous.date | date: "%Y" }}
-  {% endcapture %}
+    {% capture year_of_current_post %}
+      {{ post.date | date: "%Y" }}
+    {% endcapture %}
 
-  {% if forloop.first %}
-  <h3 class="mt-10 mb-3">{{ year_of_current_post }}</h3>
-  <ul>
-  {% endif %}
+    {% capture year_of_previous_post %}
+      {{ post.previous.date | date: "%Y" }}
+    {% endcapture %}
 
-          <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
+    {% if forloop.first %}
+    <h3 class="mt-10 mb-3">{{ year_of_current_post }}</h3>
+    <ul>
+    {% endif %}
+
+    <li><a href="{{ post.url }}" class="underline">{{ post.title }}</a></li>
 
   {% if forloop.last %}
-  </ul>
-  {% else %}
-  {% if year_of_current_post != year_of_previous_post %}
-  </ul>
+      </ul>
+      {% else %}
+      {% if year_of_current_post != year_of_previous_post %}
+      </ul>
 
-  <h3 class="mt-10 mb-3">{{ year_of_previous_post }}</h3>
-  <ul>
-  {% endif %}
-  {% endif %}
+      <h3 class="mt-10 mb-3">{{ year_of_previous_post }}</h3>
+      <ul>
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+
 
 {% endfor %}
 </section>

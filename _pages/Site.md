@@ -44,3 +44,5 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 - [ ] Collection of working notes
 - [ ] Guestbook
 - [ ] Photo blog
+- [ ] Get added to the [xxiivv webring](https://github.com/XXIIVV/webring/pull/858)
+- [ ] Smaller images (using [splice method I used earlier](https://github.com/zinzy/zinzy.website/blob/6b0d3cf68e30b2c6d38e81dc3b3d7f4517d44913/_layouts/index.html))

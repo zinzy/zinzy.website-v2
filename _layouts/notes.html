@@ -2,17 +2,62 @@
 layout: default
 ---  
 
-<section class="prose dark:prose-invert italic   mb-10">
-  {{content}}
-</section>
-   
-{% assign notes = site.notes | sort: 'date' | reverse %}  
-<ul class="changelog">
-  {% for post in notes %}
-  <li class="item mt-20"> 
+{% assign newnotes = site.posts | sort: 'date' | reverse %}  
+
+<ul class="notes">
+  {% for post in newnotes %}
+
+  {% if post.title == "" %}
+
+  <li class="note mt-20"> 
     <div class="prose dark:prose-invert">  
       {% if post.photo %}
-        <img src="{{post.photo}}" alt="" class="mb-5">
+        {% if post.photo == "redacted" %}
+          <div class="border border-solid border-1 p-1">Redacted Polaroid</div>
+        {% else %}
+          <img src="{{ post.photo | slice: 0, 50 }}w_1000/{{ post.photo | slice: 50, 200 }}" alt="" class="mb-5">
+          {% endif %}
+      {% elsif post.replyTo %}
+      <p class="mt-0 u-in-reply-to">
+        Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>
+      </p> 
+      {% elsif post.likeOf %}
+      <p class="mt-0">
+        Liked <a href="{{post.likeOf}}" class="break-all u-like-of text-url" target="_blank">{{post.likeOf}}</a> 
+      </p> 
+    {% endif %} 
+    <content>
+      {{post.content}} 
+    </content>
+
+    </div>
+    <p class="mt-3">
+      <a href="{{post.url}}"><time class="dt-published text-sm  " datetime="{{ post.date | date: "%-d %b %Y" }}">{{ post.date | date: "%-d %b %Y" }}</time></a>
+    </p>
+    </li> 
+
+
+    {% endif %} 
+    {% endfor %} 
+</ul>
+
+
+
+<section class="prose dark:prose-invert italic  mb-10">
+  {{content}}
+</section>
+    
+<ul class="notes">
+  {% assign notes = site.notes | sort: 'date' | reverse %}  
+  {% for post in notes %}
+  <li class="note mt-20"> 
+    <div class="prose dark:prose-invert">  
+      {% if post.photo %}
+        {% if post.photo == "redacted" %}
+          <div class="border border-solid border-1 p-1">Redacted Polaroid</div>
+        {% else %}
+          <img src="{{ post.photo | slice: 0, 50 }}w_1000/{{ post.photo | slice: 50, 200 }}" alt="" class="mb-5">
+          {% endif %}
       {% elsif post.replyTo %}
       <p class="mt-0 u-in-reply-to">
         Replied to <a href="{{post.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{post.replyTo}}</a>

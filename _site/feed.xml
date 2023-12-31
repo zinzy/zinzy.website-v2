@@ -11,6 +11,40 @@
     
     
       <item>
+        <title>Week 52: Let's gooooooo</title>
+        <author> ()</author>
+        <description><![CDATA[
+          <p>Wouldn’t it be neat if I were more dedicated to writing weeknotes on this website?</p>
+]]>
+        </description>
+        <pubDate>Sun, 31 Dec 2023 09:16:15 +0100</pubDate>
+        <link>http://localhost:4000/2023/12/31/week-52</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/31/week-52</guid>
+        
+          
+        
+        
+          <category>Weeknotes</category>
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <author> ()</author>
+        <description><![CDATA[
+          <p>I just added a splice method to drastically reduce the size of images served by Cloudinary (which is what I use to populate my notes with photos).</p>
+]]>
+        </description>
+        <pubDate>Sun, 31 Dec 2023 06:53:02 +0100</pubDate>
+        <link>http://localhost:4000/2023/12/31/07-53-gmt-1</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/31/07-53-gmt-1</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
         <title>Annual review at 36</title>
         <author> ()</author>
         <description><![CDATA[
@@ -450,89 +484,6 @@
           <category>Gathering</category>
         
           <category>Horror</category>
-        
-      </item>
-    
-      <item>
-        <title>Week 37: Rosh Hashanah</title>
-        <author> ()</author>
-        <description><![CDATA[
-          <ul>
-  <li>Cooler temperatures! After the hottest week I’ve experienced in months, things were back to comfortable Summer weather. By the time I’m writing this the sky is gray and it’s raining, but this week’s weather was cheerful and moderate.</li>
-  <li>On Tuesday and Wednesday I gave two big UX workshops at week to help coworkers understand how they can use UX in their daily work. I’ve been giving workshops for well over a decade, always trusting my instinct to figure out what a particular group or context required. At work, though, we have two wonderful scrum masters who are well-versed in the art of facilitation. I learned a <em>lot</em> from their feedback, and saw a hugh jump between the quality of the first day and of the second day.</li>
-  <li>I caught up with a special friend on Wednesday, a young woman I met because we were treated for the same health condition. Her life as a Psych major couldn’t be more different from mine, and yet the red threads our lives resemble one another. I’m fortunate to call her my friend.</li>
-  <li>I had missed a few weeks in my RSS reader, but I was pleased to see Manuel Moreale’s <em><a href="https://manuelmoreale.com/">People &amp; Blogs</a></em> is off to a good start. To hell with Anja calling me a geek for being into the IndieWeb, I love visiting other people’s websites. I suspect I love reading what they have to say about those websites even more.</li>
-  <li>Last week, I had met an amazing couple of lesbians who invited me over for a casual dinner party on Friday. After a particularly challenging week, it was comforting to hear their experiences as people of color in the world today. I’m already looking forward to inviting them to our place.</li>
-  <li>On Saturday, Anja and I kicked off the weekend with a spontaneous redesign of our living room. We finally got rid of my desk, which was a Covid-era purchase used for our home office. What remains now is Anja’s bigger desk, which functions as a dining room table that she hates more than I do. The removal of our home office allowed us to place our sofa there, which has giving the living room a significant amount of extra space. The dining room table continues to double as an office whenever we put our ultrawide monitor there. I like <span title="This points to a note, but it is private" class="invalid-link">  <span class="invalid-link-brackets"></span>  modular living  <span class="invalid-link-brackets"></span></span>, and I’m feeling less and less awkward about the way we’re going about it in our house.</li>
-  <li>At the end of our cleaning sprint Anja mentioned it was a beautiful day for this accomplishment, since it was Rosh Hashanah. New living room, new beginnings.</li>
-  <li>After visiting Anja’s mom in the afternoon, we biked to Kriterion to Watch <span title="This points to a note, but it is private" class="invalid-link">  <span class="invalid-link-brackets"></span>  Oppenheimer (2023)  <span class="invalid-link-brackets"></span></span>.</li>
-  <li>Much like the last few days, I’m not in the best of states. There’s an old sadness that keeps saying hello, and I’m slowly beginning to think it might be time to get some help with it.</li>
-  <li>I’m nearing the end of my journal, and I’m surprised by how unnervous I am by the few pages I have left. In this past, <a href="https://www.vox.com/the-goods/2019/7/12/20680004/notebook-journal-finish-strategies">like the rest of the world, as it appears</a>, I had trouble finishing a journal in a relaxed manner. Looking at the first entry, I see I have 29 days left until it’ll have been one year exactly. Hello nerves.</li>
-</ul>
-]]>
-        </description>
-        <pubDate>Sun, 17 Sep 2023 08:49:15 +0200</pubDate>
-        <link>http://localhost:4000/2023/09/17/week-37</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/09/17/week-37</guid>
-        
-          
-        
-        
-          <category>Weeknotes</category>
-        
-          <category>Mental health</category>
-        
-          <category>Holidays</category>
-        
-          <category>Home</category>
-        
-          <category>Indieweb</category>
-        
-          <category>Films</category>
-        
-          <category>Diaries</category>
-        
-      </item>
-    
-      <item>
-        <title>Week 36: Homecoming</title>
-        <author> ()</author>
-        <description><![CDATA[
-          <ul>
-  <li>IT IS HOT STOP CLIMATE CHANGE NOW. I don’t think I’ve seen hotter days this year than week 36. Getting out of a hot shower and feeling equally wet fifteen minutes later. Lemonade barely wanting to walk outside. The sun beaming so feriously we can’t keep the windows open. Thank you, Jesus, but please make it cooler.</li>
-  <li>There’s something sweet about seeing Amsterdam through the eyes of friends from abroad. On Tuesday, I couldn’t have been more excited to welcome my <a href="https://vineandfig.co/">Vine &amp; Fig friends</a> Pickles and Patrick to the city. They’re two Irish Catholic gay men named Patrick, so we try to make it work any way we can.</li>
-  <li>I was saddened by the fact that Jacob, Patrick’s husband, couldn’t make it because he had to stay home and help their dog Jude recover from surgery. All week, I felt like we were missing a limb.</li>
-  <li>I joined the V&amp;F leadership team in mid 2020, and we’ve been growing a friendship since. The moment I saw them I knew we were going to get along perfectly in real life, too. Finally getting to embrace them felt like to most natural thing in the world.</li>
-  <li>Their AirBnb, which is located just off of Vijzelgracht, was absolutely ridiculous. A three-bedroom penthouse overlooking De Pijp, enormous backyard below, include Swedish saunas and swimming pools. This is how the other half lives.</li>
-  <li>I made time to hang out with the Patricks every day they were here, which took us to sweet places. I took them to <a href="https://takeichi-ramen.eu/">Takeichi</a>, my favorite ramen place where I always order anything but ramen, and to <a href="https://studio-k.nu/">Studio K</a>, where they met Lemonade, who chewed through her leash in what seemed like a quiet moment.</li>
-  <li>On Friday, we went cheese and wine tasting at <a href="https://abrahamkef.nl/vestigingen/proeflokaal/">Abraham Kef in Noord</a>. It reminded me of how much I love cheese. It was the first thing I was able to say after I learned to say “momma”. I want to make my own cheese.</li>
-  <li>After dinner at <a href="https://thuskomme.nl/">Thuskomme</a> on Saturday we took silly mugshots with my Polaroid camera.</li>
-  <li>It is truly wonderful to spend time with the Patricks, with whom I weave in and out of conversation topics like it’s nobody’s business. One minute we’re talking about sex toys, and the next about the Book of Job. Knowing they were going to be leaving made me cry a little bit, but then I remembered our friendship had survived without physical get-togethers for three years already.</li>
-  <li>On Friday, I met with Mpho to chat church business. I’ve been discerning all Summer about how I would want to be involved in the church now that it’s becoming a church plant, and I decided maintaining the website and social media was a commitment I could make.</li>
-  <li>On Sunday, All Saints held her homecoming gathering after the Summer break. Kyle Rader, our new minister, was there for the first time. I liked the elder millennial vibe he brings to the service. It was intimate and lovely, although I seriously missed the pianist. After the service, we gathered for a potluck dinner in the bishop’s garden next to the church. I showed the logo ideas I had been working on, to friendly compliments.</li>
-</ul>
-
-<p><img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1694936600/IMG_5896_clkzw4.jpg" alt="" />
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1694936602/FullSizeRender_2_mznjqq.jpg" alt="" />
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1694936600/FullSizeRender_fgwrwq.jpg" alt="" /></p>
-]]>
-        </description>
-        <pubDate>Sun, 10 Sep 2023 20:21:15 +0200</pubDate>
-        <link>http://localhost:4000/2023/09/10/week-36</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/09/10/week-36</guid>
-        
-          
-        
-        
-          <category>Weeknotes</category>
-        
-          <category>Mental health</category>
-        
-          <category>Church</category>
-        
-          <category>Friends</category>
-        
-          <category>Amsterdam</category>
         
       </item>
     

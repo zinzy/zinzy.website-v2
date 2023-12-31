@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <article class="h-entry"> 
   <div id="notes-entry-container" class="prose dark:prose-invert">
     <content class="e-content"> 
@@ -12,7 +11,7 @@ layout: default
 <div class="mt-10">
     <h2>Latest</h2>
     <ul class="my-5"> 
-      {% for post in site.posts limit:3 %}  
+      {% for post in site.posts limit:5 %}  
       <li class="mb-2 md:mb-0">
         <a href="{{ post.url }}" class="underline">{{ post.title }}</a>
         <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="block md:inline-block text-sm md:ml-3">{{ post.date | date: "%-d %b %Y" }}</time>
