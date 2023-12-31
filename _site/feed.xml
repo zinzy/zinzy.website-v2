@@ -14,6 +14,22 @@
         <title></title>
         <author> ()</author>
         <description><![CDATA[
+          <p>“Old Year’s Eve”, as the Dutch call it, is sweet. I spent the morning at Coffee Company Oosterdok working on my website. The girl barista and the guy who came to take over her shift are apparently dating. He’s got a full mullet and a geeky mustache. It’s that season of fashion again. He was the type of soft masculine only Gen Z-ers can be. At 36, I seem to be developing a habit of noticing how much I’m no longer an 18-year-old. Everyone who seems my age addresses me with the formal “u”. I also saw S in the street. It’s the first anniversary of her father’s passing and she was wondering out loud what could properly trigger an ugly cry. She offered me a red velvet “oliebol”, which looked like a fried dog treat. No thank you, ma’am. 6pm and pizzas enter the oven. It took only 15 minutes for us to finally get into “Better Call Saul”. I except I won’t even make it until midnight. Happy New Year!</p>
+]]>
+        </description>
+        <pubDate>Sun, 31 Dec 2023 17:46:00 +0100</pubDate>
+        <link>http://localhost:4000/2023/12/31/17-51-08</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/31/17-51-08</guid>
+        
+          
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <author> ()</author>
+        <description><![CDATA[
           <ul>
   <li>Updated the general UI of this website by adding a softer background color</li>
   <li>Added a <a href="https://github.com/zinzy/zinzy.website/blob/6b0d3cf68e30b2c6d38e81dc3b3d7f4517d44913/_layouts/index.html">splice method I used earlier</a> to <a href="https://indieweb.org/photo">photo posts</a>, which allows me to alter the size of the images served through Cloudinary</li>
@@ -385,22 +401,6 @@
           <category>Intersectionality</category>
         
           <category>Solidarity</category>
-        
-      </item>
-    
-      <item>
-        <title></title>
-        <author> ()</author>
-        <description><![CDATA[
-          <p>Vibing for climate justice with a “Midsommar” umbrella</p>
-]]>
-        </description>
-        <pubDate>Sun, 12 Nov 2023 15:46:50 +0100</pubDate>
-        <link>http://localhost:4000/2023/11/12/16-46-gmt-1</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/11/12/16-46-gmt-1</guid>
-        
-          
-        
         
       </item>
     
