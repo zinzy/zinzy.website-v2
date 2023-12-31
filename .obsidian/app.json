@@ -1,3 +1,5 @@
 {
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_notes"
 }

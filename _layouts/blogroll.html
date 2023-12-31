@@ -13,7 +13,7 @@ layout: default
       {% assign blogroll_first = site.data.blogroll.first | sort: 'name' %}
       {% for item in blogroll_first %}
         <a href="{{item.url}}" rel="noopener noreferrer" class="mr-3 mb-3">
-          <img class="inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+          <img class="inline-block mt-0 mb-0" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
           {{item.name}}
         </a>
       {% endfor %}
@@ -31,7 +31,7 @@ layout: default
       {% assign blogroll_second = site.data.blogroll.second | sort: 'name' %}
       {% for item in blogroll_second %}
       <a href="{{item.url}}" rel="noopener noreferrer" class="mr-3 mb-3">
-        <img class="inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+        <img class="inline-block mt-0 mb-0" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
         {{item.name}}
       </a>
       {% endfor %}
@@ -49,7 +49,7 @@ layout: default
       {% assign blogroll_third = site.data.blogroll.third | sort: 'name' %}
       {% for item in blogroll_third %}
       <a href="{{item.url}}" rel="noopener noreferrer" class="mr-3 mb-3">
-        <img class="inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+        <img class="inline-block mt-0 mb-0" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
         {{item.name}}
       </a>
       {% endfor %}
@@ -67,7 +67,7 @@ layout: default
       {% assign blogroll_other = site.data.blogroll.other | sort: 'name' %}
       {% for item in blogroll_other %}
       <a href="{{item.url}}" rel="noopener noreferrer" class="mr-3 mb-3">
-        <img class="inline-block" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
+        <img class="inline-block mt-0 mb-0" src="https://www.google.com/s2/favicons?domain={{item.url}}&amp;sz=16" referrerpolicy="no-referrer">
         {{item.name}}
       </a>
       {% endfor %}

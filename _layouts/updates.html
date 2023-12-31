@@ -5,9 +5,9 @@ layout: default
   {{content}}
 </section>
     
-<ul class="notes list-none m-0 p-0">
-  {% assign notes = site.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}  
-  {% for post in notes %}
+<ul class="updates list-none m-0 p-0">
+  {% assign updates = site.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}  
+  {% for post in updates %}
   <li class="note mt-20"> 
     <div class="prose dark:prose-invert">  
       {% if post.photo %}

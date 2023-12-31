@@ -1,6 +1,7 @@
 ---
 title: "Notes"
-tagline: "Reflections, blurbs, likes, and replies"
-layout: notes
+layout: post
 ---
-This is a changelog of sorts; not quite blog posts, not quite tweets. They are IndieWeb-shaped slices of life: little moments of thinking aloud, changing my mind, connecting the dots.
+Welcome to my working notes. This is a digital garden: a collection of undated pages on a wide variety of topics. I've set it up as a scavenger hunt of sorts. There is no main index, but you may find you way through the woods by visiting any of these pages:
+
+- [Faith](/faith)
