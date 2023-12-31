@@ -12,17 +12,6 @@
     <main class="my-28 prose dark:prose-invert">
   
       <div class="">
-
-      {% unless page.thing == "index" %}
-        <div class="mt-28">
-          <h2 class="">
-            {% if page.layout == "archive-tag" %}Things about {% endif %}{{page.title}}</h2> 
-          {% if page.path contains "_posts" and page.title != "" %}
-          
-          <time class="dt-published text-sm" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
-          {% endif %}
-        </div>
-      {% endunless %}
         {{content}}
       </div>  
     </main> 

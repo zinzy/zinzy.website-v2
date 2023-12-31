@@ -1,6 +1,6 @@
 ---
 title: "Facts"
-layout: post
+layout: page
 ---
 - I'm a mid-tier millennial
 - I live in Amsterdam with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](https://lemonade.waleson.us/)

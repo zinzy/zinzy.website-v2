@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <section>
   {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  

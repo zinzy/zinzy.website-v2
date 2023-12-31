@@ -1,7 +1,7 @@
 ---
 title: "Then"
 subtitle: " "
-layout: post
+layout: page
 ---
 Inspired by [Matthew Smith](https://matthewsmith.website/portfolio), my initial use of the _Then_ concept was as an archive of my Now page. These days, it functions more as [Piper Haywood's Work page](https://piperhaywood.com/work-background/) does: as a story of how I got to [Now](/now). Together, they make up the about page that I can never seem to finish.
 

@@ -1,6 +1,6 @@
 ---
 title: "Work"
-layout: post
+layout: page
 ---
 I've worked as a researcher, developer, designer, design manager, and product manager in technology companies across a variety of industries. I hold a BA in Linguistics and Literature from Utrecht University, and dropped out of seminary a decade ago. I take a Ted Lasso approach to building products: I care little about my job title, and a lot about whatever activity will help us solve problems more effectively.
 

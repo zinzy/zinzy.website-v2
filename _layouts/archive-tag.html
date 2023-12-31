@@ -2,6 +2,10 @@
 layout: default
 --- 
 <section class="">
+
+<h2>Things about {{page.title}}
+</h2>
+
   <ul class="list-none m-0 p-0">
     {% assign tag_posts = page.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}
     {% for post in tag_posts %} 

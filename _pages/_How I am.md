@@ -1,6 +1,6 @@
 ---
 title: "How I am"
-layout: post
+layout: page
 ---
 This page doesn't detail how I conduct my professional affairs[^1], but rather an overview of some of the things that drive me, and what they mean for the way I relate to the people around me and the environments in which I appear.
 

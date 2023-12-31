@@ -1,6 +1,6 @@
 ---
 title: "Gift guide"
-layout: post
+layout: page
 ---
 If you find yourself tasked with getting me a gift, please check whether Anja is doing anything for [my annual birthday fundraiser](). If there's nothing there, you may find inspiration below.
 

@@ -112,7 +112,7 @@ defaults:
   - scope:
       path: "_faces/**/*.md"
     values:
-      layout: "face" 
+      layout: "page" 
   - scope:
       path: "_notes/**/*.md"
     values:
