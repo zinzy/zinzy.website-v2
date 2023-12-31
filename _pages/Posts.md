@@ -1,5 +1,5 @@
 ---
-title: "Posts archive"
+title: "Posts"
 layout: posts
 ---
 hey

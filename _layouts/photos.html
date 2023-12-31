@@ -9,7 +9,7 @@ layout: default
   </div>
 </section>
    
-{% assign notes = site.notes | where_exp: "item", "item.photo and item.category != 'instant'" | sort: 'date' | reverse %}  
+{% assign notes = site.posts | where_exp: "item", "item.photo and item.category != 'instant'" | sort: 'date' | reverse %}  
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
   {% for post in notes %}
     <a href="{{post.url}}"><img src="{{post.photo}}" alt="" class="object-cover aspect-square" loading="lazy"></a>

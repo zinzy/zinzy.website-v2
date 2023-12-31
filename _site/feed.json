@@ -6,22 +6,23 @@
     "feed_url": "http://localhost:4000/feed.json",
     "items": [
       {
-            "id": "http://localhost:4000/2023/12/31/week-52",
-            "url": "http://localhost:4000/2023/12/31/week-52",
-            "title": "Week 52: Let’s gooooooo",
-            "content_html": "<p>Wouldn’t it be neat if I were more dedicated to writing weeknotes on this website?</p>",
-            "date_published": "2023-12-31T09:16:15+01:00",
-            "date_modified": "2023-12-31T09:32:31+01:00",
+            "id": "http://localhost:4000/2023/12/31/07-53-02",
+            "url": "http://localhost:4000/2023/12/31/07-53-02",
+            "title": "",
+            "content_html": "<ul>\n  <li>Updated the general UI of this website by adding a softer background color</li>\n  <li>Added a <a href=\"https://github.com/zinzy/zinzy.website/blob/6b0d3cf68e30b2c6d38e81dc3b3d7f4517d44913/_layouts/index.html\">splice method I used earlier</a> to <a href=\"https://indieweb.org/photo\">photo posts</a>, which allows me to alter the size of the images served through Cloudinary</li>\n  <li>Merged <code class=\"language-plaintext highlighter-rouge\">_notes</code> contents into my <code class=\"language-plaintext highlighter-rouge\">_posts</code> folder so that my dated content is organized in a single place (this is convenient for pagination purposes)</li>\n  <li>Styled the <a href=\"/tags\">tags page</a></li>\n  <li>Updated layout of an individual tag page so that short notes and posts are grouped accordingly</li>\n</ul>",
+            "summary": "Updated the general UI of this website by adding a softer background color Added a splice method I used earlier to photo posts, which allows me to alter the size of the images served through Cloudinary Merged _notes contents into my _posts folder so that my dated content is organized in a single place (this is convenient for pagination purposes) Styled the tags page Updated layout of an individual tag page so that short notes and posts are grouped accordingly",
+            "date_published": "2023-12-31T10:53:02+01:00",
+            "date_modified": "2023-12-31T13:58:44+01:00",
             "author": {
               "name": ""},
-            "tags": ["weeknotes"]},{
-            "id": "http://localhost:4000/2023/12/31/07-53%20GMT+1",
-            "url": "http://localhost:4000/2023/12/31/07-53-gmt-1",
+            "tags": ["changelog","website"]},{
+            "id": "http://localhost:4000/2023/12/22/08-53%20GMT+1",
+            "url": "http://localhost:4000/2023/12/22/08-53-gmt-1",
             "title": "",
-            "content_html": "<p>I just added a splice method to drastically reduce the size of images served by Cloudinary (which is what I use to populate my notes with photos).</p>",
-            "summary": "I just added a splice method to drastically reduce the size of images served by Cloudinary (which is what I use to populate my notes with photos).",
-            "date_published": "2023-12-31T06:53:02+01:00",
-            "date_modified": "2023-12-31T09:58:23+01:00",
+            "content_html": "<p>Peel off party</p>",
+            "summary": "Peel off party",
+            "date_published": "2023-12-22T07:54:03+01:00",
+            "date_modified": "2023-12-31T10:57:35+01:00",
             "author": {
               "name": ""},
             "tags": []},{
@@ -43,6 +44,26 @@
             "author": {
               "name": ""},
             "tags": ["website","IndieWeb"]},{
+            "id": "http://localhost:4000/2023/12/17/20-23%20GMT+1",
+            "url": "http://localhost:4000/2023/12/17/20-23-gmt-1",
+            "title": "",
+            "content_html": "<p>Knowing I’m at home in Amsterdam is getting on the tram, seeing the same conductor as a few hours ago, spotting various people whose faces I know. A city as a village, but in a non-insular way.</p>",
+            "summary": "Knowing I’m at home in Amsterdam is getting on the tram, seeing the same conductor as a few hours ago, spotting various people whose faces I know. A city as a village, but in a non-insular way.",
+            "date_published": "2023-12-17T21:25:37+01:00",
+            "date_modified": "2023-12-31T10:57:35+01:00",
+            "author": {
+              "name": ""},
+            "tags": []},{
+            "id": "http://localhost:4000/2023/11/30/06-26%20GMT+1",
+            "url": "http://localhost:4000/2023/11/30/06-26-gmt-1",
+            "title": "",
+            "content_html": "<p>The split personality trend was… a moment!</p>",
+            "summary": "The split personality trend was… a moment!",
+            "date_published": "2023-11-30T05:26:42+01:00",
+            "date_modified": "2023-12-31T10:57:35+01:00",
+            "author": {
+              "name": ""},
+            "tags": []},{
             "id": "http://localhost:4000/2023/11/25/week-47",
             "url": "http://localhost:4000/2023/11/25/week-47",
             "title": "Week 47: Geert Milders",
@@ -70,31 +91,14 @@
             "author": {
               "name": ""},
             "tags": ["activism","climate justice","Israel-Hamas War","intersectionality","solidarity"]},{
-            "id": "http://localhost:4000/2023/11/05/sermon",
-            "url": "http://localhost:4000/2023/11/05/sermon",
-            "title": "Sermon",
-            "content_html": "<p><em>I delivered this sermon today at <a href=\"http://allsaintsamsterdam.church/\">All Saints Amsterdam</a>.</em></p>\n\n<p>A few months ago, along with much of humanity, it seemed, I went to see <em>Barbie</em>. Walking out of the theatre and forming an opinion on this intro to feminism, I renamed the film to a title which I will use again today: “Blueprints: a pamphlet against simplicity”.</p>\n\n<p>It’s nice to see all of your faces here today. I’ve met most of you before, but let me make an official introduction. My name is Zinzy, I’m 35 years old, I live in Amsterdam, and I work in the tech industry. I’m an interaction designer at a medical technology company, which is to say that I design the ways in which doctors and nurses interact with my company’s software. My job is to find out how we can improve the lives of essential workers. It involves a lot of research, empathizing, and imagining. The phrase I repeat over and over again is: “How might we…?”</p>\n\n<p>When people ask me how I came to have such a cool job, I always tell them about my degree in Comparative Literature, and the time I spent studying Theology. It never fails to throw them off. After all, what could be further apart than the literary canon and the abracadabra I do at work all day?</p>\n\n<p>When it comes down to it, really, I just love a good story. I love looking at the ways in which we attempt to make sense of the world around us as well as the world within us. I like stories because of what they say about us. I like stories because we use them in our attempts to humanize others. The truest and sweetest opinion I have on humans is that we are storytelling animals.</p>\n\n<p>When we tell a story, we take a reality (fictional or non-fictional), weave together its most important events and actors, and have our audience look at them through the eyes of one or more entities. To tell a story is an act of selection, of extraction from the truth what we deem important. To tell a story is to curate reality. To tell a story is to shape the world. We turn something complex into vehicles for education, entertainment, action. We abstract from <em>what is</em>, so our shared language is easy to comprehend.</p>\n\n<p>Let me give you an example. Here are two stories about Jesus. One. God has a Son who is also God, he is perfect, and we will never be as good as him, but let’s try. Two. There was a baby born in humility, who grew up to be an inspiration to billions. He was murdered because people thought he was evil, but we never forgot his name. Two stories that invoke entirely different responses. Two stories that remind us that the storyteller is the one who holds the power.</p>\n\n<p>Today, the story we’re telling each other is that of Christian saints. When Mpho suggested I preach about this, my thought process brought me from Mother Teresa via “oh-oh, I am certainly going to screw this up” to the most important commandment in the tech industry: ask why before you ask how.</p>\n\n<p>Before we dive in, let me tell you what I <em>can’t</em> do today. I can’t do is tell you how I think reliving the stories of saints will get us into the Kingdom of Heaven. I can’t even tell you about my favorite saint, because I don’t have one. What I <em>can</em> do is share with you what I have: questions. Questions about questions. Questions about stories. Lots and lots of questions. Today, I hold onto what I know, how to build successful technology, to wade into what I don’t.</p>\n\n<p>Saints. “These are the ones coming out of great tribulation” the lessons tell us. Throughout the centuries, first informally and locally, and then because Popes began restricting to themselves the right to canonize, we’ve collected hundreds upon hundreds of saints. Apostles, martyrs, confessors. Human beings who were perceived to have an exceptional degree of holiness, likeness, or closeness to God.</p>\n\n<p>And today, still, many of us find inspiration in the stories about these people. They’re exemplary models, extraordinary teachers, wonder workers. They’re intercessors through whom we pray. Their stories are designed to inspire us into devotion, into serving God day and night in God’s temple, which is the world. When I think of it, saints <em>are</em> stories. After all, we never get the full picture, just what we’ve chosen is relevant enough to repeat.</p>\n\n<p>These stories fall perfectly in step with the rhythm of Christianity, the rhythm of the Western world. The rhythm of looking for what we could have and could be. What we don’t have, and what we are not. Yet. We live in a culture of becoming. A culture, and a religion, of harder, better, faster, stronger. A culture of progression. Saints were designed to propel us towards the next best thing.</p>\n\n<p>I’m no different from the culture in which I grew up: I love progress. I love growth, I love my learner’s mentality. I love that we use the saintly canon, a set of stories we’ve chosen to prioritize, to be better tomorrow than we are today. But there’s a flip side.</p>\n\n<p>I struggle.</p>\n\n<p>I struggle with saints, with how our tradition has curated, abstracted their human realities. I struggle with the fact that this is an effect of storytelling <em>at all</em>. I struggle with what happens when details go missing, when nuance is lost. I struggle with how, without details and nuance, we idealize as quickly as we devalue. The absence of details turn excellent <em>Harry Potter</em> books into pretty ok <em>Harry Potter</em> movies. It turns Mary Teresa, a sweet, charitable nun with questionable opinions on the realities of sexual violence in the Catholic church, into the pinnacle of female selflessness. It turns inhabitants of Gaza into terrorists. It turns Judaism into the root of all evil.</p>\n\n<p>The art of storytelling is a sharp, double-edged sword. And I want to learn how to handle it more carefully, both as a speaker and as a listener.</p>\n\n<p>I struggle with how stories about saints make us compare our insides to other people’s outsides. Even the word “saint” itself doesn’t necessarily invoke an atmosphere of reaching for the attainable. I struggle with this the same way I struggle with Beyoncé, who, at 23, won her first Grammy, an age at which I took five weeks to find the best typeface for my bachelor thesis.</p>\n\n<p>I struggle with how I can’t see myself in the saints. And I need to see myself in someone to learn from them. As a queer person of color, I am intimately familiar with what it means when I can’t see myself in people. It invokes a sense of otherness, not a sense of community and hope. Color me a Christian millennial, but I learn from <em>mistakes</em>, not from other people’s highlight reels.</p>\n\n<p>I know that, when it comes to the differences between veneration, adoration, admiration, idolatry, and worship, the Catechism of the Catholic Church will tell you I’m doing it wrong. I think that’s just her modus operandi. I don’t think I’m doing it wrong. I think there’s a flaw in the interaction design of how we’ve been taught to grow.</p>\n\n<p>The lesson is this: you are not enough, other people are, and you should feel inspired to be more like them. Inspired by Jesus, Mother Teresa, St. Augustine, Beyonce, Stephen Hawking, Barbie, the Barbie, the resistance fighters. I don’t need a superhuman who can show me how to become more like them. I need a lifetime of flaws to remind me how to be a better me because someone else became a better them.</p>\n\n<p>As a designer, I will forever defend the right of a design flaw to exist. In fact, if we ignore the design flaw, we’ll never be able to make things better. We must look at the problem before we come up with a solution. We must ask why before we ask how.</p>\n\n<p>Why <em>might</em> we become better? And then:</p>\n\n<p><em>How</em> might we use stories in a way that retains our individuality, our dignity, and leaves a margin for error, and room for doubt? How might we let the saints, all the names in the Bible, the very humans they were, inspire us to see ourselves in each other without concluding that we fail to imitate the blueprint?</p>\n\n<p>How might we become better co-humans so that the Kingdom of Heaven is what we refer to when we say “wow, that was a really happy moment for me”? How might we do unto others as we would have them do unto us? How might we remember that <em>that</em> is the entire law, and the rest is just commentary?</p>\n\n<p>Amen.</p>",
-            "date_published": "2023-11-05T00:00:00+01:00",
-            "date_modified": "2023-11-25T12:21:28+01:00",
+            "id": "http://localhost:4000/2023/11/12/16-46%20GMT+1",
+            "url": "http://localhost:4000/2023/11/12/16-46-gmt-1",
+            "title": "",
+            "content_html": "<p>Vibing for climate justice with a “Midsommar” umbrella</p>",
+            "summary": "Vibing for climate justice with a “Midsommar” umbrella",
+            "date_published": "2023-11-12T15:46:50+01:00",
+            "date_modified": "2023-12-31T10:57:35+01:00",
             "author": {
               "name": ""},
-            "tags": ["sermon","Scripture reflection","All Saints' Day","All Saints Amsterdam"]},{
-            "id": "http://localhost:4000/2023/10/01/week-39",
-            "url": "http://localhost:4000/2023/10/01/week-39",
-            "title": "Week 39: Small escapes",
-            "content_html": "<ul>\n  <li>First of all: not a great week. I continue to struggle to notice when I feel stresed or overwhelmed, and it never fails to result in my body giving me a clear sign. On Monday evening, in the midst of a busy work month, my body said “SIT. DOWN.” I needed undtil well into the weekend to feel myself again.</li>\n  <li>One of the signs my body knows to give it a very mild version of conversion disorder: I lose the ability to listen to a conversation while I walk without feeling very dizzy. Isn’t the body a beautiful, very annoying, but magnificent thing?</li>\n  <li>I start back up at work on Thursday, working the mornings until the weekend. It’s good to acknowledge things aren’t great., It brings clarity and rest.</li>\n  <li>On Friday evening <a href=\"/2023/09/30/film-club-s01e01\">I attend the first edition</a> of a new local film club I joined. It confirms what I already know: I love the horror genre, and I love discussing cinema with people who didn’t finish film school Anja I’m looking at you.</li>\n  <li>Ever since we <a href=\"/2023/08/17/norway-et-al\">visited Hija de Sanchez in Copenhagen</a> Anja and I have gotten really into Mexican food. By now, I’m so well-versed in the art of a simple-but-sublime taco, that I whip up a delicious meal. Who knew tacos required so little filling?</li>\n  <li>On Saturday, I visit Micropia, a zoo-adjacent museum about microbes. I expect to be queasy throughout the entire visit, terrified by the unfortunate-looking mini animals that live in and on every part of my body. Instead, I’m amazed by the beauty of nature. During the mini class I ask a question about algae: if their bodies move towards light and they’re under a microscope for a while, where light comes from all sides, what happens to their health? The laboratory assistant tells me the museum swaps petri dishes regularly so that the algea don’t die. What happens before death, though, I wonder.</li>\n  <li>On Sunday, Chenelva comes over for afternoon drinks. She’s one of those rare people: an instant connection and plenty of common ground to grow out friendship on. We marvel at how little we know about queer BIPOC Amsterdam.</li>\n  <li>We’ve completed the first season of the Dutch reality show “B&amp;B vol liefde”, in which B&amp;B owners invite four dates into their home. Hate-watching reality television with Anja is one of my favorite pastimes.</li>\n</ul>",
-            "date_published": "2023-10-01T10:16:15+02:00",
-            "date_modified": "2023-10-02T12:28:28+02:00",
-            "author": {
-              "name": ""},
-            "tags": ["weeknotes","health","friendship","food","museum"]},{
-            "id": "http://localhost:4000/2023/09/30/film-club-s01e01",
-            "url": "http://localhost:4000/2023/09/30/film-club-s01e01",
-            "title": "Film club S01E01",
-            "content_html": "<p>Yesterday, I attended the very first gathering of FC de Filmfanaten, a brand-new film club that my friend Jolien started. There were four of us, and we discussed the movie I was proud to have suggested: <em><span title=\"This points to a note, but it is private\" class=\"invalid-link\">  <span class=\"invalid-link-brackets\"></span>  Talk To Me  <span class=\"invalid-link-brackets\"></span></span></em>. I love speaking about films with others, and particularly with this diverse group of people. Everyone brought a completely unique perspective to the film, one brought film industry insights while the other had thoughtful ideas that I hadn’t considered.</p>\n\n<p>Below are the notes I took (in Dutch).</p>\n\n<p><img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058374/FC_de_Filmfanaten_aflevering_1_-_1_eofyos.jpg\" alt=\"A stylistic illustration of the cover of the movie 'Talk To Me', with a banner for the film club\" class=\"border border-gray-200 dark:border-gray-700\" />\n<img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058379/FC_de_Filmfanaten_aflevering_1_-_2_lagm9a.jpg\" alt=\"Impressions and associations we had as a result of watching the movie\" class=\"border border-gray-200 dark:border-gray-700\" />\n<img src=\"https://res.cloudinary.com/dbi2zounq/image/upload/v1696058374/FC_de_Filmfanaten_aflevering_1_-_3_n6yio4.jpg\" alt=\"Our combined rating and feedback\" class=\"border border-gray-200 dark:border-gray-700\" /></p>",
-            "date_published": "2023-09-30T09:16:15+02:00",
-            "date_modified": "2023-09-30T09:28:01+02:00",
-            "author": {
-              "name": ""},
-            "tags": ["cinema","film club","community","gathering","horror"]}]
+            "tags": []}]
 }

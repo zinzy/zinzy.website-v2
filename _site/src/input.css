@@ -9,7 +9,7 @@ html, body {
  
 body {
     max-width: 700px;
-    font-family: "Times New Roman", serif;
+    font-family: "Times", serif;
 }
 
 .send {
@@ -107,12 +107,26 @@ h6,
 .prose h3,
 .prose h4,
 .prose h5,
-.prose h6,
-time {
-  font-size: 100%;
-  font-family: "Helvetica Neue", sans-serif;
+.prose h6 {
   font-weight: normal;
 }
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+time,
+footer {
+  font-size: 100%;
+} */
 
 .footnotes {
   margin-top: 50px;
@@ -124,7 +138,7 @@ time {
   margin-right: 10px;
 }
 
-.prose h3::before,
+/* .prose h3::before,
 .prose h4::before,
 .prose h5::before,
 .prose h6::before {
@@ -137,13 +151,13 @@ time {
   margin-top: 4px;
 }
 
-.prose h3::before { content: "###" }
-.prose h4::before { content: "####" }
-.prose h5::before { content: "#####" }
-.prose h6::before { content: "######" }
+.prose h3::before { content: "h3" }
+.prose h4::before { content: "h4" }
+.prose h5::before { content: "h5" }
+.prose h6::before { content: "h6" } */
 
 
 .prose table th {
   font-weight: normal;
-  font-family: "Helvetica Neue", sans-serif;
+  /* font-family: "Helvetica Neue", sans-serif; */
 }

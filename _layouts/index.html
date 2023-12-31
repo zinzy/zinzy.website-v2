@@ -11,7 +11,8 @@ layout: default
 <div class="mt-10">
     <h2>Latest</h2>
     <ul class="my-5"> 
-      {% for post in site.posts limit:5 %}  
+      {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
+      {% for post in posts limit:6 %}  
       <li class="mb-2 md:mb-0">
         <a href="{{ post.url }}" class="underline">{{ post.title }}</a>
         <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="block md:inline-block text-sm md:ml-3">{{ post.date | date: "%-d %b %Y" }}</time>

@@ -1,5 +1,4 @@
 ---
-title: "Tags archive"
+title: "Tags"
 layout: archive-tags
 ---
-hey

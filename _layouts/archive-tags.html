@@ -1,16 +1,11 @@
 ---
 layout: default
 ---
-Exploring: <a href="/posts" class="underline">posts</a> / tags
 
-<section class="mt-10">
-  <!-- <ul>
-    {% for tag in site.tags | sort: 'title' %}
-      <li><a href="tag/{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a></li>
-    {% endfor %}
-  </ul>
 
- -->
+
+
+<section class="">
 
  {% comment %} Creates an empty array {% endcomment %}
  {% assign tags = "" | split:"" %}
@@ -22,9 +17,12 @@ Exploring: <a href="/posts" class="underline">posts</a> / tags
 
  {% assign sorted_tags = tags | sort_natural %}
 
- <ul>
+ <ul class="list-none m-0 p-0">
   {% for t in sorted_tags %}
-    <li><a href="tag/{{ t | slugify }}" class="post-tag">{{ t }}</a> ({{ site.tags[t].size }})</li>
+    <li class="inline-block bg-amber-300/50 hover:bg-amber-300/40 text-sm rounded-full p-1 pl-2 mr-1 mb-1">
+      <a href="tag/{{ t | slugify }}" class="no-underline">{{ t }}</a>
+      <span class="bg-amber-300 inline-block w-4 h-4 text-xs text-center rounded-full ml-2">{{ site.tags[t].size }}</span>
+    </li>
   {% endfor %}
   </ul>
 </section>

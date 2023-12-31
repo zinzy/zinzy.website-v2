@@ -99,9 +99,6 @@ collections:
   faces:
     output: true
     permalink: /faces/:slug
-  notes:
-    output: true
-    permalink: /:year-:month-:day-:hour-:minute-:second
   working-notes:
     output: true
     permalink: /:slug
@@ -112,10 +109,6 @@ collections:
     output: false
 
 defaults: 
-  - scope:
-      path: "_notes/**/*.md"
-    values:
-      layout: "post" 
   - scope:
       path: "_faces/**/*.md"
     values:
@@ -128,10 +121,10 @@ defaults:
       path: "_pages/**/*.md"
     values:
       layout: "page" 
-  # - scope:
-  #     path: "_posts/**/*.md"
-  #   values:
-  #     layout: "post" 
+  - scope:
+      path: "_posts/**/*.md"
+    values:
+      layout: "post" 
   - scope:
       path: "_status/**/*.md"
     values:

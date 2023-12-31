@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-Exploring: posts / <a href="/tags" class="underline">tags</a>
-
 <section>
-  {% for post in site.posts %}
+  {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
+  {% for post in posts %}
 
     {% unless post.title == "null" %}
 

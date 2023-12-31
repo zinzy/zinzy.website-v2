@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="">
   {% include head.html %}
-  <body class="p-5 md:p-0 md:my-28 mx-auto bg-white text-black dark:bg-black dark:text-white">  
+  <body class="p-5 md:p-0 md:mb-28 md:mt-40 mx-auto bg-amber-100 dark:bg-amber-900 text-black dark:text-white">  
 
 
     <div class="">
@@ -9,9 +9,20 @@
     </div>
     
  
-    <main class="my-28">
-    
+    <main class="my-28 prose">
+  
       <div class="">
+
+      {% unless page.thing == "index" %}
+        <div class="mt-28">
+          <h2 class="">
+            {% if page.layout == "archive-tag" %}Things about {% endif %}{{page.title}}</h2> 
+          {% if page.path contains "_posts" and page.title != "" %}
+          
+          <time class="dt-published text-sm" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
+          {% endif %}
+        </div>
+      {% endunless %}
         {{content}}
       </div>
       

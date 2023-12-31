@@ -9,9 +9,9 @@ layout: default
 </section>
    
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-  {% assign posts = site.notes | where_exp: "item", "item.category == 'instant'" | sort: 'date' | reverse %} 
+  {% assign posts = site.posts | where_exp: "item", "item.category == 'instant'" | sort: 'date' | reverse %} 
   {% for post in posts %}
-    {% if post.redacted == true %}
+    {% if post.photo == "redacted" %}
     <div class="image-wrapper">
       <img class="image" src='{{post.photo}}'/>
     </div>
