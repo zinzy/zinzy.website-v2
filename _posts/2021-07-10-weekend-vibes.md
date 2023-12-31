@@ -8,7 +8,7 @@ faces:
 - Anja
 tags:
 - food
-- amsterdam
+- Amsterdam
 - television
 ---
 Her Summer break started yesterday, and as always it is an event. I am so excited about getting everything right that I mostly present as a frantic killjoy. _Jeopardy_ makes everything better.

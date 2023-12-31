@@ -7,7 +7,7 @@ excerpt: ""
 tags:
 - books
 - diversity and inclusion
-- amsterdam
+- Amsterdam
 ---
 There's a woman who runs a [bookshop in De Bijlmer](https://www.athenaeum.nl/winkels/zuidoost). She has kind eyes that make you want to curl up with a book and a cup of tea. Often when I'm there, she offers just that: tea, and a place to quiet down and dive into an interesting title. She's running a fine business over there, Cole Verhoeven is.
 

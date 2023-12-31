@@ -7,7 +7,7 @@ excerpt: ""
 tags:
 - podcasts
 - language
-- being black
+- being Black
 - being southern
 - diversity and inclusion
 ---

@@ -10,7 +10,7 @@ tags:
 - protest
 - diversity and inclusion
 - politics
-- amsterdam
+- Amsterdam
 ---
 Proudly nasty, I joined Anja, my mother-in-law Sauci, and millions of others around the world last Saturday to attend the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March). Museum Square in Amsterdam was full of pussy hats, face paint, smiling faces, and righteous indignation.
 

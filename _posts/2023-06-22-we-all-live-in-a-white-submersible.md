@@ -7,7 +7,7 @@ excerpt: ""
 tags:
 - news
 - lyric essay
-- being black
+- being Black
 ---
 I love a good media drama. Like a moth to a flame, or perhaps more accurately like a fly to dog poo, I am drawn to it. I check the news multiple times a day. I scoff at outlets that don't deem it worthy of the front page. I also scoff at outlets that do. A media drama can antagonize me the way Adele disappoints me with her popularity.
 

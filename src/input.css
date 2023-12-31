@@ -141,3 +141,9 @@ time {
 .prose h4::before { content: "####" }
 .prose h5::before { content: "#####" }
 .prose h6::before { content: "######" }
+
+
+.prose table th {
+  font-weight: normal;
+  font-family: "Helvetica Neue", sans-serif;
+}

@@ -5,10 +5,10 @@ layout: post
 excerpt: ""
 tags:
 - activism
-- climate march
 - climate justice
-- israel-palestine
+- Israel-Hamas War
 - intersectionality
+- solidarity
 --- 
 
 

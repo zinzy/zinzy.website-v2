@@ -19,16 +19,12 @@ I’ve been yelling at Internet clouds since 1997.
 - This space accepts my vulnerability, lack of awareness, and change of heart
 - It consists mostly of English language text
 
-<!-- ### Ideas that inspire me
-- [_Minimal web_ by Leo Babauta](https://mnmlist.com/w/)
-- []()
-https://blog.darylsun.page/textplaylist
-https://leobabauta.com/pl/
-- []()
-- []()
-- []()
-- []()
-- []() -->
+### Technical details
+- This website runs on static site generator [Jekyll](https://jekyllrb.com/), lives on [Github](https://github.com/zinzy/zinzy.website/), and is deployed via [Netlify](https://www.netlify.com/)
+- It makes use of [Tailwind](https://tailwindcss.com/)
+- [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
+- It's a proud member of the [250kb club](https://250kb.club/zinzy-website/)
+- It has been designed to minimise the energy consumption and CO2 emissions that result from navigating the Internet. Current emissions are available to view on [Website Carbon Calculator](https://www.websitecarbon.com/website/zinzy-website/).
 
 ### Copyleft
 Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1): 
@@ -41,11 +37,10 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 ### Privacy
 [I don't track you, but others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
 
-### Validation
-- [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
-- This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
-
 ### To do
 - [ ] Save highlights on website
-- [ ] Make website [as accessible as possible](https://www.a11yproject.com/)
-- [ ] Add [Tufte-style footnotes](https://edwardtufte.github.io/tufte-css/)
+- [ ] [Acceptable accessibility](https://www.a11yproject.com/)
+- [ ] [Tufte-style footnotes](https://edwardtufte.github.io/tufte-css/)
+- [ ] Collection of working notes
+- [ ] Guestbook
+- [ ] Photo blog

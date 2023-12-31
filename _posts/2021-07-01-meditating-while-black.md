@@ -6,7 +6,7 @@ excerpt: ""
 date: 2021-07-01 
 tags:
 - meditation
-- being black
+- being Black
 - representation
 ---
 The other day, as I was speaking about a group of queer Black designers of which I'm a part, a White lesbian asked me: "when does a group exist just so a bunch of outcasts can commiserate about their shared otherness? I mean, could someone like _me_ join?" 

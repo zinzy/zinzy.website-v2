@@ -6,7 +6,7 @@ title: "Films about White people"
 excerpt: ""
 tags:
 - poem
-- being black
+- being Black
 - racism
 - television
 - cinema

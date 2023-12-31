@@ -9,7 +9,7 @@ tags:
 - restaurants
 - reading
 - judaism
-- documentary
+- documentaries
 - photographers
 - poets
 ---

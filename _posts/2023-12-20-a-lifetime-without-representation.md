@@ -17,7 +17,7 @@ My friend and I reunite after 18 months. I missed him dearly, but once we sit do
 
 At Coffee Company, he shows me his blog, but he holds his hand over the title, of which I manage to catch a glimpse. It's such a weird name I forget it instantly, but the writing is beautiful. I'm saddened by Gen Z's inability to just use their own bleeding name for stuff. I don't think the fragmentation is doing them any good.
 
-I peer pressure him into getting one of those silly hand treatments at Lush, where the people always seem a little too eager to greet you. The person giving the treatment has a pronoun button on their apron, but still I get it wrong. "Zinzy, her pronouns are they/them" my friend says. Minutes later, I joke how I need an applause for managing to use the correct pronoun. The two most oppressed people in Kalverstraat, and we're mere inches away from becoming the boomers we avoid.
+I peer pressure him into getting one of those silly hand treatments at Lush, where the people always seem a little too eager to greet you. The person giving the treatment has a pronoun button on their apron, but still I get it wrong. "Zinzy, her pronouns are they/them" my friend says. Minutes later, I joke how I need an applause for managing to use the correct pronoun. The two most oppressed people on Kalverstraat, and we're mere inches away from becoming the boomers we avoid.
 
 We finally land at Bar Bario, where the Callaloo Hoek staff has come down with covid. What a waste of a good appetite, I think, as I Uber us Ranchi sandwiches. Like two people on a date that can't find its pace, we take turns asking each other questions from the jar on the table. "When was the first time you felt represented by the media?" I ask him. "Never".
 

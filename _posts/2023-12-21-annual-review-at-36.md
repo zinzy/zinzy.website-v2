@@ -5,9 +5,12 @@ layout: post
 excerpt: ""
 tags:
 - annual review
-- 
+- lists
+- questions
+- community
+- birthday
 ---
-In one way or another, the number 36 has felt like a milestone birthday for a long time. As a tween, I imagined the glamourous autonomy that came with being 36 because I was hooked on watching the televised adventures of a foursome of privileged White women in Manhattan. Now, finally at 36, it feels important that I could've had a child as an adult who would now also be an adult. I say "adult" but we all remember the self-important idiots we were at 18. 
+In one way or another, the number 36 has felt like a milestone birthday for a long time. As a tween, I imagined the glamorous autonomy that came with being 36 because I was hooked on watching the televised adventures of a foursome of privileged White women in Manhattan. Now, finally at 36, it feels important that I could've had a child as an adult who would now also be an adult. I say "adult" but we all remember the self-important idiots we were at 18. 
 
 I enjoyed reading [Deschamps-Sonsino](https://www.designswarm.com/blog/2023/12/end-of-year-review-5/)' annual review, so here's mine.
 

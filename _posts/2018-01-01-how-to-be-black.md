@@ -6,7 +6,7 @@ date:   2018-01-01
 excerpt: ""
 tags:
 - poem
-- being black
+- being Black
 - racism
 - discrimination
 ---

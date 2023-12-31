@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0c0468008412eb71",
+        "id": "c4705a3c467b7972",
         "type": "tabs",
         "children": [
           {
-            "id": "e168895b43255613",
+            "id": "098818226e5afa71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-25-2024-how-to-be-black.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "moeder",
+                "query": "seder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2023-12-25-2024-how-to-be-black.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2023-12-25-2024-how-to-be-black.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2023-12-25-2024-how-to-be-black.md"
+              }
             }
           }
         ],
@@ -127,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,35 +147,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f7d92501ad2f0c7",
+  "active": "098818226e5afa71",
   "lastOpenFiles": [
-    "_site/2023/12/20/a-lifetime-without-representation.html",
-    "_site/2023/12/20",
+    "_site/2023/12/25/2024-how-to-be-black.html",
+    "_site/2023/12/25",
+    "_site/tag/annual/index.html",
+    "_site/tag/annual",
+    "_posts/2023-12-21-annual-review-at-36.md",
+    "_posts/2023-12-21-annual-review-at-36 1.md",
+    "_working-notes/How to be Black.md",
+    "_site/how-to-be-black.html",
+    "_working-notes/Faith.md",
+    "_site/work.html",
+    "_site/_pages/Work.html",
+    "_pages/Work.md",
+    "_site/facts.html",
+    "_site/_pages/Facts.html",
+    "_site/colophon-copy.html",
+    "_site/_pages/Colophon copy.html",
+    "_pages/Facts.md",
+    "_pages/Colophon copy.md",
+    "_working-notes/Codex.md",
+    "_posts/2013-12-22-sunday-seeds.md",
+    "_pages/Vibe.md",
+    "_posts/2023-12-25-2024-how-to-be-black.md",
+    "_posts/2023-12-25-daily-dignity-or-2024-is-called-black.md",
+    "_posts/_2023-12-25-daily-dignity-or-2024-is-called-black.md",
+    "_pages/Colophon.md",
+    "How to be Black.md",
+    "_site/How to be Black.md",
     "_working-notes/I take the Bible too seriously to take it literally.md",
     "_pages/Now.md",
     "_working-notes/Jesus is my teacher, not my savior.md",
     "_posts/2023-12-20-a-lifetime-without-representation.md",
-    "_site/2023/12/23/a-lifetime-without-representation.html",
     "_posts/2023-12-23-a-lifetime-without-representation.md",
-    "_site/2023/12/23/why-the-website.html",
-    "_site/2023/12/23",
-    "_site/2023/12/22/why-the-website.html",
-    "_site/2023/12/22",
-    "_site/tag/website/index.html",
-    "_site/tag/website",
     "_posts/2023-12-23-why-the-website.md",
     "_posts/2023-12-22-why-the-website.md",
-    "_working-notes/Codex.md",
     "_posts/_2023-12-22-why-the-website.md",
-    "_site/now.html",
-    "_site/_pages/Now.html",
-    "_pages/_2023-10-15-now.md",
-    "_posts/_2023-10-15-now.md",
-    "_posts/_2023-10-15_now.md",
-    "_pages/_2023-10-15_now.md",
-    "_pages/)2023-10-15_now.md",
-    "_working-notes/What we do trumps what we believe.md",
-    "_site/:slug.md",
-    "_pages/Site.md"
+    "_pages/_2023-10-15-now.md"
   ]
 }

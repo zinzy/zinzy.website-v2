@@ -5,7 +5,7 @@ title: "All Saints Amsterdam"
 date: 2023-02-12
 tags:
 - religion
-- amsterdam
+- Amsterdam
 - queerdom
 ---
 She blesses Anja, me, and a handful of other people who carved out time in their Sunday evenings to come to Church. I have never been inside this particular church building before, and chuckle at how *new* the Old Catholic decor is: in imagery and candle lighting possibilities it's reminiscent of the average Dutch Roman Catholic church. Its white walls and central heating tell me something different.

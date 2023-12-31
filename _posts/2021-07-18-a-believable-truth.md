@@ -7,7 +7,7 @@ excerpt: ""
 faces: 
 - Anja
 tags:
-- amsterdam
+- Amsterdam
 - travel
 - reading
 - birthday
