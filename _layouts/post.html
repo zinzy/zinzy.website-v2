@@ -5,7 +5,9 @@ layout: default
 
   <header>
     <h2 class="p-name">{{page.title}}</h2>
+    {% unless page.title == "" %}
     <time class="dt-published text-sm" datetime="{{ page.date | date: "%-d %b %Y" }}">{{ page.date | date: "%-d %b %Y" }}</time>
+    {% endunless %}
   </header>
   
   <div class="my-20">
