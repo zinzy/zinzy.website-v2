@@ -1,19 +1,20 @@
-title: Zinzy Waleson Geene
+title: Zinzy's Website
 description: This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.
 jekyllversion: 4.3.2
 timezone: Europe/Amsterdam
-me:
-  - name: Zinzy Waleson Geene
-  - honorific-prefix: Mx.
-  - given-name: Zinzy
-  - family-name: Waleson Geene
-  - gender-identity: Non-binary
-  - photo: /assets/img/android-chrome-192x192.png
-  - url: https://www.zinzy.website
-  - locality: Amsterdam
-  - email: zinzy@pm.me
-  - country: The Netherlands
-  - job-title: Senior UX researcher and designer
+author:
+  name: Zinzy Waleson Geene
+  honorific-prefix: Mx.
+  given-name: Zinzy
+  family-name: Waleson Geene
+  gender-identity: queer
+  photo: /assets/img/android-chrome-192x192.png
+  url: https://www.zinzy.website
+  locality: Amsterdam
+  email: zinzy@pm.me
+  country: The Netherlands
+  job-title: Senior UX practitioner
+  org: Gerimedica
 include:
   - _pages
   - _content
@@ -27,6 +28,7 @@ exclude:
 #   - _work 
  # - assets/js/webmention.js
 url: https://www.zinzy.website
+
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
 # Pages deploys your repository (which is usually the repository name).
@@ -50,6 +52,7 @@ relative_permalinks: false
 
 external_links:
   selector: 'main a'
+ 
 
 plugins:
   - jekyll-paginate 

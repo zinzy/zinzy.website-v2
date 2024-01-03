@@ -38,7 +38,7 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 - Any adaptations you make, should use the same license
 
 ### Privacy
-[I don't track you, but others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
+I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
 
 ### To do
 - [ ] Save highlights on website
@@ -50,3 +50,4 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 - [ ] Get added to the [xxiivv webring](https://github.com/XXIIVV/webring/pull/858)
 - [ ] Restructure HTML so that page title is part of the entry
 - [ ] Restructure [blogroll](/blogroll) so that it's one list with attributes
+- [ ] Add pagination to updates

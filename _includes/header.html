@@ -2,13 +2,6 @@
 
 <h1 class=""><a href="/" class="underline">Zinzy's website</a></h1> 
 <p class="">Updated {{ site.time | date: "%B %-d, %Y" }}</p>
-<p class="">
-  {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
-  {% assign updates = site.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}  
-  <a href="/colophon" class="dark:text-white underline">Colophon</a> • <a href="/codex" class="dark:text-white underline">Codex</a> • <a href="/posts" class="dark:text-white underline">{{ posts | size }} Posts</a> • <a href="/updates" class="dark:text-white underline">{{ updates | size }} Updates</a>
-   • 
-   <!-- <a href="/notes" class="dark:text-white underline">{{ site.notes | size }} Notes</a> •  -->
-   <a href="/tags" class="dark:text-white underline">{{ site.tags | size }} Tags</a>
-</p>
+
 
 </header>

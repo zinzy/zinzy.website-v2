@@ -1212,9 +1212,9 @@ select {
   margin-right: 0.25rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-auto {
@@ -1275,11 +1275,6 @@ select {
   margin-bottom: 1.25rem;
 }
 
-.me-3 {
-  -webkit-margin-end: 0.75rem;
-          margin-inline-end: 0.75rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1300,12 +1295,12 @@ select {
   margin-right: 0.75rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mt-0 {
   margin-top: 0px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mt-10 {
@@ -1318,10 +1313,6 @@ select {
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .mt-3 {
@@ -1360,10 +1351,6 @@ select {
   aspect-ratio: 1 / 1;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-3 {
   height: 0.75rem;
 }
@@ -1374,10 +1361,6 @@ select {
 
 .h-9 {
   height: 2.25rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-3 {
@@ -1400,6 +1383,10 @@ select {
   flex: none;
 }
 
+.shrink {
+  flex-shrink: 1;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1416,12 +1403,16 @@ select {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.place-content-between {
+  place-content: space-between;
 }
 
 .content-center {
   align-content: center;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .gap-4 {
@@ -1456,16 +1447,17 @@ select {
   border-width: 1px;
 }
 
-.border-r {
-  border-right-width: 1px;
-}
-
 .border-t {
   border-top-width: 1px;
 }
 
 .border-solid {
   border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-slate-200 {
@@ -1516,16 +1508,6 @@ select {
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-amber-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1539,21 +1521,8 @@ select {
   padding: 0.25rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-2 {
@@ -1596,26 +1565,12 @@ select {
   font-style: italic;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
 
 .no-underline {
   text-decoration-line: none;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.grayscale {
-  --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -1627,12 +1582,13 @@ select {
 }
 
 html, body {
-  font-size: 20px;
+  font-size: 18px !important;
 }
 
 body {
   max-width: 700px;
   font-family: "Times", serif;
+  font-size: 1rem;
 }
 
 .send {
@@ -1709,6 +1665,7 @@ body {
 }
 
 .prose {
+  max-width: 100% !important;
   p {
     margin-bottom: 1rem;
   }
@@ -1803,6 +1760,11 @@ footer {
   background-color: rgb(252 211 77 / 0.1);
 }
 
+.group:hover .group-hover\:text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:divide-zinc-600 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
@@ -1814,14 +1776,9 @@ footer {
     border-color: rgb(82 82 91 / var(--tw-border-opacity));
   }
 
-  .dark\:border-r-zinc-600 {
+  .dark\:border-white {
     --tw-border-opacity: 1;
-    border-right-color: rgb(82 82 91 / var(--tw-border-opacity));
-  }
-
-  .dark\:border-t-zinc-600 {
-    --tw-border-opacity: 1;
-    border-top-color: rgb(82 82 91 / var(--tw-border-opacity));
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
   .dark\:bg-black {
@@ -1834,9 +1791,14 @@ footer {
     background-color: rgb(39 39 42 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-stone-900 {
+  .dark\:bg-amber-700 {
     --tw-bg-opacity: 1;
-    background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+    background-color: rgb(180 83 9 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-stone-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(68 64 60 / var(--tw-bg-opacity));
   }
 
   .dark\:text-black {
@@ -1883,10 +1845,6 @@ footer {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:p-0 {

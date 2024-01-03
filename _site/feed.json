@@ -1,11 +1,43 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Zinzy Waleson Geene",
+    "title": "Zinzy’s Website",
     "description": "This is a quiet street on the Internet, a place for soft stances, lived experiences, and critical notes on the things I hold dear.",
     "home_page_url": "http://localhost:4000/",
     "feed_url": "http://localhost:4000/feed.json",
+    "author": {
+        "name": "Zinzy Waleson Geene"},
     "items": [
       {
+            "id": "http://localhost:4000/2024/01/02/23-06-15",
+            "url": "http://localhost:4000/2024/01/02/23-06-15",
+            "title": "",
+            "content_html": "<p>I edit my biography in a community app for Black professionals. Other people use the flags of their heritage, and I decide to do the same. Which one goes first, 🇳🇱 or 🇸🇹? I was born in the Netherlands, and consider myself not Dutch per se but definitely an Amsterdammer. Truth be told, I’ve never been to São Tomé and Principe, and the parent who hails from there left when he was ten. I wonder, brushing my teeth before bedtime, whether it’s appropriation for me to use the flag. And then I think of all the brown and Black faces I know, doing just the same, and entirely dignified and correct in doing what they do. It’s one of the prices of growing up Black in a white environment: I wonder when I’ll stop feeling like <em>I’m</em> the racist.</p>",
+            "summary": "I edit my biography in a community app for Black professionals. Other people use the flags of their heritage, and I decide to do the same. Which one goes first, 🇳🇱 or 🇸🇹? I was born in the Netherlands, and consider myself not Dutch per se but definitely an Amsterdammer. Truth be told, I’ve never been to São Tomé and Principe, and the parent who hails from there left when he was ten. I wonder, brushing my teeth before bedtime, whether it’s appropriation for me to use the flag. And then I think of all the brown and Black faces I know, doing just the same, and entirely dignified and correct in doing what they do. It’s one of the prices of growing up Black in a white environment: I wonder when I’ll stop feeling like I’m the racist.",
+            "date_published": "2024-01-02T23:02:00+01:00",
+            "date_modified": "2024-01-02T23:06:35+01:00",
+            "author": {
+              "name": "Zinzy Waleson Geene"},
+            "tags": ["100DaysToOffload"]},{
+            "id": "http://localhost:4000/2024/01/02/10-04-19",
+            "url": "http://localhost:4000/2024/01/02/10-04-19",
+            "title": "",
+            "content_html": "<p>Hey dear Desi, a bit late, but as promised, here are some resources that may be helpful when diving deeper into UX:</p>\n\n<ul>\n  <li><em>Don’t Make Me Think</em>, <em>The Design of Everyday Things</em>, and <em>100 Things Every Designer Needs to Know About People</em> are books most UXers would recommend. In addition, <a href=\"https://www.interaction-design.org/literature/article/ux-design-books-guide\">Interaction Design Foundation has a great overview of books</a>.</li>\n  <li><a href=\"https://start.uxdesign.cc/\">The Guide to Design</a> by uxdesign.cc is a great starting point</li>\n  <li>Career Foundry has a nice overview of <a href=\"https://careerfoundry.com/en/blog/ux-design/how-to-become-a-ux-designer/\">How to become a UX designer</a></li>\n  <li><a href=\"https://www.uxmatters.com/\">UX Matters</a> is perhaps my favorite resource on UX topics</li>\n  <li><a href=\"https://www.userinterviews.com/ux-research-field-guide\">UX Research Field Guide</a> by UserInterviews.com. It focuses purely on research practice, but it’s a comprehensive overview of all things involved in focusing on the U in UX.</li>\n</ul>",
+            "summary": "Hey dear Desi, a bit late, but as promised, here are some resources that may be helpful when diving deeper into UX:",
+            "date_published": "2024-01-02T09:04:19+01:00",
+            "date_modified": "2024-01-02T10:19:54+01:00",
+            "author": {
+              "name": "Zinzy Waleson Geene"},
+            "tags": []},{
+            "id": "http://localhost:4000/2024/01/01/13-44-17",
+            "url": "http://localhost:4000/2024/01/01/13-44-17",
+            "title": "",
+            "content_html": "<p>I’m surprised by the amount of tourists who came to celebrate New Year’s in Amsterdam, as well as by their shared urge to leave the country on January 1.</p>",
+            "summary": "I’m surprised by the amount of tourists who came to celebrate New Year’s in Amsterdam, as well as by their shared urge to leave the country on January 1.",
+            "date_published": "2024-01-01T13:43:00+01:00",
+            "date_modified": "2024-01-01T13:44:41+01:00",
+            "author": {
+              "name": "Zinzy Waleson Geene"},
+            "tags": []},{
             "id": "http://localhost:4000/2023/12/31/18-51-59",
             "url": "http://localhost:4000/2023/12/31/18-51-59",
             "title": "",
@@ -14,7 +46,7 @@
             "date_published": "2023-12-31T18:50:00+01:00",
             "date_modified": "2023-12-31T18:53:43+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": []},{
             "id": "http://localhost:4000/2023/12/31/17-51-08",
             "url": "http://localhost:4000/2023/12/31/17-51-08",
@@ -24,7 +56,7 @@
             "date_published": "2023-12-31T17:46:00+01:00",
             "date_modified": "2023-12-31T18:26:39+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": []},{
             "id": "http://localhost:4000/2023/12/31/07-53-02",
             "url": "http://localhost:4000/2023/12/31/07-53-02",
@@ -34,7 +66,7 @@
             "date_published": "2023-12-31T10:53:02+01:00",
             "date_modified": "2023-12-31T13:59:24+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": ["changelog","website"]},{
             "id": "http://localhost:4000/2023/12/22/08-53%20GMT+1",
             "url": "http://localhost:4000/2023/12/22/08-53-gmt-1",
@@ -44,7 +76,7 @@
             "date_published": "2023-12-22T07:54:03+01:00",
             "date_modified": "2023-12-31T10:57:35+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": []},{
             "id": "http://localhost:4000/2023/12/21/annual-review-at-36",
             "url": "http://localhost:4000/2023/12/21/annual-review-at-36",
@@ -53,7 +85,7 @@
             "date_published": "2023-12-21T06:00:00+01:00",
             "date_modified": "2023-12-31T08:57:24+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": ["annual review","lists","questions","community","birthday"]},{
             "id": "http://localhost:4000/2023/12/20/a-lifetime-without-representation",
             "url": "http://localhost:4000/2023/12/20/a-lifetime-without-representation",
@@ -62,7 +94,7 @@
             "date_published": "2023-12-20T06:00:00+01:00",
             "date_modified": "2023-12-31T08:57:24+01:00",
             "author": {
-              "name": ""},
+              "name": "Zinzy Waleson Geene"},
             "tags": ["website","IndieWeb"]},{
             "id": "http://localhost:4000/2023/12/17/20-23%20GMT+1",
             "url": "http://localhost:4000/2023/12/17/20-23-gmt-1",
@@ -72,34 +104,6 @@
             "date_published": "2023-12-17T21:25:37+01:00",
             "date_modified": "2023-12-31T10:57:35+01:00",
             "author": {
-              "name": ""},
-            "tags": []},{
-            "id": "http://localhost:4000/2023/11/30/06-26%20GMT+1",
-            "url": "http://localhost:4000/2023/11/30/06-26-gmt-1",
-            "title": "",
-            "content_html": "<p>The split personality trend was… a moment!</p>",
-            "summary": "The split personality trend was… a moment!",
-            "date_published": "2023-11-30T05:26:42+01:00",
-            "date_modified": "2023-12-31T10:57:35+01:00",
-            "author": {
-              "name": ""},
-            "tags": []},{
-            "id": "http://localhost:4000/2023/11/25/week-47",
-            "url": "http://localhost:4000/2023/11/25/week-47",
-            "title": "Week 47: Geert Milders",
-            "content_html": "<h3 id=\"covid\">Covid</h3>\n<p>It’s curious to see my response to a bout of Covid is not much different from what it was in early 2020. Despite a <a href=\"/2023/11/19/week-46\">negative test</a>, symptoms tell me everything I need to know. I have to remind myself every day this week that, given the regulations, I’m not obliged to quarantine. Nevertheless, Anja and I are both barely able to walk the dog. I work half days, and spend my afternoons in bed with hot water bottles.</p>\n\n<p>Later in the week, I have cabin fever that is so intense it makes me cry in the park a little bit. On Sunday, the only thing I’m left with is a stuffy nose as well as some fatigue. God, I hope I don’t develop long Covid.</p>\n\n<h3 id=\"consuming\">Consuming</h3>\n<p>Anja and I watch season two of <em>Somebody Somewhere</em>. It makes me regain a new appreciation for Bridget Everett’s physical comedy, new sincerity, and sass. I wish she and I were friends.</p>\n\n<h3 id=\"tinkering\">Tinkering</h3>\n<p>I make some changes to my website this week, centering a page of text with links on the homepage. Sometimes, I feel bad that I don’t take screenshots every time I change it. But I suppose my continuous redesign strategy prevents that from being realistic.</p>\n\n<h3 id=\"politics\">Politics</h3>\n<p>On Wednesday, the country has her very own 2016 American election result: after 20 years of being (rightfully) ridiculed as a far right party, PVV is finally the biggest, taking 37 of 150 seats in the House. Most people in my safe, progressive, friendly Amsterdam that I’ve spoken with are gobsmacked. Party leader Geert Wilders has become Geert Milders. A part of me is angry and sad, but a much larger part says: welcome to my world.</p>",
-            "date_published": "2023-11-25T09:16:15+01:00",
-            "date_modified": "2023-11-27T17:49:14+01:00",
-            "author": {
-              "name": ""},
-            "tags": ["weeknotes"]},{
-            "id": "http://localhost:4000/2023/11/19/week-46",
-            "url": "http://localhost:4000/2023/11/19/week-46",
-            "title": "Week 46: Osama",
-            "content_html": "<ul>\n  <li>I’m making an attempt this week to make my weeknotes more of a personal record rather than a performance of how exciting my week is. What I’ve written answers the question I might ask myself seven years from now: what was life like this week?</li>\n  <li>I went on the road for on-site research on Tuesday, and was delighted by the particular nursing home that we visited. It seems many Dutch healthcare organizations have understood that environments that resemble the real-life environments of patients contribute to their overall wellbeing. The various spaces we saw were tailored to what life must have been like when the elderly clients were younger: a fifties barber shop, a diner-like restaurant. It was endearing. More professionally, I continue to be stunned by the working lives of people in healthcare. Having to balance tight budgets and strict schedules on the one hand and genuinely wanting the best for clients on the other is not an easy feat.</li>\n  <li>It seems like I did pick up Covid while there.</li>\n  <li>I’ve begun watching <em>Monarch: Legacy of Monsters</em> and I love my life. The farther I become removed from the humanities major version of myself, the easier it becomes to admit I love monster disaster stories.</li>\n  <li>I’ve also begun watching the second season of <em>The Morning Show</em>, and two episodes in I understand why Anja urged me to really, <em>really</em> give it a try. Reese Witherspoon making out with Julianna Margulies is not the stuff of dreams I thought I needed, but here we are. Acting, storyline etc. also good.</li>\n  <li>The Israel-Hamas War continues to rage, which has begun to feel like a weird name for the conflict. I wonder what it means that, when I Google those words, the Wikipedia entry to which I’m directed is <a href=\"https://en.wikipedia.org/wiki/2023_Hamas_attack_on_Israel\">\n2023 Hamas attack on Israel</a>.</li>\n  <li>I will never have first-hand experience of what it means to be a Jewish person in the world today, although I’ve been having a second-hand experience that has been leaving me… perturbed. When people discover my partner is Jewish, the tone of the conversation shifts. Not in a pro-Palestinian way, but in the way Jenna Maroney felt the urge to touch Liz Lemon’s hand after learning that Liz had met Oprah on a flight (which, of course, turned out to be a random Black woman).</li>\n  <li>While I tested negative, I did spend Friday evening and night in bed with a fever and a body that felt as though it had been hit by a truck. Anja did test positive on Sunday, and so now we’re quarantining. March 2020 all over again.</li>\n  <li>I keep thinking a lot about Osama Bin Laden. About the lack of context given by the journalist who shared parts of his <em>Letter to the American people</em> on social media. How TikTok and X, at least for a moment, were rife with people who were barely born when 9/11 happened, proclaiming support for Bin Laden because he had pro-Palestinian things to say. About the importance of digital literacy in the classroom.</li>\n  <li>Whenever I’m ill, I bake or cook. I feel bad not doing anything and lying in bed all day, and following a recipe always seems like a good way to pass the time. This week, I made apple crumble custard <em>vlaai</em>. You can take the girl out of Limburg (and thank God for that), but…</li>\n</ul>",
-            "date_published": "2023-11-19T09:16:15+01:00",
-            "date_modified": "2023-11-25T12:21:28+01:00",
-            "author": {
-              "name": ""},
-            "tags": ["weeknotes","Israel-Hamas War","Osama Bin Laden"]}]
+              "name": "Zinzy Waleson Geene"},
+            "tags": []}]
 }

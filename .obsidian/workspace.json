@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bddedb0aeb4be976",
+        "id": "ac4ded436111e479",
         "type": "tabs",
         "children": [
           {
-            "id": "f9f211ec051f8128",
+            "id": "d17f1911b9417bba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Faith.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17488a1a92e3a9dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Piano practice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "addffc591f5698dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/Interests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce8fbe2b90a54a4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_notes/What we do trumps what we believe.md",
+                "file": "_pages/Site.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Faith.md",
+                "file": "_pages/Site.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Faith.md",
+                "file": "_pages/Site.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Faith.md"
+                "file": "_pages/Site.md"
               }
             }
           }
@@ -183,19 +147,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9f211ec051f8128",
+  "active": "d17f1911b9417bba",
   "lastOpenFiles": [
-    "_site/2023/12/31/18-51-59.html",
-    "_site/year/2023/index.html",
-    "_site/year/2022/index.html",
-    "_site/year/2021/index.html",
-    "_site/year/2020/index.html",
-    "_site/year/2019/index.html",
-    "_site/year/2018/index.html",
-    "_site/year/2017/index.html",
-    "_site/year/2016/index.html",
-    "_site/year/2015/index.html",
-    "_site/year/2014/index.html",
+    "_site/tag/100daystooffload/index.html",
+    "_site/tag/100daystooffload",
+    "_site/2024/01/02/23-06-15.html",
+    "_posts/2024-01-02-23-06-15.md",
+    "_site/about.html",
+    "_site/_pages/About.html",
+    "_pages/About.md",
+    "_site/dist/css/output.css",
+    "_site/dist/css",
+    "_site/dist",
+    "dist/css/output.css",
+    "dist/css",
+    "dist",
+    "_posts/2024-01-02-10-04-19.md",
+    "_posts/2024-01-01-13-44-17.md",
+    "_pages/index.md",
+    "_notes/What we do trumps what we believe.md",
+    "_notes/Interests.md",
+    "_notes/Piano practice.md",
+    "_notes/Faith.md",
     "_posts/2023-12-31-18-51-59.md",
     "_pages/_How I am.md",
     "_pages/_.md",
@@ -203,23 +176,14 @@
     "_pages/_2023-12-01-now.md",
     "_pages/Now copy.md",
     "_posts/2023-12-31-17-51-08.md",
-    "_notes/Interests.md",
     "_pages/Interests.md",
-    "_notes/Piano practice.md",
-    "_notes/Faith.md",
     "_notes/Codex.md",
-    "_notes/What we do trumps what we believe.md",
     "_notes/How to be Black.md",
     "Web philosophy.md",
     "_pages/Notes.md",
     "_pages/Colophon copy.md",
     "_pages/Updates.md",
     "_notes/Jesus is my teacher, not my savior.md",
-    "_notes/I take the Bible too seriously to take it literally.md",
-    "_notes/Facilitation.md",
-    "_posts/2023-12-25-2024-how-to-be-black.md",
-    "_site/Here's looking at you, 2024.md",
-    "Here's looking at you, 2024.md",
-    "_posts/2023-12-21-annual-review-at-36.md"
+    "_notes/I take the Bible too seriously to take it literally.md"
   ]
 }

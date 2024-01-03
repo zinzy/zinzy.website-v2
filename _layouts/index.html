@@ -1,25 +1,52 @@
 ---
 layout: default
 ---
-<article class="h-entry"> 
-  <div id="notes-entry-container" class="prose dark:prose-invert">
-    <content class="e-content"> 
-      {{ content }}
-    </content> 
-  </div> 
+<h3>Recent posts</h3>
+{% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
+<ul class="list-none m-0 p-0">
+  {% for post in posts limit:6 %}  
+<li class="m-0 p-0 flex items-center">
+  <a href="{{post.url}}"  class="flex-none group-hover:text-blue-600">
+    {{ post.title }}
+  </a>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink">
+  </span>
+  <time datetime="{{ post.date | date: "%-d %b" }}" class="flex-none">{{ post.date | date: "%-d %b" }}</time>
+</li>
+{% endfor %}
+</ul>
 
-<div class="mt-10">
-    <h2>Latest</h2>
-    <ul class="my-5 list-none m-0 p-0"> 
-      {% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
-      {% for post in posts limit:6 %}  
-      <li class="mb-2 md:mb-0 p-0">
-        <a href="{{ post.url }}" class="underline">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="block md:inline-block text-sm md:ml-3">{{ post.date | date: "%-d %b %Y" }}</time>
-        </li>
-      {% endfor %} 
-    </ul>
-    <!-- <a href="/posts"  class="underline">Browse posts</a> -->
-</div>
- 
-</article>
+<h3>On this website</h3>
+{% assign posts = site.posts | where_exp:"item","item.title != ''" | sort: 'date' | reverse %}  
+{% assign updates = site.posts | where_exp:"item","item.title == ''" | sort: 'date' | reverse %}  
+<ul class="list-none m-0 p-0">
+<li class="m-0 p-0 flex items-center">
+  <a href="/posts"  class="flex-none group-hover:text-blue-600">{{ posts | size }} Posts</a>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+</li>
+<li class="m-0 p-0 flex items-center">
+  <a href="/updates"  class="flex-none group-hover:text-blue-600">{{ updates | size }} Updates</a>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+</li>
+<li class="m-0 p-0 flex items-center">
+  <a href="/tags"  class="flex-none group-hover:text-blue-600">{{ site.tags | size }} Tags</a>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+</li>
+</ul>
+
+<h3>Miscellaneous</h3>
+{% assign misc = site.data.menu.misc | sort: 'page' %}
+<ul class="list-none m-0 p-0">
+{% for item in misc %}
+<li class="m-0 p-0 flex items-center">
+  <a href="{{item.url}}"  class="flex-none group-hover:text-blue-600">
+    {{item.page}}
+  </a>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink">
+  </span>
+  <span class="flex-none">
+    {{item.description}}
+  </span>
+</li>
+{% endfor %}
+</ul>

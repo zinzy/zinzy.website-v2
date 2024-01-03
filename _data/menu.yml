@@ -1,24 +1,28 @@
-- title: Hello
-  url: /hello
-  icon: 👋🏽
-- title: Now
-  url: /now
-  icon: ☕
-- title: Then
-  url: /then
-  icon: 📜
-- title: Photos
-  url: /photos
-  icon: 🤳🏽
-- title: Instant
-  url: /instant
-  icon: 📷
-- title: Blogroll
-  url: /blogroll
-  icon: 🔗
-- title: Uses
-  url: /uses
-  icon: 🛠️
-- title: Site
-  url: /site
-  icon: 🌐 
+misc:
+  - page: About
+    url: /about
+    description: More information
+  - page: Codex
+    url: /codex
+    description: What I believe
+  - page: Blogroll
+    url: /blogroll
+    description: Sites I like
+  - page: Site
+    url: /site
+    description: About this website
+  - page: Facts
+    url: /facts
+    description: Things about me
+  - page: Work
+    url: /work
+    description: What I do for money
+  - page: Now
+    url: /now
+    description: What I'm up to
+  - page: Hello
+    url: /hello
+    description: How to reach me
+  - page: Interests
+    url: /interests
+    description: Long-term topics
