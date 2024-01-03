@@ -9,7 +9,7 @@ layout: default
   <a href="{{post.url}}"  class="flex-none group-hover:text-blue-600">
     {{ post.title }}
   </a>
-  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink">
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-stone-500 shrink">
   </span>
   <time datetime="{{ post.date | date: "%-d %b" }}" class="flex-none">{{ post.date | date: "%-d %b" }}</time>
 </li>
@@ -22,15 +22,15 @@ layout: default
 <ul class="list-none m-0 p-0">
 <li class="m-0 p-0 flex items-center">
   <a href="/posts"  class="flex-none group-hover:text-blue-600">{{ posts | size }} Posts</a>
-  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-stone-500 shrink"></span>
 </li>
 <li class="m-0 p-0 flex items-center">
   <a href="/updates"  class="flex-none group-hover:text-blue-600">{{ updates | size }} Updates</a>
-  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-stone-500 shrink"></span>
 </li>
 <li class="m-0 p-0 flex items-center">
   <a href="/tags"  class="flex-none group-hover:text-blue-600">{{ site.tags | size }} Tags</a>
-  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink"></span>
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-stone-500 shrink"></span>
 </li>
 </ul>
 
@@ -42,7 +42,7 @@ layout: default
   <a href="{{item.url}}"  class="flex-none group-hover:text-blue-600">
     {{item.page}}
   </a>
-  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-white shrink">
+  <span class="mx-3 mt-1 grow w-full border-t border-black dark:border-stone-500 shrink">
   </span>
   <span class="flex-none">
     {{item.description}}

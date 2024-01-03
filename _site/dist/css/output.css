@@ -1781,6 +1781,16 @@ footer {
     border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
+  .dark\:border-stone-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(168 162 158 / var(--tw-border-opacity));
+  }
+
+  .dark\:border-stone-500 {
+    --tw-border-opacity: 1;
+    border-color: rgb(120 113 108 / var(--tw-border-opacity));
+  }
+
   .dark\:bg-black {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
